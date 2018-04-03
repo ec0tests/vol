@@ -1,3 +1,21 @@
+header{
+  background-size: cover;
+  background:linear-gradient(
+          #275faa,
+          #275faa
+  ), url('https://via.placeholder.com/1920x960') no-repeat;
+  height: 960px;
+
+}
+
+header>.container{
+  margin: 10% auto;
+}
+
+.Iconos-header{
+  border-left: 1px solid white;
+}
+
 .App {
   text-align: center;
 }
@@ -20,6 +38,16 @@
 
 .App-intro {
   font-size: large;
+}
+
+/*-------------------*/
+/*  MEGAMENU */
+/*-------------------*/
+.Megamenu{
+  background-color: transparent;
+  color: #ffffff;
+  border: 2px solid white;
+  font-size: 18px;
 }
 
 @keyframes App-logo-spin {
