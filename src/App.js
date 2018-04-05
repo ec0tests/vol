@@ -84,14 +84,30 @@ class App extends Component {
                     <div className="container">
                         <div className="row justify-content-center py-5 mb-5 Card-row">
                             <div className="col-md-7">
-                                <div className="card w-100 h-100">
+                                <div className="card w-100 h-100 p-4">
                                     <div className="card-body text-left">
-                                        <h5 className="card-title w-100">Card title</h5>
-                                        <h6 className="card-subtitle mb-2 text-muted w-100">Card subtitle</h6>
-                                        <p className="card-text w-100">Some quick example text to build on the card title and
-                                            make up the bulk of the card's content.</p>
-                                        <div>
-                                            
+                                        <div className="row w-100">
+                                            <div className="col-md-12">
+
+                                                <h5 className="display-3 card-title w-100 text-left text-uppercase ">14/febrero san valentin</h5>
+                                                <p className="card-text w-75 text-left">Some quick example text to build on the
+                                                    card
+                                                    title and
+                                                    make up the bulk of the card's content.</p>
+                                            </div>
+
+                                        </div>
+
+                                        <div className="row w-100 pt-5">
+                                            <div className="col-md-4 text-left d-flex align-items-center">
+                                                <button className="Btn-blue">VER OFERTA</button>
+                                            </div>
+                                            <div className="col-md-7 text-left d-flex justify-content-end">
+                                                <img src="https://via.placeholder.com/55x55" className="img-fluid"
+                                                     alt=""/>
+                                                <span className=" d-flex align-items-center p-2 Info-card">Vuela en globo <br/> Globo no compartido</span>
+                                                <span className="d-flex align-items-center Price-card">250€</span>
+                                            </div>
                                         </div>
                                         <div>
 
@@ -111,10 +127,10 @@ class App extends Component {
                             <div className="col-1">
                                 <img src="https://via.placeholder.com/80x80" alt=""/>
                             </div>
-                            <div className="col-12">
-                                <h2>Personaliza tu experiencia</h2>
+                            <div className="col-12 pt-3">
+                                <h2 className="display-4 text-uppercase">Personaliza tu experiencia</h2>
                                 <h3>Combina tu vuelo con alojamiento, comida o actividades turísticas.</h3>
-                                <button className="Btn-blue">Vuela en globo</button>
+                                <button className="Btn-blue mt-4">Vuela en globo</button>
                             </div>
                         </div>
                     </div>
@@ -158,9 +174,9 @@ class App extends Component {
 
                 <section id="Section4" className="Section4">
                     <div className="container">
-                        <h2 className="text-uppercase">La experiencia completa </h2>
+                        <h2 className="text-uppercase display-4">La experiencia completa </h2>
                         <h3>Una oferta para cada gusto</h3>
-                        <div className="row justify-content-center">
+                        <div className="row justify-content-center pt-4">
 
                             <div className="col-md-3 ">
                                 <h5>Aventura</h5>
@@ -173,7 +189,6 @@ class App extends Component {
                                 <h5>Aventura</h5>
 
                                 <img src="https://via.placeholder.com/320x250" className="img-fluid" alt=""/>
-
 
 
                             </div>
@@ -195,7 +210,6 @@ class App extends Component {
 
                     </div>
                 </section>
-
 
 
                 <section id="Section5" className="Section5">
@@ -234,7 +248,7 @@ class App extends Component {
                                     <img className="img-fluid" src="https://via.placeholder.com/200x80" alt=""/>
                                 </div>
                                 <div className="col-lg-6 text-left d-flex align-items-center">
-                                   <span>VOL DE COLOMS</span>
+                                    <span>VOL DE COLOMS</span>
                                 </div>
 
                             </div>
@@ -261,16 +275,16 @@ class App extends Component {
 
                                 </div>
                                 <div className="col-lg-12 text-left mt-4 ">
-                                   <span className="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+                                    <span className="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
                                 </div>
 
                             </div>
 
                         </div>
                         <div className="row Row2 p-3">
-                           <div className="Logos-patrocinadores">
-                               <img src="https://via.placeholder.com/320x80" className="img-fluid" alt=""/>
-                           </div>
+                            <div className="Logos-patrocinadores">
+                                <img src="https://via.placeholder.com/320x80" className="img-fluid" alt=""/>
+                            </div>
                             <div className="Logos-patrocinadores">
                                 <img src="https://via.placeholder.com/320x80" className="img-fluid" alt=""/>
                             </div>
