@@ -82,22 +82,26 @@ class App extends Component {
                 </section>
                 <section id="Section2" className="Section2">
                     <div className="container">
-                        <div className="row justify-content-center">
-                            <div className="col-md-4">
-                                <div className="card w-100">
+                        <div className="row justify-content-center py-5 mb-5 Card-row">
+                            <div className="col-md-7">
+                                <div className="card w-100 h-100">
                                     <div className="card-body text-left">
-                                        <h5 className="card-title">Card title</h5>
-                                        <h6 className="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                                        <p className="card-text">Some quick example text to build on the card title and
+                                        <h5 className="card-title w-100">Card title</h5>
+                                        <h6 className="card-subtitle mb-2 text-muted w-100">Card subtitle</h6>
+                                        <p className="card-text w-100">Some quick example text to build on the card title and
                                             make up the bulk of the card's content.</p>
-                                        <a href="#" className="card-link">Card link</a>
-                                        <a href="#" className="card-link">Another link</a>
+                                        <div>
+                                            
+                                        </div>
+                                        <div>
+
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div className="row justify-content-center">
+                        <div className="row justify-content-center py-5 my-5">
                             <div className="col-1">
                                 <img src="https://via.placeholder.com/80x80" alt=""/>
                             </div>
