@@ -2,9 +2,30 @@
 h2{
   font-weight: 700!important;
 }
+.Text-gray{
+  color: #333333;
 
+}
+
+button:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+transition:0.5s;}
+h1{
+  font-weight: 700!important;
+  color: white;
+  line-height: 0.5!important;
+
+}
+h1>span{
+  font-size: 2rem;
+}
 .App {
   text-align: center;
+}
+
+.Little-text{
+  font-size: 0.9rem;
 }
 
 
@@ -18,8 +39,8 @@ h2{
 .Megamenu{
   background-color: transparent;
   color: #ffffff;
-  border: 2px solid white;
-  font-size: 18px;
+  border: 0.125rem solid white;
+  font-size: 1.125rem;
 }
 
 header>.container{
@@ -27,18 +48,47 @@ header>.container{
 }
 
 .Iconos-header{
-  border-left: 1px solid white;
+  border-left: 0.0625rem solid white;
+  color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+}
+.Iconos-header h6{
+  margin-bottom: 7%;
+}
+.Iconos-header p{
+  font-size: 1.6rem;
+  font-weight: bold;
 }
 
 
 .Section1{
   background-size: cover;
-  background:linear-gradient(
-          #275faa78,
-          #275faa78
-  ), url('https://via.placeholder.com/1920x960') no-repeat;
-  padding-top: 1rem;
-  padding-bottom: 3.5rem;
+background:linear-gradient(
+          #000029ab,
+          #2260b2db
+  ), url('images/banner-0.jpg') no-repeat;
+padding-top: 1rem;
+padding-bottom: 5.5rem;
+  transform: skewY(3deg);
+  margin-top: -6.25rem;
+  padding-top: 6.875rem;
+}
+.Section1>*{
+  transform: skewY(-3deg);
+}
+/*.Section1>div{
+  margin:0;
+  padding: 0;
+  background-color: #275faa;
+  opacity: 80;
+}*/
+
+.Asterisco{
+  left: -0.5625rem;
+  position: absolute;
+  top: -0.8125rem;
+  font-size: 2.8rem;
 }
 
 .Section1 header{
@@ -52,8 +102,8 @@ header>.container{
   font-size: .75rem;
   margin-top:3rem;
   font-weight: 600;
-  padding: 13px;
-  width: 11rem;
+  padding: 0.8125rem;
+  width: 12rem;
 }
 
 .Btn-red-h{
@@ -63,8 +113,8 @@ header>.container{
   border: 0;
   font-size: .8rem;
   font-weight: 600;
-  padding: 13px;
-  width: 11rem;
+  padding: 0.8125rem;
+  width: 12rem;
 
 }
 
@@ -83,9 +133,9 @@ header>.container{
 }
 
 .Section2 .card{
-  -webkit-box-shadow: 0px 0px 45px -9px rgba(0,0,0,0.4);
-  -moz-box-shadow: 0px 0px 45px -9px rgba(0,0,0,0.4);
-  box-shadow: 0px 0px 45px -9px rgba(0,0,0,0.4);
+  -webkit-box-shadow: 0 0 2.813rem -0.5625rem rgba(0,0,0,0.4);
+  -moz-box-shadow: 0 0 2.813rem -0.5625rem rgba(0,0,0,0.4);
+  box-shadow: 0 0 2.813rem -0.5625rem rgba(0,0,0,0.4);
 }
 .Card-row{
   height:40rem;
@@ -96,13 +146,17 @@ header>.container{
   justify-content: center;
   align-items: center;
 }
-
+.card-body p{
+  font-size: 1.3rem;
+}
 .Price-card{
   font-size: 3rem;
+  font-weight: 700;
+  color: #666666;
 }
 .Info-card{
-  font-size: 0.75rem;
-  color: #ADADAD;
+  font-size: 0.85rem;
+  color: #666666;
 }
 .card-body h5{
   font-weight: 700;
@@ -113,12 +167,24 @@ header>.container{
   color:white;
   text-transform: uppercase;
   border: 0;
-  font-size: .8rem;
+  font-size: .95rem;
   font-weight: 600;
-  padding: 8px;
-  width: 11rem;
+  padding: 0.5rem;
+  width: 8.6rem;
+  height: 2.8rem;
 }
 
+.Btn-blue2{
+  background-color: #2260B3;
+  color:white;
+  text-transform: uppercase;
+  border: 0;
+  font-size: .88rem;
+  font-weight: 600;
+  padding: 0.5rem;
+  width: 11rem;
+  height: 2.5rem;
+}
 /*-------------------*/
 /*  SECCION 3 */
 /*-------------------*/
@@ -130,7 +196,7 @@ header>.container{
           #275faa78
   ), url('https://via.placeholder.com/1920x960') no-repeat;
   display: flex;
-  height: 1200px;
+  height: 75rem;
   align-items: center;
 }
 
@@ -139,10 +205,10 @@ header>.container{
   color:white;
   text-transform: uppercase;
   border: 0;
-  font-size: .75rem;
+  font-size: .9rem;
   margin-top:3rem;
   font-weight: 600;
-  padding: 8px;
+  padding: 0.5rem;
   width: 7.6rem;
 }
 
@@ -153,10 +219,10 @@ header>.container{
   padding: 10rem 0;
 }
 .Section4 .row div{
-  padding: 0 5px;
+  padding: 0 0.3125rem;
 }
 .Section4 h5{
-  right: 2.5px;
+  right: 0.125rem;
   color:white;
   font-weight: 600;
   font-size: 1.8rem;
@@ -170,11 +236,21 @@ header>.container{
 /*-------------------*/
 /*  SECCION 5 */
 /*-------------------*/
+.Section5{
+  padding-top: 11rem;
+}
+.Section5 h2{
+ font-size: 1.6rem;
+  font-weight: 700;
+}
 .Section5 div{
   padding: 0;
   margin: 0;
 }
 
+.Red-text{
+  color: #D24228;
+}
 
 /*-------------------*/
 /*  FOOTER */
@@ -191,14 +267,23 @@ footer .Row2{
   color:white;
   text-transform: uppercase;
   border: 0;
-  font-size: .8rem;
+  font-size: .9rem;
   font-weight: 600;
-  padding: 10px;
+  padding: 0.625rem;
   width: 11rem;
 
 }
 
 .Logos-patrocinadores{
   width: 14.28%;
-  padding: 0 20px;
+  padding: 0 1.25rem;
+}
+.Copyrigth-text{
+   font-size: 0.7rem;
+ }
+
+.Copyrigth-text>a{
+  font-size: 0.7rem;
+  text-decoration: underline;
+  color: #ffffff;
 }
