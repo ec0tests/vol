@@ -1,0 +1,102 @@
+
+
+.Pilotos h1{
+    color: white;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.Pilotos h2{
+    color: #333333;
+    text-transform: uppercase;
+    width: 35%;
+    font-weight: bold;
+    font-size: 3rem;
+}
+.Pilotos h3{
+    color: #333333;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+.Pilotos h4{
+    color: #333333;
+    font-weight: bold;
+font-size: 1.5rem;
+}
+p  {
+    color: #8f8f8f;
+}
+
+/*SECCON 1*/
+.Section1-pilotos{
+    background-size: cover;
+    background: url('../../images/pilotos-bkg1.jpg');
+    background-repeat: no-repeat;
+    padding-top: 1rem;
+    height: 30rem;
+
+}
+
+
+
+/*SECCION 2*/
+
+.Section2-pilotos{
+    background-size: cover;
+    background: url(../../images/pilotos-bkg2.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: initial;
+
+}
+
+
+/*FOOTER*/
+
+.Pilotos footer{
+    background-size: cover;
+    background: url('../../images/pilotos-bkg4.jpg');
+    background-repeat: no-repeat;
+    height: 60rem;
+    margin-top: 26rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.Pilotos footer .Container-card{
+    top: -30%;
+    right:11%;
+    position: absolute;
+}
+
+.Pilotos .Btn-blue{
+    width: 13rem;
+    height: 2.5rem;
+}
+
+
+
+.Pilotos footer .Card-row {
+    margin-bottom: 0!important;
+}
+.Pilotos footer .carousel-indicators{
+    padding-top: 2%;
+}
+
+.Pilotos footer .carousel-control-prev{
+    top: 45%;
+}
+.Pilotos footer .carousel-control-next{
+    top: 47%;
+}
+
+.Pilotos footer h4{
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.Pilotos footer .Container-video{
+}

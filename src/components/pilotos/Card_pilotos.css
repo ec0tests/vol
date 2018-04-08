@@ -1,0 +1,43 @@
+.Pilotos .Blue-diagonal{
+    background-color: #014db4;
+    height: 16rem;
+    width: 100%;
+    position: absolute;
+    opacity: 0.7;
+    -webkit-clip-path: polygon(0 45%, 100% 53%, 100% 100%, 0% 100%);
+    clip-path: polygon(0 45%, 100% 53%, 100% 100%, 0% 100%);
+}
+.Pilotos-bkg1{
+    position: absolute;
+    z-index: -1;
+    width: 45%;
+}
+.Piloto-card{
+    height: 20rem;
+    display: flex;
+    position: relative;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    -webkit-box-shadow: -1px 10px 21px 0px rgba(140,140,140,1);
+    -moz-box-shadow: -1px 10px 21px 0px rgba(140,140,140,1);
+    box-shadow: -1px 10px 21px 0px rgba(140,140,140,1);
+    width: 85%;
+}
+.Piloto-card span{
+    padding-bottom: 2rem;
+    padding-right: 3rem;
+
+}
+
+
+.Piloto-card-img1{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+

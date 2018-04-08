@@ -1,0 +1,409 @@
+
+.Home-h2 {
+    font-weight: 700 !important;
+}
+
+.Text-gray {
+    color: #333333;
+
+}
+
+.Bottom-5 {
+    position: relative;
+    bottom: 5%;
+}
+
+button:hover {
+    transform: scale(1.07);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.Home-h1 {
+    font-weight: 700 !important;
+    color: white;
+    line-height: 0.5 !important;
+
+}
+
+.Home-h1 > span {
+    font-size: 2rem;
+}
+
+.App {
+    text-align: center;
+}
+
+.Little-text {
+    font-size: 0.9rem;
+}
+
+.Little-text2 {
+    font-size: 0.7rem;
+}
+
+.Little-text3 {
+    font-size: 0.5rem;
+}
+
+/*-------------------*/
+/*  SECCION 1 */
+/*-------------------*/
+
+/*-------------------*/
+/*  MEGAMENU */
+/*-------------------*/
+.Megamenu {
+    background-color: transparent;
+    color: #ffffff;
+    border: 0.125rem solid white;
+    font-size: 1.125rem;
+    padding: .2rem;
+    width: 10rem;
+}
+
+header > .container {
+    margin: 10% auto;
+}
+
+.Iconos-header {
+    border-left: 0.0625rem solid white;
+    color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+.Iconos-header h6 {
+    margin-bottom: 7%;
+    height: 10%
+}
+
+.Iconos-header p {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+/*CON PNG*/
+/*.Section1 {
+    background-color: #1d5299;
+    opacity: 0.8;
+    position: relative;
+    padding-top: 1rem;
+    padding-bottom: 5.5rem;
+    transform: skewY(3deg) translateY(-4.25rem);
+    !*margin-top: -6.25rem;
+    padding-top: 6.875rem;*!
+    padding-top: 4.25rem;
+}
+.Section1-bkg{
+    position: absolute;
+    top: 0;
+    right: 0;
+}*/
+.Section1 {
+    background-size: cover;
+
+    opacity: 0.9;
+    background: #014db4 url('../../images/bkg-1.jpg');
+    background-repeat: no-repeat;
+    padding-top: 1rem;
+    padding-bottom: 5.5rem;
+    transform: skewY(3deg) translateY(-4.25rem);
+    /*margin-top: -6.25rem;
+    padding-top: 6.875rem;*/
+    padding-top: 4.25rem;
+}
+
+.Section1 > * {
+    transform: skewY(-3deg);
+}
+
+/*.Section1>div{
+  margin:0;
+  padding: 0;
+  background-color: #275faa;
+  opacity: 80;
+}*/
+
+.Asterisco {
+    left: -0.5625rem;
+    position: absolute;
+    top: -0.8125rem;
+    font-size: 2.8rem;
+}
+
+.Section1 header {
+    margin-bottom: 10%;
+}
+
+.Btn-darkblue-h {
+    background-color: #174382;
+    color: white;
+    text-transform: uppercase;
+    border: 0;
+    font-size: .75rem;
+    margin-top: 3rem;
+    font-weight: 600;
+    padding: 0.8125rem;
+    width: 12rem;
+}
+
+.Btn-red-h {
+    background-color: #D24228;
+    color: white;
+    text-transform: uppercase;
+    border: 0;
+    font-size: .8rem;
+    font-weight: 600;
+    padding: 0.8125rem;
+    width: 12rem;
+
+}
+
+/*-------------------*/
+/*  SECCION 2 */
+/*-------------------*/
+.row-iconos {
+    padding: 0 12rem;
+}
+
+.Section2 {
+    position: relative;
+    padding: 18rem 0;
+}
+
+
+
+.Seccion2-bkg {
+    right: 0%;
+    position: absolute;
+    top: -13%;
+    z-index: -10;
+}
+
+.W-60 {
+    width: 60%;
+}
+
+.Section2 .container {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.Section2 .card {
+    -webkit-box-shadow: 0 0 2.813rem -0.5625rem rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0 0 2.813rem -0.5625rem rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 2.813rem -0.5625rem rgba(0, 0, 0, 0.4);
+}
+
+
+
+.Btn-blue {
+    background-color: #2260B3;
+    color: white;
+    text-transform: uppercase;
+    border: 0;
+    font-size: .95rem;
+    font-weight: 600;
+    padding: 0.5rem;
+    width: 8.6rem;
+    height: 2.8rem;
+}
+
+.Btn-blue2 {
+    background-color: #2260B3;
+    color: white;
+    text-transform: uppercase;
+    border: 0;
+    font-size: .88rem;
+    font-weight: 600;
+    padding: 0.5rem;
+    width: 11rem;
+    height: 2.5rem;
+}
+
+/*-------------------*/
+/*  SECCION 3 */
+
+/*-------------------*/
+.Diagonal1 {
+    z-index: -1;
+    background: #014db4;
+
+    position: relative;
+    height: 7rem;
+    bottom: 3.5rem;
+    width: 100%;
+    -webkit-transform: skewY(4deg);
+    -ms-transform: skewY(4deg);
+    transform: skewY(4deg);
+}
+
+.Diagonal2 {
+    background: #014db4;
+    position: relative;
+    height: 7rem;
+    top: 3.5rem;
+    width: 100%;
+    -webkit-transform: skewY(-4deg);
+    -ms-transform: skewY(-4deg);
+    transform: skewY(-4deg);
+}
+
+.fVerde {
+    filter: hue-rotate(120deg);
+}
+
+.Section3 {
+    z-index: 2;
+    position: relative;
+    background: #014db4;
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Bk-3-div {
+    position: relative;
+    z-index: -100000000;
+}
+
+.Bk-3-ico-div {
+    position: relative;
+    z-index: -100000000;
+}
+
+.Section3-bkg-ico {
+    position: absolute !important;
+    top: 9rem;
+    right: 12rem;
+}
+
+.Section3-bkg {
+    left: 0;
+    position: absolute;
+    top: auto;
+    top: -37.3rem;
+
+}
+
+.Section3 .container {
+}
+
+.Btn-darkblue {
+    background-color: #174382;
+    color: white;
+    text-transform: uppercase;
+    border: 0;
+    font-size: .9rem;
+    margin-top: 3rem;
+    font-weight: 600;
+    padding: 0.5rem;
+    width: 7.8rem;
+}
+
+/*-------------------*/
+/*  SECCION 4 */
+/*-------------------*/
+.Section4 {
+    padding: 10rem 0;
+    position: relative;
+}
+
+.Seccion4-bkg {
+    right: 27%;
+    position: absolute;
+    top: -9%;
+    z-index: -1;
+}
+
+.Section4 .row div {
+    padding: 0 0.9125rem;
+}
+
+.Section4 h5 {
+    right: 0.125rem;
+    color: white;
+    font-weight: 600;
+    font-size: 1.8rem;
+    top: 20%;
+
+    position: absolute;
+    width: 100%;
+}
+
+.Exp-ico-gen {
+    display: flex;
+    height: 26rem;
+    width: 4rem;
+    justify-content: center;
+    align-items: flex-end;
+    background-size: cover;
+}
+
+/*-------------------*/
+/*  SECCION 5 */
+/*-------------------*/
+.Section5 {
+    padding-top: 20rem;
+}
+
+.Section5 .Home-h2 {
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.Section5 div {
+    padding: 0;
+    margin: 0;
+}
+
+.Red-text {
+    color: #D24228;
+}
+
+/*-------------------*/
+/*  FOOTER */
+/*-------------------*/
+
+footer .Row1 {
+    background-color: #2260B3;
+}
+
+footer .Row2 {
+    background-color: #174382;
+}
+
+.Btn-red {
+    background-color: #D24228;
+    color: white;
+    text-transform: uppercase;
+    border: 0;
+    font-size: .9rem;
+    font-weight: 600;
+    padding: 0.625rem;
+    width: 11rem;
+
+}
+
+.Logos-patrocinadores {
+    width: 14.28%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2% 2%;
+}
+
+.Copyrigth-text {
+    font-size: 0.7rem;
+}
+
+.Copyrigth-text > a {
+    font-size: 0.7rem;
+    text-decoration: underline;
+    color: #ffffff;
+}

@@ -1,0 +1,83 @@
+
+.card{
+    -webkit-box-shadow: -1px 10px 34px -2px rgba(166,166,166,1);
+    -moz-box-shadow: -1px 10px 34px -2px rgba(166,166,166,1);
+    box-shadow: -1px 10px 34px -2px rgba(166,166,166,1);
+}
+.Carousel-arrow {
+    color: #cccccc;
+    font-size: 2rem;
+}
+
+/*Cambio la posición de los carousel*/
+.carousel-control-prev {
+    left: 12%;
+    top: 31%;
+    height: 3%;
+    z-index: 1000;
+    padding-top: 1rem;
+}
+
+.carousel-control-next {
+    right: 12%;
+    top: 32%;
+    height: 3%;
+    z-index: 1000;
+}
+
+.carousel-indicators {
+    top: 8%;
+
+}
+
+.Card-row {
+    height: 35rem;
+    margin-bottom: 20rem !important;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 3rem;
+}
+
+.card-body p {
+    font-size: 1.3rem;
+}
+
+.Price-card {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #666666;
+}
+
+.Info-card {
+    font-size: 0.85rem;
+    color: #666666;
+}
+
+.card-body h5 {
+    font-weight: 700;
+    color: #333333;
+}
+
+/*Cambio la forma de los indicadores del carousel*/
+
+.carousel-indicators li {
+    background-color: transparent;
+    border: 1px solid #cccccc;
+    width: 9px;
+    height: 9px;
+    border-radius: 20px;
+}
+
+/*El que esta activo */
+.carousel-indicators .active {
+    background-color: #cccccc !important;
+    border: 1px solid #cccccc;
+    width: 9px;
+    height: 9px;
+    border-radius: 20px;
+}
