@@ -163,25 +163,25 @@ class Home extends React.Component {
                         <div className="row text-white">
                             <div className="col-md-6 text-left">
                                 <h4 className="font-weight-bold">25 AÑOS VOLANDO</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad adipisci amet
+                                <p className="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad adipisci amet
                                     dignissimos doloremque exercitationem fuga incidunt minus natus necessitatibus
                                     nostrum officia placeat praesentium quaerat recusandae, reprehenderit rerum ullam
                                     unde?</p>
                                 <br/>
                                 <h4 className="font-weight-bold">25 AÑOS VOLANDO</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad adipisci amet
+                                <p className="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad adipisci amet
                                     dignissimos doloremque exercitationem fuga incidunt minus natus necessitatibus
                                     nostrum officia placeat praesentium quaerat recusandae, reprehenderit rerum ullam
                                     unde?</p>
                                 <br/>
                                 <h4 className="font-weight-bold">25 AÑOS VOLANDO</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad adipisci amet
+                                <p className="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad adipisci amet
                                     dignissimos doloremque exercitationem fuga incidunt minus natus necessitatibus
                                     nostrum officia placeat praesentium quaerat recusandae, reprehenderit rerum ullam
                                     unde?</p>
                                 <br/>
                                 <h4 className="font-weight-bold">25 AÑOS VOLANDO</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad adipisci amet
+                                <p className="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad adipisci amet
                                     dignissimos doloremque exercitationem fuga incidunt minus natus necessitatibus
                                     nostrum officia placeat praesentium quaerat recusandae, reprehenderit rerum ullam
                                     unde?</p>
