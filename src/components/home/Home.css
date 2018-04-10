@@ -102,9 +102,9 @@ header > .container {
     right: 0;
 }*/
 .Section1 {
-    background-size: cover;
+    background-size: cover!important;
 
-    opacity: 0.9;
+    opacity: 0.97;
     background: #014db4 url('../../images/bkg-1.jpg');
     background-repeat: no-repeat;
     padding-top: 1rem;
@@ -315,7 +315,7 @@ header > .container {
 }
 
 .Seccion4-bkg {
-    right: 27%;
+    left: 0;
     position: absolute;
     top: -9%;
     z-index: -1;
@@ -342,7 +342,7 @@ header > .container {
     width: 4rem;
     justify-content: center;
     align-items: flex-end;
-    background-size: cover;
+    background-size: cover!important;
 }
 
 /*-------------------*/
@@ -406,4 +406,15 @@ footer .Row2 {
     font-size: 0.7rem;
     text-decoration: underline;
     color: #ffffff;
+}
+
+
+@media (min-width: 1550px){
+.Diagonal1{
+    height: 14rem;
+    bottom: 7.5rem;
+}
+    .Diagonal2 {
+        height: 13rem;
+        top: 6.5rem;}
 }

@@ -31,7 +31,7 @@ p  {
 
 /*SECCON 1*/
 .Section1-pilotos{
-    background-size: cover;
+    background-size: cover!important;
     background: url('../../images/pilotos-bkg1.jpg');
     background-repeat: no-repeat;
     padding-top: 1rem;
@@ -41,10 +41,11 @@ p  {
 
 
 
+
+
 /*SECCION 2*/
 
 .Section2-pilotos{
-    background-size: cover;
     background: url(../../images/pilotos-bkg2.jpg);
     background-repeat: no-repeat;
     background-position: right;
@@ -56,7 +57,7 @@ p  {
 /*FOOTER*/
 
 .Pilotos footer{
-    background-size: cover;
+    background-size: cover!important;
     background: url('../../images/pilotos-bkg4.jpg');
     background-repeat: no-repeat;
     height: 60rem;
@@ -64,11 +65,11 @@ p  {
     position: relative;
     display: flex;
     align-items: center;
+    flex-direction: column;
 }
 .Pilotos footer .Container-card{
     top: -30%;
-    right:11%;
-    position: absolute;
+    position: relative;
 }
 
 .Pilotos .Btn-blue{
@@ -100,3 +101,4 @@ p  {
 
 .Pilotos footer .Container-video{
 }
+

@@ -49,7 +49,7 @@ class Home extends React.Component {
                     <div className="container pb-5 mb-5">
                         <div className="row">
                             <div className="col-12 text-left">
-                                <h1 className=" display-2 Home-h1">VUELA EN GLOBO <br/>
+                                <h1 className=" display-1 Home-h1">VUELA EN GLOBO <br/>
                                     <span>en el parque natural de La Garrotxa</span></h1>
                             </div>
                         </div>
@@ -244,22 +244,22 @@ class Home extends React.Component {
                             className="Red-text">#voldecoloms</span></h2>
                         <div className="row justify-content-center">
                             <div className="col-md-2 ">
-                                <img src="https://via.placeholder.com/320x250" className="img-fluid" alt=""/>
+                                <img src="https://via.placeholder.com/320x250" className="img-fluid w-100" alt=""/>
                             </div>
                             <div className="col-md-2 ">
-                                <img src="https://via.placeholder.com/320x250" className="img-fluid" alt=""/>
+                                <img src="https://via.placeholder.com/320x250" className="img-fluid w-100" alt=""/>
                             </div>
                             <div className="col-md-2 ">
-                                <img src="https://via.placeholder.com/320x250" className="img-fluid" alt=""/>
+                                <img src="https://via.placeholder.com/320x250" className="img-fluid w-100" alt=""/>
                             </div>
                             <div className="col-md-2 ">
-                                <img src="https://via.placeholder.com/320x250" className="img-fluid" alt=""/>
+                                <img src="https://via.placeholder.com/320x250" className="img-fluid w-100" alt=""/>
                             </div>
                             <div className="col-md-2 ">
-                                <img src="https://via.placeholder.com/320x250" className="img-fluid" alt=""/>
+                                <img src="https://via.placeholder.com/320x250" className="img-fluid w-100" alt=""/>
                             </div>
                             <div className="col-md-2 ">
-                                <img src="https://via.placeholder.com/320x250" className="img-fluid" alt=""/>
+                                <img src="https://via.placeholder.com/320x250" className="img-fluid w-100" alt=""/>
                             </div>
 
                         </div>
