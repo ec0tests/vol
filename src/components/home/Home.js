@@ -71,34 +71,34 @@ class Home extends React.Component {
                                 <h6 className="w-100">Globo Compartido</h6>
                                 <div className="col-4">
                                     <img className="img-fluid" src={globo_ico1} alt=""/>
-                                    <p className="mt-3 text-uppercase Little-text3">Adlutos</p>
+                                    <p className="mt-3 text-uppercase Little-text3 text-white">Adlutos</p>
                                 </div>
                                 <div className="col-4">
                                     <img className="img-fluid" src={globo_ico2} alt=""/>
 
-                                    <p className="mt-3 text-uppercase Little-text3">con niños</p>
+                                    <p className="mt-3 text-uppercase Little-text3 text-white">con niños</p>
                                 </div>
                                 <div className="col-4">
                                     <img className="img-fluid" src={globo_ico3} alt=""/>
 
-                                    <p className="mt-3 text-uppercase Little-text3">Silla de <br/> ruedas</p>
+                                    <p className="mt-3 text-uppercase Little-text3 text-white">Silla de <br/> ruedas</p>
                                 </div>
                             </div>
                             <div className="Iconos-header col-6 p-0 px-4">
                                 <h6 className="w-100">Globo Compartido</h6>
                                 <div className="col-4">
                                     <img className="img-fluid" src={globo_ico4} alt=""/>
-                                    <p className="mt-3 text-uppercase Little-text3">En <br/> pareja </p>
+                                    <p className="mt-3 text-uppercase Little-text3 text-white">En <br/> pareja </p>
                                 </div>
                                 <div className="col-4">
                                     <img className="img-fluid" src={globo_ico5} alt=""/>
 
-                                    <p className="mt-3 text-uppercase Little-text3">4 amigos</p>
+                                    <p className="mt-3 text-uppercase Little-text3 text-white">4 amigos</p>
                                 </div>
                                 <div className="col-4 Bottom-5">
                                     <img className="img-fluid" src={globo_ico6} alt=""/>
 
-                                    <p className="mt-3 text-uppercase Little-text3">empresas </p>
+                                    <p className="mt-3 text-uppercase Little-text3 text-white">empresas </p>
                                 </div>
                             </div>
                             <div className="col-12 mt-5 text-left">
