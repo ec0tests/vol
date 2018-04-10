@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import './Carousel_card.css';
 
-const Carousel_card = () => (
+const Carousel_cards = () => (
             <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
                 <ol className="carousel-indicators">
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
@@ -134,4 +134,4 @@ const Carousel_card = () => (
                 </a>
             </div>
 )
-export default Carousel_card;
+export default Carousel_cards;

@@ -1,10 +1,11 @@
 import React, {Component} from 'react';
 import './Pilotos.css';
 import Header from "../comunes/Header";
-import Card_pilotos from "./Card_pilotos";
-import Seo_text from "./Seo_text";
-import Carousel_card from "../comunes/Carousel_card";
-
+import Card_pilotos from "../pilotos/Card_pilotos";
+import Seo_text from "../pilotos/Seo_text";
+import Carousel_cards from "../comunes/Carousel_cards";
+import Certificado from "../comunes/Certificado";
+import play_ico from '../../images/play-ico.png';
 import logo_b from '../../images/vdc-logo-b.png';
 import bkg1 from '../../images/pilotos-bkg1.png';
 
@@ -35,28 +36,28 @@ let texto_seo_json = {
         },
         {
             "titulo": "Titulo2",
-            "texto":     `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aspernatur cumque eius eos facere
+            "texto": `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aspernatur cumque eius eos facere
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aspernatur cumque eius eos facereLorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aspernatur cumque eius eos facere
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aspernatur cumque eius eos facereLorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aspernatur cumque eius eos facere
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aspernatur cumque eius eos facere`
         },
         {
             "titulo": "Titulo3",
-            "texto":  `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aspernatur cumque eius eos facere
+            "texto": `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aspernatur cumque eius eos facere
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aspernatur cumque eius eos facereLorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aspernatur cumque eius eos facere
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aspernatur cumque eius eos facereLorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aspernatur cumque eius eos facere
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aspernatur cumque eius eos facere`
         },
         {
             "titulo": "Titulo4",
-            "texto":  `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aspernatur cumque eius eos facere
+            "texto": `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aspernatur cumque eius eos facere
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aspernatur cumque eius eos facereLorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aspernatur cumque eius eos facere
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aspernatur cumque eius eos facereLorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aspernatur cumque eius eos facere
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aspernatur cumque eius eos facere`
         },
         {
             "titulo": "Titulo5",
-            "texto":  `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aspernatur cumque eius eos facere
+            "texto": `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aspernatur cumque eius eos facere
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aspernatur cumque eius eos facereLorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aspernatur cumque eius eos facere
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aspernatur cumque eius eos facereLorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aspernatur cumque eius eos facere
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aspernatur cumque eius eos facere`
@@ -119,30 +120,19 @@ const Pilotos = () => (
 
         <section className="Section3-pilotos">
             <div className="container">
-                <div className="row">
-                    <div className="col-md-12 mb-5">
-                        <img src="https://via.placeholder.com/320x250" alt=""/>
-
-                    </div>
-
-                    <div className="col-md-12">
-                        <h2 className="w-100">Certificado de excelencia</h2>
-                        <h4>5 estrellas en más de 200 opiniones de tripadvidor</h4>
-                        <button className="Btn-blue mt-4 ">Ver opiniones</button>
-                    </div>
-                </div>
+                <Certificado/>
 
             </div>
         </section>
-        <footer >
+        <footer>
             <div className="container Container-card">
-                    <Carousel_card/>
+                <Carousel_cards/>
             </div>
             <div className="container Container-video pt-5">
                 <div className="row">
                     <div className="col-12 ">
-                        <img src="https://via.placeholder.com/80x80" className="img-fluid mb-4" alt=""/>
-                        <h4>La experiencia <br/> <span className="font-weight-normal">de volar en globo</span> </h4>
+                        <img src={play_ico} className="img-fluid mb-4" alt=""/>
+                        <h4>La experiencia <br/> <span className="font-weight-normal">de volar en globo</span></h4>
                     </div>
                 </div>
             </div>

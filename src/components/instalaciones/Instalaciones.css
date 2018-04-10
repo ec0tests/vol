@@ -1,0 +1,121 @@
+
+
+.Instalaciones h1{
+    color: white;
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+.Instalaciones h2{
+    color: #333333;
+    text-transform: uppercase;
+    width: 35%;
+    font-weight: bold;
+    font-size: 3rem;
+}
+.Instalaciones h3{
+    color: #333333;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+.Instalaciones h4{
+    color: #333333;
+    font-weight: bold;
+font-size: 1.5rem;
+}
+p  {
+    color: #8f8f8f;
+}
+
+/*SECCON 1*/
+.Section1-instalaciones{
+    background-size: cover!important;
+    background: url('../../images/instalaciones-bkg1.jpg');
+    background-repeat: no-repeat;
+    padding-top: 1rem;
+min-height: 40rem;
+
+}
+
+
+
+
+
+/*SECCION 2*/
+
+.Section2-instalaciones{
+
+
+}
+
+
+/*FOOTER*/
+
+.Section4-instalaciones{
+    background-size: cover!important;
+    background: url('../../images/instalaciones-bkg4.jpg');
+    background-repeat: no-repeat;
+    height: 60rem;
+    margin-top: 8rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.Section4-instalaciones .Container-card{
+    top: -30%;
+    position: relative;
+}
+
+.Instalaciones .Btn-blue{
+    width: 13rem;
+    height: 2.5rem;
+}
+
+
+
+.Section4-instalaciones .Card-row {
+    margin-bottom: 0!important;
+}
+.Section4-instalaciones .carousel-indicators{
+    padding-top: 2%;
+}
+
+.Section4-instalaciones .carousel-control-prev{
+    top: 45%;
+}
+.Section4-instalaciones .carousel-control-next{
+    top: 47%;
+}
+
+.Section4-instalaciones h4{
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.Section4-instalaciones .Container-video{
+}
+
+
+/*SECTION 3*/
+
+.Section3-instalaciones{
+    padding-top: 12rem;
+}
+
+.Instalaciones footer{
+    background-color: #2260b2;
+    padding: 1.5rem;
+}
+
+.Instalaciones footer .Div-ico{
+    width: 6.3%;
+}
+
+.Instalaciones footer .Div-ico img{
+    width: 2.6rem;
+}
+

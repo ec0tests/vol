@@ -30,7 +30,7 @@ import exp_ico4 from '../../images/exp-ico4.jpg';
 
 
 import './Home.css'
-import Carousel_card from "../comunes/Carousel_card";
+import Carousel_cards from "../comunes/Carousel_cards";
 import Header from "../comunes/Header";
 
 class Home extends React.Component {
@@ -121,7 +121,7 @@ class Home extends React.Component {
                     <img src={bkg2} className="Seccion2-bkg" alt=""/>
 
                     <div className="container">
-                        <Carousel_card/>
+                        <Carousel_cards/>
 
                         <div className="row justify-content-center row-iconos">
                             <div className="col-2">
