@@ -1,12 +1,5 @@
 
-.Home-h2 {
-    font-weight: 700 !important;
-}
 
-.Text-gray {
-    color: #333333;
-
-}
 
 .Bottom-5 {
     position: relative;
@@ -137,29 +130,7 @@ header > .container {
     margin-bottom: 10%;
 }
 
-.Btn-darkblue-h {
-    background-color: #174382;
-    color: white;
-    text-transform: uppercase;
-    border: 0;
-    font-size: .75rem;
-    margin-top: 3rem;
-    font-weight: 600;
-    padding: 0.8125rem;
-    width: 12rem;
-}
 
-.Btn-red-h {
-    background-color: #D24228;
-    color: white;
-    text-transform: uppercase;
-    border: 0;
-    font-size: .8rem;
-    font-weight: 600;
-    padding: 0.8125rem;
-    width: 12rem;
-
-}
 
 /*-------------------*/
 /*  SECCION 2 */
@@ -201,29 +172,7 @@ header > .container {
 
 
 
-.Btn-blue {
-    background-color: #2260B3;
-    color: white;
-    text-transform: uppercase;
-    border: 0;
-    font-size: .95rem;
-    font-weight: 600;
-    padding: 0.5rem;
-    width: 8.6rem;
-    height: 2.8rem;
-}
 
-.Btn-blue2 {
-    background-color: #2260B3;
-    color: white;
-    text-transform: uppercase;
-    border: 0;
-    font-size: .88rem;
-    font-weight: 600;
-    padding: 0.5rem;
-    width: 11rem;
-    height: 2.5rem;
-}
 
 /*-------------------*/
 /*  SECCION 3 */
@@ -294,17 +243,7 @@ header > .container {
 .Section3 .container {
 }
 
-.Btn-darkblue {
-    background-color: #174382;
-    color: white;
-    text-transform: uppercase;
-    border: 0;
-    font-size: .9rem;
-    margin-top: 3rem;
-    font-weight: 600;
-    padding: 0.5rem;
-    width: 7.8rem;
-}
+
 
 /*-------------------*/
 /*  SECCION 4 */
@@ -362,9 +301,7 @@ header > .container {
     margin: 0;
 }
 
-.Red-text {
-    color: #D24228;
-}
+
 
 /*-------------------*/
 /*  FOOTER */
@@ -374,39 +311,13 @@ footer .Row1 {
     background-color: #2260B3;
 }
 
-footer .Row2 {
-    background-color: #174382;
-}
 
-.Btn-red {
-    background-color: #D24228;
-    color: white;
-    text-transform: uppercase;
-    border: 0;
-    font-size: .9rem;
-    font-weight: 600;
-    padding: 0.625rem;
-    width: 11rem;
 
-}
 
-.Logos-patrocinadores {
-    width: 14.28%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 2% 2%;
-}
 
-.Copyrigth-text {
-    font-size: 0.7rem;
-}
 
-.Copyrigth-text > a {
-    font-size: 0.7rem;
-    text-decoration: underline;
-    color: #ffffff;
-}
+
+
 
 
 @media (min-width: 1550px){

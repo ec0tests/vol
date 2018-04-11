@@ -1,0 +1,11 @@
+.Logos-patrocinadores {
+    width: 14.28%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2% 2%;
+}
+.Bkg-darkBlue {
+    background-color: #174382;
+    margin: 0;
+}

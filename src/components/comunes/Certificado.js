@@ -10,7 +10,7 @@ const Certificado = ()=> (
 
         <div className="col-md-12">
             <h2 className="w-100">Certificado de excelencia</h2>
-            <h4>5 estrellas en más de 200 opiniones de tripadvidor</h4>
+            <h4 className="font-weight-normal">5 estrellas en más de 200 opiniones de tripadvisor</h4>
             <button className="Btn-blue mt-4 ">Ver opiniones</button>
         </div>
     </div>

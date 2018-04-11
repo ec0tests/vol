@@ -15,23 +15,18 @@ import globo_ico3 from '../../images/Icon-Cat-Silla-b-85.png';
 import globo_ico4 from '../../images/Icon-Cat-Pareja-b-85.png';
 import globo_ico5 from '../../images/Icon-Cat-4amigo-b-85.png';
 import globo_ico6 from '../../images/Icon-Cat-Grupo-b-85.png';
-import colab_ico1 from '../../images/logo_catalunya.png';
-import colab_ico2 from '../../images/pcbpgi.png';
-import colab_ico3 from '../../images/logotipnatura.png';
-import colab_ico4 from '../../images/costabravagironaconventionbureau.png';
-import colab_ico5 from '../../images/europarc.png';
-import colab_ico6 from '../../images/resnpisvetravel.png';
-import colab_ico7 from '../../images/pantou.png';
-import redes_ico from '../../images/redes_sociales.png';
+
 import exp_ico1 from '../../images/exp-ico1.jpg';
 import exp_ico2 from '../../images/exp-ico2.jpg';
 import exp_ico3 from '../../images/exp-ico3.jpg';
 import exp_ico4 from '../../images/exp-ico4.jpg';
-
+import redes_ico from '../../images/redes_sociales.png';
 
 import './Home.css'
 import Carousel_cards from "../comunes/Carousel_cards";
 import Header from "../comunes/Header";
+import Footer_patrocinadores from "../comunes/Footer_patrocinadores";
+import Subetufoto from "../comunes/Subetufoto";
 
 class Home extends React.Component {
     render() {
@@ -239,32 +234,8 @@ class Home extends React.Component {
 
 
                 <section id="Section5" className="Section5">
-                    <div className="container-fluid">
-                        <h2 className="Text-gray text-uppercase mb-3 Home-h2">Sube tu foto y gana un vuelo con <span
-                            className="Red-text">#voldecoloms</span></h2>
-                        <div className="row justify-content-center">
-                            <div className="col-md-2 ">
-                                <img src="https://via.placeholder.com/320x250" className="img-fluid w-100" alt=""/>
-                            </div>
-                            <div className="col-md-2 ">
-                                <img src="https://via.placeholder.com/320x250" className="img-fluid w-100" alt=""/>
-                            </div>
-                            <div className="col-md-2 ">
-                                <img src="https://via.placeholder.com/320x250" className="img-fluid w-100" alt=""/>
-                            </div>
-                            <div className="col-md-2 ">
-                                <img src="https://via.placeholder.com/320x250" className="img-fluid w-100" alt=""/>
-                            </div>
-                            <div className="col-md-2 ">
-                                <img src="https://via.placeholder.com/320x250" className="img-fluid w-100" alt=""/>
-                            </div>
-                            <div className="col-md-2 ">
-                                <img src="https://via.placeholder.com/320x250" className="img-fluid w-100" alt=""/>
-                            </div>
+                    <Subetufoto/>
 
-                        </div>
-
-                    </div>
                 </section>
 
                 <footer className="">
@@ -294,30 +265,7 @@ class Home extends React.Component {
                             </div>
 
                         </div>
-                        <div className="row Row2 p-3">
-                            <div className="Logos-patrocinadores">
-                                <img src={colab_ico1} className="img-fluid" alt=""/>
-                            </div>
-                            <div className="Logos-patrocinadores">
-                                <img src={colab_ico2} className="img-fluid" alt=""/>
-                            </div>
-                            <div className="Logos-patrocinadores">
-                                <img src={colab_ico3} className="img-fluid" alt=""/>
-                            </div>
-                            <div className="Logos-patrocinadores">
-                                <img src={colab_ico4} className="img-fluid" alt=""/>
-                            </div>
-                            <div className="Logos-patrocinadores">
-                                <img src={colab_ico5} className="img-fluid" alt=""/>
-                            </div>
-                            <div className="Logos-patrocinadores">
-                                <img src={colab_ico6} className="img-fluid" alt=""/>
-                            </div>
-                            <div className="Logos-patrocinadores">
-                                <img src={colab_ico7} className="img-fluid" alt=""/>
-                            </div>
-
-                        </div>
+                       <Footer_patrocinadores/>
                     </div>
                 </footer>
             </div>

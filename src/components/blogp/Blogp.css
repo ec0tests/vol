@@ -1,0 +1,165 @@
+
+
+.Blogp h1{
+    font-style: italic;
+    color: #9a9a9a;
+    font-size: 1.4rem;
+    border-bottom: 1px solid #9a9a9a;
+    border-top: 1px solid #9a9a9a;
+    padding: 2.1rem 0;
+    margin: auto;
+    width: 80%;
+
+
+}
+.Blogp h1>span{
+    color: #4e80c1;
+    font-weight: bold;
+
+
+}
+
+.Blogp h2{
+    color: #333333;
+    text-transform: uppercase;
+    width: 35%;
+    font-weight: bold;
+    font-size: 3rem;
+}
+.Blogp h3{
+    color: #333333;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+.Blogp h4{
+    color: #333333;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+p  {
+    color: #8f8f8f;
+}
+
+/*SECCON 1*/
+.Section1-blogp{
+    background-size: cover!important;
+    background: url('../../images/blogp-bkg1.jpg');
+    background-position-x: center;
+    background-repeat: no-repeat;
+    padding-top: 2rem;
+    min-height: 30rem;
+
+}
+.Btn-gris{
+    background-color: #999999;
+    color: #fff;
+    border: 0;
+    padding: 0.5rem;
+    width: 10rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: .9rem;
+}
+
+
+/*SECCON 2*/
+.Section2-blogp {
+    position: relative;
+    padding: 18rem 0;
+}
+
+
+
+.Seccion3-blogp-bkg {
+    right: 0%;
+    position: absolute;
+    top: -13%;
+    z-index: -10;
+}
+
+
+
+
+
+/*SECCION 3*/
+
+.Section3-blogp{
+    position: relative;
+    padding-top: 18rem ;
+
+}
+
+
+/*FOOTER*/
+/*
+.Section4-blogp{
+    background-size: cover!important;
+    background: url('../../images/blogp-bkg4.jpg');
+    background-repeat: no-repeat;
+    height: 60rem;
+    margin-top: 8rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.Section4-blogp .Container-card{
+    top: -30%;
+    position: relative;
+}*/
+
+.Blogp .Btn-blue{
+    width: 13rem;
+    height: 2.5rem;
+}
+
+
+
+.Section4-blogp .Card-row {
+    margin-bottom: 0!important;
+}
+.Section4-blogp .carousel-indicators{
+    padding-top: 2%;
+}
+
+.Section4-blogp .carousel-control-prev{
+    top: 45%;
+}
+.Section4-blogp .carousel-control-next{
+    top: 47%;
+}
+
+.
+
+.Section4-blogp .Container-video{
+}
+
+
+/*SECTION 3*/
+
+.Section4-blogp{
+}
+
+.Links-footer>div{
+    padding-top: 0.5rem;
+    text-align: left;
+}
+.Links-footer>div a{
+    text-align: left;
+    font-size: 0.9rem;
+}
+.Blogp footer{
+    background-color: #2260b2;
+    padding: 1.5rem;
+}
+
+.Blogp footer .Div-ico{
+    width: 9.3%;
+}
+
+.Blogp footer .Div-ico img{
+    width: 2.7rem;
+}
+

@@ -51,11 +51,11 @@ const Header = ({logo}) => (
 
                             <li><a href="/pilotos" className="text-white">pilotos</a> </li>
                             <li><a href="/instalaciones" className="text-white">instalaciones</a></li>
+                            <li><a href="/blog" className="text-white">blog</a></li>
                             <li>regalar vuelo</li>
                             <li>infromación útil</li>
                             <li>faqs</li>
                             <li>ubicación/meteorología</li>
-                            <li>blog</li>
                             <li>contacto</li>
 
                         </ul>

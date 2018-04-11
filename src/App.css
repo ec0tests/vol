@@ -1,0 +1,110 @@
+
+header{
+    width: 100%;
+}
+h2 {
+    color: #333333;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 4rem!important;
+}
+h3{
+    color: #333333;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Barlow Condensed', sans-serif;
+
+}
+
+
+.Text-gray {
+    color: #333333;
+
+}
+
+.Red-text {
+    color: #D24228;
+}
+
+.Btn-red {
+    background-color: #D24228;
+    color: white;
+    text-transform: uppercase;
+    border: 0;
+    font-size: .9rem;
+    font-weight: 600;
+    padding: 0.625rem;
+    width: 11rem;
+}
+
+
+.Btn-darkblue-h {
+    background-color: #174382;
+    color: white;
+    text-transform: uppercase;
+    border: 0;
+    font-size: .75rem;
+    margin-top: 3rem;
+    font-weight: 600;
+    padding: 0.8125rem;
+    width: 12rem;
+}
+
+.Btn-red-h {
+    background-color: #D24228;
+    color: white;
+    text-transform: uppercase;
+    border: 0;
+    font-size: .8rem;
+    font-weight: 600;
+    padding: 0.8125rem;
+    width: 12rem;
+
+}
+
+.Btn-blue {
+    background-color: #2260B3;
+    color: white;
+    text-transform: uppercase;
+    border: 0;
+    font-size: .95rem;
+    font-weight: 600;
+    padding: 0.5rem;
+    width: 8.6rem;
+    height: 2.8rem;
+}
+
+.Btn-blue2 {
+    background-color: #2260B3;
+    color: white;
+    text-transform: uppercase;
+    border: 0;
+    font-size: .88rem;
+    font-weight: 600;
+    padding: 0.5rem;
+    width: 11rem;
+    height: 2.5rem;
+}
+
+.Btn-darkblue {
+    background-color: #174382;
+    color: white;
+    text-transform: uppercase;
+    border: 0;
+    font-size: .9rem;
+    margin-top: 3rem;
+    font-weight: 600;
+    padding: 0.5rem;
+    width: 7.8rem;
+}
+
+.Copyrigth-text {
+    font-size: 0.7rem;
+}
+
+.Copyrigth-text > a {
+    font-size: 0.7rem;
+    text-decoration: underline;
+    color: #ffffff;
+}

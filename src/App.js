@@ -1,10 +1,14 @@
 import React, {Component} from 'react';
+import {BrowserRouter as Router} from 'react-router-dom';
+import Route from 'react-router-dom/Route';
+
+import './App.css';
+
 import Home from './components/home/Home';
 import Pilotos from './components/pilotos/Pilotos';
 import Instalaciones from './components/instalaciones/Instalaciones';
-import './App.css';
-import {BrowserRouter as Router} from 'react-router-dom';
-import Route from 'react-router-dom/Route';
+import Blogp from './components/blogp/Blogp';
+
 
 class App extends Component {
     render() {
@@ -27,6 +31,12 @@ class App extends Component {
                     <Route path="/instalaciones" exact strict render={
                         ()=>{
                             return (<Instalaciones/>);
+                        }
+                    }/>
+
+                    <Route path="/blog" exact strict render={
+                        ()=>{
+                            return (<Blogp/>);
                         }
                     }/>
                     {/*<Home/>*/}

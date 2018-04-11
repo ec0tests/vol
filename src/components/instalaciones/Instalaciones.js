@@ -53,7 +53,6 @@ for (var i = 0; i < instalaciones_json.instalaciones.length; i++) {
                                           text={instalaciones_json.instalaciones[i].text}
                                           photo={instalaciones_json.instalaciones[i].photo}/>);
 }
-console.log(array_instalaciones);
 
 const Instalaciones = () => (
     <div className="Instalaciones">
