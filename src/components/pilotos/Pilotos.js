@@ -5,7 +5,7 @@ import Card_pilotos from "../pilotos/Card_pilotos";
 import Seo_text from "../pilotos/Seo_text";
 import Carousel_cards from "../comunes/Carousel_cards";
 import Certificado from "../comunes/Certificado";
-import play_ico from '../../images/play-ico.png';
+import Experiencia_volarGlobo from "../comunes/Experiencia_volarGlobo";
 import logo_b from '../../images/vdc-logo-b.png';
 import bkg1 from '../../images/pilotos-bkg1.png';
 
@@ -128,14 +128,7 @@ const Pilotos = () => (
             <div className="container Container-card">
                 <Carousel_cards/>
             </div>
-            <div className="container Container-video pt-5">
-                <div className="row">
-                    <div className="col-12 ">
-                        <img src={play_ico} className="img-fluid mb-4" alt=""/>
-                        <h4>La experiencia <br/> <span className="font-weight-normal">de volar en globo</span></h4>
-                    </div>
-                </div>
-            </div>
+        <Experiencia_volarGlobo/>
         </footer>
     </div>
 )

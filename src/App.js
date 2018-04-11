@@ -8,6 +8,7 @@ import Home from './components/home/Home';
 import Pilotos from './components/pilotos/Pilotos';
 import Instalaciones from './components/instalaciones/Instalaciones';
 import Blogp from './components/blogp/Blogp';
+import Faq from './components/faq/Faq';
 
 
 class App extends Component {
@@ -39,8 +40,12 @@ class App extends Component {
                             return (<Blogp/>);
                         }
                     }/>
-                    {/*<Home/>*/}
-                    {/* <Pilotos/>*/}
+
+                    <Route path="/faq" exact strict render={
+                        ()=>{
+                            return (<Faq/>);
+                        }
+                    }/>
                 </div>
             </Router>
 
