@@ -2,18 +2,22 @@
 header{
     width: 100%;
 }
+
+h1 {
+    font-family: 'Barlow Condensed', sans-serif!important;
+}
 h2 {
     color: #333333;
     font-weight: bold;
     text-transform: uppercase;
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Barlow Condensed', sans-serif!important;
     font-size: 4rem!important;
 }
 h3{
     color: #333333;
     font-weight: bold;
     text-transform: uppercase;
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Barlow Condensed', sans-serif!important;
 
 }
 

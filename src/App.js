@@ -8,6 +8,7 @@ import Home from './components/home/Home';
 import Pilotos from './components/pilotos/Pilotos';
 import Instalaciones from './components/instalaciones/Instalaciones';
 import Blogp from './components/blogp/Blogp';
+import Bloge from './components/bloge/Bloge';
 import Faq from './components/faq/Faq';
 
 
@@ -38,6 +39,12 @@ class App extends Component {
                     <Route path="/blog" exact strict render={
                         ()=>{
                             return (<Blogp/>);
+                        }
+                    }/>
+
+                    <Route path="/entrada_blog" exact strict render={
+                        ()=>{
+                            return (<Bloge/>);
                         }
                     }/>
 

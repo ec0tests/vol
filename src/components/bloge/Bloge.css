@@ -1,0 +1,180 @@
+
+
+.Bloge h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 3.8rem;
+    font-family: 'Barlow Condensed', sans-serif;
+    line-height: 1;
+    margin-bottom: 1.2rem;
+}
+
+.Vol-coloms-g{
+    height: 7rem;
+}
+
+
+.Bloge h1>span{
+    color: #4e80c1;
+    font-weight: bold;
+
+
+}
+
+.Bloge h2{
+    color: #333333;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2.6rem;
+}
+.Bloge h3{
+    color: #333333;
+    font-family: 'Roboto', sans-serif!important;
+    font-weight: normal!important;
+    text-transform: none;
+    font-size: 1.5rem;
+
+}
+
+.Bloge h4{
+    color: #333333;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+p  {
+    color: #8f8f8f;
+}
+
+/*SECCON 1*/
+.Section1-bloge{
+    background-size: cover!important;
+    background: url('../../images/bloge-bkg1.jpg');
+    background-position-x: center;
+    background-repeat: no-repeat;
+    padding-top: 2rem;
+    min-height: 30rem;
+
+}
+.Btn-gris{
+    background-color: #999999;
+    color: #fff;
+    border: 0;
+    padding: 0.5rem;
+    width: 10rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: .9rem;
+}
+
+
+/*SECCON 2*/
+.Section2-bloge {
+    position: relative;
+    padding-top: 2rem;
+}
+
+
+
+.Seccion3-bloge-bkg {
+    right: 0%;
+    position: absolute;
+    top: -13%;
+    z-index: -10;
+}
+
+.Bloge .Row-exp img{
+    height: 15rem;
+}
+
+.Bloge .Row-exp>div{
+    text-align: center;
+}
+
+.Elige-experiencia-titulo{
+    color: #D6D6D6;
+    font-size: 1rem;
+    position: relative;
+    bottom: 1rem;
+}
+
+
+/*SECCION 3*/
+
+.Section3-bloge{
+    position: relative;
+    padding-top: 18rem ;
+
+}
+
+
+/*FOOTER*/
+/*
+.Section4-bloge{
+    background-size: cover!important;
+    background: url('../../images/bloge-bkg4.jpg');
+    background-repeat: no-repeat;
+    height: 60rem;
+    margin-top: 8rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.Section4-bloge .Container-card{
+    top: -30%;
+    position: relative;
+}*/
+
+.Bloge .Btn-blue{
+    width: 13rem;
+    height: 2.5rem;
+}
+
+
+
+.Section4-bloge .Card-row {
+    margin-bottom: 0!important;
+}
+.Section4-bloge .carousel-indicators{
+    padding-top: 2%;
+}
+
+.Section4-bloge .carousel-control-prev{
+    top: 45%;
+}
+.Section4-bloge .carousel-control-next{
+    top: 47%;
+}
+
+.
+
+.Section4-bloge .Container-video{
+}
+
+
+/*SECTION 3*/
+
+.Section4-bloge{
+}
+
+.Links-footer>div{
+    padding-top: 0.5rem;
+    text-align: left;
+}
+.Links-footer>div a{
+    text-align: left;
+    font-size: 0.9rem;
+}
+.Bloge footer{
+    background-color: #2260b2;
+    padding: 1.5rem;
+}
+
+.Bloge footer .Div-ico{
+    width: 9.3%;
+}
+
+.Bloge footer .Div-ico img{
+    width: 2.7rem;
+}
+
