@@ -60,7 +60,16 @@ h4{
     font-size: .8rem;
 }
 
-
+.Btn-gris-sinfondo{
+    background-color: transparent;
+    color: #999999;
+    border: 2px solid #999999;
+    padding: 0.3rem;
+    width: 8rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: .8rem;
+}
 
 .Btn-darkblue-h {
     background-color: #174382;

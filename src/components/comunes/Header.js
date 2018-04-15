@@ -32,10 +32,11 @@ const Header = ({logo}) => (
                     <img src={logo} className="img-fluid" alt=""/>
                 </div>
                 <div className="col-6 d-flex align-items-center justify-content-end pr-5">
-                    <button className="Megamenu">Vuela en globo</button>
-                    <span className="ml-4">MENÚ</span>
-                    <button className="menu-icon" id="desplegable_boton1" onClick={show_menu}><i
+                    <button className="Megamenu text-uppercase">Vuela en globo</button>
+                    <button className="ml-4 menu-icon" id="desplegable_boton1" onClick={show_menu}><i
                         className="fa fa-bars text-white"></i></button>
+                    <span className="">MENÚ</span>
+
 
                     <div className="slideout-sidebar">
                         <div className="row">

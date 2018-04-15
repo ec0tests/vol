@@ -1,0 +1,266 @@
+
+
+.Div-pack-historico h1{
+    color:white;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 4.5rem;
+text-transform: uppercase;
+    line-height: 1;
+}
+.Div-pack-historico h5{
+    color:white;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.Pack-historico .Experiencia-completa-bkg {
+    max-height: 100%;
+    top: 9%;
+}
+
+.Pack-historico h1>span{
+    color: #4e80c1;
+    font-weight: bold;
+
+
+}
+.Btn-historico{
+    background-color: #1ea6ac;
+    color: #ffffff;
+
+    width: 10rem;
+    border: 2px solid #1ea6ac;
+}
+
+.Pack-historico h2{
+    color: #333333;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 3rem;
+}
+.Pack-historico h3{
+    color: #333333;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+.Pack-historico h4{
+    color: #333333;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+p  {
+    color: #8f8f8f;
+}
+
+/*SECCON 1*/
+.Section1-pack-historico{
+    background-size: cover!important;
+    background: url('../../images/pack-historico-bkg1.jpg');
+    background-position-x: center;
+    background-repeat: no-repeat;
+    padding-top: 2rem;
+    min-height: 31rem;
+
+}
+
+
+/*SECCON 2*/
+.Section2-pack-historico {
+    position: relative;
+    padding-top: 2rem;
+}
+
+
+
+.Seccion3-pack-historico-bkg {
+    right: 0%;
+    position: absolute;
+    top: -13%;
+    z-index: -10;
+}
+
+
+
+
+
+/*SECCION 3*/
+
+.Section3-pack-historico{
+    background-size: cover!important;
+    background: url('../../images/pilotos-bkg4.jpg');
+    background-repeat: no-repeat;
+    height: 84rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Botones-pack-historico .col-3{
+    flex: 0 0 22%;
+}
+/*FOOTER*/
+/*
+.Section4-pack-historico{
+    background-size: cover!important;
+    background: url('../../images/pack-historico-bkg4.jpg');
+    background-repeat: no-repeat;
+    height: 60rem;
+    margin-top: 8rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.Section4-pack-historico .Container-card{
+    top: -30%;
+    position: relative;
+}*/
+
+.Pack-historico .Btn-blue{
+    width: 13rem;
+    height: 2.5rem;
+}
+
+
+
+.Section4-pack-historico .Card-row {
+    margin-bottom: 0!important;
+}
+.Section4-pack-historico .carousel-indicators{
+    padding-top: 2%;
+}
+
+.Section4-pack-historico .carousel-control-prev{
+    top: 45%;
+}
+.Section4-pack-historico .carousel-control-next{
+    top: 47%;
+}
+
+.
+
+.Section4-pack-historico .Container-video{
+}
+
+
+/*SECTION 3*/
+
+.Section4-pack-historico{
+}
+
+.Links-footer>div{
+    padding-top: 0.5rem;
+    text-align: left;
+}
+.Links-footer>div a{
+    text-align: left;
+    font-size: 0.9rem;
+}
+.Pack-historico footer{
+    background-color: #2260b2;
+    padding: 1.5rem;
+}
+
+.Pack-historico footer .Div-ico{
+    width: 7.3%;
+}
+
+.Pack-historico footer .Div-ico img{
+    width: 2.7rem;
+}
+
+.Pack-historico-card{
+    position: absolute;
+    z-index: 10;
+    height: 13rem;
+    width: 20rem;
+    font-size: .92rem;
+    color: #616161;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+.Pack-historico-personas{
+    display: none;
+}
+
+.Pack-historico-tipovuelo{
+    height: 17.4rem;
+    width: 19rem;
+}
+.Pack-historico-boton-mas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #2260B3;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    color: #2260B3;
+    font-weight: bold;
+    cursor: pointer;
+}
+.Pack-historico-boton-menos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #b5b5b6;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    color: #b5b5b6;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.Pack-historico-gray{
+    color: #b5b5b6;
+}
+.Btn-restablecer{
+    background-color: transparent;
+    border: 0;
+    color: #b5b5b6;
+}
+.Btn-aplicar{
+    background-color: transparent;
+    border: 0;
+    color: #2260B3;
+    float: right;
+    font-weight: 600;
+}
+
+
+
+.Pack-historico .form-check-label{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.Input-gray{
+    color: #b5b5b6;
+    font-size: .75rem!important;
+}
+
+.Input-gray .form-check-label{
+    color: #b5b5b6;
+    font-size: .75rem!important;
+}
+
+.Section5-pack-historico{
+    background:  url('../../images/bkg-experiencia-1920.jpg');
+    background-repeat: no-repeat;
+    height: 70rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover!important;
+    justify-content: center;
+    -webkit-clip-path: polygon(0 22%, 100% 6%, 100% 100%, 0% 100%);
+    clip-path: polygon(0 22%, 100% 6%, 100% 100%, 0% 100%);
+    padding-top: 14rem;
+}

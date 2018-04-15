@@ -229,7 +229,7 @@ const Bloge = () => (
                     </div>
                 </div>
 
-                <div className="row justify-content-center w-100 mt-5">
+                <div className="row justify-content-center w-100 mt-5 m-0 ">
                     {array_cards_experiencias}
                 </div>
                 <div className="row mt-5">

@@ -1,0 +1,231 @@
+
+
+.Filtro h1{
+    color:white;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 4.5rem;
+text-transform: uppercase;
+}
+.Filtro h1>span{
+    color: #4e80c1;
+    font-weight: bold;
+
+
+}
+
+.Filtro h2{
+    color: #333333;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 3rem;
+}
+.Filtro h3{
+    color: #333333;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+.Filtro h4{
+    color: #333333;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+p  {
+    color: #8f8f8f;
+}
+
+/*SECCON 1*/
+.Section1-filtro{
+    background-size: cover!important;
+    background: url('../../images/filtro-bkg1.jpg');
+    background-position-x: center;
+    background-repeat: no-repeat;
+    padding-top: 2rem;
+    min-height: 21rem;
+
+}
+
+
+/*SECCON 2*/
+.Section2-filtro {
+    position: relative;
+    padding-top: 2rem;
+}
+
+
+
+.Seccion3-filtro-bkg {
+    right: 0%;
+    position: absolute;
+    top: -13%;
+    z-index: -10;
+}
+
+
+
+
+
+/*SECCION 3*/
+
+.Section3-filtro{
+    background-size: cover!important;
+    background: url('../../images/faq-bkg1.jpg');
+    background-repeat: no-repeat;
+    height: 84rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Botones-filtro .col-3{
+    flex: 0 0 22%;
+}
+/*FOOTER*/
+/*
+.Section4-filtro{
+    background-size: cover!important;
+    background: url('../../images/filtro-bkg4.jpg');
+    background-repeat: no-repeat;
+    height: 60rem;
+    margin-top: 8rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.Section4-filtro .Container-card{
+    top: -30%;
+    position: relative;
+}*/
+
+.Filtro .Btn-blue{
+    width: 13rem;
+    height: 2.5rem;
+}
+
+
+
+.Section4-filtro .Card-row {
+    margin-bottom: 0!important;
+}
+.Section4-filtro .carousel-indicators{
+    padding-top: 2%;
+}
+
+.Section4-filtro .carousel-control-prev{
+    top: 45%;
+}
+.Section4-filtro .carousel-control-next{
+    top: 47%;
+}
+
+.
+
+.Section4-filtro .Container-video{
+}
+
+
+/*SECTION 3*/
+
+.Section4-filtro{
+}
+
+.Links-footer>div{
+    padding-top: 0.5rem;
+    text-align: left;
+}
+.Links-footer>div a{
+    text-align: left;
+    font-size: 0.9rem;
+}
+.Filtro footer{
+    background-color: #2260b2;
+    padding: 1.5rem;
+}
+
+.Filtro footer .Div-ico{
+    width: 7.3%;
+}
+
+.Filtro footer .Div-ico img{
+    width: 2.7rem;
+}
+
+.Filtro-card{
+    position: absolute;
+    z-index: 10;
+    height: 13rem;
+    width: 20rem;
+    font-size: .92rem;
+    color: #616161;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+.Filtro-personas{
+    display: none;
+}
+
+.Filtro-tipovuelo{
+    height: 17.4rem;
+    width: 19rem;
+}
+.Filtro-boton-mas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #2260B3;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    color: #2260B3;
+    font-weight: bold;
+    cursor: pointer;
+}
+.Filtro-boton-menos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #b5b5b6;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    color: #b5b5b6;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.Filtro-gray{
+    color: #b5b5b6;
+}
+.Btn-restablecer{
+    background-color: transparent;
+    border: 0;
+    color: #b5b5b6;
+}
+.Btn-aplicar{
+    background-color: transparent;
+    border: 0;
+    color: #2260B3;
+    float: right;
+    font-weight: 600;
+}
+
+
+
+.Filtro .form-check-label{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.Input-gray{
+    color: #b5b5b6;
+    font-size: .75rem!important;
+}
+
+.Input-gray .form-check-label{
+    color: #b5b5b6;
+    font-size: .75rem!important;
+}

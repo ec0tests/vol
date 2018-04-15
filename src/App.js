@@ -10,6 +10,10 @@ import Instalaciones from './components/instalaciones/Instalaciones';
 import Blogp from './components/blogp/Blogp';
 import Bloge from './components/bloge/Bloge';
 import Faq from './components/faq/Faq';
+import Pack_romantico from './components/pack_romantico/Pack_romantico';
+import Filtro from './components/filtro/Filtro';
+import Pack_historico from "./components/pack_historico/Pack_historico";
+import Categorias from "./components/categorias/Categorias";
 
 
 class App extends Component {
@@ -51,6 +55,28 @@ class App extends Component {
                     <Route path="/faq" exact strict render={
                         ()=>{
                             return (<Faq/>);
+                        }
+                    }/>
+
+                    <Route path="/filtro" exact strict render={
+                        ()=>{
+                            return (<Filtro/>);
+                        }
+                    }/>
+
+                    <Route path="/pack_romantico" exact strict render={
+                        ()=>{
+                            return (<Pack_romantico/>);
+                        }
+                    }/>
+                    <Route path="/pack_historico" exact strict render={
+                        ()=>{
+                            return (<Pack_historico/>);
+                        }
+                    }/>
+                    <Route path="/categorias" exact strict render={
+                        ()=>{
+                            return (<Categorias/>);
                         }
                     }/>
                 </div>

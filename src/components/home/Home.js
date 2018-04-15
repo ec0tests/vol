@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 
-import bkg3 from '../../images/bkg-3.png';
 import bkg3_2 from '../../images/bkg-3-2.png';
 import bkg3__ico from '../../images/seccion3-bkg-ico.png';
 import bkg2 from '../../images/bkg-2.png';
@@ -16,14 +15,11 @@ import globo_ico4 from '../../images/Icon-Cat-Pareja-b-85.png';
 import globo_ico5 from '../../images/Icon-Cat-4amigo-b-85.png';
 import globo_ico6 from '../../images/Icon-Cat-Grupo-b-85.png';
 
-import exp_ico1 from '../../images/exp-ico1.jpg';
-import exp_ico2 from '../../images/exp-ico2.jpg';
-import exp_ico3 from '../../images/exp-ico3.jpg';
-import exp_ico4 from '../../images/exp-ico4.jpg';
 import redes_ico from '../../images/redes_sociales.png';
 
 import './Home.css'
 import Carousel_cards from "../comunes/Carousel_cards";
+import Experiencia_completa from "../comunes/Experiencia_completa";
 import Header from "../comunes/Header";
 import Footer_patrocinadores from "../comunes/Footer_patrocinadores";
 import Subetufoto from "../comunes/Subetufoto";
@@ -191,46 +187,8 @@ class Home extends React.Component {
                     </div>
                 </section>
 
+                <Experiencia_completa/>
 
-                <section id="Section4" className="Section4">
-                    <img src={bkg3} className="Seccion4-bkg" alt=""/>
-                    <div className="container pt-4">
-                        <h2 className="Text-gray text-uppercase display-4 Home-h2">La experiencia completa </h2>
-                        <h3>Una oferta redonda para cada gusto</h3>
-                        <div className="row justify-content-center pt-4">
-
-                            <div className="col-md-3 Exp-ico ">
-                                <h5>Aventura</h5>
-
-                                <img src={exp_ico1} className="img-fluid" alt=""/>
-
-
-                            </div>
-                            <div className="col-md-3 Exp-ico ">
-                                <h5>Aventura</h5>
-
-                                <img src={exp_ico2} className="img-fluid" alt=""/>
-
-
-                            </div>
-                            <div className="col-md-3 Exp-ico ">
-                                <h5>Aventura</h5>
-
-                                <img src={exp_ico3} className="img-fluid" alt=""/>
-
-
-                            </div>
-                            <div className="col-md-3 Exp-ico ">
-                                <h5>Aventura</h5>
-
-                                <img src={exp_ico4} className="img-fluid" alt=""/>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-                </section>
 
 
                 <section id="Section5" className="Section5">

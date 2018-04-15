@@ -1,0 +1,35 @@
+.Experiencia-completa {
+    padding: 10rem 0;
+    position: relative;
+}
+
+.Experiencia-completa-bkg {
+    left: 0;
+    position: absolute;
+    top: -9%;
+    z-index: -1;
+}
+
+.Experiencia-completa .row div {
+    padding: 0 0.9125rem;
+}
+
+.Experiencia-completa h5 {
+    right: 0.125rem;
+    color: white;
+    font-weight: 600;
+    font-size: 1.8rem;
+    top: 20%;
+
+    position: absolute;
+    width: 100%;
+}
+
+.Exp-ico-gen {
+    display: flex;
+    height: 26rem;
+    width: 4rem;
+    justify-content: center;
+    align-items: flex-end;
+    background-size: cover!important;
+}

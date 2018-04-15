@@ -46,14 +46,7 @@ button:hover {
 /*-------------------*/
 /*  MEGAMENU */
 /*-------------------*/
-.Megamenu {
-    background-color: transparent;
-    color: #ffffff;
-    border: 0.125rem solid white;
-    font-size: 1.125rem;
-    padding: .2rem;
-    width: 10rem;
-}
+
 
 header > .container {
     margin: 10% auto;
@@ -248,41 +241,6 @@ header > .container {
 /*-------------------*/
 /*  SECCION 4 */
 /*-------------------*/
-.Section4 {
-    padding: 10rem 0;
-    position: relative;
-}
-
-.Seccion4-bkg {
-    left: 0;
-    position: absolute;
-    top: -9%;
-    z-index: -1;
-}
-
-.Section4 .row div {
-    padding: 0 0.9125rem;
-}
-
-.Section4 h5 {
-    right: 0.125rem;
-    color: white;
-    font-weight: 600;
-    font-size: 1.8rem;
-    top: 20%;
-
-    position: absolute;
-    width: 100%;
-}
-
-.Exp-ico-gen {
-    display: flex;
-    height: 26rem;
-    width: 4rem;
-    justify-content: center;
-    align-items: flex-end;
-    background-size: cover!important;
-}
 
 /*-------------------*/
 /*  SECCION 5 */
