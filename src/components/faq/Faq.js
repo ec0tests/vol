@@ -25,37 +25,43 @@ import Experiencia_volarGlobo from "../comunes/Experiencia_volarGlobo";
 let array_preguntas_faq = [];
 /*JSON DE PRUEBA*/
 let preguntas_faq = {
+
     "preguntas_faq": [
         {
             "pregunta": "Feria medieval de Besalú y vuelo en globo en la Garrotxa",
-            "respuesta": 'respuesta'
+            "respuesta": 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aperiam blanditiis consectetur delectus dolore earum eos, ex illum ipsa ipsam iusto labore modi molestias omnis repudiandae tenetur velit vitae voluptatem.\n'
         },
         {
-            "title": "Feria medieval de Besalú y vuelo en globo en la Garrotxa",
-            "photo": 'img-blog1'
+            "pregunta": "Feria medieval de Besalú y vuelo en globo en la Garrotxa",
+            "respuesta": 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aperiam blanditiis consectetur delectus dolore earum eos, ex illum ipsa ipsam iusto labore modi molestias omnis repudiandae tenetur velit vitae voluptatem.\n'
+
         },
         {
-            "title": "Feria medieval de Besalú y vuelo en globo en la Garrotxa",
-            "photo": 'img-blog1'
+            "pregunta": "Feria medieval de Besalú y vuelo en globo en la Garrotxa",
+            "respuesta": 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aperiam blanditiis consectetur delectus dolore earum eos, ex illum ipsa ipsam iusto labore modi molestias omnis repudiandae tenetur velit vitae voluptatem.\n'
+
         },
         {
-            "title": "Feria medieval de Besalú y vuelo en globo en la Garrotxa",
-            "photo": 'img-blog1'
+            "pregunta": "Feria medieval de Besalú y vuelo en globo en la Garrotxa",
+            "respuesta": 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aperiam blanditiis consectetur delectus dolore earum eos, ex illum ipsa ipsam iusto labore modi molestias omnis repudiandae tenetur velit vitae voluptatem.\n'
+
         },
         {
-            "title": "Feria medieval de Besalú y vuelo en globo en la Garrotxa",
-            "photo": 'img-blog1'
+            "pregunta": "Feria medieval de Besalú y vuelo en globo en la Garrotxa",
+            "respuesta": 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aperiam blanditiis consectetur delectus dolore earum eos, ex illum ipsa ipsam iusto labore modi molestias omnis repudiandae tenetur velit vitae voluptatem.\n'
+
         },
         {
-            "title": "Feria medieval de Besalú y vuelo en globo en la Garrotxa",
-            "photo": 'img-blog1'
-        },
+            "pregunta": "Feria medieval de Besalú y vuelo en globo en la Garrotxa",
+            "respuesta": 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aperiam blanditiis consectetur delectus dolore earum eos, ex illum ipsa ipsam iusto labore modi molestias omnis repudiandae tenetur velit vitae voluptatem.\n'
+
+        }
     ]
 }
-/*for (var i = 0; i < preguntas_faq.preguntas_faq.length; i++) {
-    array_preguntas_faq.push(<Pregunta_faq title={preguntas_faq.preguntas_faq[i].pregunta}
-                                          photo={preguntas_faq.preguntas_faq[i].respuesta}/>);
-}*/
+for (var i = 0; i < preguntas_faq.preguntas_faq.length; i++) {
+    array_preguntas_faq.push(<Pregunta_faq pregunta={preguntas_faq.preguntas_faq[i].pregunta}
+                                           respuesta={preguntas_faq.preguntas_faq[i].respuesta}/>);
+}
 const Faq = () => (
     <div className="Faq">
 
@@ -73,12 +79,11 @@ const Faq = () => (
             </div>
         </section>
 
-        <main className="Section2-faq text-left px-5">
+        <main className="Section2-faq text-left ">
             <div className="container-fluid px-5">
 
                 <div className="row pt-2">
-
-                    {/*     {array_preguntas_faq}*/}
+                    {array_preguntas_faq}
 
                 </div>
                 <div className="row mt-5">
@@ -98,13 +103,12 @@ const Faq = () => (
             </div>
         </section>
         <section className="Section4-faq">
-           <Experiencia_volarGlobo/>
+            <Experiencia_volarGlobo/>
         </section>
 
 
-
         <footer className="Footer_estilo1">
-         <Footer_estilo1/>
+            <Footer_estilo1/>
         </footer>
 
 

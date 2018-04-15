@@ -53,7 +53,6 @@ for (var i = 0; i < entradas_blog.entradas_blog.length; i++) {
     array_entradas_blog.push(<Entrada_blog title={entradas_blog.entradas_blog[i].title}
                                           photo={entradas_blog.entradas_blog[i].photo}/>);
 }
-console.log(entradas_blog);
 const Blogp = () => (
     <div className="Blogp">
 

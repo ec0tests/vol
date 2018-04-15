@@ -1,4 +1,8 @@
 
+p{
+    font-family: 'Roboto', sans-serif!important;
+
+}
 header{
     width: 100%;
 }
@@ -17,6 +21,10 @@ h3{
     color: #333333;
     font-weight: bold;
     text-transform: uppercase;
+    font-family: 'Barlow Condensed', sans-serif!important;
+
+}
+h4{
     font-family: 'Barlow Condensed', sans-serif!important;
 
 }
@@ -41,6 +49,17 @@ h3{
     padding: 0.625rem;
     width: 11rem;
 }
+.Btn-gris{
+    background-color: #999999;
+    color: #fff;
+    border: 0;
+    padding: 0.5rem;
+    width: 10rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: .8rem;
+}
+
 
 
 .Btn-darkblue-h {

@@ -14,7 +14,10 @@ body {
     transition: all 300ms ease-in-out;
 
 }
-
+header .Div-ico{
+    width: 100%;
+    opacity: 0.5;
+}
 .site-title {
     text-align: center;
     border-bottom: 1px solid #111111;
@@ -46,6 +49,10 @@ right: 0;
     background-color: #0A1F3C;
     transition: all 300ms ease-in-out;
     display: none;
+}
+
+.Fondo-logo-menu{
+   background: #13315a
 }
 .menu-icon{
     background-color: transparent;

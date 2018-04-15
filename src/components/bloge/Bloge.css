@@ -1,5 +1,4 @@
 
-
 .Bloge h1 {
     color: white;
     font-weight: bold;
@@ -10,7 +9,7 @@
 }
 
 .Vol-coloms-g{
-    height: 7rem;
+    height: 8rem;
 }
 
 
@@ -21,18 +20,18 @@
 
 }
 
-.Bloge h2{
+ .Section2-bloge h2{
     color: #333333;
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 2.6rem;
+    font-size: 2.6rem!important;
 }
 .Bloge h3{
     color: #333333;
     font-family: 'Roboto', sans-serif!important;
     font-weight: normal!important;
     text-transform: none;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
 
 }
 
@@ -41,9 +40,7 @@
     font-weight: bold;
     font-size: 1.5rem;
 }
-p  {
-    color: #8f8f8f;
-}
+
 
 /*SECCON 1*/
 .Section1-bloge{
@@ -72,6 +69,45 @@ p  {
     position: relative;
     padding-top: 2rem;
 }
+.Section2-bloge p{
+    color: #666666!important;
+    font-family: 'Roboto', sans-serif!important;
+
+}
+.Section2-bloge p a{
+    color: #2260b2;
+    text-decoration: underline;
+    font-weight: 600;
+}
+/*ICONOS FONT AWESOMEE A COLOR*/
+
+.Face-ico-color{
+    color:#3a559f;
+    font-size: 2.2rem;
+}
+.Twit-ico-color{
+    color:#50abf1;
+    font-size: 2.2rem;
+}
+.You-ico-color{
+    color:#dc472e;
+    font-size: 2.2rem;
+}
+.Ins-ico-color{
+    color:#507fa7;
+    font-size: 2.2rem;
+}
+.Goo-ico-color{
+     color:#dd4b39;
+    font-size: 2.2rem;
+ }
+.Link-ico-color{
+    color:#0084b1;
+    font-size: 2.2rem;
+}
+
+
+
 
 
 
@@ -91,7 +127,7 @@ p  {
 }
 
 .Elige-experiencia-titulo{
-    color: #D6D6D6;
+    color: #666666;
     font-size: 1rem;
     position: relative;
     bottom: 1rem;
@@ -102,7 +138,8 @@ p  {
 
 .Section3-bloge{
     position: relative;
-    padding-top: 18rem ;
+    padding-top: 6rem ;
+    padding-bottom: 8rem ;
 
 }
 

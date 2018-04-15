@@ -1,0 +1,139 @@
+.Card-experiencias{
+    -webkit-box-shadow: 0px 0px 18px 0px rgba(173,173,173,1);
+    -moz-box-shadow: 0px 0px 18px 0px rgba(173,173,173,1);
+    box-shadow: 0px 0px 18px 0px rgba(173,173,173,1);
+    padding: 0;
+}
+
+.Card-experiencias .col-md-3{
+    flex: 0 0 20%;
+
+}
+
+.Card-experiencias svg {
+    float: right;
+    margin-right: 10px;
+    margin-top: .4rem;
+}
+
+.Pack {
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.Titulo {
+    font-weight: bold;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    color: #333333;
+}
+
+.Precio-card {
+    font-weight: bold;
+    color: #cccccc;
+    font-size: 2.2rem;
+}
+
+.Tipo {
+    line-height: 1;
+
+}
+
+.Tipo span {
+    font-size: 0.7rem;
+    color: #8c8c8c;
+}
+
+.card {
+    -webkit-box-shadow: -1px 10px 34px -2px rgba(166, 166, 166, 1);
+    -moz-box-shadow: -1px 10px 34px -2px rgba(166, 166, 166, 1);
+    box-shadow: -1px 10px 34px -2px rgba(166, 166, 166, 1);
+}
+
+.Carousel-arrow {
+    color: #cccccc;
+    font-size: 2rem;
+}
+
+/*Cambio la posición de los carousel*/
+.carousel-control-prev {
+    left: 12%;
+    top: 31%;
+    height: 3%;
+    z-index: 1000;
+    padding-top: 1rem;
+}
+
+.carousel-control-next {
+    right: 12%;
+    top: 32%;
+    height: 3%;
+    z-index: 1000;
+}
+
+.carousel-indicators {
+    top: 8%;
+
+}
+
+.Card-row {
+    height: 35rem;
+    margin-bottom: 20rem !important;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 3rem;
+}
+
+.card-body p {
+    font-size: 1.3rem;
+}
+
+.Price-card {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #666666;
+}
+
+.Info-card {
+    font-size: 0.85rem;
+    color: #666666;
+}
+
+.card-body h5 {
+    font-weight: 700;
+    color: #333333;
+}
+
+/*CONTROLO EL COLOR DEL DEL PACK SEGUN EL NOMBRE DEL PACK QUE ME VIENE*/
+.romantico{
+    color:#d9632a;
+
+}
+
+.aventura{
+    color: #338554;
+}
+
+.gastronomico{
+    color: #18c391;
+}
+.relax{
+    color: #c48ab8;
+}
+/*-------------*/
+.grande {
+    height: 35rem;
+}
+
+.peq {
+    height: 27rem;
+}
+.peq2{
+    height: 18rem;
+
+}

@@ -3,24 +3,48 @@ import React, {Component} from 'react';
 
 import bkg from '../../images/instalacion1.jpg';
 import './Pregunta_faq.css'
-class Pregunta_faq extends React.Component {
-    render() {
-        return (
-                <div className="col-12 col-md-6 mt-5">
-                    <div className="col-12 mb-5 text-center ">
-                        <img src={require(`../../images/${this.props.photo.toLowerCase()}.jpg`)}
-                             className="img-fluid Img-entradablog w-100 "alt=""/>
-
-                    </div>
-                    <div className="col-12">
-                    <h3 className="Entradablog-h3">{this.props.title}</h3>
-                    </div>
-                </div>
 
 
-            );
+document.addEventListener("DOMContentLoaded", function(event) {
+
+
+    var acc = document.getElementsByClassName("accordion");
+    var panel = document.getElementsByClassName('panel');
+
+    for (var i = 0; i < acc.length; i++) {
+        acc[i].onclick = function() {
+            var setClasses = !this.classList.contains('active');
+            setClass(acc, 'active', 'remove');
+            setClass(panel, 'show', 'remove')
+
+            if (setClasses) {
+                this.classList.toggle("active");
+                this.nextElementSibling.classList.toggle("show");
+            }
+        }
     }
-}
+
+    function setClass(els, className, fnName) {
+        for (var i = 0; i < els.length; i++) {
+            els[i].classList[fnName](className);
+        }
+    }
+
+
+
+});
+
+const Pregunta_faq = ({pregunta,respuesta})=> (
+
+            <div className=" w-100 Pregunta-div mb-4">
+
+                <p className="accordion">{pregunta}</p>
+                <div className="panel"> <p>{respuesta}</p> </div>
+
+
+            </div>
+
+)
 
 
 export default Pregunta_faq;

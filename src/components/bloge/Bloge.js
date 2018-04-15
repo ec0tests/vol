@@ -19,11 +19,99 @@ import exp_ico1 from '../../images/exp-ico1.jpg';
 import exp_ico2 from '../../images/exp-ico2.jpg';
 import exp_ico3 from '../../images/exp-ico3.jpg';
 import exp_ico4 from '../../images/exp-ico4.jpg';
+import tarjeta_img1 from '../../images/tarjeta-vuelo-foto1.jpg';
+import tarjeta_img2 from '../../images/tarjeta-vuelo-foto2.jpg';
 
 
-import bkg2 from '../../images/bkg-2.png';
-import Carousel_cards from "../comunes/Carousel_cards";
+import dibujo_globo from '../../images/dibujo-globo-g.png';
+import Card_experiencias from "../comunes/Card_experiencias";
 
+
+let array_cards_experiencias = [];
+/*JSON DE PRUEBA*/
+let cards_experiencias_json = {
+    "cards_experiencias": [
+        {
+             "tamanyo": "grande",
+            "pack": "romantico",
+            "titulo": 'vuelo por la garrotxa',
+            "precio": '200',
+            "iconos": "Icon-Cat-Grupo-g-30",
+            "titulo": 'vuelo por la garrotxa',
+            "tipo_vuelo": 'Vuelo individual',
+            "tipo_globo": 'Globo compartido',
+            "titulo": 'vuelo por la garrotxa',
+            "photo": "tarjeta-vuelo-foto1"
+        },
+        {
+             "tamanyo": "peq",
+            "pack": "aventura",
+            "titulo": 'vuelo por la garrotxa',
+            "precio": '200',
+            "iconos": "Icon-Cat-Grupo-g-30",
+            "titulo": 'vuelo por la garrotxa',
+            "tipo_vuelo": 'Vuelo individual',
+            "tipo_globo": 'Globo compartido',
+            "titulo": 'vuelo por la garrotxa',
+            "photo": "tarjeta-vuelo-foto1"
+        },
+        {
+             "tamanyo": "grande",
+            "pack": "gastronomico",
+            "titulo": 'vuelo por la garrotxa',
+            "precio": '200',
+            "iconos": "Icon-Cat-Grupo-g-30",
+            "titulo": 'vuelo por la garrotxa',
+            "tipo_vuelo": 'Vuelo individual',
+            "tipo_globo": 'Globo compartido',
+            "titulo": 'vuelo por la garrotxa',
+            "photo": "tarjeta-vuelo-foto1"
+        },
+        {
+             "tamanyo": "peq",
+            "pack": "relax",
+            "titulo": 'vuelo por la garrotxa',
+            "precio": '200',
+            "iconos": "Icon-Cat-Grupo-g-30",
+            "titulo": 'vuelo por la garrotxa',
+            "tipo_vuelo": 'Vuelo individual',
+            "tipo_globo": 'Globo compartido',
+            "titulo": 'vuelo por la garrotxa',
+            "photo": "tarjeta-vuelo-foto1"
+        },
+        {
+             "tamanyo": "grande",
+            "pack": "romantico",
+            "titulo": 'vuelo por la garrotxa',
+            "precio": '200',
+            "iconos": "Icon-Cat-Grupo-g-30",
+            "titulo": 'vuelo por la garrotxa',
+            "tipo_vuelo": 'Vuelo individual',
+            "tipo_globo": 'Globo compartido',
+            "titulo": 'vuelo por la garrotxa',
+            "photo": "tarjeta-vuelo-foto1"
+        },
+        {
+            "tamanyo": "peq",
+            "pack": "romantico",
+            "titulo": 'vuelo por la garrotxa',
+            "precio": '200',
+            "iconos": "Icon-Cat-Grupo-g-30",
+            "titulo": 'vuelo por la garrotxa',
+            "photo": "tarjeta-vuelo-foto1"
+        },
+    ]
+}
+for (var i = 0; i < cards_experiencias_json.cards_experiencias.length; i++) {
+    array_cards_experiencias.push(<Card_experiencias tamanyo={cards_experiencias_json.cards_experiencias[i].tamanyo}
+                                                     pack={cards_experiencias_json.cards_experiencias[i].pack}
+                                                     titulo={cards_experiencias_json.cards_experiencias[i].titulo}
+                                                     tipo_vuelo={cards_experiencias_json.cards_experiencias[i].tipo_vuelo}
+                                                     tipo_globo={cards_experiencias_json.cards_experiencias[i].tipo_globo}
+                                                     precio={cards_experiencias_json.cards_experiencias[i].precio}
+                                                     iconos={cards_experiencias_json.cards_experiencias[i].iconos}
+                                                     photo={cards_experiencias_json.cards_experiencias[i].photo}/>);
+}
 
 const Bloge = () => (
     <div className="Bloge">
@@ -50,46 +138,54 @@ const Bloge = () => (
                         <div className="col-12 mb-5 py-3">
                             <h2 className="w-100">Subtitular de la notícia</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam beatae consequatur,
-                                laudantium quis soluta temporibus voluptate voluptatibus! Aspernatur autem excepturi molestiae mollitia nobis repellat   . Distinctio perferendis porro quos? Cum, magni.</p>
+                                laudantium quis soluta temporibus voluptate voluptatibus! Aspernatur autem excepturi
+                                molestiae mollitia nobis repellat . Distinctio perferendis porro quos? Cum, magni. <a
+                                    href="">Más info</a></p>
                         </div>
 
                         <div className="col-12 mb-5 py-3">
                             <h2 className="w-100">Subtitular de la notícia</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam beatae consequatur,
-                                laudantium quis soluta temporibus voluptate voluptatibus! Aspernatur autem excepturi molestiae mollitia nobis repellat   . Distinctio perferendis porro quos? Cum, magni.</p>
+                                laudantium quis soluta temporibus voluptate voluptatibus! Aspernatur autem excepturi
+                                molestiae mollitia nobis repellat . Distinctio perferendis porro quos? Cum, magni.</p>
                             <img src={imgprueba} className="img-fluid w-100" alt=""/>
                         </div>
 
                         <div className="col-12 py-3">
                             <h2 className="w-100">Subtitular de la notícia</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam beatae consequatur,
-                                laudantium quis soluta temporibus voluptate voluptatibus! Aspernatur autem excepturi molestiae mollitia nobis repellat   . Distinctio perferendis porro quos? Cum, magni.</p>
+                                laudantium quis soluta temporibus voluptate voluptatibus! Aspernatur autem excepturi
+                                molestiae mollitia nobis repellat . Distinctio perferendis porro quos? Cum, magni.</p>
                         </div>
 
-                        <div className="col-12 d-flex text-left align-items-center">
+                        <div className="col-12 mt-4 d-flex text-left align-items-center">
                             <div className="Div-ico">
-                                <img src={ico_face} className="img-fluid" alt=""/>
+                                <i class="fab fa-facebook-square Face-ico-color"></i>
                             </div>
                             <div className="Div-ico">
-                                <img src={ico_twitter} className="img-fluid" alt=""/>
+                                <i class="fab fa-twitter-square Twit-ico-color"></i>
                             </div>
                             <div className="Div-ico">
-                                <img src={ico_inst} className="img-fluid" alt=""/>
+                                <i class="fab fa-youtube You-ico-color"></i>
                             </div>
                             <div className="Div-ico">
-                                <img src={ico_youtube} className="img-fluid" alt=""/>
+                                <i class="fab fa-instagram Ins-ico-color"></i>
                             </div>
                             <div className="Div-ico">
-                                <img src={ico_face} className="img-fluid" alt=""/>
+                                <i class="fab fa-google-plus-square Goo-ico-color"></i>
+                            </div>
+                            <div className="Div-ico">
+                                <i class="fab fa-linkedin Link-ico-color"></i>
                             </div>
                         </div>
 
                     </div>
 
                     <div className="col-12 col-md-4">
-                        <div className="row">
+                        <div className="row justify-content-center">
                             <img src={logo_g} className="img-fluid Vol-coloms-g" alt=""/>
-                            <span className="text-center w-100  Elige-experiencia-titulo">Elige tu experiencia en globo</span>
+                            <span
+                                className="text-center w-100  Elige-experiencia-titulo">Elige tu experiencia en globo</span>
 
                         </div>
 
@@ -109,7 +205,7 @@ const Bloge = () => (
                         </div>
 
                         <div className="row justify-conten-center">
-                               <Certificado_peq/>
+                            <Certificado_peq/>
                         </div>
                     </div>
                 </div>
@@ -120,24 +216,31 @@ const Bloge = () => (
 
         <section id="Section3" className="Section3-bloge Text-gray">
 
-            <div className="container">
+            <div className="container-fluid">
                 <div className="row">
-                    <div className="col-md-12">
-                        <img src={bkg2} className="img-fluid" alt=""/>
+                    <div className="col-md-12 mb-5">
+                        <img src={dibujo_globo} className="img-fluid" alt=""/>
 
                     </div>
-<div className="col-md-12">
-    <h2 className="text-center">Te proponemos experiencias</h2>
-    <h3 className="text-center ">Combina tu vuelo con alojamiento,comida o actividades turisticas</h3>
-</div>
+                    <div className="col-md-12 mt-2">
+                        <h2 className="text-center">Te proponemos experiencias</h2>
+                        <h3 className="text-center ">Combina tu vuelo con alojamiento,comida o actividades
+                            turisticas</h3>
+                    </div>
+                </div>
+
+                <div className="row justify-content-center w-100 mt-5">
+                    {array_cards_experiencias}
+                </div>
+                <div className="row mt-5">
+                    <div className="col-12 text-center">
+                        <button className="Btn-gris">Cargar más</button>
+                    </div>
                 </div>
 
 
             </div>
         </section>
-
-
-
 
 
         <section id="Section5" className="Section5 pt-5">
