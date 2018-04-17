@@ -30,6 +30,7 @@ import Header from "../comunes/Header";
 import Footer_patrocinadores from "../comunes/Footer_patrocinadores";
 import Subetufoto from "../comunes/Subetufoto";
 
+
 class Home extends React.Component {
     render() {
         return (
@@ -134,7 +135,8 @@ class Home extends React.Component {
                         <div className="row justify-content-center ">
 
                             <div className="col-12 pt-3">
-                                <h2 className="Text-gray display-4 text-uppercase Home-h2">Personaliza tu experiencia</h2>
+                                <h2 className="Text-gray display-4 text-uppercase Home-h2">Personaliza tu
+                                    experiencia</h2>
                                 <h3 className="Text-gray">Combina tu vuelo con alojamiento, comida o actividades
                                     turísticas.</h3>
                                 <button className="Btn-blue2 mt-4">Volar en globo</button>
@@ -160,25 +162,29 @@ class Home extends React.Component {
                         <div className="row text-white">
                             <div className="col-md-6 text-left">
                                 <h4 className="font-weight-bold">25 AÑOS VOLANDO</h4>
-                                <p className="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad adipisci amet
+                                <p className="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad
+                                    adipisci amet
                                     dignissimos doloremque exercitationem fuga incidunt minus natus necessitatibus
                                     nostrum officia placeat praesentium quaerat recusandae, reprehenderit rerum ullam
                                     unde?</p>
                                 <br/>
                                 <h4 className="font-weight-bold">25 AÑOS VOLANDO</h4>
-                                <p className="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad adipisci amet
+                                <p className="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad
+                                    adipisci amet
                                     dignissimos doloremque exercitationem fuga incidunt minus natus necessitatibus
                                     nostrum officia placeat praesentium quaerat recusandae, reprehenderit rerum ullam
                                     unde?</p>
                                 <br/>
                                 <h4 className="font-weight-bold">25 AÑOS VOLANDO</h4>
-                                <p className="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad adipisci amet
+                                <p className="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad
+                                    adipisci amet
                                     dignissimos doloremque exercitationem fuga incidunt minus natus necessitatibus
                                     nostrum officia placeat praesentium quaerat recusandae, reprehenderit rerum ullam
                                     unde?</p>
                                 <br/>
                                 <h4 className="font-weight-bold">25 AÑOS VOLANDO</h4>
-                                <p className="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad adipisci amet
+                                <p className="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad
+                                    adipisci amet
                                     dignissimos doloremque exercitationem fuga incidunt minus natus necessitatibus
                                     nostrum officia placeat praesentium quaerat recusandae, reprehenderit rerum ullam
                                     unde?</p>
@@ -194,7 +200,6 @@ class Home extends React.Component {
                 </section>
 
                 <Experiencia_completa/>
-
 
 
                 <section id="Section5" className="Section5">
@@ -214,7 +219,9 @@ class Home extends React.Component {
                             </div>
                             <div className="col-lg-7  pb-2 d-flex flex-wrap pt-5">
                                 <div className="col-lg-5 p-0 d-flex align-items-center justify-content-end">
-                                    <button className="Btn-red">todos los vuelos</button>
+                                    <a href="/filtro">
+                                        <button className="Btn-red">todos los vuelos</button>
+                                    </a>
                                 </div>
                                 <div className="col-6 d-flex justify-content-end align-items-center flex-wrap ">
                                     <div className="Div-ico">
@@ -250,14 +257,100 @@ class Home extends React.Component {
                                 </div>
                                 <div className="col-lg-11 text-left mt-4  d-flex justify-content-end">
                                     <span className="text-white Copyrigth-text">©VOLS DE COLOM - Todos los derechos reservados - <a
-                                        href="">Privacy Policy</a> - <a href="">Legal Advice</a> - <a href="">Cookies Privacy</a> - Diseñado por <a
-                                        href="">Waka</a></span>
+                                        href="#" data-toggle="modal"
+                                        data-target="#privacy_modal">Privacy Policy</a> - <a
+                                        href="#" data-toggle="modal"
+                                        data-target="#legal_modal">Legal Advice</a> - <a href="#" data-toggle="modal"
+                                                                                         data-target="#cookies_modal">Cookies Privacy</a> - Diseñado por <a
+                                        href="https://www.somoswaka.com/">Waka</a></span>
                                 </div>
 
                             </div>
+                            {/*Privacy polici*/}
+                            <div className="modal fade" id="privacy_modal">
+                                <div className="modal-dialog">
+                                    <div className="modal-content">
 
+                                        <div className="py-1">
+                                            <h2 className="py-1">PRIVACY POLICY</h2>
+                                            <button type="button" className="close"
+                                                    data-dismiss="modal">&times;</button>
+                                        </div>
+
+                                        <div className="modal-body text-left p-1">
+                                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque error
+                                              eveniet magni nulla, odit quod reprehenderit sed? Adipisci, aspernatur
+                                              corporis facilis in modi molestias nesciunt nisi nostrum praesentium
+                                              similique sint!</p>
+                                        </div>
+
+                                        <div className="modal-footer">
+                                            <button type="button" className="btn btn-danger"
+                                                    data-dismiss="modal">Cerrar
+                                            </button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            {/*Legal advice*/}
+                            <div className="modal fade" id="legal_modal">
+                                <div className="modal-dialog">
+                                    <div className="modal-content">
+
+                                        <div className="py-1">
+                                            <h2 className="py-1">LEGAL ADVICE</h2>
+                                            <button type="button" className="close"
+                                                    data-dismiss="modal">&times;</button>
+                                        </div>
+
+                                        <div className="modal-body text-left p-1">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque error
+                                                eveniet magni nulla, odit quod reprehenderit sed? Adipisci, aspernatur
+                                                corporis facilis in modi molestias nesciunt nisi nostrum praesentium
+                                                similique sint!</p>
+                                        </div>
+
+                                        <div className="modal-footer">
+                                            <button type="button" className="btn btn-danger"
+                                                    data-dismiss="modal">Cerrar
+                                            </button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            {/*Cookies*/}
+                            <div className="modal fade" id="cookies_modal">
+                                <div className="modal-dialog">
+                                    <div className="modal-content">
+
+                                        <div className="py-1">
+                                            <h2 className="py-1">COOKIES</h2>
+                                            <button type="button" className="close"
+                                                    data-dismiss="modal">&times;</button>
+                                        </div>
+
+                                        <div className="modal-body text-left p-1">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque error
+                                                eveniet magni nulla, odit quod reprehenderit sed? Adipisci, aspernatur
+                                                corporis facilis in modi molestias nesciunt nisi nostrum praesentium
+                                                similique sint!</p>
+                                        </div>
+
+                                        <div className="modal-footer">
+                                            <button type="button" className="btn btn-danger"
+                                                    data-dismiss="modal">Cerrar
+                                            </button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                       <Footer_patrocinadores/>
+                        <Footer_patrocinadores/>
                     </div>
                 </footer>
             </div>

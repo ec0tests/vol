@@ -3,7 +3,8 @@ import {BrowserRouter as Router} from 'react-router-dom';
 import Route from 'react-router-dom/Route';
 
 import './App.css';
-
+import $ from 'jquery';
+import pleaseWait from 'please-wait';
 import Home from './components/home/Home';
 import Pilotos from './components/pilotos/Pilotos';
 import Instalaciones from './components/instalaciones/Instalaciones';
@@ -14,7 +15,120 @@ import Pack_romantico from './components/pack_romantico/Pack_romantico';
 import Filtro from './components/filtro/Filtro';
 import Pack_historico from "./components/pack_historico/Pack_historico";
 import Categorias from "./components/categorias/Categorias";
+import bkg1 from "./images/bkg-1.jpg";
+// Plugin: $.scrollSpeed
+// Source: github.com/nathco/jQuery.scrollSpeed
+// Author: Nathan Rutzky
+// Update: 1.0.2
 
+(function($) {
+
+    $.scrollSpeed = function(step, speed, easing) {
+
+        var $document = $(document),
+            $window = $(window),
+            $body = $('html, body'),
+            option = easing || 'default',
+            root = 0,
+            scroll = false,
+            scrollY,
+            scrollX,
+            view;
+
+        if (window.navigator.msPointerEnabled)
+
+            return false;
+
+        $window.on('mousewheel DOMMouseScroll', function(e) {
+
+            var deltaY = e.originalEvent.wheelDeltaY,
+                detail = e.originalEvent.detail;
+            scrollY = $document.height() > $window.height();
+            scrollX = $document.width() > $window.width();
+            scroll = true;
+
+            if (scrollY) {
+
+                view = $window.height();
+
+                if (deltaY < 0 || detail > 0)
+
+                    root = (root + view) >= $document.height() ? root : root += step;
+
+                if (deltaY > 0 || detail < 0)
+
+                    root = root <= 0 ? 0 : root -= step;
+
+                $body.stop().animate({
+
+                    scrollTop: root
+
+                }, speed, option, function() {
+
+                    scroll = false;
+
+                });
+            }
+
+            if (scrollX) {
+
+                view = $window.width();
+
+                if (deltaY < 0 || detail > 0)
+
+                    root = (root + view) >= $document.width() ? root : root += step;
+
+                if (deltaY > 0 || detail < 0)
+
+                    root = root <= 0 ? 0 : root -= step;
+
+                $body.stop().animate({
+
+                    scrollLeft: root
+
+                }, speed, option, function() {
+
+                    scroll = false;
+
+                });
+            }
+
+            return false;
+
+        }).on('scroll', function() {
+
+            if (scrollY && !scroll) root = $window.scrollTop();
+            if (scrollX && !scroll) root = $window.scrollLeft();
+
+        }).on('resize', function() {
+
+            if (scrollY && !scroll) view = $window.height();
+            if (scrollX && !scroll) view = $window.width();
+
+        });
+    };
+
+    $.easing.default = function (x,t,b,c,d) {
+
+        return -c * ((t=t/d-1)*t*t*t - 1) + b;
+    };
+
+})($);
+
+window.loading_screen = window.pleaseWait({
+    logo: "http://clientes-optimoclick.es/sergio/img-vol/logo.png",
+    backgroundColor: '#2863B1',
+    loadingHtml: "<div class=\"spinner\">\n" +
+    "  <div class=\"bounce1\"></div>\n" +
+    "  <div class=\"bounce2\"></div>\n" +
+    "  <div class=\"bounce3\"></div>\n" +
+    "</div>"
+
+});
+setInterval(function () {
+    window.loading_screen.finish();
+
+},1700)
 
 class App extends Component {
     render() {

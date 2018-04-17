@@ -5,7 +5,9 @@
   "dependencies": {
     "jquery": "^3.3.1",
     "npm": "^5.8.0",
+    "please-wait": "0.0.5",
     "react": "^16.3.0",
+    "react-animated-css": "^1.0.4",
     "react-dom": "^16.3.0",
     "react-image-lightbox": "^4.6.0",
     "react-modal-video": "^1.1.2",

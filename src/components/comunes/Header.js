@@ -47,69 +47,69 @@ const Header = ({logo}) => (
                         className="fa fa-bars text-white"></i></button>
                     <span className="Cursor-pointer" onClick={show_menu}>MENÚ</span>
 
+                        <div className="slideout-sidebar">
+                            <div className="row">
+                                <div className="col-2 ml-4">
+                                    <button className="Btn-idioma">ES</button>
+                                </div>
+                                <div className="col-2">
+                                    <button className="Btn-idioma">CAT</button>
+                                </div>
+                                <div className="col-2">
+                                    <button className="Btn-idioma">EN</button>
+                                </div>
+                                <div className="col-2">
+                                    <button className="Btn-idioma">FR</button>
+                                </div>
+                                <div className="col-2 pl-5">
 
-                    <div className="slideout-sidebar">
-                        <div className="row">
-                            <div className="col-2 ml-4">
-                                <button className="Btn-idioma">ES</button>
-                            </div>
-                            <div className="col-2">
-                                <button className="Btn-idioma">CAT</button>
-                            </div>
-                            <div className="col-2">
-                                <button className="Btn-idioma">EN</button>
-                            </div>
-                            <div className="col-2">
-                                <button className="Btn-idioma">FR</button>
-                            </div>
-                            <div className="col-2 pl-5">
+                                    <button className="menu-icon" id="desplegable_boton2" onClick={hide_menu}><i
+                                        className="fas fa-times text-white"></i></button>
+                                </div>
 
-                                <button className="menu-icon" id="desplegable_boton2" onClick={hide_menu}><i
-                                    className="fas fa-times text-white"></i></button>
                             </div>
+                            <ul className="mt-4">
+
+                                <li><a href="/pilotos" className="text-white">pilotos</a></li>
+                                <li><a href="/instalaciones" className="text-white">instalaciones</a></li>
+                                <li><a href="/blog" className="text-white">blog</a></li>
+                                <li><a href="/faq" className="text-white">FAQs</a></li>
+                                <li>regalar vuelo</li>
+                                <li>infromación útil</li>
+                                <li>ubicación/meteorología</li>
+                                <li>contacto</li>
+                                <br/>
+                                <li className="pb-0">
+                                    <div className="col-12 mt-4 p-0 d-flex text-left align-items-center">
+                                        <div className="Div-ico">
+                                            <img src={ico_f} alt=""/>
+                                        </div>
+                                        <div className="Div-ico">
+                                            <img src={ico_t} alt=""/>
+
+
+                                        </div>
+                                        <div className="Div-ico">
+                                            <img src={ico_i} alt=""/>
+
+
+                                        </div>
+                                        <div className="Div-ico">
+                                            <img src={ico_y} alt=""/>
+
+                                        </div>
+                                        <div className="Div-ico">
+                                            <img src={ico_tr} alt=""/>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li className="pl-0 pb-0">
+                                    <img className="Fondo-logo-menu" src={logo_gris} alt=""/>
+                                </li>
+                            </ul>
 
                         </div>
-                        <ul className="mt-4">
 
-                            <li><a href="/pilotos" className="text-white">pilotos</a></li>
-                            <li><a href="/instalaciones" className="text-white">instalaciones</a></li>
-                            <li><a href="/blog" className="text-white">blog</a></li>
-                            <li><a href="/faq" className="text-white">FAQs</a></li>
-                            <li>regalar vuelo</li>
-                            <li>infromación útil</li>
-                            <li>ubicación/meteorología</li>
-                            <li>contacto</li>
-                            <br/>
-                            <li className="pb-0">
-                                <div className="col-12 mt-4 p-0 d-flex text-left align-items-center">
-                                    <div className="Div-ico">
-                                        <img src={ico_f} alt=""/>
-                                    </div>
-                                    <div className="Div-ico">
-                                        <img src={ico_t} alt=""/>
-
-
-                                    </div>
-                                    <div className="Div-ico">
-                                        <img src={ico_i} alt=""/>
-
-
-                                    </div>
-                                    <div className="Div-ico">
-                                        <img src={ico_y} alt=""/>
-
-                                    </div>
-                                    <div className="Div-ico">
-                                        <img src={ico_tr} alt=""/>
-                                    </div>
-                                </div>
-                            </li>
-                            <li className="pl-0 pb-0">
-                                <img className="Fondo-logo-menu" src={logo_gris} alt=""/>
-                            </li>
-                        </ul>
-
-                    </div>
                 </div>
             </div>
         </div>

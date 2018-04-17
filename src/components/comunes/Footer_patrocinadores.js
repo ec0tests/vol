@@ -18,12 +18,12 @@ class Footer_patrocinadores extends React.Component {
             dots: false,
             infinite: true,
             arrows: false,
-            speed: 1000,
+            speed: 3000,
             slidesToShow: 6,
             slidesToScroll: 1,
             swipeToSlide: true,
             autoplay:true,
-            autoplaySpeed: 2000
+            autoplaySpeed: 3000
         };
         return (
 <div className="py-2">

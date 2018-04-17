@@ -1,4 +1,6 @@
 import React, {Component} from 'react';
+
+
 import './Blogp.css';
 import Header from "../comunes/Header";
 import Certificado from "../comunes/Certificado";

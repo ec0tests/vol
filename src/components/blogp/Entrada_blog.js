@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-
+import {Link} from 'react-router-dom';
 
 import bkg from '../../images/instalacion1.jpg';
 import './Entrada_blog.css'
@@ -8,8 +8,8 @@ class Entrada_blog extends React.Component {
         return (
                 <div className="col-12 col-md-6 mt-5">
                     <div className="col-12 mb-5 text-center ">
-                        <img src={require(`../../images/${this.props.photo.toLowerCase()}.jpg`)}
-                             className="img-fluid Img-entradablog w-100 "alt=""/>
+                        <Link to="/entrada_blog"><img src={require(`../../images/${this.props.photo.toLowerCase()}.jpg`)}
+                                        className="img-fluid Img-entradablog w-100 Cursor-pointer"alt=""/></Link>
 
                     </div>
                     <div className="col-12">
