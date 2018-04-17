@@ -11,16 +11,26 @@ import logo_gris from '../../images/logo-gris.png';
 import $ from 'jquery';
 
 function show_menu() {
+
     $(".slideout-sidebar").show();
+
     $("#desplegable_boton1").hide();
     $("#desplegable_boton2").show();
 }
 
 function hide_menu() {
+
+
     $(".slideout-sidebar").hide();
     $("#desplegable_boton2").hide();
     $("#desplegable_boton1").show();
 }
+
+$(document).on("click", function(e){
+    if($(e.target).attr("class") != "menu-icon"){
+        hide_menu();
+    }
+});
 
 /* HAGO DESTRUCTURING: En vez de crear la const logo con props.logo le añado al parametro {} y le pongo de nomrbe el nombre de la prop que le paso
 * así lo coge directamente*/
@@ -29,13 +39,13 @@ const Header = ({logo}) => (
         <div className="container-fluid">
             <div className="row p-3 pl-5">
                 <div className="col-6 text-left">
-                    <img src={logo} className="img-fluid" alt=""/>
+                    <a href="http://167.99.208.80/"><img src={logo} className="img-fluid" alt=""/></a>
                 </div>
                 <div className="col-6 d-flex align-items-center justify-content-end pr-5">
                     <button className="Megamenu text-uppercase">Vuela en globo</button>
                     <button className="ml-4 menu-icon" id="desplegable_boton1" onClick={show_menu}><i
                         className="fa fa-bars text-white"></i></button>
-                    <span className="">MENÚ</span>
+                    <span className="Cursor-pointer" onClick={show_menu}>MENÚ</span>
 
 
                     <div className="slideout-sidebar">

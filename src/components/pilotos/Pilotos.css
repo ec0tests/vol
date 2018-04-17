@@ -56,18 +56,18 @@ p  {
 
 /*FOOTER*/
 
-.Pilotos footer{
+.Pilotos .Seccion-final{
     background-size: cover!important;
     background: url('../../images/pilotos-bkg4.jpg');
     background-repeat: no-repeat;
-    height: 60rem;
+    height: 70rem;
     margin-top: 26rem;
     position: relative;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
-.Pilotos footer .Container-card{
+.Pilotos .Seccion-final .Container-card{
     top: -30%;
     position: relative;
 }
@@ -79,26 +79,26 @@ p  {
 
 
 
-.Pilotos footer .Card-row {
+.Pilotos .Seccion-final .Card-row {
     margin-bottom: 0!important;
 }
-.Pilotos footer .carousel-indicators{
+.Pilotos .Seccion-final .carousel-indicators{
     padding-top: 2%;
 }
 
-.Pilotos footer .carousel-control-prev{
+.Pilotos .Seccion-final .carousel-control-prev{
     top: 45%;
 }
-.Pilotos footer .carousel-control-next{
+.Pilotos .Seccion-final .carousel-control-next{
     top: 47%;
 }
 
-.Pilotos footer h4{
+.Pilotos .Seccion-final h4{
     color: #ffffff;
     font-weight: bold;
     text-transform: uppercase;
 }
 
-.Pilotos footer .Container-video{
+.Pilotos .Seccion-final .Container-video{
 }
 

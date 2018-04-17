@@ -16,19 +16,34 @@ const Footer_estilo1 = ()=> (
             </div>
             <div className="col-6 d-flex justify-content-end align-items-center flex-wrap pr-5">
                 <div className="Div-ico">
-                    <img src={ico_face} alt=""/>
+                    <a href="https://es-es.facebook.com/voldecoloms/">
+                        <img src={ico_face} alt=""/>
+
+                    </a>
                 </div>
                 <div className="Div-ico">
-                    <img src={ico_twitter} alt=""/>
+                    <a href="https://twitter.com/voldecoloms?lang=es">
+                        <img src={ico_twitter} alt=""/>
+
+                    </a>
                 </div>
                 <div className="Div-ico">
-                    <img src={ico_inst} alt=""/>
+                    <a href="https://www.instagram.com/voldecoloms/">
+                        <img src={ico_inst} alt=""/>
+
+                    </a>
                 </div>
                 <div className="Div-ico">
-                    <img src={ico_youtube} alt=""/>
+                    <a href="https://www.youtube.com/user/Voldecoloms">
+                        <img src={ico_youtube} alt=""/>
+
+                    </a>
                 </div>
                 <div className="Div-ico">
-                    <img src={ico_face} alt=""/>
+                    <a href="https://es-es.facebook.com/voldecoloms/">
+                        <img src={ico_face} alt=""/>
+
+                    </a>
                 </div>
                 <div className="row w-100 text-right justify-content-end pr-3 pt-3">
                                     <span className="text-white Copyrigth-text">©VOLS DE COLOM - Todos los derechos reservados - <a

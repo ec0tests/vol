@@ -5,7 +5,13 @@
     align-items: center;
     padding: 2% 2%;
 }
+
 .Bkg-darkBlue {
     background-color: #174382;
     margin: 0;
+}
+
+.slick-track {
+    display: flex;
+    align-items: center
 }

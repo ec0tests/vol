@@ -6,6 +6,7 @@ import Seo_text from "../pilotos/Seo_text";
 import Carousel_cards from "../comunes/Carousel_cards";
 import Certificado from "../comunes/Certificado";
 import Experiencia_volarGlobo from "../comunes/Experiencia_volarGlobo";
+import Footer_estilo1 from "../comunes/Footer_estilo1";
 import logo_b from '../../images/vdc-logo-b.png';
 import bkg1 from '../../images/pilotos-bkg1.png';
 
@@ -124,11 +125,16 @@ const Pilotos = () => (
 
             </div>
         </section>
-        <footer>
+        <section className="Seccion-final">
             <div className="container Container-card">
                 <Carousel_cards/>
             </div>
         <Experiencia_volarGlobo/>
+
+
+        </section>
+        <footer className="Footer_estilo1">
+            <Footer_estilo1/>
         </footer>
     </div>
 )

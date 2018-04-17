@@ -7,13 +7,19 @@ import bkg1 from '../../images/bkg-1.png';
 import act_ico from '../../images/Icon-Activ-gris-65.png';
 import gast_ico from '../../images/Icon-Gast-gris-65.png';
 import aloj_ico from '../../images/Icon-Aloj-gris-65.png';
-import logo_b from '../../images/vdc-logo-b.png';
 import globo_ico1 from '../../images/Icon-Cat-Indi-b-85.png';
 import globo_ico2 from '../../images/Icon-Cat-Nino-b-85.png';
 import globo_ico3 from '../../images/Icon-Cat-Silla-b-85.png';
 import globo_ico4 from '../../images/Icon-Cat-Pareja-b-85.png';
 import globo_ico5 from '../../images/Icon-Cat-4amigo-b-85.png';
 import globo_ico6 from '../../images/Icon-Cat-Grupo-b-85.png';
+
+import ico_face from '../../images/Icon-RRSS-fb-b-55.png';
+import ico_twitter from '../../images/Icon-RRSS-tw-b-55.png';
+import ico_inst from '../../images/Icon-RRSS-in-b-55.png';
+import ico_trip from '../../images/Icon-RRSS-tr-b-55.png';
+import ico_youtube from '../../images/Icon-RRSS-yt-b-55.png';
+import logo_b from '../../images/vdc-logo-b.png';
 
 import redes_ico from '../../images/redes_sociales.png';
 
@@ -210,11 +216,39 @@ class Home extends React.Component {
                                 <div className="col-lg-5 p-0 d-flex align-items-center justify-content-end">
                                     <button className="Btn-red">todos los vuelos</button>
                                 </div>
-                                <div className="col-lg-7 d-flex align-items-center py-2">
-                                    <img src={redes_ico} className="img-fluid W-60" alt=""/>
+                                <div className="col-6 d-flex justify-content-end align-items-center flex-wrap ">
+                                    <div className="Div-ico">
+                                        <a href="https://es-es.facebook.com/voldecoloms/">
+                                            <img src={ico_face} alt=""/>
 
+                                        </a>
+                                    </div>
+                                    <div className="Div-ico">
+                                        <a href="https://twitter.com/voldecoloms?lang=es">
+                                            <img src={ico_twitter} alt=""/>
+
+                                        </a>
+                                    </div>
+                                    <div className="Div-ico">
+                                        <a href="https://www.instagram.com/voldecoloms/">
+                                            <img src={ico_inst} alt=""/>
+
+                                        </a>
+                                    </div>
+                                    <div className="Div-ico">
+                                        <a href="https://www.youtube.com/user/Voldecoloms">
+                                            <img src={ico_youtube} alt=""/>
+
+                                        </a>
+                                    </div>
+                                    <div className="Div-ico">
+                                        <a href="https://es-es.facebook.com/voldecoloms/">
+                                            <img src={ico_face} alt=""/>
+
+                                        </a>
+                                    </div>
                                 </div>
-                                <div className="col-lg-12 text-left mt-4 ">
+                                <div className="col-lg-11 text-left mt-4  d-flex justify-content-end">
                                     <span className="text-white Copyrigth-text">©VOLS DE COLOM - Todos los derechos reservados - <a
                                         href="">Privacy Policy</a> - <a href="">Legal Advice</a> - <a href="">Cookies Privacy</a> - Diseñado por <a
                                         href="">Waka</a></span>

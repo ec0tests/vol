@@ -7,9 +7,9 @@
 }
 
 button:hover {
-    transform: scale(1.07);
+   /* transform: scale(1.03);*/
     cursor: pointer;
-    transition: 0.5s;
+    /*transition: 0.3s;*/
 }
 
 .Home-h1 {
@@ -259,7 +259,18 @@ header > .container {
     margin: 0;
 }
 
+.Home footer .Div-ico{
+    width: 13.3%;
+}
 
+.Home footer .Div-ico img{
+    width: 2.6rem;
+}
+
+.Footer_estilo1{
+    background-color: #2260b2;
+    padding: 1.5rem;
+}
 
 /*-------------------*/
 /*  FOOTER */
@@ -272,7 +283,9 @@ footer .Row1 {
 
 
 
-
+.Home footer>.container-fluid{
+    background-color: #174382;
+}
 
 
 

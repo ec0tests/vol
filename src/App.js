@@ -20,7 +20,7 @@ class App extends Component {
     render() {
         return (
             <Router>
-                <div className="App">
+                <div className="App" >
 
                     <Route path="/" exact strict render={
                         ()=>{
