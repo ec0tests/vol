@@ -204,7 +204,6 @@
 }
 .Bloge footer{
     background-color: #2260b2;
-    padding: 1.5rem;
 }
 
 .Bloge footer .Div-ico{
@@ -215,3 +214,16 @@
     width: 2.7rem;
 }
 
+.Exp-peq{
+    display: flex;justify-content: center;
+    position: relative;
+}
+.Exp-peq h5{
+    color: white;
+    font-weight: 600;
+    position: absolute;
+    right: 28%;
+    top: 1.5rem;
+    color: #ffffff;
+    text-transform: uppercase;
+}

@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 
-
 import './Blogp.css';
 import Header from "../comunes/Header";
 import Certificado from "../comunes/Certificado";
@@ -206,8 +205,11 @@ const Blogp = () => (
 
                 </div>
             </div>
+            <Footer_patrocinadores/>
+
         </footer>
-        <Footer_patrocinadores/>
+
+
 
     </div>
 )

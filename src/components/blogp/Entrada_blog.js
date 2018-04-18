@@ -8,8 +8,8 @@ class Entrada_blog extends React.Component {
         return (
                 <div className="col-12 col-md-6 mt-5">
                     <div className="col-12 mb-5 text-center ">
-                        <Link to="/entrada_blog"><img src={require(`../../images/${this.props.photo.toLowerCase()}.jpg`)}
-                                        className="img-fluid Img-entradablog w-100 Cursor-pointer"alt=""/></Link>
+                        <a href="/entrada_blog"><img src={require(`../../images/${this.props.photo.toLowerCase()}.jpg`)}
+                                        className="img-fluid Img-entradablog w-100 Cursor-pointer"alt=""/></a>
 
                     </div>
                     <div className="col-12">

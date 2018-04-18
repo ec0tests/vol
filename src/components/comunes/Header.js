@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import './Header.css';
-
+import {Link} from 'react-router-dom'
 import ico_f from '../../images/face-ico-fondog.png';
 import ico_t from '../../images/twitter-ico-fondog.png';
 import ico_i from '../../images/insta-ico-fondog.png';
@@ -10,24 +10,33 @@ import logo_gris from '../../images/logo-gris.png';
 
 import $ from 'jquery';
 
+/*Controlo si el menu está abierto o cerrado*/
+var menu_abierto=false;
+
 function show_menu() {
 
-    $(".slideout-sidebar").show();
+    $(".slideout-sidebar").removeClass('animated slideOutRight');
 
-    $("#desplegable_boton1").hide();
+    $(".slideout-sidebar").addClass('animated slideInRight');
+
+    $(".slideout-sidebar").show();
     $("#desplegable_boton2").show();
+    menu_abierto=true;
+
 }
 
 function hide_menu() {
+    $(".slideout-sidebar").removeClass('animated slideInRight');
 
+    $(".slideout-sidebar").addClass('animated slideOutRight');
 
-    $(".slideout-sidebar").hide();
     $("#desplegable_boton2").hide();
-    $("#desplegable_boton1").show();
+    menu_abierto=false;
 }
 
+/*Hace que al clicar en cualquier sitio que no tenga la clase menu icon se ejecute el hide menu*/
 $(document).on("click", function(e){
-    if($(e.target).attr("class") != "menu-icon"){
+    if($(e.target).attr("class") != "Open-menu" && menu_abierto==true){
         hide_menu();
     }
 });
@@ -43,11 +52,11 @@ const Header = ({logo}) => (
                 </div>
                 <div className="col-6 d-flex align-items-center justify-content-end pr-5">
                     <button className="Megamenu text-uppercase">Vuela en globo</button>
-                    <button className="ml-4 menu-icon" id="desplegable_boton1" onClick={show_menu}><i
+                    <button className="ml-4 menu-icon Open-menu" id="desplegable_boton1" onClick={show_menu}><i
                         className="fa fa-bars text-white"></i></button>
-                    <span className="Cursor-pointer" onClick={show_menu}>MENÚ</span>
+                    <span className="Cursor-pointer Open-menu" onClick={show_menu}>MENÚ</span>
 
-                        <div className="slideout-sidebar">
+                        <div className="slideout-sidebar ">
                             <div className="row">
                                 <div className="col-2 ml-4">
                                     <button className="Btn-idioma">ES</button>
@@ -70,10 +79,10 @@ const Header = ({logo}) => (
                             </div>
                             <ul className="mt-4">
 
-                                <li><a href="/pilotos" className="text-white">pilotos</a></li>
-                                <li><a href="/instalaciones" className="text-white">instalaciones</a></li>
-                                <li><a href="/blog" className="text-white">blog</a></li>
-                                <li><a href="/faq" className="text-white">FAQs</a></li>
+                                <li><Link to="/pilotos" className="text-white">pilotos</Link></li>
+                                <li><Link to="/instalaciones" className="text-white">instalaciones</Link></li>
+                                <li><Link to="/blog" className="text-white">blog</Link></li>
+                                <li><Link to="/faq" className="text-white">FAQs</Link></li>
                                 <li>regalar vuelo</li>
                                 <li>infromación útil</li>
                                 <li>ubicación/meteorología</li>

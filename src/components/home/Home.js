@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 
+import {Link} from 'react-router-dom';
 import bkg3_2 from '../../images/bkg-3-2.png';
 import bkg3__ico from '../../images/seccion3-bkg-ico.png';
 import bkg2 from '../../images/bkg-2.png';
@@ -29,7 +30,117 @@ import Experiencia_completa from "../comunes/Experiencia_completa";
 import Header from "../comunes/Header";
 import Footer_patrocinadores from "../comunes/Footer_patrocinadores";
 import Subetufoto from "../comunes/Subetufoto";
+import tingle from "tingle.js";
 
+
+window.loading_screen = window.pleaseWait({
+    logo: "http://clientes-optimoclick.es/sergio/img-vol/logo.png",
+    backgroundColor: '#2863B1',
+    loadingHtml: "<div class=\"spinner\">\n" +
+    "  <div class=\"bounce1\"></div>\n" +
+    "  <div class=\"bounce2\"></div>\n" +
+    "  <div class=\"bounce3\"></div>\n" +
+    "</div>"
+
+});
+
+
+// instanciate new modal
+var modal_privacy = new tingle.modal({
+    footer: false,
+    stickyFooter: true,
+    closeMethods: ['overlay', 'button', 'escape'],
+    closeLabel: "Close",
+    cssClass: ['custom-class-1', 'custom-class-2'],
+    onOpen: function () {
+        console.log('modal open');
+    },
+    onClose: function () {
+        console.log('modal closed');
+    },
+    beforeClose: function () {
+        // here's goes some logic
+        // e.g. save content before closing the modal
+        return true; // close the modal
+        return false; // nothing happens
+    }
+});
+
+var modal_cookies = new tingle.modal({
+    footer: false,
+    stickyFooter: true,
+    closeMethods: ['overlay', 'button', 'escape'],
+    closeLabel: "Close",
+    cssClass: ['custom-class-1', 'custom-class-2'],
+    onOpen: function () {
+        console.log('modal open');
+    },
+    onClose: function () {
+        console.log('modal closed');
+    },
+    beforeClose: function () {
+        // here's goes some logic
+        // e.g. save content before closing the modal
+        return true; // close the modal
+        return false; // nothing happens
+    }
+});
+
+var modal_legal = new tingle.modal({
+    footer: false,
+    stickyFooter: true,
+    closeMethods: ['overlay', 'button', 'escape'],
+    closeLabel: "Close",
+    cssClass: ['custom-class-1', 'custom-class-2'],
+    onOpen: function () {
+        console.log('modal open');
+    },
+    onClose: function () {
+        console.log('modal closed');
+    },
+    beforeClose: function () {
+        // here's goes some logic
+        // e.g. save content before closing the modal
+        return true; // close the modal
+        return false; // nothing happens
+    }
+});
+// set content
+modal_privacy.setContent('' +
+    '<h2>Privacy Policy</h2>' +
+    '<hr>' +
+    '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium, deserunt dignissimos dolore doloribus dolorum eius, impedit inventore laboriosam magnam molestias mollitia provident ratione repudiandae soluta suscipit velit, veniam voluptas?</p>' +
+    '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium, deserunt dignissimos dolore doloribus dolorum eius, impedit inventore laboriosam magnam molestias mollitia provident ratione repudiandae soluta suscipit velit, veniam voluptas?</p>' +
+    '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium, deserunt dignissimos dolore doloribus dolorum eius, impedit inventore laboriosam magnam molestias mollitia provident ratione repudiandae soluta suscipit velit, veniam voluptas?</p>'
+);
+
+modal_legal.setContent('' +
+    '<h2>Legal Advice</h2>' +
+    '<hr>' +
+    '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium, deserunt dignissimos dolore doloribus dolorum eius, impedit inventore laboriosam magnam molestias mollitia provident ratione repudiandae soluta suscipit velit, veniam voluptas?</p>' +
+    '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium, deserunt dignissimos dolore doloribus dolorum eius, impedit inventore laboriosam magnam molestias mollitia provident ratione repudiandae soluta suscipit velit, veniam voluptas?</p>' +
+    '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium, deserunt dignissimos dolore doloribus dolorum eius, impedit inventore laboriosam magnam molestias mollitia provident ratione repudiandae soluta suscipit velit, veniam voluptas?</p>'
+);
+
+modal_privacy.setContent('' +
+    '<h2>Cookies</h2>' +
+    '<hr>' +
+    '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium, deserunt dignissimos dolore doloribus dolorum eius, impedit inventore laboriosam magnam molestias mollitia provident ratione repudiandae soluta suscipit velit, veniam voluptas?</p>' +
+    '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium, deserunt dignissimos dolore doloribus dolorum eius, impedit inventore laboriosam magnam molestias mollitia provident ratione repudiandae soluta suscipit velit, veniam voluptas?</p>' +
+    '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium, deserunt dignissimos dolore doloribus dolorum eius, impedit inventore laboriosam magnam molestias mollitia provident ratione repudiandae soluta suscipit velit, veniam voluptas?</p>'
+);
+
+function openPrivacy() {
+    modal_privacy.open();
+}
+
+function openLegal() {
+    modal_legal.open();
+}
+
+function openCookies() {
+    modal_cookies.open();
+}
 
 class Home extends React.Component {
     render() {
@@ -53,7 +164,7 @@ class Home extends React.Component {
                         </div>
                         <div className="row my-4">
                             <div className="col-12 text-left ">
-                                <button className="text-uppercase Btn-red-h mt-2">Reservar</button>
+                                <Link to="/filtro"><button className="text-uppercase Btn-red-h mt-2">Reservar</button></Link>
                             </div>
                             <div className="col-12 text-left ">
                                 <button className="text-uppercase Btn-darkblue-h mt-2">Canjear cupón</button>
@@ -255,99 +366,14 @@ class Home extends React.Component {
                                     </div>
                                 </div>
                                 <div className="col-lg-11 text-left mt-4  d-flex justify-content-end">
-                                    <span className="text-white Copyrigth-text">©VOLS DE COLOM - Todos los derechos reservados - <a
-                                        href="#" data-toggle="modal"
-                                        data-target="#privacy_modal">Privacy Policy</a> - <a
-                                        href="#" data-toggle="modal"
-                                        data-target="#legal_modal">Legal Advice</a> - <a href="#" data-toggle="modal"
-                                                                                         data-target="#cookies_modal">Cookies Privacy</a> - Diseñado por <a
-                                        href="https://www.somoswaka.com/">Waka</a></span>
+                                       <span className="text-white Copyrigth-text">©VOLS DE COLOM - Todos los derechos reservados - <a
+                                           onClick={openPrivacy} className="Underline Cursor-pointer"> Privacy Policy</a> - <a
+                                           onClick={openLegal} className="Underline Cursor-pointer">Legal Advice</a> - <a onClick={openCookies} className="Underline Cursor-pointer">Cookies Privacy</a> - Diseñado por <a
+                                           href="https://www.somoswaka.com/">Waka</a></span>
                                 </div>
 
                             </div>
-                            {/*Privacy polici*/}
-                            <div className="modal fade" id="privacy_modal">
-                                <div className="modal-dialog">
-                                    <div className="modal-content">
 
-                                        <div className="py-1">
-                                            <h2 className="py-1">PRIVACY POLICY</h2>
-                                            <button type="button" className="close"
-                                                    data-dismiss="modal">&times;</button>
-                                        </div>
-
-                                        <div className="modal-body text-left p-1">
-                                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque error
-                                              eveniet magni nulla, odit quod reprehenderit sed? Adipisci, aspernatur
-                                              corporis facilis in modi molestias nesciunt nisi nostrum praesentium
-                                              similique sint!</p>
-                                        </div>
-
-                                        <div className="modal-footer">
-                                            <button type="button" className="btn btn-danger"
-                                                    data-dismiss="modal">Cerrar
-                                            </button>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-
-                            {/*Legal advice*/}
-                            <div className="modal fade" id="legal_modal">
-                                <div className="modal-dialog">
-                                    <div className="modal-content">
-
-                                        <div className="py-1">
-                                            <h2 className="py-1">LEGAL ADVICE</h2>
-                                            <button type="button" className="close"
-                                                    data-dismiss="modal">&times;</button>
-                                        </div>
-
-                                        <div className="modal-body text-left p-1">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque error
-                                                eveniet magni nulla, odit quod reprehenderit sed? Adipisci, aspernatur
-                                                corporis facilis in modi molestias nesciunt nisi nostrum praesentium
-                                                similique sint!</p>
-                                        </div>
-
-                                        <div className="modal-footer">
-                                            <button type="button" className="btn btn-danger"
-                                                    data-dismiss="modal">Cerrar
-                                            </button>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-
-                            {/*Cookies*/}
-                            <div className="modal fade" id="cookies_modal">
-                                <div className="modal-dialog">
-                                    <div className="modal-content">
-
-                                        <div className="py-1">
-                                            <h2 className="py-1">COOKIES</h2>
-                                            <button type="button" className="close"
-                                                    data-dismiss="modal">&times;</button>
-                                        </div>
-
-                                        <div className="modal-body text-left p-1">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque error
-                                                eveniet magni nulla, odit quod reprehenderit sed? Adipisci, aspernatur
-                                                corporis facilis in modi molestias nesciunt nisi nostrum praesentium
-                                                similique sint!</p>
-                                        </div>
-
-                                        <div className="modal-footer">
-                                            <button type="button" className="btn btn-danger"
-                                                    data-dismiss="modal">Cerrar
-                                            </button>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                         <Footer_patrocinadores/>
                     </div>

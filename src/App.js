@@ -5,6 +5,7 @@ import Route from 'react-router-dom/Route';
 import './App.css';
 import $ from 'jquery';
 import pleaseWait from 'please-wait';
+
 import Home from './components/home/Home';
 import Pilotos from './components/pilotos/Pilotos';
 import Instalaciones from './components/instalaciones/Instalaciones';
@@ -21,6 +22,7 @@ import bkg1 from "./images/bkg-1.jpg";
 // Author: Nathan Rutzky
 // Update: 1.0.2
 
+/*Plugin scroll suave*/
 (function($) {
 
     $.scrollSpeed = function(step, speed, easing) {
@@ -115,20 +117,11 @@ import bkg1 from "./images/bkg-1.jpg";
 
 })($);
 
-window.loading_screen = window.pleaseWait({
-    logo: "http://clientes-optimoclick.es/sergio/img-vol/logo.png",
-    backgroundColor: '#2863B1',
-    loadingHtml: "<div class=\"spinner\">\n" +
-    "  <div class=\"bounce1\"></div>\n" +
-    "  <div class=\"bounce2\"></div>\n" +
-    "  <div class=\"bounce3\"></div>\n" +
-    "</div>"
 
-});
 setInterval(function () {
     window.loading_screen.finish();
 
-},1700)
+},1500)
 
 class App extends Component {
     render() {
@@ -136,7 +129,7 @@ class App extends Component {
             <Router>
                 <div className="App" >
 
-                    <Route path="/" exact strict render={
+                    <Route onUpdate={() => window.scrollTo(0, 0)} path="/" exact strict render={
                         ()=>{
                             return (<Home/>);
                         }

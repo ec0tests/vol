@@ -205,18 +205,22 @@ const Bloge = () => (
                         </div>
 
                         <div className="row Row-exp">
-                            <div className="col-6 mb-4 p-2">
+                            <a className="col-6 mb-4 p-2 Exp-peq">
+                                <h5>Aventura</h5>
                                 <img src={exp_ico1} className="img-fluid" alt=""/>
-                            </div>
-                            <div className="col-6 mb-4 p-2">
-                                <img src={exp_ico1} className="img-fluid" alt=""/>
-                            </div>
-                            <div className="col-6 mb-4 p-2">
-                                <img src={exp_ico1} className="img-fluid" alt=""/>
-                            </div>
-                            <div className="col-6 mb-4 p-2">
-                                <img src={exp_ico1} className="img-fluid" alt=""/>
-                            </div>
+                            </a>
+                            <a href="/pack_historico" className="col-6 mb-4 p-2 Exp-peq">
+                                <h5>Histórico</h5>
+                                <img src={exp_ico2} className="img-fluid" alt=""/>
+                            </a>
+                            <a href="/pack_romantico"  className="col-6 mb-4 p-2 Exp-peq">
+                                <h5>Romático</h5>
+                                <img src={exp_ico3} className="img-fluid" alt=""/>
+                            </a>
+                            <a className="col-6 mb-4 p-2 Exp-peq">
+                                <h5>Aventura</h5>
+                                <img src={exp_ico4} className="img-fluid" alt=""/>
+                            </a>
                         </div>
 
                         <div className="row justify-conten-center">
@@ -364,8 +368,9 @@ const Bloge = () => (
 
                 </div>
             </div>
+            <Footer_patrocinadores/>
+
         </footer>
-        <Footer_patrocinadores/>
 
     </div>
 )
