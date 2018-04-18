@@ -152,7 +152,13 @@ h4{
     width: 70px;
     text-align: center;
 }
-
+.Goo-ico-white{
+    font-size: 2.7rem;
+    color: white;
+    margin-top: 0.1rem;
+    border: 0;
+    border-radius: 0;
+}
 .spinner > div {
     width: 18px;
     height: 18px;

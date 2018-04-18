@@ -231,7 +231,7 @@ class Home extends React.Component {
                                         </a>
                                     </div>
                                     <div className="Div-ico">
-                                        <a href="https://twitter.com/voldecoloms?lang=es">
+                                        <a href="https://twitter.com/voldecoloms">
                                             <img src={ico_twitter} alt=""/>
 
                                         </a>
@@ -249,9 +249,8 @@ class Home extends React.Component {
                                         </a>
                                     </div>
                                     <div className="Div-ico">
-                                        <a href="https://es-es.facebook.com/voldecoloms/">
-                                            <img src={ico_face} alt=""/>
-
+                                        <a href="">
+                                            <i class="fab fa-google-plus-square Goo-ico-white mt-1"></i>
                                         </a>
                                     </div>
                                 </div>

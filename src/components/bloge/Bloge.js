@@ -160,22 +160,37 @@ const Bloge = () => (
 
                         <div className="col-12 mt-4 d-flex text-left align-items-center">
                             <div className="Div-ico">
+                                <a href="https://es-es.facebook.com/voldecoloms/">
+
                                 <i class="fab fa-facebook-square Face-ico-color"></i>
+                                </a>
                             </div>
                             <div className="Div-ico">
+                                <a href="https://twitter.com/voldecoloms">
+
                                 <i class="fab fa-twitter-square Twit-ico-color"></i>
+                                </a>
                             </div>
                             <div className="Div-ico">
+                                <a href="https://www.youtube.com/user/Voldecoloms">
+
                                 <i class="fab fa-youtube You-ico-color"></i>
+                                </a>
                             </div>
                             <div className="Div-ico">
+                                <a href="https://www.instagram.com/voldecoloms/">
+
                                 <i class="fab fa-instagram Ins-ico-color"></i>
+                                </a>
                             </div>
                             <div className="Div-ico">
                                 <i class="fab fa-google-plus-square Goo-ico-color"></i>
                             </div>
                             <div className="Div-ico">
+                                <a href="https://www.linkedin.com/company/vol-de-coloms">
+
                                 <i class="fab fa-linkedin Link-ico-color"></i>
+                                </a>
                             </div>
                         </div>
 

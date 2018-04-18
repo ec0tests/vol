@@ -40,8 +40,8 @@ const Footer_estilo1 = ()=> (
                     </a>
                 </div>
                 <div className="Div-ico">
-                    <a href="https://es-es.facebook.com/voldecoloms/">
-                        <img src={ico_face} alt=""/>
+                    <a href="">
+                            <i class="fab fa-google-plus-square Goo-ico-white"></i>
 
                     </a>
                 </div>
