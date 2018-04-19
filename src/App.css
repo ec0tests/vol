@@ -29,6 +29,11 @@ h4{
 
 }
 
+.Barlow{
+    font-family: 'Barlow Condensed', sans-serif!important;
+
+}
+
 .Underline{
     text-decoration: underline!important;
 }
@@ -72,9 +77,18 @@ h4{
     font-weight: bold;
     font-size: .8rem;
 }
-
+.P-absolute{
+    position: absolute;
+}
+.P-initial{
+    position: initial;
+}
+.P-relative{
+    position: relative;
+}
 .Btn-darkblue-h {
     background-color: #174382;
+
     color: white;
     text-transform: uppercase;
     border: 0;
@@ -85,6 +99,17 @@ h4{
     width: 12rem;
 }
 
+.Btn-skinnyblue{
+    background-color: #174382;
+
+    color: white;
+    text-transform: uppercase;
+    border: 0;
+    font-size: .9rem;
+    font-weight: 600;
+    padding: 0.625rem;
+    width: 11rem;
+}
 .Btn-red-h {
     background-color: #D24228;
     color: white;
@@ -243,6 +268,8 @@ h4{
     margin-top: 3rem!important;
 
 }
+
+
 /* confirm and alerts
 -------------------------------------------------------------- */
 

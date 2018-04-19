@@ -55,11 +55,45 @@ right: 0;
     background-color: transparent;
     color: #ffffff;
     border: 0.125rem solid white;
-    font-size: 0.9rem;
+    font-size: 1rem;
     padding: .4rem;
     width: 10rem;
+
+}
+.Megamenu-open{
+    background-color: #0A1F3C;
+    border: 0;
+    position: relative;
+    height: 3rem;
+    position: absolute;
+    height: 7rem;
+    right: 12%;
+    top: 0;
+}
+.Megamenu-div{
+    background-color: #0A1F3C;
+    padding: 5rem 6rem;
+    display: none;
+    position: absolute;
+    z-index: 10000;
 }
 
+
+.Megamenu-div ul li{
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-align: left;
+}
+.T-megamenu{
+    font-family:'Barlow Condensed', sans-serif;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
 .Cursor-pointer{
     cursor: pointer;
 }

@@ -258,6 +258,10 @@ header > .container {
     padding: 0;
     margin: 0;
 }
+.Header-sec2{
+    position: relative;
+    z-index: -3;
+}
 
 .Home footer .Div-ico{
     width: 13.3%;

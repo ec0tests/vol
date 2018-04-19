@@ -7,40 +7,38 @@ import ico_i from '../../images/insta-ico-fondog.png';
 import ico_y from '../../images/yt-ico-fondog.png';
 import ico_tr from '../../images/trip-ico-fondog.png';
 import logo_gris from '../../images/logo-gris.png';
-
+import Menu2 from './Menu2'
 import $ from 'jquery';
 
+
+
+
 /*Controlo si el menu está abierto o cerrado*/
-var menu_abierto=false;
+var megamenu_abierto = false;
 
-function show_menu() {
+function show_megamenu() {
 
-    $(".slideout-sidebar").removeClass('animated slideOutRight');
-
-    $(".slideout-sidebar").addClass('animated slideInRight');
-
-    $(".slideout-sidebar").show();
-    $("#desplegable_boton2").show();
-    menu_abierto=true;
+    $(".Megamenu").addClass('Megamenu-open');
+    $(".Megamenu-div").fadeIn();
+    megamenu_abierto = true;
 
 }
 
-function hide_menu() {
-    $(".slideout-sidebar").removeClass('animated slideInRight');
+function hide_megamenu() {
 
-    $(".slideout-sidebar").addClass('animated slideOutRight');
+    $(".Megamenu-div").fadeOut();
+    $(".Megamenu").removeClass('Megamenu-open');
 
-    $("#desplegable_boton2").hide();
-    menu_abierto=false;
+
+    megamenu_abierto = false;
 }
 
 /*Hace que al clicar en cualquier sitio que no tenga la clase menu icon se ejecute el hide menu*/
-$(document).on("click", function(e){
-    if($(e.target).attr("class") != "Open-menu" && menu_abierto==true){
-        hide_menu();
+$(document).on("click", function (e) {
+    if ($(e.target).attr("class") != "Open-megamenu" && megamenu_abierto == true) {
+        hide_megamenu();
     }
 });
-
 /* HAGO DESTRUCTURING: En vez de crear la const logo con props.logo le añado al parametro {} y le pongo de nomrbe el nombre de la prop que le paso
 * así lo coge directamente*/
 const Header = ({logo}) => (
@@ -50,78 +48,69 @@ const Header = ({logo}) => (
                 <div className="col-6 text-left">
                     <a href="http://167.99.208.80/"><img src={logo} className="img-fluid" alt=""/></a>
                 </div>
-                <div className="col-6 d-flex align-items-center justify-content-end pr-5">
-                    <button className="Megamenu text-uppercase">Vuela en globo</button>
-                    <button className="ml-4 menu-icon Open-menu" id="desplegable_boton1" onClick={show_menu}><i
-                        className="fa fa-bars text-white"></i></button>
-                    <span className="Cursor-pointer Open-menu" onClick={show_menu}>MENÚ</span>
-
-                        <div className="slideout-sidebar ">
-                            <div className="row">
-                                <div className="col-2 ml-4">
-                                    <button className="Btn-idioma">ES</button>
-                                </div>
-                                <div className="col-2">
-                                    <button className="Btn-idioma">CAT</button>
-                                </div>
-                                <div className="col-2">
-                                    <button className="Btn-idioma">EN</button>
-                                </div>
-                                <div className="col-2">
-                                    <button className="Btn-idioma">FR</button>
-                                </div>
-                                <div className="col-2 pl-5">
-
-                                    <button className="menu-icon" id="desplegable_boton2" onClick={hide_menu}><i
-                                        className="fas fa-times text-white"></i></button>
-                                </div>
-
-                            </div>
-                            <ul className="mt-4">
-
-                                <li><Link to="/pilotos" className="text-white">pilotos</Link></li>
-                                <li><Link to="/instalaciones" className="text-white">instalaciones</Link></li>
-                                <li><Link to="/blog" className="text-white">blog</Link></li>
-                                <li><Link to="/faq" className="text-white">FAQs</Link></li>
-                                <li>regalar vuelo</li>
-                                <li>infromación útil</li>
-                                <li>ubicación/meteorología</li>
-                                <li>contacto</li>
-                                <br/>
-                                <li className="pb-0">
-                                    <div className="col-12 mt-4 p-0 d-flex text-left align-items-center">
-                                        <div className="Div-ico">
-                                            <img src={ico_f} alt=""/>
-                                        </div>
-                                        <div className="Div-ico">
-                                            <img src={ico_t} alt=""/>
+                <div className="col-6 d-flex align-items-center justify-content-end pr-5 P-initial">
+                    <div>
+                        <button id="btn_megamenu" onClick={show_megamenu} className="Megamenu text-uppercase Open-megamenu">Vuela en globo</button>
 
 
-                                        </div>
-                                        <div className="Div-ico">
-                                            <img src={ico_i} alt=""/>
-
-
-                                        </div>
-                                        <div className="Div-ico">
-                                            <img src={ico_y} alt=""/>
-
-                                        </div>
-                                        <div className="Div-ico">
-                                            <img src={ico_tr} alt=""/>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li className="pl-0 pb-0">
-                                    <img className="Fondo-logo-menu" src={logo_gris} alt=""/>
-                                </li>
-                            </ul>
-
-                        </div>
-
+                    </div>
+                   <Menu2/>
+                </div>
+                </div>
+            </div>
+        <div className="col-12 Megamenu-div ">
+            <nav className="row mb-1">
+                <div className="col-md-3">
+                    <ul>
+                        <li className="mb-3"> <span className="T-megamenu">vuelos compartidos</span> </li>
+                        <li> <span>vuelos compartidos</span> </li>
+                        <li> <span>vuelos compartidos</span> </li>
+                        <li> <span>vuelos compartidos</span> </li>
+                        <li> <span>vuelos compartidos</span> </li>
+                    </ul>
+                </div>
+                <div className="col-md-3">
+                    <ul>
+                        <li className="mb-3"> <span className="T-megamenu">vuelos compartidos</span> </li>
+                        <li> <span>vuelos compartidos</span> </li>
+                        <li> <span>vuelos compartidos</span> </li>
+                        <li> <span>vuelos compartidos</span> </li>
+                        <li> <span>vuelos compartidos</span> </li>
+                    </ul>
+                </div>
+                <div className="col-md-3">
+                    <ul>
+                        <li className="mb-3"> <span className="T-megamenu">vuelos compartidos</span> </li>
+                        <li> <span>vuelos compartidos</span> </li>
+                        <li> <span>vuelos compartidos</span> </li>
+                        <li> <span>vuelos compartidos</span> </li>
+                        <li> <span>vuelos compartidos</span> </li>
+                    </ul>
+                </div>
+                <div className="col-md-3">
+                    <ul>
+                        <li className="mb-3"> <span className="T-megamenu">vuelos compartidos</span> </li>
+                        <li> <span>vuelos compartidos</span> </li>
+                        <li> <span>vuelos compartidos</span> </li>
+                        <li> <span>vuelos compartidos</span> </li>
+                        <li> <span>vuelos compartidos</span> </li>
+                    </ul>
+                </div>
+            </nav>
+            <div className="row mt-5">
+                <div className="col-md-6 text-right">
+                    <a href="/filtro">
+                        <button className="Btn-skinnyblue">ver ofertas</button>
+                    </a>
+                </div>
+                <div className="col-md-6 text-left">
+                    <a href="/filtro">
+                        <button className="Btn-red">todos los vuelos</button>
+                    </a>
                 </div>
             </div>
         </div>
+
     </header>
 )
 

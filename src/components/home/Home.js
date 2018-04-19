@@ -155,7 +155,7 @@ class Home extends React.Component {
                 SECCION 1
                 ---------*/}
                     {/*   Principal*/}
-                    <div className="container pb-5 mb-5">
+                    <div className="container pb-5 mb-5 Header-sec2">
                         <div className="row">
                             <div className="col-12 text-left">
                                 <h1 className=" display-1 Home-h1">VUELA EN GLOBO <br/>
