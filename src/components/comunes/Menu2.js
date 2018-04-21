@@ -130,7 +130,7 @@ const Menu2 = ({logo}) => (
                 <Link to="/pilotos" className="text-white"><li>pilotos</li></Link>
                 <Link to="/instalaciones" className="text-white"><li>instalaciones</li></Link>
                <Link to="/blog" className="text-white"> <li>blog</li></Link>
-                <Link to="/faq" className="text-white"><li>FAQs</li></Link>
+                <a href="/faq" className="text-white"><li>FAQs</li></a>
                 <li>regalar vuelo</li>
                 <li>infromación útil</li>
                 <li>ubicación/meteorología</li>

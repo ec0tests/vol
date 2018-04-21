@@ -151,7 +151,7 @@ const Footer_estilo1 = () => (
                 </div>
                 <div className="Div-ico">
                     <a target="_blank" href="">
-                        <i class="fab fa-google-plus-square Goo-ico-white"></i>
+                        <i className="fab fa-google-plus-square Goo-ico-white"></i>
 
                     </a>
                 </div>

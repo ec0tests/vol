@@ -25,9 +25,9 @@ import bkg1 from "./images/bkg-1.jpg";
 // Update: 1.0.2
 
 /*Plugin scroll suave*/
-(function($) {
+(function ($) {
 
-    $.scrollSpeed = function(step, speed, easing) {
+    $.scrollSpeed = function (step, speed, easing) {
 
         var $document = $(document),
             $window = $(window),
@@ -43,7 +43,7 @@ import bkg1 from "./images/bkg-1.jpg";
 
             return false;
 
-        $window.on('mousewheel DOMMouseScroll', function(e) {
+        $window.on('mousewheel DOMMouseScroll', function (e) {
 
             var deltaY = e.originalEvent.wheelDeltaY,
                 detail = e.originalEvent.detail;
@@ -67,7 +67,7 @@ import bkg1 from "./images/bkg-1.jpg";
 
                     scrollTop: root
 
-                }, speed, option, function() {
+                }, speed, option, function () {
 
                     scroll = false;
 
@@ -90,7 +90,7 @@ import bkg1 from "./images/bkg-1.jpg";
 
                     scrollLeft: root
 
-                }, speed, option, function() {
+                }, speed, option, function () {
 
                     scroll = false;
 
@@ -99,12 +99,12 @@ import bkg1 from "./images/bkg-1.jpg";
 
             return false;
 
-        }).on('scroll', function() {
+        }).on('scroll', function () {
 
             if (scrollY && !scroll) root = $window.scrollTop();
             if (scrollX && !scroll) root = $window.scrollLeft();
 
-        }).on('resize', function() {
+        }).on('resize', function () {
 
             if (scrollY && !scroll) view = $window.height();
             if (scrollX && !scroll) view = $window.width();
@@ -112,16 +112,12 @@ import bkg1 from "./images/bkg-1.jpg";
         });
     };
 
-    $.easing.default = function (x,t,b,c,d) {
+    $.easing.default = function (x, t, b, c, d) {
 
-        return -c * ((t=t/d-1)*t*t*t - 1) + b;
+        return -c * ((t = t / d - 1) * t * t * t - 1) + b;
     };
 
 })($);
-
-
-
-
 
 
 window.loading_screen = window.pleaseWait({
@@ -134,71 +130,72 @@ window.loading_screen = window.pleaseWait({
     "</div>"
 
 });
-setInterval(function () {
+
+$( document ).ready(function() {
     window.loading_screen.finish();
 
-},1300)
+});
 
 class App extends Component {
     render() {
         return (
             <Router>
-                <div className="App" >
+                <div className="App">
 
                     <Route onUpdate={() => window.scrollTo(0, 0)} path="/" exact strict render={
-                        ()=>{
+                        () => {
                             return (<Home/>);
                         }
                     }/>
 
-                    <Route path="/pilotos" exact strict render={
-                        ()=>{
+                    <Route onUpdate={() => window.scrollTo(0, 0)} path="/pilotos" exact strict render={
+                        () => {
                             return (<Pilotos/>);
                         }
                     }/>
 
-                    <Route path="/instalaciones" exact strict render={
-                        ()=>{
+                    <Route onUpdate={() => window.scrollTo(0, 0)} path="/instalaciones" exact strict render={
+                        () => {
                             return (<Instalaciones/>);
                         }
                     }/>
 
-                    <Route path="/blog" exact strict render={
-                        ()=>{
+                    <Route onUpdate={() => window.scrollTo(0, 0)} path="/blog" exact strict render={
+                        () => {
                             return (<Blogp/>);
                         }
                     }/>
 
-                    <Route path="/entrada_blog" exact strict render={
-                        ()=>{
+                    <Route onUpdate={() => window.scrollTo(0, 0)} path="/entrada_blog" exact strict render={
+                        () => {
                             return (<Bloge/>);
                         }
                     }/>
 
-                    <Route path="/faq" exact strict render={
-                        ()=>{
+                    <Route onUpdate={() => window.scrollTo(0, 0)} path="/faq" exact strict render={
+                        () => {
                             return (<Faq/>);
                         }
                     }/>
 
                     <Route path="/filtro" exact strict render={
-                        ()=>{
+                        () => {
                             return (<Filtro/>);
                         }
                     }/>
 
                     <Route path="/pack_romantico" exact strict render={
-                        ()=>{
+                        () => {
                             return (<Pack_romantico/>);
                         }
                     }/>
                     <Route path="/pack_historico" exact strict render={
-                        ()=>{
+                        () => {
                             return (<Pack_historico/>);
                         }
                     }/>
                     <Route path="/categorias" exact strict render={
-                        ()=>{
+                        () => {
                             return (<Categorias/>);
                         }
                     }/>
@@ -206,5 +203,7 @@ class App extends Component {
             </Router>
 
         );
-    }}
+    }
+}
+
 export default App;
