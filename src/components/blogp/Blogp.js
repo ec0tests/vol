@@ -17,6 +17,7 @@ import Footer_patrocinadores from "../comunes/Footer_patrocinadores";
 
 import bkg2 from '../../images/bkg-2.png';
 import Carousel_cards from "../comunes/Carousel_cards";
+import Arrow_top from "../comunes/Arrow_top";
 
 /*Creo el array de blogp provisional*/
 
@@ -56,7 +57,7 @@ for (var i = 0; i < entradas_blog.entradas_blog.length; i++) {
 }
 const Blogp = () => (
     <div className="Blogp">
-
+<Arrow_top/>
         <section className="Section1-blogp d-flex flex-column">
             <Header logo={logo_b}/>
             <div className="container mt-auto">

@@ -19,6 +19,7 @@ import Certificado from "../comunes/Certificado";
 import Subetufoto from "../comunes/Subetufoto";
 import Footer_estilo1 from "../comunes/Footer_estilo1";
 import Experiencia_volarGlobo from "../comunes/Experiencia_volarGlobo";
+import Arrow_top from "../comunes/Arrow_top";
 
 /*Creo el array de faq provisional*/
 
@@ -64,7 +65,7 @@ for (var i = 0; i < preguntas_faq.preguntas_faq.length; i++) {
 }
 const Faq = () => (
     <div className="Faq">
-
+<Arrow_top/>
         <section className="Section1-faq">
             <Header logo={logo_b}/>
             <div className="container-fluid mt-auto">

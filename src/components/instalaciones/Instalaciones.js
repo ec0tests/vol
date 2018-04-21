@@ -9,6 +9,7 @@ import Lightbox from 'react-image-lightbox';
 
 import play_ico from '../../images/play-ico.png';
 import Experiencia_volarGlobo from "../comunes/Experiencia_volarGlobo";
+import Arrow_top from "../comunes/Arrow_top";
 /*Creo el array de instalaciones provisional*/
 
 let array_instalaciones = [];
@@ -70,7 +71,7 @@ for (var i = 0; i < instalaciones_json.instalaciones.length; i++) {
 
         return (
             <div className="Instalaciones">
-
+<Arrow_top/>
                 <section className="Section1-instalaciones">
                     <Header logo={logo_b}/>
                     <div className="container-fluid">

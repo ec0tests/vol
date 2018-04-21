@@ -25,6 +25,7 @@ import tarjeta_img2 from '../../images/tarjeta-vuelo-foto2.jpg';
 
 import dibujo_globo from '../../images/dibujo-globo-g.png';
 import Card_experiencias from "../comunes/Card_experiencias";
+import Arrow_top from "../comunes/Arrow_top";
 
 
 let array_cards_experiencias = [];
@@ -115,7 +116,7 @@ for (var i = 0; i < cards_experiencias_json.cards_experiencias.length; i++) {
 
 const Bloge = () => (
     <div className="Bloge">
-
+<Arrow_top/>
         <section className="Section1-bloge">
             <Header logo={logo_b}/>
             <div className="container-fluid">
@@ -347,19 +348,34 @@ const Bloge = () => (
                             <button className="Btn-red">Volar en globo</button>
                         </div>
                         <div className="Div-ico">
-                            <img src={ico_face} className="img-fluid" alt=""/>
+                            <a target="_blank" href="https://es-es.facebook.com/voldecoloms/">
+                                <img src={ico_face} alt=""/>
+
+                            </a>
                         </div>
                         <div className="Div-ico">
-                            <img src={ico_twitter} className="img-fluid" alt=""/>
+                            <a target="_blank" href="https://twitter.com/voldecoloms?lang=es">
+                                <img src={ico_twitter} alt=""/>
+
+                            </a>
                         </div>
                         <div className="Div-ico">
-                            <img src={ico_inst} className="img-fluid" alt=""/>
+                            <a target="_blank" href="https://www.instagram.com/voldecoloms/">
+                                <img src={ico_inst} alt=""/>
+
+                            </a>
                         </div>
                         <div className="Div-ico">
-                            <img src={ico_youtube} className="img-fluid" alt=""/>
+                            <a target="_blank" href="https://www.youtube.com/user/Voldecoloms">
+                                <img src={ico_youtube} alt=""/>
+
+                            </a>
                         </div>
                         <div className="Div-ico">
-                            <img src={ico_face} className="img-fluid" alt=""/>
+                            <a target="_blank" href="">
+                                <i class="fab fa-google-plus-square Goo-ico-white"></i>
+
+                            </a>
                         </div>
                         <div className="row w-100 text-right justify-content-end pr-3 pt-3">
 

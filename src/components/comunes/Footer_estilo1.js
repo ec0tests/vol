@@ -9,7 +9,6 @@ import ico_trip from '../../images/Icon-RRSS-tr-b-55.png';
 import ico_youtube from '../../images/Icon-RRSS-yt-b-55.png';
 import logo_b from '../../images/vdc-logo-b.png';
 
-
 // instanciate new modal
 var modal_privacy = new tingle.modal({
     footer: false,
@@ -106,6 +105,7 @@ function openLegal() {
 function openCookies() {
     modal_cookies.open();
 }
+
 /*// add a button
 modal.addFooterBtn('Button label', 'tingle-btn tingle-btn--primary', function() {
     // here goes some logic
@@ -126,31 +126,31 @@ const Footer_estilo1 = () => (
             </div>
             <div className="col-6 d-flex justify-content-end align-items-center flex-wrap pr-5">
                 <div className="Div-ico">
-                    <a href="https://es-es.facebook.com/voldecoloms/">
+                    <a target="_blank" href="https://es-es.facebook.com/voldecoloms/">
                         <img src={ico_face} alt=""/>
 
                     </a>
                 </div>
                 <div className="Div-ico">
-                    <a href="https://twitter.com/voldecoloms?lang=es">
+                    <a target="_blank" href="https://twitter.com/voldecoloms?lang=es">
                         <img src={ico_twitter} alt=""/>
 
                     </a>
                 </div>
                 <div className="Div-ico">
-                    <a href="https://www.instagram.com/voldecoloms/">
+                    <a target="_blank" href="https://www.instagram.com/voldecoloms/">
                         <img src={ico_inst} alt=""/>
 
                     </a>
                 </div>
                 <div className="Div-ico">
-                    <a href="https://www.youtube.com/user/Voldecoloms">
+                    <a target="_blank" href="https://www.youtube.com/user/Voldecoloms">
                         <img src={ico_youtube} alt=""/>
 
                     </a>
                 </div>
                 <div className="Div-ico">
-                    <a href="">
+                    <a target="_blank" href="">
                         <i class="fab fa-google-plus-square Goo-ico-white"></i>
 
                     </a>
@@ -158,9 +158,12 @@ const Footer_estilo1 = () => (
 
                 <div className="row w-100 text-right justify-content-end pr-3 pt-3">
                                   <span className="text-white Copyrigth-text">©VOLS DE COLOM - Todos los derechos reservados - <a
-                                      onClick={openPrivacy} className="Underline Cursor-pointer"> Privacy Policy</a> - <a
-                                      onClick={openLegal} className="Underline Cursor-pointer">Legal Advice</a> - <a onClick={openCookies} className="Underline Cursor-pointer">Cookies Privacy</a> - Diseñado por <a
-                                      href="https://www.somoswaka.com/">Waka</a></span>
+                                      onClick={openPrivacy}
+                                      className="Underline Cursor-pointer"> Privacy Policy</a> - <a
+                                      onClick={openLegal} className="Underline Cursor-pointer">Legal Advice</a> - <a
+                                      onClick={openCookies} className="Underline Cursor-pointer">Cookies Privacy</a> - Diseñado por <a
+                                      target="_blank" href="https://www.somoswaka.com/">Waka</a> <br/> Made with love by   <a
+                                      target="_blank" href="https://www.ecoders.io/">Ecoders</a> !</span>
                 </div>
             </div>
 

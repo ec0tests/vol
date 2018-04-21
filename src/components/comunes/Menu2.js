@@ -7,6 +7,12 @@ import ico_y from '../../images/yt-ico-fondog.png';
 import ico_tr from '../../images/trip-ico-fondog.png';
 import logo_gris from '../../images/logo-gris.png';
 
+import ico_fw from '../../images/Icon-RRSS-fb-b-55.png';
+import ico_tw from '../../images/Icon-RRSS-tw-b-55.png';
+import ico_iw from '../../images/Icon-RRSS-in-b-55.png';
+import ico_trw from '../../images/Icon-RRSS-tr-b-55.png';
+import ico_yw from '../../images/Icon-RRSS-yt-b-55.png';
+
 import $ from 'jquery';
 
 /*Controlo si el menu está abierto o cerrado*/
@@ -40,6 +46,56 @@ $(document).on("click", function (e) {
     }
 });
 
+/*CHANGE IMAGES MENU ONHOVER*/
+$(function(){
+    $("#menu_face").on({
+        mouseenter: function(){
+            $(this).attr('src',ico_fw);
+        },
+        mouseleave: function(){
+            $(this).attr('src',ico_f);
+        }
+    });
+
+    $("#menu_insta").on({
+        mouseenter: function(){
+            $(this).attr('src',ico_iw);
+        },
+        mouseleave: function(){
+            $(this).attr('src',ico_i);
+        }
+    });
+
+    $("#menu_youtube").on({
+        mouseenter: function(){
+            $(this).attr('src',ico_yw);
+        },
+        mouseleave: function(){
+            $(this).attr('src',ico_y);
+        }
+    });
+
+    $("#menu_trip").on({
+        mouseenter: function(){
+            $(this).attr('src',ico_trw);
+        },
+        mouseleave: function(){
+            $(this).attr('src',ico_tr);
+        }
+    });
+
+    $("#menu_twitter").on({
+        mouseenter: function(){
+            $(this).attr('src',ico_tw);
+        },
+        mouseleave: function(){
+            $(this).attr('src',ico_t);
+        }
+    });
+
+});
+
+
 /* HAGO DESTRUCTURING: En vez de crear la const logo con props.logo le añado al parametro {} y le pongo de nomrbe el nombre de la prop que le paso
 * así lo coge directamente*/
 const Menu2 = ({logo}) => (
@@ -71,10 +127,10 @@ const Menu2 = ({logo}) => (
             </div>
             <ul className="mt-4">
 
-                <li><Link to="/pilotos" className="text-white">pilotos</Link></li>
-                <li><Link to="/instalaciones" className="text-white">instalaciones</Link></li>
-                <li><Link to="/blog" className="text-white">blog</Link></li>
-                <li><Link to="/faq" className="text-white">FAQs</Link></li>
+                <Link to="/pilotos" className="text-white"><li>pilotos</li></Link>
+                <Link to="/instalaciones" className="text-white"><li>instalaciones</li></Link>
+               <Link to="/blog" className="text-white"> <li>blog</li></Link>
+                <Link to="/faq" className="text-white"><li>FAQs</li></Link>
                 <li>regalar vuelo</li>
                 <li>infromación útil</li>
                 <li>ubicación/meteorología</li>
@@ -83,24 +139,19 @@ const Menu2 = ({logo}) => (
                 <li className="pb-0">
                     <div className="col-12 mt-4 p-0 d-flex text-left align-items-center">
                         <div className="Div-ico">
-                            <img src={ico_f} alt=""/>
+                            <a target="_blank" href="https://es-es.facebook.com/voldecoloms/" > <img id="menu_face" src={ico_f} alt=""/></a>
                         </div>
                         <div className="Div-ico">
-                            <img src={ico_t} alt=""/>
-
-
+                            <a target="_blank" href="https://twitter.com/voldecoloms" > <img id="menu_twitter" src={ico_t} alt=""/></a>
                         </div>
                         <div className="Div-ico">
-                            <img src={ico_i} alt=""/>
-
-
+                            <a target="_blank" href="https://www.instagram.com/voldecoloms/">  <img id="menu_insta"  src={ico_i} alt=""/></a>
                         </div>
                         <div className="Div-ico">
-                            <img src={ico_y} alt=""/>
-
+                            <a target="_blank" href="https://www.youtube.com/user/Voldecoloms" > <img id="menu_youtube" src={ico_y} alt=""/></a>
                         </div>
                         <div className="Div-ico">
-                            <img src={ico_tr} alt=""/>
+                            <a  target="_blank" href="https://www.tripadvisor.es/Attraction_Review-g911486-d3247038-Reviews-Vol_de_Coloms-Olot_Province_of_Girona_Catalonia.html"> <img id="menu_trip" src={ico_tr} alt=""/></a>
                         </div>
                     </div>
                 </li>

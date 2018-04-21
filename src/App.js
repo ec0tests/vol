@@ -6,6 +6,7 @@ import './App.css';
 import $ from 'jquery';
 import pleaseWait from 'please-wait';
 
+
 import Home from './components/home/Home';
 import Pilotos from './components/pilotos/Pilotos';
 import Instalaciones from './components/instalaciones/Instalaciones';
@@ -17,6 +18,7 @@ import Filtro from './components/filtro/Filtro';
 import Pack_historico from "./components/pack_historico/Pack_historico";
 import Categorias from "./components/categorias/Categorias";
 import bkg1 from "./images/bkg-1.jpg";
+
 // Plugin: $.scrollSpeed
 // Source: github.com/nathco/jQuery.scrollSpeed
 // Author: Nathan Rutzky
@@ -118,10 +120,24 @@ import bkg1 from "./images/bkg-1.jpg";
 })($);
 
 
+
+
+
+
+window.loading_screen = window.pleaseWait({
+    logo: "http://clientes-optimoclick.es/sergio/img-vol/logo.png",
+    backgroundColor: '#2863B1',
+    loadingHtml: "<div class=\"spinner\">\n" +
+    "  <div class=\"bounce1\"></div>\n" +
+    "  <div class=\"bounce2\"></div>\n" +
+    "  <div class=\"bounce3\"></div>\n" +
+    "</div>"
+
+});
 setInterval(function () {
     window.loading_screen.finish();
 
-},1500)
+},1300)
 
 class App extends Component {
     render() {

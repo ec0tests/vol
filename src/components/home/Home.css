@@ -1,16 +1,28 @@
 
 
 
+.Arrow-down{
+    animation: MoveUpDown 1s linear infinite;
+    position: absolute;
+}
+.Arrow-down a{
+    color: #fff;
+    font-size: 4rem;
+}
+@keyframes MoveUpDown {
+    0%, 100% {
+        bottom: 0;
+    }
+    50% {
+        bottom: 10px;
+    }
+}
+
 .Bottom-5 {
     position: relative;
     bottom: 5%;
 }
 
-button:hover {
-   /* transform: scale(1.03);*/
-    cursor: pointer;
-    /*transition: 0.3s;*/
-}
 
 .Home-h1 {
     font-weight: 700 !important;
@@ -18,6 +30,9 @@ button:hover {
     line-height: 0.5 !important;
 
 }
+
+
+
 
 .Home-h1 > span {
     font-size: 2rem;
@@ -134,7 +149,7 @@ header > .container {
 
 .Section2 {
     position: relative;
-    padding: 18rem 0;
+    padding: 12rem 0;
 }
 
 

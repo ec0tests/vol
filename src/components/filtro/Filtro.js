@@ -8,12 +8,18 @@ import ico_trip from '../../images/Icon-RRSS-tr-b-55.png';
 import ico_youtube from '../../images/Icon-RRSS-yt-b-55.png';
 import play_ico from '../../images/play-ico.png';
 import bkg2 from '../../images/bkg-2.png';
+import menos from '../../images/menos.png'
+import mas from '../../images/mas.png'
+import $ from 'jquery';
 
 import Header from "../comunes/Header";
 import Footer_estilo1 from "../comunes/Footer_estilo1";
 import Carousel_cards from "../comunes/Carousel_cards";
 import Card_experiencias from "../comunes/Card_experiencias";
 import Experiencia_volarGlobo from "../comunes/Experiencia_volarGlobo";
+import Arrow_top from "../comunes/Arrow_top";
+
+
 
 
 /*Creo el array de filtro provisional*/
@@ -104,26 +110,43 @@ for (var i = 0; i < cards_experiencias_json.cards_experiencias.length; i++) {
                                                      photo={cards_experiencias_json.cards_experiencias[i].photo}/>);
 }
 
+/*$( function() {
+    $( "#datepicker" ).datepicker();
+} );*/
 
 class Filtro extends React.Component{
 
     constructor(){
         super();
         this.state = {
-            mostrar_filtro_tipo: true,
-            mostrar_filtro_personas: true,
+            ocultar_filtro_tipo: true,
+            ocultar_filtro_personas: true,
+            ocultar_filtro_fechas: true,
             contador_adultos:0,
             contador_ninyos:0,
         };
     }
     toggle_filtro_tipo() {
         this.setState({
-            mostrar_filtro_tipo: !this.state.mostrar_filtro_tipo
+            ocultar_filtro_tipo: !this.state.ocultar_filtro_tipo,
+            ocultar_filtro_personas: true,
+            ocultar_filtro_fechas: true
+
         });
     }
     toggle_filtro_personas() {
         this.setState({
-            mostrar_filtro_personas: !this.state.mostrar_filtro_personas
+            ocultar_filtro_personas: !this.state.ocultar_filtro_personas,
+            ocultar_filtro_tipo: true,
+            ocultar_filtro_fechas: true
+        });
+    }
+
+    toggle_filtro_fechas() {
+        this.setState({
+            ocultar_filtro_fechas: !this.state.ocultar_filtro_personas,
+            ocultar_filtro_tipo: true,
+            ocultar_filtro_personas: true
         });
     }
 
@@ -168,25 +191,32 @@ class Filtro extends React.Component{
 
 
     render () {
-        var mostrar_filtro_tipo = {
-            display: this.state.mostrar_filtro_tipo ? "block" : "none"
+        var ocultar_filtro_tipo = {
+            display: this.state.ocultar_filtro_tipo ? "block" : "none"
         };
 
-        var mostrar_filtro_personas = {
-            display: this.state.mostrar_filtro_personas ? "block" : "none"
+        var ocultar_filtro_personas = {
+            display: this.state.ocultar_filtro_personas ? "block" : "none"
+        };
+        var ocultar_filtro_fechas = {
+            display: this.state.ocultar_filtro_fechas ? "block" : "none"
         };
 
         var hidden_filtro_tipo = {
-            display: this.state.mostrar_filtro_tipo ? "none" : "block"
+            display: this.state.ocultar_filtro_tipo ? "none" : "block"
         }
 
         var hidden_filtro_personas = {
-            display: this.state.mostrar_filtro_personas ? "none" : "block"
+            display: this.state.ocultar_filtro_personas ? "none" : "block"
+        }
+
+        var hidden_filtro_fechas = {
+            display: this.state.ocultar_filtro_fechas ? "none" : "block"
         }
 
         return (
             <div className="Filtro">
-
+<Arrow_top/>
                 <section className="Section1-filtro d-flex flex-column">
                     <Header logo={logo_b}/>
                     <div className="container-fluid pl-5">
@@ -206,12 +236,16 @@ class Filtro extends React.Component{
                                     <button className="Btn-gris-sinfondo">
                                         Fechas
                                     </button>
+                                    <div id="card_fechas" className={`card Filtro-card Filtro-fechas Z-index-alto `} style={ hidden_filtro_fechas }>
+
+                                    <input type="text" id="datepicker"/>
+                                    </div>
                                 </div>
                                 <div className="col-3 p-0">
                                     <button onClick={this.toggle_filtro_personas.bind(this)} className="Btn-gris-sinfondo">
                                         Personas
                                     </button>
-                                    <div id="card_personas" className={`card Filtro-card Filtro-personas `} style={ hidden_filtro_personas }>
+                                    <div id="card_personas" className={`card Filtro-card Filtro-personas Z-index-alto `} style={ hidden_filtro_personas }>
                                         <div className="d-flex flex-column p-4 justify-content-start pt-4">
                                             <div className="col-12 d-flex pl-0 pr-0">
                                                 <div className="col-6 pl-0 d-flex align-items-center">
@@ -219,9 +253,10 @@ class Filtro extends React.Component{
 
                                                 </div>
                                                 <div className="col-6 pr-0 d-flex align-items-center justify-content-around">
-                                                    <div onClick={this.rest_adultos.bind(this)} className="Filtro-boton-menos">-</div>
+                                                    <div onClick={this.rest_adultos.bind(this)} className="Filtro-boton-menos"> <img src={menos} className="img-fluid" alt=""/></div>
                                                     <span>{this.state.contador_adultos}+</span>
-                                                    <div onClick={this.sum_adultos.bind(this)} className="Filtro-boton-mas">+</div>
+                                                    <div onClick={this.sum_adultos.bind(this)} className="Filtro-boton-mas">
+                                                        <img src={mas} className="img-fluid" alt=""/></div>
                                                 </div>
 
                                             </div>
@@ -231,9 +266,9 @@ class Filtro extends React.Component{
 
                                                 </div>
                                                 <div className="col-6 pr-0 d-flex align-items-center justify-content-around">
-                                                    <div onClick={this.rest_ninyos.bind(this)} className="Filtro-boton-menos">-</div>
+                                                    <div onClick={this.rest_ninyos.bind(this)} className="Filtro-boton-menos"><img src={menos} className="img-fluid" alt=""/></div>
                                                     <span>{this.state.contador_ninyos}+</span>
-                                                    <div onClick={this.sum_ninyos.bind(this)} className="Filtro-boton-mas">+</div>
+                                                    <div onClick={this.sum_ninyos.bind(this)} className="Filtro-boton-mas"><img src={mas} className="img-fluid" alt=""/></div>
 
                                                 </div>
 
@@ -250,7 +285,7 @@ class Filtro extends React.Component{
                                     <button onClick={this.toggle_filtro_tipo.bind(this)} className="Btn-gris-sinfondo">
                                         Tipo de vuelo
                                     </button>
-                                    <div id="card_tipovuelo" className={`card Filtro-card Filtro-tipovuelo`} style={ hidden_filtro_tipo }>
+                                    <div id="card_tipovuelo" className={`card Filtro-card Filtro-tipovuelo Z-index-alto`} style={ hidden_filtro_tipo }>
                                         <div className="d-flex flex-column px-4 justify-content-start pt-1">
                                             <div className="col-12 d-flex pl-0 pr-0 pt-3">
                                                 <div class="form-check form-check-inline">

@@ -13,6 +13,9 @@ text-transform: uppercase;
 
 
 }
+.Z-index-alto{
+    z-index: 9999999!important;
+}
 
 .Filtro h2{
     color: #333333;
@@ -157,9 +160,8 @@ p  {
 .Filtro-card{
     position: absolute;
     z-index: 10;
-    height: 13rem;
     width: 20rem;
-    font-size: .92rem;
+    font-size: 0.9rem;
     color: #616161;
     font-weight: 500;
     font-family: 'Roboto', sans-serif;
@@ -169,31 +171,24 @@ p  {
 }
 
 .Filtro-tipovuelo{
-    height: 17.4rem;
     width: 19rem;
+    padding: 1rem 0rem;
+}
+.Filtro-tipovuelo label{
+    font-size: 0.9rem!important;
+    color: #616161!important;
+    font-weight: 500!important;
+    font-family: 'Roboto', sans-serif!important;
+
 }
 .Filtro-boton-mas{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid #2260B3;
-    border-radius: 50%;
-    width: 2rem;
-    height: 2rem;
-    color: #2260B3;
-    font-weight: bold;
+    width: 1.5rem;
+    height: 1.5rem;
     cursor: pointer;
 }
 .Filtro-boton-menos{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid #b5b5b6;
-    border-radius: 50%;
-    width: 2rem;
-    height: 2rem;
-    color: #b5b5b6;
-    font-weight: bold;
+    width: 1.5rem;
+    height: 1.5rem;
     cursor: pointer;
 
 }

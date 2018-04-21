@@ -30,19 +30,12 @@ import Experiencia_completa from "../comunes/Experiencia_completa";
 import Header from "../comunes/Header";
 import Footer_patrocinadores from "../comunes/Footer_patrocinadores";
 import Subetufoto from "../comunes/Subetufoto";
+import Arrow_top from "../comunes/Arrow_top"
+
 import tingle from "tingle.js";
 
 
-window.loading_screen = window.pleaseWait({
-    logo: "http://clientes-optimoclick.es/sergio/img-vol/logo.png",
-    backgroundColor: '#2863B1',
-    loadingHtml: "<div class=\"spinner\">\n" +
-    "  <div class=\"bounce1\"></div>\n" +
-    "  <div class=\"bounce2\"></div>\n" +
-    "  <div class=\"bounce3\"></div>\n" +
-    "</div>"
 
-});
 
 
 // instanciate new modal
@@ -146,6 +139,7 @@ class Home extends React.Component {
     render() {
         return (
             <div className="Home">
+                <Arrow_top/>
                 {/* <img src={bkg1} className="Section1-bkg" alt=""/>*/}
 
                 <main id="Section1" className="Section1 ">
@@ -172,6 +166,10 @@ class Home extends React.Component {
                             <div className="col-12 text-left">
                                 <button className="text-uppercase Btn-darkblue-h mt-2">regalar vuelo</button>
                             </div>
+
+                         {/*   <div className="col-12 text-left d-flex justify-content-center align-items-center py-5 Arrow-down">
+                                <a href="#Section2"><i class="fas fa-angle-down "></i></a>
+                            </div>*/}
                         </div>
                     </div>
                     <div className="container pt-5">
@@ -336,40 +334,41 @@ class Home extends React.Component {
                                 </div>
                                 <div className="col-6 d-flex justify-content-end align-items-center flex-wrap ">
                                     <div className="Div-ico">
-                                        <a href="https://es-es.facebook.com/voldecoloms/">
+                                        <a target="_blank" href="https://es-es.facebook.com/voldecoloms/">
                                             <img src={ico_face} alt=""/>
 
                                         </a>
                                     </div>
                                     <div className="Div-ico">
-                                        <a href="https://twitter.com/voldecoloms">
+                                        <a target="_blank" href="https://twitter.com/voldecoloms">
                                             <img src={ico_twitter} alt=""/>
 
                                         </a>
                                     </div>
                                     <div className="Div-ico">
-                                        <a href="https://www.instagram.com/voldecoloms/">
+                                        <a target="_blank" href="https://www.instagram.com/voldecoloms/">
                                             <img src={ico_inst} alt=""/>
 
                                         </a>
                                     </div>
                                     <div className="Div-ico">
-                                        <a href="https://www.youtube.com/user/Voldecoloms">
+                                        <a target="_blank" href="https://www.youtube.com/user/Voldecoloms">
                                             <img src={ico_youtube} alt=""/>
 
                                         </a>
                                     </div>
                                     <div className="Div-ico">
-                                        <a href="">
-                                            <i class="fab fa-google-plus-square Goo-ico-white mt-1"></i>
+                                        <a target="_blank" href="">
+                                            <i className="fab fa-google-plus-square Goo-ico-white mt-1"></i>
                                         </a>
                                     </div>
                                 </div>
                                 <div className="col-lg-11 text-left mt-4  d-flex justify-content-end">
-                                       <span className="text-white Copyrigth-text">©VOLS DE COLOM - Todos los derechos reservados - <a
+                                       <span className="text-white Copyrigth-text text-right">©VOLS DE COLOM - Todos los derechos reservados - <a
                                            onClick={openPrivacy} className="Underline Cursor-pointer"> Privacy Policy</a> - <a
                                            onClick={openLegal} className="Underline Cursor-pointer">Legal Advice</a> - <a onClick={openCookies} className="Underline Cursor-pointer">Cookies Privacy</a> - Diseñado por <a
-                                           href="https://www.somoswaka.com/">Waka</a></span>
+                                           target="_blank" href="https://www.somoswaka.com/">Waka</a><br/> Made with love by   <a
+                                           target="_blank" href="https://www.ecoders.io/">Ecoders</a> !</span>
                                 </div>
 
                             </div>

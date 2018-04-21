@@ -1,4 +1,6 @@
 
+.App{
+}
 p{
     font-family: 'Roboto', sans-serif!important;
 
@@ -168,11 +170,18 @@ h4{
     color: #ffffff;
 }
 
+button:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+    transition: 0.3s;
+}
 
 /*SPINER PAGELOAD*/
 
 .pg-loading-screen{
     background-image: url("images/bkg-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .spinner {
     margin: 100px auto 0;
