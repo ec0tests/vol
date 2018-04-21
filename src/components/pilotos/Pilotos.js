@@ -9,6 +9,7 @@ import Experiencia_volarGlobo from "../comunes/Experiencia_volarGlobo";
 import Footer_estilo1 from "../comunes/Footer_estilo1";
 import logo_b from '../../images/vdc-logo-b.png';
 import bkg1 from '../../images/pilotos-bkg1.png';
+import Arrow_top from "../comunes/Arrow_top"
 
 /*Creo el array de pilotos provisional*/
 let pilot_cards = [];
@@ -76,7 +77,7 @@ for (var i = 0; i < texto_seo_json.texto.length; i++) {
 console.log(textos_seo);
 const Pilotos = () => (
     <div className="Pilotos">
-
+<Arrow_top/>
         <section className="Section1-pilotos">
             <Header logo={logo_b}/>
             <div className="container-fluid">

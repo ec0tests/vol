@@ -10,6 +10,7 @@ import Card_experiencias from "../comunes/Card_experiencias";
 import Debes_saber from "../comunes/Debes_saber";
 import Experiencia_completa from "../comunes/Experiencia_completa";
 import Experiencia_volarGlobo from "../comunes/Experiencia_volarGlobo";
+import Arrow_top from "../comunes/Arrow_top";
 
 
 /*Creo el array de filtro provisional*/
@@ -182,7 +183,7 @@ class Pack_romantico extends React.Component{
 
         return (
             <div className="Pack-romantico">
-
+<Arrow_top/>
                 <section className="Section1-pack-romantico d-flex flex-column">
                     <Header logo={logo_b}/>
                     <div className="container-fluid pl-5">

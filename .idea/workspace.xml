@@ -2,29 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="689f3cfd-3ccb-444b-a116-11e30d561ec9" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/components/comunes/Arrow_top.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/components/comunes/Arrow_top.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/images/mas.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/images/menos.png" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
-      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" afterPath="$PROJECT_DIR$/src/App.css" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" afterPath="$PROJECT_DIR$/src/App.js" />
       <change beforePath="$PROJECT_DIR$/src/components/bloge/Bloge.js" afterPath="$PROJECT_DIR$/src/components/bloge/Bloge.js" />
       <change beforePath="$PROJECT_DIR$/src/components/blogp/Blogp.js" afterPath="$PROJECT_DIR$/src/components/blogp/Blogp.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/categorias/Categorias.js" afterPath="$PROJECT_DIR$/src/components/categorias/Categorias.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/comunes/Card_experiencias.css" afterPath="$PROJECT_DIR$/src/components/comunes/Card_experiencias.css" />
-      <change beforePath="$PROJECT_DIR$/src/components/comunes/Footer_estilo1.js" afterPath="$PROJECT_DIR$/src/components/comunes/Footer_estilo1.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/comunes/Header.css" afterPath="$PROJECT_DIR$/src/components/comunes/Header.css" />
-      <change beforePath="$PROJECT_DIR$/src/components/comunes/Menu2.js" afterPath="$PROJECT_DIR$/src/components/comunes/Menu2.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/faq/Faq.js" afterPath="$PROJECT_DIR$/src/components/faq/Faq.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/filtro/Filtro.css" afterPath="$PROJECT_DIR$/src/components/filtro/Filtro.css" />
-      <change beforePath="$PROJECT_DIR$/src/components/filtro/Filtro.js" afterPath="$PROJECT_DIR$/src/components/filtro/Filtro.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/Home.css" afterPath="$PROJECT_DIR$/src/components/home/Home.css" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/Home.js" afterPath="$PROJECT_DIR$/src/components/home/Home.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/instalaciones/Instalaciones.js" afterPath="$PROJECT_DIR$/src/components/instalaciones/Instalaciones.js" />
+      <change beforePath="$PROJECT_DIR$/src/components/pack_romantico/Pack_romantico.js" afterPath="$PROJECT_DIR$/src/components/pack_romantico/Pack_romantico.js" />
+      <change beforePath="$PROJECT_DIR$/src/components/pilotos/Pilotos.js" afterPath="$PROJECT_DIR$/src/components/pilotos/Pilotos.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -38,11 +19,65 @@
       <file leaf-file-name="Home.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/home/Home.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1029">
-              <caret line="175" column="18" lean-forward="false" selection-start-line="175" selection-start-column="18" selection-end-line="175" selection-end-column="18" />
+            <state relative-caret-position="458">
+              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Pilotos.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/pilotos/Pilotos.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="146">
+              <caret line="79" column="12" lean-forward="false" selection-start-line="79" selection-start-column="12" selection-end-line="79" selection-end-column="12" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Pack_romantico.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/pack_romantico/Pack_romantico.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="185" column="12" lean-forward="false" selection-start-line="185" selection-start-column="12" selection-end-line="185" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Bloge.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/bloge/Bloge.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="314">
+              <caret line="344" column="97" lean-forward="true" selection-start-line="343" selection-start-column="46" selection-end-line="344" selection-end-column="97" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Entrada_blog.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/blogp/Entrada_blog.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="10" column="104" lean-forward="false" selection-start-line="10" selection-start-column="103" selection-end-line="10" selection-end-column="104" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Blogp.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/blogp/Blogp.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="181" column="97" lean-forward="false" selection-start-line="181" selection-start-column="97" selection-end-line="181" selection-end-column="97" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -51,20 +86,10 @@
         <entry file="file://$PROJECT_DIR$/src/components/comunes/Footer_estilo1.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="335">
-              <caret line="165" column="82" lean-forward="false" selection-start-line="165" selection-start-column="82" selection-end-line="165" selection-end-column="82" />
+              <caret line="165" column="98" lean-forward="false" selection-start-line="164" selection-start-column="97" selection-end-line="165" selection-end-column="98" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Home.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/home/Home.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -79,7 +104,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Filtro.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Filtro.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/filtro/Filtro.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="526">
@@ -106,48 +131,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Pack_historico.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/pack_historico/Pack_historico.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-6978">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Footer_patrocinadores.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/comunes/Footer_patrocinadores.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="25" column="25" lean-forward="false" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="App.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Arrow_top.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/comunes/Arrow_top.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="596">
-              <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -160,8 +143,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>btn</find>
-      <find>header</find>
       <find>show</find>
       <find>window</find>
       <find>div</find>
@@ -176,7 +157,6 @@
       <find>class</find>
       <find>row my-4</find>
       <find>locatin</find>
-      <find>waka</find>
       <find>background-colo</find>
       <find>body</find>
       <find>class=</find>
@@ -184,12 +164,15 @@
       <find>angle</find>
       <find>arrow-</find>
       <find>dise</find>
-      <find>made</find>
-      <find>arrow</find>
       <find>mas</find>
       <find>d-flex flex-column p-4 justify-content-start pt-4</find>
       <find>pt-4</find>
       <find>filtro-tip</find>
+      <find>hidden</find>
+      <find>arrow</find>
+      <find>made</find>
+      <find>waka</find>
+      <find>diseña</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -199,7 +182,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/components/pack_romantico/Pack_romantico.css" />
-        <option value="$PROJECT_DIR$/src/components/pack_romantico/Pack_romantico.js" />
         <option value="$PROJECT_DIR$/src/components/pack_historico/Pack_historico.css" />
         <option value="$PROJECT_DIR$/src/components/comunes/Card-roja.js" />
         <option value="$PROJECT_DIR$/src/components/pack_historico/Pack_historico.js" />
@@ -208,7 +190,6 @@
         <option value="$PROJECT_DIR$/src/components/categorias/Categorias.css" />
         <option value="$PROJECT_DIR$/src/components/comunes/Footer_estilo1_btnrojo.css" />
         <option value="$PROJECT_DIR$/src/components/comunes/Footer_estilo1_btnrojo.js" />
-        <option value="$PROJECT_DIR$/src/components/pilotos/Pilotos.js" />
         <option value="$PROJECT_DIR$/src/components/comunes/Experiencia_volarGlobo.css" />
         <option value="$PROJECT_DIR$/src/components/comunes/Experiencia_volarGlobo.js" />
         <option value="$PROJECT_DIR$/src/components/pilotos/Card_pilotos.js" />
@@ -237,8 +218,6 @@
         <option value="$PROJECT_DIR$/src/components/instalaciones/Instalaciones.js" />
         <option value="$PROJECT_DIR$/src/components/faq/Faq.js" />
         <option value="$PROJECT_DIR$/src/components/categorias/Categorias.js" />
-        <option value="$PROJECT_DIR$/src/components/blogp/Blogp.js" />
-        <option value="$PROJECT_DIR$/src/components/bloge/Bloge.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/components/comunes/Arrow_top.js" />
         <option value="$PROJECT_DIR$/public/index.html" />
@@ -249,6 +228,10 @@
         <option value="$PROJECT_DIR$/src/components/home/Home.js" />
         <option value="$PROJECT_DIR$/src/components/filtro/Filtro.css" />
         <option value="$PROJECT_DIR$/src/components/filtro/Filtro.js" />
+        <option value="$PROJECT_DIR$/src/components/pilotos/Pilotos.js" />
+        <option value="$PROJECT_DIR$/src/components/pack_romantico/Pack_romantico.js" />
+        <option value="$PROJECT_DIR$/src/components/bloge/Bloge.js" />
+        <option value="$PROJECT_DIR$/src/components/blogp/Blogp.js" />
       </list>
     </option>
   </component>
@@ -373,6 +356,20 @@
               <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="pack_historico" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="vol" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vol" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="pack_romantico" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="vol" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vol" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="pilotos" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -448,12 +445,12 @@
       <workItem from="1524085083100" duration="8411000" />
       <workItem from="1524176613320" duration="4448000" />
       <workItem from="1524208759480" duration="3264000" />
-      <workItem from="1524265134381" duration="10076000" />
+      <workItem from="1524265134381" duration="10731000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="201097000" />
+    <option name="totallyTimeSpent" value="201752000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -492,13 +489,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/pilotos/Card_pilotos.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1247">
-          <caret line="46" column="71" lean-forward="false" selection-start-line="46" selection-start-column="71" selection-end-line="46" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/pilotos/Pilotos.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1798">
@@ -516,13 +506,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="348">
           <caret line="13" column="94" lean-forward="false" selection-start-line="13" selection-start-column="94" selection-end-line="13" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/pilotos/Pilotos.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3393">
-          <caret line="127" column="41" lean-forward="false" selection-start-line="127" selection-start-column="41" selection-end-line="127" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -592,13 +575,6 @@
         <state relative-caret-position="409">
           <caret line="145" column="0" lean-forward="false" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/blogp/Entrada_blog.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -710,26 +686,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/blogp/Blogp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="59" column="12" lean-forward="false" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/react.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="278">
           <caret line="2609" column="8" lean-forward="false" selection-start-line="2609" selection-start-column="8" selection-end-line="2609" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/bloge/Bloge.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="118" column="2" lean-forward="false" selection-start-line="118" selection-start-column="2" selection-end-line="118" selection-end-column="2" />
           <folding />
         </state>
       </provider>
@@ -826,31 +786,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/comunes/Footer_estilo1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="165" column="82" lean-forward="false" selection-start-line="165" selection-start-column="82" selection-end-line="165" selection-end-column="82" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/comunes/Menu2.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="46" selection-end-column="3" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/home/Home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1029">
-          <caret line="175" column="18" lean-forward="false" selection-start-line="175" selection-start-column="18" selection-end-line="175" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -874,6 +814,70 @@
             <element signature="e#1075#3584#0" expanded="false" />
             <element signature="e#3661#4600#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/home/Home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/pilotos/Pilotos.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="79" column="12" lean-forward="false" selection-start-line="79" selection-start-column="12" selection-end-line="79" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/pack_romantico/Pack_romantico.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="185" column="12" lean-forward="false" selection-start-line="185" selection-start-column="12" selection-end-line="185" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/comunes/Footer_estilo1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="165" column="98" lean-forward="false" selection-start-line="164" selection-start-column="97" selection-end-line="165" selection-end-column="98" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/blogp/Entrada_blog.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="10" column="104" lean-forward="false" selection-start-line="10" selection-start-column="103" selection-end-line="10" selection-end-column="104" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/bloge/Bloge.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="344" column="97" lean-forward="true" selection-start-line="343" selection-start-column="46" selection-end-line="344" selection-end-column="97" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/blogp/Blogp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="181" column="97" lean-forward="false" selection-start-line="181" selection-start-column="97" selection-end-line="181" selection-end-column="97" />
+          <folding />
         </state>
       </provider>
     </entry>
