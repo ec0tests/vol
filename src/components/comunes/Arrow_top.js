@@ -22,7 +22,7 @@ class Arrow_top extends React.Component {
 
         return (
             <div>
-                <a onClick={returnTop} id="return-to-top" className=" text-white"><i class="fas fa-arrow-up text-white"></i></a>
+                <a onClick={returnTop} id="return-to-top" className=" text-white"><i className="fas fa-arrow-up text-white"></i></a>
             </div>
     )
 
