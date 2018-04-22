@@ -24,7 +24,7 @@ var modal_opiniones = new tingle.modal({
     }
 });
 
-modal_opiniones.setContent('<h2>Opiniones Tripadvisor</h2><hr><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium, deserunt dignissimos dolore doloribus dolorum eius, impedit inventore laboriosam magnam molestias mollitia provident ratione repudiandae soluta suscipit velit, veniam voluptas?</p>');
+
 
 
 function openOpiniones() {
@@ -50,7 +50,6 @@ const Certificado_peq = ()=> (
                     </li>
                 </ul>
             </div>
-            <script async src="https://www.jscache.com/wejs?wtype=certificateOfExcellence&amp;uniq=99&amp;locationId=3247038&amp;lang=en_US&amp;year=2017&amp;display_version=2"></script>
 
         </div>
     </div>

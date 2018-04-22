@@ -530,3 +530,78 @@ button:hover {
         filter: none;
     }
 }
+
+
+/*TRIPADVIOSR OPINIONES*/
+
+#CDSWIDSSP{
+    font-family: 'Roboto', sans-serif!important;
+font-size: 1.5rem;
+    color: #333;
+    overflow: hidden;
+    height: auto;
+    background-color: #FFF;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    position: relative;
+    background-color: transparent;
+    letter-spacing: 0;
+}
+dt{
+    font-size: 1.5rem!important;
+    width: 100%!important;
+}
+.widSSPTagline{
+    font-size: 1.5rem!important;
+    width: 100%!important;
+}
+#CDSWIDSSP .widSSPData .widSSPBranding dt.widSSPTagline{
+    display: none;
+}
+#CDSWIDSSP .widSSPData .widSSPH18{
+    padding: 20px 0;
+}
+
+#CDSWIDSSP.widSSPnarrow .widSSPData .widSSPReviews .widSSPH11{
+    padding-top: 20px;
+    padding-bottom: 15px;
+    font-size: 1.7rem;
+
+}
+#CDSWIDSSP .widSSPData .widSSPBranding dt{
+    width: 100%!important;
+    height: auto!important;
+}
+#CDSWIDSSP .widSSPData .widSSPOneReview .widSSPBullet li span{
+    font-size: 1.3rem!important;
+    font-family: 'Roboto', sans-serif!important;
+
+
+}
+.widSSPDate{
+    font-weight: bold!important;
+}
+#CDSWIDSSP.widSSPnarrow .widSSPData .widSSPOneReview .widSSPBullet li{
+    padding-top: 1rem;
+}
+#CDSWIDSSP dt{
+    font-size: 1rem;
+}
+.widSSPData{
+    border: 0!important;
+}
+.widSSPnarrow{
+    width: 100%!important;
+    font-family: 'Roboto', sans-serif!important;
+
+}
+#CDSWIDSSP div{
+    border: 0!important;
+    font-family: 'Roboto', sans-serif!important;
+
+}
+
+#CDSWIDSSP.widSSPnarrow .widSSPData .widSSPAll{
+    padding-top: 20px!important;
+}

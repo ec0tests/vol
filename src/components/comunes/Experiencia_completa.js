@@ -20,7 +20,7 @@ const Experiencia_completa = () => (
             <h3>Una oferta redonda para cada gusto</h3>
             <div className="row justify-content-center pt-4">
 
-                <a href="/pack_aventura" className="col-md-3 Exp-ico Cursor-pointer">
+                <a href="/pack_historico" className="col-md-3 Exp-ico Cursor-pointer">
                     <h5>Aventura</h5>
 
                     <img src={exp_ico1} className="img-fluid" alt=""/>
@@ -28,7 +28,7 @@ const Experiencia_completa = () => (
 
                 </a>
 
-                <a href="/pack_aventura" className="col-md-3 Exp-ico Cursor-pointer">
+                <a href="/pack_historico" className="col-md-3 Exp-ico Cursor-pointer">
 
                     <h5>Histórico</h5>
 

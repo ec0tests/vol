@@ -157,63 +157,6 @@ p  {
     width: 2.7rem;
 }
 
-.Filtro-card{
-    position: absolute;
-    z-index: 10;
-    width: 20rem;
-    font-size: 0.9rem;
-    color: #616161;
-    font-weight: 500;
-    font-family: 'Roboto', sans-serif;
-}
-.Filtro-personas{
-    display: none;
-}
-
-.Filtro-tipovuelo{
-    width: 19rem;
-    padding: 1rem 0rem;
-}
-.Filtro-tipovuelo label{
-    font-size: 0.9rem!important;
-    color: #616161!important;
-    font-weight: 500!important;
-    font-family: 'Roboto', sans-serif!important;
-
-}
-.Filtro-boton-mas{
-    width: 1.5rem;
-    height: 1.5rem;
-    cursor: pointer;
-}
-.Filtro-boton-menos{
-    width: 1.5rem;
-    height: 1.5rem;
-    cursor: pointer;
-
-}
-.Filtro-gray{
-    color: #b5b5b6;
-}
-.Btn-restablecer{
-    background-color: transparent;
-    border: 0;
-    color: #b5b5b6;
-}
-.Btn-aplicar{
-    background-color: transparent;
-    border: 0;
-    color: #2260B3;
-    float: right;
-    font-weight: 600;
-}
-
-
-
-.Filtro .form-check-label{
-    font-size: 1rem;
-    font-weight: 400;
-}
 
 .Input-gray{
     color: #b5b5b6;

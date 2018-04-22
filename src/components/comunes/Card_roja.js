@@ -3,7 +3,7 @@ import './Card_roja.css';
 
 const Card_roja = () => (
     <div className="row w-100 justify-content-center py-5 mb-5 Card-row Card-roja">
-        <div className="col-md-8 Col-tarjeta">
+        <div className="col-md-8 Col-tarjeta d-flex justify-content-end">
             <div className="card w-100 h-100 p-4">
                 <div className="card-body text-left p-1">
                     <div className="row w-100">

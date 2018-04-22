@@ -12,6 +12,43 @@
     line-height: 1;
 }
 
+.Globo-img2{
+    position: absolute;
+    right: 0;
+    z-index: -1;
+}
+
+.Experiencia-completa-cat {
+    padding: 10rem 0;
+    position: relative;
+    z-index: 2;
+}
+
+.Experiencia-completa-bkg-cat {
+    left: 0;
+    position: absolute;
+    bottom: -10%;
+    z-index: -1;
+}
+.Z-index2{
+    z-index: 3;
+}
+.Experiencia-completa-cat .row div {
+    padding: 0 0.9125rem;
+}
+
+.Experiencia-completa-cat h5 {
+    right: 0.125rem;
+    color: white;
+    font-weight: 600;
+    font-size: 1.8rem;
+    top: 20%;
+
+    position: absolute;
+    width: 100%;
+}
+
+
 .Div-categorias h5 {
     color: white;
     font-family: 'Barlow Condensed', sans-serif;

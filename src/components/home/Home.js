@@ -32,10 +32,13 @@ import Footer_patrocinadores from "../comunes/Footer_patrocinadores";
 import Subetufoto from "../comunes/Subetufoto";
 import Arrow_top from "../comunes/Arrow_top"
 
+import $ from 'jquery';
+import tooltip from 'bootstrap'
 import tingle from "tingle.js";
 
-
-
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+})
 
 
 // instanciate new modal
@@ -59,6 +62,9 @@ var modal_privacy = new tingle.modal({
     }
 });
 
+/*$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+})*/
 var modal_cookies = new tingle.modal({
     footer: false,
     stickyFooter: true,
@@ -176,9 +182,9 @@ class Home extends React.Component {
                         <div className="row ">
                             <div className="Iconos-header col-6 p-0 px-4">
                                 <h6 className="w-100">Globo Compartido</h6>
-                                <div className="col-4">
+                                <div className="col-4" data-toggle="tooltip" data-placement="top" title="Para adultos">
                                     <img className="img-fluid" src={globo_ico1} alt=""/>
-                                    <p className="mt-3 text-uppercase Little-text3 text-white">Adlutos</p>
+                                    <p className="mt-3 text-uppercase Little-text3 text-white">Adultos</p>
                                 </div>
                                 <div className="col-4">
                                     <img className="img-fluid" src={globo_ico2} alt=""/>
@@ -329,7 +335,7 @@ class Home extends React.Component {
                             <div className="col-lg-7  pb-2 d-flex flex-wrap pt-5">
                                 <div className="col-lg-5 p-0 d-flex align-items-center justify-content-end">
                                     <a href="/filtro">
-                                        <button className="Btn-red">todos los vuelos</button>
+                                        <button  className="Btn-red">todos los vuelos</button>
                                     </a>
                                 </div>
                                 <div className="col-6 d-flex justify-content-end align-items-center flex-wrap ">

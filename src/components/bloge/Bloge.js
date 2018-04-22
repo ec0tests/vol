@@ -206,8 +206,8 @@ const Bloge = () => (
                         </div>
 
                         <div className="row Row-exp">
-                            <a className="col-6 mb-4 p-2 Exp-peq">
-                                <h5>Aventura</h5>
+                            <a href="/pack_historico" className="col-6 mb-4 p-2 Exp-peq">
+                                <h5>Histórico</h5>
                                 <img src={exp_ico1} className="img-fluid" alt=""/>
                             </a>
                             <a href="/pack_historico" className="col-6 mb-4 p-2 Exp-peq">
@@ -218,8 +218,8 @@ const Bloge = () => (
                                 <h5>Romático</h5>
                                 <img src={exp_ico3} className="img-fluid" alt=""/>
                             </a>
-                            <a className="col-6 mb-4 p-2 Exp-peq">
-                                <h5>Aventura</h5>
+                            <a href="/pack_romantico" className="col-6 mb-4 p-2 Exp-peq">
+                                <h5>Romático</h5>
                                 <img src={exp_ico4} className="img-fluid" alt=""/>
                             </a>
                         </div>

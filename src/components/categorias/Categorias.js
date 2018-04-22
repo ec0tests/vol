@@ -4,6 +4,11 @@ import logo_b from '../../images/vdc-logo-b.png';
 import ico_face from '../../images/Icon-RRSS-fb-b-55.png';
 import ico_twitter from '../../images/Icon-RRSS-tw-b-55.png';
 import ico_inst from '../../images/Icon-RRSS-in-b-55.png';
+import bkg3 from '../../images/bkg-3.png';
+import exp_ico1 from '../../images/exp-ico1.jpg';
+import exp_ico2 from '../../images/exp-ico2.jpg';
+import exp_ico3 from '../../images/exp-ico3.jpg';
+import exp_ico4 from '../../images/exp-ico4.jpg';
 import ico_trip from '../../images/Icon-RRSS-tr-b-55.png';
 import ico_youtube from '../../images/Icon-RRSS-yt-b-55.png';
 import play_ico from '../../images/play-ico.png';
@@ -351,10 +356,10 @@ class Categorias extends React.Component {
 
                 </main>
 
-                <section className="text-left Volar-con-niños">
+                <section className="text-left Volar-con-niños P-relative">
                     <div className="container">
-                        <div className="row">
-                            <div className="col-md-6">
+                        <div className="row ">
+                            <div className="col-md-6 Z-index2">
                                 <div className="col-12">
                                     <h2>Volar en globo con niños</h2>
                                 </div>
@@ -397,15 +402,59 @@ class Categorias extends React.Component {
 
 
                             </div>
-                            <div className="col-md-6">
-                                <img src={globo_fondo2} alt=""/>
-                            </div>
+                                <img src={globo_fondo2} className="Globo-img2 img-fluid" alt=""/>
                         </div>
                     </div>
                 </section>
 
-                <Experiencia_completa/>
+                <section id="Experiencia-completa" className="Experiencia-completa-cat">
+                    <div className="container pt-4">
+                        <h2 className="Text-gray text-uppercase ">La experiencia completa </h2>
+                        <h3>Una oferta redonda para cada gusto</h3>
+                        <div className="row justify-content-center pt-4">
+
+                            <a href="/pack_historico" className="col-md-3 Exp-ico Cursor-pointer">
+                                <h5>Histórico</h5>
+
+                                <img src={exp_ico1} className="img-fluid" alt=""/>
+
+
+                            </a>
+
+                            <a href="/pack_historico" className="col-md-3 Exp-ico Cursor-pointer">
+
+                                <h5>Histórico</h5>
+
+                                <img src={exp_ico2} className="img-fluid" alt=""/>
+
+
+                            </a>
+
+
+                            <a href="/pack_romantico" className="col-md-3 Exp-ico Cursor-pointer">
+
+                                <h5>Romántico</h5>
+
+                                <img src={exp_ico3} className="img-fluid" alt=""/>
+
+
+                            </a>
+                            <a href="/pack_romantico" className="col-md-3 Exp-ico Cursor-pointer">
+
+                                <h5>Romántico</h5>
+
+                                <img src={exp_ico4} className="img-fluid" alt=""/>
+
+                            </a>
+
+                        </div>
+
+                    </div>
+                    <img src={bkg3} className="Experiencia-completa-bkg-cat img-fluid" alt=""/>
+
+                </section>
                 <section className="Section3-categorias">
+
                     <div className="container Container-card h-50">
                         <Carousel_cards/>
                     </div>

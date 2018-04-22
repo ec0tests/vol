@@ -24,8 +24,14 @@ var modal_opiniones = new tingle.modal({
     }
 });
 
-modal_opiniones.setContent('<h2>Opiniones Tripadvisor</h2><hr> <h3>Opinion :</h3><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium, deserunt dignissimos dolore doloribus dolorum eius, impedit inventore laboriosam magnam molestias mollitia provident ratione repudiandae soluta suscipit velit, veniam voluptas?</p>');
-
+modal_opiniones.setContent('' +
+    '<h2>Opiniones Tripadvisor</h2>' +
+    '<div id="TA_selfserveprop283" class="TA_selfserveprop">\n' +
+    '<ul id="Kw6rhBfDGI" class="TA_links pX1RMLo">\n' +
+    '<li id="mcMxmpC" class="560RvmRKj6S">\n' +
+    '<a target="_blank" href="https://www.tripadvisor.es/"><img src="https://www.tripadvisor.es/img/cdsi/img2/branding/150_logo-11900-2.png" alt="TripAdvisor"/></a>\n' +
+    '</li>\n' +
+    '</ul>');
 
 function openOpiniones() {
     modal_opiniones.open();
@@ -50,7 +56,6 @@ const Certificado = ()=> (
                     </li>
                 </ul>
             </div>
-            <script async src="https://www.jscache.com/wejs?wtype=certificateOfExcellence&amp;uniq=99&amp;locationId=3247038&amp;lang=en_US&amp;year=2017&amp;display_version=2"></script>
 
         </div>
     </div>
