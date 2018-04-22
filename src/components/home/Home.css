@@ -256,7 +256,9 @@ header > .container {
 }
 
 
-
+.Justify-md-content-end{
+    justify-content: flex-end;
+}
 /*-------------------*/
 /*  SECCION 4 */
 /*-------------------*/
@@ -360,6 +362,12 @@ footer .Row1 {
     .row-iconos img{
         width: 4rem;
         height: 3rem;
+    }
+    .Home footer .Div-ico {
+        width: 19.3%;
+    }
+    .Justify-md-content-end{
+        justify-content: center;
     }
 }
 

@@ -319,16 +319,16 @@ class Home extends React.Component {
 
                 <footer className="">
                     <div className="container-fluid">
-                        <div className="row Row1 p-3">
-                            <div className="col-lg-5 d-flex">
-                                <div className="col-lg-6 p-0 d-flex align-items-center">
+                        <div className="row Row1 py-2 py-md-0 p-md-3">
+                            <div className="col-12 col-md-5 d-flex">
+                                <div className="col-12 col-md-6 p-0 d-flex align-items-center">
                                     <img className="img-fluid" src={logo_b} alt=""/>
                                 </div>
 
 
                             </div>
-                            <div className="col-lg-7  pb-2 d-flex flex-wrap pt-0 pt-md-5">
-                                <div className="col-lg-5 p-0 d-flex align-items-center justify-content-end">
+                            <div className="col-12 col-md-7  pb-2 d-flex flex-wrap pt-0 pt-md-5">
+                                <div className="col-12 col-md-5 p-0 d-flex align-items-center py-5 py-md-0 Justify-md-content-end">
                                     <a href="/filtro">
                                         <button  className="Btn-red">todos los vuelos</button>
                                     </a>
@@ -364,8 +364,8 @@ class Home extends React.Component {
                                         </a>
                                     </div>
                                 </div>
-                                <div className="col-lg-11  mt-4  d-flex justify-content-end">
-                                       <span className="text-white Copyrigth-text text-right">©VOLS DE COLOM - Todos los derechos reservados - <a
+                                <div className=" col-12 col-md-11  mt-4  d-flex justify-content-end">
+                                       <span className="text-white Copyrigth-text text-left text-md-right">©VOLS DE COLOM - Todos los derechos reservados - <a
                                            onClick={openPrivacy} className="Underline Cursor-pointer"> Privacy Policy</a> - <a
                                            onClick={openLegal} className="Underline Cursor-pointer">Legal Advice</a> - <a onClick={openCookies} className="Underline Cursor-pointer">Cookies Privacy</a> - Diseñado por <a
                                            target="_blank" href="https://www.somoswaka.com/">Waka</a><br/> Made with love by   <a
