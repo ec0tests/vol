@@ -14,7 +14,7 @@ import exp_ico4 from '../../images/exp-ico4.jpg';
 
 const Experiencia_completa = () => (
     <section id="Experiencia-completa" className="Experiencia-completa">
-        <img src={bkg3} className="Experiencia-completa-bkg" alt=""/>
+        <img src={bkg3} className="Experiencia-completa-bkg img-fluid" alt=""/>
         <div className="container pt-4">
             <h2 className="Text-gray text-uppercase ">La experiencia completa </h2>
             <h3>Una oferta redonda para cada gusto</h3>

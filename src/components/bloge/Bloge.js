@@ -6,7 +6,8 @@ import Subetufoto from "../comunes/Subetufoto"
 import Footer_patrocinadores from "../comunes/Footer_patrocinadores";
 
 
-import logo_b from '../../images/vdc-logo-b.png';
+import logo_globo from '../../images/Globo-header-w.png';
+
 import logo_g from '../../images/vdc-logo-g.png';
 import ico_face from '../../images/Icon-RRSS-fb-b-55.png';
 import ico_twitter from '../../images/Icon-RRSS-tw-b-55.png';
@@ -118,7 +119,7 @@ const Bloge = () => (
     <div className="Bloge">
 <Arrow_top/>
         <section className="Section1-bloge">
-            <Header logo={logo_b}/>
+            <Header logo={logo_globo}/>
             <div className="container-fluid">
                 <div className="row text-left p-3 pl-5">
                     <div className="col-12 ">

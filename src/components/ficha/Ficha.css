@@ -1,0 +1,263 @@
+
+.Ficha h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 3.8rem;
+    font-family: 'Barlow Condensed', sans-serif;
+    line-height: 1;
+    margin-bottom: 1.2rem;
+}
+
+.Vol-coloms-g{
+    height: 8rem;
+}
+
+
+.Ficha h1>span{
+    color: #4e80c1;
+    font-weight: bold;
+
+
+}
+
+.Section2-ficha h2{
+    color: #333333;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2.6rem!important;
+}
+.Ficha h3{
+    color: #333333;
+    font-family: 'Roboto', sans-serif!important;
+    font-weight: normal!important;
+    text-transform: none;
+    font-size: 1.7rem;
+
+}
+
+.Ficha h4{
+    color: #333333;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.H1-filtro{
+    font-style: italic!important;
+    color: #9a9a9a!important;
+    font-size: 1.3rem!important;
+    border-bottom: 1.5px solid #9a9a9a!important;
+    border-top: 1.5px solid #9a9a9a!important;
+    padding: 2.1rem 0!important;
+    margin: auto!important;
+    width: 80%!important;
+    text-align: center;
+    font-weight: 500!important;
+}
+.H1-filtro>span{
+    color: #4e80c1!important;
+    font-weight: bold!important;
+}
+/*SECCON 1*/
+.Section1-ficha{
+    background-size: cover!important;
+    background: url('../../images/ficha-bkg1.jpg');
+    background-position-x: center;
+    background-repeat: no-repeat;
+    padding-top: 2rem;
+    min-height: 30rem;
+
+}
+.Btn-gris{
+    background-color: #999999;
+    color: #fff;
+    border: 0;
+    padding: 0.5rem;
+    width: 10rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: .9rem;
+}
+
+
+/*SECCON 2*/
+.Section2-ficha {
+    position: relative;
+    padding-top: 2rem;
+}
+.Section2-ficha p{
+    color: #666666!important;
+    font-family: 'Roboto', sans-serif!important;
+
+}
+.Section2-ficha p a{
+    color: #2260b2;
+    text-decoration: underline;
+    font-weight: 600;
+}
+/*ICONOS FONT AWESOMEE A COLOR*/
+
+.Face-ico-color{
+    color:#3a559f;
+    font-size: 2.2rem;
+}
+.Twit-ico-color{
+    color:#50abf1;
+    font-size: 2.2rem;
+}
+.You-ico-color{
+    color:#dc472e;
+    font-size: 2.2rem;
+}
+.Ins-ico-color{
+    color:#507fa7;
+    font-size: 2.2rem;
+}
+.Goo-ico-color{
+    color:#dd4b39;
+    font-size: 2.2rem;
+}
+.Link-ico-color{
+    color:#0084b1;
+    font-size: 2.2rem;
+}
+
+
+
+
+
+
+.Seccion3-ficha-bkg {
+    right: 0%;
+    position: absolute;
+    top: -13%;
+    z-index: -10;
+}
+
+.Ficha .Row-exp img{
+    height: 15rem;
+}
+
+.Ficha .Row-exp>div{
+    text-align: center;
+}
+
+.Elige-experiencia-titulo{
+    color: #666666;
+    font-size: 1rem;
+    position: relative;
+    bottom: 1rem;
+}
+
+
+/*SECCION 3*/
+
+.Section3-ficha{
+    position: relative;
+    padding-top: 6rem ;
+    padding-bottom: 8rem ;
+
+}
+
+.Div-imagenesinstalaciones{
+    height: 9rem;
+    cursor: pointer;
+}
+.Ficha-btn{
+ height: 2.3rem!important;
+    width: 19rem!important;
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 5px;
+}
+
+iframe{
+    margin-top: 0.3rem;
+    border: 0;
+    width: 100%;
+    height: 30rem;
+}
+
+/*FOOTER*/
+.Section4-ficha{
+    background:  url('../../images/bkg-experiencia-1920.jpg');
+    background-repeat: no-repeat;
+    height: 70rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover!important;
+    justify-content: center;
+    -webkit-clip-path: polygon(0 22%, 100% 6%, 100% 100%, 0% 100%);
+    clip-path: polygon(0 22%, 100% 6%, 100% 100%, 0% 100%);
+    padding-top: 14rem;
+
+}
+.Ficha footer .Div-ico {
+    width: 7%!important;
+}
+.Ficha .Btn-blue{
+    width: 13rem;
+    height: 2.5rem;
+}
+
+
+
+.Section4-ficha .Card-row {
+    margin-bottom: 0!important;
+}
+.Section4-ficha .carousel-indicators{
+    padding-top: 2%;
+}
+
+.Section4-ficha .carousel-control-prev{
+    top: 45%;
+}
+.Section4-ficha .carousel-control-next{
+    top: 47%;
+}
+
+.
+
+.Section4-ficha .Container-video{
+}
+
+
+/*SECTION 3*/
+
+.Section4-ficha{
+}
+
+.Links-footer>div{
+    padding-top: 0.5rem;
+    text-align: left;
+}
+.Links-footer>div a{
+    text-align: left;
+    font-size: 0.9rem;
+}
+.Ficha footer{
+    background-color: #2260b2;
+}
+
+.Ficha footer .Div-ico{
+    width: 9.3%;
+}
+
+.Ficha footer .Div-ico img{
+    width: 2.7rem;
+}
+
+.Exp-peq{
+    display: flex;justify-content: center;
+    position: relative;
+}
+.Exp-peq h5{
+    color: white;
+    font-weight: 600;
+    position: absolute;
+    right: 28%;
+    top: 1.5rem;
+    color: #ffffff;
+    text-transform: uppercase;
+}

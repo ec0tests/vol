@@ -604,4 +604,137 @@ dt{
 
 #CDSWIDSSP.widSSPnarrow .widSSPData .widSSPAll{
     padding-top: 20px!important;
+
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 575.98px) {
+
+
+}
+
+@media (max-width: 767.98px) {
+    .Btn-red {
+        background-color: #D24228;
+        color: white;
+        text-transform: uppercase;
+        border: 0;
+        font-size: .9rem;
+        font-weight: 600;
+        padding: 0.625rem;
+        width: 11rem;
+    }
+    .Btn-gris{
+        background-color: #999999;
+        color: #fff;
+        border: 0;
+        padding: 0.5rem;
+        width: 10rem;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: .8rem;
+    }
+
+    .Btn-gris-sinfondo{
+        background-color: transparent;
+        color: #999999;
+        border: 2px solid #999999;
+        padding: 0.3rem;
+        width: 8rem;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: .8rem;
+    }
+    .Btn-darkblue-h {
+        background-color: #174382;
+
+        color: white;
+        text-transform: uppercase;
+        border: 0;
+        font-size: .75rem;
+        margin-top: 3rem;
+        font-weight: 600;
+        padding: 0.8125rem;
+        width: 12rem;
+    }
+
+    .Btn-skinnyblue{
+        background-color: #174382;
+
+        color: white;
+        text-transform: uppercase;
+        border: 0;
+        font-size: .9rem;
+        font-weight: 600;
+        padding: 0.625rem;
+        width: 11rem;
+    }
+    .Btn-red-h {
+        background-color: #D24228;
+        color: white;
+        text-transform: uppercase;
+        border: 0;
+        font-size: .8rem;
+        font-weight: 600;
+        padding: 0.8125rem;
+        width: 12rem;
+
+    }
+
+    .Btn-blue {
+        background-color: #2260B3;
+        color: white;
+        text-transform: uppercase;
+        border: 0;
+        font-size: .8rem;
+        font-weight: 600;
+        padding: 0.5rem;
+        width: 8.6rem;
+        height: auto;
+    }
+.pg-loading-logo-header img{
+    padding: 1rem!important;
+    max-width: 100%!important;
+    height: auto;
+}
+    .Btn-blue2 {
+        background-color: #2260B3;
+        color: white;
+        text-transform: uppercase;
+        border: 0;
+        font-size: .88rem;
+        font-weight: 600;
+        padding: 0.5rem;
+        width: 11rem;
+        height: 2.5rem;
+    }
+
+    .Btn-darkblue {
+        background-color: #174382;
+        color: white;
+        text-transform: uppercase;
+        border: 0;
+        font-size: .9rem;
+        margin-top: 3rem;
+        font-weight: 600;
+        padding: 0.5rem;
+        width: 7.8rem;
+    }
+
+}
+
+@media (max-width: 991.98px) {  }
+
+@media (max-width: 1199.98px) {  }
+
+@media (min-width: 1550px){
+
 }

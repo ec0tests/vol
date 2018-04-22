@@ -155,66 +155,66 @@ class Home extends React.Component {
                 SECCION 1
                 ---------*/}
                     {/*   Principal*/}
-                    <div className="container pb-5 mb-5 Header-sec2">
+                    <div className="container pb-2 pb-md-5 mb-0 mb-md-5  Header-sec2">
                         <div className="row">
-                            <div className="col-12 text-left">
-                                <h1 className=" display-1 Home-h1">VUELA EN GLOBO <br/>
+                            <div className="col-12 ">
+                                <h1 className="  Home-h1">VUELA EN GLOBO <br/>
                                     <span>en el parque natural de La Garrotxa</span></h1>
                             </div>
                         </div>
                         <div className="row my-4">
-                            <div className="col-12 text-left ">
+                            <div className="col-12  ">
                                 <Link to="/filtro"><button className="text-uppercase Btn-red-h mt-2">Reservar</button></Link>
                             </div>
-                            <div className="col-12 text-left ">
+                            <div className="col-12  ">
                                 <button className="text-uppercase Btn-darkblue-h mt-2">Canjear cupón</button>
                             </div>
-                            <div className="col-12 text-left">
+                            <div className="col-12 ">
                                 <button className="text-uppercase Btn-darkblue-h mt-2">regalar vuelo</button>
                             </div>
 
-                         {/*   <div className="col-12 text-left d-flex justify-content-center align-items-center py-5 Arrow-down">
+                         {/*   <div className="col-12  d-flex justify-content-center align-items-center py-5 Arrow-down">
                                 <a href="#Section2"><i class="fas fa-angle-down "></i></a>
                             </div>*/}
                         </div>
                     </div>
-                    <div className="container pt-5">
+                    <div className="container pt-0 pt-md-5 Header-sec3">
                         <div className="row ">
-                            <div className="Iconos-header col-6 p-0 px-4">
+                            <div className="Iconos-header col-12 col-md-6 p-0 px-4">
                                 <h6 className="w-100">Globo Compartido</h6>
-                                <div className="col-4" data-toggle="tooltip" data-placement="top" title="Para adultos">
+                                <div className="col-12 col-sm-4 col-md-4" data-toggle="tooltip" data-placement="top" title="Para adultos">
                                     <img className="img-fluid" src={globo_ico1} alt=""/>
                                     <p className="mt-3 text-uppercase Little-text3 text-white">Adultos</p>
                                 </div>
-                                <div className="col-4">
+                                <div className="col-12 col-sm-4 col-md-4">
                                     <img className="img-fluid" src={globo_ico2} alt=""/>
 
                                     <p className="mt-3 text-uppercase Little-text3 text-white">con niños</p>
                                 </div>
-                                <div className="col-4">
+                                <div className="col-12 col-sm-4 col-md-4">
                                     <img className="img-fluid" src={globo_ico3} alt=""/>
 
                                     <p className="mt-3 text-uppercase Little-text3 text-white">Silla de <br/> ruedas</p>
                                 </div>
                             </div>
-                            <div className="Iconos-header col-6 p-0 px-4">
+                            <div className="Iconos-header col-12 col-md-6 p-0 px-4">
                                 <h6 className="w-100">Globo Compartido</h6>
-                                <div className="col-4">
+                                <div className="col-12 col-sm-4 col-md-4">
                                     <img className="img-fluid" src={globo_ico4} alt=""/>
                                     <p className="mt-3 text-uppercase Little-text3 text-white">En <br/> pareja </p>
                                 </div>
-                                <div className="col-4">
+                                <div className="col-12 col-sm-4 col-md-4">
                                     <img className="img-fluid" src={globo_ico5} alt=""/>
 
                                     <p className="mt-3 text-uppercase Little-text3 text-white">4 amigos</p>
                                 </div>
-                                <div className="col-4 Bottom-5">
+                                <div className="col-12 col-sm-4 col-md-4 Bottom-5 mt-3 mt-md-0">
                                     <img className="img-fluid" src={globo_ico6} alt=""/>
 
                                     <p className="mt-3 text-uppercase Little-text3 text-white">empresas </p>
                                 </div>
                             </div>
-                            <div className="col-12 mt-5 text-left">
+                            <div className="col-12 mt-5 ">
                                 <p className="text-white Little-text"><strong> <span
                                     className=" Asterisco"> * </span> Vuelos adaptados & 100% accesibles
                                 </strong><br/> Personas mayores , discapacidades, sillas
@@ -231,21 +231,16 @@ class Home extends React.Component {
                 SECCION 2
                 -------------*/}
                 <section id="Section2" className="Section2 Text-gray">
-                    <img src={bkg2} className="Seccion2-bkg" alt=""/>
+                    <img src={bkg2} className="Seccion2-bkg img-fluid" alt=""/>
 
                     <div className="container">
                         <Carousel_cards/>
 
-                        <div className="row justify-content-center row-iconos">
-                            <div className="col-2">
-                                <img className="img-fluid" src={aloj_ico} alt=""/>
-                            </div>
-                            <div className="col-2">
-                                <img className="img-fluid" src={gast_ico} alt=""/>
-                            </div>
-                            <div className="col-2">
-                                <img className="img-fluid" src={act_ico} alt=""/>
-                            </div>
+                        <div className="row justify-content-center row-iconos w-100">
+
+                                <img className="" src={aloj_ico} alt=""/>
+                                <img className="" src={gast_ico} alt=""/>
+                                <img className="" src={act_ico} alt=""/>
                         </div>
                         <div className="row justify-content-center ">
 
@@ -260,11 +255,11 @@ class Home extends React.Component {
                     </div>
                 </section>
                 <div className="Bk-3-div">
-                    <img src={bkg3_2} className="Section3-bkg " alt=""/>
+                    <img src={bkg3_2} className="Section3-bkg img-fluid" alt=""/>
 
                 </div>
                 <div className="Bk-3-ico-div">
-                    <img src={bkg3__ico} className="Section3-bkg-ico " alt=""/>
+                    <img src={bkg3__ico} className="Section3-bkg-ico img-fluid" alt=""/>
 
                 </div>
 
@@ -275,7 +270,7 @@ class Home extends React.Component {
                     </div>
                     <div className="container">
                         <div className="row text-white">
-                            <div className="col-md-6 text-left">
+                            <div className="col-md-6 ">
                                 <h4 className="font-weight-bold">25 AÑOS VOLANDO</h4>
                                 <p className="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad
                                     adipisci amet
@@ -332,13 +327,13 @@ class Home extends React.Component {
 
 
                             </div>
-                            <div className="col-lg-7  pb-2 d-flex flex-wrap pt-5">
+                            <div className="col-lg-7  pb-2 d-flex flex-wrap pt-0 pt-md-5">
                                 <div className="col-lg-5 p-0 d-flex align-items-center justify-content-end">
                                     <a href="/filtro">
                                         <button  className="Btn-red">todos los vuelos</button>
                                     </a>
                                 </div>
-                                <div className="col-6 d-flex justify-content-end align-items-center flex-wrap ">
+                                <div className="col-12 col-md-6 d-flex justify-content-end align-items-center flex-wrap ">
                                     <div className="Div-ico">
                                         <a target="_blank" href="https://es-es.facebook.com/voldecoloms/">
                                             <img src={ico_face} alt=""/>
@@ -369,7 +364,7 @@ class Home extends React.Component {
                                         </a>
                                     </div>
                                 </div>
-                                <div className="col-lg-11 text-left mt-4  d-flex justify-content-end">
+                                <div className="col-lg-11  mt-4  d-flex justify-content-end">
                                        <span className="text-white Copyrigth-text text-right">©VOLS DE COLOM - Todos los derechos reservados - <a
                                            onClick={openPrivacy} className="Underline Cursor-pointer"> Privacy Policy</a> - <a
                                            onClick={openLegal} className="Underline Cursor-pointer">Legal Advice</a> - <a onClick={openCookies} className="Underline Cursor-pointer">Cookies Privacy</a> - Diseñado por <a

@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import './Filtro.css';
-import logo_b from '../../images/vdc-logo-b.png';
+import logo_globo from '../../images/Globo-header-w.png';
+
 import ico_face from '../../images/Icon-RRSS-fb-b-55.png';
 import ico_twitter from '../../images/Icon-RRSS-tw-b-55.png';
 import ico_inst from '../../images/Icon-RRSS-in-b-55.png';
@@ -123,7 +124,7 @@ class Filtro extends React.Component{
             <div className="Filtro">
 <Arrow_top/>
                 <section className="Section1-filtro d-flex flex-column">
-                    <Header logo={logo_b}/>
+                    <Header logo={logo_globo}/>
                     <div className="container-fluid pl-5">
                         <div className="row text-left pl-3">
                             <div className="col-12 Div-filtro">
@@ -135,7 +136,7 @@ class Filtro extends React.Component{
 
                 <main className="Section2-filtro text-left px-5">
                     <div className="container-fluid px-5">
-                      <Buscador_filtro/>
+                      <Buscador_filtro pack={'Pack_general'} texto={'Packs'}/>
                         <div className="row pt-2">
                             {array_cards_experiencias}
 

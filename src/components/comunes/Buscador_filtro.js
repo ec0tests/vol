@@ -13,6 +13,7 @@ function retablecer_chk(){
     $('input:checkbox').prop('checked', false);
 }
 
+
 class Buscador_filtro extends React.Component{
 
     constructor(){
@@ -23,8 +24,37 @@ class Buscador_filtro extends React.Component{
             ocultar_filtro_pack: true,
             contador_adultos:0,
             contador_ninyos:0,
+            v_individual: false,
+            v_ninos: false,
+            v_2: false,
+            v_4: false,
+            v_adaptados: false,
+            globo_nocompartido: false,
+            p_romantico: false,
+            p_aventura: false,
+            p_historico: false
+
         };
+
     }
+
+
+    toggle_ch_romantico(event) {
+        this.setState({
+            p_romantico: !this.state.p_romantico
+        });
+    }
+    toggle_ch_aventura(event) {
+        this.setState({
+            p_aventura: !this.state.p_aventura
+        });
+    }
+    toggle_ch_historia(event) {
+        this.setState({
+            p_historico: !this.state.p_historico
+        });
+    }
+
     toggle_filtro_tipo() {
         this.setState({
             ocultar_filtro_tipo: !this.state.ocultar_filtro_tipo,
@@ -91,8 +121,30 @@ class Buscador_filtro extends React.Component{
         })
     }
 
+    aplicar(){
+        this.setState({
+            ocultar_filtro_tipo: true,
+            ocultar_filtro_personas: true,
+            ocultar_filtro_pack: true
+        });
+    }
 
+
+    componentWillMount(){
+        if(this.props.pack=="Pack_romantico"){
+            this.setState({
+                p_romantico: true
+            });
+        }
+        if(this.props.pack=="Pack_historico"){
+            this.setState({
+                p_historico: true
+            });
+        }
+    }
     render () {
+
+
         var ocultar_filtro_tipo = {
             display: this.state.ocultar_filtro_tipo ? "block" : "none"
         };
@@ -115,6 +167,7 @@ class Buscador_filtro extends React.Component{
         var hidden_filtro_pack = {
             display: this.state.ocultar_filtro_pack ? "none" : "block"
         }
+
 
 
         return (
@@ -158,7 +211,7 @@ class Buscador_filtro extends React.Component{
                                             </div>
                                             <div className="col-12 pt-5 w-100 pl-0 pr-0">
                                                 <button onClick={this.restablecer.bind(this)} className="Btn-restablecer pl-0">Restablecer</button>
-                                                <button className="Btn-aplicar">Aplicar</button>
+                                                <button onClick={this.aplicar.bind(this)} id="aplicar_personas" className="Btn-aplicar">Aplicar</button>
                                             </div>
 
                                         </div>
@@ -221,38 +274,38 @@ class Buscador_filtro extends React.Component{
 
                                             <div className="col-12 pt-4 w-100 pl-0 pr-0">
                                                 <button onClick={retablecer_chk} className="Btn-restablecer pl-0">Restablecer</button>
-                                                <button className="Btn-aplicar">Aplicar</button>
+                                                <button  onClick={this.aplicar.bind(this)} id="aplicar_tipovuelo" className="Btn-aplicar">Aplicar</button>
                                             </div>
 
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-3 p-0">
-                                    <button onClick={this.toggle_filtro_pack.bind(this)} className="Btn-gris-sinfondo">
-                                        Packs
+                                    <button id="btn_packs" onClick={this.toggle_filtro_pack.bind(this)} className={`Btn-gris-sinfondo ${this.props.pack}`} >
+                                        {this.props.texto}
                                     </button>
-                                    <div id="card_pack" className={`card Filtro-card Filtro-tipovuelo Z-index-alto`} style={ hidden_filtro_pack }>
+                                    <div id="card_pack" className={`card Filtro-card Filtro-packs Z-index-alto pb-3`} style={ hidden_filtro_pack }>
                                         <div className="d-flex flex-column px-4 justify-content-start pt-1">
                                             <div className="col-12 d-flex pl-0 pr-0 pt-3">
                                                 <div class="form-check form-check-inline">
-                                                    <input class="form-check-input" type="checkbox" id="ch_romantico"
-                                                           value="1"/>
+                                                    <input class="form-check-input" type="checkbox" onClick={this.toggle_ch_romantico.bind(this)} id="ch_romantico"
+                                                           value="1" checked={this.state.p_romantico} />
                                                     <label class="form-check-label pl-2">Pack Romántico</label>
                                                 </div>
                                             </div>
 
                                             <div className="col-12 d-flex pl-0 pr-0 pt-2">
                                                 <div class="form-check form-check-inline">
-                                                    <input class="form-check-input" type="checkbox" id="ch_historia"
-                                                           value="1"/>
-                                                    <label class="form-check-label pl-2">Pack Historia</label>
+                                                    <input class="form-check-input" type="checkbox" onClick={this.toggle_ch_historia.bind(this)} id="ch_historia"
+                                                           value="1" checked={this.state.p_historico} />
+                                                    <label class="form-check-label pl-2">Pack Historico</label>
                                                 </div>
                                             </div>
 
                                             <div className="col-12 d-flex pl-0 pr-0 pt-2">
                                                 <div class="form-check form-check-inline">
-                                                    <input class="form-check-input" type="checkbox" id="ch_aventura"
-                                                           value="1"/>
+                                                    <input class="form-check-input" onClick={this.toggle_ch_aventura.bind(this)} type="checkbox" id="ch_aventura"
+                                                           value="1" checked={this.state.p_aventura} />
                                                     <label class="form-check-label pl-2">Pack Aventura</label>
                                                 </div>
                                             </div>
@@ -260,7 +313,7 @@ class Buscador_filtro extends React.Component{
 
                                             <div className="col-12 pt-4 w-100 pl-0 pr-0">
                                                 <button onClick={retablecer_chk} className="Btn-restablecer pl-0">Restablecer</button>
-                                                <button className="Btn-aplicar">Aplicar</button>
+                                                <button onClick={this.aplicar.bind(this)} id="aplicar_pack" className="Btn-aplicar">Aplicar</button>
                                             </div>
 
                                         </div>

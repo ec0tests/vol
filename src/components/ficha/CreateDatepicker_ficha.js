@@ -3,7 +3,8 @@ import DatePicker from 'react-datepicker';
 import moment from 'moment';
 
 import 'react-datepicker/dist/react-datepicker.css';
-import './Datepicker.css';
+
+import './CreateDatepicker_ficha.css'
 
 // CSS Modules, react-datepicker-cssmodules.css
 // import 'react-datepicker/dist/react-datepicker-cssmodules.css';
@@ -25,6 +26,7 @@ class Datepicker extends React.Component {
 
     render() {
         return <DatePicker
+            inline
             selected={this.state.startDate}
             onChange={this.handleChange}
             /*isClearable={true}*/

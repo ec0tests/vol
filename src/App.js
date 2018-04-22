@@ -17,6 +17,8 @@ import Pack_romantico from './components/pack_romantico/Pack_romantico';
 import Filtro from './components/filtro/Filtro';
 import Pack_historico from "./components/pack_historico/Pack_historico";
 import Categorias from "./components/categorias/Categorias";
+import Ficha from "./components/ficha/Ficha";
+
 import bkg1 from "./images/bkg-1.jpg";
 
 // Plugin: $.scrollSpeed
@@ -197,6 +199,12 @@ class App extends Component {
                     <Route path="/categorias" exact strict render={
                         () => {
                             return (<Categorias/>);
+                        }
+                    }/>
+
+                    <Route path="/ficha" exact strict render={
+                        () => {
+                            return (<Ficha/>);
                         }
                     }/>
                 </div>

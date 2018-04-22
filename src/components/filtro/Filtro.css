@@ -83,8 +83,12 @@ p  {
     flex-direction: column;
 }
 
-.Botones-filtro .col-3{
-    flex: 0 0 22%;
+.Pack_historico{
+    background-color: #1ea6ac;
+    color: #ffffff;
+
+    width: 10rem;
+    border: 2px solid #1ea6ac;
 }
 /*FOOTER*/
 /*

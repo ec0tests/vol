@@ -7,7 +7,7 @@ import Carousel_cards from "../comunes/Carousel_cards";
 import Certificado from "../comunes/Certificado";
 import Experiencia_volarGlobo from "../comunes/Experiencia_volarGlobo";
 import Footer_estilo1 from "../comunes/Footer_estilo1";
-import logo_b from '../../images/vdc-logo-b.png';
+import logo_globo from '../../images/Globo-header-w.png';
 import bkg1 from '../../images/pilotos-bkg1.png';
 import Arrow_top from "../comunes/Arrow_top"
 
@@ -79,7 +79,7 @@ const Pilotos = () => (
     <div className="Pilotos">
 <Arrow_top/>
         <section className="Section1-pilotos">
-            <Header logo={logo_b}/>
+            <Header logo={logo_globo}/>
             <div className="container-fluid">
                 <div className="row text-left p-3 pl-5">
                     <div className="col-12 ">

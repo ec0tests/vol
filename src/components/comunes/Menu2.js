@@ -102,7 +102,7 @@ const Menu2 = ({logo}) => (
     <div>
         <button className="ml-4 menu-icon Open-menu" id="desplegable_boton1" onClick={show_menu}><i
             className="fa fa-bars text-white"></i></button>
-        <span className="Cursor-pointer Open-menu" onClick={show_menu}>MENÚ</span>
+        <span className="Cursor-pointer Open-menu d-none d-md-inline" onClick={show_menu}>MENÚ</span>
 
         <div className="slideout-sidebar ">
             <div className="row">

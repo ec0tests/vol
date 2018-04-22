@@ -49,8 +49,21 @@
     float: right;
     font-weight: 600;
 }
+.Botones-filtro .col-3{
+    flex: 0 0 22%;
+}
 
+.Pack_romantico{
+    background-color: #d9632a;
+    color: #ffffff;
+    border-color: #ffffff;
+    width: 10rem;
+    border: 2px solid #d9632a;
+}
 
+.Filtro-packs{
+    padding-bottom: 0.6rem;
+}
 
 .Filtro .form-check-label{
     font-size: 1rem;

@@ -45,10 +45,10 @@ const Header = ({logo}) => (
     <header className="text-white">
         <div className="container-fluid">
             <div className="row p-3 pl-5">
-                <div className="col-6 text-left">
+                <div className="col-12 col-md-6 text-left">
                     <a href="http://167.99.208.80/"><img src={logo} className="img-fluid" alt=""/></a>
                 </div>
-                <div className="col-6 d-flex align-items-center justify-content-end pr-5 P-initial">
+                <div className="col-12 col-md-6 d-flex align-items-center justify-content-end pr-5 P-initial">
                     <div>
                         <button id="btn_megamenu" onClick={show_megamenu} className="Megamenu text-uppercase Open-megamenu">Vuela en globo</button>
 

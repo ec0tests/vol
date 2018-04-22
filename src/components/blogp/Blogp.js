@@ -5,7 +5,8 @@ import Header from "../comunes/Header";
 import Certificado from "../comunes/Certificado";
 import Entrada_blog from "./Entrada_blog"
 import Subetufoto from "../comunes/Subetufoto"
-import logo_b from '../../images/vdc-logo-b.png';
+import logo_globo from '../../images/Globo-header-w.png';
+
 import ico_face from '../../images/Icon-RRSS-fb-b-55.png';
 import ico_twitter from '../../images/Icon-RRSS-tw-b-55.png';
 import ico_inst from '../../images/Icon-RRSS-in-b-55.png';
@@ -59,7 +60,7 @@ const Blogp = () => (
     <div className="Blogp">
 <Arrow_top/>
         <section className="Section1-blogp d-flex flex-column">
-            <Header logo={logo_b}/>
+            <Header logo={logo_globo}/>
             <div className="container mt-auto">
                 <div className="row">
                     <div className="col-12 Div-experiencias">

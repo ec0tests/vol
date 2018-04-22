@@ -1,0 +1,30 @@
+import React, {Component} from 'react';
+
+
+
+class Video_ficha extends React.Component {
+    constructor(props) {
+        super(props);
+
+        this.state = {
+            photoIndex: 0,
+            isOpen: false,
+        };
+    }
+
+    render() {
+
+        return (
+
+                <div className="col-md-12 p-0 ">
+                    <iframe
+                        src="https://www.youtube.com/embed/Z3kSDjEsCz4">
+                    </iframe>
+                </div>
+        )
+
+    }
+}
+
+
+export default Video_ficha;
