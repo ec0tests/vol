@@ -24,18 +24,20 @@ import logo_b from '../../images/vdc-logo-b.png';
 
 import redes_ico from '../../images/redes_sociales.png';
 
+import Footer_patrocinadores from "../comunes/Footer_patrocinadores";
+
+
 import './Home.css'
 import Carousel_cards from "../comunes/Carousel_cards";
+import Footer_estilohome from "../comunes/Footer_estilohome";
 import Experiencia_completa from "../comunes/Experiencia_completa";
 import Header from "../comunes/Header";
-import Footer_patrocinadores from "../comunes/Footer_patrocinadores";
 import Subetufoto from "../comunes/Subetufoto";
 import Arrow_top from "../comunes/Arrow_top"
 
 import $ from 'jquery';
-import tooltip from 'bootstrap'
 import tingle from "tingle.js";
-
+import toltip from "bootstrap"
 $(function () {
     $('[data-toggle="tooltip"]').tooltip()
 })
@@ -156,15 +158,18 @@ class Home extends React.Component {
                 ---------*/}
                     {/*   Principal*/}
                     <div className="container pb-2 pb-md-5 mb-0 mb-md-5  Header-sec2">
-                        <div className="row">
+                        <div className="row text-left ">
                             <div className="col-12 ">
-                                <h1 className="  Home-h1">VUELA EN GLOBO <br/>
-                                    <span>en el parque natural de La Garrotxa</span></h1>
+                                <h1 className="  Home-h1 mb-0">VUELA EN GLOBO <br/>
+                                </h1>
+                                <h2 className="Home-h2">en el parque natural de La Garrotxa</h2>
                             </div>
                         </div>
                         <div className="row my-4">
                             <div className="col-12  ">
-                                <Link to="/filtro"><button className="text-uppercase Btn-red-h mt-2">Reservar</button></Link>
+                                <Link to="/filtro">
+                                    <button className="text-uppercase Btn-red-h mt-2">Reservar</button>
+                                </Link>
                             </div>
                             <div className="col-12  ">
                                 <button className="text-uppercase Btn-darkblue-h mt-2">Canjear cupón</button>
@@ -173,7 +178,7 @@ class Home extends React.Component {
                                 <button className="text-uppercase Btn-darkblue-h mt-2">regalar vuelo</button>
                             </div>
 
-                         {/*   <div className="col-12  d-flex justify-content-center align-items-center py-5 Arrow-down">
+                            {/*   <div className="col-12  d-flex justify-content-center align-items-center py-5 Arrow-down">
                                 <a href="#Section2"><i class="fas fa-angle-down "></i></a>
                             </div>*/}
                         </div>
@@ -181,34 +186,35 @@ class Home extends React.Component {
                     <div className="container pt-0 pt-md-5 Header-sec3">
                         <div className="row ">
                             <div className="Iconos-header col-12 col-md-6 p-0 px-4">
-                                <h6 className="w-100">Globo Compartido</h6>
-                                <div className="col-12 col-sm-4 col-md-4" data-toggle="tooltip" data-placement="top" title="Para adultos">
+                                <h6 className="w-100 Text-left-m">Globo Compartido</h6>
+                                <div className="col-4 col-sm-4 col-md-4" data-toggle="tooltip" data-placement="top"
+                                     title="Para adultos">
                                     <img className="img-fluid" src={globo_ico1} alt=""/>
                                     <p className="mt-3 text-uppercase Little-text3 text-white">Adultos</p>
                                 </div>
-                                <div className="col-12 col-sm-4 col-md-4">
+                                <div className="col-4 col-sm-4 col-md-4">
                                     <img className="img-fluid" src={globo_ico2} alt=""/>
 
                                     <p className="mt-3 text-uppercase Little-text3 text-white">con niños</p>
                                 </div>
-                                <div className="col-12 col-sm-4 col-md-4">
+                                <div className="col-4 col-sm-4 col-md-4">
                                     <img className="img-fluid" src={globo_ico3} alt=""/>
 
                                     <p className="mt-3 text-uppercase Little-text3 text-white">Silla de <br/> ruedas</p>
                                 </div>
                             </div>
                             <div className="Iconos-header col-12 col-md-6 p-0 px-4">
-                                <h6 className="w-100">Globo Compartido</h6>
-                                <div className="col-12 col-sm-4 col-md-4">
-                                    <img className="img-fluid" src={globo_ico4} alt=""/>
+                                <h6 className="w-100 Text-left-m">Globo Compartido</h6>
+                                <div className="col-4 col-sm-4 col-md-4">
+                                    <img className="img-fluid Ic-75" src={globo_ico4} alt=""/>
                                     <p className="mt-3 text-uppercase Little-text3 text-white">En <br/> pareja </p>
                                 </div>
-                                <div className="col-12 col-sm-4 col-md-4">
+                                <div className="col-4 col-sm-4 col-md-4">
                                     <img className="img-fluid" src={globo_ico5} alt=""/>
 
                                     <p className="mt-3 text-uppercase Little-text3 text-white">4 amigos</p>
                                 </div>
-                                <div className="col-12 col-sm-4 col-md-4 Bottom-5 mt-3 mt-md-0">
+                                <div className="col-4 col-sm-4 col-md-4 Bottom-5 mt-3 mt-md-0">
                                     <img className="img-fluid" src={globo_ico6} alt=""/>
 
                                     <p className="mt-3 text-uppercase Little-text3 text-white">empresas </p>
@@ -238,14 +244,14 @@ class Home extends React.Component {
 
                         <div className="row justify-content-center row-iconos w-100">
 
-                                <img className="" src={aloj_ico} alt=""/>
-                                <img className="" src={gast_ico} alt=""/>
-                                <img className="" src={act_ico} alt=""/>
+                            <img className="" src={aloj_ico} alt=""/>
+                            <img className="" src={gast_ico} alt=""/>
+                            <img className="" src={act_ico} alt=""/>
                         </div>
                         <div className="row justify-content-center ">
 
                             <div className="col-12 pt-3">
-                                <h2 className="Text-gray display-4 text-uppercase Home-h2">Personaliza tu
+                                <h2 className="Text-gray display-4 text-uppercase Home-h2 Gray">Personaliza tu
                                     experiencia</h2>
                                 <h3 className="Text-gray">Combina tu vuelo con alojamiento, comida o actividades
                                     turísticas.</h3>
@@ -319,65 +325,10 @@ class Home extends React.Component {
 
                 <footer className="">
                     <div className="container-fluid">
-                        <div className="row Row1 py-2 py-md-0 p-md-3">
-                            <div className="col-12 col-md-5 d-flex">
-                                <div className="col-12 col-md-6 p-0 d-flex align-items-center">
-                                    <img className="img-fluid" src={logo_b} alt=""/>
-                                </div>
-
-
-                            </div>
-                            <div className="col-12 col-md-7  pb-2 d-flex flex-wrap pt-0 pt-md-5">
-                                <div className="col-12 col-md-5 p-0 d-flex align-items-center py-5 py-md-0 Justify-md-content-end">
-                                    <a href="/filtro">
-                                        <button  className="Btn-red">todos los vuelos</button>
-                                    </a>
-                                </div>
-                                <div className="col-12 col-md-6 d-flex justify-content-end align-items-center flex-wrap ">
-                                    <div className="Div-ico">
-                                        <a target="_blank" href="https://es-es.facebook.com/voldecoloms/">
-                                            <img src={ico_face} alt=""/>
-
-                                        </a>
-                                    </div>
-                                    <div className="Div-ico">
-                                        <a target="_blank" href="https://twitter.com/voldecoloms">
-                                            <img src={ico_twitter} alt=""/>
-
-                                        </a>
-                                    </div>
-                                    <div className="Div-ico">
-                                        <a target="_blank" href="https://www.instagram.com/voldecoloms/">
-                                            <img src={ico_inst} alt=""/>
-
-                                        </a>
-                                    </div>
-                                    <div className="Div-ico">
-                                        <a target="_blank" href="https://www.youtube.com/user/Voldecoloms">
-                                            <img src={ico_youtube} alt=""/>
-
-                                        </a>
-                                    </div>
-                                    <div className="Div-ico">
-                                        <a target="_blank" href="">
-                                            <i className="fab fa-google-plus-square Goo-ico-white mt-1"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div className=" col-12 col-md-11  mt-4  d-flex justify-content-end">
-                                       <span className="text-white Copyrigth-text text-left text-md-right">©VOLS DE COLOM - Todos los derechos reservados - <a
-                                           onClick={openPrivacy} className="Underline Cursor-pointer"> Privacy Policy</a> - <a
-                                           onClick={openLegal} className="Underline Cursor-pointer">Legal Advice</a> - <a onClick={openCookies} className="Underline Cursor-pointer">Cookies Privacy</a> - Diseñado por <a
-                                           target="_blank" href="https://www.somoswaka.com/">Waka</a><br/> Made with love by   <a
-                                           target="_blank" href="https://www.ecoders.io/">Ecoders</a> !</span>
-                                </div>
-
-                            </div>
-
-                        </div>
-                        <Footer_patrocinadores/>
-                    </div>
-                </footer>
+                <Footer_estilohome/>
+                <Footer_patrocinadores/>
+            </div>
+            </footer>
             </div>
         );
     }

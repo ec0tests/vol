@@ -10,7 +10,7 @@ class Subetufoto extends React.Component {
             infinite: true,
             arrows: false,
             speed: 5000,
-            slidesToShow: 6,
+            slidesToShow: 4,
             slidesToScroll: 1,
             swipeToSlide: true,
             autoplay: true,

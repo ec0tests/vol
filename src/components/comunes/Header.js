@@ -1,12 +1,7 @@
 import React, {Component} from 'react';
 import './Header.css';
 import {Link} from 'react-router-dom'
-import ico_f from '../../images/face-ico-fondog.png';
-import ico_t from '../../images/twitter-ico-fondog.png';
-import ico_i from '../../images/insta-ico-fondog.png';
-import ico_y from '../../images/yt-ico-fondog.png';
-import ico_tr from '../../images/trip-ico-fondog.png';
-import logo_gris from '../../images/logo-gris.png';
+import logo from '../../images/Globo-header-w.png'
 import Menu2 from './Menu2'
 import $ from 'jquery';
 
@@ -39,18 +34,25 @@ $(document).on("click", function (e) {
         hide_megamenu();
     }
 });
+$(document).ready(function () {
+    if($(window).width() <= 600) {
+        $('#logo').attr('src',logo);
+
+    };
+})
+
 /* HAGO DESTRUCTURING: En vez de crear la const logo con props.logo le añado al parametro {} y le pongo de nomrbe el nombre de la prop que le paso
 * así lo coge directamente*/
 const Header = ({logo}) => (
     <header className="text-white">
         <div className="container-fluid">
             <div className="row p-md-3 p-0 pt-2 pt-md-0 pl-0 pl-md-5">
-                <div className="col-12 col-md-6 text-left pb-4 pb-md-0">
-                    <a href="http://167.99.208.80/"><img src={logo} className="img-fluid" alt=""/></a>
+                <div className="col-6 col-md-6 text-left pb-0 pb-md-4 pb-md-0 pl-0 ">
+                    <a href="http://167.99.208.80/"><img src={logo} id="logo" className="img-fluid Logo-top" alt=""/></a>
                 </div>
-                <div className="col-12 col-md-6 d-flex align-items-center justify-content-end pr-5 P-initial">
+                <div className="col-6 col-md-6 d-flex align-items-center justify-content-end pr-1 pr-md-5 P-initial">
                     <div>
-                        <button id="btn_megamenu" onClick={show_megamenu} className="Megamenu text-uppercase Open-megamenu">Vuela en globo</button>
+                        <button id="btn_megamenu" onClick={show_megamenu} className="Megamenu text-uppercase Open-megamenu">Vuelos en globo</button>
 
 
                     </div>

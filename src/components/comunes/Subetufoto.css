@@ -1,3 +1,27 @@
 .Subetufoto-h3{
     font-size: 2.3rem!important;
+    color: #333333;
+}
+
+
+
+@media all and (max-width: 1199px) {
+}
+
+@media all and (max-width: 991px) {
+}
+
+@media all and (max-width: 768px) {
+    .slick-slide>div{
+        width: 100%!important
+
+    }
+
+}
+
+@media all and (max-width: 575px) {
+    .slick-slide>div{
+        width: 100%!important
+    }
+
 }

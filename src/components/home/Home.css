@@ -27,7 +27,6 @@
 .Home-h1 {
     font-weight: 700 !important;
     color: white;
-    line-height: 0.5 !important;
     font-size: 6rem;
 
 }
@@ -35,10 +34,14 @@
 
 
 
-.Home-h1 > span {
-    font-size: 2rem;
+.Home-h2  {
+    font-size: 1.6rem!important;
+    color: white;
+    text-transform: none;
 }
-
+.Gray{
+    color: #333333!important;
+}
 .App {
     text-align: center;
 }
@@ -327,10 +330,17 @@ footer .Row1 {
 
 @media (max-width: 767.98px) {
     .Home-h1 {
-        font-weight: 700 !important;
+        font-weight: 700!important;
         color: white;
-        line-height: 1 !important;
-        font-size: 3rem;
+        line-height: 1!important;
+        font-size: 4rem;
+
+    }
+    .Home-h2 span{
+        font-weight: 700!important;
+        color: white;
+        line-height: 1!important;
+        font-size: 2rem;
 
     }
     .Header-sec2{
@@ -338,21 +348,42 @@ footer .Row1 {
         z-index: -3;
         text-align: center;
     }
+    .Section2 h2{
+        font-weight: bold;
+        font-size: 2.8rem!important;
+    }
+    .Section2 h3{
+        font-size: 1rem;
+        font-weight: normal;
+        font-family: 'Roboto', sans-serif!important;
+        text-transform: initial;
+    }
+    .Section3 .container{
+        text-align: left;
+    }
 
     .Header-sec3{
         text-align: center;
     }
     .Iconos-header{
         text-align: center;
+        border-left: 0;
     }
     .Iconos-header h6{
-       margin-top: 3rem;
+       margin-top: 0.5rem;
+        border-bottom: 1px solid white;
+        font-size: 0.9rem;
+        padding-bottom: 1.3rem;
+    }
+    .Little-text{
+        text-align: left;
+        font-size: 0.7rem;
     }
     .Asterisco{
         left: 0.4375rem;
         position: absolute;
-        top: -1.8125rem;
-        font-size: 2.8rem;
+        top: -0.1rem;
+        font-size: 1rem;
     }
 
     .Section5 {
@@ -368,6 +399,16 @@ footer .Row1 {
     }
     .Justify-md-content-end{
         justify-content: center;
+    }
+    .Little-text3{
+        font-size: 0.9rem!important;
+    }
+.Ic-75{
+    width: 75%;
+}
+    .Text-left-m{
+        text-align: left!important;
+
     }
 }
 

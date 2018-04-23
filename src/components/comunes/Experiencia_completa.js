@@ -16,11 +16,11 @@ const Experiencia_completa = () => (
     <section id="Experiencia-completa" className="Experiencia-completa">
         <img src={bkg3} className="Experiencia-completa-bkg img-fluid" alt=""/>
         <div className="container pt-4">
-            <h2 className="Text-gray text-uppercase ">La experiencia completa </h2>
-            <h3>Una oferta redonda para cada gusto</h3>
+            <h2 className="Text-gray text-uppercase">La experiencia completa </h2>
+            <h3 className="d-none d-md-block">Una oferta redonda para cada gusto</h3>
             <div className="row justify-content-center pt-4">
 
-                <a href="/pack_historico" className="col-md-3 Exp-ico Cursor-pointer">
+                <a href="/pack_historico" className="col-6 col-md-3 Exp-ico Cursor-pointer">
                     <h5>Aventura</h5>
 
                     <img src={exp_ico1} className="img-fluid" alt=""/>
@@ -28,7 +28,7 @@ const Experiencia_completa = () => (
 
                 </a>
 
-                <a href="/pack_historico" className="col-md-3 Exp-ico Cursor-pointer">
+                <a href="/pack_historico" className="col-6 col-md-3 Exp-ico Cursor-pointer">
 
                     <h5>Histórico</h5>
 
@@ -38,7 +38,7 @@ const Experiencia_completa = () => (
                 </a>
 
 
-                <a href="/pack_romantico" className="col-md-3 Exp-ico Cursor-pointer">
+                <a href="/pack_romantico" className="col-6 col-md-3 Exp-ico Cursor-pointer">
 
                     <h5>Romántico</h5>
 
@@ -46,7 +46,7 @@ const Experiencia_completa = () => (
 
 
                 </a>
-                <a href="/pack_romantico" className="col-md-3 Exp-ico Cursor-pointer">
+                <a href="/pack_romantico" className="col-6 col-md-3 Exp-ico Cursor-pointer">
 
                     <h5>Romántico</h5>
 

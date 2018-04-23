@@ -91,13 +91,15 @@
     width: 75% !important;
 }
 
-@media (max-width: 575.98px) {
-
+@media all and (max-width: 1199px) {
 }
 
-@media (max-width: 767.98px) {
+@media all and (max-width: 991px) {
+}
+
+@media all and (max-width: 768px) {
     .Titulo-tarjeta {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         margin-top: 0.7rem;
     }
 
@@ -106,21 +108,46 @@
         margin-right: 0.5rem;
     }
 
+    .card-body h5 {
+        font-size: 3rem;
+    }
+
+    .card-text {
+        font-weight: normal !important;
+    }
+
     .Width-75 {
         width: 100% !important;
     }
-    .Price-card{
-        text-align: center!important;
+
+    .Price-card {
+        text-align: right !important;
+        font-size: 0.9rem;
     }
 
+    .Tarjeta-footer {
+        justify-content: space-between;
+    }
+
+    .Info-card {
+        font-size: 0.7rem !important;
+    }
+
+    .carousel-control-prev {
+        display: none;
+    }
+
+    .carousel-control-next {
+        display: none;
+    }
 }
 
-@media (max-width: 991.98px) {
+@media all and (max-width: 575px) {
+    .Titulo-tarjeta {
+        font-size: 1.9rem!important;
+        margin-top: 0.7rem;
+    }
 }
 
-@media (max-width: 1199.98px) {
-}
 
-@media (min-width: 1550px) {
 
-}

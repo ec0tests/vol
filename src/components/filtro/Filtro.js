@@ -16,6 +16,7 @@ import Footer_estilo1 from "../comunes/Footer_estilo1";
 import Carousel_cards from "../comunes/Carousel_cards";
 import Card_experiencias from "../comunes/Card_experiencias";
 import Experiencia_volarGlobo from "../comunes/Experiencia_volarGlobo";
+import Footer_estilohome from "../comunes/Footer_estilohome";
 import Arrow_top from "../comunes/Arrow_top";
 import Buscador_filtro from "../comunes/Buscador_filtro";
 
@@ -125,7 +126,7 @@ class Filtro extends React.Component{
 <Arrow_top/>
                 <section className="Section1-filtro d-flex flex-column">
                     <Header logo={logo_globo}/>
-                    <div className="container-fluid pl-5">
+                    <div className="container-fluid pl-1 pl-md-5">
                         <div className="row text-left pl-3">
                             <div className="col-12 Div-filtro">
                                 <h1>Todos los vuelos</h1>
@@ -134,8 +135,8 @@ class Filtro extends React.Component{
                     </div>
                 </section>
 
-                <main className="Section2-filtro text-left px-5">
-                    <div className="container-fluid px-5">
+                <main className="Section2-filtro text-left px-3 px-md-5 ">
+                    <div className="container-fluid px-3 px-md-5 ">
                       <Buscador_filtro pack={'Pack_general'} texto={'Packs'}/>
                         <div className="row pt-2">
                             {array_cards_experiencias}
@@ -162,6 +163,14 @@ class Filtro extends React.Component{
                 <footer className="Footer_estilo1">
                     <Footer_estilo1/>
                 </footer>
+
+                <div className="Footer_estilohome">
+                    <div className="container">
+
+                    <Footer_estilohome/>
+                    </div>
+
+                </div>
 
             </div>
         )

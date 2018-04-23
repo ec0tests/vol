@@ -171,3 +171,49 @@ p  {
     color: #b5b5b6;
     font-size: .75rem!important;
 }
+
+
+.Footer_estilohome{
+    display: none;
+}
+
+
+@media all and (max-width: 1199px) {
+    .Footer_estilohome{
+        display: none;
+    }
+}
+
+@media all and (max-width: 991px) {
+    .Footer_estilohome{
+        display: none;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .Footer_estilohome{
+        display: none;
+    }
+
+
+}
+
+@media all and (max-width: 575px) {
+    .Footer_estilo1{
+        display: none;
+    }
+    .Footer_estilohome{
+        display: initial;
+    }
+    .Botones-filtro{
+        display: none;
+    }
+    .Filtro h1 {
+        color: white;
+        font-family: 'Barlow Condensed', sans-serif;
+        font-weight: bold;
+        font-size: 2.5rem;
+        padding-top: 3rem;
+        text-transform: uppercase;
+    }
+}

@@ -303,3 +303,64 @@ p {
 
     }
 }
+
+@media all and (max-width: 1199px) {
+    .Footer_estilohome{
+        display: none;
+    }
+}
+
+@media all and (max-width: 991px) {
+    .Footer_estilohome{
+        display: none;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .Footer_estilohome{
+        display: none;
+    }
+
+    .Experiencia-completa-cat h2{
+        font-size: 3rem!important;
+        margin-top: 1rem;
+    }
+    .Experiencia-completa-cat h5 {
+        right: 0.125rem;
+        color: white;
+        font-family: 'Barlow Condensed', sans-serif;
+        font-weight: 600;
+        font-size: 1.4rem;
+        text-transform: uppercase;
+        top: 20%;
+        position: absolute;
+        width: 100%;
+    }
+    .Exp-ico{
+        margin-bottom: 1rem;
+    }
+    .Categorias .Card-roja{
+        display: none;
+    }
+
+}
+
+@media all and (max-width: 575px) {
+    .Footer_estilo1{
+        display: none;
+    }
+    .Footer_estilohome{
+        display: initial;
+    }
+    .Botones-filtro{
+        display: none;
+    }
+    .Filtro h1 {
+        color: white;
+        font-family: 'Barlow Condensed', sans-serif;
+        font-weight: bold;
+        font-size: 2.5rem;
+        padding-top: 3rem;
+        text-transform: uppercase;
+    }
+}

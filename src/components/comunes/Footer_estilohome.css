@@ -1,0 +1,54 @@
+.Footer_estilohome  .Div-ico{
+    width: 13.3% !important;
+}
+
+.Footer_estilohome  .Div-ico img{
+    width: 2.6rem !important;
+}
+
+.Footer_estilo1{
+    background-color: #2260b2;
+    padding: 1.5rem;
+}
+
+/*-------------------*/
+/*  FOOTER */
+/*-------------------*/
+
+Footer_estilohome .Row1 {
+    background-color: #2260B3;
+}
+
+
+.Row1 {
+    background-color: #2260B3;
+}
+
+.Footer_estilohome {
+    background-color: #174382;
+}
+
+
+@media (max-width: 575.98px) {
+
+
+}
+
+@media (max-width: 767.98px) {
+
+    .Footer_estilohome  .Div-ico {
+        width: 19.3%!important;
+    }
+
+}
+
+@media (max-width: 991.98px) {  }
+
+@media (max-width: 1199.98px) {  }
+
+@media (min-width: 1550px){
+
+}
+
+
+

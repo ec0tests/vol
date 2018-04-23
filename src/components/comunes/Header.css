@@ -239,3 +239,28 @@ right: 0;
     }
 
 }
+
+
+@media all and (max-width: 1199px) {
+}
+
+@media all and (max-width: 991px) {
+}
+
+@media all and (max-width: 768px) {
+
+}
+
+@media all and (max-width: 575px) {
+    .Megamenu {
+        background-color: transparent;
+        color: #ffffff;
+        border: 0.125rem solid white;
+        font-size: 0.63rem;
+        padding: .4rem;
+        width: 8.3rem;
+    }
+    .Logo-top{
+        width: 33%;
+    }
+}

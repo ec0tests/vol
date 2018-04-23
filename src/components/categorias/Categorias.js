@@ -16,6 +16,8 @@ import play_ico from '../../images/play-ico.png';
 import bkg2 from '../../images/bkg-2.png';
 import globo_fondo2 from '../../images/globo-fondo-2.png';
 
+import Footer_estilohome from "../comunes/Footer_estilohome";
+
 import Header from "../comunes/Header";
 import Footer_estilo1 from "../comunes/Footer_estilo1";
 import Carousel_cards from "../comunes/Carousel_cards";
@@ -206,11 +208,16 @@ class Categorias extends React.Component {
                             </div>
                         </div>
                     </div>
+
                     <Card_roja/>
+                    <div className="container d-block d-md-none">
+                        <Carousel_cards/>
+                    </div>
                 </section>
 
-                <main className="Section2-categorias text-left px-5">
-                    <div className="container-fluid px-5">
+
+                <main className="Section2-categorias text-left px-3 px-md-5 mt-5 pt-5 mt-md-0 pt-md-0">
+                    <div className="container-fluid px-3 px-md-5">
                         <div className="row p-3 Botones-categorias">
                             <div className="col-6 d-flex pl-0">
                                 <div className="col-3 p-0">
@@ -414,7 +421,7 @@ class Categorias extends React.Component {
                         <h3>Una oferta redonda para cada gusto</h3>
                         <div className="row justify-content-center pt-4">
 
-                            <a href="/pack_historico" className="col-md-3 Exp-ico Cursor-pointer">
+                            <a href="/pack_historico" className="col-6  col-md-3 Exp-ico Cursor-pointer">
                                 <h5>Histórico</h5>
 
                                 <img src={exp_ico1} className="img-fluid" alt=""/>
@@ -422,7 +429,7 @@ class Categorias extends React.Component {
 
                             </a>
 
-                            <a href="/pack_historico" className="col-md-3 Exp-ico Cursor-pointer">
+                            <a href="/pack_historico" className="col-6  col-md-3 Exp-ico Cursor-pointer">
 
                                 <h5>Histórico</h5>
 
@@ -432,7 +439,7 @@ class Categorias extends React.Component {
                             </a>
 
 
-                            <a href="/pack_romantico" className="col-md-3 Exp-ico Cursor-pointer">
+                            <a href="/pack_romantico" className="col-6  col-md-3 Exp-ico Cursor-pointer">
 
                                 <h5>Romántico</h5>
 
@@ -440,7 +447,7 @@ class Categorias extends React.Component {
 
 
                             </a>
-                            <a href="/pack_romantico" className="col-md-3 Exp-ico Cursor-pointer">
+                            <a href="/pack_romantico" className="col-6  col-md-3 Exp-ico Cursor-pointer">
 
                                 <h5>Romántico</h5>
 
@@ -465,6 +472,14 @@ class Categorias extends React.Component {
                 <footer className="Footer_estilo1">
                     <Footer_estilo1/>
                 </footer>
+
+                <div className="Footer_estilohome">
+                    <div className="container">
+
+                        <Footer_estilohome/>
+                    </div>
+
+                </div>
 
             </div>
         )
