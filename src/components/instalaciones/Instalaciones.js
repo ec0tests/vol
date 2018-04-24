@@ -4,6 +4,7 @@ import Header from "../comunes/Header";
 import Certificado from "../comunes/Certificado";
 import Instalacion from "./Instalacion"
 import Footer_estilo1 from "../comunes/Footer_estilo1"
+import Footer_estilohome from "../comunes/Footer_estilohome"
 import logo_globo from '../../images/Globo-header-w.png';
 import Lightbox from 'react-image-lightbox';
 
@@ -75,7 +76,7 @@ for (var i = 0; i < instalaciones_json.instalaciones.length; i++) {
                 <section className="Section1-instalaciones">
                     <Header logo={logo_globo}/>
                     <div className="container-fluid">
-                        <div className="row text-left p-3 pl-5">
+                        <div className="row text-left p-3 pl-md-5">
                             <div className="col-12 ">
                                 <h1 className="text-uppercase Instalaciones-h1"> Nuestras <br/> instalaciones</h1>
                                 <h5 className="text-white w-50">Combina tu viaje en globo con actividades de aventura
@@ -91,7 +92,7 @@ for (var i = 0; i < instalaciones_json.instalaciones.length; i++) {
                     <div className="container">
 
                         {/*TARJETA PILOTOS*/}
-                        <div className="row pt-2">
+                        <div className="row w-100 pt-2">
                             {/* {instalaciones_cards}*/}
 
                         </div>
@@ -106,7 +107,7 @@ for (var i = 0; i < instalaciones_json.instalaciones.length; i++) {
 
                 </main>
 
-                <section className="Section3-instalaciones">
+                <section className="Section3-instalaciones d-none d-md-block">
                     <div className="container">
                         <Certificado/>
 
@@ -122,6 +123,14 @@ for (var i = 0; i < instalaciones_json.instalaciones.length; i++) {
                 <footer className="Footer_estilo1">
                     <Footer_estilo1/>
                 </footer>
+
+                <div className="Footer_estilohome">
+                    <div className="container">
+
+                        <Footer_estilohome/>
+                    </div>
+
+                </div>
             </div>
         )
     }

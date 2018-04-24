@@ -102,3 +102,56 @@ p  {
 .Pilotos .Seccion-final .Container-video{
 }
 
+
+
+
+@media (max-width: 575.98px) {
+    .Seccion-final{
+        justify-content: center;
+        margin-top: 0rem!important;
+    }
+    .Pilotos h2{
+        width: 100%;
+    }
+    .Section1-pilotos {
+        background-size: cover!important;
+        background: url('../../images/pilotos-bkg1.jpg');
+        background-repeat: no-repeat;
+        padding-top: 1rem;
+        background-position: top;
+        height: 30rem;
+    }
+
+    .Pilotos-h1-movil{
+        font-family: 'Barlow Condensed', sans-serif!important;
+        font-size: 2.5rem!important;
+        color: #FFFFFF!important;
+        font-weight: 600!important;
+
+    }
+    .Pilotos-h2-movil{
+        font-family: 'Roboto', sans-serif!important;
+        text-transform: initial!important;
+        font-size: 1rem!important;
+        color: #FFFFFF!important;
+        font-weight: normal!important;
+
+    }
+    .Pilotos p{
+        color: #333333;
+    }
+
+
+}
+
+
+
+
+@media (max-width: 991.98px) {
+    .Seccion-final{
+        justify-content: center;
+        margin-top: 0rem!important;
+    }
+}
+
+@media (max-width: 1199.98px) {  }

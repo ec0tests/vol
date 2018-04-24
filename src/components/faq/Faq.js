@@ -14,10 +14,9 @@ import bkg2 from '../../images/bkg-2.png';
 
 import Carousel_cards from "../comunes/Carousel_cards";
 import Pregunta_faq from "./Pregunta_faq";
-import Footer_patrocinadores from "../comunes/Footer_patrocinadores";
 import Header from "../comunes/Header";
-import Certificado from "../comunes/Certificado";
-import Subetufoto from "../comunes/Subetufoto";
+import Experiencia_completa from "../comunes/Experiencia_completa";
+import Footer_estilohome from "../comunes/Footer_estilohome";
 import Footer_estilo1 from "../comunes/Footer_estilo1";
 import Experiencia_volarGlobo from "../comunes/Experiencia_volarGlobo";
 import Arrow_top from "../comunes/Arrow_top";
@@ -70,7 +69,7 @@ const Faq = () => (
         <section className="Section1-faq">
             <Header logo={logo_globo}/>
             <div className="container-fluid mt-auto">
-                <div className="row pl-5">
+                <div className="row pl-0 pl-md-5">
                     <div className="col-12 col-md-6  Div-experiencias text-left">
                         <h1>Toda la información que necesitas</h1>
                         <h3>Combina tu viaje en globo con actividades de aventura para disfrutar del paraje de la
@@ -82,13 +81,13 @@ const Faq = () => (
         </section>
 
         <main className="Section2-faq text-left ">
-            <div className="container-fluid px-5">
+            <div className="container-fluid px-0 px-md-5">
 
-                <div className="row pt-2">
+                <div className="row pt-2 w-100">
                     {array_preguntas_faq}
 
                 </div>
-                <div className="row mt-5">
+                <div className="row mt-5 w-100">
                     <div className="col-12 text-center">
                     </div>
                 </div>
@@ -97,7 +96,10 @@ const Faq = () => (
 
         </main>
 
-        <section id="Section3" className="Section3-faq Text-gray">
+        <div className="d-md-none">
+        <Experiencia_completa/>
+        </div>
+        <section id="Section3" className="Section3-faq Text-gray d-none d-md-block">
             <img src={bkg2} className="Seccion3-faq-bkg" alt=""/>
 
             <div className="container">
@@ -109,10 +111,17 @@ const Faq = () => (
         </section>
 
 
-        <footer className="Footer_estilo1">
+        <footer className="Footer_estilo1 d-none d-md-block">
             <Footer_estilo1/>
         </footer>
 
+        <div className="Footer_estilohome d-block d-md-none">
+            <div className="container">
+
+                <Footer_estilohome/>
+            </div>
+
+        </div>
 
     </div>
 )

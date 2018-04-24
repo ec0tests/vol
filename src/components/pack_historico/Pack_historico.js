@@ -190,8 +190,8 @@ class Pack_historico extends React.Component{
 
                 <section className="Section1-pack-historico d-flex flex-column">
                     <Header logo={logo_globo}/>
-                    <div className="container-fluid pl-5">
-                        <div className="row text-left pl-3">
+                    <div className="container-fluid pl-1 pl-sm-5">
+                        <div className="row text-left pl-1 pl-sm-3">
                             <div className="col-12 Div-pack-historico">
                                 <h5>packs de experiencias</h5>
                                 <h1>Vuelos <br/> Históricos</h1>
@@ -200,8 +200,8 @@ class Pack_historico extends React.Component{
                     </div>
                 </section>
 
-                <main className="Section2-pack-historico text-left px-5">
-                    <div className="container-fluid px-5">
+                <main className="Section2-pack-historico text-left px-2 px-sm-5">
+                    <div className="container-fluid px-2 px-sm-5">
                        <Buscador_filtro pack={'Pack_historico'} texto={'Histórico'}/>
                         <div className="row pt-2">
                             {array_cards_experiencias}

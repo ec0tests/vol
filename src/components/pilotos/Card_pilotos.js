@@ -24,7 +24,7 @@ class Card_pilotos extends Component {
         ];
         return (
 
-        <div className="col-4 mb-5 mt-5">
+        <div className="col-12 col-sm-6 col-md-4 mb-5 mt-5">
             {isOpen && (
                 <Lightbox
                     mainSrc={images[photoIndex]}

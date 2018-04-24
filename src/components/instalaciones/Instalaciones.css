@@ -108,5 +108,29 @@ min-height: 40rem;
 
 
 
+@media all and (max-width: 1199px) {
+
+}
+
+@media all and (max-width: 991px) {
+
+}
+
+@media all and (max-width: 768px) {
+
+    .Instalaciones h1{
+        font-size: 3rem;
+        margin-top: 3rem;
+    }
+    .Instalaciones h5{
+        width: 100%!important;
+    }
+
+}
+
+@media all and (max-width: 575px) {
+
+}
+
 
 

@@ -7,6 +7,8 @@ import Carousel_cards from "../comunes/Carousel_cards";
 import Certificado from "../comunes/Certificado";
 import Experiencia_volarGlobo from "../comunes/Experiencia_volarGlobo";
 import Footer_estilo1 from "../comunes/Footer_estilo1";
+import Footer_estilohome from "../comunes/Footer_estilohome";
+import Experiencia_completa from "../comunes/Experiencia_completa";
 import logo_globo from '../../images/Globo-header-w.png';
 import bkg1 from '../../images/pilotos-bkg1.png';
 import Arrow_top from "../comunes/Arrow_top"
@@ -81,9 +83,11 @@ const Pilotos = () => (
         <section className="Section1-pilotos">
             <Header logo={logo_globo}/>
             <div className="container-fluid">
-                <div className="row text-left p-3 pl-5">
+                <div className="row text-left p-1 p-md-3 pl-md-5">
                     <div className="col-12 ">
-                        <h1 className="text-uppercase Pilotos-h1"> los pilotos de <br/> vol de coloms</h1>
+                        <h1 className="text-uppercase Pilotos-h1 d-none d-sm-block"> los pilotos de <br/> vol de coloms</h1>
+                        <h1 className="text-uppercase Pilotos-h1-movil d-block d-sm-none mt-4"> nuestros pilotos</h1>
+                        <h2 className="text-uppercase Pilotos-h2-movil d-block d-sm-none"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam architecto asperiores delectus dolores doloribus eos esse hic inventore minima nisi omnis porro praesentium reprehenderit saepe sequi sunt, suscipit veritatis, voluptatum!</h2>
 
 
                     </div>
@@ -93,7 +97,7 @@ const Pilotos = () => (
 
         <main className="Section2-pilotos text-left py-5">
             <div className="container">
-                <div className="row">
+                <div className="row pl-3 pr-1 pr-md-0 pl-md-0">
                     <h3>La confianza de los mejores profesionales</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aspernatur cumque eius eos facere
                         nemo quidem sunt tempore velit voluptate. Dolores esse et eveniet explicabo facere itaque omnis
@@ -108,7 +112,7 @@ const Pilotos = () => (
 
                 {/*TEXTOS SEO*/}
 
-                <div className="row mt-5 pt-5">
+                <div className="row mt-5 pt-5 d-none d-md-block">
                     <div className="col-12 mb-5">
                         <h2>Qué debes saber</h2>
                     </div>
@@ -120,23 +124,33 @@ const Pilotos = () => (
 
         </main>
 
-        <section className="Section3-pilotos">
+        <section className="Section3-pilotos d-none d-md-block">
             <div className="container">
                 <Certificado/>
 
             </div>
         </section>
+        <div className=" d-md-none">
+            <Experiencia_completa/>
+        </div>
         <section className="Seccion-final">
-            <div className="container Container-card">
+            <div className="container Container-card d-none d-md-block">
                 <Carousel_cards/>
             </div>
         <Experiencia_volarGlobo/>
 
-
         </section>
-        <footer className="Footer_estilo1">
+        <footer className="Footer_estilo1 d-none d-md-block">
             <Footer_estilo1/>
         </footer>
+
+        <div className="Footer_estilohome d-block d-md-none">
+            <div className="container">
+
+                <Footer_estilohome/>
+            </div>
+
+        </div>
     </div>
 )
 export default Pilotos;

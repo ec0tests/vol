@@ -95,9 +95,6 @@
 }
 
 @media all and (max-width: 991px) {
-}
-
-@media all and (max-width: 768px) {
     .Titulo-tarjeta {
         font-size: 1.2rem;
         margin-top: 0.7rem;
@@ -140,6 +137,10 @@
     .carousel-control-next {
         display: none;
     }
+}
+
+@media all and (max-width: 768px) {
+
 }
 
 @media all and (max-width: 575px) {

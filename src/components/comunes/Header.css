@@ -248,10 +248,13 @@ right: 0;
 }
 
 @media all and (max-width: 768px) {
+    .slideout-sidebar ul li{
+        padding: 0.8rem 0.1rem;
+    }
+    .Div-ico img{
+        width: 2.2rem!important;
+    }
 
-}
-
-@media all and (max-width: 575px) {
     .Megamenu {
         background-color: transparent;
         color: #ffffff;
@@ -263,4 +266,9 @@ right: 0;
     .Logo-top{
         width: 33%;
     }
+}
+
+@media all and (max-width: 575px) {
+
+
 }

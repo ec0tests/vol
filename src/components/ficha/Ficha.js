@@ -4,6 +4,7 @@ import Header from "../comunes/Header";
 import Experiencia_completa from "../comunes/Experiencia_completa";
 import Experiencia_volarGlobo from "../comunes/Experiencia_volarGlobo";
 import Footer_estilo1 from "../comunes/Footer_estilo1";
+import Footer_estilohome from "../comunes/Footer_estilohome";
 import Imagenes_ficha from "./Imagenes_ficha";
 import Video_ficha from "./Video_ficha";
 import Arrow_top from "../comunes/Arrow_top";
@@ -49,7 +50,7 @@ const Ficha = () => (
         <section className="Section1-ficha">
             <Header logo={logo_globo}/>
             <div className="container-fluid">
-                <div className="row text-left p-3 pl-5">
+                <div className="row w-100 text-left p-3 pl-0 pl-md-5">
                     <div className="col-12 ">
                         <h1 className="text-uppercase w-75 ">vuelo en globo + <br/> cabaña en los arboles</h1>
 
@@ -57,14 +58,14 @@ const Ficha = () => (
                 </div>
             </div>
         </section>
-        <main className="Section2-ficha text-left px-5">
-            <div className="container-fluid px-5">
-                <div className="row my-5 py-2">
+        <main className="Section2-ficha text-left px-1 px-md-5">
+            <div className="container-fluid px-1 px-md-5">
+                <div className="row w-100 my-5 py-2">
                     <div className="col-12 Div-experiencias">
                         <h1 className="H1-filtro">Experiencias con valor de 5 estrellas en <span>tripadvisor</span></h1>
                     </div>
                 </div>
-                <div className="row">
+                <div className="row w-100">
                     <div className="col-12 col-md-8">
                         <div className="col-12 mb-5 py-3">
                             <h2 className="w-100">Descripción</h2>
@@ -162,9 +163,18 @@ const Ficha = () => (
         <section className="Section4-ficha">
             <Experiencia_volarGlobo/>
         </section>
-        <footer className="Footer_estilo1">
+        <footer className="Footer_estilo1 d-none d-md-block">
             <Footer_estilo1/>
         </footer>
+
+        <div className="Footer_estilohome d-block d-md-none">
+            <div className="container">
+
+                <Footer_estilohome/>
+            </div>
+
+        </div>
+
 
     </div>
 )

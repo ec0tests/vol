@@ -290,6 +290,8 @@ header > .container {
 
 .Header-sec3{
     text-align: left;
+    z-index: -1;
+    position: relative;
 }
 
 .Home footer .Div-ico{

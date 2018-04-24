@@ -16,8 +16,8 @@ class Video_ficha extends React.Component {
 
         return (
 
-                <div className="col-md-12 p-0 ">
-                    <iframe
+                <div className="col-md-12 p-0 w-100">
+                    <iframe className="w-100"
                         src="https://www.youtube.com/embed/Z3kSDjEsCz4">
                     </iframe>
                 </div>

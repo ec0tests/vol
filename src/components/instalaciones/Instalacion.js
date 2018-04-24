@@ -47,7 +47,7 @@ class Instalacion extends React.Component {
                 )
                 }
 
-                <div className="row mt-5 ">
+                <div className="row mt-5 w-100">
                     <div className="col-md-12">
                         <h3>{this.props.title}</h3>
 
@@ -57,7 +57,7 @@ class Instalacion extends React.Component {
 
                     </div>
                     <div className="col-md-12">
-                        <img onClick={() => this.setState({isOpen: true})}
+                        <img  onClick={() => this.setState({isOpen: true})}
                              src={require(`../../images/${this.props.photo.toLowerCase()}.jpg`)} className="w-100 Cursor-pointer"
                              alt=""/>
 

@@ -171,3 +171,47 @@ justify-content: center;
     width: 2.7rem;
 }
 
+
+
+@media all and (max-width: 1199px) {
+
+}
+
+@media all and (max-width: 991px) {
+
+}
+
+@media all and (max-width: 768px) {
+
+    p.accordion{
+        font-size: 1.3rem!important;
+    }
+    .Section2-faq{
+        padding-left: 4rem!important;
+        padding-right: 0rem!important;
+    }
+    .Faq h2{
+        width: 100%!important;
+    }
+    .Section4-faq{
+        padding-top: 0;
+    }
+    .Faq .Experiencia-completa{
+        padding-bottom: 0;
+    }
+    .Faq h1{
+        font-size: 2rem;
+        margin-top: 1.5rem;
+    }
+    .Faq h3{
+        font-size: 1.1rem;
+    }
+    .Faq p{
+        font-size: 0.9rem;
+    }
+
+}
+
+@media all and (max-width: 575px) {
+
+}

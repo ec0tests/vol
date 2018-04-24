@@ -41,6 +41,35 @@ $(document).ready(function () {
     };
 })
 
+document.addEventListener("DOMContentLoaded", function(event) {
+
+
+    var acc = document.getElementsByClassName("accordion");
+    var panel = document.getElementsByClassName('panel');
+
+    for (var i = 0; i < acc.length; i++) {
+        acc[i].onclick = function() {
+            var setClasses = !this.classList.contains('active');
+            setClass(acc, 'active', 'remove');
+            setClass(panel, 'show', 'remove')
+
+            if (setClasses) {
+                this.classList.toggle("active");
+                this.nextElementSibling.classList.toggle("show");
+            }
+        }
+    }
+
+    function setClass(els, className, fnName) {
+        for (var i = 0; i < els.length; i++) {
+            els[i].classList[fnName](className);
+        }
+    }
+
+
+
+});
+
 /* HAGO DESTRUCTURING: En vez de crear la const logo con props.logo le añado al parametro {} y le pongo de nomrbe el nombre de la prop que le paso
 * así lo coge directamente*/
 const Header = ({logo}) => (
@@ -112,6 +141,59 @@ const Header = ({logo}) => (
                 </div>
             </div>
         </div>
+
+      {/*  <div className="col-12 Megamenu-div-movil d-none d-md-block">
+            <nav className="row mb-1">
+                <div className="col-md-3 accordion">
+                    <ul className="panel">
+                        <li className="mb-3"> <span className="T-megamenu">vuelos compartidos</span> </li>
+                        <li> <span>vuelos compartidos</span> </li>
+                        <li> <span>vuelos compartidos</span> </li>
+                        <li> <span>vuelos compartidos</span> </li>
+                        <li> <span>vuelos compartidos</span> </li>
+                    </ul>
+                </div>
+                <div className="col-md-3 accordion">
+                    <ul className="panel">
+                        <li className="mb-3"> <span className="T-megamenu">vuelos compartidos</span> </li>
+                        <li> <span>vuelos compartidos</span> </li>
+                        <li> <span>vuelos compartidos</span> </li>
+                        <li> <span>vuelos compartidos</span> </li>
+                        <li> <span>vuelos compartidos</span> </li>
+                    </ul>
+                </div>
+                <div className="col-md-3 accordion">
+                    <ul className="panel">
+                        <li className="mb-3"> <span className="T-megamenu">vuelos compartidos</span> </li>
+                        <li> <span>vuelos compartidos</span> </li>
+                        <li> <span>vuelos compartidos</span> </li>
+                        <li> <span>vuelos compartidos</span> </li>
+                        <li> <span>vuelos compartidos</span> </li>
+                    </ul>
+                </div>
+                <div className="col-md-3 accordion">
+                    <ul className="panel">
+                        <li className="mb-3"> <span className="T-megamenu">vuelos compartidos</span> </li>
+                        <li> <span>vuelos compartidos</span> </li>
+                        <li> <span>vuelos compartidos</span> </li>
+                        <li> <span>vuelos compartidos</span> </li>
+                        <li> <span>vuelos compartidos</span> </li>
+                    </ul>
+                </div>
+            </nav>
+            <div className="row mt-5">
+                <div className="col-md-6 text-right">
+                    <a href="/filtro">
+                        <button className="Btn-skinnyblue">ver ofertas</button>
+                    </a>
+                </div>
+                <div className="col-md-6 text-left">
+                    <a href="/filtro">
+                        <button className="Btn-red">todos los vuelos</button>
+                    </a>
+                </div>
+            </div>
+        </div>*/}
 
     </header>
 )
