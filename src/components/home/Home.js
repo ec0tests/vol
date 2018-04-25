@@ -151,7 +151,7 @@ class Home extends React.Component {
                 {/* <img src={bkg1} className="Section1-bkg" alt=""/>*/}
 
                 <main id="Section1" className="Section1 ">
-                    <Header logo={logo_b}/>
+                    <Header logo={logo_b} />
                     {/*
                 ---------
                 SECCION 1

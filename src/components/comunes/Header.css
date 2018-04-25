@@ -77,14 +77,6 @@ right: 0;
     position: absolute;
     z-index: 10000;
 }
-
-
-.Megamenu-div ul li{
-    list-style: none;
-    font-family: 'Roboto', sans-serif;
-    color: white;
-    text-align: left;
-}
 .T-megamenu{
     font-family:'Barlow Condensed', sans-serif;
     color: white;
@@ -94,6 +86,82 @@ right: 0;
     font-size: 2rem;
     margin-bottom: 1rem;
 }
+
+/*MEGAMENU MOVIL*/
+
+.Cruz{
+    color: #fff;
+    font-size: 3rem;
+    width: 100%;
+    text-align: right;
+    padding-right: 2rem;
+}
+.Megamenu-div-movil{
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 9999;
+    width: 350px;
+    padding: 20px;
+    height: 100vh;
+    background-color: #0A1F3C;
+    display: none;
+}
+.Megamenu-div-movil p.accordion{
+    padding-left: 2.5rem;
+    padding-bottom: 0.6rem;
+    border-bottom: 1px solid #464646;
+margin-bottom: 1rem;
+    font-size: 1.6rem!important;
+
+}
+.Megamenu-div-movil p.accordion:after{
+    color: white!important;
+    font-size: 2rem!important;
+    top: -0.3rem;
+    left: 2rem;
+}
+.Megamenu-div-movil div.panel{
+    background-color: transparent!important;
+
+}
+
+.Megamenu-div-movil div.panel li{
+    list-style: none;
+    padding-left: 3.6rem;
+}
+.Megamenu-div-movil div.panel li span{
+font-size: 1rem;
+text-transform: capitalize}
+
+.Megamenu-movil-open{
+    background-color: #0A1F3C;
+    border: 0;
+    position: relative;
+    height: 3rem;
+    position: absolute;
+    height: 7rem;
+    right: 10.6%;
+    top: 0;
+}
+.Megamenu-movil-div{
+    background-color: #0A1F3C;
+    padding: 5rem 6rem;
+    display: none;
+    position: absolute;
+    z-index: 10000;
+}
+
+
+.Megamenu-div ul li{
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-align: left;
+}
+/*------------------------------------------
+*/
+
 .Cursor-pointer{
     cursor: pointer;
 }
@@ -171,6 +239,65 @@ right: 0;
 
 #menu-toggle:checked ~ .content-container {
     padding-left: 190px;
+}
+
+
+
+/*ACORDEON MENU MOVIL */
+
+
+
+p.accordion {
+
+    color: #333333;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Barlow Condensed', sans-serif!important;
+    font-size: 2.2rem;
+    margin-bottom: 0;
+    cursor: pointer;
+
+}
+
+/* Add a background color to the accordion if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+
+
+/* Unicode character for "plus" sign (+) */
+p.accordion:after {
+    content: '+';
+    font-size: 3rem;
+    color: #333333;
+    float: left;
+    margin-left: 5px;
+    position: absolute;
+    left: -3rem;
+    top: -.7rem;
+}
+
+/* Unicode character for "minus" sign (-) */
+p.accordion.active:after {
+    content: "-";
+    margin-bottom: 0;
+}
+
+/* Style the element that is used for the panel class */
+
+div.panel {
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.4s ease-in-out;
+    opacity: 0;
+    color: #DDDDDD;
+    margin-bottom:10px;
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif!important;
+
+}
+
+div.panel.show {
+    opacity: 1;
+    max-height: 500px; /* Whatever you like, as long as its more than the height of the content (on all screen sizes) */
 }
 
 /* -- Media Queries -- */
@@ -255,14 +382,7 @@ right: 0;
         width: 2.2rem!important;
     }
 
-    .Megamenu {
-        background-color: transparent;
-        color: #ffffff;
-        border: 0.125rem solid white;
-        font-size: 0.63rem;
-        padding: .4rem;
-        width: 8.3rem;
-    }
+
     .Logo-top{
         width: 33%;
     }

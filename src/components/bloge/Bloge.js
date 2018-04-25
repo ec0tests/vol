@@ -4,6 +4,8 @@ import Header from "../comunes/Header";
 import Certificado_peq from "../comunes/Certificado_peq";
 import Subetufoto from "../comunes/Subetufoto"
 import Footer_patrocinadores from "../comunes/Footer_patrocinadores";
+import Footer_estilohome from "../comunes/Footer_estilohome";
+import Experiencia_completa from "../comunes/Experiencia_completa";
 
 
 import logo_globo from '../../images/Globo-header-w.png';
@@ -121,7 +123,7 @@ const Bloge = () => (
         <section className="Section1-bloge">
             <Header logo={logo_globo}/>
             <div className="container-fluid">
-                <div className="row text-left p-3 pl-5">
+                <div className="row text-left p-3 pl-0 pl-md-5">
                     <div className="col-12 ">
                         <h1 className="text-uppercase w-75 ">Feria medieval de Besalú y <br/> vuelo en globo en la
                             Garrotxa</h1>
@@ -133,8 +135,8 @@ const Bloge = () => (
                 </div>
             </div>
         </section>
-        <main className="Section2-bloge text-left px-5">
-            <div className="container-fluid px-5">
+        <main className="Section2-bloge text-left px-1 px-md-5">
+            <div className="container-fluid px-1 px-md-5">
                 <div className="row">
                     <div className="col-12 col-md-8">
                         <div className="col-12 mb-5 py-3">
@@ -160,7 +162,7 @@ const Bloge = () => (
                                 molestiae mollitia nobis repellat . Distinctio perferendis porro quos? Cum, magni.</p>
                         </div>
 
-                        <div className="col-12 mt-4 d-flex text-left align-items-center">
+                        <div className="col-12 mt-4 text-left align-items-center d-none d-md-flex">
                             <div className="Div-ico">
                                 <a href="https://es-es.facebook.com/voldecoloms/">
 
@@ -206,7 +208,7 @@ const Bloge = () => (
 
                         </div>
 
-                        <div className="row Row-exp">
+                        <div className="row Row-exp d-none d-md-flex">
                             <a href="/pack_historico" className="col-6 mb-4 p-2 Exp-peq">
                                 <h5>Histórico</h5>
                                 <img src={exp_ico1} className="img-fluid" alt=""/>
@@ -224,10 +226,14 @@ const Bloge = () => (
                                 <img src={exp_ico4} className="img-fluid" alt=""/>
                             </a>
                         </div>
-
-                        <div className="row justify-conten-center">
+                        <div className=" d-md-none">
+                            <Experiencia_completa/>
+                        </div>
+                        <div className="row justify-conten-center d-none d-md-flex ">
                             <Certificado_peq/>
                         </div>
+
+
                     </div>
                 </div>
             </div>
@@ -268,8 +274,8 @@ const Bloge = () => (
             <Subetufoto/>
 
         </section>
-        <footer className="pt-5">
-            <div className="container-fluid px-5">
+        <footer className="pt-5 d-none d-md-block">
+            <div className="container-fluid px-1 px-md-5">
                 <div className="row">
                     <div className="col-12 mb-3">
                         <h3 className="text-white text-left">Encuentra tu vuelo</h3>
@@ -389,6 +395,15 @@ const Bloge = () => (
             <Footer_patrocinadores/>
 
         </footer>
+
+        <div className="Footer_estilohome">
+            <div className="container">
+
+                <Footer_estilohome/>
+            </div>
+
+        </div>
+
 
     </div>
 )

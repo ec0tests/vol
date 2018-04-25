@@ -127,12 +127,14 @@ const Menu2 = ({logo}) => (
             </div>
             <ul className="mt-4">
 
+                <a href="/" className="text-white"><li>home</li></a>
+
                 <a href="/pilotos" className="text-white"><li>pilotos</li></a>
                 <a href="/instalaciones" className="text-white"><li>instalaciones</li></a>
                <a href="/blog" className="text-white"> <li>blog</li></a>
                 <a href="/faq" className="text-white"><li>FAQs</li></a>
                 <li>regalar vuelo</li>
-                <li>infromación útil</li>
+             {/*   <li>infromación útil</li>*/}
                 <li>ubicación/meteorología</li>
                 <li>contacto</li>
                 <br/>

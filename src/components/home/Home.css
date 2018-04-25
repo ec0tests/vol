@@ -298,8 +298,8 @@ header > .container {
     width: 13.3%;
 }
 
-.Home footer .Div-ico img{
-    width: 2.6rem;
+ footer .Div-ico img{
+    width: 2.6rem!important;
 }
 
 .Footer_estilo1{

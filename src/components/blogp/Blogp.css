@@ -149,3 +149,31 @@ p  {
     width: 2.7rem;
 }
 
+
+
+@media (min-width: 1550px) {
+
+}
+
+@media all and (max-width: 1199px) {
+
+}
+
+@media all and (max-width: 991px) {
+
+}
+
+@media all and (max-width: 768px) {
+
+    .Seccion3-blogp-bkg{
+        max-width: 100%;
+    }
+    .Section3-blogp{
+        padding-top: 0;
+    }
+
+}
+
+@media all and (max-width: 575px) {
+
+}

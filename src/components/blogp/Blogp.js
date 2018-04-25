@@ -5,6 +5,7 @@ import Header from "../comunes/Header";
 import Certificado from "../comunes/Certificado";
 import Entrada_blog from "./Entrada_blog"
 import Subetufoto from "../comunes/Subetufoto"
+import Footer_estilohome from "../comunes/Footer_estilohome"
 import logo_globo from '../../images/Globo-header-w.png';
 
 import ico_face from '../../images/Icon-RRSS-fb-b-55.png';
@@ -70,14 +71,14 @@ const Blogp = () => (
             </div>
         </section>
 
-        <main className="Section2-blogp text-left px-5">
-            <div className="container-fluid px-5">
+        <main className="Section2-blogp text-left px-0 px-md-5 ">
+            <div className="container-fluid px-0 px-md-5 ">
 
-                <div className="row pt-2">
+                <div className="row pt-2 w-100 m-0 mx-md-3 p-2">
                      {array_entradas_blog}
 
                 </div>
-<div className="row mt-5">
+<div className="row mt-5 w-100">
     <div className="col-12 text-center">
         <button className="Btn-gris">Cargar más</button>
     </div>
@@ -94,7 +95,7 @@ const Blogp = () => (
                 <Carousel_cards/>
             </div>
         </section>
-        <section className="Section4-blogp">
+        <section className="Section4-blogp d-none d-md-block">
             <div className="container">
                 <Certificado/>
 
@@ -106,7 +107,7 @@ const Blogp = () => (
             <Subetufoto/>
 
         </section>
-        <footer className="pt-5">
+        <footer className="pt-5 d-none d-md-block">
             <div className="container-fluid px-5">
                 <div className="row">
                     <div className="col-12 mb-3">
@@ -212,7 +213,13 @@ const Blogp = () => (
 
         </footer>
 
+        <div className="Footer_estilohome">
+            <div className="container">
 
+                <Footer_estilohome/>
+            </div>
+
+        </div>
 
     </div>
 )

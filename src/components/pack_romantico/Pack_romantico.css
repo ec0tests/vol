@@ -256,3 +256,12 @@ p  {
     color: #b5b5b6;
     font-size: .75rem!important;
 }
+
+
+@media (max-width: 768.98px) {
+
+    .Div-pack-romantico h1{
+        font-size: 3rem;
+    }
+}
+

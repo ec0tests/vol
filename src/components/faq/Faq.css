@@ -189,6 +189,7 @@ justify-content: center;
     .Section2-faq{
         padding-left: 4rem!important;
         padding-right: 0rem!important;
+        padding-top: 0!important;
     }
     .Faq h2{
         width: 100%!important;
@@ -209,6 +210,7 @@ justify-content: center;
     .Faq p{
         font-size: 0.9rem;
     }
+
 
 }
 

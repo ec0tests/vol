@@ -6,6 +6,7 @@ import logo_globo from '../../images/Globo-header-w.png';
 import Header from "../comunes/Header";
 import Footer_estilo1 from "../comunes/Footer_estilo1";
 import Certificado from "../comunes/Certificado";
+import Footer_estilohome from "../comunes/Footer_estilohome";
 import Card_experiencias from "../comunes/Card_experiencias";
 import Debes_saber from "../comunes/Debes_saber";
 import Experiencia_completa from "../comunes/Experiencia_completa";
@@ -190,8 +191,8 @@ class Pack_romantico extends React.Component{
 <Arrow_top/>
                 <section className="Section1-pack-romantico d-flex flex-column">
                     <Header logo={logo_globo}/>
-                    <div className="container-fluid pl-5">
-                        <div className="row text-left pl-3">
+                    <div className="container-fluid pl-2 pl-md-5 mt-2 mt-md-0">
+                        <div className="row text-left pl-2 pl-md-3">
                             <div className="col-12 Div-pack-romantico">
                                 <h5>packs de experiencias</h5>
                                 <h1>Vuelos <br/> Románticos</h1>
@@ -200,8 +201,8 @@ class Pack_romantico extends React.Component{
                     </div>
                 </section>
 
-                <main className="Section2-pack-romantico text-left px-5">
-                    <div className="container-fluid px-5">
+                <main className="Section2-pack-romantico text-left px-1 px-md-5">
+                    <div className="container-fluid px-1 px-md-5">
                        <Buscador_filtro pack={'Pack_romantico'} texto={'Romántico'}/>
                         <div className="row pt-2">
                             {array_cards_experiencias}
@@ -219,7 +220,7 @@ class Pack_romantico extends React.Component{
                 </main>
 
 
-                <section className="py-5 my-5">
+                <section className="py-5 my-5 d-none d-md-block">
                     <div className="container Container-card h-50">
                        <Certificado/>
                     </div>
@@ -233,11 +234,19 @@ class Pack_romantico extends React.Component{
                 <div className="Section5-pack-romantico">
                     <Experiencia_volarGlobo/>
                 </div>
-                <footer className="Footer_estilo1">
+                <footer className="Footer_estilo1 d-none d-md-block">
                     <Footer_estilo1/>
                 </footer>
 
+                <div className="Footer_estilohome d-md-none">
+                    <div className="container">
+
+                        <Footer_estilohome/>
+                    </div>
+
+                </div>
             </div>
+
         )
     }
 }
