@@ -8,7 +8,7 @@ import Footer_estilohome from "../comunes/Footer_estilohome";
 import Imagenes_ficha from "./Imagenes_ficha";
 import Video_ficha from "./Video_ficha";
 import Arrow_top from "../comunes/Arrow_top";
-import Datepicker_ficha from "./Datepicker_ficha"
+import Datepicker from "../comunes/Datepicker"
 
 import logo_globo from '../../images/Globo-header-w.png';
 import imagenes_instalaciones1 from '../../images/instalacion1.jpg';
@@ -65,7 +65,7 @@ const Ficha = () => (
                         <h1 className="H1-filtro">Experiencias con valor de 5 estrellas en <span>tripadvisor</span></h1>
                     </div>
                 </div>
-                <div className="row w-100">
+                <div className="row w-100 m-0">
                     <div className="col-12 col-md-8">
                         <div className="col-12 mb-5 py-3">
                             <h2 className="w-100">Descripción</h2>
@@ -83,7 +83,7 @@ const Ficha = () => (
                                     href="">Más info</a></p>
                         </div>
 
-                        <div className="col-12 mb-5 py-3 d-flex flex-wrap">
+                        <div className="row mb-5 py-3 d-none d-md-flex">
                             <h2 className="w-100">FECHAS Y DISPONIBILIDAD</h2>
                             <div className="col-12 col-md-6 py-4 px-0">
                                 <div className="col-12  mb-3 px-0">
@@ -94,22 +94,67 @@ const Ficha = () => (
                                 </div>
                             </div>
                             <div className="col-12 col-md-6 py-4">
-                                <Datepicker_ficha/>
+                                <Datepicker tipo={'inline'}/>
                             </div>
                         </div>
 
+                        {/*MOBILE*/}
+                        <div className="row mb-3  d-md-none">
+                            <p className="accordion  ">FECHAS Y DISPONIBILIDAD</p>
+                            <div className="panel ">
+                                <div className="col-12 col-md-6 py-4 px-0">
+                                    <div className="col-12  mb-3 px-0">
+                                        <button className="Btn-gris Ficha-btn">Agosto</button>
+                                    </div>
+                                    <div className="col-12 px-0">
+                                        <button className="Btn-blue Ficha-btn">Comprar sin fecha</button>
+                                    </div>
+                                </div>
+                                <div className="col-12 col-md-6 py-4">
+                                    <Datepicker tipo={'inline'}/>
+                                </div>
+                            </div>
 
-                        <div className="col-12 mb-5 py-3 d-flex flex-wrap">
+                        </div>
+
+
+                        <div className="col-12 mb-5 py-3  flex-wrap d-none d-md-flex">
                             <h2 className="w-100 mb-3">IMAGÉNES E INSTALACIONES</h2>
                             {array_imagenesficha}
                             <Video_ficha/>
                         </div>
-                        <div className="col-12 mb-5 py-3 d-flex flex-wrap">
+
+                        <div className="row mb-3 d-md-none">
+                            <p className="accordion  ">IMAGÉNES E INSTALACIONES</p>
+                            <div className="panel row">
+                                {array_imagenesficha}
+                                <Video_ficha/>
+                            </div>
+
+                        </div>
+
+                        <div className="col-12 mb-5 py-3 flex-wrap d-none d-md-flex">
                             <h2 className="w-100 mb-3">LA OPINIÓN DE NUESTROS CLIENTES</h2>
                         </div>
 
+                        <div className="row mb-3 py-0 Padding-30 py-md-3">
+                            <p className="accordion  ">Cómo regalar el viaje</p>
+                            <div className="panel ">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquam animi aut corporis cumque, cupiditate dolor dolorum eveniet facilis in inventore magnam, necessitatibus neque nihil nobis officiis quia repellat suscipit!
+                            </div>
+                        </div>
 
-                        <div className="col-12 mt-4 d-flex text-left align-items-center">
+                        <div className="row mb-3 py-0 Padding-30 py-md-3">
+                            <p className="accordion  ">Sensaciones</p>
+                            <div className="panel ">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquam animi aut corporis cumque, cupiditate dolor dolorum eveniet facilis in inventore magnam, necessitatibus neque nihil nobis officiis quia repellat suscipit!
+                            </div>
+                        </div>
+                        <div className="row mb-3 py-0 Padding-30 py-md-3">
+                            <a href="/faq"><p className="accordion  ">preguntas frequentes</p></a>
+
+                        </div>
+                        <div className="col-12 mt-4  text-left align-items-center d-none d-md-flex">
                             <div className="Div-ico">
                                 <a href="https://es-es.facebook.com/voldecoloms/">
 

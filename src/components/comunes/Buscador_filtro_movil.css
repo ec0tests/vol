@@ -1,0 +1,168 @@
+.Cruz{
+    color: #333333!important;
+
+    font-size: 3rem;
+    width: 100%;
+    text-align: right;
+    padding-right: 2rem;
+}
+.Div-btnfiltro{
+    text-align: right;
+}
+.Div-btnfiltro i{
+    font-size: 3rem!important;
+
+}
+.Div-btnfiltro button{
+    background: transparent;
+    border: 0;
+    color: #333333;
+    font-weight: 600;
+    font-size: 0.8rem!important;
+
+}
+.Filtro-div-movil{
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: none;
+    z-index: 9999;
+    width: 350px;
+    padding: 20px;
+    height: 100vh;
+    background-color: #FFFFFF;
+}
+.Filtro-div-movil p.accordion{
+    padding-left: 2.5rem;
+    padding-bottom: 0.6rem;
+    border-bottom: 1px solid #464646;
+    margin-bottom: 1rem;
+    font-size: 1.6rem!important;
+
+}
+.Filtro-div-movil p.accordion:after{
+    color: #333333!important;
+    font-size: 2rem!important;
+    top: -0.3rem;
+    left: 2rem;
+}
+.Filtro-div-movil div.panel{
+    background-color: transparent!important;
+
+}
+
+.Filtro-div-movil div.panel li{
+    list-style: none;
+    padding-left: 3.6rem;
+}
+.Filtro-div-movil div.panel li span{
+    font-size: 1rem;
+  }
+
+.Filtro-movil-open{
+    background-color: #f0f0f0;
+    border: 0;
+    position: relative;
+    height: 3rem;
+    position: absolute;
+    height: 7rem;
+    right: 10.6%;
+    top: 0;
+}
+
+
+
+.Filtro-div ul li{
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    color: #333333!important;
+
+    text-align: left;
+}
+/*------------------------------------------
+
+
+/* Unicode character for "plus" sign (+) */
+p.accordion:after {
+    content: '+';
+    font-size: 3rem;
+    color: #333333;
+    float: left;
+    margin-left: 5px;
+    position: absolute;
+    left: -3rem;
+    top: -.7rem;
+}
+
+/* Unicode character for "minus" sign (-) */
+p.accordion.active:after {
+    content: "-";
+    margin-bottom: 0;
+}
+
+/* Style the element that is used for the panel class */
+
+div.panel {
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.4s ease-in-out;
+    opacity: 0;
+    color: #333333!important;
+
+    margin-bottom:10px;
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif!important;
+
+}
+
+.Buscador-filtro-movil span{
+    font-size: 1rem;
+}
+
+.Buscador-filtro-movil button{
+    font-size: 1rem;
+}
+
+div.panel.show {
+    opacity: 1;
+    max-height: 500px; /* Whatever you like, as long as its more than the height of the content (on all screen sizes) */
+}
+
+/* -- Media Queries -- */
+
+@media (max-width: 991px) {
+
+    .content-container {
+        max-width: 480px;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    .content-container {
+        max-width: 100%;
+        margin: 30px auto 0;
+    }
+
+    #menu-toggle:checked ~ .content-container {
+        padding-left: 0;
+    }
+
+    .slideout-sidebar ul {
+        text-align: center;
+        max-width: 200px;
+        margin: 30px auto 0;
+    }
+
+    .menu-icon {
+        left: 20px
+    }
+
+    #menu-toggle:checked ~ .slideout-sidebar {
+        width: 100%;
+    }
+
+
+}

@@ -14,6 +14,7 @@ import $ from 'jquery';
 import Header from "../comunes/Header";
 import Footer_estilo1 from "../comunes/Footer_estilo1";
 import Carousel_cards from "../comunes/Carousel_cards";
+import Buscador_filtro_movil from "../comunes/Buscador_filtro_movil";
 import Card_experiencias from "../comunes/Card_experiencias";
 import Experiencia_volarGlobo from "../comunes/Experiencia_volarGlobo";
 import Footer_estilohome from "../comunes/Footer_estilohome";
@@ -137,7 +138,8 @@ class Filtro extends React.Component{
 
                 <main className="Section2-filtro text-left px-3 px-md-5 ">
                     <div className="container-fluid px-3 px-md-5 ">
-                      <Buscador_filtro pack={'Pack_general'} texto={'Packs'}/>
+                        <Buscador_filtro pack={'Pack_general'} texto={'Packs'}/>
+                        <Buscador_filtro_movil/>
                         <div className="row pt-2">
                             {array_cards_experiencias}
 

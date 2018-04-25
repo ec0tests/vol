@@ -84,10 +84,25 @@
     position: relative;
     padding-top: 2rem;
 }
-.Section2-ficha p{
-    color: #666666!important;
-    font-family: 'Roboto', sans-serif!important;
+.Section2-ficha  p.accordion{
+    color: #333333;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2.6rem!important;
+    position: relative!important;
 
+}
+.Ficha .accordion p{
+    color: #333333!important;
+    font-family: 'Barlow Condensed', sans-serif!important;
+    font-size: 2.6rem!important;
+    position: relative!important;
+
+
+}
+.Padding-30{
+    padding-left: 30px!important;
+    padding-right: 30px!important;
 }
 .Section2-ficha p a{
     color: #2260b2;
@@ -274,9 +289,31 @@ iframe{
 }
 
 @media all and (max-width: 768px) {
+    .Section2-ficha  p.accordion{
+        color: #333333!important;
+        padding-left: 2rem;
+        font-family: 'Barlow Condensed', sans-serif!important;
+        width: 100%;
+        font-size: 1.6rem!important;
+        margin-bottom: 1rem;
+        padding-bottom: 0.5rem!important;
+        border-bottom: 1px solid #333333;
+    }
+    .Padding-30{
+        padding-left: 0!important;
+    }
 
     .Ficha h1{
         font-size: 3.5rem;
+    }
+    iframe{
+        height: 15rem;
+    }
+    .Section3-ficha{
+        padding-bottom: 0;
+    }
+    .Experiencia-completa{
+        padding-bottom: 0;
     }
 }
 

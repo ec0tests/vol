@@ -9,7 +9,7 @@ import './Datepicker.css';
 // import 'react-datepicker/dist/react-datepicker-cssmodules.css';
 
 class Datepicker extends React.Component {
-    constructor (props) {
+    constructor(props) {
         super(props)
         this.state = {
             startDate: ''
@@ -24,13 +24,26 @@ class Datepicker extends React.Component {
     }
 
     render() {
-        return <DatePicker
-            selected={this.state.startDate}
-            onChange={this.handleChange}
-            /*isClearable={true}*/
-            className="Btn-gris-sinfondo text-center Dateppicker-input Cursor-pointer"
-            placeholderText="Fechas"
-        />;
+        if (this.props.tipo == 'inline') {
+            return <DatePicker
+                selected={this.state.startDate}
+                onChange={this.handleChange}
+                inline
+                /*isClearable={true}*/
+                className="Btn-gris-sinfondo text-center Dateppicker-input Cursor-pointer"
+                placeholderText="Fechas"
+            />
+        }
+        else {
+            return <DatePicker
+                selected={this.state.startDate}
+                onChange={this.handleChange}
+
+                /*isClearable={true}*/
+                className="Btn-gris-sinfondo text-center Dateppicker-input Cursor-pointer"
+                placeholderText="Fechas"
+            />
+        }
     }
 }
 

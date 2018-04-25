@@ -13,6 +13,7 @@ import Experiencia_completa from "../comunes/Experiencia_completa";
 import Experiencia_volarGlobo from "../comunes/Experiencia_volarGlobo";
 import Arrow_top from "../comunes/Arrow_top";
 import Buscador_filtro from "../comunes/Buscador_filtro";
+import Buscador_filtro_movil from "../comunes/Buscador_filtro_movil";
 
 
 /*Creo el array de filtro provisional*/
@@ -204,6 +205,7 @@ class Pack_romantico extends React.Component{
                 <main className="Section2-pack-romantico text-left px-1 px-md-5">
                     <div className="container-fluid px-1 px-md-5">
                        <Buscador_filtro pack={'Pack_romantico'} texto={'Romántico'}/>
+                       <Buscador_filtro_movil pack={'Pack_romantico'} texto={'Romántico'}/>
                         <div className="row pt-2">
                             {array_cards_experiencias}
 

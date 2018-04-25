@@ -11,6 +11,7 @@ import Debes_saber from "../comunes/Debes_saber";
 import Experiencia_completa from "../comunes/Experiencia_completa";
 import Experiencia_volarGlobo from "../comunes/Experiencia_volarGlobo";
 import Buscador_filtro from "../comunes/Buscador_filtro";
+import Buscador_filtro_movil from "../comunes/Buscador_filtro_movil";
 
 
 /*Creo el array de filtro provisional*/
@@ -203,6 +204,8 @@ class Pack_historico extends React.Component{
                 <main className="Section2-pack-historico text-left px-2 px-sm-5">
                     <div className="container-fluid px-2 px-sm-5">
                        <Buscador_filtro pack={'Pack_historico'} texto={'Histórico'}/>
+
+                        <Buscador_filtro_movil pack={'Pack_historico'} texto={'Histórico'}/>
                         <div className="row pt-2">
                             {array_cards_experiencias}
 

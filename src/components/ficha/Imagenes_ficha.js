@@ -25,7 +25,7 @@ class Imagenes_ficha extends React.Component {
         return (
 
 
-                <div className="col-md-4 p-0 Div-imagenesinstalaciones">
+                <div className="col-4 p-0 Div-imagenesinstalaciones">
                     {isOpen && (
                         <Lightbox
                             mainSrc={images[photoIndex]}

@@ -11,8 +11,8 @@ class Card_experiencias extends React.Component {
                 <div className={`   text-left Card-experiencias ${this.props.tamanyo}`}>
                     <div className={`${this.props.tamanyo}2`}>
 
-                        <img className="card-img-top img-fluid mh-100 mw-100"
-                             src={require(`../../images/${this.props.photo.toLowerCase()}.jpg`)} alt="Card photo cap"/>
+                        <a href="/ficha">  <img className="card-img-top img-fluid mh-100 mw-100 Cursor-pointer"
+                                                src={require(`../../images/${this.props.photo.toLowerCase()}.jpg`)} alt="Card photo cap"/></a>
                         <div className="p-2 ">
                         <span
                             className={`text-uppercase Pack pl-1 ${this.props.pack.toLowerCase()}`}>pack {this.props.pack}
