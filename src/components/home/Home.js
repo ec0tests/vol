@@ -175,7 +175,10 @@ class Home extends React.Component {
                                 <button className="text-uppercase Btn-darkblue-h mt-2">Canjear cupón</button>
                             </div>
                             <div className="col-12 ">
+                                <Link to="/filtro">
                                 <button className="text-uppercase Btn-darkblue-h mt-2">regalar vuelo</button>
+                                </Link>
+
                             </div>
 
                             {/*   <div className="col-12  d-flex justify-content-center align-items-center py-5 Arrow-down">

@@ -397,10 +397,12 @@ footer .Row1 {
         height: 3rem;
     }
     .Home footer .Div-ico {
-        width: 19.3%;
+        width: auto;
+        padding-right: 0.5rem;
+
     }
     .Justify-md-content-end{
-        justify-content: center;
+        justify-content: space-around;
     }
     .Little-text3{
         font-size: 0.9rem!important;

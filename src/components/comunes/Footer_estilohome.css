@@ -19,7 +19,10 @@ Footer_estilohome .Row1 {
     background-color: #2260B3;
 }
 
-
+.Blogp footer .Div-ico{
+    width: auto!important;
+    padding-left: 3px;
+}
 .Row1 {
     background-color: #2260B3;
 }
@@ -43,6 +46,8 @@ Footer_estilohome .Row1 {
 }
 
 @media (max-width: 991.98px) {  }
+
+
 
 @media (max-width: 1199.98px) {  }
 

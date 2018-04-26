@@ -8,6 +8,10 @@ p{
 header{
     width: 100%;
 }
+.Footer_estilo1 .Div-ico{
+    width: auto!important;
+    padding-left: 3px;
+}
 
 h1 {
     font-family: 'Barlow Condensed', sans-serif!important;

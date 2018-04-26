@@ -136,7 +136,7 @@ const Footer_estilohome = () => (
                         </a>
                     </div>
                     <div
-                        className="col-12 col-md-6 d-flex justify-content-end align-items-center flex-wrap ">
+                        className="col-12 col-md-6 d-flex  align-items-center flex-wrap Justify-md-content-end">
                         <div className="Div-ico">
                             <a target="_blank" href="https://es-es.facebook.com/voldecoloms/">
                                 <img src={ico_face} alt=""/>

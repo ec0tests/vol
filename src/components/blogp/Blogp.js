@@ -183,11 +183,11 @@ const Blogp = () => (
                               href="">Waka</a><br/> Made with love by   <a
                               target="_blank" href="https://www.ecoders.io/">Ecoders</a> !</span>
                     </div>
-                    <div className="col-5 d-flex justify-content-end align-items-center flex-wrap pr-5">
-                        <div className="col-5">
+                    <div className="col-5 d-flex Justify-md-content-end align-items-center flex-wrap pr-5">
+                        <div className="W-100-resposive">
                             <button className="Btn-red">Volar en globo</button>
                         </div>
-                        <div className="Div-ico">
+                        <div className="Div-ico ">
                             <img src={ico_face} className="img-fluid" alt=""/>
                         </div>
                         <div className="Div-ico">

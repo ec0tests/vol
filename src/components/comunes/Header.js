@@ -6,8 +6,6 @@ import Menu2 from './Menu2'
 import $ from 'jquery';
 
 
-
-
 /*Controlo si el menu está abierto o cerrado*/
 var megamenu_abierto = false;
 
@@ -52,20 +50,21 @@ $(document).on("click", function (e) {
     }
 });
 $(document).ready(function () {
-    if($(window).width() <= 600) {
-        $('#logo').attr('src',logo);
+    if ($(window).width() <= 600) {
+        $('#logo').attr('src', logo);
 
-    };
+    }
+    ;
 })
 
-document.addEventListener("DOMContentLoaded", function(event) {
+document.addEventListener("DOMContentLoaded", function (event) {
 
 
     var acc = document.getElementsByClassName("accordion");
     var panel = document.getElementsByClassName('panel');
 
     for (var i = 0; i < acc.length; i++) {
-        acc[i].onclick = function() {
+        acc[i].onclick = function () {
             var setClasses = !this.classList.contains('active');
             setClass(acc, 'active', 'remove');
             setClass(panel, 'show', 'remove')
@@ -84,7 +83,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
     }
 
 
-
 });
 
 /* HAGO DESTRUCTURING: En vez de crear la const logo con props.logo le añado al parametro {} y le pongo de nomrbe el nombre de la prop que le paso
@@ -94,56 +92,109 @@ const Header = ({logo}) => (
         <div className="container-fluid">
             <div className="row p-md-3 p-0 pt-2 pt-md-0 pl-0 pl-md-5">
                 <div className="col-6 col-md-6 text-left pb-0 pb-md-4 pb-md-0 pl-0 ">
-                    <a href="http://167.99.208.80/"><img src={logo} id="logo" className="img-fluid Logo-top" alt=""/></a>
+                    <a href="http://167.99.208.80/"><img src={logo} id="logo" className="img-fluid Logo-top"
+                                                         alt=""/></a>
                 </div>
-                <div className="col-6 col-md-6 d-flex align-items-center justify-content-end pr-1 pr-md-5 P-initial">
+                <div className="col-6 col-md-6 d-flex align-items-center justify-content-end pr-1 pr-md-2 P-initial">
                     <div>
-                        <button id="btn_megamenu" onClick={show_megamenu} className="Megamenu text-uppercase Open-megamenu d-none d-md-block">Vuelos en globo</button>
+                        <button id="btn_megamenu" onClick={show_megamenu}
+                                className="Megamenu text-uppercase Open-megamenu d-none d-md-block">Vuelos en globo
+                        </button>
                         {/*Boton movil*/}
-                        <button id="btn_megamenu" onClick={show_megamenu_movil} className="Megamenu text-uppercase Open-megamenu d-md-none">Vuelos en globo</button>
+                        <button id="btn_megamenu" onClick={show_megamenu_movil}
+                                className="Megamenu text-uppercase Open-megamenu d-md-none">Vuelos en globo
+                        </button>
 
 
                     </div>
-                   <Menu2/>
-                </div>
+                    <Menu2/>
                 </div>
             </div>
+        </div>
         <div className="col-12 Megamenu-div ">
             <nav className="row mb-1">
                 <div className="col-md-3">
                     <ul>
-                        <li className="mb-3"> <span className="T-megamenu">vuelos compartidos</span> </li>
-                        <li> <span>vuelos compartidos</span> </li>
-                        <li> <span>vuelos compartidos</span> </li>
-                        <li> <span>vuelos compartidos</span> </li>
-                        <li> <span>vuelos compartidos</span> </li>
+                        <li className="mb-3"><span className="T-megamenu">vuelos compartidos</span></li>
+                        <a href="/filtro"> <a href="/filtro">
+                            <li><span>vuelos compartidos</span></li>
+                        </a>
+                        </a>
+                        <a href="/filtro">
+                            <li><span>vuelos compartidos</span></li>
+                        </a>
+
+                        <a href="/filtro">
+                            <li><span>vuelos compartidos</span></li>
+                        </a>
+
+                        <a href="/filtro">
+                            <li><span>vuelos compartidos</span></li>
+                        </a>
+
                     </ul>
                 </div>
                 <div className="col-md-3">
                     <ul>
-                        <li className="mb-3"> <span className="T-megamenu">vuelos compartidos</span> </li>
-                        <li> <span>vuelos compartidos</span> </li>
-                        <li> <span>vuelos compartidos</span> </li>
-                        <li> <span>vuelos compartidos</span> </li>
-                        <li> <span>vuelos compartidos</span> </li>
+                        <li className="mb-3"><span className="T-megamenu">vuelos compartidos</span></li>
+                        <a href="/filtro">
+                            <li><span>vuelos compartidos</span></li>
+                        </a>
+
+                        <a href="/filtro">
+                            <li><span>vuelos compartidos</span></li>
+                        </a>
+
+                        <a href="/filtro">
+                            <li><span>vuelos compartidos</span></li>
+                        </a>
+
+                        <a href="/filtro">
+                            <li><span>vuelos compartidos</span></li>
+                        </a>
+
                     </ul>
                 </div>
                 <div className="col-md-3">
                     <ul>
-                        <li className="mb-3"> <span className="T-megamenu">vuelos compartidos</span> </li>
-                        <li> <span>vuelos compartidos</span> </li>
-                        <li> <span>vuelos compartidos</span> </li>
-                        <li> <span>vuelos compartidos</span> </li>
-                        <li> <span>vuelos compartidos</span> </li>
+                        <li className="mb-3"><span className="T-megamenu">vuelos compartidos</span></li>
+                        <a href="/filtro">
+                            <li><span>vuelos compartidos</span></li>
+                        </a>
+
+                        <a href="/filtro">
+                            <li><span>vuelos compartidos</span></li>
+                        </a>
+
+                        <a href="/filtro">
+                            <li><span>vuelos compartidos</span></li>
+                        </a>
+
+                        <a href="/filtro">
+                            <li><span>vuelos compartidos</span></li>
+                        </a>
+
                     </ul>
                 </div>
                 <div className="col-md-3">
                     <ul>
-                        <li className="mb-3"> <span className="T-megamenu">vuelos compartidos</span> </li>
-                        <li> <span>vuelos compartidos</span> </li>
-                        <li> <span>vuelos compartidos</span> </li>
-                        <li> <span>vuelos compartidos</span> </li>
-                        <li> <span>vuelos compartidos</span> </li>
+                        <li className="mb-3"><span className="T-megamenu">vuelos compartidos</span></li>
+                        <a href="/filtro">
+                            <li><span>vuelos compartidos</span></li>
+                        </a>
+
+                        <a href="/filtro">
+                            <li><span>vuelos compartidos</span></li>
+                        </a>
+
+                        <a href="/filtro">
+                            <li><span>vuelos compartidos</span></li>
+                        </a>
+
+                        <a href="/filtro">
+                            <li><span>vuelos compartidos</span></li>
+                        </a>
+
                     </ul>
                 </div>
             </nav>
@@ -161,10 +212,10 @@ const Header = ({logo}) => (
             </div>
         </div>
 
-   <div className="col-12 Megamenu-div-movil">
-       <div className="row">
-           <span className="Cruz" onClick={hide_megamenu_movil}>x</span>
-       </div>
+        <div className="col-12 Megamenu-div-movil">
+            <div className="row">
+                <span className="Cruz" onClick={hide_megamenu_movil}>x</span>
+            </div>
             <nav className="row mb-1 text-left">
                 <div className="col-md-3 ">
                     <p className="accordion text-white text-uppercase">vuelos compartidos</p>

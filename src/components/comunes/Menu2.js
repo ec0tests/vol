@@ -133,10 +133,11 @@ const Menu2 = ({logo}) => (
                 <a href="/instalaciones" className="text-white"><li>instalaciones</li></a>
                <a href="/blog" className="text-white"> <li>blog</li></a>
                 <a href="/faq" className="text-white"><li>FAQs</li></a>
-                <li>regalar vuelo</li>
-             {/*   <li>infromación útil</li>*/}
+                <a href="/filtro" className="text-white"><li>regalar vuelo</li></a>
+                <a href="/contact" className="text-white"><li>Contacto</li></a>
+
+                {/*   <li>infromación útil</li>*/}
                 <li>ubicación/meteorología</li>
-                <li>contacto</li>
                 <br/>
                 <li className="pb-0">
                     <div className="col-12 mt-4 p-0 d-flex text-left align-items-center">

@@ -18,6 +18,7 @@ import Filtro from './components/filtro/Filtro';
 import Pack_historico from "./components/pack_historico/Pack_historico";
 import Categorias from "./components/categorias/Categorias";
 import Ficha from "./components/ficha/Ficha";
+import Contact from "./components/contact/Contact";
 
 import bkg1 from "./images/bkg-1.jpg";
 
@@ -179,6 +180,12 @@ class App extends Component {
                             return (<Faq/>);
                         }
                     }/>
+                    <Route onUpdate={() => window.scrollTo(0, 0)} path="/contact" exact strict render={
+                        () => {
+                            return (<Contact/>);
+                        }
+                    }/>
+
 
                     <Route path="/filtro" exact strict render={
                         () => {
