@@ -64,8 +64,17 @@
     background-position-x: center;
     background-repeat: no-repeat;
     padding-top: 2rem;
-    min-height: 30rem;
+    min-height: 38rem;
 
+}
+.Ico-ficha{
+    height: 35px;
+}
+.Ficha-info{
+    font-size: 0.7rem!important;
+}
+.form-check-label{
+    font-size: 0.9rem;
 }
 .Btn-gris{
     background-color: #999999;
@@ -231,8 +240,21 @@ iframe{
 .Section4-ficha .carousel-control-next{
     top: 47%;
 }
+.Label-form{
+    font-size: 1.4rem!important;
+    color: #8f8f8f!important;
+    font-weight: 500!important;
+    text-transform: capitalize!important;
+    font-family: 'Roboto', sans-serif!important;
+}
 
-.
+.Span-precio{
+    font-size: 0.8rem;
+    color: #333333;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+}
 
 .Section4-ficha .Container-video{
 }
@@ -314,6 +336,12 @@ iframe{
     }
     .Experiencia-completa{
         padding-bottom: 0;
+    }
+
+    .Col-tarjeta {
+         position: relative;
+         top: auto;
+         right: auto;
     }
 }
 

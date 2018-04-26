@@ -9,9 +9,10 @@ import Imagenes_ficha from "./Imagenes_ficha";
 import Video_ficha from "./Video_ficha";
 import Arrow_top from "../comunes/Arrow_top";
 import Datepicker from "../comunes/Datepicker"
-
+import Card_roja from "../comunes/Card_roja"
 import logo_globo from '../../images/Globo-header-w.png';
 import imagenes_instalaciones1 from '../../images/instalacion1.jpg';
+import globo_ico4 from '../../images/Icon-Cat-4amigo-go-35.png';
 
 
 let array_imagenesficha = [];
@@ -49,12 +50,71 @@ const Ficha = () => (
         <Arrow_top/>
         <section className="Section1-ficha">
             <Header logo={logo_globo}/>
-            <div className="container-fluid">
-                <div className="row w-100 text-left p-3 pl-0 pl-md-5">
-                    <div className="col-12 ">
+            <div className="container-fluid d-flex justify-content-center">
+                <div className="row w-100 text-left p-0 p-md-3  pl-0 pl-md-5">
+                    <div className="col-12 col-md-6 ">
                         <h1 className="text-uppercase w-75 ">vuelo en globo + <br/> cabaña en los arboles</h1>
 
                     </div>
+                    <div className="col-12 col-md-4 Col-tarjeta p-0">
+                            <div className="card w-100 h-100 p-md-4 p-3">
+                                <div className="card-body text-left p-1">
+                                    <div className="row w-100 justify-content-between flex-nowrap">
+                                        <div className="d-flex align-items-center">
+                                            <img src={globo_ico4} className="img-fluid Ico-ficha"
+                                                 alt=""/>
+
+                                            <span className=" d-flex align-items-center p-2 Info-card Ficha-info">Vuela en globo <br/> Globo no compartido</span>
+                                        </div>
+                                            <span className="d-flex align-items-center Price-card pl-3 ">250€</span>
+
+                                    </div>
+                                        <form className="col-12 my-2 mt-4">
+                                            <div class="form-group row">
+                                                <label for="inputPassword" class="col-sm-5 col-form-label Label-form">Personas</label>
+                                                <div class="col-sm-7">
+                                                    <input type="text" class="form-control" id="inputPassword" placeholder="Personas"/>
+                                                </div>
+                                            </div>
+                                            <div class="form-group row">
+                                                <label for="inputPassword" class="col-sm-5 col-form-label Label-form">Fecha</label>
+                                                <div class="col-sm-7">
+                                                    <input type="text" value="22/05/1996" class="form-control" id="inputPassword" placeholder="Fecha"/>
+                                                </div>
+                                            </div>
+                                        </form>
+
+                                    <div className="row w-100 pt-2">
+                                        <div className="col-md-12 text-left d-flex align-items-center">
+                                            <button className=" Btn-red  w-100" >RESERVAR</button>
+                                        </div>
+
+                                    </div>
+                                    <div className="row w-100 pt-2 justify-content-end pr-3 mt-1">
+
+                                    <div class="form-group">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" id="gridCheck"/>
+
+                                            <label class="form-check-label" for="gridCheck">
+                                                Reservar con fecha abierta
+                                            </label>
+
+                                        </div>
+                                    </div>
+                                    </div>
+
+                                    <div className="row w-100 pt-2 justify-content-end pr-3">
+                                          <span className="Span-precio">Total experiencia: <b> 250$</b></span>
+
+                                    </div>
+                                    <div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                 </div>
             </div>
         </section>

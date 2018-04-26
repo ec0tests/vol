@@ -60,6 +60,7 @@ right: 0;
     width: 10.3rem;
 
 }
+
 .Megamenu-open{
     background-color: #0A1F3C;
     border: 0;
@@ -386,9 +387,13 @@ div.panel.show {
     .Logo-top{
         width: 33%;
     }
+
 }
 
 @media all and (max-width: 575px) {
+    .slideout-sidebar {
+        width: 360px;
+    }
 
 
 }
