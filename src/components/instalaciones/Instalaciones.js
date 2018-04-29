@@ -4,6 +4,8 @@ import Header from "../comunes/Header";
 import Certificado from "../comunes/Certificado";
 import Instalacion from "./Instalacion"
 import Footer_estilo1 from "../comunes/Footer_estilo1"
+import Weathermap from "../comunes/Weathermap";
+
 import Footer_estilohome from "../comunes/Footer_estilohome"
 import logo_globo from '../../images/Globo-header-w.png';
 import Lightbox from 'react-image-lightbox';
@@ -75,6 +77,25 @@ for (var i = 0; i < instalaciones_json.instalaciones.length; i++) {
 <Arrow_top/>
                 <section className="Section1-instalaciones">
                     <Header logo={logo_globo}/>
+                    <div className="modal Modal-weather" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div className="modal-dialog" role="document">
+                            <div className="modal-content">
+                                <div className="modal-header">
+                                    <h5 className="modal-title" id="exampleModalLabel">Modal title</h5>
+                                    <button type="button" className="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div className="modal-body">
+                                    <Weathermap/>
+                                </div>
+                                <div className="modal-footer">
+                                    <button type="button" className="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    <button type="button" className="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <div className="container-fluid">
                         <div className="row text-left p-3 pl-md-5">
                             <div className="col-12 ">

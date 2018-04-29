@@ -135,9 +135,8 @@ const Menu2 = ({logo}) => (
                 <a href="/faq" className="text-white"><li>FAQs</li></a>
                 <a href="/filtro" className="text-white"><li>regalar vuelo</li></a>
                 <a href="/contact" className="text-white"><li>Contacto</li></a>
-
                 {/*   <li>infromación útil</li>*/}
-                <li>ubicación/meteorología</li>
+                <li  data-toggle="modal" data-target="#exampleModal">ubicación/meteorología</li>
                 <br/>
                 <li className="pb-0">
                     <div className="col-12 mt-4 p-0 d-flex text-left align-items-center">

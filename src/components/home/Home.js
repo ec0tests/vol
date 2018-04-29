@@ -23,6 +23,7 @@ import ico_youtube from '../../images/Icon-RRSS-yt-b-55.png';
 import logo_b from '../../images/vdc-logo-b.png';
 
 import redes_ico from '../../images/redes_sociales.png';
+import Weathermap from "../comunes/Weathermap";
 
 import Footer_patrocinadores from "../comunes/Footer_patrocinadores";
 
@@ -152,11 +153,26 @@ class Home extends React.Component {
 
                 <main id="Section1" className="Section1 ">
                     <Header logo={logo_b} />
-                    {/*
-                ---------
-                SECCION 1
-                ---------*/}
-                    {/*   Principal*/}
+
+                    <div className="modal Modal-weather" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div className="modal-dialog" role="document">
+                            <div className="modal-content">
+                                <div className="modal-header">
+                                    <h5 className="modal-title" id="exampleModalLabel">Modal title</h5>
+                                    <button type="button" className="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div className="modal-body">
+                                    <Weathermap/>
+                                </div>
+                                <div className="modal-footer">
+                                    <button type="button" className="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    <button type="button" className="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <div className="container pb-2 pb-md-5 mb-0 mb-md-5  Header-sec2">
                         <div className="row text-left ">
                             <div className="col-12 ">
@@ -258,7 +274,7 @@ class Home extends React.Component {
                                     experiencia</h2>
                                 <h3 className="Text-gray">Combina tu vuelo con alojamiento, comida o actividades
                                     turísticas.</h3>
-                                <button className="Btn-blue2 mt-4">Volar en globo</button>
+                                <a href="/filtro"><button className="Btn-blue2 mt-4">Volar en globo</button></a>
                             </div>
                         </div>
                     </div>

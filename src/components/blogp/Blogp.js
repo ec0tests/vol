@@ -15,6 +15,7 @@ import ico_trip from '../../images/Icon-RRSS-tr-b-55.png';
 import ico_youtube from '../../images/Icon-RRSS-yt-b-55.png';
 import play_ico from '../../images/play-ico.png';
 import Footer_patrocinadores from "../comunes/Footer_patrocinadores";
+import Weathermap from "../comunes/Weathermap";
 
 
 import bkg2 from '../../images/bkg-2.png';
@@ -62,6 +63,25 @@ const Blogp = () => (
 <Arrow_top/>
         <section className="Section1-blogp d-flex flex-column">
             <Header logo={logo_globo}/>
+            <div className="modal Modal-weather" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div className="modal-dialog" role="document">
+                    <div className="modal-content">
+                        <div className="modal-header">
+                            <h5 className="modal-title" id="exampleModalLabel">Modal title</h5>
+                            <button type="button" className="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div className="modal-body">
+                            <Weathermap/>
+                        </div>
+                        <div className="modal-footer">
+                            <button type="button" className="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" className="btn btn-primary">Save changes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div className="container mt-auto">
                 <div className="row">
                     <div className="col-12 Div-experiencias">

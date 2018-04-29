@@ -214,6 +214,10 @@ class App extends Component {
                             return (<Ficha/>);
                         }
                     }/>
+
+
+
+
                 </div>
             </Router>
 

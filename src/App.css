@@ -1,5 +1,32 @@
 
-.App{
+/*DIALOGO MODAL DEL WEATHER*/
+.modal-dialog {
+    max-width: 70%;
+    margin: 4.75rem auto;
+}
+.modal-title{
+    display: none!important;
+}
+.modal-footer button{
+    display: none;
+}
+.rw-box-left{
+    background-color: #014db4;
+}
+.rw-box-left h2{
+    width: 100%!important;
+    color: white!important;
+    font-weight: 600!important;
+    font-family: 'Barlow Condensed', sans-serif!important;
+}
+ .wicon {
+    margin-top: 15px;
+    font-size: 35px;
+    color: #014db4!important;
+}
+.rw-box-right .wicon {
+
+    color: #FFFFFF!important;
 }
 p{
     font-family: 'Roboto', sans-serif!important;
@@ -12,6 +39,7 @@ header{
     width: auto!important;
     padding-left: 3px;
 }
+
 
 h1 {
     font-family: 'Barlow Condensed', sans-serif!important;

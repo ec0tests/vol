@@ -51,6 +51,10 @@ right: 0;
     display: none;
 }
 
+.Modal-weather{
+    position: absolute;
+    right: 10px;
+}
 .Megamenu {
     background-color: transparent;
     color: #ffffff;
