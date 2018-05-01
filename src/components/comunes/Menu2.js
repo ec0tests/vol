@@ -14,9 +14,38 @@ import ico_trw from '../../images/Icon-RRSS-tr-b-55.png';
 import ico_yw from '../../images/Icon-RRSS-yt-b-55.png';
 
 import $ from 'jquery';
-
+import tingle from "tingle.js";
 /*Controlo si el menu está abierto o cerrado*/
 var menu_abierto = false;
+// instanciate new modal
+var modal_meteorologico = new tingle.modal({
+    footer: false,
+    stickyFooter: true,
+    closeMethods: ['overlay', 'button', 'escape'],
+    closeLabel: "Close",
+    cssClass: ['custom-class-1', 'custom-class-2'],
+    onOpen: function () {
+        console.log('modal open');
+    },
+    onClose: function () {
+        console.log('modal closed');
+    },
+    beforeClose: function () {
+        // here's goes some logic
+        // e.g. save content before closing the modal
+        return true; // close the modal
+        return false; // nothing happens
+    }
+});
+
+modal_meteorologico.setContent('<div id="modal_meteo"></div>');
+
+function openMeteo() {
+    modal_meteorologico.open();
+    /*ESTE MODAL al poner un iframe lo tengo que poner con el .html una vez se ha abierto el modal ya que al poner el contenido antes de abrirlo
+    *  como con los otros modales del plugin da error*/
+    $("#modal_meteo").html('<iframe class="Iframe-weather"  src="https://embed.windy.com/embed2.html?lat=42.151348&lon=2.526704&zoom=8&level=surface&overlay=wind&menu=&message=true&marker=&calendar=&pressure=&type=map&location=coordinates&detail=true&detailLat=42.151348&detailLon=2.526704&metricWind=default&metricTemp=default" frameborder="0"></iframe>');
+}
 
 function show_menu() {
 
@@ -30,6 +59,13 @@ function show_menu() {
 
 }
 
+$( document ).ready(function() {
+    $('.trigger').on('click', function() {
+        $('.modal-wrapper').toggleClass('open');
+        $('.page-wrapper').toggleClass('blur-it');
+        return false;
+    });
+});
 function hide_menu() {
     $(".slideout-sidebar").removeClass('animated slideInRight');
 
@@ -136,8 +172,10 @@ const Menu2 = ({logo}) => (
                 <a href="/filtro" className="text-white"><li>regalar vuelo</li></a>
                 <a href="/contact" className="text-white"><li>Contacto</li></a>
                 {/*   <li>infromación útil</li>*/}
-                {/*<li  data-toggle="modal" data-target="#exampleModal">ubicación/meteorología</li>*/}
-               <li>ubicación/meteorología</li>
+                <li  onClick={openMeteo}>ubicación/meteorología</li>
+               
+
+                {/* <li>ubicación/meteorología</li>*/}
                 <br/>
                 <li className="pb-0">
                     <div className="col-12 mt-4 p-0 d-flex text-left align-items-center">
