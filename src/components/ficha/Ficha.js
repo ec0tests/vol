@@ -75,13 +75,13 @@ const Ficha = () => (
                                             <div class="form-group row">
                                                 <label for="inputPassword" class="col-sm-5 col-form-label Label-form">Personas</label>
                                                 <div class="col-sm-7">
-                                                    <input type="text" class="form-control" id="inputPassword" placeholder="Personas"/>
+                                                    <input type="number" class="form-control" id="inputPassword" placeholder="Personas"/>
                                                 </div>
                                             </div>
                                             <div class="form-group row">
                                                 <label for="inputPassword" class="col-sm-5 col-form-label Label-form">Fecha</label>
                                                 <div class="col-sm-7">
-                                                    <input type="text" value="22/05/1996" class="form-control" id="inputPassword" placeholder="Fecha"/>
+                                                    <input type="date" value="22/05/1996" class="form-control" id="inputPassword" placeholder="Fecha"/>
                                                 </div>
                                             </div>
                                         </form>
@@ -107,7 +107,7 @@ const Ficha = () => (
                                     </div>
 
                                     <div className="row w-100 pt-2 justify-content-end pr-3">
-                                          <span className="Span-precio">Total experiencia: <b> 250$</b></span>
+                                          <span className="Span-precio">Total experiencia: <b> 250€</b></span>
 
                                     </div>
                                     <div>
@@ -145,11 +145,11 @@ const Ficha = () => (
                                     href="">Más info</a></p>
                         </div>
 
-                        <div className="row mb-5 py-3 d-none d-md-flex">
+                        <div className="row mb-0 py-3 d-none d-md-flex">
                             <h2 className="w-100">FECHAS Y DISPONIBILIDAD</h2>
                             <div className="col-12 col-md-6 py-4 px-0">
                                 <div className="col-12  mb-3 px-0">
-                                    <button className="Btn-gris Ficha-btn">Agosto</button>
+                                    <button className="Btn-gris Ficha-btn">MAYO</button>
                                 </div>
                                 <div className="col-12 px-0">
                                     <button className="Btn-blue Ficha-btn">Comprar sin fecha</button>

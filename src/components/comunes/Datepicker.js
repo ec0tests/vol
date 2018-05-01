@@ -1,10 +1,10 @@
 import React from 'react';
-import DatePicker from 'react-datepicker';
 import moment from 'moment';
 
 import 'react-datepicker/dist/react-datepicker.css';
 import './Datepicker.css';
 
+import DatePicker from 'react-date-picker';
 // CSS Modules, react-datepicker-cssmodules.css
 // import 'react-datepicker/dist/react-datepicker-cssmodules.css';
 
@@ -12,37 +12,31 @@ class Datepicker extends React.Component {
     constructor(props) {
         super(props)
         this.state = {
-            startDate: ''
+            date: "",
         };
-        this.handleChange = this.handleChange.bind(this);
     }
 
-    handleChange(date) {
-        this.setState({
-            startDate: date
-        });
-    }
+    onChange = date => this.setState({ date })
 
     render() {
         if (this.props.tipo == 'inline') {
-            return <DatePicker
-                selected={this.state.startDate}
-                onChange={this.handleChange}
-                inline
-                /*isClearable={true}*/
-                className="Btn-gris-sinfondo text-center Dateppicker-input Cursor-pointer"
-                placeholderText="Fechas"
-            />
+            return  <div className="Datepicker-inline">
+                <DatePicker
+                    onChange={this.onChange}
+                    isOpen="true"
+
+                    value={this.state.date}
+                />
+            </div>
         }
         else {
-            return <DatePicker
-                selected={this.state.startDate}
-                onChange={this.handleChange}
+            return  <div>
+                <DatePicker
+                    onChange={this.onChange}
 
-                /*isClearable={true}*/
-                className="Btn-gris-sinfondo text-center Dateppicker-input Cursor-pointer"
-                placeholderText="Fechas"
-            />
+                    value={this.state.date}
+                />
+            </div>
         }
     }
 }
