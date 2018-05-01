@@ -44,6 +44,7 @@ function openMeteo() {
     modal_meteorologico.open();
     /*ESTE MODAL al poner un iframe lo tengo que poner con el .html una vez se ha abierto el modal ya que al poner el contenido antes de abrirlo
     *  como con los otros modales del plugin da error*/
+    $("#modal_meteo").html('<iframe class="Iframe-weather"  src="https://embed.windy.com/embed2.html?lat=42.151348&lon=2.526704&zoom=8&level=surface&overlay=wind&menu=&message=true&marker=&calendar=&pressure=&type=map&location=coordinates&detail=true&detailLat=42.151348&detailLon=2.526704&metricWind=default&metricTemp=default" frameborder="0"></iframe>');
 }
 
 function show_menu() {
