@@ -12,7 +12,6 @@ import Experiencia_completa from "../comunes/Experiencia_completa";
 import Experiencia_volarGlobo from "../comunes/Experiencia_volarGlobo";
 import Buscador_filtro from "../comunes/Buscador_filtro";
 import Buscador_filtro_movil from "../comunes/Buscador_filtro_movil";
-import Weathermap from "../comunes/Weathermap";
 
 
 /*Creo el array de filtro provisional*/

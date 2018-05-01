@@ -8,7 +8,6 @@ import Certificado from "../comunes/Certificado";
 import Experiencia_volarGlobo from "../comunes/Experiencia_volarGlobo";
 import Footer_estilo1 from "../comunes/Footer_estilo1";
 import Footer_estilohome from "../comunes/Footer_estilohome";
-import Weathermap from "../comunes/Weathermap";
 
 import Experiencia_completa from "../comunes/Experiencia_completa";
 import logo_globo from '../../images/Globo-header-w.png';

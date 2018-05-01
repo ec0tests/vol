@@ -23,7 +23,6 @@ import ico_youtube from '../../images/Icon-RRSS-yt-b-55.png';
 import logo_b from '../../images/vdc-logo-b.png';
 
 import redes_ico from '../../images/redes_sociales.png';
-import Weathermap from "../comunes/Weathermap";
 
 import Footer_patrocinadores from "../comunes/Footer_patrocinadores";
 

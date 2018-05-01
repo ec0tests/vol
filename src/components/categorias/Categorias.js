@@ -26,7 +26,6 @@ import Card_experiencias from "../comunes/Card_experiencias";
 import Experiencia_volarGlobo from "../comunes/Experiencia_volarGlobo";
 import Experiencia_completa from "../comunes/Experiencia_completa";
 import Arrow_top from "../comunes/Arrow_top";
-import Weathermap from "../comunes/Weathermap";
 
 
 /*Creo el array de filtro provisional*/

@@ -11,7 +11,6 @@ import play_ico from '../../images/play-ico.png';
 import bkg2 from '../../images/bkg-2.png';
 import $ from 'jquery';
 
-import Weathermap from "../comunes/Weathermap";
 
 import Header from "../comunes/Header";
 import Footer_estilo1 from "../comunes/Footer_estilo1";

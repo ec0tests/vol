@@ -15,7 +15,6 @@ import ico_trip from '../../images/Icon-RRSS-tr-b-55.png';
 import ico_youtube from '../../images/Icon-RRSS-yt-b-55.png';
 import play_ico from '../../images/play-ico.png';
 import Footer_patrocinadores from "../comunes/Footer_patrocinadores";
-import Weathermap from "../comunes/Weathermap";
 
 
 import bkg2 from '../../images/bkg-2.png';

@@ -10,7 +10,6 @@ import Video_ficha from "./Video_ficha";
 import Arrow_top from "../comunes/Arrow_top";
 import Datepicker from "../comunes/Datepicker"
 import Card_roja from "../comunes/Card_roja"
-import Weathermap from "../comunes/Weathermap";
 
 import logo_globo from '../../images/Globo-header-w.png';
 import imagenes_instalaciones1 from '../../images/instalacion1.jpg';

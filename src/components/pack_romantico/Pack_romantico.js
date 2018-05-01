@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import './Pack_romantico.css';
 import logo_globo from '../../images/Globo-header-w.png';
 
-import Weathermap from "../comunes/Weathermap";
 
 import Header from "../comunes/Header";
 import Footer_estilo1 from "../comunes/Footer_estilo1";

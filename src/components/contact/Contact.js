@@ -11,7 +11,6 @@ import ico_youtube from '../../images/Icon-RRSS-yt-b-55.png';
 import play_ico from '../../images/play-ico.png';
 import bkg2 from '../../images/bkg-2.png';
 
-import Weathermap from "../comunes/Weathermap";
 import Carousel_cards from "../comunes/Carousel_cards";
 import Header from "../comunes/Header";
 import Experiencia_completa from "../comunes/Experiencia_completa";

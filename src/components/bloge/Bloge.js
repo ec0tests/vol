@@ -6,7 +6,6 @@ import Subetufoto from "../comunes/Subetufoto"
 import Footer_patrocinadores from "../comunes/Footer_patrocinadores";
 import Footer_estilohome from "../comunes/Footer_estilohome";
 import Experiencia_completa from "../comunes/Experiencia_completa";
-import Weathermap from "../comunes/Weathermap";
 
 
 import logo_globo from '../../images/Globo-header-w.png';

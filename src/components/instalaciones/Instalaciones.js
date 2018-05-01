@@ -4,7 +4,6 @@ import Header from "../comunes/Header";
 import Certificado from "../comunes/Certificado";
 import Instalacion from "./Instalacion"
 import Footer_estilo1 from "../comunes/Footer_estilo1"
-import Weathermap from "../comunes/Weathermap";
 
 import Footer_estilohome from "../comunes/Footer_estilohome"
 import logo_globo from '../../images/Globo-header-w.png';
