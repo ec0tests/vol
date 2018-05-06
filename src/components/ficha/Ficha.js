@@ -59,63 +59,67 @@ const Ficha = () => (
 
                     </div>
                     <div className="col-12 col-md-4 Col-tarjeta p-0">
-                            <div className="card w-100 h-100 p-md-4 p-3">
-                                <div className="card-body text-left p-1">
-                                    <div className="row w-100 justify-content-between flex-nowrap">
-                                        <div className="d-flex align-items-center">
-                                            <img src={globo_ico4} className="img-fluid Ico-ficha"
-                                                 alt=""/>
+                        <div className="card w-100 h-100 p-md-4 p-3">
+                            <div className="card-body text-left p-1">
+                                <div className="row w-100 justify-content-between flex-nowrap">
+                                    <div className="d-flex align-items-center">
+                                        <img src={globo_ico4} className="img-fluid Ico-ficha"
+                                             alt=""/>
 
-                                            <span className=" d-flex align-items-center p-2 Info-card Ficha-info">Vuela en globo <br/> Globo no compartido</span>
-                                        </div>
-                                            <span className="d-flex align-items-center Price-card pl-3 ">250€</span>
-
+                                        <span className=" d-flex align-items-center p-2 Info-card Ficha-info">Vuela en globo <br/> Globo no compartido</span>
                                     </div>
-                                        <form className="col-12 my-2 mt-4">
-                                            <div class="form-group row">
-                                                <label for="inputPassword" class="col-sm-5 col-form-label Label-form">Personas</label>
-                                                <div class="col-sm-7">
-                                                    <input type="number" class="form-control" id="inputPassword" placeholder="Personas"/>
-                                                </div>
-                                            </div>
-                                            <div class="form-group row">
-                                                <label for="inputPassword" class="col-sm-5 col-form-label Label-form">Fecha</label>
-                                                <div class="col-sm-7">
-                                                    <input type="date" value="22/05/1996" class="form-control" id="inputPassword" placeholder="Fecha"/>
-                                                </div>
-                                            </div>
-                                        </form>
+                                    <span className="d-flex align-items-center Price-card pl-3 ">250€</span>
 
-                                    <div className="row w-100 pt-2">
-                                        <div className="col-md-12 text-left d-flex align-items-center">
-                                            <button className=" Btn-red  w-100" >RESERVAR</button>
+                                </div>
+                                <form className="col-12 my-2 mt-4">
+                                    <div className="form-group row">
+                                        <label for="inputPassword"
+                                               className="col-sm-5 col-form-label Label-form">Personas</label>
+                                        <div className="col-sm-7">
+                                            <input type="number" className="form-control" id="inputPassword"
+                                                   placeholder="Personas"/>
                                         </div>
-
                                     </div>
-                                    <div className="row w-100 pt-2 justify-content-end pr-3 mt-1">
+                                    <div className="form-group row">
+                                        <label for="inputPassword"
+                                               className="col-sm-5 col-form-label Label-form">Fecha</label>
+                                        <div className="col-sm-7">
+                                            <input type="date" value="22/05/1996" className="form-control"
+                                                   id="inputPassword" placeholder="Fecha"/>
+                                        </div>
+                                    </div>
+                                </form>
 
-                                    <div class="form-group">
-                                        <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" id="gridCheck"/>
+                                <div className="row w-100 pt-2">
+                                    <div className="col-md-12 text-left d-flex align-items-center">
+                                        <button className=" Btn-red  w-100">RESERVAR</button>
+                                    </div>
 
-                                            <label class="form-check-label" for="gridCheck">
+                                </div>
+                                <div className="row w-100 pt-2 justify-content-end pr-3 mt-1">
+
+                                    <div className="form-group">
+                                        <div className="form-check">
+                                            <input className="form-check-input" type="checkbox" id="gridCheck"/>
+
+                                            <label className="form-check-label" for="gridCheck">
                                                 Reservar con fecha abierta
                                             </label>
 
                                         </div>
                                     </div>
-                                    </div>
+                                </div>
 
-                                    <div className="row w-100 pt-2 justify-content-end pr-3">
-                                          <span className="Span-precio">Total experiencia: <b> 250€</b></span>
+                                <div className="row w-100 pt-2 justify-content-end pr-3">
+                                    <span className="Span-precio">Total experiencia: <b> 250€</b></span>
 
-                                    </div>
-                                    <div>
+                                </div>
+                                <div>
 
-                                    </div>
                                 </div>
                             </div>
                         </div>
+                    </div>
 
                 </div>
             </div>
@@ -197,19 +201,77 @@ const Ficha = () => (
 
                         <div className="col-12 mb-5 py-3 flex-wrap d-none d-md-flex">
                             <h2 className="w-100 mb-3">LA OPINIÓN DE NUESTROS CLIENTES</h2>
+                            <div className="row">
+                                <div className="col-12 d-flex Review-titulo">
+                                    <div className="col-12 d-flex align-items-center">
+                                        <span className="Review-punt mr-3">4.9</span>
+
+                                        <i className="fas fa-star Estrella-grande"></i><i className="fas fa-star Estrella-grande"></i><i
+                                        className="fas fa-star Estrella-grande"></i><i className="fas fa-star Estrella-grande"></i><i className="fas fa-star Estrella-grande"></i>
+                                        <span className="pl-2 Review-grispeq pt-2">5 reviews</span>
+
+                                    </div>
+
+                                </div>
+                                <div className="col-12 d-flex Review-opinion">
+                                    <div className="col-2 col-md-2 col-lg-1 p-0"><img src="http://via.placeholder.com/50x50" className="" alt=""/></div>
+                                    <div className=" p-0 col-12 col-md-10">
+                                        <span>lorem</span>
+                                        <br/>
+                                        <i className="fas fa-star Estrella-peq"></i><i className="fas fa-star Estrella-peq"></i><i
+                                        className="fas fa-star Estrella-peq"></i><i className="fas fa-star Estrella-peq"></i><i className="fas fa-star Estrella-peq"></i>
+                                        <span className="Review-grispeq pl-1 pt-3">in the last week</span>
+                                        <br/>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci deleniti, dolorem eos, exercitationem facilis impedit maiores nihil nisi obcaecati praesentium ratione reiciendis repellat. Cumque error facilis impedit odit suscipit velit.</p>
+
+                                    </div>
+                                </div>
+                                <div className="col-12 d-flex Review-opinion">
+                                    <div className="col-2 col-md-2 col-lg-1 p-0"><img src="http://via.placeholder.com/50x50" className="" alt=""/></div>
+                                    <div className=" p-0 col-12 col-md-10">
+                                        <span>lorem</span>
+                                        <br/>
+                                        <i className="fas fa-star Estrella-peq"></i><i className="fas fa-star Estrella-peq"></i><i
+                                        className="fas fa-star Estrella-peq"></i><i className="fas fa-star Estrella-peq"></i><i className="fas fa-star Estrella-peq"></i>
+                                        <span className="Review-grispeq pl-1 pt-3">in the last week</span>
+                                        <br/>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci deleniti, dolorem eos, exercitationem facilis impedit maiores nihil nisi obcaecati praesentium ratione reiciendis repellat. Cumque error facilis impedit odit suscipit velit.</p>
+
+                                    </div>
+                                </div>
+                                <div className="col-12 d-flex Review-opinion">
+                                    <div className="col-2 col-md-2 col-lg-1 p-0"><img src="http://via.placeholder.com/50x50" className="" alt=""/></div>
+                                    <div className=" p-0 col-12 col-md-10">
+                                        <span>lorem</span>
+                                        <br/>
+                                        <i className="fas fa-star Estrella-peq"></i><i className="fas fa-star Estrella-peq"></i><i
+                                        className="fas fa-star Estrella-peq"></i><i className="fas fa-star Estrella-peq"></i><i className="fas fa-star Estrella-peq"></i>
+                                        <span className="Review-grispeq pl-1 pt-3">in the last week</span>
+                                        <br/>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci deleniti, dolorem eos, exercitationem facilis impedit maiores nihil nisi obcaecati praesentium ratione reiciendis repellat. Cumque error facilis impedit odit suscipit velit.</p>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
                         </div>
 
                         <div className="row mb-3 py-0 Padding-30 py-md-3">
                             <p className="accordion  ">Cómo regalar el viaje</p>
                             <div className="panel ">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquam animi aut corporis cumque, cupiditate dolor dolorum eveniet facilis in inventore magnam, necessitatibus neque nihil nobis officiis quia repellat suscipit!
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquam animi aut
+                                corporis cumque, cupiditate dolor dolorum eveniet facilis in inventore magnam,
+                                necessitatibus neque nihil nobis officiis quia repellat suscipit!
                             </div>
                         </div>
 
                         <div className="row mb-3 py-0 Padding-30 py-md-3">
                             <p className="accordion  ">Sensaciones</p>
                             <div className="panel ">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquam animi aut corporis cumque, cupiditate dolor dolorum eveniet facilis in inventore magnam, necessitatibus neque nihil nobis officiis quia repellat suscipit!
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquam animi aut
+                                corporis cumque, cupiditate dolor dolorum eveniet facilis in inventore magnam,
+                                necessitatibus neque nihil nobis officiis quia repellat suscipit!
                             </div>
                         </div>
                         <div className="row mb-3 py-0 Padding-30 py-md-3">
@@ -220,34 +282,34 @@ const Ficha = () => (
                             <div className="Div-ico">
                                 <a href="https://es-es.facebook.com/voldecoloms/">
 
-                                    <i class="fab fa-facebook-square Face-ico-color"></i>
+                                    <i className="fab fa-facebook-square Face-ico-color"></i>
                                 </a>
                             </div>
                             <div className="Div-ico">
                                 <a href="https://twitter.com/voldecoloms">
 
-                                    <i class="fab fa-twitter-square Twit-ico-color"></i>
+                                    <i className="fab fa-twitter-square Twit-ico-color"></i>
                                 </a>
                             </div>
                             <div className="Div-ico">
                                 <a href="https://www.youtube.com/user/Voldecoloms">
 
-                                    <i class="fab fa-youtube You-ico-color"></i>
+                                    <i className="fab fa-youtube You-ico-color"></i>
                                 </a>
                             </div>
                             <div className="Div-ico">
                                 <a href="https://www.instagram.com/voldecoloms/">
 
-                                    <i class="fab fa-instagram Ins-ico-color"></i>
+                                    <i className="fab fa-instagram Ins-ico-color"></i>
                                 </a>
                             </div>
                             <div className="Div-ico">
-                                <i class="fab fa-google-plus-square Goo-ico-color"></i>
+                                <i className="fab fa-google-plus-square Goo-ico-color"></i>
                             </div>
                             <div className="Div-ico">
                                 <a href="https://www.linkedin.com/company/vol-de-coloms">
 
-                                    <i class="fab fa-linkedin Link-ico-color"></i>
+                                    <i className="fab fa-linkedin Link-ico-color"></i>
                                 </a>
                             </div>
                         </div>

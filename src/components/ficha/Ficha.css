@@ -41,6 +41,7 @@
     font-size: 1.5rem;
 }
 
+
 .H1-filtro{
     font-style: italic!important;
     color: #9a9a9a!important;
@@ -174,7 +175,32 @@
 
 
 /*SECCION 3*/
+.Review-titulo{
+    margin-bottom: 2rem;
+}
+.Review-opinion{
+    margin-bottom: 1.7rem;
+}
+.Estrella-grande{
+    font-size: 1.2rem;
+    color: #e7711b;
+}
+.Estrella-peq{
+    font-size: 0.8rem;
+    color: #e7711b;
+}
+.Review-titulo>div{
+    border-bottom: 1px solid #f7f7f7;
+}
 
+.Review-grispeq{
+    color: #cdc0af;
+    font-size: 0.8rem;
+}
+.Review-punt{
+    color: #e7711b;
+    font-size: 2.2rem;
+}
 .Section3-ficha{
     position: relative;
     padding-top: 6rem ;
