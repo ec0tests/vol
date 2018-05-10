@@ -17,7 +17,7 @@ const Carousel_cards = () => (
                                         <div className="row w-100">
                                             <div className="col-md-12">
 
-                                                <h5 className="Titulo-tarjeta card-title w-100 text-left text-uppercase ">14/febrero
+                                                <h5 className="Titulo-tarjeta card-title w-100 text-left text-uppercase Barlow">14/febrero
                                                     san valentin</h5>
                                                 <p className="card-text Width-75 text-left">Some quick example text to build
                                                     on the
@@ -60,7 +60,7 @@ const Carousel_cards = () => (
                                         <div className="row w-100">
                                             <div className="col-md-12">
 
-                                                <h5 className="Titulo-tarjeta card-title w-100 text-left text-uppercase ">14/febrero
+                                                <h5 className="Titulo-tarjeta card-title w-100 text-left text-uppercase Barlow">14/febrero
                                                     san valentin</h5>
                                                 <p className="card-text Width-75 text-left">Some quick example text to build
                                                     on the
@@ -103,7 +103,7 @@ const Carousel_cards = () => (
                                         <div className="row w-100">
                                             <div className="col-md-12">
 
-                                                <h5 className="Titulo-tarjeta card-title w-100 text-left text-uppercase ">14/febrero
+                                                <h5 className="Titulo-tarjeta card-title w-100 text-left text-uppercase Barlow">14/febrero
                                                     san valentin</h5>
                                                 <p className="card-text Width-75 text-left">Some quick example text to build
                                                     on the

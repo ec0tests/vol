@@ -50,7 +50,7 @@ p  {
     background-position-x: center;
     background-repeat: no-repeat;
     padding-top: 2rem;
-    min-height: 30rem;
+    min-height: 43rem;
 
 }
 .Btn-gris{
@@ -68,7 +68,7 @@ p  {
 /*SECCON 2*/
 .Section2-faq {
     position: relative;
-    padding-top: 7rem;
+    padding-top: 0rem;
     padding-left: 6rem;
     padding-right: 6rem;
 }

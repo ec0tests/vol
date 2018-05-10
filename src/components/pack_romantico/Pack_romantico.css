@@ -70,7 +70,7 @@ p  {
     background-position-x: center;
     background-repeat: no-repeat;
     padding-top: 2rem;
-    min-height: 26rem;
+    min-height: 35rem;
 
 }
 
@@ -78,7 +78,7 @@ p  {
 /*SECCON 2*/
 .Section2-pack-romantico {
     position: relative;
-    padding-top: 2rem;
+    padding-top: 0rem;
 }
 
 

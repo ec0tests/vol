@@ -161,19 +161,22 @@ const Menu2 = ({logo}) => (
                 </div>
 
             </div>
-            <ul className="mt-4">
+            <ul className="mt-4 Menu-2">
+                <a href="/filtro" className="text-white"><li className="Barlow">regalar vuelo</li></a>
 
-                <a href="/" className="text-white"><li>home</li></a>
+              {/*  <a href="/" className="text-white"><li className"Barlow>home</li></a>*/}
+                <a href="/instalaciones" className="text-white"><li className="Barlow">instalaciones</li></a>
+                <a href="/instalaciones" className="text-white"><li className="Barlow">información útil</li></a>
+                <a href="/faq" className="text-white"><li className="Barlow">FAQs</li></a>
 
-                <a href="/pilotos" className="text-white"><li>pilotos</li></a>
-                <a href="/instalaciones" className="text-white"><li>instalaciones</li></a>
-               <a href="/blog" className="text-white"> <li>blog</li></a>
-                <a href="/faq" className="text-white"><li>FAQs</li></a>
-                <a href="/filtro" className="text-white"><li>regalar vuelo</li></a>
-                <a href="/contact" className="text-white"><li>Contacto</li></a>
+                <a href="/pilotos" className="text-white"><li className="Barlow">pilotos</li></a>
+                <li  onClick={openMeteo} className="Barlow">ubicación/meteorología</li>
+
+                <a href="/blog" className="text-white"> <li className="Barlow">blog</li></a>
+
+                <a href="/contact" className="text-white"><li className="Barlow">Contacto</li></a>
                 {/*   <li>infromación útil</li>*/}
-                <li  onClick={openMeteo}>ubicación/meteorología</li>
-               
+
 
                 {/* <li>ubicación/meteorología</li>*/}
                 <br/>

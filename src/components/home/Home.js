@@ -191,33 +191,33 @@ class Home extends React.Component {
                                 <h6 className="w-100 Text-left-m">Globo Compartido</h6>
                                 <div className="col-4 col-sm-4 col-md-4" data-toggle="tooltip" data-placement="top"
                                      title="Para adultos">
-                                    <img className="img-fluid" src={globo_ico1} alt=""/>
+                                    <a href="/filtro"><img className="img-fluid" src={globo_ico1} alt=""/></a>
                                     <p className="mt-3 text-uppercase Little-text3 text-white">Adultos</p>
                                 </div>
                                 <div className="col-4 col-sm-4 col-md-4">
-                                    <img className="img-fluid" src={globo_ico2} alt=""/>
+                                    <a href="/filtro"><img className="img-fluid" src={globo_ico2} alt=""/></a>
 
                                     <p className="mt-3 text-uppercase Little-text3 text-white">con niños</p>
                                 </div>
                                 <div className="col-4 col-sm-4 col-md-4">
-                                    <img className="img-fluid" src={globo_ico3} alt=""/>
+                                    <a href="/filtro"><img className="img-fluid" src={globo_ico3} alt=""/></a>
 
                                     <p className="mt-3 text-uppercase Little-text3 text-white">Silla de <br/> ruedas</p>
                                 </div>
                             </div>
                             <div className="Iconos-header col-12 col-md-6 p-0 px-4">
-                                <h6 className="w-100 Text-left-m">Globo Compartido</h6>
+                                <h6 className="w-100 Text-left-m">Globo Exclusivo</h6>
                                 <div className="col-4 col-sm-4 col-md-4">
-                                    <img className="img-fluid Ic-75" src={globo_ico4} alt=""/>
+                                    <a href="/filtro"><img className="img-fluid Padding-ico-4" src={globo_ico4} alt=""/></a>
                                     <p className="mt-3 text-uppercase Little-text3 text-white">En <br/> pareja </p>
                                 </div>
                                 <div className="col-4 col-sm-4 col-md-4">
-                                    <img className="img-fluid" src={globo_ico5} alt=""/>
+                                    <a href="/filtro"><img className="img-fluid Padding-ico-5" src={globo_ico5} alt=""/></a>
 
                                     <p className="mt-3 text-uppercase Little-text3 text-white">4 amigos</p>
                                 </div>
-                                <div className="col-4 col-sm-4 col-md-4 Bottom-5 mt-3 mt-md-0">
-                                    <img className="img-fluid" src={globo_ico6} alt=""/>
+                                <div className="col-4 col-sm-4 col-md-4 Bottom-5 mt-3 mt-md-0 ">
+                                    <a href="/filtro"><img className="img-fluid Padding-ico-6" src={globo_ico6} alt=""/></a>
 
                                     <p className="mt-3 text-uppercase Little-text3 text-white">empresas </p>
                                 </div>
@@ -253,9 +253,9 @@ class Home extends React.Component {
                         <div className="row justify-content-center ">
 
                             <div className="col-12 pt-3">
-                                <h2 className="Text-gray display-4 text-uppercase Home-h2 Gray">Personaliza tu
+                                <h2 className="Text-gray display-4 text-uppercase font-weight-bold Gray Personaliza-experiencia-text">Personaliza tu
                                     experiencia</h2>
-                                <h3 className="Text-gray">Combina tu vuelo con alojamiento, comida o actividades
+                                <h3 className="Text-gray font-weight-normal Combina-vuelo-text ">Combina tu vuelo con alojamiento, comida o actividades
                                     turísticas.</h3>
                                 <a href="/filtro"><button className="Btn-blue2 mt-4">Volar en globo</button></a>
                             </div>
