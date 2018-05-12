@@ -149,7 +149,7 @@ const Ficha = () => (
                                     href="">Más info</a></p>
                         </div>
 
-                        <div className="row mb-0 py-3 d-none d-md-flex">
+                        <div className="row mb-0 py-3 d-none d-md-flex Padding-30">
                             <h2 className="w-100">FECHAS Y DISPONIBILIDAD</h2>
                             <div className="col-12 col-md-6 py-4 px-0">
                                 <div className="col-12  mb-3 px-0">

@@ -207,7 +207,9 @@
     padding-bottom: 8rem ;
 
 }
-
+.Padding-30{
+    padding-left: 30px!important;
+}
 .Div-imagenesinstalaciones{
     height: 9rem;
     cursor: pointer;
