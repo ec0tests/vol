@@ -215,7 +215,7 @@
     cursor: pointer;
 }
 .Ficha-btn{
- height: 2.3rem!important;
+    height: 2.3rem!important;
     width: 19rem!important;
     font-size: 0.8rem;
     font-weight: 600;
@@ -235,10 +235,19 @@ iframe{
     background-repeat: no-repeat;
     height: 70rem;
     position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     background-size: cover!important;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     -webkit-clip-path: polygon(0 22%, 100% 6%, 100% 100%, 0% 100%);
     clip-path: polygon(0 22%, 100% 6%, 100% 100%, 0% 100%);
@@ -314,7 +323,9 @@ iframe{
 }
 
 .Exp-peq{
-    display: flex;justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;-webkit-box-pack: center;-ms-flex-pack: center;justify-content: center;
     position: relative;
 }
 .Exp-peq h5{
@@ -367,9 +378,9 @@ iframe{
     }
 
     .Col-tarjeta {
-         position: relative;
-         top: auto;
-         right: auto;
+        position: relative;
+        top: auto;
+        right: auto;
     }
 }
 
