@@ -154,7 +154,7 @@ const Menu2 = ({logo}) => (
                 <div className="col-2">
                     <button className="Btn-idioma">FR</button>
                 </div>
-                <div className="col-2 pl-5">
+                <div className="col-2 pl-4">
 
                     <button className="menu-icon" id="desplegable_boton2" onClick={hide_menu}><i
                         className="fas fa-times text-white"></i></button>

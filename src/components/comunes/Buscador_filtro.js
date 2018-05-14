@@ -182,7 +182,7 @@ class Buscador_filtro extends React.Component{
                                         Personas
                                     </button>
                                     <div id="card_personas" className={`card Filtro-card Filtro-personas Z-index-alto `} style={ hidden_filtro_personas }>
-                                        <div className="d-flex flex-column p-4 justify-content-start pt-4">
+                                        <div className="d-block flex-column p-4 justify-content-start pt-4">
                                             <div className="col-12 d-flex pl-0 pr-0">
                                                 <div className="col-6 pl-0 d-flex align-items-center">
                                                     <span>Adultos</span>
@@ -222,7 +222,7 @@ class Buscador_filtro extends React.Component{
                                         Tipo de vuelo
                                     </button>
                                     <div id="card_tipovuelo" className={`card Filtro-card Filtro-tipovuelo Z-index-alto`} style={ hidden_filtro_tipo }>
-                                        <div className="d-flex flex-column px-4 justify-content-start pt-1">
+                                        <div className="d-block flex-column px-4 justify-content-start pt-1">
                                             <div className="col-12 d-flex pl-0 pr-0 pt-3">
                                                 <div class="form-check form-check-inline">
                                                     <input class="form-check-input" type="checkbox" id="ch_individual"
@@ -285,7 +285,7 @@ class Buscador_filtro extends React.Component{
                                         {this.props.texto}
                                     </button>
                                     <div id="card_pack" className={`card Filtro-card Filtro-packs Z-index-alto pb-3`} style={ hidden_filtro_pack }>
-                                        <div className="d-flex flex-column px-4 justify-content-start pt-1">
+                                        <div className="d-block flex-column px-4 justify-content-start pt-1">
                                             <div className="col-12 d-flex pl-0 pr-0 pt-3">
                                                 <div class="form-check form-check-inline">
                                                     <input class="form-check-input" type="checkbox" onClick={this.toggle_ch_romantico.bind(this)} id="ch_romantico"
