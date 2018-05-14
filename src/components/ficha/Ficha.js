@@ -72,7 +72,7 @@ const Ficha = () => (
 
                                 </div>
                                 <form className="col-12 my-2 mt-4">
-                                    <div className="form-group row">
+                                    <div className="pt-3 row">
                                         <label for="inputPassword"
                                                className="col-sm-5 col-form-label Label-form">Personas</label>
                                         <div className="col-sm-7">
@@ -80,7 +80,7 @@ const Ficha = () => (
                                                    placeholder="Personas"/>
                                         </div>
                                     </div>
-                                    <div className="form-group row">
+                                    <div className="pt-3 row">
                                         <label for="inputPassword"
                                                className="col-sm-5 col-form-label Label-form">Fecha</label>
                                         <div className="col-sm-7">
