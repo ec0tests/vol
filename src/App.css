@@ -187,7 +187,7 @@ button:hover {
 /*SPINER PAGELOAD*/
 
 .pg-loading-screen{
-    background-image: url("images/bkg-1.jpg");
+    background-image: url("web/images/bkg-1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }

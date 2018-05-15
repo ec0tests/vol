@@ -7,20 +7,22 @@ import $ from 'jquery';
 import pleaseWait from 'please-wait';
 
 
-import Home from './components/home/Home';
-import Pilotos from './components/pilotos/Pilotos';
-import Instalaciones from './components/instalaciones/Instalaciones';
-import Blogp from './components/blogp/Blogp';
-import Bloge from './components/bloge/Bloge';
-import Faq from './components/faq/Faq';
-import Pack_romantico from './components/pack_romantico/Pack_romantico';
-import Filtro from './components/filtro/Filtro';
-import Pack_historico from "./components/pack_historico/Pack_historico";
-import Categorias from "./components/categorias/Categorias";
-import Ficha from "./components/ficha/Ficha";
-import Contact from "./components/contact/Contact";
+import Home from './web/components/home/Home';
+import Pilotos from './web/components/pilotos/Pilotos';
+import Instalaciones from './web/components/instalaciones/Instalaciones';
+import Blogp from './web/components/blogp/Blogp';
+import Bloge from './web/components/bloge/Bloge';
+import Faq from './web/components/faq/Faq';
+import Pack_romantico from './web/components/pack_romantico/Pack_romantico';
+import Filtro from './web/components/filtro/Filtro';
+import Pack_historico from "./web/components/pack_historico/Pack_historico";
+import Categorias from "./web/components/categorias/Categorias";
+import Ficha from "./web/components/ficha/Ficha";
+import Contact from "./web/components/contact/Contact";
 
-import bkg1 from "./images/bkg-1.jpg";
+import Adm_dashboard from "./admin/components/dashboard/Dashboard";
+
+import bkg1 from "./web/images/bkg-1.jpg";
 
 // Plugin: $.scrollSpeed
 // Source: github.com/nathco/jQuery.scrollSpeed
@@ -212,6 +214,12 @@ class App extends Component {
                     <Route path="/ficha" exact strict render={
                         () => {
                             return (<Ficha/>);
+                        }
+                    }/>
+
+                    <Route path="/admin" exact strict render={
+                        () => {
+                            return (<Adm_dashboard/>);
                         }
                     }/>
 
