@@ -2,31 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="689f3cfd-3ccb-444b-a116-11e30d561ec9" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/admin/components/comunes/card_image/Card_image.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/admin/components/comunes/file_upload/File_upload.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/admin/components/comunes/file_upload/File_upload.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/admin/components/comunes/file_upload/dropify.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/admin/components/comunes/header/Header.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/admin/components/comunes/morris/Morris.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/admin/components/comunes/pregunta_faq_adm/Pregunta_faq_adm.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/admin/components/comunes/pregunta_faq_adm/Pregunta_faq_adm.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/admin/components/comunes/text_editor/Text_editor.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/admin/components/comunes/text_editor/Text_editor.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/admin/components/comunes/usuario/Usuario.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/admin/components/comunes/usuario/Usuario.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/admin/components/site/Nestable.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/admin/components/site/Site.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/admin/components/site/Site.js" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
-      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" afterPath="$PROJECT_DIR$/src/App.css" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" afterPath="$PROJECT_DIR$/src/App.js" />
-      <change beforePath="$PROJECT_DIR$/src/admin/components/comunes/header/Header.js" afterPath="$PROJECT_DIR$/src/admin/components/comunes/header/Header.js" />
-      <change beforePath="$PROJECT_DIR$/src/admin/components/comunes/header/Header.scss" afterPath="$PROJECT_DIR$/src/admin/components/comunes/card_image/Card_image.css" />
-      <change beforePath="$PROJECT_DIR$/src/admin/components/dashboard/Dashboard.js" afterPath="$PROJECT_DIR$/src/admin/components/dashboard/Dashboard.js" />
-      <change beforePath="$PROJECT_DIR$/src/admin/css/style.css" afterPath="$PROJECT_DIR$/src/admin/css/style.css" />
+      <change beforePath="$PROJECT_DIR$/src/admin/components/comunes/morris/Morris.js" afterPath="$PROJECT_DIR$/src/admin/components/comunes/morris/Morris.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -37,7 +13,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Site.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Site.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/admin/components/site/Site.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="319">
@@ -121,11 +97,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Morris.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Morris.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/admin/components/comunes/morris/Morris.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="18" column="21" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state relative-caret-position="406">
+              <caret line="18" column="28" lean-forward="false" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -226,7 +202,6 @@
         <option value="$PROJECT_DIR$/src/admin/components/dashboard/Morrischart.js" />
         <option value="$PROJECT_DIR$/src/admin/assets/js.js" />
         <option value="$PROJECT_DIR$/public/js/custom.js" />
-        <option value="$PROJECT_DIR$/src/admin/components/comunes/morris/Morris.js" />
         <option value="$PROJECT_DIR$/src/admin/css/style.css" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/admin/components/dashboard/Dashboard.js" />
@@ -254,6 +229,7 @@
         <option value="$PROJECT_DIR$/src/admin/components/comunes/usuario/Usuario.css" />
         <option value="$PROJECT_DIR$/src/admin/components/site/Site.css" />
         <option value="$PROJECT_DIR$/src/admin/components/site/Site.js" />
+        <option value="$PROJECT_DIR$/src/admin/components/comunes/morris/Morris.js" />
       </list>
     </option>
   </component>
@@ -344,6 +320,15 @@
               <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="comunes" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="card_image" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="vol" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vol" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="comunes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="morris" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="vol" type="b2602c69:ProjectViewProjectNode" />
@@ -531,12 +516,12 @@
       <workItem from="1526823990008" duration="1000000" />
       <workItem from="1526826612907" duration="10253000" />
       <workItem from="1526845418179" duration="3000" />
-      <workItem from="1526861801879" duration="6050000" />
+      <workItem from="1526861801879" duration="6663000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="350483000" />
+    <option name="totallyTimeSpent" value="351096000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -796,14 +781,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/admin/components/comunes/morris/Morris.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="18" column="21" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/web/components/faq/Pregunta_faq.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
@@ -891,6 +868,14 @@
             <element signature="e#2062#3585#0" expanded="false" />
             <element signature="e#9111#13184#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/admin/components/comunes/morris/Morris.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="18" column="28" lean-forward="false" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>

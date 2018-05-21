@@ -1,3 +1,4 @@
+/*
 import React, {Component} from 'react';
 import Raphael from 'raphael';
 import 'morris.js/morris.css';
@@ -24,3 +25,4 @@ class Morris extends React.Component {
 }
 
 export default Morris;
+*/
