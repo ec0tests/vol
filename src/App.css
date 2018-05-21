@@ -87,6 +87,12 @@ h4{
     font-weight: bold;
     font-size: .8rem;
 }
+.Float-r{
+     float: right!important;
+ }
+.Float-l{
+    float: left!important;
+}
 .P-absolute{
     position: absolute;
 }

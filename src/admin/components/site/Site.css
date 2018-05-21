@@ -1,0 +1,29 @@
+.Adm-card{
+    height: 400px!important;
+    overflow-y: scroll!important;
+}
+.Ofertas-icon{
+    margin-right: 1rem;
+}
+.Ico-redes{
+    font-size: 1.5rem;
+}
+.Redes-sociales input{
+    border: 0;
+}
+.Redes-sociales .dd-handle{
+    padding: 5px!important;
+    height: 2rem!important;
+    border-color: #2e2e2e !important;
+}
+
+.Twitter-ico{
+    color: #38A8E0;
+}
+
+.Face-ico{
+    color: #4A6EA9;
+}
+.Google-ico{
+    color: #DB3236;
+}

@@ -21,6 +21,7 @@ import Ficha from "./web/components/ficha/Ficha";
 import Contact from "./web/components/contact/Contact";
 
 import Adm_dashboard from "./admin/components/dashboard/Dashboard";
+import Adm_site from "./admin/components/site/Site";
 
 import bkg1 from "./web/images/bkg-1.jpg";
 
@@ -219,9 +220,16 @@ class App extends Component {
 
                     <Route path="/admin" exact strict render={
                         () => {
-                            return (<Adm_dashboard/>);
+                            return (<div className="Admin"><Adm_dashboard/></div>);
                         }
                     }/>
+
+                    <Route path="/admin/site" exact strict render={
+                        () => {
+                            return (<div className="Admin"><Adm_site/></div>);
+                        }
+                    }/>
+
 
 
 

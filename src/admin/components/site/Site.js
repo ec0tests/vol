@@ -1,0 +1,240 @@
+import React, {Component} from 'react';
+import '../../css/style.css';
+import '../../css/colors/blue.css';
+import './Nestable.css';
+import './Site.css';
+import Adm_header from '../comunes/header/Header';
+import Adm_menu from '../comunes/menu/Menu';
+import Card_image from '../comunes/card_image/Card_image';
+import Text_editor from '../comunes/text_editor/Text_editor';
+import Pregunta_faq from '../comunes/pregunta_faq_adm/Pregunta_faq_adm';
+import Usuario from '../comunes/usuario/Usuario';
+/*import File_upload from '../comunes/file_upload/File_upload';*/
+
+
+class Site extends React.Component {
+    render() {
+
+        return (
+            <div className="fix-header fix-sidebar card-no-border logo-center">
+
+                <div id="main-wrapper">
+                    <Adm_header/>
+                    <Adm_menu/>
+                    <div className="page-wrapper">
+                        <div className="container-fluid">
+                            <div className="row page-titles">
+                                <div className="col-md-5 col-8 align-self-center">
+                                    <h3 className="text-themecolor m-b-0 m-t-0 text-left">Site</h3>
+                                    <ol className="breadcrumb">
+                                        <li className="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
+                                        <li className="breadcrumb-item active">Site</li>
+                                    </ol>
+                                </div>
+
+                            </div>
+                            <div className="row">
+                                <div class="col-lg-6 col-md-12">
+                                    <div class="card Adm-card">
+                                        <div class="card-body justify-content-start">
+                                            <h4 class="card-title">Ofertas Destacadas</h4>
+                                            <div class="myadmin-dd dd w-100 text-left" id="nestable">
+                                                <ol class="dd-list ">
+                                                    <li class="dd-item " data-id="1">
+                                                        <div class="dd-handle"><i
+                                                            class="fas fa-star Ofertas-icon"></i> Nombre Oferta - Clicks
+                                                            Conseguidos
+                                                        </div>
+                                                    </li>
+                                                    <li class="dd-item " data-id="2">
+                                                        <div class="dd-handle"><i
+                                                            class="fas fa-star Ofertas-icon"></i> Nombre Oferta - Clicks
+                                                            Conseguidos
+                                                        </div>
+
+                                                    </li>
+                                                    <li class="dd-item " data-id="3">
+                                                        <div class="dd-handle"><i
+                                                            class="fas fa-star Ofertas-icon"></i> Nombre Oferta - Clicks
+                                                            Conseguidos
+                                                        </div>
+
+                                                    </li>
+                                                </ol>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-12">
+                                    <div class="card Adm-card">
+                                        <div class="card-body justify-content-start">
+                                            <h4 class="card-title w-100">Gestión de Pilotos <i class="fas fa-plus-circle Float-r Cursor-pointer"></i></h4>
+                                            <div className="row">
+                                                <Card_image/>
+                                                <Card_image/><Card_image/><Card_image/><Card_image/><Card_image/><Card_image/>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="row">
+                                <div class="col-lg-6 col-md-12">
+
+                                    <div class="card Adm-card">
+                                        <div class="card-body justify-content-start">
+                                            <h4 class="card-title w-100">Editor de textos literales</h4>
+                                            <h6 class="card-title w-100">Desde aquí puedes editar algunos textos</h6>
+                                            <div className="row my-4 w-75 justify-content-center">
+                                                <div class="form-group">
+                                                    <select class="form-control">
+                                                        <option>Sección 1</option>
+                                                        <option>Sección 2</option>
+                                                        <option>Sección 3</option>
+                                                        <option>Sección 4</option>
+                                                        <option>Sección 5</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div className="row">
+                                                <Text_editor/>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-12">
+                                    <div class="card Adm-card">
+                                        <div class="card-body justify-content-start">
+                                            <h4 class="card-title w-100">Gestor de imágenes </h4>
+                                            <h6 class="card-title w-100">Aquí podrás editar las imágenes que aparezcan en el panel</h6>
+
+                                            <div className="row">
+                                            <div className="col-12 col-lg-6">
+                                              {/*  <File_upload/>*/}
+                                            </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="row">
+                                <div class="col-lg-6 col-md-12">
+
+                                    <div class="card Adm-card">
+                                        <div class="card-body justify-content-start">
+                                            <h4 class="card-title w-100">Preguntas Frecuentes <i class="fas fa-plus-circle Float-r Cursor-pointer"></i></h4>
+                                            <div class="myadmin-dd dd w-100 text-left" id="nestable">
+                                                <ol class="dd-list ">
+                                                    <Pregunta_faq pregunta={"Pregunta"} respuesta={"lorem ipsum lorem ipsumlorem ipsumlorem ipsumlorem ipsum"}/>
+                                                    <Pregunta_faq pregunta={"Pregunta"} respuesta={"lorem ipsum lorem ipsumlorem ipsumlorem ipsumlorem ipsum"}/>
+                                                    <Pregunta_faq pregunta={"Pregunta"} respuesta={"lorem ipsum lorem ipsumlorem ipsumlorem ipsumlorem ipsum"}/>
+                                                    <Pregunta_faq pregunta={"Pregunta"} respuesta={"lorem ipsum lorem ipsumlorem ipsumlorem ipsumlorem ipsum"}/>
+                                                </ol>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-12">
+
+                                    <div class="card Adm-card">
+                                        <div class="card-body justify-content-start">
+                                            <h4 class="card-title">Contacto y redes sociales</h4>
+                                            <div class="myadmin-dd dd w-100 text-left" id="nestable">
+                                                <ol class="dd-list Redes-sociales">
+                                                    <li class="dd-item d-flex align-items-center" data-id="1">
+                                                        <div className="col-1 d-flex align-items-center">
+                                                            <i class="fab fa-youtube Ico-redes"></i>
+                                                        </div>
+                                                       <div className="col-11"> <div class="dd-handle "><input type="text" placeholder='Youtube'/>
+                                                       </div></div>
+
+                                                    </li>
+
+                                                    <li class="dd-item d-flex align-items-center" data-id="1">
+                                                        <div className="col-1 d-flex align-items-center">
+                                                            <i class="fab fa-facebook Face-ico Ico-redes"></i>
+                                                        </div>
+                                                        <div className="col-11"> <div class="dd-handle "><input type="text" placeholder='Facebook'/>
+                                                        </div></div>
+
+                                                    </li>
+
+                                                    <li class="dd-item d-flex align-items-center" data-id="1">
+                                                        <div className="col-1 d-flex align-items-center">
+                                                            <i class="fab fa-instagram Ico-redes"></i>
+                                                        </div>
+                                                        <div className="col-11"> <div class="dd-handle "><input type="text" placeholder='Instagram'/>
+                                                        </div></div>
+
+                                                    </li>
+
+                                                    <li class="dd-item d-flex align-items-center" data-id="1">
+                                                        <div className="col-1 d-flex align-items-center">
+                                                            <i class="fab fa-twitter Ico-redes Twitter-ico"></i>
+                                                        </div>
+                                                        <div className="col-11"> <div class="dd-handle "><input type="text" placeholder='Twitter'/>
+                                                        </div></div>
+
+                                                    </li>
+
+                                                    <li class="dd-item d-flex align-items-center" data-id="1">
+                                                        <div className="col-1 d-flex align-items-center">
+                                                            <i class="fab fa-google-plus Ico-redes Google-ico"></i>
+                                                        </div>
+                                                        <div className="col-11"> <div class="dd-handle "><input type="text" placeholder='Google+'/>
+                                                        </div></div>
+
+                                                    </li>
+                                                    <li class="dd-item d-flex align-items-center" data-id="1">
+                                                        <div className="col-1 d-flex align-items-center">
+                                                            <i class="far fa-envelope Ico-redes"></i>
+                                                        </div>
+                                                        <div className="col-11"> <div class="dd-handle "><input type="text" placeholder='Mail'/>
+                                                        </div></div>
+
+                                                    </li>
+                                                </ol>
+                                            </div>
+                                            <div className="row mt-3">
+                                                <button type='submit' className="btn btn-info waves-effect waves-light ">Guardar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div className="row">
+                                <div class="col-12">
+
+                                    <div class="card Adm-card">
+                                        <div class="card-body justify-content-start">
+                                            <h4 class="card-title w-100">Preguntas Frecuentes <i class="fas fa-plus-circle Float-r Cursor-pointer"></i></h4>
+                                            <div class="myadmin-dd dd w-100 text-left" id="nestable">
+                                                <ol class="dd-list ">
+                                                    <Usuario nombre_usu={"Pepe palotes"}/>
+                                                    <Usuario nombre_usu={"Pepe palotes"}/>
+                                                    <Usuario nombre_usu={"Pepe palotes"}/>
+                                                    <Usuario nombre_usu={"Pepe palotes"}/>
+                                                </ol>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        )
+
+    }
+}
+
+export default Site;

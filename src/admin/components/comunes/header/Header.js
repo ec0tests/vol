@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import './Header.scss';
-
+import './Header.css';
+import logo_b from '../../../../web/images/vdc-logo-b.png';
 class Adm_header extends React.Component {
 
 
@@ -12,13 +12,9 @@ class Adm_header extends React.Component {
 
                     <div className="navbar-header">
                         <a className="navbar-brand" href="index.html">
-                           <b>
-                            <img src="../assets/images/logo-icon.png" alt="homepage" className="dark-logo" />
-                            <img src="../assets/images/logo-light-icon.png" alt="homepage" className="light-logo" />
-                        </b>
-                           <span>
-                            <img src="../assets/images/logo-text.png" alt="homepage" className="dark-logo" />
-                            <img src="../assets/images/logo-light-text.png" className="light-logo" alt="homepage" /></span> </a>
+                            <img src={logo_b} className='img-fluid' alt="Logo vol de coloms"/>
+
+                           </a>
                     </div>
                     <div className="navbar-collapse">
                         <ul className="navbar-nav mr-auto mt-md-0">
