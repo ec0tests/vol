@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import '../../css/style.css';
 import '../../css/colors/blue.css';
-import './Nestable.css';
+import '../comunes/Nestable.css';
 import './Site.css';
 import Adm_header from '../comunes/header/Header';
 import Adm_menu from '../comunes/menu/Menu';
@@ -70,8 +70,8 @@ class Site extends React.Component {
                                         <div class="card-body justify-content-start">
                                             <h4 class="card-title w-100">Gestión de Pilotos <i class="fas fa-plus-circle Float-r Cursor-pointer"></i></h4>
                                             <div className="row">
-                                                <Card_image/>
-                                                <Card_image/><Card_image/><Card_image/><Card_image/><Card_image/><Card_image/>
+                                                <Card_image nombre="Piloto1"/>
+                                                <Card_image nombre="Piloto1"/><Card_image nombre="Piloto1"/><Card_image nombre="Piloto3"/><Card_image nombre="Piloto4"/><Card_image nombre="Piloto5"/><Card_image nombre="Piloto6"/>
                                             </div>
 
                                         </div>
@@ -212,13 +212,13 @@ class Site extends React.Component {
 
                                     <div class="card Adm-card">
                                         <div class="card-body justify-content-start">
-                                            <h4 class="card-title w-100">Preguntas Frecuentes <i class="fas fa-plus-circle Float-r Cursor-pointer"></i></h4>
+                                            <h4 class="card-title w-100">Gestión de Usuarios <i class="fas fa-plus-circle Float-r Cursor-pointer"></i></h4>
                                             <div class="myadmin-dd dd w-100 text-left" id="nestable">
                                                 <ol class="dd-list ">
-                                                    <Usuario nombre_usu={"Pepe palotes"}/>
-                                                    <Usuario nombre_usu={"Pepe palotes"}/>
-                                                    <Usuario nombre_usu={"Pepe palotes"}/>
-                                                    <Usuario nombre_usu={"Pepe palotes"}/>
+                                                    <Usuario nombre_usu={"Usuario 1"}/>
+                                                    <Usuario nombre_usu={" Usuario2"}/>
+                                                    <Usuario nombre_usu={" Usuario3"}/>
+                                                    <Usuario nombre_usu={" Usuario4"}/>
                                                 </ol>
                                             </div>
                                         </div>

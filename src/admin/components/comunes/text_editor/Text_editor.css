@@ -1,4 +1,5 @@
 .rdw-editor-main{
     overflow: hidden;
-    max-width: 38rem;
+    max-width: 36rem;
+    padding: 0 1rem;
 }
