@@ -79,9 +79,9 @@ class Site extends React.Component {
                                 </div>
                             </div>
                             <div className="row">
-                                <div class="col-lg-6 col-md-12">
+                                <div class="col-lg-12 col-md-12">
 
-                                    <div class="card Adm-card">
+                                    <div class="card M-h35">
                                         <div class="card-body justify-content-start">
                                             <h4 class="card-title w-100">Editor de textos literales</h4>
                                             <h6 class="card-title w-100">Desde aquí puedes editar algunos textos</h6>
@@ -96,14 +96,14 @@ class Site extends React.Component {
                                                     </select>
                                                 </div>
                                             </div>
-                                            <div className="row">
+                                            <div className="row w-100">
                                                 <Text_editor/>
                                             </div>
 
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-6 col-md-12">
+                                <div class="col-lg-12 col-md-12">
                                     <div class="card Adm-card">
                                         <div class="card-body justify-content-start">
                                             <h4 class="card-title w-100">Gestor de imágenes </h4>

@@ -220,7 +220,7 @@ class App extends Component {
                         }
                     }/>
 
-                    <Route path="/admin" exact strict render={
+                    <Route path="/admin/dashboard" exact strict render={
                         () => {
                             return (<div className="Admin"><Adm_dashboard/></div>);
                         }

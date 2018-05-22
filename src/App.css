@@ -6,6 +6,9 @@
 .Overflow-h{
     overflow-y: hidden!important;
 }
+.M-h35{
+    min-height: 30rem;
+}
 /*ADMIN*/
 .Scale{
     transform: scale(1.3);
