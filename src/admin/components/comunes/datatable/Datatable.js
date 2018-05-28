@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import './Datatable.css'
+import './Personal.css'
 
 import $ from 'jquery'
 $.DataTable = require('datatables.net');

@@ -36,8 +36,19 @@ class Adm_menu extends React.Component {
                                 <NavLink to="/admin/vuelos" className="has-arrow" activeStyle={{fontWeight: '500', color: '#333333'}}>
                                 <span className="hide-menu">
                                     <i
-                                        className="mdi mdi-book-open-variant"></i>
+                                        className="mdi mdi-airplane"></i>
                                     Vuelos
+                                </span>
+                                </NavLink>
+
+
+                            </li>
+                            <li>
+                                <NavLink to="/admin/reservas" className="has-arrow" activeStyle={{fontWeight: '500', color: '#333333'}}>
+                                <span className="hide-menu">
+                                    <i
+                                        className="mdi mdi-book-open-variant"></i>
+                                    Reservas
                                 </span>
                                 </NavLink>
 
