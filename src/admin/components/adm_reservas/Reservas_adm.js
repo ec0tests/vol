@@ -115,7 +115,7 @@ class Reservas_adm extends React.Component {
                                                     onClick={this.crearReserva.bind(this)}
                                                     className="d-inline Float-r Cursor-pointer Btn-transparent"><i
                                                 className="fas fa-plus-circle "></i></button></h3>
-                                        <Calendar/>
+                                        <Calendar  data={this.calendario_fechas}/>
                                     </div>
                                 </div>
 
@@ -155,6 +155,35 @@ class Reservas_adm extends React.Component {
         {title: "Usuario"},
         {title: "Fecha Reserva"},
         {title: "Precio"},
+
+    ]
+
+    calendario_fechas = [
+        {
+            start: new Date('2018-05-10'),
+            end: new Date('2018-05-10'),
+
+            title: "Reserva1"
+        }
+        ,
+        {
+            start: new Date('2018-06-10'),
+            end: new Date('2018-06-10'),
+
+            title: "Reserva2"
+        },
+        {
+            start: new Date('2018-06-12'),
+            end: new Date('2018-06-12'),
+
+            title: "Reserva3"
+        },
+        {
+            start: new Date('2018-06-16'),
+            end: new Date('2018-06-16'),
+
+            title: "Reserva4"
+        },
 
     ]
 }

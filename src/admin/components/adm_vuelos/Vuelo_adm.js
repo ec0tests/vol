@@ -15,6 +15,7 @@ import $ from "jquery";
 class Vuelo_adm extends React.Component {
     crearVuelo() {
         $('#vuelo_form')[0].reset();
+        $('#exampleModalLabel_crearVuelo').text('Crear Vuelo');
     }
 
     render() {
@@ -49,16 +50,16 @@ class Vuelo_adm extends React.Component {
                                                         className="d-inline Float-r Cursor-pointer Btn-transparent"><i
                                                     className="fas fa-plus-circle "></i></button></h3>
                                             <div className="row">
-                                                    <Vuelo tipo={"Romántico"} nombre={"Vuelo 1"} personas={"3"} precio={"300"}
+                                                    <Vuelo tipo={"romantico"} nombre={"Vuelo 1"} personas={"3"} precio={"300"}
                                                            fecha1={"22-02-2018"} fecha2={"12-06-2018"}
                                                            descripcion={"descripcion del vuelo"}/>
-                                                    <Vuelo tipo={"Historia"} nombre={"Vuelo2"} personas={"2"} precio={"200"}
+                                                    <Vuelo tipo={"historia"} nombre={"Vuelo2"} personas={"2"} precio={"200"}
                                                            fecha1={"22-02-2018"} fecha2={"12-06-2018"}
                                                            descripcion={"descripcion del vuelo"}/>
-                                                    <Vuelo tipo={"Aventura"} nombre={"Vuelo3"} personas={"4"} precio={"400"}
+                                                    <Vuelo tipo={"aventura"} nombre={"Vuelo3"} personas={"4"} precio={"400"}
                                                            fecha1={"22-02-2018"} fecha2={"12-06-2018"}
                                                            descripcion={"descripcion del vuelo"}/>
-                                                    <Vuelo tipo={"Romántico"} nombre={"Vuelo4"} personas={"1"} precio={"200"}
+                                                    <Vuelo tipo={"romantico"} nombre={"Vuelo4"} personas={"1"} precio={"200"}
                                                            fecha1={"22-02-2018"} fecha2={"12-06-2018"}
                                                            descripcion={"descripcion del vuelo"}/></div>
                                         </div>

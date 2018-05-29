@@ -5,3 +5,12 @@
     font-size: 13px!important;
 
 }
+
+.rbc-day-bg{
+    cursor: pointer;
+}
+
+.rbc-day-bg:hover{
+   background-color: #a3afd3;
+    transition: 0.8s;
+}

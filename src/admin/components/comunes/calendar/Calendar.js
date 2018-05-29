@@ -8,35 +8,13 @@ import "react-big-calendar/lib/css/react-big-calendar.css";
 Calendar.setLocalizer(Calendar.momentLocalizer(moment));
 
 class App extends Component {
+
+    constructor(props) {
+        super(props);
+    }
+
     state = {
-        events: [
-            {
-                start: new Date('2018-05-10'),
-                end: new Date('2018-05-10'),
-
-                title: "Reserva1"
-            }
-            ,
-            {
-                start: new Date('2018-06-10'),
-                end: new Date('2018-06-10'),
-
-                title: "Reserva2"
-            },
-            {
-                start: new Date('2018-06-12'),
-                end: new Date('2018-06-12'),
-
-                title: "Reserva3"
-            },
-            {
-                start: new Date('2018-06-16'),
-                end: new Date('2018-06-16'),
-
-                title: "Reserva4"
-            },
-
-        ]
+        events: this.props.fechas
     };
 
     render() {
@@ -48,14 +26,16 @@ class App extends Component {
                     defaultView="month"
                     events={this.state.events}
                     style={{ height: "100vh" }}
-                    onSelectEvent={event => alert(event.title)}
+                   /* onSelectEvent={event => alert(event.title)}
                     onSelectSlot={slotInfo =>
                         alert(
                             `selected slot: \n\nstart ${slotInfo.start.toLocaleString()} ` +
                             `\nend: ${slotInfo.end.toLocaleString()}` +
                             `\naction: ${slotInfo.action}`
                         )
-                    }
+                    }*/
+                    onSelectEvent={this.props.onselect_event}
+                    onSelectSlot={this.props.onselect_slot}
                 />
         );
     }
