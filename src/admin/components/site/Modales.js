@@ -31,7 +31,7 @@ class Modales extends React.Component {
                         <div className="modal-content">
                             <div className="modal-header">
                                 <h3 className="modal-title"
-                                    id="titulo_modal_reserva_dashboard">Crear Oferta</h3>
+                                    id="oferta_modal_titulo">Crear Oferta</h3>
                                 <button type="button" className="close" data-dismiss="modal"
                                         aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
@@ -39,40 +39,35 @@ class Modales extends React.Component {
                             </div>
                             <div className="modal-Body m-3">
 
-                                <form className="form-material m-t-10 row" id="reserva_form">
+                                <form className="form-material m-t-10 row" id="oferta_form">
 
 
                                     <div className="form-group col-12 col-md-6 m-t-20">
                                         <label className="Label-vuelos"
-                                               htmlFor="vuelo_nombre">Nombre Oferta:</label>
+                                               htmlFor="oferta_nombre">Nombre Oferta:</label>
                                         <input type="text"
                                                className="form-control form-control-line "
-                                               id="reserva_usuario"
+                                               id="oferta_nombre"
                                                value=''
-                                               name="reserva_usuario"/>
+                                               name="oferta_nombre"/>
                                     </div>
                                     <div className="form-group col-12 col-md-6 m-t-20">
                                         <label className="Label-vuelos"
-                                               htmlFor="vuelo_reserva">Descuento:</label>
+                                               htmlFor="oferta_clicks">Clicks Oferta:</label>
                                         <input type="text"
                                                className="form-control form-control-line "
-                                               id="reserva_nombre"
+                                               id="oferta_clicks"
                                                value=''
-                                               name="reserva_nombre"/>
+                                               name="oferta_clicks"/>
                                     </div>
-                                    <div className="form-group col-12 col-md-6 m-t-20">
-                                        <label className="Label-vuelos">Duración:</label>
 
-                                        <input type="date"
-                                               className="form-control form-control-line "
-                                               id="reserva_fecha"
-                                               name="reserva_fecha" value=''/>
-                                    </div>
 
 
 
                                     <div className="form-group col-md-12 m-t-20 text-right">
-
+                                        <button type="button" id="btn_modal_eliminarOferta"
+                                                className="btn btn-danger waves-effect waves-light my-1">Eliminar
+                                        </button>
                                         <button type="submit"
                                                 className="btn btn-info waves-effect waves-light my-1">Guardar
                                         </button>
@@ -93,7 +88,7 @@ class Modales extends React.Component {
                         <div className="modal-content">
                             <div className="modal-header">
                                 <h3 className="modal-title"
-                                    id="titulo_modal_reserva_dashboard">Crear Usuario</h3>
+                                    id="titulo_modal_crear_usuario">Crear Usuario</h3>
                                 <button type="button" className="close" data-dismiss="modal"
                                         aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
@@ -101,7 +96,7 @@ class Modales extends React.Component {
                             </div>
                             <div className="modal-Body m-3">
 
-                                <form className="form-material m-t-10 row" >
+                                <form className="form-material m-t-10 row" id="usuario_form">
 
 
                                     <div className="form-group col-12 col-md-6 m-t-20">
@@ -167,7 +162,9 @@ class Modales extends React.Component {
 
 
                                     <div className="form-group col-md-12 m-t-20 text-right">
-
+                                        <button type="button" id="btn_modal_eliminarUsuario"
+                                                className="btn btn-danger waves-effect waves-light my-1">Eliminar
+                                        </button>
                                         <button type="submit"
                                                 className="btn btn-info waves-effect waves-light my-1">Guardar
                                         </button>
@@ -188,7 +185,7 @@ class Modales extends React.Component {
                         <div className="modal-content">
                             <div className="modal-header">
                                 <h3 className="modal-title"
-                                    id="titulo_modal_reserva_dashboard">Crear Piloto</h3>
+                                    id="titulo_modal_crear_piloto">Crear Piloto</h3>
                                 <button type="button" className="close" data-dismiss="modal"
                                         aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
@@ -230,6 +227,7 @@ class Modales extends React.Component {
 
 
                                     <div className="form-group col-md-12 m-t-20 text-right">
+
 
                                         <button type="submit"
                                                 className="btn btn-info waves-effect waves-light my-1">Guardar

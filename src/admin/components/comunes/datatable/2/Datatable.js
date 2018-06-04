@@ -32,31 +32,13 @@ class ActionFormatter extends React.Component {
 function actionFormatter(cell, row) {
     return <ActionFormatter />;
 }
-
+let eo='eee';
 export default class Datatable extends React.Component {
-
     constructor(props) {
         super(props);
-        this.state = {
-            modal: props.modal,
-        };
     }
 
-    options = {
-        afterSearch: afterSearch,  // define a after search hook,
-        onRowClick: function(row, columnIndex, rowIndex, e) {
-            console.log(this.props)
-            alert(`You click row id: ${row.id}, column index: ${columnIndex}, row index: ${rowIndex}`);
-            console.log(e);
-
-
-        },
-        exportCSVText: 'Exportar a CSV',
-        insertText: 'Crear',
-        deleteText: 'Borrar',
-        saveText: 'Guardar',
-        closeText: 'Cerrar'
-    };
+    options = this.props.options;
 
      data = this.props.data;
 

@@ -12,15 +12,27 @@ import Usuario from '../comunes/usuario/Usuario';
 import Datatable from '../comunes/datatable/2/Datatable';
 import Modales from "./Modales";
 import $ from 'jquery';
+
 /*import File_upload from '../comunes/file_upload/File_upload';*/
 
 
 class Site extends React.Component {
 
-cambiarURL(){
-    $("#site_video").attr("src",$("#input_url").val());
-    alert($("#input_url").val());
-}
+    cambiarURL() {
+        $("#site_video").attr("src", $("#input_url").val());
+        alert($("#input_url").val());
+    }
+
+    crearOferta(){
+        $('#oferta_modal_titulo').html('Crear Oferta');
+        $('#oferta_form')[0].reset();
+
+    }
+    crearUsuario(){
+        $('#titulo_modal_crear_usuario').html('Crear Usuario');
+        $('#usuario_form')[0].reset();
+
+    }
     render() {
 
         return (
@@ -50,9 +62,12 @@ cambiarURL(){
                                             <div className="w-100 text-center mb-4">
                                                 <h4 class="card-title d-inline">Ofertas </h4>
                                                 <i
-                                                    class="fas fa-plus-circle Float-r Cursor-pointer" data-toggle="modal"  data-target="#modal_crear_oferta"  id="crear_oferta"></i>
+                                                    class="fas fa-plus-circle Float-r Cursor-pointer"
+                                                    data-toggle="modal" data-target="#modal_crear_oferta" onClick={this.crearOferta.bind(this)}
+                                                    id="crear_oferta"></i>
                                             </div>
-                                            <Datatable columnas={this.columnas_oferta} modal={'modal_crear_oferta'}  data={this.data_oferta}/>
+                                            <Datatable columnas={this.columnas_oferta} modal={'modal_crear_oferta'}
+                                                       data={this.data_oferta} options={this.options_oferta} />
                                         </div>
                                     </div>
                                 </div>
@@ -63,10 +78,11 @@ cambiarURL(){
                                                 <h4 class="card-title d-inline">Gestión de Pilotos </h4>
 
                                                 <i
-                                                    class="fas fa-plus-circle Float-r Cursor-pointer" data-toggle="modal"  data-target="#modal_crear_piloto"></i>
+                                                    class="fas fa-plus-circle Float-r Cursor-pointer"
+                                                    data-toggle="modal" data-target="#modal_crear_piloto"></i>
                                             </div>
                                             <div className="row">
-                                                <Card_image nombre="Piloto1" apellidos="Perez Gonzalez" />
+                                                <Card_image nombre="Piloto1" apellidos="Perez Gonzalez"/>
                                                 <Card_image nombre="Piloto11" apellidos="ED Gonzalez"/>
                                                 <Card_image nombre="Piloto22" apellidos="ES Gonzalez"/>
                                                 <Card_image nombre="Piloto3" apellidos="FD Gonzalez"/>
@@ -239,9 +255,11 @@ cambiarURL(){
 
                                     <div class="card Adm-card">
                                         <div class="card-body justify-content-start">
-                                            <h4 class="card-title w-100">Gestión de Usuarios  <i
-                                                class="fas fa-plus-circle Float-r Cursor-pointer" data-toggle="modal"  data-target="#modal_crear_usuario"></i></h4>
-                                            <Datatable columnas={this.columnas_usuario} modal={'modal_crear_usuario'}  data={this.data_usuario}/>
+                                            <h4 class="card-title w-100">Gestión de Usuarios <i
+                                                class="fas fa-plus-circle Float-r Cursor-pointer" data-toggle="modal"
+                                                data-target="#modal_crear_usuario"></i></h4>
+                                            <Datatable columnas={this.columnas_usuario} options={this.options_usuario} modal={'modal_crear_usuario'}
+                                                       data={this.data_usuario} onClick={this.crearUsuario.bind(this)}/>
 
                                         </div>
                                     </div>
@@ -260,9 +278,10 @@ cambiarURL(){
                                                 <input type="text" id="input_url"
                                                        className="form-control form-control-line w-75"
                                                        placeholder="URL"
-                                                       />
+                                                />
                                                 <button type="button"
-                                                        className="btn btn-info waves-effect waves-light " onClick={this.cambiarURL.bind(this)}>Guardar
+                                                        className="btn btn-info waves-effect waves-light "
+                                                        onClick={this.cambiarURL.bind(this)}>Guardar
                                                 </button>
                                             </div>
 
@@ -302,32 +321,69 @@ cambiarURL(){
         {'id': 2, 'oferta': 'oferta3', 'clicks': 100}
     ]
 
+    options_oferta = {
+        afterSearch: '',  // define a after search hook,
+        onRowClick: function (row, columnIndex, rowIndex, e) {
 
-columnas_usuario = {
-    "columnas": [
-        {
-            "nombre": "Usuario",
-            "field": 'usuario'
+            alert(`You click row id: ${row.id}, column index: ${columnIndex}, row index: ${rowIndex}`);
+            $('#modal_crear_oferta').modal('show');
+            $('#oferta_modal_titulo').html('Editar Oferta');
+            $('#oferta_nombre').val(row.oferta);
+            $('#oferta_clicks').val(row.clicks);
         },
-        {
-            "nombre": "Nombre",
-            "field": 'nombre'
-        },
-        {
-            "nombre": "Apellidos",
-            "field": 'apellidos'
-        },
+        exportCSVText: 'Exportar a CSV',
+        insertText: 'Crear',
+        deleteText: 'Borrar',
+        saveText: 'Guardar',
+        closeText: 'Cerrar'
+    }
 
 
+
+
+    columnas_usuario = {
+        "columnas": [
+            {
+                "nombre": "Usuario",
+                "field": 'usuario'
+            },
+            {
+                "nombre": "Nombre",
+                "field": 'nombre'
+            },
+            {
+                "nombre": "Apellidos",
+                "field": 'apellidos'
+            },
+
+
+        ]
+    };
+
+    data_usuario = [
+        {'id': 0, 'usuario': 'usuario1', 'nombre': 'Pepe1', 'apellidos': 'Gonzalez1'},
+        {'id': 1, 'usuario': 'usuario2', 'nombre': 'Pepe2', 'apellidos': 'Gonzalez2'},
+        {'id': 2, 'usuario': 'usuario3', 'nombre': 'Pepe3', 'apellidos': 'Gonzalez3'}
     ]
-};
 
-data_usuario = [
-    {'id': 0, 'usuario': 'usuario1', 'nombre': 'Pepe1', 'apellidos': 'Gonzalez1'},
-    {'id': 1, 'usuario': 'usuario2', 'nombre': 'Pepe2', 'apellidos': 'Gonzalez2'},
-    {'id': 2, 'usuario': 'usuario3', 'nombre': 'Pepe3', 'apellidos': 'Gonzalez3'}
-]
+/*TENGO QUE PONER LOS OPTIONS AQUI PORQUE NO DEJA ACCEDER A LOS PROPS DENTRO DEL ONROWCLICK*/
+    options_usuario = {
+        afterSearch: '',  // define a after search hook,
+        onRowClick: function (row, columnIndex, rowIndex, e) {
 
+            alert(`You click row id: ${row.id}, column index: ${columnIndex}, row index: ${rowIndex}`);
+            $('#modal_crear_usuario').modal('show');
+            $('#titulo_modal_crear_usuario').html('Editar Usuario');
+            $('#modal_usuario_usuario').val(row.usuario);
+            $('#modal_usuario_nombre').val(row.nombre);
+            $('#modal_usuario_apellidos').val(row.apellidos);
+        },
+        exportCSVText: 'Exportar a CSV',
+        insertText: 'Crear',
+        deleteText: 'Borrar',
+        saveText: 'Guardar',
+        closeText: 'Cerrar'
+    }
 }
 
 export default Site;
