@@ -52,7 +52,7 @@ cambiarURL(){
                                                 <i
                                                     class="fas fa-plus-circle Float-r Cursor-pointer" data-toggle="modal"  data-target="#modal_crear_oferta"  id="crear_oferta"></i>
                                             </div>
-                                            <Datatable columnas={this.columnas_oferta} modal={'modal_crear_oferta'} accion={true} data={this.data_oferta}/>
+                                            <Datatable columnas={this.columnas_oferta} modal={'modal_crear_oferta'}  data={this.data_oferta}/>
                                         </div>
                                     </div>
                                 </div>
