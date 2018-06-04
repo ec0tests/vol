@@ -9,7 +9,14 @@
 .M-h35{
     min-height: 30rem;
 }
+
 /*ADMIN*/
+.card-body{
+    text-align: left;
+}
+.card-title{
+    margin-bottom: 1.5rem;
+}
 .Scale{
     transform: scale(1.3);
     transition: 0.8s;

@@ -6,18 +6,56 @@ import './Blog_adm.css';
 import Adm_header from '../comunes/header/Header';
 import Adm_menu from '../comunes/menu/Menu';
 import Text_editor from '../comunes/text_editor/Text_editor';
-import Post from './Post';
+import Modal from './Modales';
+import Datatable from './Datatable_blog';
 import $ from "jquery";
 
 /*import File_upload from '../comunes/file_upload/File_upload';*/
 
 
 class Blog_adm extends React.Component {
+    editarPost(){
+        $("#editor_post").fadeIn(600);
+        $("#post_titulo").val(this.props.titulo);
+        $("#post_subtitulo").val(this.props.subtitulo);
+        $("#post_contenido").val(this.props.contenido);
+    }
+
+    borrarPost(){
+        $("#titulo_post").val(this.props.titulo);
+        $("#subtitulo_post").val(this.props.subtitulo);
+    }
+
     crearPost(){
         $('#blog_form')[0].reset();
 
         $("#editor_post").fadeIn(600);
     }
+
+    columnas_blog = {
+        "columnas": [
+            {
+                "nombre": "Título",
+                "field": 'titulo'
+            },
+            {
+                "nombre": "Subtítulo",
+                "field": 'subtitulo'
+            }
+            ,
+            {
+                "nombre": "Contenido",
+                "field": 'contenido'
+            }
+        ]
+    };
+
+    data_blog = [
+        {'id': 0, 'titulo': 'titulo1', 'subtitulo': 'subtitulo1', 'contenido': 'Contenido'},
+        {'id': 1, 'titulo': 'titulo2', 'subtitulo': 'subtitulo2', 'contenido': 'Contenido'},
+        {'id': 2, 'titulo': 'titulo3', 'subtitulo': 'subtitulo3', 'contenido': 'Contenido'}
+    ]
+
     render() {
 
         return (
@@ -28,6 +66,7 @@ class Blog_adm extends React.Component {
                     <Adm_menu/>
                     <div className="page-wrapper">
                         <div className="container-fluid">
+                            <Modal/>
                             <div className="row page-titles">
                                 <div className="col-md-5 col-8 align-self-center">
                                     <h3 className="text-themecolor m-b-0 m-t-0 text-left">Blog</h3>
@@ -48,14 +87,7 @@ class Blog_adm extends React.Component {
                                             <h4 className="card-title w-100"> Post publicados
                                                 <button onClick={this.crearPost.bind(this)} className="d-inline Float-r Cursor-pointer Btn-transparent"><i
                                                     className="fas fa-plus-circle "></i></button></h4>
-                                            <div className="myadmin-dd dd w-100 text-left" id="nestable">
-                                                <ol className="dd-list ">
-                                                    <Post titulo={"Post 1"} subtitulo={"subtitulo1"} contenido={"contenido1"} fecha={"22-02-2018"} visitas={"100"}/>
-                                                    <Post titulo={"Post2"} subtitulo={"subtitulo2"} contenido={"contenido2"} fecha={"22-02-2018"} visitas={"100"}/>
-                                                    <Post titulo={"Post3"} subtitulo={"subtitulo3"} contenido={"contenido3"} fecha={"22-02-2018"} visitas={"100"}/>
-                                                    <Post titulo={"Post4"} subtitulo={"subtitulo4"} contenido={"contenido4"} fecha={"22-02-2018"} visitas={"100"}/>
-                                                </ol>
-                                            </div>
+                                            <Datatable columnas={this.columnas_blog} data={this.data_blog}/>
                                         </div>
                                     </div>
                                 </div>
@@ -63,6 +95,7 @@ class Blog_adm extends React.Component {
                                 <div id="editor_post" className="col-12 col-md-6 Editor-vuelo">
 
                                     <div className="card Adm-card">
+
                                         <div className="card-body justify-content-start">
                                             <h4 className="card-title w-100"> Editor de post</h4>
                                             <form className="form-horizontal m-t-10" id="blog_form" name="blog_form">

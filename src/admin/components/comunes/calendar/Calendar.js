@@ -7,6 +7,7 @@ import "react-big-calendar/lib/css/react-big-calendar.css";
 
 Calendar.setLocalizer(Calendar.momentLocalizer(moment));
 
+
 class App extends Component {
 
     constructor(props) {
@@ -23,6 +24,7 @@ class App extends Component {
                     selectable
 
                     defaultDate={new Date()}
+                    views={['month']}
                     defaultView="month"
                     events={this.state.events}
                     style={{ height: "100vh" }}

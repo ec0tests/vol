@@ -12,6 +12,9 @@
 .Redes-sociales input{
     border: 0;
 }
+.Site-video{
+    height: 280px;
+}
 .Redes-sociales .dd-handle{
     padding: 5px!important;
     height: 2rem!important;

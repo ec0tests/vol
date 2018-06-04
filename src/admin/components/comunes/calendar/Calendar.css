@@ -6,6 +6,13 @@
 
 }
 
+.rbc-calendar{
+    width: 100%;
+}
+.rbc-toolbar-label{
+    font-weight: 600;
+    text-align: right!important;
+}
 .rbc-day-bg{
     cursor: pointer;
 }
