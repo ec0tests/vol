@@ -129,7 +129,7 @@ class Site extends React.Component {
 
                                             <div className="row">
                                                 <div className="col-12 col-lg-6">
-                                                    {/*  <File_upload/>*/}
+                                                     {/* <Dropzone/>*/}
                                                 </div>
                                             </div>
 
@@ -325,13 +325,13 @@ class Site extends React.Component {
         afterSearch: '',  // define a after search hook,
         onRowClick: function (row, columnIndex, rowIndex, e) {
 
-            alert(`You click row id: ${row.id}, column index: ${columnIndex}, row index: ${rowIndex}`);
+           /* alert(`You click row id: ${row.id}, column index: ${columnIndex}, row index: ${rowIndex}`);*/
             $('#modal_crear_oferta').modal('show');
             $('#oferta_modal_titulo').html('Editar Oferta');
             $('#oferta_nombre').val(row.oferta);
             $('#oferta_clicks').val(row.clicks);
         },
-        exportCSVText: 'Exportar a CSV',
+        exportCSVText: '',
         insertText: 'Crear',
         deleteText: 'Borrar',
         saveText: 'Guardar',
@@ -371,7 +371,7 @@ class Site extends React.Component {
         afterSearch: '',  // define a after search hook,
         onRowClick: function (row, columnIndex, rowIndex, e) {
 
-            alert(`You click row id: ${row.id}, column index: ${columnIndex}, row index: ${rowIndex}`);
+            /*alert(`You click row id: ${row.id}, column index: ${columnIndex}, row index: ${rowIndex}`);*/
             $('#modal_crear_usuario').modal('show');
             $('#titulo_modal_crear_usuario').html('Editar Usuario');
             $('#modal_usuario_usuario').val(row.usuario);

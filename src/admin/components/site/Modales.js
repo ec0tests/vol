@@ -193,7 +193,7 @@ class Modales extends React.Component {
                             </div>
                             <div className="modal-Body m-3">
 
-                                <form className="form-material m-t-10 row" id="reserva_form">
+                                <form className="form-material m-t-10 row" id="piloto_form">
 
 
                                     <div className="form-group col-12 col-md-6 m-t-20">

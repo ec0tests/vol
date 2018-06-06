@@ -32,7 +32,7 @@ class ActionFormatter extends React.Component {
 function actionFormatter(cell, row) {
     return <ActionFormatter />;
 }
-let eo='eee';
+
 export default class Datatable extends React.Component {
     constructor(props) {
         super(props);

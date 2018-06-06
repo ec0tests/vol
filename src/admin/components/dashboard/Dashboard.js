@@ -15,6 +15,53 @@ import $ from "jquery";
 class Adm_dashboard extends React.Component {
 
 
+    constructor(props) {
+        super(props);
+        this.state = {
+            titulo_form: 'Crear Reserva',
+            usuario_reserva: '',
+            precio_reserva: '',
+            fecha_reserva: '',
+            nombre_reserva: '',
+            btn_reserva: 'Crear',
+            showBorrar: false
+
+        };
+    }
+
+
+    crearReserva() {
+        this.setState({
+            titulo_form: 'Crear Reserva',
+            precio_reserva: '',
+            usuario_reserva: '',
+            fecha_reserva: '',
+            nombre_reserva: '',
+            btn_reserva: 'Crear',
+            showBorrar: false
+
+        });
+    }
+
+    click_reservas(event) {
+        this.setState({
+            titulo_form: 'Editar Reserva',
+            precio_reserva: event.precio,
+            usuario_reserva: event.usuario,
+            fecha_reserva: event.start,
+            nombre_reserva:  event.title,
+
+            btn_reserva: 'Editar',
+            showBorrar: true
+
+
+        });
+
+        $('#modal_reserva_dashboard').modal('show')
+
+
+    }
+
 
     render() {
 
@@ -25,7 +72,92 @@ class Adm_dashboard extends React.Component {
                     <Adm_header/>
                     <Adm_menu/>
                     <div className="page-wrapper">
+                        {/*MODAL*/}
+                        <div className="modal fade" id="modal_reserva_dashboard" tabindex="-1" role="dialog"
+                             aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div className="modal-dialog" role="document">
+                                <div className="modal-content">
+                                    <div className="modal-header">
+                                        <h3 className="modal-title"
+                                            id="titulo_modal_reserva_dashboard">{this.state.titulo_form}</h3>
+                                        <button type="button" className="close" data-dismiss="modal"
+                                                aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div className="modal-Body m-3">
 
+                                        <form className="form-material m-t-10 row" id="reserva_form">
+
+                                            <div className="form-group col-12 m-t-20">
+                                                <label className="Label-vuelos"
+                                                       htmlFor="vuelo_nombre">Vuelo:</label>
+                                                <select className="form-control form-control-line " id="reserva_vuelo"
+                                                        name="reserva_vuelo">
+                                                    <option value="idvuelo1">Vuelo</option>
+                                                    <option value="idvuelo1">Vuelo2</option>
+                                                    <option value="idvuelo1">Vuelo3</option>
+                                                </select>
+                                                <div class="alert alert-danger p-1 mt-2">
+                                                    <small>El vuelo seleccionado no está disponible en esta fecha</small>
+                                                </div>
+
+
+                                            </div>
+
+                                            <div className="form-group col-12 col-md-6 m-t-20">
+                                                <label className="Label-vuelos"
+                                                       htmlFor="vuelo_nombre">Usuario:</label>
+                                                <input type="text"
+                                                       className="form-control form-control-line "
+                                                       id="reserva_usuario"
+                                                       value={this.state.usuario_reserva}
+                                                       name="reserva_usuario"/>
+                                            </div>
+                                            <div className="form-group col-12 col-md-6 m-t-20">
+                                                <label className="Label-vuelos"
+                                                       htmlFor="vuelo_reserva">Reserva:</label>
+                                                <input type="text"
+                                                       className="form-control form-control-line "
+                                                       id="reserva_nombre"
+                                                       value={this.state.nombre_reserva}
+                                                       name="reserva_nombre"/>
+                                            </div>
+                                            <div className="form-group col-12 col-md-6 m-t-20">
+                                                <label className="Label-vuelos">Fecha:</label>
+
+                                                <input type="date"
+                                                       className="form-control form-control-line "
+                                                       id="reserva_fecha"
+                                                       name="reserva_fecha" value={this.state.fecha_reserva}/>
+                                            </div>
+                                            <div className="form-group col-12 col-md-6 m-t-20">
+                                                <label className="Label-vuelos">Precio:</label>
+                                                <input type="text"
+                                                       className="form-control form-control-line "
+                                                       value="Precio" id="reserva_precio"
+                                                       name="reserva_precio" value={this.state.precio_reserva}/>
+                                            </div>
+
+
+                                            <div className="form-group col-md-12 m-t-20 text-right">
+                                                <button type="button"
+                                                        className="btn btn-danger waves-effect waves-light my-1 mr-2"
+                                                        style={{display: this.state.showBorrar ? 'inline' : 'none'}}>Eliminar
+                                                    Reserva
+                                                </button>
+                                                <button type="submit"
+                                                        className="btn btn-info waves-effect waves-light my-1">{this.state.btn_reserva}
+                                                </button>
+                                            </div>
+
+                                        </form>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
                         <div className="container-fluid">
                             <div className="row page-titles">
                              <Modales/>
@@ -43,7 +175,7 @@ class Adm_dashboard extends React.Component {
                                     <div class="card Adm-card">
                                         <div class="card-body justify-content-start">
                                             <h4 class="card-title ">Últimas Reservas</h4>
-                                            <Datatable columnas={this.columnas_ultimas_reservas} accion={true} data={this.data_ultimas_reservas}/>
+                                            <Datatable options={this.options_boton} columnas={this.columnas_ultimas_reservas} accion={true} data={this.data_ultimas_reservas}/>
                                         </div>
                                     </div>
                                 </div>
@@ -51,7 +183,7 @@ class Adm_dashboard extends React.Component {
                                     <div class="card Adm-card">
                                         <div class="card-body justify-content-start">
                                             <h4 class="card-title">Packs más vendidos</h4>
-                                            <Datatable columnas={this.columnas_packs} data={this.data_packs}/>
+                                            <Datatable options={this.options_boton} columnas={this.columnas_packs} data={this.data_packs}/>
                                         </div>
                                     </div>
                                 </div>
@@ -62,7 +194,7 @@ class Adm_dashboard extends React.Component {
                                     <div class="card Adm-card">
                                         <div class="card-body justify-content-start">
                                             <h4 class="card-title ">Reservas por usuario</h4>
-                                            <Datatable columnas={this.columnas_usuario_reservas} accion={true} data={this.data_usuario_reservas}/>
+                                            <Datatable options={this.options_boton} columnas={this.columnas_usuario_reservas} accion={true} data={this.data_usuario_reservas}/>
                                         </div>
                                     </div>
                                 </div>
@@ -90,7 +222,7 @@ class Adm_dashboard extends React.Component {
                                     <div class="card Adm-card">
                                         <div class="card-body justify-content-start">
                                             <h4 class="card-title">Cupones más utilizados</h4>
-                                            <Datatable columnas={this.columnas_cupones} data={this.data_cupones}/>
+                                            <Datatable options={this.options_boton} columnas={this.columnas_cupones} data={this.data_cupones}/>
                                         </div>
                                     </div>
                                 </div>
@@ -98,7 +230,7 @@ class Adm_dashboard extends React.Component {
                                     <div class="card Adm-card">
                                         <div class="card-body justify-content-start">
                                             <h4 class="card-title">Últimos post</h4>
-                                            <Datatable columnas={this.columnas_ultimos_post} data={this.data_ultimos_post}/>
+                                            <Datatable options={this.options_boton} columnas={this.columnas_ultimos_post} data={this.data_ultimos_post}/>
                                         </div>
                                     </div>
                                 </div>
@@ -133,24 +265,7 @@ class Adm_dashboard extends React.Component {
 
     }
 
-    click_reservas(event) {
-        this.setState({
-            titulo_form: 'Editar Reserva',
-            precio_reserva: event.precio,
-            usuario_reserva: event.usuario,
-            fecha_reserva: event.start,
-            btn_reserva: 'Editar',
-            nombre_reserva:  event.title,
 
-            showBorrar: true
-
-
-        });
-
-        $('#modal_reserva_dashboard').modal('show')
-
-
-    }
 
     calendario_fechas = [
         {
@@ -306,6 +421,14 @@ class Adm_dashboard extends React.Component {
         {'id': 2, 'post': 'post3', 'visitas': 100}
     ]
 
+    options_boton = {
+        afterSearch: '',  // define a after search hook,
+        exportCSVText: '',
+        insertText: 'Crear',
+        deleteText: 'Borrar',
+        saveText: 'Guardar',
+        closeText: 'Cerrar'
+    }
 
 }
 

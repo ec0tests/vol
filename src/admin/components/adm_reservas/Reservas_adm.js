@@ -26,6 +26,9 @@ class Reservas_adm extends React.Component {
             showBorrar: false
 
         };
+
+        this.setState.bind(this)
+
     }
 
 
@@ -84,11 +87,35 @@ class Reservas_adm extends React.Component {
 
 
     }
+    /*AL CLICKAR EN LA FILA*/
+    options_reserva = {
+        afterSearch: '',  // define a after search hook,
+        onRowClick: function (row, columnIndex, rowIndex, e) {
+
+            $('#reserva_usuario').val(row.usuario)
+            $('#reserva_precio').val(row.precio)
+            $('#reserva_fecha').val(row.fecha)
+            $('#reserva_nombre').val(row.reserva)
+            $('#modal_reserva').modal('show')
+        },
+        exportCSVText: '',
+        insertText: 'Crear',
+        deleteText: 'Borrar',
+        saveText: 'Guardar',
+        closeText: 'Cerrar'
+    }
+
     columnas_reservas = {
         "columnas": [
             {
+                "nombre": "Reserva",
+                "field": 'reserva',
+
+            },
+            {
                 "nombre": "Usuario",
-                "field": 'usuario'
+                "field": 'usuario',
+
             },
             {
                 "nombre": "Fecha",
@@ -98,14 +125,15 @@ class Reservas_adm extends React.Component {
             {
                 "nombre": "Precio",
                 "field": 'precio'
-            }
+            },
+
         ]
     };
 
     data_reservas = [
-        {'id': 0, 'usuario': 'usuario1', 'fecha': '10/05/2018', 'precio': 100},
-        {'id': 1, 'usuario': 'usuario2', 'fecha': '10/06/2018', 'precio': 100},
-        {'id': 2, 'usuario': 'usuario3', 'fecha': '12/06/2018', 'precio': 100}
+        {'id': 0, 'reserva': 'reserva1','usuario': 'usuario1', 'fecha': '10/05/2018', 'precio': 100},
+        {'id': 1, 'reserva': 'reserva2','usuario': 'usuario2', 'fecha': '10/06/2018', 'precio': 100},
+        {'id': 2, 'reserva': 'reserva3','usuario': 'usuario3', 'fecha': '12/06/2018', 'precio': 100}
     ]
 
 
@@ -286,7 +314,7 @@ class Reservas_adm extends React.Component {
                                 <div className="card-body justify-content-start">
                                     <h3 className="card-title w-100 mb-4"> Reservas</h3>
 
-                                        <Datatable columnas={this.columnas_reservas} data={this.data_reservas}/>
+                                        <Datatable options={this.options_reserva} columnas={this.columnas_reservas} data={this.data_reservas}/>
                                 </div>
                             </div>
                         </div>
@@ -302,6 +330,8 @@ class Reservas_adm extends React.Component {
     )
 
     }
+
+
 
 
 }
