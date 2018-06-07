@@ -8,6 +8,7 @@ import Adm_menu from '../comunes/menu/Menu';
 import Card_image from '../comunes/card_image/Card_image';
 import Text_editor from '../comunes/text_editor/Text_editor';
 import Pregunta_faq from '../comunes/pregunta_faq_adm/Pregunta_faq_adm';
+import Dropzone_clase from '../comunes/dropzone/Dropzone_clase';
 import Usuario from '../comunes/usuario/Usuario';
 import Datatable from '../comunes/datatable/2/Datatable';
 import Modales from "./Modales";
@@ -127,9 +128,9 @@ class Site extends React.Component {
                                             <h6 class="card-title w-100">Aquí podrás editar las imágenes que aparezcan
                                                 en el panel</h6>
 
-                                            <div className="row">
-                                                <div className="col-12 col-lg-6">
-                                                     {/* <Dropzone/>*/}
+                                            <div className="row w-100">
+                                                <div className="col-12 col-lg-7">
+                                                      <Dropzone_clase/>
                                                 </div>
                                             </div>
 
