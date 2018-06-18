@@ -1,0 +1,11 @@
+.form-group{
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+.Editor-vuelo{
+    /*display: none;*/
+}
+.Label-vuelos{
+    font-size: 13px;color: #333333;
+}

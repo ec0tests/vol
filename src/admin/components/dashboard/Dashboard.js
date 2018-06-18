@@ -19,7 +19,7 @@ class Adm_dashboard extends React.Component {
         super(props);
         this.state = {
             titulo_form: 'Crear Reserva',
-            usuario_reserva: '',
+            cliente_reserva: '',
             precio_reserva: '',
             fecha_reserva: '',
             nombre_reserva: '',
@@ -34,7 +34,7 @@ class Adm_dashboard extends React.Component {
         this.setState({
             titulo_form: 'Crear Reserva',
             precio_reserva: '',
-            usuario_reserva: '',
+            cliente_reserva: '',
             fecha_reserva: '',
             nombre_reserva: '',
             btn_reserva: 'Crear',
@@ -47,7 +47,7 @@ class Adm_dashboard extends React.Component {
         this.setState({
             titulo_form: 'Editar Reserva',
             precio_reserva: event.precio,
-            usuario_reserva: event.usuario,
+            cliente_reserva: event.cliente,
             fecha_reserva: event.start,
             nombre_reserva:  event.title,
 
@@ -107,12 +107,12 @@ class Adm_dashboard extends React.Component {
 
                                             <div className="form-group col-12 col-md-6 m-t-20">
                                                 <label className="Label-vuelos"
-                                                       htmlFor="vuelo_nombre">Usuario:</label>
+                                                       htmlFor="vuelo_nombre">Clientes:</label>
                                                 <input type="text"
                                                        className="form-control form-control-line "
-                                                       id="reserva_usuario"
-                                                       value={this.state.usuario_reserva}
-                                                       name="reserva_usuario"/>
+                                                       id="reserva_cliente"
+                                                       value={this.state.cliente_reserva}
+                                                       name="reserva_cliente"/>
                                             </div>
                                             <div className="form-group col-12 col-md-6 m-t-20">
                                                 <label className="Label-vuelos"
@@ -193,8 +193,8 @@ class Adm_dashboard extends React.Component {
                                 <div class="col-lg-6 col-md-12">
                                     <div class="card Adm-card">
                                         <div class="card-body justify-content-start">
-                                            <h4 class="card-title ">Reservas por usuario</h4>
-                                            <Datatable options={this.options_boton} columnas={this.columnas_usuario_reservas} accion={true} data={this.data_usuario_reservas}/>
+                                            <h4 class="card-title ">Reservas por cliente</h4>
+                                            <Datatable options={this.options_boton} columnas={this.columnas_cliente_reservas} accion={true} data={this.data_cliente_reservas}/>
                                         </div>
                                     </div>
                                 </div>
@@ -273,7 +273,7 @@ class Adm_dashboard extends React.Component {
             end: new Date('2018-05-10'),
 
             title: "Reserva1",
-            usuario: "Usuario1",
+            cliente: "Cliente1",
             precio: '100',
 
 
@@ -284,7 +284,7 @@ class Adm_dashboard extends React.Component {
             end: new Date('2018-06-10'),
 
             title: "Reserva2",
-            usuario: "Usuario1",
+            cliente: "Cliente1",
             precio: '100',
 
         },
@@ -293,7 +293,7 @@ class Adm_dashboard extends React.Component {
             end: new Date('2018-06-12'),
 
             title: "Reserva3",
-            usuario: "Usuario1",
+            cliente: "Cliente1",
             precio: '100',
 
         },
@@ -302,7 +302,7 @@ class Adm_dashboard extends React.Component {
             end: new Date('2018-06-16'),
 
             title: "Reserva4",
-            usuario: "Usuario1",
+            cliente: "Cliente1",
             precio: '100',
 
         },
@@ -353,11 +353,11 @@ class Adm_dashboard extends React.Component {
         {'id': 2, 'nombre': 'nombre3', 'ventas_totales': 100, 'total': 3000}
     ]
 
-    columnas_usuario_reservas = {
+    columnas_cliente_reservas = {
         "columnas": [
             {
-                "nombre": "Usuario",
-                "field": 'usuario'
+                "nombre": "Clientes",
+                "field": 'cliente'
             },
             {
                 "nombre": "Total Reservas",
@@ -370,10 +370,10 @@ class Adm_dashboard extends React.Component {
         ]
     };
 
-    data_usuario_reservas = [
-        {'id': 0, 'usuario': 'usuario1', 'total_reservas': 100, 'facturacion': 3000},
-        {'id': 1, 'usuario': 'usuario2', 'total_reservas': 100, 'facturacion': 3000},
-        {'id': 2, 'usuario': 'usuario3', 'total_reservas': 100, 'facturacion': 3000}
+    data_cliente_reservas = [
+        {'id': 0, 'cliente': 'cliente1', 'total_reservas': 100, 'facturacion': 3000},
+        {'id': 1, 'cliente': 'cliente2', 'total_reservas': 100, 'facturacion': 3000},
+        {'id': 2, 'cliente': 'cliente3', 'total_reservas': 100, 'facturacion': 3000}
     ]
 
 

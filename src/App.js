@@ -22,6 +22,7 @@ import Contact from "./web/components/contact/Contact";
 
 import Adm_dashboard from "./admin/components/dashboard/Dashboard";
 import Adm_site from "./admin/components/site/Site";
+import Adm_productos from "./admin/components/adm_productos/Producto_adm";
 import Adm_blog from "./admin/components/adm_blog/Blog_adm";
 import Adm_vuelos from "./admin/components/adm_vuelos/Vuelo_adm";
 import Adm_reservas from "./admin/components/adm_reservas/Reservas_adm";
@@ -239,9 +240,15 @@ class App extends Component {
                         }
                     }/>
 
-                    <Route path="/admin/vuelos" exact strict render={
+                    <Route path="/admin/experiencias" exact strict render={
                         () => {
                             return (<div className="Admin"><Adm_vuelos/></div>);
+                        }
+                    }/>
+
+                    <Route path="/admin/productos" exact strict render={
+                        () => {
+                            return (<div className="Admin"><Adm_productos/></div>);
                         }
                     }/>
 

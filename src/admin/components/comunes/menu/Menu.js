@@ -33,43 +33,43 @@ class Adm_menu extends React.Component {
                                 </NavLink>
                             </li>
                             <li>
-                                <NavLink to="/admin/vuelos" className="has-arrow" activeStyle={{fontWeight: '500', color: '#333333'}}>
+                                <NavLink to="/admin/experiencias" className="has-arrow" activeStyle={{fontWeight: '500', color: '#333333'}}>
                                 <span className="hide-menu">
                                     <i
                                         className="mdi mdi-airplane"></i>
-                                    Vuelos
-                                </span>
-                                </NavLink>
-
-
-                            </li>
-                            <li>
-                                <NavLink to="/admin/reservas" className="has-arrow" activeStyle={{fontWeight: '500', color: '#333333'}}>
-                                <span className="hide-menu">
-                                    <i
-                                        className="mdi mdi-book-open-variant"></i>
-                                    Reservas
-                                </span>
-                                </NavLink>
-
-
-                            </li>
-                            <li>
-                                <NavLink to="/admin/experiencias" className="has-arrow" activeStyle={{fontWeight: '500', color: '#333333'}}>
-                                <span className="hide-menu">
-                                   <i
-                                       className="mdi mdi-widgets"></i>
                                     Experiencias
                                 </span>
                                 </NavLink>
 
+
                             </li>
                             <li>
-                                <NavLink to="/admin/cupones" className="has-arrow" activeStyle={{fontWeight: '500', color: '#333333'}}>
+                                <NavLink to="/admin/productos" className="has-arrow" activeStyle={{fontWeight: '500', color: '#333333'}}>
+                                <span className="hide-menu">
+                                    <i
+                                        className="mdi mdi-book-open-variant"></i>
+                                    Productos
+                                </span>
+                                </NavLink>
+
+
+                            </li>
+                            <li>
+                                <NavLink to="/admin/ofertas" className="has-arrow" activeStyle={{fontWeight: '500', color: '#333333'}}>
+                                <span className="hide-menu">
+                                   <i
+                                       className="mdi mdi-widgets"></i>
+                                    Ofertas
+                                </span>
+                                </NavLink>
+
+                            </li>
+                            <li>
+                                <NavLink to="/admin/pack-regalo" className="has-arrow" activeStyle={{fontWeight: '500', color: '#333333'}}>
                                 <span className="hide-menu">
                                  <i
-                                     className="mdi mdi-chart-bubble"></i>
-                                    Cupones
+                                     className="mdi mdi-gift"></i>
+                                    Pack regalo
                                 </span>
                                 </NavLink>
                             </li>

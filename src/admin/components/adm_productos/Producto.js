@@ -3,39 +3,39 @@ import React, {Component} from 'react';
 import TextEditor from '../comunes/text_editor/Text_editor'
 import Calendar from '../comunes/calendar/Calendar'
 import Dropzone from '../comunes/dropzone/Dropzone_clase'
-import './Vuelo.css';
+import './Producto.css';
 import $ from 'jquery';
 
 
-class Vuelo extends React.Component {
+class Producto extends React.Component {
 
     click = 1;
 
     constructor(props) {
         super(props);
         this.state = {
-            explicacion_vuelo: '',
+            explicacion_producto: '',
         };
 
     }
 
 
     change_tipo() {
-        /*let texto_explicacion = '';
-        switch ($("#vuelo_tipo").val()) {
+       /* let texto_explicacion = '';
+        switch ($("#producto_tipo").val()) {
 
             case 'exclusivo':
                 texto_explicacion = '';
                 break;
             case 'discapacitados':
-                texto_explicacion = 'En la experiéncia para discapacitados es obligatorio que vay un integrante más por cada persona discapacitada. Por lo tanto el contador de personas del vuelo será el doble';
+                texto_explicacion = 'En la experiéncia para discapacitados es obligatorio que vay un integrante más por cada persona discapacitada. Por lo tanto el contador de plazas del producto será el doble';
                 break;
             case 'compartido':
                 texto_explicacion = '';
 
                 break;
             case 'ninyos':
-                texto_explicacion = 'En la experiéncia para niño es obligatorio que vay un integrante más por cada  niño. Por lo tanto el contador de personas del vuelo será el doble';
+                texto_explicacion = 'En la experiéncia para niño es obligatorio que vay un integrante más por cada  niño. Por lo tanto el contador de plazas del producto será el doble';
 
                 break;
 
@@ -45,30 +45,31 @@ class Vuelo extends React.Component {
         }
 
         this.setState({
-            explicacion_vuelo: texto_explicacion,
+            explicacion_producto: texto_explicacion,
 
-        });*/
-
+        });
+        $('#div_oculto').fadeIn();
+*/
 
     }
 
-    editarVuelo() {
-        $('#exampleModalLabel_crearVuelo').text('Editar Vuelo');
+    editarProducto() {
+        $('#exampleModalLabel_crearProducto').text('Editar Producto');
 
-        $("#editor_vuelo").fadeIn(600);
-        $("#vuelo_nombre").val(this.props.nombre);
-        $("#plazas_diarias").val(this.props.plazas_diarias);
-        $("#vuelo_precio").val(this.props.precio);
-        $("#vuelo_tematica").val(this.props.tematica);
-        $("#vuelo_fecha1").val(this.props.fecha1);
-        $("#vuelo_fecha2").val(this.props.fecha2);
-        $("#vuelo_descripcion").val(this.props.descripcion);
+        $("#editor_producto").fadeIn(600);
+        $("#producto_nombre").val(this.props.nombre);
+        $("#producto_plazas").val(this.props.plazas);
+        $("#producto_precio").val(this.props.precio);
+        $("#producto_tematica").val(this.props.tematica);
+        $("#producto_fecha1").val(this.props.fecha1);
+        $("#producto_fecha2").val(this.props.fecha2);
+        $("#producto_descripcion").val(this.props.descripcion);
     }
 
-    borrarVuelo() {
-        $("#nombre_vuelo").val(this.props.nombre);
-        $("#personas_vuelo").val(this.props.personas);
-        $("#fechaPublicacion_vuelo").val(this.props.fechaPublicacion_vuelo);
+    borrarProducto() {
+        $("#nombre_producto").val(this.props.nombre);
+        $("#plazas_producto").val(this.props.plazas);
+        $("#fechaPublicacion_producto").val(this.props.fechaPublicacion_producto);
 
     }
 
@@ -99,14 +100,14 @@ class Vuelo extends React.Component {
                                 <p className="F-peq">{this.props.descripcion}</p>
                             </div>
                             <div className="col-12 d-flex justify-content-around">
-                                <span className="F-grand"><i class="mdi mdi-account"></i> {this.props.personas}</span>
+                                <span className="F-grand"><i class="mdi mdi-account"></i> {this.props.plazas}</span>
                                 <span className="F-grand">{this.props.precio}$</span>
                             </div>
                             <button data-toggle="modal" data-target="#exampleModal3"
-                                    onClick={this.editarVuelo.bind(this)} className="w-100 Btn-editar">Editar
+                                    onClick={this.editarProducto.bind(this)} className="w-100 Btn-editar">Editar
                             </button>
-                            <button onClick={this.borrarVuelo.bind(this)} data-toggle="modal"
-                                    data-target="#exampleModal2" onClick={this.editarVuelo.bind(this)}
+                            <button onClick={this.borrarProducto.bind(this)} data-toggle="modal"
+                                    data-target="#exampleModal2" onClick={this.editarProducto.bind(this)}
                                     className="Btn-transparent P-absolute Cross-adm-pilotos"><i
                                 class="fas fa-times "></i>
                             </button>
@@ -120,35 +121,25 @@ class Vuelo extends React.Component {
                         <div className="modal-content">
                             <div className="modal-header">
                                 <h3 className="modal-title" id="exampleModalLabel">Estás seguro de que quieres
-                                    borrar este vuelo?</h3>
+                                    borrar este producto?</h3>
                                 <button type="button" className="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                 </button>
                             </div>
                             <div className="modal-Body m-3">
-                                <h4 className="mb-4">Datos del vuelo : </h4>
-                                <h6>Nombre: <small className="ml-2"><input type="text" id="nombre_vuelo"
+                                <h4 className="mb-4">Datos del producto : </h4>
+                                <h6>Nombre: <small className="ml-2"><input type="text" id="nombre_producto"
                                                                            className="Btn-transparent"
                                                                            value={this.props.nombre}/></small>
                                 </h6>
-                                <h6>Personas: <small className="ml-2">
-                                    <p type="text" id="personas_vuelo"
-                                       className="Btn-transparent"
-                                    >
-                                        {this.props.personas}
-                                    </p>
-                                </small></h6>
-                                <h6>Fecha publicación: <small className="ml-2"><input type="text"
-                                                                                      id="fechaPublicacion_vuelo"
-                                                                                      className="Btn-transparent"
-                                                                                      value={this.props.fecha_publicacion}/>
-                                </small></h6>
+
+                                
                             </div>
                             <div className="modal-footer">
                                 <button type="button" className="btn btn-secondary" data-dismiss="modal">No
                                 </button>
                                 <button type="button" className="btn btn-primary"
-                                        onClick={this.borrarVuelo.bind(this)}>Sí
+                                        onClick={this.borrarProducto.bind(this)}>Sí
                                 </button>
                             </div>
                         </div>
@@ -162,98 +153,83 @@ class Vuelo extends React.Component {
                     <div className="modal-dialog modal-lg" role="document">
                         <div className="modal-content">
                             <div className="modal-header">
-                                <h3 className="modal-title w-100 text-center" id="exampleModalLabel_crearVuelo"></h3>
+                                <h3 className="modal-title w-100 text-center" id="exampleModalLabel_crearProducto"></h3>
                                 <button type="button" className="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                 </button>
                             </div>
                             <div className="modal-Body m-3">
-                                <div id="editor_vuelo" className="col-12 Editor-vuelo">
+                                <div id="editor_producto" className="col-12 Editor-producto">
 
-                                    <form className="form-material m-t-10 row" id="vuelo_form">
+                                    <form className="form-material m-t-10 row" id="producto_form">
                                         <div class="form-group col-12 col-md-12 m-t-20">
-                                            <label className="Label-vuelos">Tipo:</label>
+                                            <label className="Label-productos">Tipo:</label>
                                             <select onChange={this.change_tipo.bind(this)} class="form-control"
-                                                    name="vuelo_tipo" id="vuelo_tipo">
-                                                <option value=""  >Elige el tipo de experiencia</option>
-                                                <option value="exclusivo">Exclusivo</option>
-                                                <option value="compartido">Compartido</option>
-                                               {/* <option value="discapacitados">Discapacitados</option>
-                                                <option value="ninyos">Niños</option>*/}
+                                                    name="producto_tipo" id="producto_tipo" required>
+                                                <option value=""  >Elige el tipo de producto</option>
+                                                <option value="alojamiento">Alojamiento</option>
+                                                <option value="restaurante">Restaurante</option>
+                                                <option value="actividades_turisticas">Actividades Turísticas</option>
                                             </select>
-                                            <small className="Gris-flojo">{this.state.explicacion_vuelo}
+                                            <small className="Gris-flojo">{this.state.explicacion_producto}
                                             </small>
 
                                         </div>
 
-                                            <div class="form-group col-12 col-md-6 m-t-20">
-                                                <label className="Label-vuelos"
-                                                       htmlFor="vuelo_nombre">Nombre:</label>
-                                                <input type="text" class="form-control form-control-line"
-                                                       value="Nombre" id="vuelo_nombre" required name="vuelo_nombre"/>
-                                            </div>
-                                            <div class="form-group col-12 col-md-6 m-t-20">
-                                                <label className="Label-vuelos">Personas:</label>
 
-                                                <select type="text" class="form-control form-control-line"
-                                                        id="plazas_diarias" name="plazas_diarias">
-                                                    {/*{this.crearSelect()}*/}
-                                                    <option value="1">1</option>
-                                                    <option value="2">2</option>
-                                                    <option value="3">3</option>
-                                                    <option value="4">4</option>
-                                                    <option value="5">5</option>
-                                                    <option value="6">6</option>
-                                                    <option value="7">7</option>
-                                                    <option value="8">8</option>
-                                                    <option value="9">9</option>
-                                                    <option value="10">10</option>
-                                                    <option value="11">12</option>
-                                                    <option value="12">12</option>
-
-                                                </select>
-                                            </div>
                                             <div class="form-group col-12 col-md-6 m-t-20">
-                                                <label className="Label-vuelos">Precio:</label>
+                                                <label className="Label-productos"
+                                                       htmlFor="producto_nombre">Nombre:</label>
                                                 <input type="text" class="form-control form-control-line"
-                                                       value="Precio" id="vuelo_precio" name="vuelo_precio"/>
+                                                       value="Nombre" id="producto_nombre" required name="producto_nombre"/>
                                             </div>
                                             <div class="form-group col-12 col-md-6 m-t-20">
-                                                <label className="Label-vuelos">Temática:</label>
-                                                <select class="form-control" name="vuelo_tematica" id="vuelo_tematica">
+                                                <label className="Label-productos">Plazas:</label>
+
+                                                <input type="text" placeholder="Plazas" class="form-control form-control-line" name="producto_plazas" id="producto_plazas"/>
+                                            </div>
+                                            <div class="form-group col-12 col-md-6 m-t-20">
+                                                <label className="Label-productos">Precio:</label>
+                                                <input type="text" class="form-control form-control-line"
+                                                       value="Precio" id="producto_precio" name="producto_precio"/>
+                                            </div>
+                                            <div class="form-group col-12 col-md-6 m-t-20">
+                                                <label className="Label-productos">Temática:</label>
+                                                <select class="form-control" name="producto_tematica" id="producto_tematica">
                                                     <option value="romantico">Romántico</option>
                                                     <option value="historico">Histórico</option>
                                                     <option value="aventuras">Aventuras</option>
                                                 </select>
                                             </div>
-                                        <div class="form-group col-12 col-md-12 m-t-20">
-                                            <label className="Label-vuelos">Video:</label>
-                                            <input type="text" class="form-control form-control-line"
-                                                   value="" placeholder="Inserte la URL de un video " id="vuelo_video" name="vuelo_video"/>
-                                        </div>
+
+                                            <div class="form-group col-12 col-md-12 m-t-20">
+                                                <label className="Label-productos">Video:</label>
+                                                <input type="text" class="form-control form-control-line"
+                                                       value="" placeholder="Inserte la URL de un video " id="producto_video" name="producto_video"/>
+                                            </div>
                                             <div class="form-group col-md-12 m-t-20">
                                                 <label>Descripción</label>
                                                 <TextEditor/>
                                             </div>
-                                        <div class="form-group col-md-12 m-t-20">
-                                            <label>Imagen Principal</label>
-                                            <Dropzone/>
-                                        </div>
-                                        <div class="form-group col-md-12 m-t-20">
-                                            <label>Imágenes</label>
-                                            <Dropzone/>
-                                        </div>
-                                            <div class="form-group col-12 col-md-6 m-t-20">
-                                                <label className="Label-vuelos">Desde:</label>
-
-                                                <input class="form-control" type="date" placeholder="Desde" value=""
-                                                       id="vuelo_fecha1" name="fecha1"/>
+                                            <div class="form-group col-md-12 m-t-20">
+                                                <label>Imagen Principal</label>
+                                                <Dropzone/>
+                                            </div>
+                                            <div class="form-group col-md-12 m-t-20">
+                                                <label>Imágenes</label>
+                                                <Dropzone/>
                                             </div>
                                             <div class="form-group col-12 col-md-6 m-t-20">
-                                                <label className="Label-vuelos">Hasta:</label>
+                                                <label className="Label-productos">Desde:</label>
 
                                                 <input class="form-control" type="date" placeholder="Desde" value=""
-                                                       id="vuelo_fecha2" name="vuelo_fecha2"/>
+                                                       id="producto_fecha1" name="fecha1"/>
+                                            </div>
+                                            <div class="form-group col-12 col-md-6 m-t-20">
+                                                <label className="Label-productos">Hasta:</label>
+
+                                                <input class="form-control" type="date" placeholder="Desde" value=""
+                                                       id="producto_fecha2" name="producto_fecha2"/>
                                             </div>
 
                                             <div class="form-group col-12 col-md-12 m-t-20">
@@ -267,7 +243,7 @@ class Vuelo extends React.Component {
 
 
                                                 }
-                                                          onselect_event={event => alert("Esta fecha no está disponible ya que tiene un vuelo")}/>
+                                                          onselect_event={event => alert("Esta fecha no está disponible ya que tiene un producto")}/>
                                             </div>
 
 
@@ -300,26 +276,26 @@ class Vuelo extends React.Component {
             start: new Date('2018-05-10'),
             end: new Date('2018-05-16'),
 
-            title: "Vuelo1"
+            title: "Producto1"
         }
         ,
         {
             start: new Date('2018-06-10'),
             end: new Date('2018-06-18'),
 
-            title: "Vuelo2"
+            title: "Producto2"
         },
         {
             start: new Date('2018-06-12'),
             end: new Date('2018-06-22'),
 
-            title: "Vuelo3"
+            title: "Producto3"
         },
         {
             start: new Date('2018-06-16'),
             end: new Date('2018-06-26'),
 
-            title: "Vuelo4"
+            title: "Producto4"
         },
 
     ]
@@ -339,11 +315,11 @@ class Vuelo extends React.Component {
     click_calendario(slotInfo) {
 
         if (this.click == 1) {
-            $("#vuelo_fecha1").val(this.formatDate(slotInfo.start.toLocaleString('en-US', {timeZone: 'UTC'})))
+            $("#producto_fecha1").val(this.formatDate(slotInfo.start.toLocaleString('en-US', {timeZone: 'UTC'})))
             this.click = 2;
         } else {
 
-            $("#vuelo_fecha2").val(this.formatDate(slotInfo.start.toLocaleString('en-US', {timeZone: 'UTC'})))
+            $("#producto_fecha2").val(this.formatDate(slotInfo.start.toLocaleString('en-US', {timeZone: 'UTC'})))
             this.click = 1;
 
         }
@@ -351,4 +327,4 @@ class Vuelo extends React.Component {
 }
 
 
-export default Vuelo;
+export default Producto;

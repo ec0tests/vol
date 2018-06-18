@@ -7,7 +7,7 @@ class Modales extends React.Component {
         super(props);
         this.state = {
             titulo_form: 'Crear Reserva',
-            usuario_reserva: '',
+            cliente_reserva: '',
             precio_reserva: '',
             fecha_reserva: '',
             btn_reserva: 'Crear',

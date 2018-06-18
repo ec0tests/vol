@@ -16,6 +16,8 @@ class Reservas_adm extends React.Component {
 
     constructor(props) {
         super(props);
+        this.setState.bind(this)
+
         this.state = {
             titulo_form: 'Crear Reserva',
             usuario_reserva: '',
@@ -26,8 +28,6 @@ class Reservas_adm extends React.Component {
             showBorrar: false
 
         };
-
-        this.setState.bind(this)
 
     }
 

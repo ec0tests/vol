@@ -17,6 +17,9 @@
 .card-title{
     margin-bottom: 1.5rem;
 }
+.Gris-flojo{
+    color: #9b9b9b;
+}
 .Scale{
     transform: scale(1.3);
     transition: 0.8s;
