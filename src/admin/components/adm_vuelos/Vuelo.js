@@ -190,7 +190,7 @@ class Vuelo extends React.Component {
                                                 <label className="Label-vuelos"
                                                        htmlFor="vuelo_nombre">Nombre:</label>
                                                 <input type="text" class="form-control form-control-line"
-                                                       value="Nombre" id="vuelo_nombre" required name="vuelo_nombre"/>
+                                                       placeholder="Nombre" id="vuelo_nombre" required name="vuelo_nombre"/>
                                             </div>
                                             <div class="form-group col-12 col-md-6 m-t-20">
                                                 <label className="Label-vuelos">Personas:</label>
@@ -216,7 +216,7 @@ class Vuelo extends React.Component {
                                             <div class="form-group col-12 col-md-6 m-t-20">
                                                 <label className="Label-vuelos">Precio:</label>
                                                 <input type="text" class="form-control form-control-line"
-                                                       value="Precio" id="vuelo_precio" name="vuelo_precio"/>
+                                                       placeholder="Precio" id="vuelo_precio" name="vuelo_precio"/>
                                             </div>
                                             <div class="form-group col-12 col-md-6 m-t-20">
                                                 <label className="Label-vuelos">Temática:</label>

@@ -25,6 +25,7 @@ import Adm_site from "./admin/components/site/Site";
 import Adm_productos from "./admin/components/adm_productos/Producto_adm";
 import Adm_blog from "./admin/components/adm_blog/Blog_adm";
 import Adm_vuelos from "./admin/components/adm_vuelos/Vuelo_adm";
+import Adm_ofertas from "./admin/components/adm_ofertas/Oferta_adm";
 import Adm_reservas from "./admin/components/adm_reservas/Reservas_adm";
 
 import bkg1 from "./web/images/bkg-1.jpg";
@@ -255,6 +256,11 @@ class App extends Component {
                     <Route path="/admin/reservas" exact strict render={
                         () => {
                             return (<div className="Admin"><Adm_reservas/></div>);
+                        }
+                    }/>
+                    <Route path="/admin/ofertas" exact strict render={
+                        () => {
+                            return (<div className="Admin"><Adm_ofertas/></div>);
                         }
                     }/>
 

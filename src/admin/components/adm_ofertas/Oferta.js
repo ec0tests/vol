@@ -3,18 +3,18 @@ import React, {Component} from 'react';
 import TextEditor from '../comunes/text_editor/Text_editor'
 import Calendar from '../comunes/calendar/Calendar'
 import Dropzone from '../comunes/dropzone/Dropzone_clase'
-import './Producto.css';
+import './Oferta.css';
 import $ from 'jquery';
 
 
-class Producto extends React.Component {
+class Oferta extends React.Component {
 
     click = 1;
 
     constructor(props) {
         super(props);
         this.state = {
-            explicacion_producto: '',
+            explicacion_oferta: '',
         };
 
     }
@@ -22,20 +22,20 @@ class Producto extends React.Component {
 
     change_tipo() {
        /* let texto_explicacion = '';
-        switch ($("#producto_tipo").val()) {
+        switch ($("#oferta_tipo").val()) {
 
             case 'exclusivo':
                 texto_explicacion = '';
                 break;
             case 'discapacitados':
-                texto_explicacion = 'En la experiéncia para discapacitados es obligatorio que vay un integrante más por cada persona discapacitada. Por lo tanto el contador de plazas del producto será el doble';
+                texto_explicacion = 'En la experiéncia para discapacitados es obligatorio que vay un integrante más por cada persona discapacitada. Por lo tanto el contador de plazas del oferta será el doble';
                 break;
             case 'compartido':
                 texto_explicacion = '';
 
                 break;
             case 'ninyos':
-                texto_explicacion = 'En la experiéncia para niño es obligatorio que vay un integrante más por cada  niño. Por lo tanto el contador de plazas del producto será el doble';
+                texto_explicacion = 'En la experiéncia para niño es obligatorio que vay un integrante más por cada  niño. Por lo tanto el contador de plazas del oferta será el doble';
 
                 break;
 
@@ -45,7 +45,7 @@ class Producto extends React.Component {
         }
 
         this.setState({
-            explicacion_producto: texto_explicacion,
+            explicacion_oferta: texto_explicacion,
 
         });
         $('#div_oculto').fadeIn();
@@ -53,23 +53,23 @@ class Producto extends React.Component {
 
     }
 
-    editarProducto() {
-        $('#exampleModalLabel_crearProducto').text('Editar Producto');
+    editarOferta() {
+        $('#exampleModalLabel_crearOferta').text('Editar Oferta');
 
-        $("#editor_producto").fadeIn(600);
-        $("#producto_nombre").val(this.props.nombre);
-        $("#producto_plazas").val(this.props.plazas);
-        $("#producto_precio").val(this.props.precio);
-        $("#producto_tematica").val(this.props.tematica);
-        $("#producto_fecha1").val(this.props.fecha1);
-        $("#producto_fecha2").val(this.props.fecha2);
-        $("#producto_descripcion").val(this.props.descripcion);
+        $("#editor_oferta").fadeIn(600);
+        $("#oferta_nombre").val(this.props.nombre);
+        $("#oferta_plazas").val(this.props.plazas);
+        $("#oferta_precio").val(this.props.precio);
+        $("#oferta_tematica").val(this.props.tematica);
+        $("#oferta_fecha1").val(this.props.fecha1);
+        $("#oferta_fecha2").val(this.props.fecha2);
+        $("#oferta_descripcion").val(this.props.descripcion);
     }
 
-    borrarProducto() {
-        $("#nombre_producto").val(this.props.nombre);
-        $("#plazas_producto").val(this.props.plazas);
-        $("#fechaPublicacion_producto").val(this.props.fechaPublicacion_producto);
+    borrarOferta() {
+        $("#nombre_oferta").val(this.props.nombre);
+        $("#plazas_oferta").val(this.props.plazas);
+        $("#fechaPublicacion_oferta").val(this.props.fechaPublicacion_oferta);
 
     }
 
@@ -104,10 +104,10 @@ class Producto extends React.Component {
                                 <span className="F-grand">{this.props.precio}$</span>
                             </div>
                             <button data-toggle="modal" data-target="#exampleModal3"
-                                    onClick={this.editarProducto.bind(this)} className="w-100 Btn-editar">Editar
+                                    onClick={this.editarOferta.bind(this)} className="w-100 Btn-editar">Editar
                             </button>
-                            <button onClick={this.borrarProducto.bind(this)} data-toggle="modal"
-                                    data-target="#exampleModal2" onClick={this.editarProducto.bind(this)}
+                            <button onClick={this.borrarOferta.bind(this)} data-toggle="modal"
+                                    data-target="#exampleModal2" onClick={this.editarOferta.bind(this)}
                                     className="Btn-transparent P-absolute Cross-adm-pilotos"><i
                                 class="fas fa-times "></i>
                             </button>
@@ -121,14 +121,14 @@ class Producto extends React.Component {
                         <div className="modal-content">
                             <div className="modal-header">
                                 <h3 className="modal-title" id="exampleModalLabel">Estás seguro de que quieres
-                                    borrar este producto?</h3>
+                                    borrar este oferta?</h3>
                                 <button type="button" className="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                 </button>
                             </div>
                             <div className="modal-Body m-3">
-                                <h4 className="mb-4">Datos del producto : </h4>
-                                <h6>Nombre: <small className="ml-2"><input type="text" id="nombre_producto"
+                                <h4 className="mb-4">Datos del oferta : </h4>
+                                <h6>Nombre: <small className="ml-2"><input type="text" id="nombre_oferta"
                                                                            className="Btn-transparent"
                                                                            value={this.props.nombre}/></small>
                                 </h6>
@@ -139,7 +139,7 @@ class Producto extends React.Component {
                                 <button type="button" className="btn btn-secondary" data-dismiss="modal">No
                                 </button>
                                 <button type="button" className="btn btn-primary"
-                                        onClick={this.borrarProducto.bind(this)}>Sí
+                                        onClick={this.borrarOferta.bind(this)}>Sí
                                 </button>
                             </div>
                         </div>
@@ -153,60 +153,52 @@ class Producto extends React.Component {
                     <div className="modal-dialog modal-lg" role="document">
                         <div className="modal-content">
                             <div className="modal-header">
-                                <h3 className="modal-title w-100 text-center" id="exampleModalLabel_crearProducto"></h3>
+                                <h3 className="modal-title w-100 text-center" id="exampleModalLabel_crearOferta"></h3>
                                 <button type="button" className="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                 </button>
                             </div>
                             <div className="modal-Body m-3">
-                                <div id="editor_producto" className="col-12 Editor-producto">
+                                <div id="editor_oferta" className="col-12 Editor-oferta">
 
-                                    <form className="form-material m-t-10 row" id="producto_form">
-                                        <div class="form-group col-12 col-md-12 m-t-20">
-                                            <label className="Label-productos">Tipo:</label>
-                                            <select onChange={this.change_tipo.bind(this)} class="form-control"
-                                                    name="producto_tipo" id="producto_tipo" required>
-                                                <option value=""  >Elige el tipo de producto</option>
-                                                <option value="alojamiento">Alojamiento</option>
-                                                <option value="restaurante">Restaurante</option>
-                                                <option value="actividades_turisticas">Actividades Turísticas</option>
+                                    <form className="form-material m-t-10 row" id="oferta_form">
+                                        <div class="form-group col-12 col-md-6 m-t-20">
+                                            <label className="Label-ofertas">Vincular Experiéncia:</label>
+                                            <select class="form-control" name="oferta_experiencia" id="oferta_experiencia">
+                                                <option value="1">Exp1</option>
+                                                <option value="0">Exp2</option>
                                             </select>
-                                            <small className="Gris-flojo">{this.state.explicacion_producto}
-                                            </small>
+                                        </div>
 
+                                        <div class="form-group col-12 col-md-6 m-t-20">
+                                            <label className="Label-ofertas">Estado:</label>
+                                            <select class="form-control" name="oferta_estado" id="oferta_estado">
+                                                <option value="1">Activado</option>
+                                                <option value="0">Desactivado</option>
+                                            </select>
                                         </div>
 
 
                                             <div class="form-group col-12 col-md-6 m-t-20">
-                                                <label className="Label-productos"
-                                                       htmlFor="producto_nombre">Nombre:</label>
+                                                <label className="Label-ofertas"
+                                                       htmlFor="oferta_nombre">Nombre:</label>
                                                 <input type="text" class="form-control form-control-line"
-                                                       placeholder="Nombre" id="producto_nombre" required name="producto_nombre"/>
-                                            </div>
-                                            <div class="form-group col-12 col-md-6 m-t-20">
-                                                <label className="Label-productos">Plazas:</label>
-
-                                                <input type="text" placeholder="Plazas" class="form-control form-control-line" name="producto_plazas" id="producto_plazas"/>
-                                            </div>
-                                            <div class="form-group col-12 col-md-6 m-t-20">
-                                                <label className="Label-productos">Precio:</label>
-                                                <input type="text" class="form-control form-control-line"
-                                                       placeholder="Precio" id="producto_precio" name="producto_precio"/>
-                                            </div>
-                                            <div class="form-group col-12 col-md-6 m-t-20">
-                                                <label className="Label-productos">Temática:</label>
-                                                <select class="form-control" name="producto_tematica" id="producto_tematica">
-                                                    <option value="romantico">Romántico</option>
-                                                    <option value="historico">Histórico</option>
-                                                    <option value="aventuras">Aventuras</option>
-                                                </select>
+                                                       placeholder="Nombre" id="oferta_nombre" required name="oferta_nombre"/>
                                             </div>
 
-                                            <div class="form-group col-12 col-md-12 m-t-20">
-                                                <label className="Label-productos">Video:</label>
+                                            <div class="form-group col-12 col-md-6 m-t-20">
+                                                <label className="Label-ofertas">Precio:</label>
                                                 <input type="text" class="form-control form-control-line"
-                                                       value="" placeholder="Inserte la URL de un video " id="producto_video" name="producto_video"/>
+                                                       placeholder="Precio" id="oferta_precio" name="oferta_precio"/>
                                             </div>
+                                        <div class="form-group col-12 col-md-6 m-t-20">
+                                            <label className="Label-ofertas">Descuento:</label>
+                                            <input type="text" class="form-control form-control-line"
+                                                   placeholder="Oferta" id="oferta_descuento" name="oferta_descuento"/>
+                                        </div>
+
+
+
                                             <div class="form-group col-md-12 m-t-20">
                                                 <label>Descripción</label>
                                                 <TextEditor/>
@@ -215,21 +207,18 @@ class Producto extends React.Component {
                                                 <label>Imagen Principal</label>
                                                 <Dropzone/>
                                             </div>
-                                            <div class="form-group col-md-12 m-t-20">
-                                                <label>Imágenes</label>
-                                                <Dropzone/>
-                                            </div>
+
                                             <div class="form-group col-12 col-md-6 m-t-20">
-                                                <label className="Label-productos">Desde:</label>
+                                                <label className="Label-ofertas">Desde:</label>
 
                                                 <input class="form-control" type="date" placeholder="Desde" value=""
-                                                       id="producto_fecha1" name="fecha1"/>
+                                                       id="oferta_fecha1" name="fecha1"/>
                                             </div>
                                             <div class="form-group col-12 col-md-6 m-t-20">
-                                                <label className="Label-productos">Hasta:</label>
+                                                <label className="Label-ofertas">Hasta:</label>
 
                                                 <input class="form-control" type="date" placeholder="Desde" value=""
-                                                       id="producto_fecha2" name="producto_fecha2"/>
+                                                       id="oferta_fecha2" name="oferta_fecha2"/>
                                             </div>
 
                                             <div class="form-group col-12 col-md-12 m-t-20">
@@ -243,7 +232,7 @@ class Producto extends React.Component {
 
 
                                                 }
-                                                          onselect_event={event => alert("Esta fecha no está disponible ya que tiene un producto")}/>
+                                                          onselect_event={event => alert("Esta fecha no está disponible ya que tiene un oferta")}/>
                                             </div>
 
 
@@ -276,26 +265,26 @@ class Producto extends React.Component {
             start: new Date('2018-05-10'),
             end: new Date('2018-05-16'),
 
-            title: "Producto1"
+            title: "Oferta1"
         }
         ,
         {
             start: new Date('2018-06-10'),
             end: new Date('2018-06-18'),
 
-            title: "Producto2"
+            title: "Oferta2"
         },
         {
             start: new Date('2018-06-12'),
             end: new Date('2018-06-22'),
 
-            title: "Producto3"
+            title: "Oferta3"
         },
         {
             start: new Date('2018-06-16'),
             end: new Date('2018-06-26'),
 
-            title: "Producto4"
+            title: "Oferta4"
         },
 
     ]
@@ -315,11 +304,11 @@ class Producto extends React.Component {
     click_calendario(slotInfo) {
 
         if (this.click == 1) {
-            $("#producto_fecha1").val(this.formatDate(slotInfo.start.toLocaleString('en-US', {timeZone: 'UTC'})))
+            $("#oferta_fecha1").val(this.formatDate(slotInfo.start.toLocaleString('en-US', {timeZone: 'UTC'})))
             this.click = 2;
         } else {
 
-            $("#producto_fecha2").val(this.formatDate(slotInfo.start.toLocaleString('en-US', {timeZone: 'UTC'})))
+            $("#oferta_fecha2").val(this.formatDate(slotInfo.start.toLocaleString('en-US', {timeZone: 'UTC'})))
             this.click = 1;
 
         }
@@ -327,4 +316,4 @@ class Producto extends React.Component {
 }
 
 
-export default Producto;
+export default Oferta;
