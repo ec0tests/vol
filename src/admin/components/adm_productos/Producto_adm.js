@@ -50,18 +50,18 @@ class Producto_adm extends React.Component {
                                                         className="d-inline Float-r Cursor-pointer Btn-transparent"><i
                                                     className="fas fa-plus-circle "></i></button></h3>
                                             <div className="row">
-                                                    <Producto tematica={"romantico"} nombre={"Producto 1"} plazas={"3"} precio={"300"}
+                                                    <Producto  nombre={"Producto 1"} plazas={"3"} precio={"300"}
                                                            fecha1={"22-02-2018"} fecha2={"12-06-2018"}
-                                                           tipo={"exclusivo"} descripcion={"descripcion de la producto"}/>
-                                                    <Producto tematica={"historia"} nombre={"Producto2"} plazas={"2"} precio={"200"}
+                                                           tipo={"Alojamiento"} descripcion={"descripcion de la producto"}/>
+                                                    <Producto nombre={"Producto2"} plazas={"2"} precio={"200"}
                                                            fecha1={"22-02-2018"} fecha2={"12-06-2018"}
-                                                           tipo={"compartido"} descripcion={"descripción de la producto"}/>
-                                                    <Producto tematica={"aventura"} nombre={"Producto3"} plazas={"4"} precio={"400"}
+                                                           tipo={"Restaurante"} descripcion={"descripción de la producto"}/>
+                                                    <Producto  nombre={"Producto3"} plazas={"4"} precio={"400"}
                                                            fecha1={"22-02-2018"} fecha2={"12-06-2018"}
-                                                           tipo={"discapacitados"} descripcion={"descripción de la producto"}/>
-                                                    <Producto tematica={"romantico"} nombre={"Producto4"} plazas={"1"} precio={"200"}
+                                                           tipo={"Actividades turísticas"} descripcion={"descripción de la producto"}/>
+                                                    <Producto  nombre={"Producto4"} plazas={"1"} precio={"200"}
                                                            fecha1={"22-02-2018"} fecha2={"12-06-2018"}
-                                                           tipo={"niños"} descripcion={"descripción de la producto"}/></div>
+                                                           tipo={"Restaurante"} descripcion={"descripción de la producto"}/></div>
                                         </div>
                                     </div>
                                 </div>

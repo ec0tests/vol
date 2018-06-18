@@ -14,7 +14,7 @@ import $ from "jquery";
 
 class Oferta_adm extends React.Component {
     crearOferta() {
-        $('#producto_form')[0].reset();
+        $('#oferta_form')[0].reset();
         $('#exampleModalLabel_crearOferta').text('Crear Oferta');
     }
 
@@ -50,18 +50,18 @@ class Oferta_adm extends React.Component {
                                                         className="d-inline Float-r Cursor-pointer Btn-transparent"><i
                                                     className="fas fa-plus-circle "></i></button></h3>
                                             <div className="row">
-                                                    <Oferta tematica={"romantico"} nombre={"Oferta 1"} plazas={"3"} precio={"300"}
+                                                    <Oferta nombre={"Oferta 1"} plazas={"3"} precio={"300"}
                                                            fecha1={"22-02-2018"} fecha2={"12-06-2018"}
-                                                           tipo={"exclusivo"} descripcion={"descripcion de la producto"}/>
-                                                    <Oferta tematica={"historia"} nombre={"Oferta2"} plazas={"2"} precio={"200"}
+                                                            descripcion={"descripcion de la oferta"}/>
+                                                    <Oferta nombre={"Oferta2"} plazas={"2"} precio={"200"}
                                                            fecha1={"22-02-2018"} fecha2={"12-06-2018"}
-                                                           tipo={"compartido"} descripcion={"descripción de la producto"}/>
-                                                    <Oferta tematica={"aventura"} nombre={"Oferta3"} plazas={"4"} precio={"400"}
+                                                           descripcion={"descripción de la oferta"}/>
+                                                    <Oferta nombre={"Oferta3"} plazas={"4"} precio={"400"}
                                                            fecha1={"22-02-2018"} fecha2={"12-06-2018"}
-                                                           tipo={"discapacitados"} descripcion={"descripción de la producto"}/>
-                                                    <Oferta tematica={"romantico"} nombre={"Oferta4"} plazas={"1"} precio={"200"}
+                                                           descripcion={"descripción de la oferta"}/>
+                                                    <Oferta  nombre={"Oferta4"} plazas={"1"} precio={"200"}
                                                            fecha1={"22-02-2018"} fecha2={"12-06-2018"}
-                                                           tipo={"niños"} descripcion={"descripción de la producto"}/></div>
+                                                          descripcion={"descripción de la oferta"}/></div>
                                         </div>
                                     </div>
                                 </div>
