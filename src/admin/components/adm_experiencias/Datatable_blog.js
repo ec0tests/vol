@@ -51,7 +51,6 @@ export default class Datatable extends React.Component {
 
 
         },
-        exportCSVText: '',
         insertText: 'Crear',
         deleteText: 'Borrar',
         saveText: 'Guardar',
@@ -85,7 +84,7 @@ export default class Datatable extends React.Component {
 
 
             return (
-                <BootstrapTable data={this.data} search={true}   strictSearch={false} pagination  exportCSV options={this.options}>
+                <BootstrapTable data={this.data} search={true}   strictSearch={false} pagination   options={this.options}>
                     <TableHeaderColumn dataField='id' width='40' isKey={true} searchable={false}> ID</TableHeaderColumn>
                     {this.array_columnas[0]}
                     {this.array_columnas[1]}

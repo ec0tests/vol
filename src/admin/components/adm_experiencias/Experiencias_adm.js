@@ -2,20 +2,20 @@ import React, {Component} from 'react';
 import '../../css/style.css';
 import '../../css/colors/blue.css';
 import '../comunes/Nestable.css';
-import './Vuelo_adm.css';
+import './Experiencias_adm.css';
 import Adm_header from '../comunes/header/Header';
 import Adm_menu from '../comunes/menu/Menu';
 import Text_editor from '../comunes/text_editor/Text_editor';
-import Vuelo from './Vuelo';
+import Experiencia from './Experiencia';
 import $ from "jquery";
 
 /*import File_upload from '../comunes/file_upload/File_upload';*/
 
 
-class Vuelo_adm extends React.Component {
-    crearVuelo() {
-        $('#vuelo_form')[0].reset();
-        $('#exampleModalLabel_crearVuelo').text('Crear Vuelo');
+class Experiencia_adm extends React.Component {
+    crearExperiencia() {
+        $('#experiencia_form')[0].reset();
+        $('#exampleModalLabel_crearExperiencia').text('Crear Experiencia');
     }
 
     render() {
@@ -30,10 +30,10 @@ class Vuelo_adm extends React.Component {
                         <div className="container-fluid">
                             <div className="row page-titles">
                                 <div className="col-md-5 col-8 align-self-center">
-                                    <h3 className="text-themecolor m-b-0 m-t-0 text-left">Vuelo</h3>
+                                    <h3 className="text-themecolor m-b-0 m-t-0 text-left">Experiencia</h3>
                                     <ol className="breadcrumb">
                                         <li className="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
-                                        <li className="breadcrumb-item active">Vuelo</li>
+                                        <li className="breadcrumb-item active">Experiencia</li>
                                     </ol>
                                 </div>
 
@@ -45,23 +45,23 @@ class Vuelo_adm extends React.Component {
 
                                     <div className="card ">
                                         <div className="card-body justify-content-start">
-                                            <h3 className="card-title w-100 mb-4"> Vuelos publicadas
-                                                <button data-toggle="modal"  data-target="#exampleModal3"  onClick={this.crearVuelo.bind(this)}
+                                            <h3 className="card-title w-100 mb-4"> Experiencias publicadas
+                                                <button data-toggle="modal"  data-target="#exampleModal3"  onClick={this.crearExperiencia.bind(this)}
                                                         className="d-inline Float-r Cursor-pointer Btn-transparent"><i
                                                     className="fas fa-plus-circle "></i></button></h3>
                                             <div className="row">
-                                                    <Vuelo tematica={"romantico"} nombre={"Vuelo 1"} plazas_diarias={"3"} precio={"300"}
+                                                    <Experiencia tematica={"romantico"} nombre={"Experiencia 1"} plazas_diarias={"3"} precio={"300"}
                                                            fecha1={"22-02-2018"} fecha2={"12-06-2018"}
-                                                           tipo={"exclusivo"} descripcion={"descripcion del vuelo"}/>
-                                                    <Vuelo tematica={"historia"} nombre={"Vuelo2"} plazas_diarias={"2"} precio={"200"}
+                                                           tipo={"exclusivo"} descripcion={"descripcion del experiencia"}/>
+                                                    <Experiencia tematica={"historia"} nombre={"Experiencia2"} plazas_diarias={"2"} precio={"200"}
                                                            fecha1={"22-02-2018"} fecha2={"12-06-2018"}
-                                                           tipo={"compartido"} descripcion={"descripción del vuelo"}/>
-                                                    <Vuelo tematica={"aventura"} nombre={"Vuelo3"} plazas_diarias={"4"} precio={"400"}
+                                                           tipo={"compartido"} descripcion={"descripción del experiencia"}/>
+                                                    <Experiencia tematica={"aventura"} nombre={"Experiencia3"} plazas_diarias={"4"} precio={"400"}
                                                            fecha1={"22-02-2018"} fecha2={"12-06-2018"}
-                                                           tipo={"discapacitados"} descripcion={"descripción del vuelo"}/>
-                                                    <Vuelo tematica={"romantico"} nombre={"Vuelo4"} plazas_diarias={"1"} precio={"200"}
+                                                           tipo={"discapacitados"} descripcion={"descripción del experiencia"}/>
+                                                    <Experiencia tematica={"romantico"} nombre={"Experiencia4"} plazas_diarias={"1"} precio={"200"}
                                                            fecha1={"22-02-2018"} fecha2={"12-06-2018"}
-                                                           tipo={"niños"} descripcion={"descripción del vuelo"}/></div>
+                                                           tipo={"niños"} descripcion={"descripción del experiencia"}/></div>
                                         </div>
                                     </div>
                                 </div>
@@ -80,4 +80,4 @@ class Vuelo_adm extends React.Component {
     }
 }
 
-export default Vuelo_adm;
+export default Experiencia_adm;

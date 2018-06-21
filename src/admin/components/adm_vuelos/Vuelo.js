@@ -81,21 +81,21 @@ class Vuelo extends React.Component {
     render() {
 
         return (
-            <div className="col-4">
+            <div className="col-3">
 
                 <div className="card">
                     <div className="card-img-top" src="http://via.placeholder.com/350x150" alt="Card image cap">
                         <img className="img-fluid w-100" src="http://via.placeholder.com/350x150" alt=""/>
                     </div>
 
-                    <div className="card-body pb-2">
+                    <div className="card-body pb-2 pt-0">
                         <div className="row">
-                            <div className="col-12 d-flex justify-content-between my-2">
-                                <span lassName="F-peq2">{this.props.tipo}</span>
-                                <span lassName="F-peq2">{this.props.fecha1}</span>
+                            <div className="col-12 d-flex justify-content-between my-2 mb-3">
+                                <span className="F-peq">{this.props.tipo}</span>
+                                <span className="F-peq">{this.props.fecha1}</span>
                             </div>
                             <div className="col-12">
-                                <h3 className="text-center">{this.props.nombre}</h3>
+                                <h4 className="text-center my-2 mb-4">{this.props.nombre}</h4>
                                 <p className="F-peq">{this.props.descripcion}</p>
                             </div>
                             <div className="col-12 d-flex justify-content-around">
@@ -171,7 +171,35 @@ class Vuelo extends React.Component {
                                 <div id="editor_vuelo" className="col-12 Editor-vuelo">
 
                                     <form className="form-material m-t-10 row" id="vuelo_form">
+
+                                   {/*     <div class="form-group col-12 col-md-6 m-t-20">
+                                            <label className="Label-vuelos">Desde:</label>
+
+                                            <input class="form-control" type="date" placeholder="Desde" value=""
+                                                   id="vuelo_fecha1" name="fecha1"/>
+                                        </div>
+                                        <div class="form-group col-12 col-md-6 m-t-20">
+                                            <label className="Label-vuelos">Hasta:</label>
+
+                                            <input class="form-control" type="date" placeholder="Desde" value=""
+                                                   id="vuelo_fecha2" name="vuelo_fecha2"/>
+                                        </div>
+
                                         <div class="form-group col-12 col-md-12 m-t-20">
+
+                                            <Calendar fechas={this.calendario_fechas} onselect_slot={
+
+                                                slotInfo =>
+
+
+                                                    this.click_calendario(slotInfo)
+
+
+                                            }
+                                                      onselect_event={event => alert("Esta fecha no está disponible ya que tiene un vuelo")}/>
+                                        </div>*/}
+
+                                        <div class="form-group col-12 col-md-6 m-t-20">
                                             <label className="Label-vuelos">Tipo:</label>
                                             <select onChange={this.change_tipo.bind(this)} class="form-control"
                                                     name="vuelo_tipo" id="vuelo_tipo">
@@ -192,8 +220,8 @@ class Vuelo extends React.Component {
                                                 <input type="text" class="form-control form-control-line"
                                                        placeholder="Nombre" id="vuelo_nombre" required name="vuelo_nombre"/>
                                             </div>
-                                            <div class="form-group col-12 col-md-6 m-t-20">
-                                                <label className="Label-vuelos">Personas:</label>
+                                            <div class="form-group col-12 col-md-3 m-t-20">
+                                                <label className="Label-vuelos">Plazas <br/> estándar:</label>
 
                                                 <select type="text" class="form-control form-control-line"
                                                         id="plazas_diarias" name="plazas_diarias">
@@ -209,10 +237,54 @@ class Vuelo extends React.Component {
                                                     <option value="9">9</option>
                                                     <option value="10">10</option>
                                                     <option value="11">12</option>
-                                                    <option value="12">12</option>
+                                                    <option value="13">13</option>
+                                                    <option value="14">14</option>
+                                                    <option value="15">15</option>
+                                                    <option value="16">16</option>
 
                                                 </select>
                                             </div>
+                                        <div class="form-group col-12 col-md-4 m-t-20">
+                                            <label className="Label-vuelos"> Plazas <br/> Discapacitados + acompañantes:</label>
+
+                                            <select type="text" class="form-control form-control-line"
+                                                    id="plazas_diarias" name="plazas_diarias">
+                                                {/*{this.crearSelect()}*/}
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5</option>
+                                                <option value="6">6</option>
+                                                <option value="7">7</option>
+                                                <option value="8">8</option>
+
+                                            </select>
+                                        </div>
+                                        <div class="form-group col-12 col-md-4 m-t-20">
+                                            <label className="Label-vuelos">Plazas <br/> Niños + Acompañantes:</label>
+
+                                            <select type="text" class="form-control form-control-line"
+                                                    id="plazas_diarias" name="plazas_diarias">
+                                                {/*{this.crearSelect()}*/}
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5</option>
+                                                <option value="6">6</option>
+                                                <option value="7">7</option>
+                                                <option value="8">8</option>
+                                                <option value="9">9</option>
+                                                <option value="10">10</option>
+                                                <option value="11">12</option>
+                                                <option value="13">13</option>
+                                                <option value="14">14</option>
+                                                <option value="15">15</option>
+                                                <option value="16">16</option>
+
+                                            </select>
+                                        </div>
                                             <div class="form-group col-12 col-md-6 m-t-20">
                                                 <label className="Label-vuelos">Precio:</label>
                                                 <input type="text" class="form-control form-control-line"
@@ -243,32 +315,6 @@ class Vuelo extends React.Component {
                                             <label>Imágenes</label>
                                             <Dropzone/>
                                         </div>
-                                            <div class="form-group col-12 col-md-6 m-t-20">
-                                                <label className="Label-vuelos">Desde:</label>
-
-                                                <input class="form-control" type="date" placeholder="Desde" value=""
-                                                       id="vuelo_fecha1" name="fecha1"/>
-                                            </div>
-                                            <div class="form-group col-12 col-md-6 m-t-20">
-                                                <label className="Label-vuelos">Hasta:</label>
-
-                                                <input class="form-control" type="date" placeholder="Desde" value=""
-                                                       id="vuelo_fecha2" name="vuelo_fecha2"/>
-                                            </div>
-
-                                            <div class="form-group col-12 col-md-12 m-t-20">
-
-                                                <Calendar fechas={this.calendario_fechas} onselect_slot={
-
-                                                    slotInfo =>
-
-
-                                                        this.click_calendario(slotInfo)
-
-
-                                                }
-                                                          onselect_event={event => alert("Esta fecha no está disponible ya que tiene un vuelo")}/>
-                                            </div>
 
 
                                             <div class="form-group col-md-12 m-t-20 text-right">

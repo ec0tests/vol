@@ -82,21 +82,21 @@ class Oferta extends React.Component {
     render() {
 
         return (
-            <div className="col-4">
+            <div className="col-3">
 
                 <div className="card">
                     <div className="card-img-top" src="http://via.placeholder.com/350x150" alt="Card image cap">
                         <img className="img-fluid w-100" src="http://via.placeholder.com/350x150" alt=""/>
                     </div>
 
-                    <div className="card-body pb-2">
+                    <div className="card-body pb-2 pt-0">
                         <div className="row">
-                            <div className="col-12 d-flex justify-content-between my-2">
-                                <span lassName="F-peq2">{this.props.tipo}</span>
-                                <span lassName="F-peq2">{this.props.fecha1}</span>
+                            <div className="col-12 d-flex justify-content-between  my-2 mb-3">
+                                <span className="F-peq">{this.props.tipo}</span>
+                                <span className="F-peq">{this.props.fecha1}</span>
                             </div>
                             <div className="col-12">
-                                <h3 className="text-center">{this.props.nombre}</h3>
+                                <h3 className="text-center my-2 mb-4">{this.props.nombre}</h3>
                                 <p className="F-peq">{this.props.descripcion}</p>
                             </div>
                             <div className="col-12 d-flex justify-content-around">
@@ -237,14 +237,15 @@ class Oferta extends React.Component {
 
 
                                             <div class="form-group col-md-12 m-t-20 text-right">
-                                                <button type="submit"
-                                                        className="btn btn-info waves-effect waves-light my-1">Guardar
-                                                </button>
+
                                             </div>
                                     </form>
                                 </div>
                             </div>
                             <div className="modal-footer">
+                                <button type="submit"
+                                        className="btn btn-info waves-effect waves-light my-1">Guardar
+                                </button>
                                 <button type="button" className="btn btn-secondary" data-dismiss="modal">Cerrar
                                 </button>
 

@@ -1,0 +1,11 @@
+.form-group{
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+.Editor-experiencia{
+    /*display: none;*/
+}
+.Label-experiencias{
+    font-size: 13px;color: #333333;
+}
