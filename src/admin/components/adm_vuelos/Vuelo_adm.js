@@ -50,16 +50,16 @@ class Vuelo_adm extends React.Component {
                                                         className="d-inline Float-r Cursor-pointer Btn-transparent"><i
                                                     className="fas fa-plus-circle "></i></button></h3>
                                             <div className="row">
-                                                    <Vuelo tematica={"romantico"} nombre={"Vuelo 1"} plazas_diarias={"3"} precio={"300"}
+                                                    <Vuelo tematica={"romantico"} nombre={"Vuelo 1"} plazas_diarias_totales={"5"} plazas_diarias_ninos={"1"} plazas_diarias_discapacitados={"1"} plazas_diarias_estandar={"3"} precio={"300"}
                                                            fecha1={"22-02-2018"} fecha2={"12-06-2018"}
                                                            tipo={"exclusivo"} descripcion={"descripcion del vuelo"}/>
-                                                    <Vuelo tematica={"historia"} nombre={"Vuelo2"} plazas_diarias={"2"} precio={"200"}
+                                                    <Vuelo tematica={"historia"} nombre={"Vuelo2"} plazas_diarias_totales={"5"} plazas_diarias_ninos={"1"} plazas_diarias_discapacitados={"1"} plazas_diarias_estandar={"3"} precio={"200"}
                                                            fecha1={"22-02-2018"} fecha2={"12-06-2018"}
                                                            tipo={"compartido"} descripcion={"descripción del vuelo"}/>
-                                                    <Vuelo tematica={"aventura"} nombre={"Vuelo3"} plazas_diarias={"4"} precio={"400"}
+                                                    <Vuelo tematica={"aventura"} nombre={"Vuelo3"} plazas_diarias_totales={"5"} plazas_diarias_ninos={"1"} plazas_diarias_discapacitados={"1"} plazas_diarias_estandar={"3"} precio={"400"}
                                                            fecha1={"22-02-2018"} fecha2={"12-06-2018"}
                                                            tipo={"discapacitados"} descripcion={"descripción del vuelo"}/>
-                                                    <Vuelo tematica={"romantico"} nombre={"Vuelo4"} plazas_diarias={"1"} precio={"200"}
+                                                    <Vuelo tematica={"romantico"} nombre={"Vuelo4"} plazas_diarias_totales={"5"} plazas_diarias_ninos={"1"} plazas_diarias_discapacitados={"1"} plazas_diarias_estandar={"3"} precio={"200"}
                                                            fecha1={"22-02-2018"} fecha2={"12-06-2018"}
                                                            tipo={"niños"} descripcion={"descripción del vuelo"}/></div>
                                         </div>

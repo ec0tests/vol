@@ -9,3 +9,7 @@
 .Label-experiencias{
     font-size: 13px;color: #333333;
 }
+input[type="radio"]{
+    opacity: 1!important;
+    position: initial!important;
+}

@@ -10,15 +10,7 @@
 .F-grand{
     font-size: 22px!important;
 }
-.Select-menu-outer{
-}
-.Select-input{
-    width: 100%!important;
 
-}
-.Select-input > input{
-    width: 100%!important;
-}
 .Btn-editar{
     background-color: #5fd618;
     border: 0;

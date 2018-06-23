@@ -1,0 +1,32 @@
+
+.Select-input input{color: #99abb4;
+min-height: 33px;
+display: initial;
+
+border-top: 0;
+border-left: 0;
+border-right: 0;}
+.Select-value{
+    position: absolute;
+    bottom: 33px;
+
+}
+.Select-clear-zone{
+    visibility: hidden;
+}
+.Select-menu-outer{
+    cursor: pointer;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+.Select-input{
+    width: 100%!important;
+
+}
+.Select-placeholder{
+    display: none;
+}
+.Select-input > input{
+    width: 100%!important;
+}

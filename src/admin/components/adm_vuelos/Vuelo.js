@@ -57,7 +57,9 @@ class Vuelo extends React.Component {
 
         $("#editor_vuelo").fadeIn(600);
         $("#vuelo_nombre").val(this.props.nombre);
-        $("#plazas_diarias").val(this.props.plazas_diarias);
+        $("#plazas_diarias_estandar").val(this.props.plazas_diarias_estandar);
+        $("#plazas_diarias_ninos").val(this.props.plazas_diarias_ninos);
+        $("#plazas_diarias_discapacitados").val(this.props.plazas_diarias_discapacitados);
         $("#vuelo_precio").val(this.props.precio);
         $("#vuelo_tematica").val(this.props.tematica);
         $("#vuelo_fecha1").val(this.props.fecha1);
@@ -99,7 +101,7 @@ class Vuelo extends React.Component {
                                 <p className="F-peq">{this.props.descripcion}</p>
                             </div>
                             <div className="col-12 d-flex justify-content-around">
-                                <span className="F-grand"><i class="mdi mdi-account"></i> {this.props.personas}</span>
+                                <span className="F-grand"><i class="mdi mdi-account"></i> {this.props.plazas_diarias_totales}</span>
                                 <span className="F-grand">{this.props.precio}$</span>
                             </div>
                             <button data-toggle="modal" data-target="#exampleModal3"
@@ -224,7 +226,7 @@ class Vuelo extends React.Component {
                                                 <label className="Label-vuelos">Plazas <br/> estándar:</label>
 
                                                 <select type="text" class="form-control form-control-line"
-                                                        id="plazas_diarias" name="plazas_diarias">
+                                                        id="plazas_diarias_estandar" name="plazas_diarias_estandar">
                                                     {/*{this.crearSelect()}*/}
                                                     <option value="1">1</option>
                                                     <option value="2">2</option>
@@ -248,7 +250,7 @@ class Vuelo extends React.Component {
                                             <label className="Label-vuelos"> Plazas <br/> Discapacitados + acompañantes:</label>
 
                                             <select type="text" class="form-control form-control-line"
-                                                    id="plazas_diarias" name="plazas_diarias">
+                                                    id="plazas_diarias_discapacitados" name="plazas_diarias_discapacitados">
                                                 {/*{this.crearSelect()}*/}
                                                 <option value="1">1</option>
                                                 <option value="2">2</option>
@@ -265,7 +267,7 @@ class Vuelo extends React.Component {
                                             <label className="Label-vuelos">Plazas <br/> Niños + Acompañantes:</label>
 
                                             <select type="text" class="form-control form-control-line"
-                                                    id="plazas_diarias" name="plazas_diarias">
+                                                    id="plazas_diarias_ninos" name="plazas_diarias_ninos">
                                                 {/*{this.crearSelect()}*/}
                                                 <option value="1">1</option>
                                                 <option value="2">2</option>

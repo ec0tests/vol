@@ -2,12 +2,17 @@
 /* eslint no-console: 0 */
 import React from 'react';
 import '../comunes/datatable/2/Datatable.css';
-import {BootstrapTable, TableHeaderColumn} from 'react-bootstrap-table';
+import {BootstrapTable, TableHeaderColumn, DeleteButton} from 'react-bootstrap-table';
 
 import $ from 'jquery';
 
 
+//...
 
+
+const selectRow = {
+    mode: 'radio' //radio or checkbox
+};
 /*addProducts(5);*/
 
 function afterSearch(searchText, result) {
@@ -20,18 +25,8 @@ function afterSearch(searchText, result) {
 
 
 
-class ActionFormatter extends React.Component {
 
-    render() {
-        return (
-            <button className='btn btn-danger' data-toggle="modal"  data-target="#modal_borrar_post">Eliminar</button>
-        );
-    }
-}
 
-function actionFormatter(cell, row) {
-    return <ActionFormatter />;
-}
 
 export default class Datatable extends React.Component {
 
@@ -40,6 +35,22 @@ export default class Datatable extends React.Component {
         this.state = {
             modal: props.modal,
         };
+    }
+    handleDeleteButtonClick = (onClick) => {
+        // Custom your onClick event here,
+        // it's not necessary to implement this function if you have no any process before onClick
+        console.log('This is my custom function for DeleteButton click event');
+        onClick();
+    }
+    createCustomDeleteButton = (onClick) => {
+        return (
+            <DeleteButton
+                btnText='Desvincular '
+                btnContextual='btn-danger'
+                className='my-custom-class'
+                /*btnGlyphicon='glyphicon-edit'*/
+                onClick={ () => this.handleDeleteButtonClick(onClick) }/>
+        );
     }
 
     options = {
@@ -51,6 +62,8 @@ export default class Datatable extends React.Component {
 
 
         },
+        deleteBtn: this.createCustomDeleteButton,
+
         insertText: 'Crear',
         deleteText: 'Borrar',
         saveText: 'Guardar',
@@ -84,12 +97,12 @@ export default class Datatable extends React.Component {
 
 
             return (
-                <BootstrapTable data={this.data} search={true}   strictSearch={false} pagination   options={this.options}>
+                <BootstrapTable data={this.data} search={true}    strictSearch={false} pagination selectRow={ selectRow }
+                                deleteRow   options={this.options}>
                     <TableHeaderColumn dataField='id' width='40' isKey={true} searchable={false}> ID</TableHeaderColumn>
                     {this.array_columnas[0]}
                     {this.array_columnas[1]}
                     {this.array_columnas[2]}
-                    <TableHeaderColumn dataField='action' width='120' dataFormat={ actionFormatter } export={ false }>Eliminar</TableHeaderColumn>
                 </BootstrapTable>
             );
         }

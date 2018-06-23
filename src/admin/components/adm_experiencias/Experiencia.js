@@ -10,6 +10,7 @@ import Datatable from './Datatable_blog';
 import Select2 from 'react-select2-wrapper';
 import 'react-select2-wrapper/css/select2.css';
 
+
 class Experiencia extends React.Component {
 
     click = 1;
@@ -18,6 +19,7 @@ class Experiencia extends React.Component {
         super(props);
         this.state = {
             explicacion_experiencia: '',
+
         };
 
     }
@@ -297,7 +299,7 @@ class Experiencia extends React.Component {
                                         </div>*/}
 
                                         <div class="form-group col-12 col-md-6 m-t-20">
-                                            <label className="Label-experiencias">Packs:</label>
+                                            <label className="Label-experiencias">Packs (si el pack escrito no existe, se creará):</label>
                                             <React_select/>
 
                                         </div>
@@ -311,7 +313,7 @@ class Experiencia extends React.Component {
                                         </div>
 
 
-                                        <div class="form-group col-12 col-md-6 m-t-20">
+                                      {/*  <div class="form-group col-12 col-md-6 m-t-20">
                                             <label className="Label-experiencias">Temática:</label>
                                             <select class="form-control" name="experiencia_tematica"
                                                     id="experiencia_tematica">
@@ -319,7 +321,7 @@ class Experiencia extends React.Component {
                                                 <option value="historico">Histórico</option>
                                                 <option value="aventuras">Aventuras</option>
                                             </select>
-                                        </div>
+                                        </div>*/}
                                         <div class="form-group col-md-12 m-t-20">
                                             <label>Descripción</label>
                                             <TextEditor/>

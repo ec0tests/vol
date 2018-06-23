@@ -1,5 +1,6 @@
 import React from 'react';
 import Select from 'react-select';
+import './React-select.css';
 import Experiencia_adm from "../../adm_experiencias/Experiencias_adm";
 class React_select extends React.Component {
     state = {
@@ -18,6 +19,7 @@ class React_select extends React.Component {
         return (
             <Select
                 name="form-field-name"
+
                 value={selectedOption}
                 onChange={this.handleChange}
                 options={[

@@ -50,16 +50,16 @@ class Oferta_adm extends React.Component {
                                                         className="d-inline Float-r Cursor-pointer Btn-transparent"><i
                                                     className="fas fa-plus-circle "></i></button></h3>
                                             <div className="row">
-                                                    <Oferta nombre={"Oferta 1"} plazas={"3"} precio={"300"}
+                                                    <Oferta nombre={"Oferta 1"} plazas={"3"} precio={"300"} descuento={"10"}
                                                            fecha1={"22-02-2018"} fecha2={"12-06-2018"}
                                                             descripcion={"descripcion de la oferta"}/>
-                                                    <Oferta nombre={"Oferta2"} plazas={"2"} precio={"200"}
+                                                    <Oferta nombre={"Oferta2"} plazas={"2"} precio={"200"} descuento={"50"}
                                                            fecha1={"22-02-2018"} fecha2={"12-06-2018"}
                                                            descripcion={"descripción de la oferta"}/>
-                                                    <Oferta nombre={"Oferta3"} plazas={"4"} precio={"400"}
+                                                    <Oferta nombre={"Oferta3"} plazas={"4"} precio={"400"} descuento={"15"}
                                                            fecha1={"22-02-2018"} fecha2={"12-06-2018"}
                                                            descripcion={"descripción de la oferta"}/>
-                                                    <Oferta  nombre={"Oferta4"} plazas={"1"} precio={"200"}
+                                                    <Oferta  nombre={"Oferta4"} plazas={"1"} precio={"200"} descuento={"10"}
                                                            fecha1={"22-02-2018"} fecha2={"12-06-2018"}
                                                           descripcion={"descripción de la oferta"}/></div>
                                         </div>

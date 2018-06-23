@@ -97,11 +97,13 @@ class Oferta extends React.Component {
                             </div>
                             <div className="col-12">
                                 <h3 className="text-center my-2 mb-4">{this.props.nombre}</h3>
-                                <p className="F-peq">{this.props.descripcion}</p>
+                              {/*  <p className="F-peq">{this.props.descripcion}</p>*/}
                             </div>
                             <div className="col-12 d-flex justify-content-around">
+{/*
                                 <span className="F-grand"><i class="mdi mdi-account"></i> {this.props.plazas}</span>
-                                <span className="F-grand">{this.props.precio}$</span>
+*/}
+                                <span className="F-grand">Descuento: {this.props.descuento}%</span>
                             </div>
                             <button data-toggle="modal" data-target="#exampleModal3"
                                     onClick={this.editarOferta.bind(this)} className="w-100 Btn-editar">Editar
@@ -194,7 +196,7 @@ class Oferta extends React.Component {
                                         <div class="form-group col-12 col-md-6 m-t-20">
                                             <label className="Label-ofertas">Descuento:</label>
                                             <input type="text" class="form-control form-control-line"
-                                                   placeholder="Oferta" id="oferta_descuento" name="oferta_descuento"/>
+                                                   placeholder="Descuento" id="oferta_descuento" name="oferta_descuento"/>
                                         </div>
 
 
