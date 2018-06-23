@@ -10,7 +10,7 @@ import Datatable from './Datatable_blog';
 import Select2 from 'react-select2-wrapper';
 import 'react-select2-wrapper/css/select2.css';
 
-
+$
 class Experiencia extends React.Component {
 
     click = 1;
@@ -19,7 +19,6 @@ class Experiencia extends React.Component {
         super(props);
         this.state = {
             explicacion_experiencia: '',
-
         };
 
     }
@@ -27,49 +26,36 @@ class Experiencia extends React.Component {
     columnas_ofertas = {
         "columnas": [
             {
-                "nombre": "Título",
-                "field": 'titulo'
+                "nombre": "Nombre",
+                "field": 'nombre'
             },
             {
-                "nombre": "Subtítulo",
-                "field": 'subtitulo'
+                "nombre": "Descuento",
+                "field": 'descuento'
             }
-            ,
-            {
-                "nombre": "Contenido",
-                "field": 'contenido'
-            }
+           
         ]
     };
 
     data_ofertas = [
-        {'id': 0, 'titulo': 'oferta1', 'subtitulo': 'subtitulo1', 'contenido': 'Contenido'},
-        {'id': 1, 'titulo': 'oferta2', 'subtitulo': 'subtitulo2', 'contenido': 'Contenido'},
-        {'id': 2, 'titulo': 'titulo3', 'subtitulo': 'subtitulo3', 'contenido': 'Contenido'}
+        {'id': 0, 'nombre': 'oferta1', 'descuento': '10%'},
+        {'id': 1, 'nombre': 'oferta2', 'descuento': '40%'},
+        {'id': 2, 'nombre': 'oferta3', 'descuento': '15%'}
     ]
 
     columnas_packs = {
         "columnas": [
             {
-                "nombre": "Título",
-                "field": 'titulo'
-            },
-            {
-                "nombre": "Subtítulo",
-                "field": 'subtitulo'
-            }
-            ,
-            {
-                "nombre": "Contenido",
-                "field": 'contenido'
+                "nombre": "Nombre",
+                "field": 'nombre'
             }
         ]
     };
 
     data_packs = [
-        {'id': 0, 'titulo': 'oferta1', 'subtitulo': 'subtitulo1', 'contenido': 'Contenido'},
-        {'id': 1, 'titulo': 'oferta2', 'subtitulo': 'subtitulo2', 'contenido': 'Contenido'},
-        {'id': 2, 'titulo': 'titulo3', 'subtitulo': 'subtitulo3', 'contenido': 'Contenido'}
+        {'id': 0, 'nombre': 'Romantico'},
+        {'id': 1, 'nombre': 'Aventura'},
+        {'id': 2, 'nombre': 'Histórico'}
     ]
 
     change_tipo() {

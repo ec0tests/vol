@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="689f3cfd-3ccb-444b-a116-11e30d561ec9" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/admin/components/comunes/react-select/React-select.css" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/admin/components/adm_experiencias/Datatable_blog.js" afterPath="$PROJECT_DIR$/src/admin/components/adm_experiencias/Datatable_blog.js" />
-      <change beforePath="$PROJECT_DIR$/src/admin/components/adm_experiencias/Experiencia.css" afterPath="$PROJECT_DIR$/src/admin/components/adm_experiencias/Experiencia.css" />
       <change beforePath="$PROJECT_DIR$/src/admin/components/adm_experiencias/Experiencia.js" afterPath="$PROJECT_DIR$/src/admin/components/adm_experiencias/Experiencia.js" />
-      <change beforePath="$PROJECT_DIR$/src/admin/components/adm_experiencias/Experiencias_adm.css" afterPath="$PROJECT_DIR$/src/admin/components/adm_experiencias/Experiencias_adm.css" />
-      <change beforePath="$PROJECT_DIR$/src/admin/components/adm_ofertas/Oferta.js" afterPath="$PROJECT_DIR$/src/admin/components/adm_ofertas/Oferta.js" />
-      <change beforePath="$PROJECT_DIR$/src/admin/components/adm_ofertas/Oferta_adm.js" afterPath="$PROJECT_DIR$/src/admin/components/adm_ofertas/Oferta_adm.js" />
-      <change beforePath="$PROJECT_DIR$/src/admin/components/adm_vuelos/Vuelo.js" afterPath="$PROJECT_DIR$/src/admin/components/adm_vuelos/Vuelo.js" />
-      <change beforePath="$PROJECT_DIR$/src/admin/components/adm_vuelos/Vuelo_adm.js" afterPath="$PROJECT_DIR$/src/admin/components/adm_vuelos/Vuelo_adm.js" />
-      <change beforePath="$PROJECT_DIR$/src/admin/components/comunes/datatable/Personal.css" afterPath="$PROJECT_DIR$/src/admin/components/comunes/datatable/Personal.css" />
-      <change beforePath="$PROJECT_DIR$/src/admin/components/comunes/react-select/React-select.js" afterPath="$PROJECT_DIR$/src/admin/components/comunes/react-select/React-select.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,12 +13,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Modales.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/admin/components/adm_blog/Modales.js">
+      <file leaf-file-name="Experiencia.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/admin/components/adm_experiencias/Experiencia.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="39">
-              <caret line="28" column="2" lean-forward="true" selection-start-line="28" selection-start-column="2" selection-end-line="47" selection-end-column="10" />
-              <folding />
+            <state relative-caret-position="232">
+              <caret line="35" column="11" lean-forward="false" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -54,7 +45,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Datatable_blog.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Datatable_blog.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/admin/components/adm_experiencias/Datatable_blog.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="84">
@@ -102,7 +93,7 @@
       <file leaf-file-name="Experiencias_adm.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/admin/components/adm_experiencias/Experiencias_adm.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
+            <state relative-caret-position="-1095">
               <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding />
             </state>
@@ -172,8 +163,8 @@
       <find>descuento</find>
       <find>borrar_</find>
       <find>modal_borrar_post</find>
-      <find>precio</find>
       <find>this.props.pl</find>
+      <find>precio</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -224,7 +215,6 @@
         <option value="$PROJECT_DIR$/src/admin/components/adm_experiencias/Experiencia.css" />
         <option value="$PROJECT_DIR$/src/admin/components/comunes/react-select/React-select.js" />
         <option value="$PROJECT_DIR$/src/admin/components/comunes/react-select/React-select.css" />
-        <option value="$PROJECT_DIR$/src/admin/components/adm_experiencias/Experiencia.js" />
         <option value="$PROJECT_DIR$/src/admin/components/adm_vuelos/Vuelo.js" />
         <option value="$PROJECT_DIR$/src/admin/components/adm_vuelos/Vuelo_adm.js" />
         <option value="$PROJECT_DIR$/src/admin/components/adm_ofertas/Oferta_adm.js" />
@@ -233,6 +223,7 @@
         <option value="$PROJECT_DIR$/src/admin/components/adm_experiencias/Experiencias_adm.js" />
         <option value="$PROJECT_DIR$/src/admin/components/adm_experiencias/Experiencias_adm.css" />
         <option value="$PROJECT_DIR$/src/admin/components/adm_experiencias/Datatable_blog.js" />
+        <option value="$PROJECT_DIR$/src/admin/components/adm_experiencias/Experiencia.js" />
       </list>
     </option>
   </component>
@@ -535,12 +526,12 @@
       <workItem from="1529184385813" duration="4678000" />
       <workItem from="1529355983588" duration="3509000" />
       <workItem from="1529616035693" duration="4545000" />
-      <workItem from="1529709968235" duration="3956000" />
+      <workItem from="1529709968235" duration="4125000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="445060000" />
+    <option name="totallyTimeSpent" value="445229000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -856,16 +847,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/admin/components/adm_experiencias/Experiencia.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="712">
-          <caret line="153" column="110" lean-forward="false" selection-start-line="153" selection-start-column="102" selection-end-line="153" selection-end-column="110" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/admin/components/adm_productos/Producto.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="29">
@@ -892,14 +873,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/admin/components/adm_ofertas/Oferta_adm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="55" column="121" lean-forward="false" selection-start-line="55" selection-start-column="121" selection-end-line="55" selection-end-column="121" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/admin/components/adm_ofertas/Oferta.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
@@ -915,14 +888,6 @@
           <caret line="55" column="220" lean-forward="false" selection-start-line="55" selection-start-column="220" selection-end-line="55" selection-end-column="220" />
           <caret line="58" column="220" lean-forward="false" selection-start-line="58" selection-start-column="220" selection-end-line="58" selection-end-column="220" />
           <caret line="61" column="221" lean-forward="false" selection-start-line="61" selection-start-column="221" selection-end-line="61" selection-end-column="221" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/admin/components/adm_experiencias/Experiencias_adm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -968,6 +933,32 @@
           <caret line="47" column="37" lean-forward="false" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
           <folding>
             <element signature="e#51#77#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/admin/components/adm_ofertas/Oferta_adm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="55" column="121" lean-forward="false" selection-start-line="55" selection-start-column="121" selection-end-line="55" selection-end-column="121" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/admin/components/adm_experiencias/Experiencias_adm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1095">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/admin/components/adm_experiencias/Experiencia.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="35" column="11" lean-forward="false" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
