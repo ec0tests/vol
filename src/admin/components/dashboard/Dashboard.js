@@ -221,8 +221,16 @@ class Adm_dashboard extends React.Component {
                                 <div class="col-lg-6 col-md-12">
                                     <div class="card Adm-card">
                                         <div class="card-body justify-content-start">
-                                            <h4 class="card-title">Cupones más utilizados</h4>
+                                            <h4 class="card-title">Cupones activos</h4>
                                             <Datatable options={this.options_boton} columnas={this.columnas_cupones} data={this.data_cupones}/>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-12">
+                                    <div class="card Adm-card">
+                                        <div class="card-body justify-content-start">
+                                            <h4 class="card-title">Cupones cerrados</h4>
+                                            <Datatable options={this.options_boton} columnas={this.columnas_cupones_cerrados} data={this.data_cupones_cerrados}/>
                                         </div>
                                     </div>
                                 </div>
@@ -239,7 +247,7 @@ class Adm_dashboard extends React.Component {
                                 <div class="col-12">
                                     <div class="card Adm-card Overflow-h">
                                         <div class="card-body justify-content-start">
-                                            <h4 class="card-title">Evolución de ventas</h4>
+                                            <h4 class="card-title">Evolución de reservas</h4>
                                             <Chart/>
                                         </div>
                                     </div>
@@ -389,16 +397,40 @@ class Adm_dashboard extends React.Component {
             },
 
             {
-                "nombre": "Nº Usos",
-                "field": 'usos'
+                "nombre": "Fecha de cierre",
+                "field": 'fecha_cierre'
             },
         ]
     };
 
     data_cupones = [
-        {'id': 0, 'cupon': 'cupon1', 'ventas': 100, 'usos': 3},
-        {'id': 1, 'cupon': 'cupon2', 'ventas': 100, 'usos': 3},
-        {'id': 2, 'cupon': 'cupon3', 'ventas': 100, 'usos': 3}
+        {'id': 0, 'cupon': 'cupon1', 'ventas': 100, 'fecha_cierre': '18/08/2018'},
+        {'id': 1, 'cupon': 'cupon2', 'ventas': 100, 'fecha_cierre': '14/08/2018'},
+        {'id': 2, 'cupon': 'cupon3', 'ventas': 100, 'fecha_cierre': '18/07/2018'}
+    ]
+
+    columnas_cupones_cerrados = {
+        "columnas": [
+            {
+                "nombre": "Cupon",
+                "field": 'cupon'
+            },
+            {
+                "nombre": "Ventas",
+                "field": 'ventas'
+            },
+
+            {
+                "nombre": "Fecha de cierre",
+                "field": 'fecha_cierre'
+            },
+        ]
+    };
+
+    data_cupones_cerrados = [
+        {'id': 0, 'cupon': 'cupon1', 'ventas': 100, 'fecha_cierre': '18/05/2018'},
+        {'id': 1, 'cupon': 'cupon2', 'ventas': 100, 'fecha_cierre': '14/05/2018'},
+        {'id': 2, 'cupon': 'cupon3', 'ventas': 100, 'fecha_cierre': '18/05/2018'}
     ]
 
 

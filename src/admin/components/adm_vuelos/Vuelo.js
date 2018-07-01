@@ -61,6 +61,7 @@ class Vuelo extends React.Component {
         $("#plazas_diarias_ninos").val(this.props.plazas_diarias_ninos);
         $("#plazas_diarias_discapacitados").val(this.props.plazas_diarias_discapacitados);
         $("#vuelo_precio").val(this.props.precio);
+        $("#vuelo_precio_ninyos").val(this.props.precio_ninyos);
         $("#vuelo_tematica").val(this.props.tematica);
         $("#vuelo_fecha1").val(this.props.fecha1);
         $("#vuelo_fecha2").val(this.props.fecha2);
@@ -133,7 +134,7 @@ class Vuelo extends React.Component {
                                                                            className="Btn-transparent"
                                                                            value={this.props.nombre}/></small>
                                 </h6>
-                                <h6>Personas: <small className="ml-2">
+                               {/* <h6>Personas: <small className="ml-2">
                                     <p type="text" id="personas_vuelo"
                                        className="Btn-transparent"
                                     >
@@ -144,7 +145,7 @@ class Vuelo extends React.Component {
                                                                                       id="fechaPublicacion_vuelo"
                                                                                       className="Btn-transparent"
                                                                                       value={this.props.fecha_publicacion}/>
-                                </small></h6>
+                                </small></h6>*/}
                             </div>
                             <div className="modal-footer">
                                 <button type="button" className="btn btn-secondary" data-dismiss="modal">No
@@ -288,10 +289,15 @@ class Vuelo extends React.Component {
                                             </select>
                                         </div>
                                             <div class="form-group col-12 col-md-6 m-t-20">
-                                                <label className="Label-vuelos">Precio:</label>
+                                                <label className="Label-vuelos">Precio estándar/discapacitados:</label>
                                                 <input type="text" class="form-control form-control-line"
                                                        placeholder="Precio" id="vuelo_precio" name="vuelo_precio"/>
                                             </div>
+                                        <div class="form-group col-12 col-md-6 m-t-20">
+                                            <label className="Label-vuelos">Precio niños:</label>
+                                            <input type="text" class="form-control form-control-line"
+                                                   placeholder="Precio niños" id="vuelo_precio_ninyos" name="vuelo_precio_ninyos"/>
+                                        </div>
                                             <div class="form-group col-12 col-md-6 m-t-20">
                                                 <label className="Label-vuelos">Temática:</label>
                                                 <select class="form-control" name="vuelo_tematica" id="vuelo_tematica">

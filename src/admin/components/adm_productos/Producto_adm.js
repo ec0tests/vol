@@ -17,6 +17,14 @@ class Producto_adm extends React.Component {
         $('#producto_form')[0].reset();
         $('#exampleModalLabel_crearProducto').text('Crear Producto');
     }
+/*
+    buscar_producto(param='e'){
+        var array_productos= $('.Producto-div');
+        for(var i=0; i<array_productos.length;i++){
+            console.log(array_productos[i]);
+        }
+
+    }*/
 
     render() {
 
@@ -45,10 +53,14 @@ class Producto_adm extends React.Component {
 
                                     <div className="card ">
                                         <div className="card-body justify-content-start">
-                                            <h3 className="card-title w-100 mb-4"> Productos publicadas
+                                            <h3 className="card-title w-100 mb-4"> Productos publicados
                                                 <button data-toggle="modal"  data-target="#exampleModal3"  onClick={this.crearProducto.bind(this)}
                                                         className="d-inline Float-r Cursor-pointer Btn-transparent"><i
                                                     className="fas fa-plus-circle "></i></button></h3>
+                                            <div className="row w-100 justify-content-end mb-3">
+                                               {/* <input type="text" id="search_producto"  placeholder="Buscar producto por nombre"/>
+                                            <button id="btn_buscar" onClick={this.buscar_producto.bind(this)}>Buscar</button>*/}
+                                            </div>
                                             <div className="row">
                                                     <Producto  nombre={"Producto 1"} plazas={"3"} precio={"300"}
                                                            fecha1={"22-02-2018"} fecha2={"12-06-2018"}

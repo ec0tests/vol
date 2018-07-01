@@ -80,11 +80,10 @@ class Producto extends React.Component {
     }
 
     render() {
-
         return (
-            <div className="col-3">
+            <div className="col-3 Producto-div" id={this.props.nombre}>
 
-                <div className="card">
+                <div className="card ">
                     <div className="card-img-top" src="http://via.placeholder.com/350x150" alt="Card image cap">
                         <img className="img-fluid w-100" src="http://via.placeholder.com/350x150" alt=""/>
                     </div>

@@ -45,7 +45,7 @@ class Vuelo_adm extends React.Component {
 
                                     <div className="card ">
                                         <div className="card-body justify-content-start">
-                                            <h3 className="card-title w-100 mb-4"> Vuelos publicadas
+                                            <h3 className="card-title w-100 mb-4"> Vuelos publicados
                                                 <button data-toggle="modal"  data-target="#exampleModal3"  onClick={this.crearVuelo.bind(this)}
                                                         className="d-inline Float-r Cursor-pointer Btn-transparent"><i
                                                     className="fas fa-plus-circle "></i></button></h3>

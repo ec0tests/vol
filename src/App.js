@@ -133,7 +133,7 @@ import bkg1 from "./web/images/bkg-1.jpg";
 
 
 window.loading_screen = window.pleaseWait({
-    logo: "http://clientes-optimoclick.es/sergio/img-vol/logo.png",
+    logo: "https://image.ibb.co/cW4tZy/vdc_logo_b.png",
     backgroundColor: '#2863B1',
     loadingHtml: "<div class=\"spinner\">\n" +
     "  <div class=\"bounce1\"></div>\n" +
@@ -144,7 +144,7 @@ window.loading_screen = window.pleaseWait({
 });
 
 $( document ).ready(function() {
-    window.loading_screen.finish();
+   window.loading_screen.finish();
 
 });
 

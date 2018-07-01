@@ -47,7 +47,7 @@ class Adm_menu extends React.Component {
                                 <NavLink to="/admin/productos" className="has-arrow" activeStyle={{fontWeight: '500', color: '#333333'}}>
                                 <span className="hide-menu">
                                     <i
-                                        className="mdi mdi-book-open-variant"></i>
+                                        className="mdi mdi-package-variant"></i>
                                     Productos
                                 </span>
                                 </NavLink>
@@ -68,8 +68,19 @@ class Adm_menu extends React.Component {
                                 <NavLink to="/admin/experiencias" className="has-arrow" activeStyle={{fontWeight: '500', color: '#333333'}}>
                                 <span className="hide-menu">
                                     <i
-                                        className="mdi mdi-airplane"></i>
+                                        className="mdi mdi-wan"></i>
                                     Experiencias
+                                </span>
+                                </NavLink>
+
+
+                            </li>
+                            <li>
+                                <NavLink to="/admin/reservas" className="has-arrow" activeStyle={{fontWeight: '500', color: '#333333'}}>
+                                <span className="hide-menu">
+                                    <i
+                                        className="mdi mdi-book-open-page-variant"></i>
+                                    Reservas
                                 </span>
                                 </NavLink>
 

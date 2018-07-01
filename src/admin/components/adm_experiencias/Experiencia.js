@@ -10,7 +10,7 @@ import Datatable from './Datatable_blog';
 import Select2 from 'react-select2-wrapper';
 import 'react-select2-wrapper/css/select2.css';
 
-$
+
 class Experiencia extends React.Component {
 
     click = 1;
