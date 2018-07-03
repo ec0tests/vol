@@ -14,6 +14,13 @@ function retablecer_chk(){
 }
 
 
+/*Hace que al clicar en cualquier sitio que no tenga la clase menu icon se ejecute el hide menu*/
+$(document).on("click", function (e) {
+    if ($(e.target).attr("class") != "card" ) {
+        $(".Botones-filtro .card").hide();
+    }
+});
+
 class Buscador_filtro extends React.Component{
 
     constructor(){
@@ -172,7 +179,7 @@ class Buscador_filtro extends React.Component{
 
         return (
                         <div className="row p-3 Botones-filtro">
-                            <div className="col-6 d-flex pl-0">
+                            <div className="col-12 col-md-12 col-lg-9 col-xl-6 d-flex pl-0">
                                 <div className="col-3 p-0" onClick={this.cerrartodo.bind(this)}>
                                     <Datepicker/>
 
