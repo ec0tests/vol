@@ -11,7 +11,12 @@
 .Filtro-personas{
     display: none;
 }
-
+.Opacity{
+    position: inherit!important;
+    opacity: 1!important;
+    margin-right: 10px;
+    padding-top: 2px;
+}
 .Filtro-tipovuelo{
     width: 19rem;
     padding: 1rem 0rem;

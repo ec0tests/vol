@@ -16,8 +16,12 @@ function retablecer_chk(){
 
 /*Hace que al clicar en cualquier sitio que no tenga la clase menu icon se ejecute el hide menu*/
 $(document).on("click", function (e) {
-    if ($(e.target).attr("class") != "card" ) {
+    let clase= $(e.target).attr("class") ;
+    console.log(clase);
+
+    if (clase != "img-fluid" &&  clase != "Opacity" &&  clase != "Btn-restablecer"  ){
         $(".Botones-filtro .card").hide();
+
     }
 });
 
@@ -231,50 +235,49 @@ class Buscador_filtro extends React.Component{
                                     <div id="card_tipovuelo" className={`card Filtro-card Filtro-tipovuelo Z-index-alto`} style={ hidden_filtro_tipo }>
                                         <div className="d-block flex-column px-4 justify-content-start pt-1">
                                             <div className="col-12 d-flex pl-0 pr-0 pt-3">
-                                                <div class="form-check form-check-inline">
-                                                    <input class="form-check-input" type="checkbox" id="ch_individual"
-                                                           value="1"/>
-                                                    <label class="form-check-label pl-4">Vuelo individual</label>
+                                                <div class="">
+                                                    <input class="Opacity" type="checkbox" id="ch_individual"
+                                                           value="1"/>Vuelo individual
                                                 </div>
                                             </div>
 
                                             <div className="col-12 d-flex pl-0 pr-0 pt-2">
-                                                <div class="form-check form-check-inline">
-                                                    <input class="form-check-input" type="checkbox" id="ch_ninos"
+                                                <div class="">
+                                                    <input class="Opacity" type="checkbox" id="ch_ninos"
                                                            value="1"/>
-                                                    <label class="form-check-label pl-4">Con niños</label>
+                                                   Con niños
                                                 </div>
                                             </div>
 
                                             <div className="col-12 d-flex pl-0 pr-0 pt-2">
-                                                <div class="form-check form-check-inline">
-                                                    <input class="form-check-input" type="checkbox" id="ch_2"
+                                                <div class="">
+                                                    <input class="Opacity" type="checkbox" id="ch_2"
                                                            value="1"/>
-                                                    <label class="form-check-label pl-4">Vuelo para 2</label>
+                                                    Vuelo para 2
                                                 </div>
                                             </div>
 
                                             <div className="col-12 d-flex pl-0 pr-0 pt-2">
-                                                <div class="form-check form-check-inline">
-                                                    <input class="form-check-input" type="checkbox" id="ch_4"
+                                                <div class="">
+                                                    <input class="Opacity" type="checkbox" id="ch_4"
                                                            value="1"/>
-                                                    <label class="form-check-label pl-4">Vuelo para 4</label>
+                                                    Vuelo para 4
                                                 </div>
                                             </div>
 
                                             <div className="col-12 d-flex pl-0 pr-0 pt-2">
-                                                <div class="form-check form-check-inline">
-                                                    <input class="form-check-input" type="checkbox" id="ch_adaptados"
+                                                <div class="">
+                                                    <input class="Opacity" type="checkbox" id="ch_adaptados"
                                                            value="1"/>
-                                                    <label class="form-check-label pl-4">Vuelos adaptados</label>
+                                                    Vuelos adaptados
                                                 </div>
                                             </div>
 
                                             <div className="col-12 d-flex pl-0 pr-0 pt-4 justify-content-end">
-                                                <div class="form-check form-check-inline Input-gray m-0">
-                                                    <label class="form-check-label  pr-3">Globo no compartido</label>
+                                                <div class=" Input-gray m-0">
+                                                    Globo no compartido
 
-                                                    <input class="form-check-input" type="checkbox" id="ch_nocompartidos"
+                                                    <input class="Opacity" type="checkbox" id="ch_nocompartidos"
                                                            value="1"/>
                                                 </div>
                                             </div>
@@ -294,26 +297,26 @@ class Buscador_filtro extends React.Component{
                                     <div id="card_pack" className={`card Filtro-card Filtro-packs Z-index-alto pb-3`} style={ hidden_filtro_pack }>
                                         <div className="d-block flex-column px-4 justify-content-start pt-1">
                                             <div className="col-12 d-flex pl-0 pr-0 pt-3">
-                                                <div class="form-check form-check-inline">
-                                                    <input class="form-check-input" type="checkbox" onClick={this.toggle_ch_romantico.bind(this)} id="ch_romantico"
+                                                <div class="">
+                                                    <input class="Opacity" type="checkbox" onClick={this.toggle_ch_romantico.bind(this)} id="ch_romantico"
                                                            value="1" checked={this.state.p_romantico} />
-                                                    <label class="form-check-label pl-4">Pack Romántico</label>
+                                                    Pack Romántico
                                                 </div>
                                             </div>
 
                                             <div className="col-12 d-flex pl-0 pr-0 pt-2">
-                                                <div class="form-check form-check-inline">
-                                                    <input class="form-check-input" type="checkbox" onClick={this.toggle_ch_historia.bind(this)} id="ch_historia"
+                                                <div class="">
+                                                    <input class="Opacity" type="checkbox" onClick={this.toggle_ch_historia.bind(this)} id="ch_historia"
                                                            value="1" checked={this.state.p_historico} />
-                                                    <label class="form-check-label pl-4">Pack Historico</label>
+                                                    Pack Historico
                                                 </div>
                                             </div>
 
                                             <div className="col-12 d-flex pl-0 pr-0 pt-2">
-                                                <div class="form-check form-check-inline">
-                                                    <input class="form-check-input" onClick={this.toggle_ch_aventura.bind(this)} type="checkbox" id="ch_aventura"
+                                                <div class="">
+                                                    <input class="Opacity" onClick={this.toggle_ch_aventura.bind(this)} type="checkbox" id="ch_aventura"
                                                            value="1" checked={this.state.p_aventura} />
-                                                    <label class="form-check-label pl-4">Pack Aventura</label>
+                                                    Pack Aventura
                                                 </div>
                                             </div>
 

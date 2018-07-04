@@ -250,7 +250,7 @@ class Buscador_filtro_movil extends React.Component {
                                         <div class="form-check form-check-inline">
                                             <input class="form-check-input" type="checkbox" id="ch_individual"
                                                    value="1"/>
-                                            <label class="form-check-label pl-2">Vuelo individual</label>
+                                            <label class="form-check-label pl-4">Vuelo individual</label>
                                         </div>
                                     </div>
 
@@ -258,7 +258,7 @@ class Buscador_filtro_movil extends React.Component {
                                         <div class="form-check form-check-inline">
                                             <input class="form-check-input" type="checkbox" id="ch_ninos"
                                                    value="1"/>
-                                            <label class="form-check-label pl-2">Con niños</label>
+                                            <label class="form-check-label pl-4">Con niños</label>
                                         </div>
                                     </div>
 
@@ -266,7 +266,7 @@ class Buscador_filtro_movil extends React.Component {
                                         <div class="form-check form-check-inline">
                                             <input class="form-check-input" type="checkbox" id="ch_2"
                                                    value="1"/>
-                                            <label class="form-check-label pl-2">Vuelo para 2</label>
+                                            <label class="form-check-label pl-4">Vuelo para 2</label>
                                         </div>
                                     </div>
 
@@ -274,7 +274,7 @@ class Buscador_filtro_movil extends React.Component {
                                         <div class="form-check form-check-inline">
                                             <input class="form-check-input" type="checkbox" id="ch_4"
                                                    value="1"/>
-                                            <label class="form-check-label pl-2">Vuelo para 4</label>
+                                            <label class="form-check-label pl-4">Vuelo para 4</label>
                                         </div>
                                     </div>
 
@@ -282,7 +282,7 @@ class Buscador_filtro_movil extends React.Component {
                                         <div class="form-check form-check-inline">
                                             <input class="form-check-input" type="checkbox" id="ch_adaptados"
                                                    value="1"/>
-                                            <label class="form-check-label pl-2">Vuelos adaptados</label>
+                                            <label class="form-check-label pl-4">Vuelos adaptados</label>
                                         </div>
                                     </div>
 
@@ -311,7 +311,7 @@ class Buscador_filtro_movil extends React.Component {
                                         <div class="form-check form-check-inline">
                                             <input class="form-check-input" type="checkbox" onClick={this.toggle_ch_romantico.bind(this)} id="ch_romantico"
                                                    value="1" checked={this.state.p_romantico} />
-                                            <label class="form-check-label pl-2">Pack Romántico</label>
+                                            <label class="form-check-label pl-4">Pack Romántico</label>
                                         </div>
                                     </div>
 
@@ -319,7 +319,7 @@ class Buscador_filtro_movil extends React.Component {
                                         <div class="form-check form-check-inline">
                                             <input class="form-check-input" type="checkbox" onClick={this.toggle_ch_historia.bind(this)} id="ch_historia"
                                                    value="1" checked={this.state.p_historico} />
-                                            <label class="form-check-label pl-2">Pack Historico</label>
+                                            <label class="form-check-label pl-4">Pack Historico</label>
                                         </div>
                                     </div>
 
@@ -327,7 +327,7 @@ class Buscador_filtro_movil extends React.Component {
                                         <div class="form-check form-check-inline">
                                             <input class="form-check-input" onClick={this.toggle_ch_aventura.bind(this)} type="checkbox" id="ch_aventura"
                                                    value="1" checked={this.state.p_aventura} />
-                                            <label class="form-check-label pl-2">Pack Aventura</label>
+                                            <label class="form-check-label pl-4">Pack Aventura</label>
                                         </div>
                                     </div>
 
