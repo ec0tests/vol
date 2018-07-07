@@ -1,3 +1,14 @@
 .CursorNormal{
     cursor: context-menu;
 }
+.list-group i{
+    float: right!important;
+}
+.Btn-icono{
+    border: 0;
+    background-color: transparent;
+    float: right;
+}
+.Scroll{
+    overflow-y: scroll;
+}

@@ -55,11 +55,11 @@ export default class Datatable extends React.Component {
             return (
              <BootstrapTable data={this.data} search={true} searchPlaceholder={'Buscar'}   strictSearch={false} pagination  exportCSV options={this.options}>
                 <TableHeaderColumn dataField='id' width='40' dataSort={ true } isKey={true} searchable={false}> ID</TableHeaderColumn>
-                 <TableHeaderColumn dataField='nombre' dataSort={ true } width='120' searchable={true}>Nombre</TableHeaderColumn>
-                 <TableHeaderColumn dataField='personas' dataSort={ true }  width='90'>Personas</TableHeaderColumn>
-                 <TableHeaderColumn dataField='especiales'  dataSort={ true } width='100'>Especiales</TableHeaderColumn>
-                 <TableHeaderColumn dataField='tipo_vuelo' width='120'>Tipo Vuelo</TableHeaderColumn>
-                 <TableHeaderColumn dataField='fecha' width='120' searchable={true}>Fecha</TableHeaderColumn>
+                 <TableHeaderColumn dataField='reserva_nombre' dataSort={ true } width='120' searchable={true}>Nombre</TableHeaderColumn>
+                 <TableHeaderColumn dataField='reserva_personas' dataSort={ true }  width='90'>Personas</TableHeaderColumn>
+                 <TableHeaderColumn dataField='reserva_especiales'  dataSort={ true } width='100'>Especiales</TableHeaderColumn>
+                 <TableHeaderColumn dataField='reserva_tipo_vuelo' width='120'>Tipo Vuelo</TableHeaderColumn>
+                 <TableHeaderColumn dataField='fecha_reserva' width='120' searchable={true}>Fecha</TableHeaderColumn>
                  <TableHeaderColumn dataField='action' width='120' dataFormat={ actionFormatter } export={ false }></TableHeaderColumn>
 
              </BootstrapTable>

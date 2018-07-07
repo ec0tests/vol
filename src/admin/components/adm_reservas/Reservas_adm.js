@@ -6,6 +6,7 @@ import './Reservas_adm.css';
 import Adm_header from '../comunes/header/Header';
 import Calendar from '../comunes/calendar/Calendar';
 import Adm_menu from '../comunes/menu/Menu';
+import Row_lista from './Row_lista';
 import Select2 from 'react-select2-wrapper';
 
 import Datatable from './Datatable_reservas';
@@ -13,12 +14,34 @@ import $ from "jquery";
 
 /*import File_upload from '../comunes/file_upload/File_upload';*/
 
+
+
+
+/*Creo el array de filtro provisional*/
+
+
+
+
+
+
+
 function afterSearch(searchText, result) {
     console.log('Your search text is ' + searchText);
-   console.log(this.state);
+    console.log(this.state);
 }
-class Reservas_adm extends React.Component {
 
+class Reservas_adm extends React.Component {
+    array_reservas =[];
+
+    rellenarReservas(){
+        for (var i = 0; i < this.data_reservas.length; i++) {
+            this.array_reservas.push(<Row_lista reserva_nombre={this.data_reservas[i].reserva_nombre} reserva_telefono={this.data_reservas[i].reserva_telefono}
+                                               reserva_email={this.data_reservas[i].reserva_email} reserva_personas={this.data_reservas[i].reserva_personas}
+                                               reserva_email={this.data_reservas[i].reserva_email} reserva_personas={this.data_reservas[i].reserva_personas} reserva_tipo_vuelo={this.data_reservas[i].tipo_vuelo}
+                reserva_estandar={this.data_reservas[i].reserva_estandar} reserva_discapacitados={this.data_reservas[i].reserva_discapacitados} reserva_ninyos={this.data_reservas[i].reserva_ninyos}
+                                                reserva_precio={this.data_reservas[i].reserva_precio} fecha_reserva={this.data_reservas[i].fecha_reserva} fecha_vuelo={this.data_reservas[i].fecha_vuelo}/>);
+        }
+    }
     constructor(props) {
         super(props);
         this.setState.bind(this);
@@ -31,13 +54,14 @@ class Reservas_adm extends React.Component {
             reserva_personas: '',
             reserva_estandar: '',
             reserva_discapacitados: '',
-            reserva_niynos: '',
+            reserva_ninyos: '',
             reserva_precio: '',
             reserva_ofertas: '',
             reserva_productos: '',
             fecha_reserva: '',
             fecha_vuelo: '',
 
+            modal_lista_header:'',
             btn_reserva: 'Crear',
             showBorrar: false,
             showGuardar: false,
@@ -84,16 +108,17 @@ class Reservas_adm extends React.Component {
 
     }
 
-    formEditar(){
-      /*  $('input').removeClass( "CursorNormal");
-        $('input').prop('readonly', false);
-        $('select').prop('disabled', false);*/
+    formEditar() {
+        /*  $('input').removeClass( "CursorNormal");
+          $('input').prop('readonly', false);
+          $('select').prop('disabled', false);*/
     }
 
     click_calendario(slotInfo) {
 
 
     }
+
     formatDate(date) {
         var d = new Date(date),
             month = '' + (d.getMonth() + 1),
@@ -103,17 +128,20 @@ class Reservas_adm extends React.Component {
         if (month.length < 2) month = '0' + month;
         if (day.length < 2) day = '0' + day;
 
-        return [day,month,year].join('/');
+        return [day, month, year].join('/');
     }
 
     click_reservas(event) {
+        this.array_reservas=[];
+        this.rellenarReservas();
 
-        $('.react-bs-table-search-form input').val(this.formatDate(event.start));
-        $('.react-bs-table-search-form input').keyup();
-        $('.react-bs-table-search-form input').keydown();
-        $('.react-bs-table-search-form input').keypress();
-        $('html,body').animate({scrollTop: 0}, 'slow');
-        /* this.setState({
+
+        /*       $('.react-bs-table-search-form input').val(this.formatDate(event.start));
+               $('.react-bs-table-search-form input').keyup();
+               $('.react-bs-table-search-form input').keydown();
+               $('.react-bs-table-search-form input').keypress();
+               $('html,body').animate({scrollTop: 0}, 'slow');*/
+        this.setState({
              titulo_form: 'Editar Reserva',
              reserva_nombre: event.usuario,
              reserva_telefono: event.reserva_telefono,
@@ -128,14 +156,14 @@ class Reservas_adm extends React.Component {
              fecha_reserva: event.fecha_reserva,
              fecha_vuelo: event.fecha_vuelo,
              reserva_precio: event.precio,
-
+             modal_lista_header: 'Reservas del  '+ this.formatDate(event.start ),
              btn_reserva: 'Editar',
              showBorrar: true
 
 
-         });*/
+         });
 
-        /*$('#modal_reserva').modal('show')*/
+        $('#modal_lista').modal('show')
 
 
     }
@@ -145,21 +173,24 @@ class Reservas_adm extends React.Component {
         afterSearch: afterSearch,  // define a after search hook,
 
         onRowClick: function (row, columnIndex, rowIndex, e) {
-           /* $('input').addClass( "CursorNormal");
-            $('input').prop('readonly', true);
-            $('select').prop('disabled', true);
-*/
+            /* $('input').addClass( "CursorNormal");
+             $('input').prop('readonly', true);
+             $('select').prop('disabled', true);
+ */
             $('#titulo_modal_reserva').html('Ver / Editar reserva');
 
-            $('#reserva_precio').val(row.precio)
-            $('#reserva_fecha').val(row.fecha)
-            $('#reserva_nombre').val(row.nombre)
-            $('#reserva_personas').val(row.personas)
-            $('#reserva_tipo_vuelo').val(row.tipo_vuelo)
-            $('#reserva_especiales').val(row.especiales)
-            $('#reserva_ninyos').val(row.ninyos)
-            $('#reserva_estandar').val(row.estandar)
-            $('#reserva_discapacitados').val(row.discapacitados)
+            $('#reserva_precio').val(row.reserva_precio)
+            $('#fecha_reserva').val(row.fecha_reserva)
+            $('#fecha_vuelo').val(row.fecha_vuelo)
+            $('#reserva_nombre').val(row.reserva_nombre)
+            $('#reserva_personas').val(row.reserva_personas)
+            $('#reserva_tipo_vuelo').val(row.reserva_tipo_vuelo)
+            $('#reserva_telefono').val(row.reserva_telefono)
+            $('#reserva_email').val(row.reserva_email)
+            $('#reserva_especiales').val(row.reserva_especiales)
+            $('#reserva_ninyos').val(row.reserva_ninyos)
+            $('#reserva_estandar').val(row.reserva_estandar)
+            $('#reserva_discapacitados').val(row.reserva_discapacitados)
             $('#modal_reserva').modal('show')
         },
         exportCSVText: '',
@@ -173,41 +204,50 @@ class Reservas_adm extends React.Component {
     data_reservas = [
         {
             'id': 0,
-            'nombre': 'Pepe Garcia',
-            'personas': 5,
-            'especiales': 5,
-            'tipo_vuelo': 'Compartido',
-            'fecha': '10/07/2018',
-            'discapacitados': 4,
-            'ninyos': 3,
-            'estandar': 4,
-            'precio': 200
+            'reserva_nombre': 'Pepe Garcia',
+            'reserva_personas': 5,
+            'reserva_email': 'email@gmail.com',
+            'reserva_telefono' : '999555444',
+            'reserva_especiales': 5,
+            'reserva_tipo_vuelo': 'compartido',
+            'fecha_vuelo': '10/07/2018',
+            'fecha_reserva': '10/07/2018',
+            'reserva_discapacitados': 4,
+            'reserva_ninyos': 3,
+            'reserva_estandar': 4,
+            'reserva_precio': 200
 
         },
         {
             'id': 1,
-            'nombre': 'Juan Castro',
-            'personas': 6,
-            'especiales': 5,
-            'tipo_vuelo': 'Compartido',
-            'fecha': '10/06/2018',
-            'discapacitados': 4,
-            'ninyos': 3,
-            'estandar': 4,
-            'precio': 200
+            'reserva_nombre': 'Juan Castro',
+            'reserva_personas': 6,
+            'reserva_email': 'email@gmail.com',
+            'reserva_telefono' : '999555444',
+            'reserva_especiales': 5,
+            'reserva_tipo_vuelo': 'compartido',
+            'fecha_vuelo': '10/06/2018',
+            'fecha_reserva': '10/06/2018',
+            'reserva_discapacitados': 4,
+            'reserva_ninyos': 3,
+            'reserva_estandar': 4,
+            'reserva_precio': 200
 
         },
         {
             'id': 2,
-            'nombre': 'Lola Rodriguez',
-            'personas': 7,
-            'especiales': 5,
-            'tipo_vuelo': 'Compartido',
-            'fecha': '12/06/2018',
-            'discapacitados': 4,
-            'ninyos': 3,
-            'estandar': 4,
-            'precio': 200
+            'reserva_nombre': 'Lola Rodriguez',
+            'reserva_personas': 7,
+            'reserva_email': 'email@gmail.com',
+            'reserva_telefono' : '999555444',
+            'reserva_especiales': 5,
+            'reserva_tipo_vuelo': 'Compartido',
+            'fecha_vuelo': '12/06/2018',
+            'fecha_reserva': '12/06/2018',
+            'reserva_discapacitados': 4,
+            'reserva_ninyos': 3,
+            'reserva_estandar': 4,
+            'reserva_precio': 200
         }
     ]
 
@@ -217,7 +257,7 @@ class Reservas_adm extends React.Component {
             start: new Date('2018-07-10'),
             end: new Date('2018-07-10'),
 
-            title: 7,
+            title: 3,
             usuario: "Usuario1",
             precio: '100',
 
@@ -228,7 +268,7 @@ class Reservas_adm extends React.Component {
             start: new Date('2018-06-10'),
             end: new Date('2018-06-10'),
 
-            title: 5,
+            title: 3,
             usuario: "Usuario1",
             precio: '100',
 
@@ -237,7 +277,7 @@ class Reservas_adm extends React.Component {
             start: new Date('2018-06-12'),
             end: new Date('2018-06-12'),
 
-            title: 4,
+            title: 3,
             usuario: "Usuario1",
             precio: '100',
 
@@ -246,7 +286,7 @@ class Reservas_adm extends React.Component {
             start: new Date('2018-06-16'),
             end: new Date('2018-06-16'),
 
-            title: 4,
+            title: 3,
             usuario: "Usuario1",
             precio: '100',
 
@@ -350,7 +390,6 @@ class Reservas_adm extends React.Component {
                                                         </select>
 
 
-
                                                     </div>
 
                                                     <div className="form-group col-12 col-md-6 m-t-20">
@@ -436,7 +475,7 @@ class Reservas_adm extends React.Component {
                                                                 style={{display: this.state.showBorrar ? 'inline' : 'none'}}>Eliminar
                                                             Reserva
                                                         </button>
-                                                        <button type="button"  onClick={this.formEditar.bind(this)}
+                                                        <button type="button" onClick={this.formEditar.bind(this)}
                                                                 className="btn btn-info waves-effect waves-light my-1">Editar
                                                         </button>
                                                         <button type="submit"
@@ -453,16 +492,42 @@ class Reservas_adm extends React.Component {
 
                                 </div>
 
+                                {/*MODAL LISTA*/}
+                                <div class="modal" id="modal_lista">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
 
+                                            <div class="modal-header">
+                                                <h4 class="modal-title text-center" id="">{this.state.modal_lista_header}</h4>
+                                                <button type="button" class="close"
+                                                        data-dismiss="modal">&times;</button>
+                                            </div>
+
+                                            <div class="modal-body Scroll">
+                                                <ul class="list-group">
+
+                                                    {this.array_reservas}
+                                                </ul>
+                                            </div>
+
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-danger"
+                                                        data-dismiss="modal">Close
+                                                </button>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
                                 <div className="col-12">
 
                                     <div className="card ">
                                         <div className="card-body justify-content-start">
                                             <h3 className="card-title w-100 mb-4"> Reservas
-                                            <button data-toggle="modal" data-target="#modal_reserva"
-                                                    onClick={this.crearReserva.bind(this)}
-                                                    className="d-inline Float-r Cursor-pointer Btn-transparent"><i
-                                                className="fas fa-plus-circle "></i></button></h3>
+                                                <button data-toggle="modal" data-target="#modal_reserva"
+                                                        onClick={this.crearReserva.bind(this)}
+                                                        className="d-inline Float-r Cursor-pointer Btn-transparent"><i
+                                                    className="fas fa-plus-circle "></i></button></h3>
                                             <Datatable options={this.options_reserva} accion={true}
                                                        data={this.data_reservas}/>
                                         </div>
@@ -502,6 +567,8 @@ class Reservas_adm extends React.Component {
         )
 
     }
+
+
 
 
 }

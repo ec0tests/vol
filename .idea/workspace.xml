@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="689f3cfd-3ccb-444b-a116-11e30d561ec9" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/admin/components/adm_reservas/Row_lista.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/web/components/comunes/Buscador_filtro.css" afterPath="$PROJECT_DIR$/src/web/components/comunes/Buscador_filtro.css" />
-      <change beforePath="$PROJECT_DIR$/src/web/components/comunes/Buscador_filtro.js" afterPath="$PROJECT_DIR$/src/web/components/comunes/Buscador_filtro.js" />
-      <change beforePath="$PROJECT_DIR$/src/web/components/comunes/Buscador_filtro_movil.js" afterPath="$PROJECT_DIR$/src/web/components/comunes/Buscador_filtro_movil.js" />
+      <change beforePath="$PROJECT_DIR$/src/admin/components/adm_reservas/Datatable_reservas.js" afterPath="$PROJECT_DIR$/src/admin/components/adm_reservas/Datatable_reservas.js" />
+      <change beforePath="$PROJECT_DIR$/src/admin/components/adm_reservas/Reservas_adm.css" afterPath="$PROJECT_DIR$/src/admin/components/adm_reservas/Reservas_adm.css" />
+      <change beforePath="$PROJECT_DIR$/src/admin/components/adm_reservas/Reservas_adm.js" afterPath="$PROJECT_DIR$/src/admin/components/adm_reservas/Reservas_adm.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,21 +20,20 @@
       <file leaf-file-name="Menu.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/admin/components/comunes/menu/Menu.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1363">
-              <caret line="49" column="74" lean-forward="false" selection-start-line="49" selection-start-column="74" selection-end-line="49" selection-end-column="74" />
+            <state relative-caret-position="225">
+              <caret line="30" column="18" lean-forward="false" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App.js">
+      <file leaf-file-name="Reservas_adm.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/admin/components/adm_reservas/Reservas_adm.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3683">
-              <caret line="158" column="38" lean-forward="false" selection-start-line="158" selection-start-column="38" selection-end-line="158" selection-end-column="38" />
+            <state relative-caret-position="513">
+              <caret line="39" column="209" lean-forward="false" selection-start-line="39" selection-start-column="209" selection-end-line="39" selection-end-column="209" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
-                <marker date="1530657747042" expanded="true" signature="6028:6040" ph="..." />
               </folding>
             </state>
           </provider>
@@ -42,52 +42,52 @@
       <file leaf-file-name="Filtro.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/web/components/filtro/Filtro.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="133" column="48" lean-forward="false" selection-start-line="133" selection-start-column="48" selection-end-line="133" selection-end-column="48" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Buscador_filtro.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/web/components/comunes/Buscador_filtro.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="609">
-              <caret line="21" column="81" lean-forward="false" selection-start-line="21" selection-start-column="81" selection-end-line="21" selection-end-column="81" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Buscador_filtro.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/web/components/comunes/Buscador_filtro.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="15" column="19" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+            <state relative-caret-position="0">
+              <caret line="0" column="34" lean-forward="false" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Buscador_filtro_movil.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/web/components/comunes/Buscador_filtro_movil.js">
+      <file leaf-file-name="Row_lista.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/admin/components/adm_reservas/Row_lista.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="712">
-              <caret line="252" column="79" lean-forward="false" selection-start-line="252" selection-start-column="79" selection-end-line="252" selection-end-column="79" />
-              <caret line="260" column="79" lean-forward="false" selection-start-line="260" selection-start-column="79" selection-end-line="260" selection-end-column="79" />
-              <caret line="268" column="79" lean-forward="false" selection-start-line="268" selection-start-column="79" selection-end-line="268" selection-end-column="79" />
-              <caret line="276" column="79" lean-forward="false" selection-start-line="276" selection-start-column="79" selection-end-line="276" selection-end-column="79" />
-              <caret line="284" column="79" lean-forward="false" selection-start-line="284" selection-start-column="79" selection-end-line="284" selection-end-column="79" />
-              <caret line="313" column="79" lean-forward="false" selection-start-line="313" selection-start-column="79" selection-end-line="313" selection-end-column="79" />
-              <caret line="321" column="79" lean-forward="false" selection-start-line="321" selection-start-column="79" selection-end-line="321" selection-end-column="79" />
-              <caret line="329" column="79" lean-forward="false" selection-start-line="329" selection-start-column="79" selection-end-line="329" selection-end-column="79" />
+            <state relative-caret-position="401">
+              <caret line="14" column="43" lean-forward="false" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+              <caret line="15" column="42" lean-forward="false" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+              <caret line="16" column="40" lean-forward="false" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+              <caret line="17" column="43" lean-forward="false" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+              <caret line="18" column="45" lean-forward="false" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+              <caret line="19" column="47" lean-forward="false" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+              <caret line="20" column="45" lean-forward="false" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+              <caret line="21" column="42" lean-forward="false" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+              <caret line="22" column="47" lean-forward="false" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+              <caret line="23" column="43" lean-forward="false" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+              <caret line="24" column="45" lean-forward="false" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
+              <caret line="25" column="51" lean-forward="false" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
               <folding>
-                <element signature="e#0#39#0" expanded="true" />
+                <element signature="e#51#77#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Reservas_adm.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/admin/components/adm_reservas/Reservas_adm.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="348">
+              <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Datatable_reservas.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/admin/components/adm_reservas/Datatable_reservas.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="521">
+              <caret line="61" column="60" lean-forward="false" selection-start-line="61" selection-start-column="60" selection-end-line="61" selection-end-column="60" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -95,42 +95,8 @@
       <file leaf-file-name="Menu2.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/web/components/comunes/Menu2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2158">
-              <caret line="138" column="46" lean-forward="false" selection-start-line="138" selection-start-column="42" selection-end-line="138" selection-end-column="46" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Card_experiencias.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/web/components/comunes/Card_experiencias.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="9" column="61" lean-forward="false" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Card_experiencias.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/web/components/comunes/Card_experiencias.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4118">
-              <caret line="142" column="0" lean-forward="false" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Filtro.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/web/components/filtro/Filtro.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5568">
-              <caret line="192" column="0" lean-forward="false" selection-start-line="192" selection-start-column="0" selection-end-line="199" selection-end-column="0" />
+            <state relative-caret-position="-826">
+              <caret line="128" column="9" lean-forward="true" selection-start-line="128" selection-start-column="9" selection-end-line="128" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -148,21 +114,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>columnas</find>
-      <find>row</find>
-      <find>calend</find>
-      <find>search</find>
-      <find>modal</find>
-      <find>actionFormatter</find>
-      <find>bind</find>
-      <find>#modal_reserva</find>
-      <find>afterSearch</find>
-      <find>&lt;form</find>
-      <find>options</find>
-      <find>click_calendario</find>
-      <find>event.st</find>
-      <find>publicadas</find>
-      <find>render</find>
       <find>inpt</find>
       <find>precio_ni</find>
       <find>cupones</find>
@@ -178,6 +129,21 @@
       <find>Open</find>
       <find>check</find>
       <find>para 2</find>
+      <find>&lt;li</find>
+      <find>&lt;ul</find>
+      <find>Row_li</find>
+      <find>click</find>
+      <find>body</find>
+      <find>Row_l</find>
+      <find>$</find>
+      <find>modal_li</find>
+      <find>bind</find>
+      <find>reserva_estandar</find>
+      <find>nombre</find>
+      <find>row</find>
+      <find>ro</find>
+      <find>reserva_person</find>
+      <find>reserv</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -186,7 +152,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/public/data-local.js" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/admin/components/comunes/calendar/Calendar.js" />
         <option value="$PROJECT_DIR$/src/admin/components/comunes/calendar/Calendar.css" />
@@ -221,9 +186,6 @@
         <option value="$PROJECT_DIR$/src/admin/components/comunes/datatable/2/Datatable.js" />
         <option value="$PROJECT_DIR$/src/admin/components/adm_experiencias/Experiencia.js" />
         <option value="$PROJECT_DIR$/src/admin/components/adm_vuelos/Vuelo_adm.js" />
-        <option value="$PROJECT_DIR$/src/admin/components/adm_reservas/Reservas_adm.css" />
-        <option value="$PROJECT_DIR$/src/admin/components/adm_reservas/Datatable_reservas.js" />
-        <option value="$PROJECT_DIR$/src/admin/components/adm_reservas/Reservas_adm.js" />
         <option value="$PROJECT_DIR$/src/admin/components/adm_productos/filterList.js" />
         <option value="$PROJECT_DIR$/src/admin/components/adm_productos/Producto.js" />
         <option value="$PROJECT_DIR$/src/admin/components/adm_productos/Producto_adm.js" />
@@ -237,6 +199,10 @@
         <option value="$PROJECT_DIR$/src/web/components/comunes/Menu2.js" />
         <option value="$PROJECT_DIR$/src/web/components/comunes/Buscador_filtro.css" />
         <option value="$PROJECT_DIR$/src/web/components/comunes/Buscador_filtro.js" />
+        <option value="$PROJECT_DIR$/src/admin/components/adm_reservas/Reservas_adm.css" />
+        <option value="$PROJECT_DIR$/src/admin/components/adm_reservas/Datatable_reservas.js" />
+        <option value="$PROJECT_DIR$/src/admin/components/adm_reservas/Row_lista.js" />
+        <option value="$PROJECT_DIR$/src/admin/components/adm_reservas/Reservas_adm.js" />
       </list>
     </option>
   </component>
@@ -274,6 +240,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -285,6 +253,44 @@
               <item name="vol" type="b2602c69:ProjectViewProjectNode" />
               <item name="vol" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="vol" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vol" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="vol" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vol" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="vol" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vol" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="adm_reservas" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="vol" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vol" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="comunes" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="vol" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vol" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="comunes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="menu" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="vol" type="b2602c69:ProjectViewProjectNode" />
@@ -319,8 +325,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -331,19 +335,19 @@
     <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/public/vendors" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\usuario\Documents\GitHub\vol\src\admin\components\adm_reservas" />
-      <recent name="C:\Users\usuario\Documents\GitHub\vol\src\admin\components\adm_experiencias" />
-      <recent name="C:\Users\usuario\Documents\GitHub\vol\src\admin\components" />
-      <recent name="C:\Users\usuario\Documents\GitHub\vol\src\admin\components\comunes\dropzone" />
-      <recent name="C:\Users\usuario\Documents\GitHub\vol\src\admin\components\site" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\usuario\Documents\GitHub\vol\src\admin\components\comunes" />
       <recent name="C:\Users\usuario\Documents\GitHub\vol\src\admin\assets" />
       <recent name="C:\Users\usuario\Documents\GitHub\vol\src\admin\components\comunes\datatable\datatable-metronic" />
       <recent name="C:\Users\usuario\Documents\GitHub\vol\public" />
       <recent name="C:\Users\usuario\Documents\GitHub\vol\src\admin\components\comunes\datatable" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\usuario\Documents\GitHub\vol\src\admin\components\adm_reservas" />
+      <recent name="C:\Users\usuario\Documents\GitHub\vol\src\admin\components\adm_experiencias" />
+      <recent name="C:\Users\usuario\Documents\GitHub\vol\src\admin\components" />
+      <recent name="C:\Users\usuario\Documents\GitHub\vol\src\admin\components\comunes\dropzone" />
+      <recent name="C:\Users\usuario\Documents\GitHub\vol\src\admin\components\site" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -453,11 +457,13 @@
       <workItem from="1530475708856" duration="10140000" />
       <workItem from="1530655782190" duration="2867000" />
       <workItem from="1530738698458" duration="3938000" />
+      <workItem from="1530828135491" duration="22000" />
+      <workItem from="1530979709166" duration="4440000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="472351000" />
+    <option name="totallyTimeSpent" value="476813000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -496,13 +502,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/admin/components/adm_ofertas/Oferta.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2697">
-          <caret line="99" column="84" lean-forward="false" selection-start-line="99" selection-start-column="30" selection-end-line="99" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/admin/components/adm_ofertas/Oferta_adm.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1334">
@@ -535,10 +534,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2813">
           <caret line="103" column="124" lean-forward="false" selection-start-line="103" selection-start-column="124" selection-end-line="103" selection-end-column="124" />
-          <folding>
-            <marker date="1530485005169" expanded="false" signature="8384:8768" ph="&lt;div/&gt;" />
-            <marker date="1530485005169" expanded="false" signature="8809:9199" ph="&lt;div/&gt;" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -612,10 +607,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2813">
           <caret line="103" column="124" lean-forward="false" selection-start-line="103" selection-start-column="124" selection-end-line="103" selection-end-column="124" />
-          <folding>
-            <marker date="1530485005169" expanded="false" signature="8384:8768" ph="&lt;div/&gt;" />
-            <marker date="1530485005169" expanded="false" signature="8809:9199" ph="&lt;div/&gt;" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -689,7 +680,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -704,15 +694,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="29">
           <caret line="17" column="24" lean-forward="false" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/admin/components/adm_reservas/Reservas_adm.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -720,13 +701,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="42" column="26" lean-forward="false" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/admin/components/adm_reservas/Datatable_reservas.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="18" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -766,13 +740,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/admin/components/adm_reservas/Reservas_adm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6293">
-          <caret line="256" column="10" lean-forward="false" selection-start-line="256" selection-start-column="4" selection-end-line="256" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/admin/components/adm_productos/Producto_adm.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1508">
@@ -784,10 +751,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8178">
           <caret line="298" column="76" lean-forward="false" selection-start-line="298" selection-start-column="76" selection-end-line="298" selection-end-column="76" />
-          <folding>
-            <marker date="1530485005169" expanded="false" signature="8384:8768" ph="&lt;div/&gt;" />
-            <marker date="1530485005169" expanded="false" signature="8809:9199" ph="&lt;div/&gt;" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -797,17 +760,6 @@
           <caret line="430" column="74" lean-forward="false" selection-start-line="430" selection-start-column="74" selection-end-line="430" selection-end-column="74" />
           <caret line="431" column="74" lean-forward="false" selection-start-line="431" selection-start-column="74" selection-end-line="431" selection-end-column="74" />
           <caret line="432" column="74" lean-forward="false" selection-start-line="432" selection-start-column="74" selection-end-line="432" selection-end-column="74" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/admin/components/comunes/menu/Menu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1363">
-          <caret line="49" column="74" lean-forward="false" selection-start-line="49" selection-start-column="74" selection-end-line="49" selection-end-column="74" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -816,7 +768,7 @@
         <state relative-caret-position="3683">
           <caret line="158" column="38" lean-forward="false" selection-start-line="158" selection-start-column="38" selection-end-line="158" selection-end-column="38" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="false" />
             <marker date="1530657747042" expanded="true" signature="6028:6040" ph="..." />
           </folding>
         </state>
@@ -843,44 +795,18 @@
         <state relative-caret-position="232">
           <caret line="9" column="61" lean-forward="false" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/components/filtro/Filtro.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="133" column="48" lean-forward="false" selection-start-line="133" selection-start-column="48" selection-end-line="133" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/web/components/comunes/Buscador_filtro_movil.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="712">
-          <caret line="252" column="79" lean-forward="false" selection-start-line="252" selection-start-column="79" selection-end-line="252" selection-end-column="79" />
-          <caret line="260" column="79" lean-forward="false" selection-start-line="260" selection-start-column="79" selection-end-line="260" selection-end-column="79" />
-          <caret line="268" column="79" lean-forward="false" selection-start-line="268" selection-start-column="79" selection-end-line="268" selection-end-column="79" />
-          <caret line="276" column="79" lean-forward="false" selection-start-line="276" selection-start-column="79" selection-end-line="276" selection-end-column="79" />
-          <caret line="284" column="79" lean-forward="false" selection-start-line="284" selection-start-column="79" selection-end-line="284" selection-end-column="79" />
-          <caret line="313" column="79" lean-forward="false" selection-start-line="313" selection-start-column="79" selection-end-line="313" selection-end-column="79" />
-          <caret line="321" column="79" lean-forward="false" selection-start-line="321" selection-start-column="79" selection-end-line="321" selection-end-column="79" />
-          <caret line="329" column="79" lean-forward="false" selection-start-line="329" selection-start-column="79" selection-end-line="329" selection-end-column="79" />
+        <state relative-caret-position="9309">
+          <caret line="284" column="79" lean-forward="false" selection-start-line="252" selection-start-column="79" selection-end-line="284" selection-end-column="79" />
+          <caret line="329" column="79" lean-forward="false" selection-start-line="313" selection-start-column="79" selection-end-line="329" selection-end-column="79" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/components/comunes/Menu2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2158">
-          <caret line="138" column="46" lean-forward="false" selection-start-line="138" selection-start-column="42" selection-end-line="138" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -897,6 +823,77 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="609">
           <caret line="21" column="81" lean-forward="false" selection-start-line="21" selection-start-column="81" selection-end-line="21" selection-end-column="81" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/components/comunes/Menu2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-826">
+          <caret line="128" column="9" lean-forward="true" selection-start-line="128" selection-start-column="9" selection-end-line="128" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/admin/components/adm_reservas/Reservas_adm.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/admin/components/comunes/menu/Menu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="30" column="18" lean-forward="false" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/admin/components/adm_reservas/Datatable_reservas.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="61" column="60" lean-forward="false" selection-start-line="61" selection-start-column="60" selection-end-line="61" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/admin/components/adm_reservas/Row_lista.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="14" column="43" lean-forward="false" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+          <caret line="15" column="42" lean-forward="false" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+          <caret line="16" column="40" lean-forward="false" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+          <caret line="17" column="43" lean-forward="false" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+          <caret line="18" column="45" lean-forward="false" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+          <caret line="19" column="47" lean-forward="false" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+          <caret line="20" column="45" lean-forward="false" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+          <caret line="21" column="42" lean-forward="false" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+          <caret line="22" column="47" lean-forward="false" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+          <caret line="23" column="43" lean-forward="false" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+          <caret line="24" column="45" lean-forward="false" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
+          <caret line="25" column="51" lean-forward="false" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
+          <folding>
+            <element signature="e#51#77#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/components/filtro/Filtro.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="34" lean-forward="false" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/admin/components/adm_reservas/Reservas_adm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="39" column="209" lean-forward="false" selection-start-line="39" selection-start-column="209" selection-end-line="39" selection-end-column="209" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
