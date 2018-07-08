@@ -4,6 +4,9 @@
 .list-group i{
     float: right!important;
 }
+.list-group .list-group-item{
+    font-size: 13px;
+}
 .Btn-icono{
     border: 0;
     background-color: transparent;
@@ -11,4 +14,5 @@
 }
 .Scroll{
     overflow-y: scroll;
+    max-height: 324px;
 }

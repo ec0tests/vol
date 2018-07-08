@@ -33,7 +33,7 @@ export default class Row_lista extends React.Component {
 
 
             return (
-                    <li class="list-group-item text-left">{this.props.reserva_nombre} <button onClick={this.editar_desdeCalendario.bind(this)} className="Btn-icono"> <i className="mdi mdi-grease-pencil"></i></button></li>
+                    <li class="list-group-item text-left"> {this.props.reserva_nombre} , {this.props.reserva_personas} personas, Vuelo {this.props.reserva_tipo_vuelo}  <button onClick={this.editar_desdeCalendario.bind(this)} className="Btn-icono"> <i className="mdi mdi-grease-pencil"></i></button></li>
 
 
             );

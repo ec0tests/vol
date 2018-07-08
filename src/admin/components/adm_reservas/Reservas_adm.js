@@ -37,7 +37,7 @@ class Reservas_adm extends React.Component {
         for (var i = 0; i < this.data_reservas.length; i++) {
             this.array_reservas.push(<Row_lista reserva_nombre={this.data_reservas[i].reserva_nombre} reserva_telefono={this.data_reservas[i].reserva_telefono}
                                                reserva_email={this.data_reservas[i].reserva_email} reserva_personas={this.data_reservas[i].reserva_personas}
-                                               reserva_email={this.data_reservas[i].reserva_email} reserva_personas={this.data_reservas[i].reserva_personas} reserva_tipo_vuelo={this.data_reservas[i].tipo_vuelo}
+                                              reserva_tipo_vuelo={this.data_reservas[i].reserva_tipo_vuelo}
                 reserva_estandar={this.data_reservas[i].reserva_estandar} reserva_discapacitados={this.data_reservas[i].reserva_discapacitados} reserva_ninyos={this.data_reservas[i].reserva_ninyos}
                                                 reserva_precio={this.data_reservas[i].reserva_precio} fecha_reserva={this.data_reservas[i].fecha_reserva} fecha_vuelo={this.data_reservas[i].fecha_vuelo}/>);
         }
