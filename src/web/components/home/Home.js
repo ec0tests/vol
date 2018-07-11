@@ -28,6 +28,7 @@ import Footer_patrocinadores from "../comunes/Footer_patrocinadores";
 
 
 import './Home.css'
+import Modal_cupon from './Modal_cupones'
 import Carousel_cards from "../comunes/Carousel_cards";
 import Footer_estilohome from "../comunes/Footer_estilohome";
 import Experiencia_completa from "../comunes/Experiencia_completa";
@@ -152,6 +153,8 @@ class Home extends React.Component {
                 <Arrow_top/>
                 {/* <img src={bkg1} className="Section1-bkg" alt=""/>*/}
 
+                {/*MODAL CUPON*/}
+                <Modal_cupon/>
                 <main id="Section1" className="Section1 ">
                     <Header logo={logo_b} />
 
@@ -167,11 +170,11 @@ class Home extends React.Component {
                         <div className="row my-4">
                             <div className="col-12  ">
                                 <Link to="/filtro">
-                                    <button className="text-uppercase Btn-red-h mt-2">Reservar</button>
+                                    <button className="text-uppercase Btn-red-h mt-2" data-toggle="modal" data-target="#modal_cupon">Reservar</button>
                                 </Link>
                             </div>
                             <div className="col-12  ">
-                                <button className="text-uppercase Btn-darkblue-h mt-2">Canjear cupón</button>
+                                <button className="text-uppercase Btn-darkblue-h mt-2 " data-toggle="modal" data-target="#modal_cupon">Canjear cupón</button>
                             </div>
                             <div className="col-12 ">
                                 <Link to="/filtro">

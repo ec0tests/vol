@@ -322,7 +322,7 @@ class Reservas_adm extends React.Component {
                                      aria-labelledby="exampleModalLabel" aria-hidden="true">
                                     <div className="modal-dialog" role="document">
                                         <div className="modal-content">
-                                            <div className="modal-header">
+                                            <div className="modal-header ">
                                                 <h3 className="modal-title"
                                                     id="titulo_modal_reserva">{this.state.titulo_form}</h3>
                                                 <button type="button" className="close" data-dismiss="modal"
