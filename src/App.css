@@ -162,6 +162,14 @@ h4{
 .P-relative{
     position: relative;
 }
+.Recibiras{
+    font-size: 0.6rem;
+    color: #014db4;
+    position: absolute;
+    width: 100%;
+    bottom: -43px;
+    left: 11px;
+}
 .Btn-darkblue-h {
     background-color: #174382;
 
@@ -305,7 +313,9 @@ button:hover {
       }
 }
 
-
+.Oculto{
+    display: none;
+}
 
 
 /*MODAL TINGLE CSS*/

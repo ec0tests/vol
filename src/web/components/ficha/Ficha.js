@@ -9,6 +9,7 @@ import Imagenes_ficha from "./Imagenes_ficha";
 import Video_ficha from "./Video_ficha";
 import Arrow_top from "../comunes/Arrow_top";
 import Datepicker from "../comunes/Datepicker"
+import Modal_compra from "../comunes/Modal_compra"
 import Card_roja from "../comunes/Card_roja"
 
 import logo_globo from '../../images/Globo-header-w.png';
@@ -92,8 +93,9 @@ const Ficha = () => (
 
                                 <div className="row w-100 pt-2">
                                     <div className="col-md-12 text-left d-flex align-items-center">
-                                        <button className=" Btn-red  w-100">RESERVAR</button>
+                                        <button className=" Btn-red  w-100" data-toggle="modal" data-target="#modal_compra">RESERVAR</button>
                                     </div>
+                                        <Modal_compra/>
 
                                 </div>
                                 <div className="row w-100 pt-2 justify-content-end pr-3 mt-1">

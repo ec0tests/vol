@@ -17,6 +17,13 @@
     color: #fff;
     font-size: 4rem;
 }
+.Textoizq h4{
+    text-align: left;
+    font-size: 2.25rem;
+}
+.Textoizq p{
+    text-align: left;
+}
 @keyframes MoveUpDown {
     0%, 100% {
         bottom: 0;
@@ -35,7 +42,7 @@
 .Home-h1 {
     font-weight: 700 !important;
     color: white;
-    font-size: 6rem;
+    font-size: 11rem;
 
 }
 
@@ -47,7 +54,7 @@
 }
 
 .Home-h2  {
-    font-size: 1.6rem!important;
+    font-size: 4rem!important;
     color: white;
     text-transform: none;
 }
@@ -97,8 +104,11 @@ header > .container {
 }
 
 .Iconos-header p {
-    font-size: 1.4rem;
+    font-size: 2rem;
     font-weight: bold;
+    font-weight: bold;
+    line-height: 1;
+    font-family: "Barlow Condensed";
 }
 .Personaliza-experiencia-text{
     font-size: 5rem;

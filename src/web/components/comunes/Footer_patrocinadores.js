@@ -27,8 +27,8 @@ class Footer_patrocinadores extends React.Component {
             autoplaySpeed: 3000
         };
         return (
-<div className="py-4 Bkg-darkBlue">
-                <Slider {...settings}>
+<div className="py-4 Bkg-darkBlue d-flex justify-content-center flex-wrap">
+                {/*<Slider {...settings}>*/}
                     <div className="Logos-patrocinadores d-flex justify-content-center">
                         <img src={colab_ico1} className="img-fluid" alt=""/>
                     </div>
@@ -51,7 +51,7 @@ class Footer_patrocinadores extends React.Component {
                         <img src={colab_ico7} className="img-fluid" alt=""/>
                     </div>
 
-                </Slider>
+              {/*  </Slider>*/}
 </div>
         )
     }

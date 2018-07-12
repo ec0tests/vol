@@ -19,7 +19,7 @@ const Carousel_cards = () => (
 
                                                 <h5 className="Titulo-tarjeta card-title w-100 text-left text-uppercase Barlow">14/febrero
                                                     san valentin</h5>
-                                                <p className="card-text Width-75 text-left">Some quick example text to build
+                                                <p className="card-text Width-75 text-left Subtitulo-tarjeta">Some quick example text to build
                                                     on the
                                                     card
                                                     title and

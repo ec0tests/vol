@@ -6,7 +6,8 @@ import Certificado from "../comunes/Certificado";
 import Entrada_blog from "./Entrada_blog"
 import Subetufoto from "../comunes/Subetufoto"
 import Footer_estilohome from "../comunes/Footer_estilohome"
-import logo_globo from '../../images/Globo-header-w.png';
+/*import logo_globo from '../../images/Globo-header-w.png';*/
+import logo_globo from '../../images/vdc-logo-b.png';
 
 import ico_face from '../../images/Icon-RRSS-fb-b-55.png';
 import ico_twitter from '../../images/Icon-RRSS-tw-b-55.png';

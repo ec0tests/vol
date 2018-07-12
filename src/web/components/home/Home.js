@@ -281,7 +281,7 @@ class Home extends React.Component {
                     </div>
                     <div className="container">
                         <div className="row text-white">
-                            <div className="col-md-6 ">
+                            <div className="col-md-6 Textoizq">
                                 <h4 className="font-weight-bold">25 AÑOS VOLANDO</h4>
                                 <p className="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad
                                     adipisci amet

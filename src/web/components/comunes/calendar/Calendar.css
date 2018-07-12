@@ -1,0 +1,23 @@
+.rbc-toolbar{
+    font-size: 13px!important;
+}
+.rbc-calendar{
+    font-size: 13px!important;
+
+}
+
+.rbc-calendar{
+    width: 100%;
+}
+.rbc-toolbar-label{
+    font-weight: 600;
+    text-align: right!important;
+}
+.rbc-day-bg{
+    cursor: pointer;
+}
+
+.rbc-day-bg:hover{
+   background-color: #a3afd3;
+    transition: 0.8s;
+}

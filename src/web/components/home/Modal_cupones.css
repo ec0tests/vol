@@ -1,4 +1,4 @@
-.Boton-cupon{
+.Boton-cupon {
     width: 100%;
     color: #fff;
     background-color: #014db4;
@@ -9,7 +9,7 @@
     font-weight: 500;
 }
 
-.Titulo-cupon{
+.Titulo-cupon {
     border: 0;
     color: #014db4;
     font-family: 'Roboto', sans-serif;
@@ -19,59 +19,76 @@
     align-items: center;
 
 }
-.Titulo-cupon>h5{
-    font-size: 2.1rem;
+
+.Titulo-cupon > h5 {
+    font-size: 2rem;
     font-weight: 500;
 }
-.Titulo-cupon>span{
+
+.Titulo-cupon > span {
     margin-top: 4px;
     font-size: 1.1rem;
-    font-weight: 500;color: #014db4;
+    font-weight: 500;
+    color: #014db4;
     font-family: 'Roboto', sans-serif;
 }
-.Cuponesh5{
-    font-size: 2.1rem;
-    font-weight: 500;color: #014db4;
-    font-family: 'Roboto', sans-serif;
-}
-.Cuponesh52{
-    font-size: 2.1rem;
 
+.Cuponesh5 {
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: #014db4;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Cuponesh52 {
+    font-size: 1.7rem;
+    color: #014db4;
     font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+
 }
 
-
-
-.H-70vh{
+.H-70vh {
     height: 70vh;
 }
 
-.Mw-50{
-    max-width: 50%!important;
+.Oculto {
+    display: none;
 }
-.Input-cupon{
+
+.Mw-50 {
+    max-width: 50% !important;
+}
+
+.Input-cupon {
     border: 0;
     font-size: 19px;
     font-weight: 500;
     border-bottom: 2px solid #014db4;
-    padding-bottom: 15px!important;
+    padding-bottom: 15px !important;
 }
 
+#modal_cupon{
+    background-color: rgba(0, 0, 0, 0.63);
+}
 .Input-cupon::-webkit-input-placeholder { /* Chrome/Opera/Safari */
     color: #014db4;
     font-size: 1.4rem;
     font-weight: 500;
 }
+
 .Input-cupon::-moz-placeholder { /* Firefox 19+ */
     color: #014db4;
     font-size: 1.4rem;
     font-weight: 500;
 }
+
 .Input-cupon:-ms-input-placeholder { /* IE 10+ */
     color: #014db4;
     font-size: 1.4rem;
     font-weight: 500;
 }
+
 .Input-cupon:-moz-placeholder { /* Firefox 18- */
     color: #014db4;
     font-size: 1.4rem;
