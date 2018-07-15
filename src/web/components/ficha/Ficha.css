@@ -34,13 +34,24 @@
     font-size: 1.7rem;
 
 }
-
+.Fecha-abierta-row{
+     height: 2rem;
+ }
+.Fecha-abierta-row label{
+font-size: 0.9rem!important;}
 .Ficha h4{
     color: #333333;
     font-weight: bold;
     font-size: 1.5rem;
 }
+.Card-body-fixed{
+    width: 90%!important;
+}
 
+.Col-fixed{
+    background-color: white;
+height: 27rem;
+}
 
 .H1-filtro{
     font-style: italic!important;
@@ -64,7 +75,7 @@
     background: url('../../images/ficha-bkg1.jpg');
     background-position-x: center;
     background-repeat: no-repeat;
-    padding-top: 2rem;
+    padding-top: 0rem;
     min-height: 38rem;
 
 }
@@ -301,7 +312,10 @@ iframe{
 
 .Section4-ficha{
 }
-
+.P-fixed{
+    position: fixed!important;
+    z-index: 98;
+}
 .Links-footer>div{
     padding-top: 0.5rem;
     text-align: left;
@@ -347,6 +361,11 @@ iframe{
 
 @media all and (max-width: 991px) {
 
+    .Col-fixed {
+        background-color: white;
+        height: 30rem;
+        position: relative!important;
+    }
 }
 
 @media all and (max-width: 768px) {

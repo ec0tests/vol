@@ -135,7 +135,7 @@ $(function(){
 /* HAGO DESTRUCTURING: En vez de crear la const logo con props.logo le añado al parametro {} y le pongo de nomrbe el nombre de la prop que le paso
 * así lo coge directamente*/
 const Menu2 = ({logo}) => (
-    <div>
+    <div className="d-flex align-items-center">
         <button className="ml-4 menu-icon Open-menu" id="desplegable_boton1" onClick={show_menu}><i
             className="fa fa-bars text-white"></i></button>
         <span className="Cursor-pointer Open-menu d-none d-md-inline" onClick={show_menu}>MENÚ</span>

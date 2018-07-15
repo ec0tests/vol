@@ -114,7 +114,7 @@ const Pilotos = () => (
 
                 {/*TEXTOS SEO*/}
 
-                <div className="row mt-5 pt-5 d-none d-md-block">
+                <div className="row mt-5 pt-5 d-none d-md-flex">
                     <div className="col-12 mb-5">
                         <h2>Qué debes saber</h2>
                     </div>

@@ -1,4 +1,6 @@
 import React, {Component} from 'react';
+
+import $ from 'jquery';
 import './Ficha.css';
 import Header from "../comunes/Header";
 import Experiencia_completa from "../comunes/Experiencia_completa";
@@ -46,6 +48,13 @@ for (var i = 0; i < imagenesficha_json.imagenesficha.length; i++) {
         photo={imagenesficha_json.imagenesficha[i].photo}/>);
 }
 
+ /* $(window).scroll(function(){
+    if ($(this).scrollTop() > 135) {
+        $('.Col-tarjeta').addClass('P-fixed');
+    } else {
+        $('.Col-tarjeta').removeClass('P-fixed');
+    }
+})*/
 
 const Ficha = () => (
     <div className="Ficha">
@@ -56,12 +65,12 @@ const Ficha = () => (
             <div className="container-fluid d-flex justify-content-center">
                 <div className="row w-100 text-left p-0 p-md-3  pl-0 pl-md-5">
                     <div className="col-12 col-md-6 ">
-                        <h1 className="text-uppercase w-75 ">vuelo en globo + <br/> cabaña en los arboles</h1>
+                        <h1 className="text-uppercase  ">vuelo en globo + <br/> cabaña en los arboles</h1>
 
                     </div>
-                    <div className="col-12 col-md-4 Col-tarjeta p-0">
+                    <div className="col-12 col-md-4 Col-tarjeta p-0 P-fixed Col-fixed">
                         <div className="card w-100 h-100 p-md-4 p-3">
-                            <div className="card-body text-left p-1">
+                            <div className="card-body text-left p-1 P-absolute Card-body-fixed">
                                 <div className="row w-100 justify-content-between flex-nowrap">
                                     <div className="d-flex align-items-center">
                                         <img src={globo_ico4} className="img-fluid Ico-ficha"
@@ -89,6 +98,20 @@ const Ficha = () => (
                                                    id="inputPassword" placeholder="Fecha"/>
                                         </div>
                                     </div>
+                                    <div className="row w-100 pt-2 justify-content-end pr-3 mt-1 Fecha-abierta-row">
+
+                                        <div className="form-group">
+                                            <div className="form-check">
+
+                                                <input className="form-check-input" type="checkbox" id="gridCheck"/>
+
+                                                <label className="form-check-label" for="gridCheck">
+                                                    Reservar con fecha abierta
+                                                </label>
+
+                                            </div>
+                                        </div>
+                                    </div>
                                 </form>
 
                                 <div className="row w-100 pt-2">
@@ -98,19 +121,7 @@ const Ficha = () => (
                                         <Modal_compra/>
 
                                 </div>
-                                <div className="row w-100 pt-2 justify-content-end pr-3 mt-1">
 
-                                    <div className="form-group">
-                                        <div className="form-check">
-                                            <input className="form-check-input" type="checkbox" id="gridCheck"/>
-
-                                            <label className="form-check-label" for="gridCheck">
-                                                Reservar con fecha abierta
-                                            </label>
-
-                                        </div>
-                                    </div>
-                                </div>
 
                                 <div className="row w-100 pt-2 justify-content-end pr-3">
                                     <span className="Span-precio">Total experiencia: <b> 250€</b></span>

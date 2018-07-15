@@ -6,8 +6,8 @@ import './Entrada_blog.css'
 class Entrada_blog extends React.Component {
     render() {
         return (
-                <div className="col-12 col-md-6 p-0 p-md-2 mt-5">
-                    <div className="col-12 mb-3 p-0 p-md-2 text-center ">
+                <div className="col-12 col-md-6 p-0 p-md-2 mt-3">
+                    <div className="col-12 mb-1 p-0 p-md-2 text-center ">
                         <a href="/entrada_blog"><img src={require(`../../images/${this.props.photo.toLowerCase()}.jpg`)}
                                         className="img-fluid Img-entradablog w-100 Cursor-pointer"alt=""/></a>
 

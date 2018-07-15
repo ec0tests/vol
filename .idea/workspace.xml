@@ -2,35 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="689f3cfd-3ccb-444b-a116-11e30d561ec9" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/web/components/comunes/Modal_compra.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/web/components/comunes/Modal_compra.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/web/components/comunes/calendar/Calendar.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/web/components/comunes/calendar/Calendar.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/web/components/comunes/calendar/events.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/web/images/195 Ôé¼.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/web/images/Oval.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/web/images/casa.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/web/images/clock.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/web/images/corazon.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/web/images/download.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/web/images/fingerprint (1).png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/web/images/regalo.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/web/images/tick.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/web/images/tickets.png" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/App.css" afterPath="$PROJECT_DIR$/src/App.css" />
-      <change beforePath="$PROJECT_DIR$/src/web/components/blogp/Blogp.js" afterPath="$PROJECT_DIR$/src/web/components/blogp/Blogp.js" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" afterPath="$PROJECT_DIR$/src/index.css" />
+      <change beforePath="$PROJECT_DIR$/src/web/components/bloge/Bloge.css" afterPath="$PROJECT_DIR$/src/web/components/bloge/Bloge.css" />
+      <change beforePath="$PROJECT_DIR$/src/web/components/bloge/Bloge.js" afterPath="$PROJECT_DIR$/src/web/components/bloge/Bloge.js" />
+      <change beforePath="$PROJECT_DIR$/src/web/components/blogp/Blogp.css" afterPath="$PROJECT_DIR$/src/web/components/blogp/Blogp.css" />
       <change beforePath="$PROJECT_DIR$/src/web/components/blogp/Entrada_blog.js" afterPath="$PROJECT_DIR$/src/web/components/blogp/Entrada_blog.js" />
+      <change beforePath="$PROJECT_DIR$/src/web/components/comunes/Buscador_filtro.css" afterPath="$PROJECT_DIR$/src/web/components/comunes/Buscador_filtro.css" />
+      <change beforePath="$PROJECT_DIR$/src/web/components/comunes/Buscador_filtro.js" afterPath="$PROJECT_DIR$/src/web/components/comunes/Buscador_filtro.js" />
+      <change beforePath="$PROJECT_DIR$/src/web/components/comunes/Card_experiencias.css" afterPath="$PROJECT_DIR$/src/web/components/comunes/Card_experiencias.css" />
       <change beforePath="$PROJECT_DIR$/src/web/components/comunes/Carousel_card.css" afterPath="$PROJECT_DIR$/src/web/components/comunes/Carousel_card.css" />
       <change beforePath="$PROJECT_DIR$/src/web/components/comunes/Carousel_cards.js" afterPath="$PROJECT_DIR$/src/web/components/comunes/Carousel_cards.js" />
-      <change beforePath="$PROJECT_DIR$/src/web/components/comunes/Footer_patrocinadores.css" afterPath="$PROJECT_DIR$/src/web/components/comunes/Footer_patrocinadores.css" />
-      <change beforePath="$PROJECT_DIR$/src/web/components/comunes/Footer_patrocinadores.js" afterPath="$PROJECT_DIR$/src/web/components/comunes/Footer_patrocinadores.js" />
+      <change beforePath="$PROJECT_DIR$/src/web/components/comunes/Certificado.css" afterPath="$PROJECT_DIR$/src/web/components/comunes/Certificado.css" />
+      <change beforePath="$PROJECT_DIR$/src/web/components/comunes/Experiencia_completa.css" afterPath="$PROJECT_DIR$/src/web/components/comunes/Experiencia_completa.css" />
+      <change beforePath="$PROJECT_DIR$/src/web/components/comunes/Experiencia_completa.js" afterPath="$PROJECT_DIR$/src/web/components/comunes/Experiencia_completa.js" />
+      <change beforePath="$PROJECT_DIR$/src/web/components/comunes/Footer_estilohome.css" afterPath="$PROJECT_DIR$/src/web/components/comunes/Footer_estilohome.css" />
+      <change beforePath="$PROJECT_DIR$/src/web/components/comunes/Footer_estilohome.js" afterPath="$PROJECT_DIR$/src/web/components/comunes/Footer_estilohome.js" />
+      <change beforePath="$PROJECT_DIR$/src/web/components/comunes/Header.css" afterPath="$PROJECT_DIR$/src/web/components/comunes/Header.css" />
+      <change beforePath="$PROJECT_DIR$/src/web/components/comunes/Header.js" afterPath="$PROJECT_DIR$/src/web/components/comunes/Header.js" />
+      <change beforePath="$PROJECT_DIR$/src/web/components/comunes/Menu2.js" afterPath="$PROJECT_DIR$/src/web/components/comunes/Menu2.js" />
+      <change beforePath="$PROJECT_DIR$/src/web/components/faq/Faq.css" afterPath="$PROJECT_DIR$/src/web/components/faq/Faq.css" />
+      <change beforePath="$PROJECT_DIR$/src/web/components/faq/Faq.js" afterPath="$PROJECT_DIR$/src/web/components/faq/Faq.js" />
       <change beforePath="$PROJECT_DIR$/src/web/components/ficha/Ficha.css" afterPath="$PROJECT_DIR$/src/web/components/ficha/Ficha.css" />
       <change beforePath="$PROJECT_DIR$/src/web/components/ficha/Ficha.js" afterPath="$PROJECT_DIR$/src/web/components/ficha/Ficha.js" />
+      <change beforePath="$PROJECT_DIR$/src/web/components/filtro/Filtro.css" afterPath="$PROJECT_DIR$/src/web/components/filtro/Filtro.css" />
       <change beforePath="$PROJECT_DIR$/src/web/components/home/Home.css" afterPath="$PROJECT_DIR$/src/web/components/home/Home.css" />
       <change beforePath="$PROJECT_DIR$/src/web/components/home/Home.js" afterPath="$PROJECT_DIR$/src/web/components/home/Home.js" />
-      <change beforePath="$PROJECT_DIR$/src/web/components/home/Modal_cupones.css" afterPath="$PROJECT_DIR$/src/web/components/home/Modal_cupones.css" />
-      <change beforePath="$PROJECT_DIR$/src/web/components/home/Modal_cupones.js" afterPath="$PROJECT_DIR$/src/web/components/home/Modal_cupones.js" />
+      <change beforePath="$PROJECT_DIR$/src/web/components/instalaciones/Instalaciones.css" afterPath="$PROJECT_DIR$/src/web/components/instalaciones/Instalaciones.css" />
+      <change beforePath="$PROJECT_DIR$/src/web/components/instalaciones/Instalaciones.js" afterPath="$PROJECT_DIR$/src/web/components/instalaciones/Instalaciones.js" />
+      <change beforePath="$PROJECT_DIR$/src/web/components/pilotos/Pilotos.css" afterPath="$PROJECT_DIR$/src/web/components/pilotos/Pilotos.css" />
+      <change beforePath="$PROJECT_DIR$/src/web/components/pilotos/Pilotos.js" afterPath="$PROJECT_DIR$/src/web/components/pilotos/Pilotos.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,69 +43,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Modal_cupones.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/web/components/home/Modal_cupones.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="70" column="12" lean-forward="false" selection-start-line="70" selection-start-column="12" selection-end-line="70" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Modal_cupones.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/web/components/home/Modal_cupones.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Home.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/web/components/home/Home.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Footer_patrocinadores.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/web/components/comunes/Footer_patrocinadores.js">
+      <file leaf-file-name="Pilotos.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/web/components/pilotos/Pilotos.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="319">
-              <caret line="29" column="73" lean-forward="false" selection-start-line="29" selection-start-column="73" selection-end-line="29" selection-end-column="73" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Footer_patrocinadores.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/web/components/comunes/Footer_patrocinadores.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="14" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Blogp.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/web/components/blogp/Blogp.js">
+      <file leaf-file-name="Blogp.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/web/components/blogp/Blogp.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="105" column="0" lean-forward="true" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-                <element signature="e#365#418#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="256">
+              <caret line="50" column="18" lean-forward="false" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Carousel_card.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/web/components/comunes/Carousel_card.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="203">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -111,46 +76,71 @@
       <file leaf-file-name="Entrada_blog.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/web/components/blogp/Entrada_blog.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="8" column="21" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Ficha.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/web/components/ficha/Ficha.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="596">
-              <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Modal_compra.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/web/components/comunes/Modal_compra.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="118" column="0" lean-forward="false" selection-start-line="118" selection-start-column="0" selection-end-line="120" selection-end-column="1" />
+            <state relative-caret-position="145">
+              <caret line="9" column="47" lean-forward="false" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Modal_compra.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/web/components/comunes/Modal_compra.js">
+      <file leaf-file-name="App.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="191" column="38" lean-forward="false" selection-start-line="191" selection-start-column="38" selection-end-line="191" selection-end-column="38" />
+            <state relative-caret-position="435">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Bloge.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/web/components/bloge/Bloge.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2818">
+              <caret line="139" column="38" lean-forward="false" selection-start-line="139" selection-start-column="38" selection-end-line="139" selection-end-column="38" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
-                <element signature="e#6764#8041#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Bloge.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/web/components/bloge/Bloge.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="638">
+              <caret line="43" column="30" lean-forward="false" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Faq.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/web/components/faq/Faq.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="383">
+              <caret line="179" column="19" lean-forward="false" selection-start-line="179" selection-start-column="19" selection-end-line="179" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Header.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/web/components/comunes/Header.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="546">
+              <caret line="51" column="28" lean-forward="false" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Header.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/web/components/comunes/Header.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="98" column="41" lean-forward="false" selection-start-line="98" selection-start-column="41" selection-end-line="98" selection-end-column="41" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -167,36 +157,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>mt-3</find>
-      <find>-10</find>
-      <find>text-cen</find>
-      <find>bottom</find>
-      <find>9px</find>
-      <find>fechas</find>
-      <find>border-bot</find>
-      <find>w-90</find>
-      <find>P-r</find>
-      <find>preci</find>
-      <find>4</find>
-      <find>Div-mo</find>
-      <find>corazo</find>
-      <find>Ocult</find>
-      <find>d-flex</find>
-      <find>Cor</find>
-      <find>Tick</find>
-      <find>bind</find>
-      <find>fadeO</find>
-      <find>Border-</find>
-      <find>box-</find>
-      <find>1</find>
-      <find>Titulo-tarjeta</find>
-      <find>volver</find>
-      <find>25</find>
-      <find>-header</find>
-      <find>mb-5</find>
-      <find>col-12 col-md-6 p-0 p-md-2 mt-5</find>
-      <find>modal_compra</find>
-      <find>modal</find>
+      <find>Info-card</find>
+      <find>.card-</find>
+      <find>img</find>
+      <find>Div-</find>
+      <find>goog</find>
+      <find>icon</find>
+      <find>24px</find>
+      <find>Ti</find>
+      <find>Titul</find>
+      <find>row p-md-3 p-0 pt-2 pt-md-0 pl-0 pl-md-5</find>
+      <find>Car</find>
+      <find>Btn-gri</find>
+      <find>col-6 col-md-6 d-flex align-items-center justify-content-end pr-1 pr-md-2 P-initial</find>
+      <find>col-12 col-md-4 Col-tarjeta p-0</find>
+      <find>trip</find>
+      <find>min-height: 35rem;</find>
+      <find>Col-t</find>
+      <find>text-white w-50</find>
+      <find>h4</find>
+      <find>Goo-ico-white</find>
+      <find>Reservas</find>
+      <find>P-fi</find>
+      <find>flui</find>
+      <find>row mt-5 pt-5 d-none d-md-block</find>
+      <find>box</find>
+      <find>h1</find>
+      <find>26r</find>
+      <find>px-1</find>
+      <find>Megamenu</find>
+      <find>Open</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\usuario\Documents\GitHub\vol\src</dir>
@@ -208,34 +198,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/admin/components/adm_vuelos/Vuelo.css" />
-        <option value="$PROJECT_DIR$/src/admin/components/adm_experiencias/Experiencias.js" />
-        <option value="$PROJECT_DIR$/src/admin/components/adm_blog/Datatable_blog.js" />
-        <option value="$PROJECT_DIR$/src/admin/components/adm_experiencias/Experiencia.css" />
-        <option value="$PROJECT_DIR$/src/admin/components/comunes/react-select/React-select.js" />
-        <option value="$PROJECT_DIR$/src/admin/components/comunes/react-select/React-select.css" />
-        <option value="$PROJECT_DIR$/src/admin/components/adm_ofertas/Oferta_adm.js" />
-        <option value="$PROJECT_DIR$/src/admin/components/adm_ofertas/Oferta.js" />
-        <option value="$PROJECT_DIR$/src/admin/components/comunes/datatable/Personal.css" />
-        <option value="$PROJECT_DIR$/src/admin/components/adm_experiencias/Experiencias_adm.js" />
-        <option value="$PROJECT_DIR$/src/admin/components/adm_experiencias/Experiencias_adm.css" />
-        <option value="$PROJECT_DIR$/src/admin/components/adm_experiencias/Datatable_blog.js" />
-        <option value="$PROJECT_DIR$/src/admin/components/comunes/datatable/2/Datatable.js" />
-        <option value="$PROJECT_DIR$/src/admin/components/adm_experiencias/Experiencia.js" />
-        <option value="$PROJECT_DIR$/src/admin/components/adm_vuelos/Vuelo_adm.js" />
-        <option value="$PROJECT_DIR$/src/admin/components/adm_productos/filterList.js" />
-        <option value="$PROJECT_DIR$/src/admin/components/adm_productos/Producto.js" />
-        <option value="$PROJECT_DIR$/src/admin/components/adm_productos/Producto_adm.js" />
-        <option value="$PROJECT_DIR$/src/admin/components/adm_vuelos/Vuelo.js" />
         <option value="$PROJECT_DIR$/src/admin/components/dashboard/Dashboard.js" />
         <option value="$PROJECT_DIR$/src/admin/components/comunes/menu/Menu.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
-        <option value="$PROJECT_DIR$/src/web/components/comunes/Card_experiencias.css" />
         <option value="$PROJECT_DIR$/src/web/components/comunes/Card_experiencias.js" />
         <option value="$PROJECT_DIR$/src/web/components/comunes/Buscador_filtro_movil.js" />
-        <option value="$PROJECT_DIR$/src/web/components/comunes/Menu2.js" />
-        <option value="$PROJECT_DIR$/src/web/components/comunes/Buscador_filtro.css" />
-        <option value="$PROJECT_DIR$/src/web/components/comunes/Buscador_filtro.js" />
         <option value="$PROJECT_DIR$/src/admin/components/adm_reservas/Datatable_reservas.js" />
         <option value="$PROJECT_DIR$/src/admin/components/adm_reservas/Row_lista.js" />
         <option value="$PROJECT_DIR$/src/admin/components/adm_reservas/Reservas_adm.css" />
@@ -243,22 +210,45 @@
         <option value="$PROJECT_DIR$/src/admin/components/adm_reservas/Reservas_adm.js" />
         <option value="$PROJECT_DIR$/src/web/components/comunes/Modal_reserva.css" />
         <option value="$PROJECT_DIR$/src/web/components/comunes/Modal_reserva.js" />
-        <option value="$PROJECT_DIR$/src/App.css" />
         <option value="$PROJECT_DIR$/src/web/components/comunes/Modal_compra.js" />
-        <option value="$PROJECT_DIR$/src/web/components/ficha/Ficha.css" />
-        <option value="$PROJECT_DIR$/src/web/components/comunes/Carousel_cards.js" />
-        <option value="$PROJECT_DIR$/src/web/components/comunes/Carousel_card.css" />
-        <option value="$PROJECT_DIR$/src/web/components/home/Home.js" />
-        <option value="$PROJECT_DIR$/src/web/components/home/Home.css" />
         <option value="$PROJECT_DIR$/src/web/components/comunes/Footer_patrocinadores.js" />
         <option value="$PROJECT_DIR$/src/web/components/comunes/Footer_patrocinadores.css" />
         <option value="$PROJECT_DIR$/src/web/components/blogp/Blogp.js" />
-        <option value="$PROJECT_DIR$/src/web/components/blogp/Entrada_blog.js" />
         <option value="$PROJECT_DIR$/src/web/components/comunes/Modal_sombra.js" />
-        <option value="$PROJECT_DIR$/src/web/components/ficha/Ficha.js" />
         <option value="$PROJECT_DIR$/src/web/components/comunes/Modal_compra.css" />
         <option value="$PROJECT_DIR$/src/web/components/home/Modal_cupones.css" />
         <option value="$PROJECT_DIR$/src/web/components/home/Modal_cupones.js" />
+        <option value="$PROJECT_DIR$/src/index.css" />
+        <option value="$PROJECT_DIR$/src/web/components/comunes/Carousel_cards.js" />
+        <option value="$PROJECT_DIR$/src/web/components/home/Home.js" />
+        <option value="$PROJECT_DIR$/src/web/components/comunes/Experiencia_completa.js" />
+        <option value="$PROJECT_DIR$/src/web/components/comunes/Experiencia_completa.css" />
+        <option value="$PROJECT_DIR$/src/web/components/comunes/Footer_estilohome.css" />
+        <option value="$PROJECT_DIR$/src/web/components/home/Home.css" />
+        <option value="$PROJECT_DIR$/src/web/components/comunes/Footer_estilohome.js" />
+        <option value="$PROJECT_DIR$/src/web/components/comunes/Menu2.js" />
+        <option value="$PROJECT_DIR$/src/web/components/comunes/Buscador_filtro.js" />
+        <option value="$PROJECT_DIR$/src/web/components/comunes/Buscador_filtro.css" />
+        <option value="$PROJECT_DIR$/src/web/components/comunes/Card_experiencias.css" />
+        <option value="$PROJECT_DIR$/src/web/components/ficha/Ficha.js" />
+        <option value="$PROJECT_DIR$/src/web/components/comunes/Certificado.css" />
+        <option value="$PROJECT_DIR$/src/web/components/instalaciones/Instalaciones.js" />
+        <option value="$PROJECT_DIR$/src/web/components/instalaciones/Instalaciones.css" />
+        <option value="$PROJECT_DIR$/src/web/components/faq/Faq.js" />
+        <option value="$PROJECT_DIR$/src/web/components/filtro/Filtro.css" />
+        <option value="$PROJECT_DIR$/src/web/components/ficha/Ficha.css" />
+        <option value="$PROJECT_DIR$/src/web/components/pilotos/Pilotos.js" />
+        <option value="$PROJECT_DIR$/src/web/components/pilotos/Pilotos.css" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/src/web/components/blogp/Blogp.css" />
+        <option value="$PROJECT_DIR$/src/web/components/blogp/Entrada_blog.js" />
+        <option value="$PROJECT_DIR$/src/web/components/comunes/Carousel_card.css" />
+        <option value="$PROJECT_DIR$/src/App.css" />
+        <option value="$PROJECT_DIR$/src/web/components/bloge/Bloge.js" />
+        <option value="$PROJECT_DIR$/src/web/components/bloge/Bloge.css" />
+        <option value="$PROJECT_DIR$/src/web/components/comunes/Header.js" />
+        <option value="$PROJECT_DIR$/src/web/components/faq/Faq.css" />
+        <option value="$PROJECT_DIR$/src/web/components/comunes/Header.css" />
       </list>
     </option>
   </component>
@@ -296,14 +286,19 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="vol" type="b2602c69:ProjectViewProjectNode" />
               <item name="vol" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="vol" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vol" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="vol" type="b2602c69:ProjectViewProjectNode" />
@@ -322,6 +317,14 @@
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="vol" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vol" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="bloge" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="vol" type="b2602c69:ProjectViewProjectNode" />
@@ -345,6 +348,14 @@
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="faq" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="vol" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vol" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="ficha" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -353,7 +364,31 @@
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="filtro" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="vol" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vol" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="home" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="vol" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vol" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="instalaciones" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="vol" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vol" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="pilotos" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -369,19 +404,19 @@
     <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/public/vendors" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\usuario\Documents\GitHub\vol\src\web\components\comunes" />
-      <recent name="C:\Users\usuario\Documents\GitHub\vol\src\web\images" />
-      <recent name="C:\Users\usuario\Documents\GitHub\vol\src\admin\components\adm_reservas" />
-      <recent name="C:\Users\usuario\Documents\GitHub\vol\src\admin\components\adm_experiencias" />
-      <recent name="C:\Users\usuario\Documents\GitHub\vol\src\admin\components" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\usuario\Documents\GitHub\vol\src\admin\components\comunes" />
       <recent name="C:\Users\usuario\Documents\GitHub\vol\src\admin\assets" />
       <recent name="C:\Users\usuario\Documents\GitHub\vol\src\admin\components\comunes\datatable\datatable-metronic" />
       <recent name="C:\Users\usuario\Documents\GitHub\vol\public" />
       <recent name="C:\Users\usuario\Documents\GitHub\vol\src\admin\components\comunes\datatable" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\usuario\Documents\GitHub\vol\src\web\components\comunes" />
+      <recent name="C:\Users\usuario\Documents\GitHub\vol\src\web\images" />
+      <recent name="C:\Users\usuario\Documents\GitHub\vol\src\admin\components\adm_reservas" />
+      <recent name="C:\Users\usuario\Documents\GitHub\vol\src\admin\components\adm_experiencias" />
+      <recent name="C:\Users\usuario\Documents\GitHub\vol\src\admin\components" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -496,18 +531,19 @@
       <workItem from="1531000212477" duration="217000" />
       <workItem from="1531073250598" duration="1039000" />
       <workItem from="1531347208848" duration="4237000" />
-      <workItem from="1531416638986" duration="18569000" />
+      <workItem from="1531416638986" duration="18786000" />
+      <workItem from="1531599331497" duration="13668000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="501728000" />
+    <option name="totallyTimeSpent" value="515613000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2015625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22447917" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995495" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -535,181 +571,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="37" />
+      <option name="time" value="39" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/admin/components/adm_vuelos/Vuelo_adm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="47" column="99" lean-forward="false" selection-start-line="47" selection-start-column="99" selection-end-line="47" selection-end-column="99" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/admin/components/adm_reservas/Datatable.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="17" column="24" lean-forward="false" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/admin/components/comunes/datatable/2/Datatable.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="42" column="26" lean-forward="false" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/admin/components/adm_ofertas/Oferta_adm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1044">
-          <caret line="45" column="54" lean-forward="false" selection-start-line="45" selection-start-column="52" selection-end-line="45" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/admin/components/adm_ofertas/Oferta.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8352">
-          <caret line="294" column="4" lean-forward="false" selection-start-line="294" selection-start-column="4" selection-end-line="304" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/react-dom/umd/react-dom.development.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/admin/components/adm_productos/filterList.js" />
-    <entry file="file://$PROJECT_DIR$/src/admin/components/adm_productos/Producto.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2233">
-          <caret line="83" column="34" lean-forward="false" selection-start-line="83" selection-start-column="34" selection-end-line="83" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/admin/components/adm_productos/Producto_adm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1508">
-          <caret line="61" column="128" lean-forward="false" selection-start-line="60" selection-start-column="47" selection-end-line="61" selection-end-column="128" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/admin/components/adm_vuelos/Vuelo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8178">
-          <caret line="298" column="76" lean-forward="false" selection-start-line="298" selection-start-column="76" selection-end-line="298" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/admin/components/dashboard/Dashboard.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12209">
-          <caret line="430" column="74" lean-forward="false" selection-start-line="430" selection-start-column="74" selection-end-line="430" selection-end-column="74" />
-          <caret line="431" column="74" lean-forward="false" selection-start-line="431" selection-start-column="74" selection-end-line="431" selection-end-column="74" />
-          <caret line="432" column="74" lean-forward="false" selection-start-line="432" selection-start-column="74" selection-end-line="432" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3683">
-          <caret line="158" column="38" lean-forward="false" selection-start-line="158" selection-start-column="38" selection-end-line="158" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#39#0" expanded="false" />
-            <marker date="1530657747042" expanded="true" signature="6028:6040" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/components/filtro/Filtro.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5568">
-          <caret line="192" column="0" lean-forward="false" selection-start-line="192" selection-start-column="0" selection-end-line="199" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/components/comunes/Card_experiencias.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4118">
-          <caret line="142" column="0" lean-forward="false" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/components/comunes/Card_experiencias.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="9" column="61" lean-forward="false" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/components/comunes/Buscador_filtro_movil.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9309">
-          <caret line="284" column="79" lean-forward="false" selection-start-line="252" selection-start-column="79" selection-end-line="284" selection-end-column="79" />
-          <caret line="329" column="79" lean-forward="false" selection-start-line="313" selection-start-column="79" selection-end-line="329" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/components/comunes/Buscador_filtro.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="15" column="19" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/admin/components/adm_reservas/Datatable_reservas.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1653">
-          <caret line="61" column="60" lean-forward="false" selection-start-line="61" selection-start-column="60" selection-end-line="61" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/components/filtro/Filtro.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="34" lean-forward="false" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/admin/components/comunes/menu/Menu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="812">
-          <caret line="30" column="18" lean-forward="false" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/admin/components/comunes/menu/Menu.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/admin/css/animate.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="6" column="1423" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="56259" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/components/comunes/Menu2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="957">
-          <caret line="49" column="14" lean-forward="false" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/admin/components/adm_reservas/Row_lista.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="928">
-          <caret line="35" column="31" lean-forward="false" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/admin/components/adm_reservas/Reservas_adm.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
@@ -725,14 +591,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/components/comunes/Buscador_filtro.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="186" column="95" lean-forward="true" selection-start-line="186" selection-start-column="59" selection-end-line="186" selection-end-column="95" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/web/components/comunes/Certificado_peq.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="58">
@@ -741,19 +599,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/components/comunes/Header.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="48" column="14" lean-forward="false" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/web/components/comunes/calendar/events.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -761,9 +610,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-609">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -771,7 +617,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="66" column="39" lean-forward="true" selection-start-line="66" selection-start-column="39" selection-end-line="66" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -779,9 +624,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
           <caret line="143" column="72" lean-forward="false" selection-start-line="143" selection-start-column="68" selection-end-line="143" selection-end-column="72" />
-          <folding>
-            <element signature="e#0#39#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -801,110 +643,207 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="323" column="14" lean-forward="false" selection-start-line="323" selection-start-column="13" selection-end-line="323" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/components/comunes/Carousel_cards.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="19" column="63" lean-forward="false" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="77" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/components/comunes/Carousel_card.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="63" column="1" lean-forward="true" selection-start-line="63" selection-start-column="1" selection-end-line="63" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/components/ficha/Ficha.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/components/home/Home.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/web/components/comunes/Footer_patrocinadores.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
+        <state relative-caret-position="638">
           <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/components/comunes/Modal_sombra.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/components/blogp/Blogp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="105" column="0" lean-forward="true" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-            <element signature="e#365#418#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/components/blogp/Entrada_blog.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="8" column="21" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/components/home/Home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/components/comunes/Modal_sombra.js" />
     <entry file="file://$PROJECT_DIR$/src/web/components/comunes/Footer_patrocinadores.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
+        <state relative-caret-position="522">
           <caret line="29" column="73" lean-forward="false" selection-start-line="29" selection-start-column="73" selection-end-line="29" selection-end-column="73" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/web/components/comunes/Modal_compra.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
+        <state relative-caret-position="5249">
           <caret line="191" column="38" lean-forward="false" selection-start-line="191" selection-start-column="38" selection-end-line="191" selection-end-column="38" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="false" />
             <element signature="e#6764#8041#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/components/comunes/Modal_compra.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3422">
+          <caret line="118" column="0" lean-forward="false" selection-start-line="118" selection-start-column="0" selection-end-line="120" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/components/home/Modal_cupones.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/components/home/Modal_cupones.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="70" column="12" lean-forward="false" selection-start-line="70" selection-start-column="12" selection-end-line="70" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/components/comunes/Experiencia_volarGlobo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/components/comunes/Carousel_cards.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="70" column="75" lean-forward="false" selection-start-line="70" selection-start-column="75" selection-end-line="70" selection-end-column="75" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/components/home/Home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="172" column="134" lean-forward="false" selection-start-line="172" selection-start-column="133" selection-end-line="172" selection-end-column="134" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/components/comunes/Experiencia_completa.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="19" column="63" lean-forward="false" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/components/comunes/Experiencia_completa.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="30" column="23" lean-forward="true" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/components/comunes/Menu2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="137" column="45" lean-forward="false" selection-start-line="137" selection-start-column="45" selection-end-line="137" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/components/comunes/Buscador_filtro.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/components/filtro/Filtro.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2155">
+          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/components/comunes/Card_experiencias.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="10" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/components/comunes/Buscador_filtro.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="596">
+          <caret line="293" column="152" lean-forward="false" selection-start-line="293" selection-start-column="152" selection-end-line="293" selection-end-column="152" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/components/comunes/Certificado.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="4" column="9" lean-forward="false" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+          <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/components/instalaciones/Instalaciones.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="83" column="72" lean-forward="false" selection-start-line="83" selection-start-column="72" selection-end-line="83" selection-end-column="72" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/components/comunes/Certificado.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="52" column="51" lean-forward="false" selection-start-line="52" selection-start-column="43" selection-end-line="52" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/components/comunes/Footer_estilohome.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="587">
+          <caret line="165" column="85" lean-forward="false" selection-start-line="165" selection-start-column="72" selection-end-line="165" selection-end-column="85" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/components/comunes/Footer_estilohome.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/components/faq/Faq.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="84" column="38" lean-forward="false" selection-start-line="84" selection-start-column="38" selection-end-line="84" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -912,36 +851,150 @@
     <entry file="file://$PROJECT_DIR$/src/web/components/ficha/Ficha.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="596">
-          <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+          <caret line="109" column="56" lean-forward="false" selection-start-line="109" selection-start-column="56" selection-end-line="109" selection-end-column="56" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/components/comunes/Modal_compra.css">
+    <entry file="file://$PROJECT_DIR$/src/web/components/instalaciones/Instalaciones.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="118" column="0" lean-forward="false" selection-start-line="118" selection-start-column="0" selection-end-line="120" selection-end-column="1" />
+        <state relative-caret-position="314">
+          <caret line="29" column="12" lean-forward="false" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/components/home/Modal_cupones.css">
+    <entry file="file://$PROJECT_DIR$/src/web/components/filtro/Filtro.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="70" column="12" lean-forward="false" selection-start-line="70" selection-start-column="12" selection-end-line="70" selection-end-column="12" />
+        <state relative-caret-position="256">
+          <caret line="92" column="10" lean-forward="true" selection-start-line="92" selection-start-column="10" selection-end-line="92" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/components/home/Modal_cupones.js">
+    <entry file="file://$PROJECT_DIR$/src/web/components/ficha/Ficha.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="366" column="37" lean-forward="false" selection-start-line="366" selection-start-column="37" selection-end-line="366" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/components/pilotos/Pilotos.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="116" column="62" lean-forward="false" selection-start-line="116" selection-start-column="62" selection-end-line="116" selection-end-column="62" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/components/home/Home.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-875">
+          <caret line="219" column="4" lean-forward="false" selection-start-line="219" selection-start-column="4" selection-end-line="221" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
-          <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <caret line="7" column="63" lean-forward="true" selection-start-line="7" selection-start-column="63" selection-end-line="7" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/components/blogp/Blogp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="90" column="15" lean-forward="true" selection-start-line="90" selection-start-column="15" selection-end-line="90" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/components/blogp/Entrada_blog.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="9" column="47" lean-forward="false" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/components/comunes/Carousel_card.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/components/blogp/Blogp.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="50" column="18" lean-forward="false" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/components/pilotos/Pilotos.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="14" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/components/bloge/Bloge.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2818">
+          <caret line="139" column="38" lean-forward="false" selection-start-line="139" selection-start-column="38" selection-end-line="139" selection-end-column="38" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/components/bloge/Bloge.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="43" column="30" lean-forward="false" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/components/comunes/Header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="98" column="41" lean-forward="false" selection-start-line="98" selection-start-column="41" selection-end-line="98" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/components/faq/Faq.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="179" column="19" lean-forward="false" selection-start-line="179" selection-start-column="19" selection-end-line="179" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/components/comunes/Header.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="51" column="28" lean-forward="false" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>

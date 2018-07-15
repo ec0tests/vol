@@ -38,7 +38,11 @@
     bottom: 5%;
 }
 
-
+.Banner-iconos{
+    font-size: 2rem;
+    line-height: 1;
+    font-family: 'Barlow Condensed', sans-serif;
+}
 .Home-h1 {
     font-weight: 700 !important;
     color: white;
@@ -97,6 +101,10 @@ header > .container {
     flex-wrap: wrap;
     text-align: left;
 }
+.AbajoTxt{
+    font-size: 1.1rem;
+    line-height: 1.1;
+}
 
 .Iconos-header h6 {
     margin-bottom: 7%;
@@ -107,8 +115,8 @@ header > .container {
     font-size: 2rem;
     font-weight: bold;
     font-weight: bold;
-    line-height: 1;
-    font-family: "Barlow Condensed";
+    line-height: 1!important;
+    font-family: "Barlow Condensed"!important;
 }
 .Personaliza-experiencia-text{
     font-size: 5rem;
@@ -157,11 +165,15 @@ header > .container {
   background-color: #275faa;
   opacity: 80;
 }*/
-
+.Ico-banners{
+    font-size: 0.9rem;
+    font-weight: 500;
+    font-family: Roboto!important;
+}
 .Asterisco {
-    left: -0.5625rem;
+    left: -1.02rem;
     position: absolute;
-    top: -0.8125rem;
+    top: -0.6125rem;
     font-size: 2.8rem;
 }
 
@@ -321,11 +333,11 @@ header > .container {
 }
 
 .Home footer .Div-ico{
-    width: 13.3%;
+    width: 19.3%;
 }
 
  footer .Div-ico img{
-    width: 2.6rem!important;
+    width: 2.9rem!important;
 }
 
 .Footer_estilo1{
@@ -349,6 +361,10 @@ footer .Row1 {
 }
 
 
+.Btn-arreglado{
+    background-color: #051959 !important;
+    float: left;
+}
 
 
 @media (max-width: 575.98px) {

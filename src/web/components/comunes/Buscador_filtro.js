@@ -189,7 +189,7 @@ class Buscador_filtro extends React.Component{
 
                                 </div>
                                 <div className="col-3 p-0">
-                                    <button onClick={this.toggle_filtro_personas.bind(this)} className="Btn-gris-sinfondo">
+                                    <button onClick={this.toggle_filtro_personas.bind(this)} className="Btn-gris-sinfondo Btn-gris-arreglado ">
                                         Personas
                                     </button>
                                     <div id="card_personas" className={`card Filtro-card Filtro-personas Z-index-alto `} style={ hidden_filtro_personas }>
@@ -229,7 +229,7 @@ class Buscador_filtro extends React.Component{
                                     </div>
                                 </div>
                                 <div className="col-3 p-0">
-                                    <button onClick={this.toggle_filtro_tipo.bind(this)} className="Btn-gris-sinfondo">
+                                    <button onClick={this.toggle_filtro_tipo.bind(this)} className="Btn-gris-sinfondo Btn-gris-arreglado ">
                                         Tipo de vuelo
                                     </button>
                                     <div id="card_tipovuelo" className={`card Filtro-card Filtro-tipovuelo Z-index-alto`} style={ hidden_filtro_tipo }>
@@ -291,7 +291,7 @@ class Buscador_filtro extends React.Component{
                                     </div>
                                 </div>
                                 <div className="col-3 p-0">
-                                    <button id="btn_packs" onClick={this.toggle_filtro_pack.bind(this)} className={`Btn-gris-sinfondo ${this.props.pack}`} >
+                                    <button id="btn_packs" onClick={this.toggle_filtro_pack.bind(this)} className={`Btn-gris-sinfondo Btn-gris-arreglado  ${this.props.pack}`} >
                                         {this.props.texto}
                                     </button>
                                     <div id="card_pack" className={`card Filtro-card Filtro-packs Z-index-alto pb-3`} style={ hidden_filtro_pack }>

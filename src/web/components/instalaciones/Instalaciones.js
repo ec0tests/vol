@@ -81,7 +81,7 @@ for (var i = 0; i < instalaciones_json.instalaciones.length; i++) {
                         <div className="row text-left p-3 pl-md-5">
                             <div className="col-12 ">
                                 <h1 className="text-uppercase Instalaciones-h1"> Nuestras <br/> instalaciones</h1>
-                                <h5 className="text-white w-50">Combina tu viaje en globo con actividades de aventura
+                                <h5 className="text-white w-50 F-15 pt-3">Combina tu viaje en globo con actividades de aventura
                                     para disfrutar del paraje de la
                                     Garrocha en todo su esplendor con actividades.</h5>
 

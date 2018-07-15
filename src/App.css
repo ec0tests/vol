@@ -10,6 +10,10 @@
     min-height: 30rem;
 }
 
+.carousel-item .card{
+    -webkit-box-shadow: -1px 10px 34px -2px rgba(166, 166, 166, 1) !important;
+    box-shadow: -1px 10px 34px -2px rgba(166, 166, 166, 1) !important;
+}
 /*ADMIN*/
 .card-body{
     text-align: left;
@@ -87,6 +91,7 @@ h2 {
     font-family: 'Barlow Condensed', sans-serif!important;
     font-size: 4rem!important;
 }
+
 h3{
     color: #333333;
     font-weight: bold;
@@ -121,7 +126,9 @@ h4{
     color: white;
     text-transform: uppercase;
     border: 0;
-    font-size: .9rem;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+
     font-weight: 600;
     padding: 0.625rem;
     width: 11rem;
@@ -129,12 +136,14 @@ h4{
 .Btn-gris{
     background-color: #999999;
     color: #fff;
+    font-family: 'Roboto', sans-serif;
+
     border: 0;
     padding: 0.5rem;
-    width: 10rem;
+    width: 12rem;
+    font-weight: 600;
     text-transform: uppercase;
-    font-weight: bold;
-    font-size: .8rem;
+    font-size: 1rem;
 }
 
 .Btn-gris-sinfondo{
@@ -142,10 +151,13 @@ h4{
     color: #999999;
     border: 2px solid #999999;
     padding: 0.3rem;
-    width: 8rem;
+    width: 12rem;
+    font-family: 'Roboto', sans-serif;
+
     text-transform: uppercase;
-    font-weight: bold;
-    font-size: .8rem;
+    font-size: 1rem;
+    font-weight: 600;
+
 }
 .Float-r{
      float: right!important;
@@ -176,7 +188,9 @@ h4{
     color: white;
     text-transform: uppercase;
     border: 0;
-    font-size: .75rem;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+
     margin-top: 3rem;
     font-weight: 600;
     padding: 0.8125rem;
@@ -191,6 +205,8 @@ h4{
     border: 0;
     font-size: .9rem;
     font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+
     padding: 0.625rem;
     width: 11rem;
 }
@@ -199,7 +215,7 @@ h4{
     color: white;
     text-transform: uppercase;
     border: 0;
-    font-size: .8rem;
+    font-size: 1rem;
     font-weight: 600;
     padding: 0.8125rem;
     width: 12rem;
@@ -211,10 +227,11 @@ h4{
     color: white;
     text-transform: uppercase;
     border: 0;
-    font-size: .95rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
     font-weight: 600;
     padding: 0.5rem;
-    width: 8.6rem;
+    width: 12rem;
     height: 2.8rem;
 }
 
@@ -223,10 +240,12 @@ h4{
     color: white;
     text-transform: uppercase;
     border: 0;
-    font-size: .88rem;
+    font-family: 'Roboto', sans-serif;
+
+    font-size: 1rem;
     font-weight: 600;
     padding: 0.5rem;
-    width: 11rem;
+    width: 12rem;
     height: 2.5rem;
 }
 
@@ -235,7 +254,9 @@ h4{
     color: white;
     text-transform: uppercase;
     border: 0;
-    font-size: .9rem;
+    font-family: 'Roboto', sans-serif;
+
+    font-size: 1rem;
     margin-top: 3rem;
     font-weight: 600;
     padding: 0.5rem;
@@ -271,11 +292,19 @@ button:hover {
     text-align: center;
 }
 .Goo-ico-white{
-    font-size: 2.7rem;
+    font-size: 3rem;
     color: white;
     margin-top: 0.1rem;
     border: 0;
     border-radius: 0;
+}
+.tingle-modal__close {
+    color: #f0f0f0;
+    font-size: 4rem!important;
+    font-family: Roboto!important;
+    line-height: 1;
+    cursor: pointer;
+    font-weight: bold!important;
 }
 .spinner > div {
     width: 18px;

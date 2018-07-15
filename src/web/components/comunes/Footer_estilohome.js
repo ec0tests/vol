@@ -121,14 +121,14 @@ modal.addFooterBtn('Dangerous action !', 'tingle-btn tingle-btn--danger', functi
 const Footer_estilohome = () => (
 
             <div className="row Row1 py-2 py-md-0 p-md-3">
-                <div className="col-12 col-md-5 d-flex">
-                    <div className="col-12 col-md-6 p-0 d-flex align-items-center justify-content-center">
+                <div className="col-12 col-md-5 d-flex justify-content-center">
+                    <div className="col-12 col-md-8 p-0 d-flex align-items-center justify-content-center">
                         <img className="img-fluid" src={logo_b} alt=""/>
                     </div>
 
 
                 </div>
-                <div className="col-12 col-md-7  pb-2 d-flex flex-wrap pt-0 pt-md-5">
+                <div className="col-12 col-md-7  pb-2 d-flex flex-wrap pt-0 justify-content-end pt-md-5">
                     <div
                         className="col-12 col-md-5 p-0 d-flex align-items-center py-5 py-md-0 Justify-md-content-end">
                         <a href="/filtro">
@@ -136,7 +136,7 @@ const Footer_estilohome = () => (
                         </a>
                     </div>
                     <div
-                        className="col-12 col-md-6 d-flex  align-items-center flex-wrap Justify-md-content-end">
+                        className="col-12 col-md-4 d-flex  align-items-center flex-wrap Justify-md-content-end">
                         <div className="Div-ico">
                             <a target="_blank" href="https://es-es.facebook.com/voldecoloms/">
                                 <img src={ico_face} alt=""/>

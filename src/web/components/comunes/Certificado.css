@@ -1,3 +1,11 @@
 .tripadvisor{
     width:15.5rem;
 }
+
+.TA_links{
+     list-style: none!important;
+ }
+
+.TA_links li{
+    list-style: none!important;
+}

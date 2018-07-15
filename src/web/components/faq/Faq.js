@@ -82,7 +82,7 @@ const Faq = () => (
         </section>
 
         <main className="Section2-faq text-left ">
-            <div className="container-fluid px-0 px-md-5">
+            <div className="container ">
 
                 <div className="row pt-2 w-100">
                     {array_preguntas_faq}

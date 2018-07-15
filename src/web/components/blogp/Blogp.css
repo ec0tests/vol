@@ -3,15 +3,18 @@
 .Blogp h1{
     font-style: italic;
     color: #9a9a9a;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     border-bottom: 1px solid #9a9a9a;
     border-top: 1px solid #9a9a9a;
-    padding: 2.1rem 0;
+    padding: 1.5rem 0;
     margin: auto;
     width: 80%;
+    font-family: 'Roboto'!important;
+
 }
 .Blogp h1>span{
-    color: #4e80c1;
+       color: #2863B0;
+
     font-weight: bold;
 }
 
@@ -44,8 +47,8 @@ p  {
     background: url('../../images/blogp-bkg1.jpg');
     background-position-x: center;
     background-repeat: no-repeat;
-    padding-top: 2rem;
-    min-height: 30rem;
+    padding-top: 0rem;
+    min-height: 25rem;
 
 }
 

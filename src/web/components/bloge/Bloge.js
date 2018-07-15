@@ -137,7 +137,7 @@ const Bloge = () => (
             </div>
         </section>
         <main className="Section2-bloge text-left px-1 px-md-5">
-            <div className="container-fluid px-1 px-md-5">
+            <div className="container ">
                 <div className="row">
                     <div className="col-12 col-md-8">
                         <div className="col-12 mb-5 py-3">
@@ -244,7 +244,7 @@ const Bloge = () => (
 
         <section id="Section3" className="Section3-bloge Text-gray">
 
-            <div className="container-fluid">
+            <div className="container">
                 <div className="row">
                     <div className="col-md-12 mb-5">
                         <img src={dibujo_globo} className="img-fluid" alt=""/>

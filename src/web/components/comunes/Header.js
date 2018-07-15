@@ -90,13 +90,13 @@ document.addEventListener("DOMContentLoaded", function (event) {
 const Header = ({logo}) => (
     <header className="text-white">
         <div className="container-fluid">
-            <div className="row p-md-3 p-0 pt-2 pt-md-0 pl-0 pl-md-5">
+            <div className="row pt-md-3 p-0 pt-2 pt-md-0 pl-0 pl-md-5 pb-0">
                 <div className="col-6 col-md-6 text-left pb-0 pb-md-4 pb-md-0 pl-0 ">
                     <a href="http://167.99.208.80/"><img src={logo} id="logo" className="img-fluid Logo-top"
                                                          alt=""/></a>
                 </div>
-                <div className="col-6 col-md-6 d-flex align-items-center justify-content-end pr-1 pr-md-2 P-initial">
-                    <div>
+                <div className="col-6 col-md-6 d-flex align-items-center justify-content-end pr-1 pr-md-2 P-initial pr-md-4">
+                    <div className="Pr-16">
                         <button id="btn_megamenu" onClick={show_megamenu}
                                 className="Megamenu text-uppercase Open-megamenu d-none d-md-block">Vuelos en globo
                         </button>

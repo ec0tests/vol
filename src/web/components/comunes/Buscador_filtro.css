@@ -74,3 +74,10 @@
     font-size: 1rem;
     font-weight: 400;
 }
+
+.Btn-gris-arreglado{
+    width: 8rem!important;
+    color: #666!important;
+    font-size: 0.8rem!important;
+    font-family: Roboto!important;
+}

@@ -19,18 +19,14 @@ const Carousel_cards = () => (
 
                                                 <h5 className="Titulo-tarjeta card-title w-100 text-left text-uppercase Barlow">14/febrero
                                                     san valentin</h5>
-                                                <p className="card-text Width-75 text-left Subtitulo-tarjeta">Some quick example text to build
-                                                    on the
-                                                    card
-                                                    title and
-                                                    make up the bulk of the card's content.</p>
+                                                <p className=" Width-75 text-left Subtitulo-tarjeta">Vuelo en pareja & noche romántica en una cabaña en un árbol.</p>
                                             </div>
 
                                         </div>
 
-                                        <div className="row w-100 pt-5">
+                                        <div className="row w-100 pt-5 justify-content-between">
                                             <div className="col-12 col-md-4 text-left d-flex align-items-center">
-                                                <button className=" Btn-blue">VER OFERTA</button>
+                                                <button className=" Btn-blue W-8rem">VER OFERTA</button>
                                             </div>
                                             <div className="col-12 col-md-7 mt-3 mt-md-0 text-left d-flex Tarjeta-footer flex-md-row">
                                                 <div className="d-flex">
@@ -52,6 +48,7 @@ const Carousel_cards = () => (
                             </div>
                         </div>
                     </div>
+
                     <div className="carousel-item ">
                         <div className="row justify-content-center py-5 mb-5 Card-row">
                             <div className="col-12 col-md-8">
@@ -62,61 +59,14 @@ const Carousel_cards = () => (
 
                                                 <h5 className="Titulo-tarjeta card-title w-100 text-left text-uppercase Barlow">14/febrero
                                                     san valentin</h5>
-                                                <p className="card-text Width-75 text-left">Some quick example text to build
-                                                    on the
-                                                    card
-                                                    title and
-                                                    make up the bulk of the card's content.</p>
+                                                <p className=" Width-75 text-left Subtitulo-tarjeta">Vuelo en pareja & noche romántica en una cabaña en un árbol.</p>
                                             </div>
 
                                         </div>
 
-                                        <div className="row w-100 pt-5">
+                                        <div className="row w-100 pt-5 justify-content-between">
                                             <div className="col-12 col-md-4 text-left d-flex align-items-center">
-                                                <button className=" Btn-blue">VER OFERTA</button>
-                                            </div>
-                                            <div className="col-12 col-md-7 mt-3 mt-md-0 text-left d-flex Tarjeta-footer flex-md-row">
-                                                <div className="d-flex">
-                                                    <img src="https://via.placeholder.com/55x55" className=""
-                                                         alt=""/>
-                                                    <span className=" d-flex align-items-center p-2 Info-card">Vuela en globo <br/> Globo no compartido</span>
-                                                </div>
-                                                <div>
-                                                    <span className="d-flex align-items-center Price-card pl-3">250€</span>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="carousel-item ">
-                        <div className="row justify-content-center py-5 mb-5 Card-row">
-                            <div className="col-12 col-md-8">
-                                <div className="card w-100 h-100 p-0 p-md-4">
-                                    <div className="card-body text-left">
-                                        <div className="row w-100">
-                                            <div className="col-md-12">
-
-                                                <h5 className="Titulo-tarjeta card-title w-100 text-left text-uppercase Barlow">14/febrero
-                                                    san valentin</h5>
-                                                <p className="card-text Width-75 text-left">Some quick example text to build
-                                                    on the
-                                                    card
-                                                    title and
-                                                    make up the bulk of the card's content.</p>
-                                            </div>
-
-                                        </div>
-
-                                        <div className="row w-100 pt-5">
-                                            <div className="col-12 col-md-4 text-left d-flex align-items-center">
-                                                <button className=" Btn-blue">VER OFERTA</button>
+                                                <button className=" Btn-blue W-8rem">VER OFERTA</button>
                                             </div>
                                             <div className="col-12 col-md-7 mt-3 mt-md-0 text-left d-flex Tarjeta-footer flex-md-row">
                                                 <div className="d-flex">

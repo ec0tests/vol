@@ -191,42 +191,47 @@ class Home extends React.Component {
                     <div className="container pt-0 pt-md-5 Header-sec3">
                         <div className="row ">
                             <div className="Iconos-header col-12 col-md-6 p-0 px-4">
-                                <h6 className="w-100 Text-left-m">Globo Compartido</h6>
+                                <h6 className="w-100 Text-left-m Ico-banners">Globo compartido</h6>
                                 <div className="col-4 col-sm-4 col-md-4" data-toggle="tooltip" data-placement="top"
                                      title="Para adultos">
                                     <a href="/filtro"><img className="img-fluid" src={globo_ico1} alt=""/></a>
                                     <p className="mt-3 text-uppercase Little-text3 text-white">Adultos</p>
                                 </div>
-                                <div className="col-4 col-sm-4 col-md-4">
+                                <div className="col-4 col-sm-4 col-md-4" data-toggle="tooltip" data-placement="top"
+                                     title="Con niños">
                                     <a href="/filtro"><img className="img-fluid" src={globo_ico2} alt=""/></a>
 
                                     <p className="mt-3 text-uppercase Little-text3 text-white">con niños</p>
                                 </div>
-                                <div className="col-4 col-sm-4 col-md-4">
+                                <div className="col-4 col-sm-4 col-md-4" data-toggle="tooltip" data-placement="top"
+                                     title="Adaptado para discapacitados">
                                     <a href="/filtro"><img className="img-fluid" src={globo_ico3} alt=""/></a>
 
                                     <p className="mt-3 text-uppercase Little-text3 text-white">Silla de <br/> ruedas</p>
                                 </div>
                             </div>
                             <div className="Iconos-header col-12 col-md-6 p-0 px-4">
-                                <h6 className="w-100 Text-left-m">Globo Exclusivo</h6>
-                                <div className="col-4 col-sm-4 col-md-4">
+                                <h6 className="w-100 Text-left-m Ico-banners">Globo exclusivo</h6>
+                                <div className="col-4 col-sm-4 col-md-4" data-toggle="tooltip" data-placement="top"
+                                     title="En pareja">
                                     <a href="/filtro"><img className="img-fluid Padding-ico-4" src={globo_ico4} alt=""/></a>
                                     <p className="mt-3 text-uppercase Little-text3 text-white">En <br/> pareja </p>
                                 </div>
-                                <div className="col-4 col-sm-4 col-md-4">
+                                <div className="col-4 col-sm-4 col-md-4" data-toggle="tooltip" data-placement="top"
+                                     title="Para 4 amigos">
                                     <a href="/filtro"><img className="img-fluid Padding-ico-5" src={globo_ico5} alt=""/></a>
 
                                     <p className="mt-3 text-uppercase Little-text3 text-white">4 amigos</p>
                                 </div>
-                                <div className="col-4 col-sm-4 col-md-4 Bottom-5 mt-3 mt-md-0 ">
+                                <div className="col-4 col-sm-4 col-md-4 Bottom-5 mt-3 mt-md-0 " data-toggle="tooltip" data-placement="top"
+                                     title="Para empresas">
                                     <a href="/filtro"><img className="img-fluid Padding-ico-6" src={globo_ico6} alt=""/></a>
 
                                     <p className="mt-3 text-uppercase Little-text3 text-white">empresas </p>
                                 </div>
                             </div>
                             <div className="col-12 mt-5 ">
-                                <p className="text-white Little-text"><strong> <span
+                                <p className="text-white Little-text AbajoTxt"><strong> <span
                                     className=" Asterisco"> * </span> Vuelos adaptados & 100% accesibles
                                 </strong><br/> Personas mayores , discapacidades, sillas
                                     de ruedas </p>
@@ -309,7 +314,7 @@ class Home extends React.Component {
                                     dignissimos doloremque exercitationem fuga incidunt minus natus necessitatibus
                                     nostrum officia placeat praesentium quaerat recusandae, reprehenderit rerum ullam
                                     unde?</p>
-                                <button className="Btn-darkblue">Más info</button>
+                                <button className="Btn-darkblue Btn-arreglado">Más info</button>
                             </div>
                         </div>
 

@@ -49,6 +49,7 @@ right: 0;
     background-color: #0A1F3C;
     transition: all 300ms ease-in-out;
     display: none;
+    height: 100vh!important;
 }
 .Menu-2 li{
     font-size: 1.9rem!important;
@@ -57,23 +58,27 @@ right: 0;
     position: absolute;
     right: 10px;
 }
+.Pr-16{
+    padding-right: 16px;
+}
 .Megamenu {
     background-color: transparent;
     color: #ffffff;
-    border: 0.125rem solid white;
+    border: 2px solid white;
     font-size: 0.93rem;
     padding: .4rem;
     width: 10.3rem;
+    font-weight: 500;
 
 }
 
 .Megamenu-open{
     background-color: #0A1F3C;
     border: 0;
-    position: relative;
-    height: 3rem;
+    position: fixed;
+    height: 7rem;
     position: absolute;
-    height: 12rem;
+    height: 9rem;
     right: 10.6%;
     top: 0;
 }
@@ -178,6 +183,7 @@ text-transform: capitalize}
 .menu-icon{
     background-color: transparent;
     border: 0;
+    font-size: 35px;
 }
 
 .menu-icon i{
@@ -228,7 +234,7 @@ text-transform: capitalize}
     text-align: right;
 }
 .menu-icon {
-    font-size: 24px;
+    font-size:35px;
     z-index: 1;
     transition: all 300ms ease-in-out;
 }

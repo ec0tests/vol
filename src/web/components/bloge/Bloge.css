@@ -40,7 +40,9 @@
     font-weight: bold;
     font-size: 1.5rem;
 }
-
+.Bloge .container{
+  max-width: 1240px!important;
+}
 
 /*SECCON 1*/
 .Section1-bloge{
@@ -48,7 +50,6 @@
     background: url('../../images/bloge-bkg1.jpg');
     background-position-x: center;
     background-repeat: no-repeat;
-    padding-top: 2rem;
     min-height: 30rem;
 
 }
