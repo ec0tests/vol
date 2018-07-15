@@ -20,15 +20,20 @@
 
 @media (max-width: 575.98px) {
     .Logos-patrocinadores {
-        width: 34.3%;
+        width: 24.3%;
     }
-
+    .Pantou img{
+        width: 50%;
+    }
 
 }
 
 @media (max-width: 767.98px) {
     .Logos-patrocinadores {
-        width: 34.3%;
+        width: 24.3%;
+    }
+    .Pantou img{
+        width: 50%;
     }
 
 

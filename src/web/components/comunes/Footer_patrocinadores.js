@@ -47,7 +47,7 @@ class Footer_patrocinadores extends React.Component {
                     <div className="Logos-patrocinadores d-flex justify-content-center">
                         <img src={colab_ico6} className="img-fluid" alt=""/>
                     </div>
-                    <div className="Logos-patrocinadores d-flex justify-content-center">
+                    <div className="Logos-patrocinadores d-flex justify-content-center Pantou">
                         <img src={colab_ico7} className="img-fluid" alt=""/>
                     </div>
 

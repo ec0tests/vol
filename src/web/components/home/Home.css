@@ -384,6 +384,15 @@ footer .Row1 {
 }
 
 @media (max-width: 767.98px) {
+    .Section1{
+        padding-top: 10rem;
+
+    }
+    .Section2 {
+        position: relative;
+        padding: 12rem 0;
+        padding-top: 0;
+    }
     .Padding-ico-5{
         padding-top: 18px;
     }
@@ -458,6 +467,7 @@ footer .Row1 {
     .Home footer .Div-ico {
         width: auto;
         padding-right: 0.5rem;
+        width: 20%;
 
     }
     .Justify-md-content-end{
