@@ -274,9 +274,7 @@ h4{
 }
 
 button:hover {
-    transform: scale(1.03);
     cursor: pointer;
-    transition: 0.3s;
 }
 
 /*SPINER PAGELOAD*/

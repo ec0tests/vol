@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-
 import {Link} from 'react-router-dom';
 import bkg3_2 from '../../images/bkg-3-2.png';
 import bkg3__ico from '../../images/seccion3-bkg-ico.png';
@@ -23,6 +22,9 @@ import ico_youtube from '../../images/Icon-RRSS-yt-b-55.png';
 import logo_b from '../../images/vdc-logo-b.png';
 
 import redes_ico from '../../images/redes_sociales.png';
+
+import { Parallax, Background } from 'react-parallax';
+
 
 import Footer_patrocinadores from "../comunes/Footer_patrocinadores";
 
@@ -155,8 +157,14 @@ class Home extends React.Component {
 
                 {/*MODAL CUPON*/}
                 <Modal_cupon/>
+                <Header logo={logo_b} />
+                <Parallax
+                    blur={0}
+                    bgImage={require('../../images/bkg-1.jpg')}
+                    bgImageAlt="the cat"
+                    strength={200}
+                >
                 <main id="Section1" className="Section1 ">
-                    <Header logo={logo_b} />
 
                     <div className="container pb-2 pb-md-5 mb-0 mb-md-5  Header-sec2">
                         <div className="row text-left ">
@@ -241,11 +249,12 @@ class Home extends React.Component {
                     </div>
 
                 </main>
-
+                </Parallax>
                 {/*
                 ---------------
                 SECCION 2
                 -------------*/}
+
                 <section id="Section2" className="Section2 Text-gray">
                     <img src={bkg2} className="Seccion2-bkg img-fluid" alt=""/>
 
@@ -270,6 +279,7 @@ class Home extends React.Component {
                         </div>
                     </div>
                 </section>
+
                 <div className="Bk-3-div">
                     <img src={bkg3_2} className="Section3-bkg img-fluid" alt=""/>
 

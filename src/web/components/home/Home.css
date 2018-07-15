@@ -144,16 +144,26 @@ header > .container {
 .Section1 {
     background-size: cover!important;
 
-    opacity: 0.97;
-    background: #014db4 url('../../images/bkg-1.jpg');
+    opacity: 1;
     background-repeat: no-repeat;
     padding-top: 1rem;
     padding-bottom: 5.5rem;
-    transform: skewY(3deg) translateY(-4.25rem);
+    transform: skewY(0deg) ;
     /*margin-top: -6.25rem;
     padding-top: 6.875rem;*/
-    padding-top: 4.25rem;
+    padding-top: 15rem;
 }
+.react-parallax-bgimage{
+    top: -30px;
+}
+.Home>.react-parallax{
+    transform: skewY(3deg) translateY(-4.25rem);
+}
+.Home>header{
+    position: absolute;
+    z-index: 1000;
+}
+
 
 .Section1 > * {
     transform: skewY(-3deg);
@@ -200,7 +210,8 @@ header > .container {
 
 .Seccion2-bkg {
     right: 0%;
-    position: absolute;
+    width: 55%;
+    position: fixed;
     top: -13%;
     z-index: -10;
 }
