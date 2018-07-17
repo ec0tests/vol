@@ -6,6 +6,7 @@ import Subetufoto from "../comunes/Subetufoto"
 import Footer_patrocinadores from "../comunes/Footer_patrocinadores";
 import Footer_estilohome from "../comunes/Footer_estilohome";
 import Experiencia_completa from "../comunes/Experiencia_completa";
+import logo_b from '../../images/vdc-logo-b.png';
 
 
 import logo_globo from '../../images/Globo-header-w.png';
@@ -121,7 +122,7 @@ const Bloge = () => (
     <div className="Bloge">
 <Arrow_top/>
         <section className="Section1-bloge">
-            <Header logo={logo_globo}/>
+            <Header logo={logo_b}/>
 
             <div className="container-fluid">
                 <div className="row text-left p-3 pl-0 pl-md-5">
@@ -244,7 +245,7 @@ const Bloge = () => (
 
         <section id="Section3" className="Section3-bloge Text-gray">
 
-            <div className="container">
+            <div className="container-fluid">
                 <div className="row">
                     <div className="col-md-12 mb-5">
                         <img src={dibujo_globo} className="img-fluid" alt=""/>

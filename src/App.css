@@ -1,4 +1,11 @@
 
+
+p{
+    font-size: 1.4rem;
+    line-height: 1.4;
+    font-family: Roboto;
+}
+
 .Btn-transparent{
     background: none;
     border: 0;

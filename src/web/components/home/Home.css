@@ -46,6 +46,8 @@
 .Home-h1 {
     font-weight: 700 !important;
     color: white;
+    line-height: 1!important;
+
     font-size: 11rem;
 
 }
@@ -410,10 +412,10 @@ footer .Row1 {
         padding-top: 16px!important;
     }
     .Home-h1 {
-        font-weight: 700!important;
+        font-weight: 700 !important;
         color: white;
         line-height: 1!important;
-        font-size: 4rem;
+        font-size: 11rem;
 
     }
     .Home-h2 span{

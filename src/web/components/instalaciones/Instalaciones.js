@@ -8,6 +8,7 @@ import Footer_estilo1 from "../comunes/Footer_estilo1"
 import Footer_estilohome from "../comunes/Footer_estilohome"
 import logo_globo from '../../images/Globo-header-w.png';
 import Lightbox from 'react-image-lightbox';
+import logo_b from '../../images/vdc-logo-b.png';
 
 import play_ico from '../../images/play-ico.png';
 import Experiencia_volarGlobo from "../comunes/Experiencia_volarGlobo";
@@ -75,7 +76,7 @@ for (var i = 0; i < instalaciones_json.instalaciones.length; i++) {
             <div className="Instalaciones">
 <Arrow_top/>
                 <section className="Section1-instalaciones">
-                    <Header logo={logo_globo}/>
+                    <Header logo={logo_b}/>
 
                     <div className="container-fluid">
                         <div className="row text-left p-3 pl-md-5">

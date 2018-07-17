@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import './Contact.css';
 
 import logo_globo from '../../images/Globo-header-w.png';
+import logo_b from '../../images/vdc-logo-b.png';
 
 import ico_face from '../../images/Icon-RRSS-fb-b-55.png';
 import ico_twitter from '../../images/Icon-RRSS-tw-b-55.png';
@@ -44,7 +45,7 @@ const Contact = () => (
     <div className="Contact">
         <Arrow_top/>
         <section className="Section1-contact">
-            <Header logo={logo_globo}/>
+            <Header logo={logo_b}/>
 
             <div className="container-fluid mt-auto">
                 <div className="row pl-0 pl-md-5">
@@ -78,25 +79,26 @@ const Contact = () => (
                     <div class="form-area">
                         <form role="form">
                             <br />
-                            <h2 className="w-100 mb-4">Contact Form</h2>
+                            <h2 className="w-100 mb-4">Formulario de Contacto</h2>
                             <div class="form-group">
-                                <input type="text" class="form-control" id="name" name="name" placeholder="Name" required/>
+                                <input type="text" class="form-control" id="name" name="name" placeholder="Nombre" required/>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="subject" name="subject" placeholder="Apellidos" required/>
                             </div>
                             <div class="form-group">
                                 <input type="text" class="form-control" id="email" name="email" placeholder="Email" required/>
                             </div>
                             <div class="form-group">
-                                <input type="text" class="form-control" id="mobile" name="mobile" placeholder="Mobile Number" required/>
-                            </div>
-                            <div class="form-group">
-                                <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required/>
-                            </div>
-                            <div class="form-group">
-                                <textarea class="form-control" type="textarea" id="message" placeholder="Message" maxlength="140" rows="7"></textarea>
-                                <span class="help-block"><p id="characterLeft" class="help-block ">You have reached the limit</p></span>
+                                <input type="text" class="form-control" id="mobile" name="mobile" placeholder="Tlf" required/>
                             </div>
 
-                            <button type="button" id="submit" name="submit" class="Btn-blue">Submit Form</button>
+                            <div class="form-group">
+                                <textarea class="form-control" type="textarea" id="message" placeholder="Mensaje" maxlength="140" rows="7"></textarea>
+                                <span class="help-block"><p id="characterLeft" class="help-block ">Has pasado el límite de carácteres</p></span>
+                            </div>
+
+                            <button type="button" id="submit" name="submit" class="Btn-blue">Enviar</button>
                         </form>
                     </div>
                 </div>

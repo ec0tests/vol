@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
 
 import $ from 'jquery';
-import './Ficha.css';
+import './Ficha.css';import logo_b from '../../images/vdc-logo-b.png';
+
 import Header from "../comunes/Header";
 import Experiencia_completa from "../comunes/Experiencia_completa";
 import Experiencia_volarGlobo from "../comunes/Experiencia_volarGlobo";
@@ -60,7 +61,7 @@ const Ficha = () => (
     <div className="Ficha">
         <Arrow_top/>
         <section className="Section1-ficha">
-            <Header logo={logo_globo}/>
+            <Header logo={logo_b}/>
 
             <div className="container-fluid d-flex justify-content-center">
                 <div className="row w-100 text-left p-0 p-md-3  pl-0 pl-md-5">

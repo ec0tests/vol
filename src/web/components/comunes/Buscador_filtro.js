@@ -291,7 +291,7 @@ class Buscador_filtro extends React.Component{
                                     </div>
                                 </div>
                                 <div className="col-3 p-0">
-                                    <button id="btn_packs" onClick={this.toggle_filtro_pack.bind(this)} className={`Btn-gris-sinfondo Btn-gris-arreglado  ${this.props.pack}`} >
+                                    <button id="btn_packs" onClick={this.toggle_filtro_pack.bind(this)} className={`Btn-gris-sinfondo Btn-gris-arreglado ${this.props.color} ${this.props.pack}`} >
                                         {this.props.texto}
                                     </button>
                                     <div id="card_pack" className={`card Filtro-card Filtro-packs Z-index-alto pb-3`} style={ hidden_filtro_pack }>

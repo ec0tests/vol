@@ -44,10 +44,11 @@ p  {
 /*SECCON 1*/
 .Section1-blogp{
     background-size: cover!important;
-    background: url('../../images/blogp-bkg1.jpg');
+    background: url(/static/media/blogp-bkg1.44aff90d.jpg);
     background-position-x: center;
     background-repeat: no-repeat;
     padding-top: 0rem;
+    background-position-y: center;
     min-height: 25rem;
 
 }

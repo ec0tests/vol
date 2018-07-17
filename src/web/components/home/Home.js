@@ -220,7 +220,7 @@ class Home extends React.Component {
                             </div>
                             <div className="Iconos-header col-12 col-md-6 p-0 px-4">
                                 <h6 className="w-100 Text-left-m Ico-banners">Globo exclusivo</h6>
-                                <div className="col-4 col-sm-4 col-md-4" data-toggle="tooltip" data-placement="top"
+                                <div className="col-4 col-sm-3 col-md-3" data-toggle="tooltip" data-placement="top"
                                      title="En pareja">
                                     <a href="/filtro"><img className="img-fluid Padding-ico-4" src={globo_ico4} alt=""/></a>
                                     <p className="mt-3 text-uppercase Little-text3 text-white">En <br/> pareja </p>

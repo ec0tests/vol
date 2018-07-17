@@ -1,14 +1,22 @@
-
 .card {
     -webkit-box-shadow: 5px 5px 25px 0 rgba(46,61,73,.2);
     -moz-box-shadow: 5px 5px 25px 0 rgba(46,61,73,.2);
     box-shadow: 5px 5px 25px 0 rgba(46,61,73,.2);
+    z-index: 1000;
+
+}
+.carousel-inner{
+    z-index: 1000;
+}
+.carousel-inner .card {
+    z-index: 1000;
 
 }
 .card:hover{
-    -webkit-box-shadow: 2px 4px 8px 0 rgba(46,61,73,.2);
-    -moz-box-shadow: 2px 4px 8px 0 rgba(46,61,73,.2);
-    box-shadow: 2px 4px 8px 0 rgba(46,61,73,.2);
+    -webkit-box-shadow: 2px 4px 8px 0 rgba(46,61,73,.2)!important;
+    -moz-box-shadow: 2px 4px 8px 0 rgba(46,61,73,.2)!important;
+    box-shadow: 2px 4px 8px 0 rgba(46,61,73,.2)!important;
+    cursor: pointer!important;
 }
 .Carousel-arrow {
     color: #cccccc;

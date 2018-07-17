@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import './Faq.css';
 
 import logo_globo from '../../images/Globo-header-w.png';
+import logo_b from '../../images/vdc-logo-b.png';
 
 import ico_face from '../../images/Icon-RRSS-fb-b-55.png';
 import ico_twitter from '../../images/Icon-RRSS-tw-b-55.png';
@@ -67,7 +68,7 @@ const Faq = () => (
     <div className="Faq">
 <Arrow_top/>
         <section className="Section1-faq">
-            <Header logo={logo_globo}/>
+            <Header logo={logo_b}/>
 
             <div className="container-fluid mt-auto">
                 <div className="row pl-0 pl-md-5">

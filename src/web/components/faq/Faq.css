@@ -4,11 +4,12 @@
     color: white;
     font-size: 4.7rem;
     text-transform: uppercase;
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Barlow Condensed';
     font-weight: bold;
 max-width: 90%;
     line-height: .9;
     margin-bottom: 1rem;
+    margin-top: 2rem;
 
 }
 
@@ -56,7 +57,7 @@ p  {
     background: url('../../images/faq-bkg1.jpg');
     background-position-x: center;
     background-repeat: no-repeat;
-    min-height: 33rem;
+    min-height: 37rem;
 
 }
 .Btn-gris{
@@ -185,8 +186,10 @@ justify-content: center;
 }
 
 
-@media all and (max-width: 1199px) {
-
+@media all and (max-width: 1250px) {
+    .Section1-faq {
+        min-height: 45rem;
+    }
 }
 
 @media all and (max-width: 991px) {

@@ -59,7 +59,7 @@ right: 0;
     right: 10px;
 }
 .Pr-16{
-    padding-right: 16px;
+    padding-right: 40px;
 }
 .Megamenu {
     background-color: transparent;
@@ -79,7 +79,7 @@ right: 0;
     height: 7rem;
     position: absolute;
     height: 9rem;
-    right: 10.6%;
+    right: 11.8%;
     top: 0;
 }
 .Megamenu-div{
@@ -324,7 +324,9 @@ div.panel.show {
 }
 
 @media (max-width: 767px) {
-
+    .Pr-16{
+        padding-right: 16px;
+    }
     .content-container {
         max-width: 100%;
         margin: 30px auto 0;

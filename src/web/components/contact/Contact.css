@@ -9,6 +9,7 @@
     max-width: 90%;
     line-height: .9;
     margin-bottom: 1rem;
+    margin-top: 2rem;
 
 }
 .Contact h1>span{
@@ -49,7 +50,6 @@ p  {
     background: url('../../images/faq-bkg1.jpg');
     background-position-x: center;
     background-repeat: no-repeat;
-    padding-top: 2rem;
     min-height: 30rem;
 
 }

@@ -163,7 +163,7 @@ const Footer_estilohome = () => (
                         </div>
                         <div className="Div-ico">
                             <a target="_blank" href="">
-                                <i className="fab fa-google-plus-square Goo-ico-white mt-1"></i>
+                                <i className="fab fa-google-plus-square Goo-ico-white mt-0"></i>
                             </a>
                         </div>
                     </div>

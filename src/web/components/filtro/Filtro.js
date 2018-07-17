@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import './Filtro.css';
 import logo_globo from '../../images/Globo-header-w.png';
+import logo_b from '../../images/vdc-logo-b.png';
 
 import ico_face from '../../images/Icon-RRSS-fb-b-55.png';
 import ico_twitter from '../../images/Icon-RRSS-tw-b-55.png';
@@ -127,7 +128,7 @@ class Filtro extends React.Component{
             <div className="Filtro">
 <Arrow_top/>
                 <section className="Section1-filtro d-flex flex-column">
-                    <Header logo={logo_globo}/>
+                    <Header logo={logo_b}/>
 
                     <div className="container-fluid pl-1 pl-md-5">
                         <div className="row text-left pl-3">

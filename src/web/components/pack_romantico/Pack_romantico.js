@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import './Pack_romantico.css';
 import logo_globo from '../../images/Globo-header-w.png';
+import logo_b from '../../images/vdc-logo-b.png';
 
 
 import Header from "../comunes/Header";
@@ -191,7 +192,7 @@ class Pack_romantico extends React.Component{
             <div className="Pack-romantico">
 <Arrow_top/>
                 <section className="Section1-pack-romantico d-flex flex-column">
-                    <Header logo={logo_globo}/>
+                    <Header logo={logo_b}/>
 
                     <div className="container-fluid pl-2 pl-md-5 mt-2 mt-md-0">
                         <div className="row text-left pl-2 pl-md-3">
@@ -205,8 +206,8 @@ class Pack_romantico extends React.Component{
 
                 <main className="Section2-pack-romantico text-left px-1 px-md-5">
                     <div className="container-fluid px-1 px-md-5">
-                       <Buscador_filtro pack={'Pack_romantico'} texto={'Romántico'}/>
-                       <Buscador_filtro_movil pack={'Pack_romantico'} texto={'Romántico'}/>
+                       <Buscador_filtro pack={'Pack_romantico'} color="text-white" texto={'Romántico'}/>
+                       <Buscador_filtro_movil pack={'Pack_romantico'} color="text-white" texto={'Romántico'}/>
                         <div className="row pt-2">
                             {array_cards_experiencias}
 

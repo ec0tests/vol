@@ -47,7 +47,7 @@ const Certificado = ()=> (
 
         <div className="col-md-12">
             <h2 className="w-100">Certificado de excelencia</h2>
-            <h4 className="font-weight-normal">5 estrellas en más de 200 opiniones de tripadvisor</h4>
+            <h4 className="font-weight-normal Barlow">5 estrellas en más de 200 opiniones de tripadvisor</h4>
             <button onClick={openOpiniones} className="Btn-blue mt-4 ">Ver opiniones</button>
             <div id="TA_certificateOfExcellence99" class="TA_certificateOfExcellence">
                 <ul id="5OBkUU9JYr" class="TA_links zgEs5zbzW8 p-0">

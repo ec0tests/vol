@@ -8,6 +8,7 @@ import Subetufoto from "../comunes/Subetufoto"
 import Footer_estilohome from "../comunes/Footer_estilohome"
 /*import logo_globo from '../../images/Globo-header-w.png';*/
 import logo_globo from '../../images/vdc-logo-b.png';
+import logo_b from '../../images/vdc-logo-b.png';
 
 import ico_face from '../../images/Icon-RRSS-fb-b-55.png';
 import ico_twitter from '../../images/Icon-RRSS-tw-b-55.png';
@@ -62,7 +63,7 @@ const Blogp = () => (
     <div className="Blogp">
 <Arrow_top/>
         <section className="Section1-blogp d-flex flex-column">
-            <Header logo={logo_globo}/>
+            <Header logo={logo_b}/>
 
             <div className="container mt-auto">
                 <div className="row">
