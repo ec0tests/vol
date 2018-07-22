@@ -2,25 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="689f3cfd-3ccb-444b-a116-11e30d561ec9" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/web/images/ico-google.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/web/images/ico-google2.jpg" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" afterPath="$PROJECT_DIR$/src/App.css" />
-      <change beforePath="$PROJECT_DIR$/src/web/components/bloge/Bloge.css" afterPath="$PROJECT_DIR$/src/web/components/bloge/Bloge.css" />
-      <change beforePath="$PROJECT_DIR$/src/web/components/comunes/Carousel_card.css" afterPath="$PROJECT_DIR$/src/web/components/comunes/Carousel_card.css" />
-      <change beforePath="$PROJECT_DIR$/src/web/components/comunes/Carousel_cards.js" afterPath="$PROJECT_DIR$/src/web/components/comunes/Carousel_cards.js" />
-      <change beforePath="$PROJECT_DIR$/src/web/components/comunes/Experiencia_completa.css" afterPath="$PROJECT_DIR$/src/web/components/comunes/Experiencia_completa.css" />
-      <change beforePath="$PROJECT_DIR$/src/web/components/comunes/Experiencia_completa.js" afterPath="$PROJECT_DIR$/src/web/components/comunes/Experiencia_completa.js" />
-      <change beforePath="$PROJECT_DIR$/src/web/components/comunes/Footer_estilo1.js" afterPath="$PROJECT_DIR$/src/web/components/comunes/Footer_estilo1.js" />
-      <change beforePath="$PROJECT_DIR$/src/web/components/comunes/Footer_estilohome.css" afterPath="$PROJECT_DIR$/src/web/components/comunes/Footer_estilohome.css" />
-      <change beforePath="$PROJECT_DIR$/src/web/components/comunes/Footer_estilohome.js" afterPath="$PROJECT_DIR$/src/web/components/comunes/Footer_estilohome.js" />
-      <change beforePath="$PROJECT_DIR$/src/web/components/comunes/Header.css" afterPath="$PROJECT_DIR$/src/web/components/comunes/Header.css" />
-      <change beforePath="$PROJECT_DIR$/src/web/components/comunes/Header.js" afterPath="$PROJECT_DIR$/src/web/components/comunes/Header.js" />
       <change beforePath="$PROJECT_DIR$/src/web/components/faq/Faq.css" afterPath="$PROJECT_DIR$/src/web/components/faq/Faq.css" />
-      <change beforePath="$PROJECT_DIR$/src/web/components/ficha/Ficha.css" afterPath="$PROJECT_DIR$/src/web/components/ficha/Ficha.css" />
-      <change beforePath="$PROJECT_DIR$/src/web/components/ficha/Ficha.js" afterPath="$PROJECT_DIR$/src/web/components/ficha/Ficha.js" />
-      <change beforePath="$PROJECT_DIR$/src/web/components/home/Home.css" afterPath="$PROJECT_DIR$/src/web/components/home/Home.css" />
-      <change beforePath="$PROJECT_DIR$/src/web/components/home/Home.js" afterPath="$PROJECT_DIR$/src/web/components/home/Home.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -111,8 +94,8 @@
       <file leaf-file-name="Faq.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/web/components/faq/Faq.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="38" column="25" lean-forward="false" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
+            <state relative-caret-position="428">
+              <caret line="47" column="23" lean-forward="false" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -566,12 +549,12 @@
       <workItem from="1531778931825" duration="7944000" />
       <workItem from="1532126002176" duration="8555000" />
       <workItem from="1532220672259" duration="3823000" />
-      <workItem from="1532278518876" duration="5686000" />
+      <workItem from="1532278518876" duration="6343000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="550617000" />
+    <option name="totallyTimeSpent" value="551274000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -994,8 +977,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/web/components/faq/Faq.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="38" column="25" lean-forward="false" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
+        <state relative-caret-position="428">
+          <caret line="47" column="23" lean-forward="false" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
           <folding />
         </state>
       </provider>
