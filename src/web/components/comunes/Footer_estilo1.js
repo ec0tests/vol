@@ -158,7 +158,7 @@ const Footer_estilo1 = () => (
                 </div>
 
                 <div className="row w-100 text-right justify-content-end pr-3 pt-3">
-                                  <span className="text-white Copyrigth-text">©VOLS DE COLOM - Todos los derechos reservados - <a
+                                  <span className="text-white Copyrigth-text">©VOL DE COLOMS - Todos los derechos reservados - <a
                                       onClick={openPrivacy}
                                       className="Underline Cursor-pointer"> Privacy Policy</a> - <a
                                       onClick={openLegal} className="Underline Cursor-pointer">Legal Advice</a> - <a

@@ -171,7 +171,7 @@ const Footer_estilohome = () => (
                         </div>
                     </div>
                     <div className=" col-12 col-md-11  mt-4  d-flex justify-content-end">
-                                       <span className="text-white Copyrigth-text text-center text-md-right">©VOLS DE COLOM - Todos los derechos reservados - <a
+                                       <span className="text-white Copyrigth-text text-center text-md-right">©VOL DE COLOMS - Todos los derechos reservados - <a
                                            onClick={openPrivacy}
                                            className="Underline Cursor-pointer"> Privacy Policy</a> - <a
                                            onClick={openLegal}

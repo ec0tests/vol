@@ -348,7 +348,7 @@ const Bloge = () => (
                 <div className="row pt-5">
                     <div className="col-6 text-left d-flex align-items-center">
                           <span
-                              className="text-white Copyrigth-text text-right">©VOLS DE COLOM - Todos los derechos reservados - <a
+                              className="text-white Copyrigth-text text-right">©VOL DE COLOMS - Todos los derechos reservados - <a
                               href="">Privacy Policy</a> - <a href="">Legal Advice</a> - <a href="">Cookies Privacy</a> - Diseñado por <a
                               href="">Waka</a><br/> Made with love by   <a
                               target="_blank" href="https://www.ecoders.io/">Ecoders</a> !</span>
