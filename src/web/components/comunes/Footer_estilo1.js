@@ -7,6 +7,7 @@ import ico_twitter from '../../images/Icon-RRSS-tw-b-55.png';
 import ico_inst from '../../images/Icon-RRSS-in-b-55.png';
 import ico_trip from '../../images/Icon-RRSS-tr-b-55.png';
 import ico_youtube from '../../images/Icon-RRSS-yt-b-55.png';
+import ico_google2 from '../../images/ico-google2.jpg';
 import logo_b from '../../images/vdc-logo-b.png';
 
 // instanciate new modal
@@ -127,31 +128,31 @@ const Footer_estilo1 = () => (
             <div className="col-6 d-flex justify-content-end align-items-center flex-wrap pr-5">
                 <div className="Div-ico">
                     <a target="_blank" href="https://es-es.facebook.com/voldecoloms/">
-                        <img src={ico_face} alt=""/>
+                        <img className="img-fluid" src={ico_face} alt=""/>
 
                     </a>
                 </div>
                 <div className="Div-ico">
                     <a target="_blank" href="https://twitter.com/voldecoloms?lang=es">
-                        <img src={ico_twitter} alt=""/>
+                        <img className="img-fluid" src={ico_twitter} alt=""/>
 
                     </a>
                 </div>
                 <div className="Div-ico">
                     <a target="_blank" href="https://www.instagram.com/voldecoloms/">
-                        <img src={ico_inst} alt=""/>
+                        <img  className="img-fluid" src={ico_inst} alt=""/>
 
                     </a>
                 </div>
                 <div className="Div-ico">
                     <a target="_blank" href="https://www.youtube.com/user/Voldecoloms">
-                        <img src={ico_youtube} alt=""/>
+                        <img className="img-fluid" src={ico_youtube} alt=""/>
 
                     </a>
                 </div>
                 <div className="Div-ico">
                     <a target="_blank" href="">
-                        <i className="fab fa-google-plus-square Goo-ico-white"></i>
+                        <img className="img-fluid" src={ico_google2} alt=""/>
 
                     </a>
                 </div>

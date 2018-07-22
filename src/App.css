@@ -1,7 +1,7 @@
 
 
 p{
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     line-height: 1.4;
     font-family: Roboto;
 }
@@ -282,8 +282,12 @@ h4{
 
 button:hover {
     cursor: pointer;
+    opacity: 0.8;
 }
-
+.Ico-google2{
+    padding-top: 2px;
+    height: 47px;
+}
 /*SPINER PAGELOAD*/
 
 .pg-loading-screen{

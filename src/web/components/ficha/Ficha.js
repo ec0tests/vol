@@ -70,31 +70,31 @@ const Ficha = () => (
 
                     </div>
                     <div className="col-12 col-md-4 Col-tarjeta p-0 P-fixed Col-fixed">
-                        <div className="card w-100 h-100 p-md-4 p-3">
+                        <div className="card w-100 h-100 p-3">
                             <div className="card-body text-left p-1 P-absolute Card-body-fixed">
                                 <div className="row w-100 justify-content-between flex-nowrap">
                                     <div className="d-flex align-items-center">
                                         <img src={globo_ico4} className="img-fluid Ico-ficha"
                                              alt=""/>
 
-                                        <span className=" d-flex align-items-center p-2 Info-card Ficha-info">Vuela en globo <br/> Globo no compartido</span>
+                                        <span className=" d-flex align-items-center p-2 pt-3 Info-card Ficha-info">Vuelo en pareja <br/> Globo no compartido</span>
                                     </div>
-                                    <span className="d-flex align-items-center Price-card pl-3 ">250€</span>
+                                    <span className="d-flex align-items-center Price-card pl-3  Ficha-precio">250€</span>
 
                                 </div>
-                                <form className="col-12 my-2 mt-4">
-                                    <div className="pt-3 row">
+                                <form className="col-12 my-2 mt-4 mt-md-0 mt-lg-4 Form-reservaa">
+                                    <div className="pt-3 pt-md-0 pt-lg-3 row">
                                         <label for="inputPassword"
-                                               className="col-sm-5 col-form-label Label-form">Personas</label>
-                                        <div className="col-sm-7">
+                                               className="col-sm-5 col-md-5 col-xl-5 col-form-label Label-form">Personas</label>
+                                        <div className="col-sm-7  col-md-7 col-xl-7">
                                             <input type="number" className="form-control" id="inputPassword"
                                                    placeholder="Personas"/>
                                         </div>
                                     </div>
                                     <div className="pt-3 row">
                                         <label for="inputPassword"
-                                               className="col-sm-5 col-form-label Label-form">Fecha</label>
-                                        <div className="col-sm-7">
+                                               className="col-sm-5 col-md-5 col-xl-5 col-form-label Label-form">Fecha</label>
+                                        <div className="col-sm-7 col-md-7 col-xl-7">
                                             <input type="date" value="22/05/1996" className="form-control"
                                                    id="inputPassword" placeholder="Fecha"/>
                                         </div>
@@ -106,7 +106,7 @@ const Ficha = () => (
 
                                                 <input className="form-check-input" type="checkbox" id="gridCheck"/>
 
-                                                <label className="form-check-label" for="gridCheck">
+                                                <label className="form-check-label Letrasch" for="gridCheck">
                                                     Reservar con fecha abierta
                                                 </label>
 
@@ -115,7 +115,7 @@ const Ficha = () => (
                                     </div>
                                 </form>
 
-                                <div className="row w-100 pt-2">
+                                <div className="row w-100 pt-5 pt-md-4">
                                     <div className="col-md-12 text-left d-flex align-items-center">
                                         <button className=" Btn-red  w-100" data-toggle="modal" data-target="#modal_compra">RESERVAR</button>
                                     </div>
@@ -165,7 +165,7 @@ const Ficha = () => (
 
                         <div className="row mb-0 py-3 d-none d-md-flex Padding-30">
                             <h2 className="w-100">FECHAS Y DISPONIBILIDAD</h2>
-                            <div className="col-12 col-md-6 py-4 px-0">
+                            <div className="col-12 col-md-12 col-lg-12 col-xl-6  py-4 px-0">
                                 <div className="col-12  mb-3 px-0">
                                     <button className="Btn-gris Ficha-btn">MAYO</button>
                                 </div>
@@ -173,7 +173,7 @@ const Ficha = () => (
                                     <button className="Btn-blue Ficha-btn">Comprar sin fecha</button>
                                 </div>
                             </div>
-                            <div className="col-12 col-md-6 py-4">
+                            <div className="col-12 col-md-6 py-4 pl-0 pl-xl-3" >
                                 <Datepicker tipo={'inline'}/>
                             </div>
                         </div>
@@ -182,7 +182,7 @@ const Ficha = () => (
                         <div className="row mb-3  d-md-none">
                             <p className="accordion  ">FECHAS Y DISPONIBILIDAD</p>
                             <div className="panel ">
-                                <div className="col-12 col-md-6 py-4 px-0">
+                                <div className="col-12 col-md-12 col-lg-12 col-xl-6 py-4 px-0">
                                     <div className="col-12  mb-3 px-0">
                                         <button className="Btn-gris Ficha-btn">Agosto</button>
                                     </div>
@@ -190,7 +190,7 @@ const Ficha = () => (
                                         <button className="Btn-blue Ficha-btn">Comprar sin fecha</button>
                                     </div>
                                 </div>
-                                <div className="col-12 col-md-6 py-4">
+                                <div className="col-12 col-md-6 py-4 ">
                                     <Datepicker tipo={'inline'}/>
                                 </div>
                             </div>
@@ -228,7 +228,7 @@ const Ficha = () => (
 
                                 </div>
                                 <div className="col-12 d-flex Review-opinion">
-                                    <div className="col-2 col-md-2 col-lg-1 p-0"><img src="http://via.placeholder.com/50x50" className="" alt=""/></div>
+                                    <div className="col-2 col-md-2 col-lg-1 pr-2 p-0"><img  src="http://via.placeholder.com/50x50" className="img-fluid" alt=""/></div>
                                     <div className=" p-0 col-12 col-md-10">
                                         <span>lorem</span>
                                         <br/>
@@ -241,7 +241,7 @@ const Ficha = () => (
                                     </div>
                                 </div>
                                 <div className="col-12 d-flex Review-opinion">
-                                    <div className="col-2 col-md-2 col-lg-1 p-0"><img src="http://via.placeholder.com/50x50" className="" alt=""/></div>
+                                    <div className="col-2 col-md-2 col-lg-1 pr-2 p-0"><img  src="http://via.placeholder.com/50x50" className="img-fluid" alt=""/></div>
                                     <div className=" p-0 col-12 col-md-10">
                                         <span>lorem</span>
                                         <br/>
@@ -254,7 +254,7 @@ const Ficha = () => (
                                     </div>
                                 </div>
                                 <div className="col-12 d-flex Review-opinion">
-                                    <div className="col-2 col-md-2 col-lg-1 p-0"><img src="http://via.placeholder.com/50x50" className="" alt=""/></div>
+                                    <div className="col-2 col-md-2 col-lg-1 pr-2 p-0"><img  src="http://via.placeholder.com/50x50" className="img-fluid" alt=""/></div>
                                     <div className=" p-0 col-12 col-md-10">
                                         <span>lorem</span>
                                         <br/>
@@ -289,38 +289,38 @@ const Ficha = () => (
                             </div>
                         </div>
                         <div className="row mb-3 py-0 Padding-30 py-md-3">
-                            <a href="/faq"><p className="accordion  ">preguntas frequentes</p></a>
+                            <a href="/faq" className="w-100"><p className="accordion  ">preguntas frequentes</p></a>
 
                         </div>
                         <div className="col-12 mt-4  text-left align-items-center d-none d-md-flex">
-                            <div className="Div-ico">
+                            <div className="Div-ico Ico-ficha">
                                 <a href="https://es-es.facebook.com/voldecoloms/">
 
                                     <i className="fab fa-facebook-square Face-ico-color"></i>
                                 </a>
                             </div>
-                            <div className="Div-ico">
+                            <div className="Div-ico Ico-ficha">
                                 <a href="https://twitter.com/voldecoloms">
 
                                     <i className="fab fa-twitter-square Twit-ico-color"></i>
                                 </a>
                             </div>
-                            <div className="Div-ico">
+                            <div className="Div-ico Ico-ficha">
                                 <a href="https://www.youtube.com/user/Voldecoloms">
 
                                     <i className="fab fa-youtube You-ico-color"></i>
                                 </a>
                             </div>
-                            <div className="Div-ico">
+                            <div className="Div-ico Ico-ficha">
                                 <a href="https://www.instagram.com/voldecoloms/">
 
                                     <i className="fab fa-instagram Ins-ico-color"></i>
                                 </a>
                             </div>
-                            <div className="Div-ico">
+                            <div className="Div-ico Ico-ficha">
                                 <i className="fab fa-google-plus-square Goo-ico-color"></i>
                             </div>
-                            <div className="Div-ico">
+                            <div className="Div-ico Ico-ficha">
                                 <a href="https://www.linkedin.com/company/vol-de-coloms">
 
                                     <i className="fab fa-linkedin Link-ico-color"></i>
@@ -351,7 +351,7 @@ const Ficha = () => (
         </footer>
 
         <div className="Footer_estilohome d-block d-md-none">
-            <div className="container">
+            <div className="container-fluid">
 
                 <Footer_estilohome/>
             </div>

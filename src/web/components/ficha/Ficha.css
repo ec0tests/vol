@@ -44,6 +44,8 @@ font-size: 0.9rem!important;}
     font-weight: bold;
     font-size: 1.5rem;
 }
+
+
 .Card-body-fixed{
     width: 90%!important;
 }
@@ -356,19 +358,64 @@ iframe{
 
 
 @media all and (max-width: 1199px) {
+    .Col-fixed{
+        background-color: white;
+        height: 28rem;
+    }
+
 
 }
+@media all and (max-width: 1100px) {
 
-@media all and (max-width: 991px) {
+.Col-fixed{
+    background-color: white;
+    height: 29rem;
+}
+}
 
-    .Col-fixed {
-        background-color: white;
-        height: 30rem;
-        position: relative!important;
+@media all and (max-width: 1045px) {
+
+    .Label-form {
+        font-size: 1.2rem!important;
     }
 }
 
+@media all and (max-width: 991px) {
+    .Ficha-precio{
+        font-size: 2rem;
+    }
+
+    .Form-reservaa{
+        margin-top: 46px!important;
+    }
+
+    .Letrasch{
+ font-size: 0.8rem!important;
+    }
+    .Fecha-abierta-row label{
+        font-size: 0.8rem!important;
+        padding-top: 2px;
+
+    }
+
+}
+@media all and (max-width: 940px) {
+}
+@media all and (max-width: 895px) {
+    .Label-form{
+        font-size: 1rem!important;
+    }
+    .Col-fixed {
+        height: 26rem!important;
+    }
+}
+
+
 @media all and (max-width: 768px) {
+    .Col-fixed{
+        background-color: white;
+        height: 29rem!important;
+    }
     .Section2-ficha  p.accordion{
         color: #333333!important;
         padding-left: 2rem;
@@ -379,6 +426,12 @@ iframe{
         padding-bottom: 0.5rem!important;
         border-bottom: 1px solid #333333;
     }
+
+    .Col-fixed {
+          background-color: white;
+          height: 30rem;
+          position: relative!important;
+      }
     .Padding-30{
         padding-left: 0!important;
     }
@@ -403,6 +456,8 @@ iframe{
     }
 }
 
-@media all and (max-width: 575px) {
-
+@media all and (max-width: 565px) {
+    .Form-reservaa{
+        margin-top: 16px!important;
+    }
 }

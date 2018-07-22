@@ -200,22 +200,22 @@ class Home extends React.Component {
                         <div className="row ">
                             <div className="Iconos-header col-12 col-md-6 p-0 px-4">
                                 <h6 className="w-100 Text-left-m Ico-banners">Globo compartido</h6>
-                                <div className="col-4 col-sm-4 col-md-4" data-toggle="tooltip" data-placement="top"
+                                <div className="col-4 col-sm-4 col-md-4 Padding-icos" data-toggle="tooltip" data-placement="top"
                                      title="Para adultos">
                                     <a href="/filtro"><img className="img-fluid" src={globo_ico1} alt=""/></a>
-                                    <p className="mt-3 text-uppercase Little-text3 text-white">Adultos</p>
+                                    <p className="mt-3 text-uppercase Little-text3 Text-iconos text-white">Adultos</p>
                                 </div>
-                                <div className="col-4 col-sm-4 col-md-4" data-toggle="tooltip" data-placement="top"
+                                <div className="col-4 col-sm-4 col-md-4 Padding-icos" data-toggle="tooltip" data-placement="top"
                                      title="Con niños">
                                     <a href="/filtro"><img className="img-fluid" src={globo_ico2} alt=""/></a>
 
-                                    <p className="mt-3 text-uppercase Little-text3 text-white">con niños</p>
+                                    <p className="mt-3 text-uppercase Little-text3 Text-iconos text-white">con niños</p>
                                 </div>
-                                <div className="col-4 col-sm-4 col-md-4" data-toggle="tooltip" data-placement="top"
+                                <div className="col-4 col-sm-4 col-md-4 Padding-icos" data-toggle="tooltip" data-placement="top"
                                      title="Adaptado para discapacitados">
                                     <a href="/filtro"><img className="img-fluid" src={globo_ico3} alt=""/></a>
 
-                                    <p className="mt-3 text-uppercase Little-text3 text-white">Silla de <br/> ruedas</p>
+                                    <p className="mt-3 text-uppercase Little-text3 Text-iconos text-white">Silla de <br/> ruedas</p>
                                 </div>
                             </div>
                             <div className="Iconos-header col-12 col-md-6 p-0 px-4">
@@ -223,19 +223,19 @@ class Home extends React.Component {
                                 <div className="col-4 col-sm-3 col-md-3" data-toggle="tooltip" data-placement="top"
                                      title="En pareja">
                                     <a href="/filtro"><img className="img-fluid Padding-ico-4" src={globo_ico4} alt=""/></a>
-                                    <p className="mt-3 text-uppercase Little-text3 text-white">En <br/> pareja </p>
+                                    <p className="mt-3 text-uppercase Little-text3 Text-iconos text-white">En <br/> pareja </p>
                                 </div>
                                 <div className="col-4 col-sm-4 col-md-4" data-toggle="tooltip" data-placement="top"
                                      title="Para 4 amigos">
                                     <a href="/filtro"><img className="img-fluid Padding-ico-5" src={globo_ico5} alt=""/></a>
 
-                                    <p className="mt-3 text-uppercase Little-text3 text-white">4 amigos</p>
+                                    <p className="mt-3 text-uppercase Little-text3 Text-iconos text-white">4 amigos</p>
                                 </div>
                                 <div className="col-4 col-sm-4 col-md-4 Bottom-5 mt-3 mt-md-0 " data-toggle="tooltip" data-placement="top"
                                      title="Para empresas">
                                     <a href="/filtro"><img className="img-fluid Padding-ico-6" src={globo_ico6} alt=""/></a>
 
-                                    <p className="mt-3 text-uppercase Little-text3 text-white">empresas </p>
+                                    <p className="mt-3 text-uppercase Little-text3 Text-iconos text-white">empresas </p>
                                 </div>
                             </div>
                             <div className="col-12 mt-5 ">

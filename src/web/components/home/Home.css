@@ -9,6 +9,7 @@
 .Padding-ico-4{
     padding-top: 18px;
 }
+
 .Arrow-down{
     animation: MoveUpDown 1s linear infinite;
     position: absolute;
@@ -23,6 +24,7 @@
 }
 .Textoizq p{
     text-align: left;
+    font-size: 1.2rem;
 }
 @keyframes MoveUpDown {
     0%, 100% {
@@ -381,14 +383,13 @@ footer .Row1 {
 }
 
 
-@media (max-width: 575.98px) {
 
-
-}
 
 @media (max-width: 767.98px) {
-
-    .Seccion2-bkg {
+.Text-iconos{
+    font-size: 1.2rem;
+}
+.Seccion2-bkg {
         right: 0%;
         width: 75%;
         position: absolute;
@@ -415,7 +416,7 @@ footer .Row1 {
         font-weight: 700 !important;
         color: white;
         line-height: 1!important;
-        font-size: 11rem;
+        font-size: 5rem;
 
     }
     .Home-h2 span{
@@ -462,7 +463,7 @@ footer .Row1 {
         font-size: 0.7rem;
     }
     .Asterisco{
-        left: 0.4375rem;
+        left: 0.2375rem;
         position: absolute;
         top: -0.1rem;
         font-size: 1rem;
@@ -495,9 +496,38 @@ footer .Row1 {
         text-align: left!important;
 
     }
+    .Home-h2 {
+        font-size: 3.7rem!important;
+        color: white;
+        text-transform: none;
+        line-height: 1;
+    }
+    .Padding-icos{
+        padding-top: 0px!important;
+    }
+
+    .Padding-ico-5{
+        padding-top: 0px!important;
+
+    }
+    .Padding-ico-6{
+        padding-top: 0px!important;
+
+    }
 }
 
-@media (max-width: 991.98px) {  }
+@media (max-width: 991.98px) {
+    .Padding-ico-4{
+        padding-top: 3px;
+    }
+
+    .Padding-icos{
+        padding-top: 16px;
+    }
+    .Text-iconos{
+        font-size: 1.5rem!important;
+    }
+}
 
 @media (max-width: 1199.98px) {  }
 
@@ -511,5 +541,25 @@ footer .Row1 {
         top: 6.5rem;}
 }
 
+@media (max-width: 575.98px) {
+
+    .Padding-ico-4{
+        padding-top: 18px!important;
+        max-width: 56% !important;
+    }
+    .Padding-ico-5 {
+        padding-top: 3px!important;
+    }
+}
+
+@media (max-width: 400px) {
 
 
+    .Padding-ico-5 {
+        padding-top: 5px!important;
+    }
+    .Padding-ico-4{
+        padding-top: 14px!important;
+        max-width: 56% !important;
+    }
+}

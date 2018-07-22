@@ -11,10 +11,10 @@ const Carousel_cards = () => (
                 <div className="carousel-inner">
                     <div className="carousel-item active">
                         <div className="row justify-content-center py-5 mb-5 Card-row">
-                            <div className="col-12 col-md-8">
+                            <div className="col-12 col-md-9 col-lg-8">
                                 <div className="card w-100 h-100 p-0 p-md-4">
                                     <div className="card-body text-left">
-                                        <div className="row w-100">
+                                        <div className="">
                                             <div className="col-md-12">
 
                                                 <h5 className="Titulo-tarjeta card-title w-100 text-left text-uppercase Barlow">14/febrero
@@ -24,17 +24,17 @@ const Carousel_cards = () => (
 
                                         </div>
 
-                                        <div className="row w-100 pt-5 justify-content-between">
-                                            <div className="col-12 col-md-4 text-left d-flex align-items-center">
-                                                <button className=" Btn-blue W-8rem">VER OFERTA</button>
+                                        <div className="row w-100 pt-2 pt-lg-5 justify-content-between">
+                                            <div className="col-12 col-sm-5 col-md-5  text-left d-flex align-items-center mb-4  mb-lg-0">
+                                                <button className=" Btn-blue W-8rem Mayor-responsive">VER OFERTA</button>
                                             </div>
-                                            <div className="col-12 col-md-7 mt-3 mt-md-0 text-left d-flex Tarjeta-footer flex-md-row">
+                                            <div className="col-12 col-sm-7 col-md-7 mt-3 mt-md-0 text-left d-flex Tarjeta-footer flex-md-row">
                                                 <div className="d-flex">
                                                     <img src="https://via.placeholder.com/55x55" className=""
                                                          alt=""/>
                                                     <span className=" d-flex align-items-center p-2 Info-card">Vuela en globo <br/> Globo no compartido</span>
                                                 </div>
-                                             <div>
+                                             <div className="d-flex">
                                                  <span className="d-flex align-items-center Price-card pl-3">250€</span>
 
                                              </div>
@@ -49,45 +49,7 @@ const Carousel_cards = () => (
                         </div>
                     </div>
 
-                    <div className="carousel-item ">
-                        <div className="row justify-content-center py-5 mb-5 Card-row">
-                            <div className="col-12 col-md-8">
-                                <div className="card w-100 h-100 p-0 p-md-4">
-                                    <div className="card-body text-left">
-                                        <div className="row w-100">
-                                            <div className="col-md-12">
 
-                                                <h5 className="Titulo-tarjeta card-title w-100 text-left text-uppercase Barlow">14/febrero
-                                                    san valentin</h5>
-                                                <p className=" Width-75 text-left Subtitulo-tarjeta">Vuelo en pareja & noche romántica en una cabaña en un árbol.</p>
-                                            </div>
-
-                                        </div>
-
-                                        <div className="row w-100 pt-5 justify-content-between">
-                                            <div className="col-12 col-md-4 text-left d-flex align-items-center">
-                                                <button className=" Btn-blue W-8rem">VER OFERTA</button>
-                                            </div>
-                                            <div className="col-12 col-md-7 mt-3 mt-md-0 text-left d-flex Tarjeta-footer flex-md-row">
-                                                <div className="d-flex">
-                                                    <img src="https://via.placeholder.com/55x55" className=""
-                                                         alt=""/>
-                                                    <span className=" d-flex align-items-center p-2 Info-card">Vuela en globo <br/> Globo no compartido</span>
-                                                </div>
-                                                <div>
-                                                    <span className="d-flex align-items-center Price-card pl-3">250€</span>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
                 <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                     <i href="#carouselExampleIndicators" role="button" data-slide="prev" className="fas fa-angle-left Carousel-arrow"></i>

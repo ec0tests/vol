@@ -6,6 +6,7 @@ import ico_face from '../../images/Icon-RRSS-fb-b-55.png';
 import ico_twitter from '../../images/Icon-RRSS-tw-b-55.png';
 import ico_inst from '../../images/Icon-RRSS-in-b-55.png';
 import ico_trip from '../../images/Icon-RRSS-tr-b-55.png';
+import ico_google2 from '../../images/ico-google2.jpg';
 import ico_youtube from '../../images/Icon-RRSS-yt-b-55.png';
 import logo_b from '../../images/vdc-logo-b.png';
 
@@ -136,34 +137,36 @@ const Footer_estilohome = () => (
                         </a>
                     </div>
                     <div
-                        className="col-12 col-md-4 d-flex  align-items-center flex-wrap Justify-md-content-end">
+                        className="col-10 col-sm-6 col-md-7 col-lg-6 col-xl-5 d-flex  align-items-center flex-wrap Justify-md-content-end Margen-movil">
                         <div className="Div-ico">
                             <a target="_blank" href="https://es-es.facebook.com/voldecoloms/">
-                                <img src={ico_face} alt=""/>
+                                <img  src={ico_face} alt=""/>
 
                             </a>
                         </div>
                         <div className="Div-ico">
                             <a target="_blank" href="https://twitter.com/voldecoloms">
-                                <img src={ico_twitter} alt=""/>
+                                <img  src={ico_twitter} alt=""/>
 
                             </a>
                         </div>
                         <div className="Div-ico">
                             <a target="_blank" href="https://www.instagram.com/voldecoloms/">
-                                <img src={ico_inst} alt=""/>
+                                <img  src={ico_inst} alt=""/>
 
                             </a>
                         </div>
                         <div className="Div-ico">
                             <a target="_blank" href="https://www.youtube.com/user/Voldecoloms">
-                                <img src={ico_youtube} alt=""/>
+                                <img  src={ico_youtube} alt=""/>
 
                             </a>
                         </div>
                         <div className="Div-ico">
                             <a target="_blank" href="">
-                                <i className="fab fa-google-plus-square Goo-ico-white mt-0"></i>
+
+                                <img className="Ico-google2"  src={ico_google2} alt=""/>
+
                             </a>
                         </div>
                     </div>

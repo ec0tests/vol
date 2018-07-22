@@ -20,17 +20,17 @@ const Experiencia_completa = () => (
             <h3 className="d-none d-md-block Combina-vuelo-text">Una oferta redonda para cada gusto</h3>
             <div className="row justify-content-center pt-4">
 
-                <a href="/pack_historico" className="col-6 col-md-3 Exp-ico Cursor-pointer">
-                    <h5>Aventura</h5>
+                <a href="/pack_historico" className="col-6 col-md-6 col-lg-3 Exp-ico Cursor-pointer">
+                    <h5 className="Text-experiencias">Aventura</h5>
 
                     <img src={exp_ico1} className="img-fluid" alt=""/>
 
 
                 </a>
 
-                <a href="/pack_historico" className="col-6 col-md-3 Exp-ico Cursor-pointer">
+                <a href="/pack_historico" className="col-6 col-md-6 col-lg-3 Exp-ico Cursor-pointer">
 
-                    <h5>Histórico</h5>
+                    <h5 className="Text-experiencias">Histórico</h5>
 
                     <img src={exp_ico2} className="img-fluid" alt=""/>
 
@@ -38,17 +38,17 @@ const Experiencia_completa = () => (
                 </a>
 
 
-                <a href="/pack_romantico" className="col-6 col-md-3 Exp-ico Cursor-pointer">
+                <a href="/pack_romantico" className="col-6 col-md-6 col-lg-3 Exp-ico  mt-3 mt-lg-0 Cursor-pointer">
 
-                    <h5>Romántico</h5>
+                    <h5 className="Text-experiencias">Romántico</h5>
 
                     <img src={exp_ico3} className="img-fluid" alt=""/>
 
 
                 </a>
-                <a href="/pack_romantico" className="col-6 col-md-3 Exp-ico Cursor-pointer">
+                <a href="/pack_romantico" className="col-6 col-md-6 col-lg-3 Exp-ico mt-3 mt-lg-0 Cursor-pointer">
 
-                    <h5>Romántico</h5>
+                    <h5 className="Text-experiencias">Romántico</h5>
 
                     <img src={exp_ico4} className="img-fluid" alt=""/>
 

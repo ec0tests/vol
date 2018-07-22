@@ -113,7 +113,7 @@ const Header = ({logo}) => (
         </div>
         <div className="col-12 Megamenu-div ">
             <nav className="row mb-1">
-                <div className="col-md-3">
+                <div className="col-md-3 Megamenu-text-little">
                     <ul>
                         <li className="mb-3"><span className="T-megamenu">vuelos compartidos</span></li>
                         <a href="/filtro"> <a href="/filtro">
@@ -134,7 +134,7 @@ const Header = ({logo}) => (
 
                     </ul>
                 </div>
-                <div className="col-md-3">
+                <div className="col-md-3 Megamenu-text-little">
                     <ul>
                         <li className="mb-3"><span className="T-megamenu">vuelos compartidos</span></li>
                         <a href="/filtro">
@@ -155,7 +155,7 @@ const Header = ({logo}) => (
 
                     </ul>
                 </div>
-                <div className="col-md-3">
+                <div className="col-md-3 Megamenu-text-little">
                     <ul>
                         <li className="mb-3"><span className="T-megamenu">vuelos compartidos</span></li>
                         <a href="/filtro">
@@ -176,7 +176,7 @@ const Header = ({logo}) => (
 
                     </ul>
                 </div>
-                <div className="col-md-3">
+                <div className="col-md-3 Megamenu-text-little">
                     <ul>
                         <li className="mb-3"><span className="T-megamenu">vuelos compartidos</span></li>
                         <a href="/filtro">
@@ -214,12 +214,12 @@ const Header = ({logo}) => (
 
         <div className="col-12 Megamenu-div-movil">
             <div className="row">
-                <span className="Cruz" onClick={hide_megamenu_movil}>x</span>
+                <span className="Cruz text-white" onClick={hide_megamenu_movil}>x</span>
             </div>
             <nav className="row mb-1 text-left">
                 <div className="col-md-3 ">
                     <p className="accordion text-white text-uppercase">vuelos compartidos</p>
-                    <div className="panel text-white">
+                    <div className="panel text-white Megamenu-movil-white">
                         <li><span>vuelos compartidos</span></li>
                         <li><span>vuelos compartidos</span></li>
                         <li><span>vuelos compartidos</span></li>
@@ -228,7 +228,7 @@ const Header = ({logo}) => (
                 </div>
                 <div className="col-md-3 ">
                     <p className="accordion text-white text-uppercase">vuelos compartidos</p>
-                    <div className="panel text-white">
+                    <div className="panel text-white Megamenu-movil-white">
                         <li><span>vuelos compartidos</span></li>
                         <li><span>vuelos compartidos</span></li>
                         <li><span>vuelos compartidos</span></li>
@@ -237,7 +237,7 @@ const Header = ({logo}) => (
                 </div>
                 <div className="col-md-3 ">
                     <p className="accordion text-white text-uppercase">vuelos compartidos</p>
-                    <div className="panel text-white">
+                    <div className="panel text-white Megamenu-movil-white">
                         <li><span>vuelos compartidos</span></li>
                         <li><span>vuelos compartidos</span></li>
                         <li><span>vuelos compartidos</span></li>
@@ -246,7 +246,7 @@ const Header = ({logo}) => (
                 </div>
                 <div className="col-md-3 ">
                     <p className="accordion text-white text-uppercase">vuelos compartidos</p>
-                    <div className="panel text-white">
+                    <div className="panel text-white Megamenu-movil-white">
                         <li><span>vuelos compartidos</span></li>
                         <li><span>vuelos compartidos</span></li>
                         <li><span>vuelos compartidos</span></li>
