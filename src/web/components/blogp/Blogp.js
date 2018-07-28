@@ -65,7 +65,7 @@ const Blogp = () => (
         <section className="Section1-blogp d-flex flex-column">
             <Header logo={logo_b}/>
 
-            <div className="container mt-auto">
+            <div className="container mt-auto Padding-bottomb">
                 <div className="row">
                     <div className="col-12 Div-experiencias">
                         <h1 className="H1-blogp">Experiencias con valor de 5 estrellas en <span>tripadvisor</span></h1>

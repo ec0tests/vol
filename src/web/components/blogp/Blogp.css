@@ -31,7 +31,9 @@
     text-transform: uppercase;
 
 }
-
+.Padding-bottomb{
+    padding-bottom: 4%;
+}
 .Blogp h4{
     color: #333333;
     font-weight: bold;
@@ -57,7 +59,7 @@ p  {
 /*SECCON 2*/
 .Section2-blogp {
     position: relative;
-    padding-top: 2rem;
+    padding-top: 0rem;
     padding-bottom: 18rem ;
 }
 
