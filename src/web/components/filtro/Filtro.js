@@ -159,7 +159,7 @@ class Filtro extends React.Component{
 
 
                 <section className="Section3-filtro">
-                    <div className="container Container-card h-50">
+                    <div className="container Container-card h-50 Margen-negativo">
                         <Carousel_cards/>
                     </div>
                     <Experiencia_volarGlobo/>

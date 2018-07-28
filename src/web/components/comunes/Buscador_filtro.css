@@ -11,6 +11,17 @@
 .Filtro-personas{
     display: none;
 }
+.Hover-blue:hover{
+    color: white!important;
+    border-color: #0A1F3C!important;
+    background-color: #0A1F3C;
+}
+
+.Filtro-activado{
+    color: white!important;
+    border-color: #0A1F3C!important;
+    background-color: #0A1F3C;
+}
 .Opacity{
     position: inherit!important;
     opacity: 1!important;
@@ -77,7 +88,7 @@
 
 .Btn-gris-arreglado{
     width: 8rem!important;
-    color: #666!important;
+    color: #666;
     font-size: 0.8rem!important;
     font-family: Roboto!important;
 }

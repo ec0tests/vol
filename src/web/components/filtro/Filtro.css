@@ -55,6 +55,7 @@ p  {
 .Section2-filtro {
     position: relative;
     padding-top: 2rem;
+    margin-bottom: 12rem;
 }
 
 
@@ -66,6 +67,9 @@ p  {
     z-index: -10;
 }
 
+.Margen-negativo{
+    margin-top: -13rem;
+}
 
 
 
@@ -76,11 +80,14 @@ p  {
     background-size: cover!important;
     background: url('../../images/pilotos-bkg4.jpg');
     background-repeat: no-repeat;
-    height: 84rem;
+    height: 80rem;
     position: relative;
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+.Section3-filtro .Z-index3{
+    padding-top: 10rem;
 }
 
 .Pack_historico{
@@ -195,7 +202,9 @@ p  {
         display: none;
     }
 
-
+.Margen-negativo{
+    margin-top: 0;
+}
 }
 
 @media all and (max-width: 575px) {

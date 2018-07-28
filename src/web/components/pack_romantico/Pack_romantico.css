@@ -265,3 +265,25 @@ p  {
     }
 }
 
+
+@media (min-width: 1600px) {
+    .Section1-pack-romantico {
+        min-height: 37rem;
+    }
+
+}
+
+
+
+@media (min-width: 2000px) {
+    .Section1-pack-romantico {
+        min-height: 45rem;
+    }
+
+}
+@media (min-width: 2500px) {
+    .Section1-pack-romantico {
+        min-height: 50rem;
+    }
+
+}

@@ -75,7 +75,7 @@ const Blogp = () => (
         </section>
 
         <main className="Section2-blogp text-left px-0 px-md-5 ">
-            <div className="container-fluid px-0 px-md-5 ">
+            <div className="container px-0 px-md-5 ">
 
                 <div className="row pt-2 w-100 m-0 mx-md-3 p-2">
                      {array_entradas_blog}

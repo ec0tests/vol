@@ -55,6 +55,13 @@ $(document).ready(function () {
 
     }
     ;
+    $(window).scroll(function(){
+        if ($(this).scrollTop() > 100) {
+            $('.Header-fix').addClass('Fixed-header');
+        } else {
+            $('.Header-fix').removeClass('Fixed-header');
+        }
+    });
 })
 
 document.addEventListener("DOMContentLoaded", function (event) {
@@ -88,10 +95,10 @@ document.addEventListener("DOMContentLoaded", function (event) {
 /* HAGO DESTRUCTURING: En vez de crear la const logo con props.logo le añado al parametro {} y le pongo de nomrbe el nombre de la prop que le paso
 * así lo coge directamente*/
 const Header = ({logo}) => (
-    <header className="text-white">
+    <header className="text-white Header-fix">
         <div className="container-fluid">
             <div className="row pt-md-3 p-0 pt-2 pt-md-0 pl-0 pl-md-5 pb-0">
-                <div className="col-6 col-md-6 text-left pb-0 pb-md-4 pb-md-0 pl-0 ">
+                <div className="col-6 col-md-6 text-left pb-0  pl-0 ">
                     <a href="http://167.99.208.80/"><img src={logo} id="logo" className="img-fluid Logo-top"
                                                          alt=""/></a>
                 </div>

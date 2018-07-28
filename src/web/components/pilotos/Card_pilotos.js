@@ -46,7 +46,7 @@ class Card_pilotos extends Component {
             }
             <div className="Piloto-card Piloto-card-img1 Cursor-pointer" onClick={() => this.setState({isOpen: true})} style={{background: 'url('+this.props.photo+')'}}>
 
-                <span>{this.props.name}</span>
+                <span className="P-relative Z-index3">{this.props.name}</span>
 
 
                 <div className="w-100 Blue-diagonal">

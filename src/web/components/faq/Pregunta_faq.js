@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
 const Pregunta_faq = ({pregunta,respuesta})=> (
 
-            <div className=" w-100 Pregunta-div mb-4">
+            <div className=" w-100 Pregunta-div mb-4 Instalacionp">
 
                 <p className="accordion">{pregunta}</p>
                 <div className="panel"> <p>{respuesta}</p> </div>

@@ -13,10 +13,39 @@
 
 }
 .card:hover{
+    transition: 0.8s;
     -webkit-box-shadow: 2px 4px 8px 0 rgba(46,61,73,.2)!important;
     -moz-box-shadow: 2px 4px 8px 0 rgba(46,61,73,.2)!important;
     box-shadow: 2px 4px 8px 0 rgba(46,61,73,.2)!important;
     cursor: pointer!important;
+}
+.Flecha-falsa1{
+    z-index: 10000!important;
+    position: absolute!important;
+    top: 49.5%!important;
+
+}
+.Flecha-falsa2{
+    z-index: 10000!important;
+    position: absolute!important;
+    top: 51%!important;
+
+}
+
+.carousel-control-next, .carousel-control-prev {
+    /* top: 0; */
+    /* bottom: 0; */
+    /* display: flex; */
+    /* -webkit-box-align: center; */
+    /* align-items: center; */
+    /* -webkit-box-pack: center; */
+    /* justify-content: center; */
+    width: 15%;
+    color: #fff;
+    opacity: .5;
+}
+
+.Flecha-real{
 }
 .Carousel-arrow {
     color: #cccccc;

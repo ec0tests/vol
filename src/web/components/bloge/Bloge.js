@@ -141,7 +141,7 @@ const Bloge = () => (
             <div className="container ">
                 <div className="row">
                     <div className="col-12 col-md-8">
-                        <div className="col-12 mb-5 py-3">
+                        <div className="col-12 mb-5 py-3 Instalacionp">
                             <h2 className="w-100">Subtitular de la notícia</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam beatae consequatur,
                                 laudantium quis soluta temporibus voluptate voluptatibus! Aspernatur autem excepturi
@@ -149,7 +149,7 @@ const Bloge = () => (
                                     href="">Más info</a></p>
                         </div>
 
-                        <div className="col-12 mb-5 py-3">
+                        <div className="col-12 mb-5 py-3 Instalacionp">
                             <h2 className="w-100">Subtitular de la notícia</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam beatae consequatur,
                                 laudantium quis soluta temporibus voluptate voluptatibus! Aspernatur autem excepturi
@@ -157,7 +157,7 @@ const Bloge = () => (
                             <img src={imgprueba} className="img-fluid w-100" alt=""/>
                         </div>
 
-                        <div className="col-12 py-3">
+                        <div className="col-12 py-3 Instalacionp">
                             <h2 className="w-100">Subtitular de la notícia</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam beatae consequatur,
                                 laudantium quis soluta temporibus voluptate voluptatibus! Aspernatur autem excepturi
@@ -252,8 +252,8 @@ const Bloge = () => (
 
                     </div>
                     <div className="col-md-12 mt-2">
-                        <h2 className="text-center">Te proponemos experiencias</h2>
-                        <h3 className="text-center ">Combina tu vuelo con alojamiento,comida o actividades
+                        <h2 className="text-center ">Te proponemos experiencias</h2>
+                        <h3 className="text-center Roboto ">Combina tu vuelo con alojamiento,comida o actividades
                             turisticas</h3>
                     </div>
                 </div>

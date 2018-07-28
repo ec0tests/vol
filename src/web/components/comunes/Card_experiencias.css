@@ -10,6 +10,7 @@
     -moz-box-shadow: 2px 4px 8px 0 rgba(46,61,73,.2);
     box-shadow: 2px 4px 8px 0 rgba(46,61,73,.2);
     padding: 0;
+    transition: 0.8s;
 }
 
 
@@ -17,7 +18,9 @@
     flex: 0 0 20%;
 
 }
-
+.Difuminado{
+    opacity: 0.6;
+}
 .Card-experiencias svg {
     float: right;
     margin-right: 10px;

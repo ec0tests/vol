@@ -47,7 +47,7 @@ class Instalacion extends React.Component {
                 )
                 }
 
-                <div className="row mt-5 w-100">
+                <div className="row mt-5 w-100 Instalacionp">
                     <div className="col-md-12">
                         <h3>{this.props.title}</h3>
 

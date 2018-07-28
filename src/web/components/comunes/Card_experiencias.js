@@ -7,11 +7,11 @@ class Card_experiencias extends React.Component {
     render() {
 
         return (
-            <div className="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-5">
+            <div className="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-5 Elemento-tarjeta">
                 <div className={`   text-left Card-experiencias ${this.props.tamanyo}`}>
                     <div className={`${this.props.tamanyo}2`}>
 
-                        <a href="/ficha">  <img className="card-img-top img-fluid mh-100 mw-100 Cursor-pointer"
+                        <a href="/ficha">  <img className="card-img-top img-fluid  Cursor-pointer"
                                                 src={require(`../../images/${this.props.photo.toLowerCase()}.jpg`)} alt="Card photo cap"/></a>
                         <div className="p-2 ">
                         <span

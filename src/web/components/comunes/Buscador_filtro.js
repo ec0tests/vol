@@ -14,16 +14,7 @@ function retablecer_chk(){
 }
 
 
-/*Hace que al clicar en cualquier sitio que no tenga la clase menu icon se ejecute el hide menu*/
-$(document).on("click", function (e) {
-    let clase= $(e.target).attr("class") ;
-    console.log(clase);
 
-    if (clase != "img-fluid" &&  clase != "Opacity" &&  clase != "Btn-restablecer"  ){
-        $(".Botones-filtro .card").hide();
-
-    }
-});
 
 class Buscador_filtro extends React.Component{
 
@@ -43,7 +34,10 @@ class Buscador_filtro extends React.Component{
             globo_nocompartido: false,
             p_romantico: false,
             p_aventura: false,
-            p_historico: false
+            p_historico: false,
+            active_tipo : '',
+            active_packs : '',
+            active_personas : '',
 
         };
 
@@ -70,22 +64,30 @@ class Buscador_filtro extends React.Component{
         this.setState({
             ocultar_filtro_tipo: !this.state.ocultar_filtro_tipo,
             ocultar_filtro_personas: true,
-            ocultar_filtro_pack: true
-
+            ocultar_filtro_pack: true,
+active_tipo: 'Filtro-activado',
+            active_packs : '',
+            active_personas : ''
         });
     }
     toggle_filtro_personas() {
         this.setState({
             ocultar_filtro_personas: !this.state.ocultar_filtro_personas,
             ocultar_filtro_tipo: true,
-            ocultar_filtro_pack: true
+            ocultar_filtro_pack: true,
+            active_tipo: '',
+            active_packs : '',
+            active_personas : 'Filtro-activado'
         });
     }
     toggle_filtro_pack() {
         this.setState({
             ocultar_filtro_pack: !this.state.ocultar_filtro_pack,
             ocultar_filtro_tipo: true,
-            ocultar_filtro_personas: true
+            ocultar_filtro_personas: true,
+            active_tipo: '',
+            active_packs : 'Filtro-activado',
+            active_personas : ''
         });
     }
     cerrartodo() {
@@ -153,6 +155,29 @@ class Buscador_filtro extends React.Component{
             });
         }
     }
+
+    componentDidMount(){
+        /*Hace que al clicar en cualquier sitio que no tenga la clase menu icon se ejecute el hide menu*/
+        $(document).on("click", function (e) {
+            let clase= $(e.target).attr("class") ;
+            console.log(clase);
+
+            if (clase != "img-fluid" &&  clase != "Opacity" &&  clase != "Btn-restablecer"   ){
+                $(".Botones-filtro .card").hide();
+                $(".Btn-gris-sinfondo").removeClass('Filtro-activado');
+                $(".Elemento-tarjeta").removeClass('Difuminado');
+            }
+
+        });
+
+
+        $(".Btn-gris-sinfondo").click(function () {
+            setTimeout(()=>{
+                $(".Elemento-tarjeta").addClass('Difuminado');
+            },10)
+
+        })
+    }
     render () {
 
 
@@ -184,12 +209,12 @@ class Buscador_filtro extends React.Component{
         return (
                         <div className="row p-3 Botones-filtro">
                             <div className="col-12 col-md-12 col-lg-9 col-xl-6 d-flex pl-0">
-                                <div className="col-3 p-0" onClick={this.cerrartodo.bind(this)}>
+                                <div className="w-150" onClick={this.cerrartodo.bind(this)}>
                                     <Datepicker/>
 
                                 </div>
-                                <div className="col-3 p-0">
-                                    <button onClick={this.toggle_filtro_personas.bind(this)} className="Btn-gris-sinfondo Btn-gris-arreglado ">
+                                <div className="w-150">
+                                    <button onClick={this.toggle_filtro_personas.bind(this)} className={`Btn-gris-sinfondo Hover-blue Btn-gris-arreglado ${this.state.active_personas}   `}>
                                         Personas
                                     </button>
                                     <div id="card_personas" className={`card Filtro-card Filtro-personas Z-index-alto `} style={ hidden_filtro_personas }>
@@ -228,8 +253,8 @@ class Buscador_filtro extends React.Component{
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-3 p-0">
-                                    <button onClick={this.toggle_filtro_tipo.bind(this)} className="Btn-gris-sinfondo Btn-gris-arreglado ">
+                                <div className="w-150">
+                                    <button onClick={this.toggle_filtro_tipo.bind(this)} className={`Btn-gris-sinfondo Hover-blue Btn-gris-arreglado ${this.state.active_tipo}   `}>
                                         Tipo de vuelo
                                     </button>
                                     <div id="card_tipovuelo" className={`card Filtro-card Filtro-tipovuelo Z-index-alto`} style={ hidden_filtro_tipo }>
@@ -274,7 +299,7 @@ class Buscador_filtro extends React.Component{
                                             </div>
 
                                             <div className="col-12 d-flex pl-0 pr-0 pt-4 justify-content-end">
-                                                <div class=" Input-gray m-0">
+                                                <div class=" Input-gray m-0 d-flex align-items-center">
                                                     Globo no compartido
 
                                                     <input class="Opacity" type="checkbox" id="ch_nocompartidos"
@@ -290,8 +315,8 @@ class Buscador_filtro extends React.Component{
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-3 p-0">
-                                    <button id="btn_packs" onClick={this.toggle_filtro_pack.bind(this)} className={`Btn-gris-sinfondo Btn-gris-arreglado ${this.props.color} ${this.props.pack}`} >
+                                <div className="w-150">
+                                    <button id="btn_packs" onClick={this.toggle_filtro_pack.bind(this)} className={`Btn-gris-sinfondo Hover-blue Btn-gris-arreglado  ${this.state.active_packs}   ${this.props.pack}`} >
                                         {this.props.texto}
                                     </button>
                                     <div id="card_pack" className={`card Filtro-card Filtro-packs Z-index-alto pb-3`} style={ hidden_filtro_pack }>

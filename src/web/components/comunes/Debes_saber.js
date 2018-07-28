@@ -4,7 +4,7 @@ import './Debes_saber.css';
 const Debes_saber = () => (
     <section className="Debes-saber text-left">
         <div className="container">
-            <div className="row">
+            <div className="row Instalacionp">
                 <div className="col-12 mb-4">
                     <h2 className="text-uppercase">qué debes saber</h2>
                 </div>

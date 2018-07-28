@@ -71,6 +71,14 @@ height: 27rem;
     color: #4e80c1!important;
     font-weight: bold!important;
 }
+.react-calendar__month-view__weekdays{
+    border-bottom: 1px solid #ededed;
+    margin-bottom: 13px;
+}
+
+.Form-reservaa input{
+    border-radius: 0!important;
+}
 /*SECCON 1*/
 .Section1-ficha{
     background-size: cover!important;
@@ -223,9 +231,14 @@ height: 27rem;
 .Padding-30{
     padding-left: 30px!important;
 }
+.Padding-1px{
+    padding-right: 1px!important;
+}
 .Div-imagenesinstalaciones{
     height: 9rem;
     cursor: pointer;
+    padding-right: 1px!important;
+    padding-bottom: 2px!important;
 }
 .Ficha-btn{
     height: 2.3rem!important;
@@ -293,7 +306,7 @@ iframe{
 .Label-form{
     font-size: 1.4rem!important;
     color: #8f8f8f!important;
-    font-weight: 500!important;
+    font-weight: 300!important;
     text-transform: capitalize!important;
     font-family: 'Roboto', sans-serif!important;
 }

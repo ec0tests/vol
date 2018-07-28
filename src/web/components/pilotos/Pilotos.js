@@ -75,6 +75,7 @@ for (var i = 0; i < pilotos_json.piloto.length; i++) {
 }
 
 for (var i = 0; i < texto_seo_json.texto.length; i++) {
+
     textos_seo.push(<Seo_text title={texto_seo_json.texto[i].titulo} text={texto_seo_json.texto[i].texto}/>);
 }
 
@@ -100,7 +101,7 @@ const Pilotos = () => (
 
         <main className="Section2-pilotos text-left py-5">
             <div className="container">
-                <div className="row pl-3 pr-1 pr-md-0 pl-md-0">
+                <div className="row pl-3 pr-1 pr-md-0 pl-md-0 Instalacionp">
                     <h3>La confianza de los mejores profesionales</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aspernatur cumque eius eos facere
                         nemo quidem sunt tempore velit voluptate. Dolores esse et eveniet explicabo facere itaque omnis
@@ -115,7 +116,7 @@ const Pilotos = () => (
 
                 {/*TEXTOS SEO*/}
 
-                <div className="row mt-5 pt-5 d-none d-md-flex">
+                <div className="row mt-5 pt-5 d-none d-md-flex justify-content-between Seotext">
                     <div className="col-12 mb-5">
                         <h2>Qué debes saber</h2>
                     </div>

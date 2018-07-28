@@ -52,7 +52,7 @@ const Certificado = ()=> (
             <div id="TA_certificateOfExcellence99" class="TA_certificateOfExcellence">
                 <ul id="5OBkUU9JYr" class="TA_links zgEs5zbzW8 p-0">
                     <li id="c36iAohCr1c" class="G221BL">
-                        <a target="_blank" href="https://www.tripadvisor.com/Attraction_Review-g911486-d3247038-Reviews-Vol_de_Coloms-Olot_Province_of_Girona_Catalonia.html"><img src="https://www.tripadvisor.com/img/cdsi/img2/awards/CoE2017_WidgetAsset-14348-2.png" alt="TripAdvisor" class="widCOEImg" id="CDSWIDCOELOGO"/></a>
+              {/*          <a target="_blank" href="https://www.tripadvisor.com/Attraction_Review-g911486-d3247038-Reviews-Vol_de_Coloms-Olot_Province_of_Girona_Catalonia.html"><img src="https://www.tripadvisor.com/img/cdsi/img2/awards/CoE2017_WidgetAsset-14348-2.png" alt="TripAdvisor" class="widCOEImg" id="CDSWIDCOELOGO"/></a>*/}
                     </li>
                 </ul>
             </div>

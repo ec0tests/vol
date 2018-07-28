@@ -142,7 +142,7 @@ const Menu2 = ({logo}) => (
 
         <div className="slideout-sidebar ">
             <div className="row">
-                <div className="col-2 ml-4">
+                <div className="col-2 ml-3">
                     <button className="Btn-idioma">ES</button>
                 </div>
                 <div className="col-2">
@@ -154,9 +154,9 @@ const Menu2 = ({logo}) => (
                 <div className="col-2">
                     <button className="Btn-idioma">FR</button>
                 </div>
-                <div className="col-2 pl-4">
+                <div className="col-2 pl-4 pr-0">
 
-                    <button className="menu-icon" id="desplegable_boton2" onClick={hide_menu}><i
+                    <button className="menu-icon w-auto" id="desplegable_boton2" onClick={hide_menu}><i
                         className="fas fa-times text-white"></i></button>
                 </div>
 

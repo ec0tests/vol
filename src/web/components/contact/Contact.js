@@ -22,7 +22,7 @@ import Arrow_top from "../comunes/Arrow_top";
 import $ from 'jquery';
 /*Creo el array de contact provisional*/
 $(document).ready(function(){
-    $('#characterLeft').text('140 characters left');
+    $('#characterLeft').text('');
     $('#message').keydown(function () {
         var max = 140;
         var len = $(this).val().length;
@@ -79,7 +79,7 @@ const Contact = () => (
                     <div class="form-area">
                         <form role="form">
                             <br />
-                            <h2 className="w-100 mb-4">Formulario de Contacto</h2>
+                            <h2 className="w-100 mb-4 text-left">Formulario de Contacto</h2>
                             <div class="form-group">
                                 <input type="text" class="form-control" id="name" name="name" placeholder="Nombre" required/>
                             </div>
@@ -90,7 +90,7 @@ const Contact = () => (
                                 <input type="text" class="form-control" id="email" name="email" placeholder="Email" required/>
                             </div>
                             <div class="form-group">
-                                <input type="text" class="form-control" id="mobile" name="mobile" placeholder="Tlf" required/>
+                                <input type="text" class="form-control" id="mobile" name="mobile" placeholder="Teléfono" required/>
                             </div>
 
                             <div class="form-group">

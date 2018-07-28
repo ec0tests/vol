@@ -17,7 +17,7 @@ import Card_roja from "../comunes/Card_roja"
 
 import logo_globo from '../../images/Globo-header-w.png';
 import imagenes_instalaciones1 from '../../images/instalacion1.jpg';
-import globo_ico4 from '../../images/Icon-Cat-4amigo-go-35.png';
+import globo_ico4 from '../../images/icoficha.png';
 
 
 let array_imagenesficha = [];
@@ -292,7 +292,7 @@ const Ficha = () => (
                             <a href="/faq" className="w-100"><p className="accordion  ">preguntas frequentes</p></a>
 
                         </div>
-                        <div className="col-12 mt-4  text-left align-items-center d-none d-md-flex">
+                       {/* <div className="col-12 mt-4  text-left align-items-center d-none d-md-flex">
                             <div className="Div-ico Ico-ficha">
                                 <a href="https://es-es.facebook.com/voldecoloms/">
 
@@ -326,7 +326,7 @@ const Ficha = () => (
                                     <i className="fab fa-linkedin Link-ico-color"></i>
                                 </a>
                             </div>
-                        </div>
+                        </div>*/}
 
                     </div>
 
