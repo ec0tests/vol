@@ -21,15 +21,20 @@
 }
 .Flecha-falsa1{
     z-index: 10000!important;
-    position: absolute!important;
-    top: 49.5%!important;
+    /* position: absolute; */
+    /* top: 49.5%!important; */
+    left:6%;
+    position: relative;
+    margin-top: 21%;
 
 }
 .Flecha-falsa2{
     z-index: 10000!important;
-    position: absolute!important;
-    top: 51%!important;
-
+    /* position: absolute; */
+    /* top: 49.5%!important; */
+    left: 63%;
+    position: relative;
+    margin-top: 21%;
 }
 
 .carousel-control-next, .carousel-control-prev {
@@ -46,6 +51,13 @@
 }
 
 .Flecha-real{
+    opacity: 0!important;
+}
+.Flecha-real:hover{
+    opacity: 0!important;
+}
+.Flecha-real:active{
+    opacity: 0!important;
 }
 .Carousel-arrow {
     color: #cccccc;

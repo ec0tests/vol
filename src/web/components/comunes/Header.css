@@ -83,10 +83,15 @@ right: 0;
     border: 0;
     position: fixed;
     height: 7rem;
-    position: absolute;
-    height: 9rem;
-    right: 11.8%;
+    margin-top: -13px;
+    position: inherit;
+    height: 5rem;
+    padding-top: 15px;
+    /* right: 11.8%; */
     top: 0;
+}
+#btn_megamenu:active {
+    border: 0!important;
 }
 .Megamenu-div{
     background-color: #0A1F3C;

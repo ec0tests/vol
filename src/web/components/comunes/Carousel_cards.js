@@ -6,24 +6,24 @@ import './Carousel_card.css';
 
 class Carousel_cards extends React.Component{
     componentDidMount(){
-        $(".Flecha-real1").click(function () {
-            $(".Flecha-real1").fadeOut();
-            $(".Flecha-real2").fadeOut();
+        /*$(".Flecha-real1").click(function () {
+            $(".Flecha-real1").hide();
+            $(".Flecha-real2").hide();
 
             setTimeout(function () {
-                $(".Flecha-real1").fadeIn();
-                $(".Flecha-real2").fadeIn();
+                $(".Flecha-real1").fadeIn(100);
+                $(".Flecha-real2").fadeIn(100);
             },400)
         });
         $(".Flecha-real2").click(function () {
-            $(".Flecha-real1").fadeOut();
-            $(".Flecha-real2").fadeOut();
+            $(".Flecha-real1").hide();
+            $(".Flecha-real2").hide();
 
             setTimeout(function () {
-                $(".Flecha-real1").fadeIn();
-                $(".Flecha-real2").fadeIn();
+                $(".Flecha-real1").fadeIn(100);
+                $(".Flecha-real2").fadeIn(100);
             },400)
-        });
+        });*/
     }
 
 
@@ -39,14 +39,14 @@ class Carousel_cards extends React.Component{
 
                     <div className="carousel-item active">
                         <div className="row justify-content-center py-5 mb-5 Card-row">
-                           {/* <a className=" Flecha-falsa1" >
+                            <a className=" Flecha-falsa1" >
                                 <i  className="fas fa-angle-left Carousel-arrow"></i>
                                 <span className="sr-only">Previous</span>
                             </a>
                             <a className=" Flecha-falsa2" >
                                 <i className="fas fa-angle-right Carousel-arrow"></i>
                                 <span className="sr-only">Next</span>
-                            </a>*/}
+                            </a>
                             <div className="col-12 col-md-9 col-lg-8">
                                 <div className="card w-100 h-100 p-0 p-md-4">
                                     <div className="card-body text-left">
@@ -86,11 +86,11 @@ class Carousel_cards extends React.Component{
                     </div>
                     <div className="carousel-item ">
                         <div className="row justify-content-center py-5 mb-5 Card-row">
-                            <a className="carousel-control-prev Flecha-falsa1" >
+                            <a className=" Flecha-falsa1" >
                                 <i  className="fas fa-angle-left Carousel-arrow"></i>
                                 <span className="sr-only">Previous</span>
                             </a>
-                            <a className="carousel-control-next Flecha-falsa2" >
+                            <a className=" Flecha-falsa2" >
                                 <i className="fas fa-angle-right Carousel-arrow"></i>
                                 <span className="sr-only">Next</span>
                             </a>
