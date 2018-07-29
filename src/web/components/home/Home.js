@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 import bkg3_2 from '../../images/bkg-3-2.png';
 import bkg3__ico from '../../images/seccion3-bkg-ico.png';
-import bkg2 from '../../images/bkg-2.png';
+import bkg2 from '../../images/bkg-2-dif.png';
 import bkg1 from '../../images/bkg-1.png';
 import act_ico from '../../images/Icon-Activ-gris-65.png';
 import gast_ico from '../../images/Icon-Gast-gris-65.png';
