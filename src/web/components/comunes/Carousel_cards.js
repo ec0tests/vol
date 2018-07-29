@@ -6,7 +6,7 @@ import './Carousel_card.css';
 
 class Carousel_cards extends React.Component{
     componentDidMount(){
-        /*$(".Flecha-real1").click(function () {
+        $(".Flecha-real1").click(function () {
             $(".Flecha-real1").hide();
             $(".Flecha-real2").hide();
 
@@ -23,7 +23,7 @@ class Carousel_cards extends React.Component{
                 $(".Flecha-real1").fadeIn(100);
                 $(".Flecha-real2").fadeIn(100);
             },400)
-        });*/
+        });
     }
 
 
@@ -38,7 +38,7 @@ class Carousel_cards extends React.Component{
                 <div className="carousel-inner">
 
                     <div className="carousel-item active">
-                        <div className="row justify-content-center py-5 mb-5 Card-row">
+                        <div className="row justify-content-center py-5 mb-5 Card-row align-items-center">
                             <a className=" Flecha-falsa1" >
                                 <i  className="fas fa-angle-left Carousel-arrow"></i>
                                 <span className="sr-only">Previous</span>
@@ -85,7 +85,7 @@ class Carousel_cards extends React.Component{
                         </div>
                     </div>
                     <div className="carousel-item ">
-                        <div className="row justify-content-center py-5 mb-5 Card-row">
+                        <div className="row justify-content-center py-5 mb-5 Card-row align-items-center">
                             <a className=" Flecha-falsa1" >
                                 <i  className="fas fa-angle-left Carousel-arrow"></i>
                                 <span className="sr-only">Previous</span>
