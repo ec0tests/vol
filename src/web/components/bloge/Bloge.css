@@ -254,6 +254,9 @@
     }
 }
 
+.Ico-eblog{
+    width: 55px!important;
+}
 @media all and (max-width: 768px) {
 
     .Bloge .Experiencia-completa{

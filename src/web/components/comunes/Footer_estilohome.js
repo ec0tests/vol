@@ -2,12 +2,19 @@ import React, {Component} from 'react';
 import './Footer_estilohome.css';
 import tingle from 'tingle.js';
 
-import ico_face from '../../images/Icon-RRSS-fb-b-55.png';
+/*import ico_face from '../../images/Icon-RRSS-fb-b-55.png';
 import ico_twitter from '../../images/Icon-RRSS-tw-b-55.png';
 import ico_inst from '../../images/Icon-RRSS-in-b-55.png';
-import ico_trip from '../../images/Icon-RRSS-tr-b-55.png';
 import ico_google2 from '../../images/ico-google2.jpg';
-import ico_youtube from '../../images/Icon-RRSS-yt-b-55.png';
+import ico_youtube from '../../images/Icon-RRSS-yt-b-55.png';*/
+
+import ico_trip from '../../images/Icon-RRSS-tr-b-55.png';
+
+import ico_face from '../../images/face.png';
+import ico_twitter from '../../images/twitter.png';
+import ico_inst from '../../images/insta.png';
+import ico_youtube from '../../images/youtube.png';
+import ico_google2 from '../../images/google.png';
 import logo_b from '../../images/vdc-logo-b.png';
 
 // instanciate new modal
@@ -137,7 +144,7 @@ const Footer_estilohome = () => (
                         </a>
                     </div>
                     <div
-                        className="col-10 col-sm-6 col-md-7 col-lg-6 col-xl-5 d-flex  align-items-center flex-wrap Justify-md-content-end Margen-movil">
+                        className="col-10 col-sm-6 col-md-7 col-lg-5 col-xl-4 d-flex  align-items-center Justify-md-content-end Margen-movil">
                         <div className="Div-ico">
                             <a target="_blank" href="https://es-es.facebook.com/voldecoloms/">
                                 <img  src={ico_face} alt=""/>
@@ -165,7 +172,7 @@ const Footer_estilohome = () => (
                         <div className="Div-ico">
                             <a target="_blank" href="">
 
-                                <img className="Ico-google2"  src={ico_google2} alt=""/>
+                                <img   src={ico_google2} alt=""/>
 
                             </a>
                         </div>

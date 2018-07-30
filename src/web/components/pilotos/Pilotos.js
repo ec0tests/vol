@@ -21,14 +21,14 @@ let textos_seo = [];
 /*JSON DE PRUEBA*/
 let pilotos_json = {
     "piloto": [
-        {"name": "John", "photo": 'https://via.placeholder.com/320x250'},
-        {"name": "Alex", "photo": 'https://via.placeholder.com/320x250'},
-        {"name": "Lola", "photo": 'https://via.placeholder.com/320x250'},
-        {"name": "Lola", "photo": 'https://via.placeholder.com/320x250'},
-        {"name": "Lola", "photo": 'https://via.placeholder.com/320x250'},
-        {"name": "Lola", "photo": 'https://via.placeholder.com/320x250'},
-        {"name": "Lola", "photo": 'https://via.placeholder.com/320x250'},
-        {"name": "Lola", "photo": 'https://via.placeholder.com/320x250'},
+        {"name": "John", "photo": 'https://via.placeholder.com/250x250'},
+        {"name": "Alex", "photo": 'https://via.placeholder.com/250x250'},
+        {"name": "Lola", "photo": 'https://via.placeholder.com/250x250'},
+        {"name": "Lola", "photo": 'https://via.placeholder.com/250x250'},
+        {"name": "Lola", "photo": 'https://via.placeholder.com/250x250'},
+        {"name": "Lola", "photo": 'https://via.placeholder.com/250x250'},
+        {"name": "Lola", "photo": 'https://via.placeholder.com/250x250'},
+        {"name": "Lola", "photo": 'https://via.placeholder.com/250x250'},
     ]
 }
 let texto_seo_json = {

@@ -1,9 +1,9 @@
 .Footer_estilohome  .Div-ico{
-    width: 13.3% !important;
+    width: 50px!important;
 }
 
 .Footer_estilohome  .Div-ico img{
-    width: 2.9rem !important;
+    width: 2.5rem!important;
 }
 
 .Footer_estilo1{
@@ -39,9 +39,7 @@ Footer_estilohome .Row1 {
 
 @media (max-width: 767.98px) {
 
-    .Footer_estilohome  .Div-ico {
-        width: 19.3%!important;
-    }
+
     .Margen-movil{
         margin:0 auto;
     }
@@ -55,15 +53,11 @@ Footer_estilohome .Row1 {
 @media (max-width: 1199.98px) {  }
 
 @media (min-width: 1550px){
-    .Footer_estilohome  .Div-ico {
-        width: 19.3%!important;
-    }
+
 }
 
 
 @media (min-width: 1435px){
-    .Footer_estilohome  .Div-ico img {
-       width: 2.2rem;
-    }
+
 }
 

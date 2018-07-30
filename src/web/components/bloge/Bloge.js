@@ -12,11 +12,18 @@ import logo_b from '../../images/vdc-logo-b.png';
 import logo_globo from '../../images/Globo-header-w.png';
 
 import logo_g from '../../images/vdc-logo-g.png';
-import ico_face from '../../images/Icon-RRSS-fb-b-55.png';
+/*import ico_face from '../../images/Icon-RRSS-fb-b-55.png';
 import ico_twitter from '../../images/Icon-RRSS-tw-b-55.png';
 import ico_inst from '../../images/Icon-RRSS-in-b-55.png';
+import ico_youtube from '../../images/Icon-RRSS-yt-b-55.png';*/
+
+import ico_face from '../../images/face.png';
+import ico_twitter from '../../images/twitter.png';
+import ico_inst from '../../images/insta.png';
+import ico_youtube from '../../images/youtube.png';
+import ico_google2 from '../../images/google.png';
 import ico_trip from '../../images/Icon-RRSS-tr-b-55.png';
-import ico_youtube from '../../images/Icon-RRSS-yt-b-55.png';
+
 import play_ico from '../../images/play-ico.png';
 import imgprueba from '../../images/img-blog1.jpg';
 import exp_ico1 from '../../images/exp-ico1.jpg';
@@ -383,7 +390,9 @@ const Bloge = () => (
                         </div>
                         <div className="Div-ico">
                             <a target="_blank" href="">
-                                <i class="fab fa-google-plus-square Goo-ico-white"></i>
+
+                                    <img   src={ico_google2} alt=""/>
+
 
                             </a>
                         </div>

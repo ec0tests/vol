@@ -467,7 +467,17 @@ button:hover {
     -webkit-transition: color .3s ease;
     transition: color .3s ease;
 }
-
+.Sombra-trans{
+    -webkit-box-shadow: 5px 5px 25px 0 rgba(0, 0, 0, 0.43);
+    -moz-box-shadow: 5px 5px 25px 0 rgba(0, 0, 0, 0.43);
+    box-shadow: 5px 5px 25px 0 rgba(0, 0, 0, 0.43);
+}
+.Sombra-trans:hover{
+transition: 0.8s;
+-webkit-box-shadow: 2px 4px 8px 0 rgba(46,61,73,.2)!important;
+-moz-box-shadow: 2px 4px 8px 0 rgba(46,61,73,.2)!important;
+box-shadow: 2px 4px 8px 0 rgba(46,61,73,.2)!important;
+cursor: pointer!important;}
 .tingle-modal__closeLabel {
     display: none;
 }

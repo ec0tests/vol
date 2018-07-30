@@ -17,10 +17,10 @@ class Card_pilotos extends Component {
     render() {
         const {photoIndex, isOpen} = this.state;
         const images = [
-            'https://via.placeholder.com/320x250',
-            'https://via.placeholder.com/320x250',
-            'https://via.placeholder.com/320x250',
-            'https://via.placeholder.com/320x250',
+            'https://via.placeholder.com/250x250',
+            'https://via.placeholder.com/250x250',
+            'https://via.placeholder.com/250x250',
+            'https://via.placeholder.com/250x250',
         ];
         return (
 

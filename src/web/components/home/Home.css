@@ -348,13 +348,8 @@ header > .container {
     position: relative;
 }
 
-.Home footer .Div-ico{
-    width: 19.3%;
-}
 
- footer .Div-ico img{
-    width: 2.9rem!important;
-}
+
 
 .Footer_estilo1{
     background-color: #2260b2;
@@ -477,12 +472,7 @@ footer .Row1 {
         width: 4rem;
         height: 3rem;
     }
-    .Home footer .Div-ico {
-        width: auto;
-        padding-right: 0.5rem;
-        width: 20%;
 
-    }
     .Justify-md-content-end{
         justify-content: space-around;
     }

@@ -23,7 +23,7 @@ const Experiencia_completa = () => (
                 <a href="/pack_historico" className="col-6 col-md-6 col-lg-3 Exp-ico Cursor-pointer">
                     <h5 className="Text-experiencias">Aventura</h5>
 
-                    <img src={exp_ico1} className="img-fluid" alt=""/>
+                    <img src={exp_ico1} className="img-fluid Sombra-trans" alt=""/>
 
 
                 </a>
@@ -32,7 +32,7 @@ const Experiencia_completa = () => (
 
                     <h5 className="Text-experiencias">Histórico</h5>
 
-                    <img src={exp_ico2} className="img-fluid" alt=""/>
+                    <img src={exp_ico2} className="img-fluid Sombra-trans" alt=""/>
 
 
                 </a>
@@ -42,7 +42,7 @@ const Experiencia_completa = () => (
 
                     <h5 className="Text-experiencias">Romántico</h5>
 
-                    <img src={exp_ico3} className="img-fluid" alt=""/>
+                    <img src={exp_ico3} className="img-fluid Sombra-trans" alt=""/>
 
 
                 </a>
@@ -50,7 +50,7 @@ const Experiencia_completa = () => (
 
                     <h5 className="Text-experiencias">Romántico</h5>
 
-                    <img src={exp_ico4} className="img-fluid" alt=""/>
+                    <img src={exp_ico4} className="img-fluid Sombra-trans" alt=""/>
 
                 </a>
 
