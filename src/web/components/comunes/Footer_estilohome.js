@@ -144,7 +144,7 @@ const Footer_estilohome = () => (
                         </a>
                     </div>
                     <div
-                        className="col-10 col-sm-6 col-md-7 col-lg-5 col-xl-4 d-flex  align-items-center Justify-md-content-end Margen-movil">
+                        className="col-10 col-sm-6 col-md-7 col-lg-6 col-xl-4 d-flex  align-items-center justify-content-center Margen-movil">
                         <div className="Div-ico">
                             <a target="_blank" href="https://es-es.facebook.com/voldecoloms/">
                                 <img  src={ico_face} alt=""/>

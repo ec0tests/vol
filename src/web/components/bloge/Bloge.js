@@ -24,6 +24,12 @@ import ico_youtube from '../../images/youtube.png';
 import ico_google2 from '../../images/google.png';
 import ico_trip from '../../images/Icon-RRSS-tr-b-55.png';
 
+import ico_face_a from '../../images/facebook-inv.png';
+import ico_twitter_a from '../../images/twitter-inv.png';
+import ico_inst_a from '../../images/instagram-inv.png';
+import ico_youtube_a from '../../images/youtube-inv.png';
+import ico_google2_a from '../../images/googleplus-inv.png';
+
 import play_ico from '../../images/play-ico.png';
 import imgprueba from '../../images/img-blog1.jpg';
 import exp_ico1 from '../../images/exp-ico1.jpg';
@@ -175,36 +181,35 @@ const Bloge = () => (
                             <div className="Div-ico">
                                 <a href="https://es-es.facebook.com/voldecoloms/">
 
-                                <i class="fab fa-facebook-square Face-ico-color"></i>
+                                    <img src={ico_face_a} alt=""/>
                                 </a>
                             </div>
                             <div className="Div-ico">
                                 <a href="https://twitter.com/voldecoloms">
 
-                                <i class="fab fa-twitter-square Twit-ico-color"></i>
+                                    <img src={ico_twitter_a} alt=""/>
+
                                 </a>
                             </div>
                             <div className="Div-ico">
                                 <a href="https://www.youtube.com/user/Voldecoloms">
 
-                                <i class="fab fa-youtube You-ico-color"></i>
+                                    <img src={ico_youtube_a} alt=""/>
+
                                 </a>
                             </div>
                             <div className="Div-ico">
                                 <a href="https://www.instagram.com/voldecoloms/">
 
-                                <i class="fab fa-instagram Ins-ico-color"></i>
-                                </a>
-                            </div>
-                            <div className="Div-ico">
-                                <i class="fab fa-google-plus-square Goo-ico-color"></i>
-                            </div>
-                            <div className="Div-ico">
-                                <a href="https://www.linkedin.com/company/vol-de-coloms">
+                                    <img src={ico_inst_a} alt=""/>
 
-                                <i class="fab fa-linkedin Link-ico-color"></i>
                                 </a>
                             </div>
+                            <div className="Div-ico">
+                                <img src={ico_google2_a} alt=""/>
+
+                            </div>
+
                         </div>
 
                     </div>
@@ -353,17 +358,18 @@ const Bloge = () => (
                     </div>
                 </div>
                 <div className="row pt-5">
-                    <div className="col-6 text-left d-flex align-items-center">
+                    <div className="col-4 col-lg-6 text-left d-flex align-items-center">
                           <span
                               className="text-white Copyrigth-text text-right">©VOL DE COLOMS - Todos los derechos reservados - <a
                               href="">Privacy Policy</a> - <a href="">Legal Advice</a> - <a href="">Cookies Privacy</a> - Diseñado por <a
                               href="">Waka</a><br/> Made with love by   <a
                               target="_blank" href="https://www.ecoders.io/">Ecoders</a> !</span>
                     </div>
-                    <div className="col-5 d-flex justify-content-end align-items-center flex-wrap pr-5">
-                        <div className="col-5">
+                    <div className="col-7 col-md-8 col-lg-6 d-flex justify-content-end align-items-center flex-wrap pr-md-0 pr-lg-5">
+
+                        <div className="col-12 col-xl-12 d-flex align-items-center justify-content-end text-right">
                             <button className="Btn-red">Volar en globo</button>
-                        </div>
+
                         <div className="Div-ico">
                             <a target="_blank" href="https://es-es.facebook.com/voldecoloms/">
                                 <img src={ico_face} alt=""/>
@@ -395,6 +401,7 @@ const Bloge = () => (
 
 
                             </a>
+                        </div>
                         </div>
                         <div className="row w-100 text-right justify-content-end pr-3 pt-3">
 

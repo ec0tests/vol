@@ -10,19 +10,20 @@ import Footer_estilohome from "../comunes/Footer_estilohome"
 import logo_globo from '../../images/vdc-logo-b.png';
 import logo_b from '../../images/vdc-logo-b.png';
 
-import ico_face from '../../images/Icon-RRSS-fb-b-55.png';
-import ico_twitter from '../../images/Icon-RRSS-tw-b-55.png';
-import ico_inst from '../../images/Icon-RRSS-in-b-55.png';
-import ico_trip from '../../images/Icon-RRSS-tr-b-55.png';
-import ico_youtube from '../../images/Icon-RRSS-yt-b-55.png';
+
 import play_ico from '../../images/play-ico.png';
 import Footer_patrocinadores from "../comunes/Footer_patrocinadores";
+import ico_trip from '../../images/Icon-RRSS-tr-b-55.png';
 
 
 import bkg2 from '../../images/bkg-2.png';
 import Carousel_cards from "../comunes/Carousel_cards";
 import Arrow_top from "../comunes/Arrow_top";
-
+import ico_face from '../../images/face.png';
+import ico_twitter from '../../images/twitter.png';
+import ico_inst from '../../images/insta.png';
+import ico_youtube from '../../images/youtube.png';
+import ico_google2 from '../../images/google.png';
 /*Creo el array de blogp provisional*/
 
 let array_entradas_blog = [];
@@ -179,7 +180,7 @@ const Blogp = () => (
                         <a href="" className="text-white">Experiencia personalizada</a>
                     </div>
                 </div>
-                <div className="row pt-5">
+               {/* <div className="row pt-5">
                     <div className="col-6 text-left d-flex align-items-center">
                           <span className="text-white Copyrigth-text">©VOL DE COLOMS - Todos los derechos reservados - <a
                               href="">Privacy Policy</a> - <a href="">Legal Advice</a> - <a href="">Cookies Privacy</a> - Diseñado por <a
@@ -203,7 +204,59 @@ const Blogp = () => (
                             <img src={ico_youtube} className="img-fluid" alt=""/>
                         </div>
                         <div className="Div-ico">
-                            <img src={ico_face} className="img-fluid" alt=""/>
+                            <img src={ico_google2} className="img-fluid" alt=""/>
+                        </div>
+                        <div className="row w-100 text-right justify-content-end pr-3 pt-3">
+
+                        </div>
+                    </div>
+
+                </div>*/}
+                <div className="row pt-5">
+                    <div className="col-4 col-lg-6 text-left d-flex align-items-center">
+                          <span
+                              className="text-white Copyrigth-text text-right">©VOL DE COLOMS - Todos los derechos reservados - <a
+                              href="">Privacy Policy</a> - <a href="">Legal Advice</a> - <a href="">Cookies Privacy</a> - Diseñado por <a
+                              href="">Waka</a><br/> Made with love by   <a
+                              target="_blank" href="https://www.ecoders.io/">Ecoders</a> !</span>
+                    </div>
+                    <div className="col-7 col-md-8 col-lg-6 d-flex justify-content-end align-items-center flex-wrap pr-md-0 pr-lg-5">
+
+                        <div className="col-12 col-xl-12 d-flex align-items-center justify-content-end text-right">
+                            <button className="Btn-red">Volar en globo</button>
+
+                            <div className="Div-ico">
+                                <a target="_blank" href="https://es-es.facebook.com/voldecoloms/">
+                                    <img src={ico_face} alt=""/>
+
+                                </a>
+                            </div>
+                            <div className="Div-ico">
+                                <a target="_blank" href="https://twitter.com/voldecoloms?lang=es">
+                                    <img src={ico_twitter} alt=""/>
+
+                                </a>
+                            </div>
+                            <div className="Div-ico">
+                                <a target="_blank" href="https://www.instagram.com/voldecoloms/">
+                                    <img src={ico_inst} alt=""/>
+
+                                </a>
+                            </div>
+                            <div className="Div-ico">
+                                <a target="_blank" href="https://www.youtube.com/user/Voldecoloms">
+                                    <img src={ico_youtube} alt=""/>
+
+                                </a>
+                            </div>
+                            <div className="Div-ico">
+                                <a target="_blank" href="">
+
+                                    <img   src={ico_google2} alt=""/>
+
+
+                                </a>
+                            </div>
                         </div>
                         <div className="row w-100 text-right justify-content-end pr-3 pt-3">
 
