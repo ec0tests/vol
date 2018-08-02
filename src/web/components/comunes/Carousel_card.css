@@ -3,6 +3,7 @@
     -moz-box-shadow: 5px 5px 25px 0 rgba(46,61,73,.2);
     box-shadow: 5px 5px 25px 0 rgba(46,61,73,.2);
     z-index: 1000;
+    transition: 0.8s;
 
 }
 .carousel-inner{

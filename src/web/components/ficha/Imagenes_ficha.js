@@ -46,7 +46,7 @@ class Imagenes_ficha extends React.Component {
                     )
                     }
                     <img onClick={() => this.setState({isOpen: true})}
-                         src={require(`../../images/${this.props.photo.toLowerCase()}.jpg`)} className="img-fluid h-100"
+                         src={require(`../../images/${this.props.photo.toLowerCase()}.jpg`)} className=" h-100 w-100"
                          alt=""/>
                 </div>
 

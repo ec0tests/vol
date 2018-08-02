@@ -2,7 +2,8 @@
     -webkit-box-shadow: 5px 5px 25px 0 rgba(46,61,73,.2);
     -moz-box-shadow: 5px 5px 25px 0 rgba(46,61,73,.2);
     box-shadow: 5px 5px 25px 0 rgba(46,61,73,.2);
-    padding: 0;
+    padding: 0;    transition: 0.8s;
+
     cursor: pointer;
 }
 .Card-experiencias:hover{

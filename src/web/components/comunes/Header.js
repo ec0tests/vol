@@ -118,7 +118,9 @@ const Header = ({logo}) => (
                 </div>
             </div>
         </div>
-        <div className="col-12 Megamenu-div ">
+        <div className="col-12 Megamenu-div P-relative">
+            <button className="menu-icon w-auto Megamenu-cruz"  onClick={hide_megamenu}><i
+                className="fas fa-times text-white"></i></button>
             <nav className="row mb-1">
                 <div className="col-md-3 Megamenu-text-little">
                     <ul>

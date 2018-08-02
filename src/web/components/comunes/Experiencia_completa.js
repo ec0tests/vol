@@ -48,7 +48,7 @@ const Experiencia_completa = () => (
                 </a>
                 <a href="/pack_romantico" className="col-6 col-md-6 col-lg-3 Exp-ico mt-3 mt-lg-0 Cursor-pointer">
 
-                    <h5 className="Text-experiencias">Romántico</h5>
+                    <h5 className="Text-experiencias">Relax</h5>
 
                     <img src={exp_ico4} className="img-fluid Sombra-trans" alt=""/>
 

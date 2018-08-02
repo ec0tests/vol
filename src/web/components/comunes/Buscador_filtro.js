@@ -38,6 +38,7 @@ class Buscador_filtro extends React.Component{
             active_tipo : '',
             active_packs : '',
             active_personas : '',
+            color_segunpack: 'Hover-blue'
 
         };
 
@@ -61,14 +62,33 @@ class Buscador_filtro extends React.Component{
     }
 
     toggle_filtro_tipo() {
+
         this.setState({
             ocultar_filtro_tipo: !this.state.ocultar_filtro_tipo,
             ocultar_filtro_personas: true,
             ocultar_filtro_pack: true,
-active_tipo: 'Filtro-activado',
             active_packs : '',
             active_personas : ''
         });
+
+         if(this.props.pack=="Pack_historico"){
+            this.setState({
+                active_tipo:'Filtro-activado-historico'
+            });
+
+        }else if(this.props.pack=="Pack_romantico"){
+            this.setState({
+                active_tipo:'Filtro-activado-romantico'
+            });
+
+        }
+         else{
+             this.setState({
+
+                 active_tipo : 'Filtro-activado',
+             });
+
+         }
     }
     toggle_filtro_personas() {
         this.setState({
@@ -77,8 +97,27 @@ active_tipo: 'Filtro-activado',
             ocultar_filtro_pack: true,
             active_tipo: '',
             active_packs : '',
-            active_personas : 'Filtro-activado'
         });
+
+         if(this.props.pack=="Pack_historico"){
+            this.setState({
+                active_personas:'Filtro-activado-historico'
+            });
+
+        }else if(this.props.pack=="Pack_romantico"){
+            this.setState({
+                active_personas:'Filtro-activado-romantico'
+            });
+
+        }
+         else{
+             this.setState({
+
+                 active_personas : 'Filtro-activado'
+
+             });
+
+         }
     }
     toggle_filtro_pack() {
         this.setState({
@@ -86,9 +125,27 @@ active_tipo: 'Filtro-activado',
             ocultar_filtro_tipo: true,
             ocultar_filtro_personas: true,
             active_tipo: '',
-            active_packs : 'Filtro-activado',
             active_personas : ''
         });
+
+         if(this.props.pack=="Pack_historico"){
+            this.setState({
+                active_packs:'Filtro-activado-historico'
+            });
+
+        }else if(this.props.pack=="Pack_romantico"){
+            this.setState({
+                active_packs:'Filtro-activado-romantico'
+            });
+
+        }
+        else{
+             this.setState({
+
+                 active_packs : 'Filtro-activado',
+             });
+
+         }
     }
     cerrartodo() {
         this.setState({
@@ -142,7 +199,20 @@ active_tipo: 'Filtro-activado',
         });
     }
 
+    color_segunpack(){
+        if(this.props.pack=="Pack_historico"){
+            this.setState({
+                color_segunpack:'Hover-historico'
+            });
 
+        }else if(this.props.pack=="Pack_romantico"){
+            this.setState({
+                color_segunpack:'Hover-romantico'
+            });
+
+        }
+
+    }
     componentWillMount(){
         if(this.props.pack=="Pack_romantico"){
             this.setState({
@@ -154,6 +224,7 @@ active_tipo: 'Filtro-activado',
                 p_historico: true
             });
         }
+        this.color_segunpack();
     }
 
     componentDidMount(){
@@ -164,7 +235,16 @@ active_tipo: 'Filtro-activado',
 
             if (clase != "img-fluid" &&  clase != "Opacity" &&  clase != "Btn-restablecer"   ){
                 $(".Botones-filtro .card").hide();
-                $(".Btn-gris-sinfondo").removeClass('Filtro-activado');
+                if($("#input_hidden_tipopack").val()=="Pack_romantico"){
+                    $(".Btn-gris-sinfondo").removeClass('Filtro-activado-romantico');
+
+                }else if($("#input_hidden_tipopack").val()=="Pack_historico"){
+                    $(".Btn-gris-sinfondo").removeClass('Filtro-activado-historico');
+
+            }else{
+                    $(".Btn-gris-sinfondo").removeClass('Filtro-activado');
+
+                }
                 $(".Elemento-tarjeta").removeClass('Difuminado');
             }
 
@@ -177,6 +257,8 @@ active_tipo: 'Filtro-activado',
             },10)
 
         })
+
+
     }
     render () {
 
@@ -208,13 +290,14 @@ active_tipo: 'Filtro-activado',
 
         return (
                         <div className="row p-3 Botones-filtro">
+                            <input type="hidden" id="input_hidden_tipopack" value={this.props.pack}/>
                             <div className="col-12 col-md-12 col-lg-9 col-xl-6 d-flex pl-0">
                                 <div className="w-150" onClick={this.cerrartodo.bind(this)}>
                                     <Datepicker/>
 
                                 </div>
                                 <div className="w-150">
-                                    <button onClick={this.toggle_filtro_personas.bind(this)} className={`Btn-gris-sinfondo Hover-blue Btn-gris-arreglado ${this.state.active_personas}   `}>
+                                    <button onClick={this.toggle_filtro_personas.bind(this)} className={`Btn-gris-sinfondo ${this.state.color_segunpack} Btn-gris-arreglado ${this.state.active_personas}   `}>
                                         Personas
                                     </button>
                                     <div id="card_personas" className={`card Filtro-card Filtro-personas Z-index-alto `} style={ hidden_filtro_personas }>
@@ -254,7 +337,7 @@ active_tipo: 'Filtro-activado',
                                     </div>
                                 </div>
                                 <div className="w-150">
-                                    <button onClick={this.toggle_filtro_tipo.bind(this)} className={`Btn-gris-sinfondo Hover-blue Btn-gris-arreglado ${this.state.active_tipo}   `}>
+                                    <button onClick={this.toggle_filtro_tipo.bind(this)} className={`Btn-gris-sinfondo ${this.state.color_segunpack} Btn-gris-arreglado ${this.state.active_tipo}   `}>
                                         Tipo de vuelo
                                     </button>
                                     <div id="card_tipovuelo" className={`card Filtro-card Filtro-tipovuelo Z-index-alto`} style={ hidden_filtro_tipo }>
@@ -316,7 +399,7 @@ active_tipo: 'Filtro-activado',
                                     </div>
                                 </div>
                                 <div className="w-150">
-                                    <button id="btn_packs" onClick={this.toggle_filtro_pack.bind(this)} className={`Btn-gris-sinfondo Hover-blue Btn-gris-arreglado  ${this.state.active_packs}   ${this.props.pack}`} >
+                                    <button id="btn_packs" onClick={this.toggle_filtro_pack.bind(this)} className={`Btn-gris-sinfondo ${this.state.color_segunpack} Btn-gris-arreglado  ${this.state.active_packs}   ${this.props.pack}`} >
                                         {this.props.texto}
                                     </button>
                                     <div id="card_pack" className={`card Filtro-card Filtro-packs Z-index-alto pb-3`} style={ hidden_filtro_pack }>

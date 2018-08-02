@@ -131,16 +131,16 @@ class Filtro extends React.Component{
                     <Header logo={logo_b}/>
 
                     <div className="container-fluid pl-1 pl-md-5">
-                        <div className="row text-left pl-3">
-                            <div className="col-12 Div-filtro">
+                        <div className="row text-left pl-3 pl-md-0">
+                            <div className="col-12 Div-filtro pt-5 ">
                                 <h1>Todos los vuelos</h1>
                             </div>
                         </div>
                     </div>
                 </section>
 
-                <main className="Section2-filtro text-left px-3 px-md-5 ">
-                    <div className="container-fluid px-3 px-md-5 ">
+                <main className="Section2-filtro text-left px-3  px-md-5 ">
+                    <div className="container-fluid px-3 px-md-0 ">
                         <Buscador_filtro pack={'Pack_general'} texto={'Packs'}/>
                         <Buscador_filtro_movil/>
                         <div className="row pt-2">

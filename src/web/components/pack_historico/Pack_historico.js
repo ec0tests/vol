@@ -195,7 +195,7 @@ class Pack_historico extends React.Component{
 
                     <div className="container-fluid pl-1 pl-sm-5">
                         <div className="row text-left pl-1 pl-sm-3">
-                            <div className="col-12 Div-pack-historico">
+                            <div className="col-12 Div-pack-historico pl-4 pl-sm-2 pl-md-0 pt-4">
                                 <h5>packs de experiencias</h5>
                                 <h1>Vuelos <br/> Históricos</h1>
                             </div>
@@ -203,8 +203,8 @@ class Pack_historico extends React.Component{
                     </div>
                 </section>
 
-                <main className="Section2-pack-historico text-left px-2 px-sm-5">
-                    <div className="container-fluid px-2 px-sm-5">
+                <main className="Section2-pack-historico text-left px-2 px-sm-5 pt-0">
+                    <div className="container-fluid px-2 ">
                        <Buscador_filtro pack={'Pack_historico'} color="text-white" texto={'Histórico'}/>
 
                         <Buscador_filtro_movil pack={'Pack_historico'} color="text-white" texto={'Histórico'}/>

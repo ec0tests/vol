@@ -141,23 +141,47 @@ min-height: 551px;
 
 @media (min-width: 1600px) {
     .Section1-instalaciones {
-        min-height: 37rem;
+        min-height: 40rem;
     }
 
 }
 
-
-
-@media (min-width: 2000px) {
+@media (min-width: 1800px) {
     .Section1-instalaciones {
         min-height: 45rem;
     }
 
 }
-@media (min-width: 2500px) {
+
+
+@media (min-width: 2000px) {
     .Section1-instalaciones {
-        min-height: 50rem;
+        min-height: 48rem;
     }
 
 }
 
+@media (min-width: 2250px) {
+    .Section1-instalaciones {
+        min-height: 52rem;
+    }
+
+}
+@media (min-width: 2500px) {
+    .Section1-instalaciones {
+        min-height: 55rem;
+    }
+
+}
+@media (min-width: 2700px) {
+    .Section1-instalaciones {
+        min-height: 58rem;
+    }
+
+}
+@media (min-width: 2800px) {
+    .Section1-instalaciones {
+        min-height: 65rem;
+    }
+
+}

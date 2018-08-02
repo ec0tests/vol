@@ -18,7 +18,11 @@ import Card_roja from "../comunes/Card_roja"
 import logo_globo from '../../images/Globo-header-w.png';
 import imagenes_instalaciones1 from '../../images/instalacion1.jpg';
 import globo_ico4 from '../../images/icoficha.png';
-
+import ico_face_a from '../../images/facebook-inv.png';
+import ico_twitter_a from '../../images/twitter-inv.png';
+import ico_inst_a from '../../images/instagram-inv.png';
+import ico_youtube_a from '../../images/youtube-inv.png';
+import ico_google2_a from '../../images/googleplus-inv.png';
 
 let array_imagenesficha = [];
 /*JSON DE PRUEBA*/
@@ -149,7 +153,7 @@ const Ficha = () => (
                     <div className="col-12 col-md-8">
                         <div className="col-12 mb-5 py-3">
                             <h2 className="w-100">Descripción</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto asperiores assumenda
+                            <p className="P-generico">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto asperiores assumenda
                                 blanditiis explicabo fugit ipsa itaque neque quae, reiciendis rerum ullam ut. Accusamus
                                 aut ducimus perspiciatis praesentium quae similique voluptas.
                                 <br/><br/>
@@ -166,9 +170,7 @@ const Ficha = () => (
                         <div className="row mb-0 py-3 d-none d-md-flex Padding-30">
                             <h2 className="w-100">FECHAS Y DISPONIBILIDAD</h2>
                             <div className="col-12 col-md-12 col-lg-12 col-xl-6  py-4 px-0">
-                                <div className="col-12  mb-3 px-0">
-                                    <button className="Btn-gris Ficha-btn">MAYO</button>
-                                </div>
+
                                 <div className="col-12 px-0">
                                     <button className="Btn-blue Ficha-btn">Comprar sin fecha</button>
                                 </div>
@@ -236,7 +238,7 @@ const Ficha = () => (
                                         className="fas fa-star Estrella-peq"></i><i className="fas fa-star Estrella-peq"></i><i className="fas fa-star Estrella-peq"></i>
                                         <span className="Review-grispeq pl-1 pt-3">in the last week</span>
                                         <br/>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci deleniti, dolorem eos, exercitationem facilis impedit maiores nihil nisi obcaecati praesentium ratione reiciendis repellat. Cumque error facilis impedit odit suscipit velit.</p>
+                                        <p  className="P-generico">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci deleniti, dolorem eos, exercitationem facilis impedit maiores nihil nisi obcaecati praesentium ratione reiciendis repellat. Cumque error facilis impedit odit suscipit velit.</p>
 
                                     </div>
                                 </div>
@@ -249,7 +251,7 @@ const Ficha = () => (
                                         className="fas fa-star Estrella-peq"></i><i className="fas fa-star Estrella-peq"></i><i className="fas fa-star Estrella-peq"></i>
                                         <span className="Review-grispeq pl-1 pt-3">in the last week</span>
                                         <br/>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci deleniti, dolorem eos, exercitationem facilis impedit maiores nihil nisi obcaecati praesentium ratione reiciendis repellat. Cumque error facilis impedit odit suscipit velit.</p>
+                                        <p className="P-generico">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci deleniti, dolorem eos, exercitationem facilis impedit maiores nihil nisi obcaecati praesentium ratione reiciendis repellat. Cumque error facilis impedit odit suscipit velit.</p>
 
                                     </div>
                                 </div>
@@ -262,7 +264,7 @@ const Ficha = () => (
                                         className="fas fa-star Estrella-peq"></i><i className="fas fa-star Estrella-peq"></i><i className="fas fa-star Estrella-peq"></i>
                                         <span className="Review-grispeq pl-1 pt-3">in the last week</span>
                                         <br/>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci deleniti, dolorem eos, exercitationem facilis impedit maiores nihil nisi obcaecati praesentium ratione reiciendis repellat. Cumque error facilis impedit odit suscipit velit.</p>
+                                        <p className="P-generico">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci deleniti, dolorem eos, exercitationem facilis impedit maiores nihil nisi obcaecati praesentium ratione reiciendis repellat. Cumque error facilis impedit odit suscipit velit.</p>
 
                                     </div>
                                 </div>
@@ -273,7 +275,7 @@ const Ficha = () => (
 
                         <div className="row mb-3 py-0 Padding-30 py-md-3">
                             <p className="accordion  ">Cómo regalar el viaje</p>
-                            <div className="panel ">
+                            <div className="panel P-generico">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquam animi aut
                                 corporis cumque, cupiditate dolor dolorum eveniet facilis in inventore magnam,
                                 necessitatibus neque nihil nobis officiis quia repellat suscipit!
@@ -282,7 +284,7 @@ const Ficha = () => (
 
                         <div className="row mb-3 py-0 Padding-30 py-md-3">
                             <p className="accordion  ">Sensaciones</p>
-                            <div className="panel ">
+                            <div className="panel P-generico">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquam animi aut
                                 corporis cumque, cupiditate dolor dolorum eveniet facilis in inventore magnam,
                                 necessitatibus neque nihil nobis officiis quia repellat suscipit!
@@ -292,7 +294,7 @@ const Ficha = () => (
                             <a href="/faq" className="w-100"><p className="accordion  ">preguntas frequentes</p></a>
 
                         </div>
-                        <div className="col-12 mt-4  text-left align-items-center d-none d-md-flex">
+                    {/*    <div className="col-12 mt-4  text-left align-items-center d-none d-md-flex">
                             <div className="Div-ico Ico-ficha">
                                 <a href="https://es-es.facebook.com/voldecoloms/">
 
@@ -327,7 +329,41 @@ const Ficha = () => (
                                 </a>
                             </div>
                         </div>
+*/}
+                        <div className="col-12 mt-4 text-left align-items-center d-none d-md-flex">
+                            <div className="Div-ico">
+                                <a href="https://es-es.facebook.com/voldecoloms/">
 
+                                    <img src={ico_face_a} alt=""/>
+                                </a>
+                            </div>
+                            <div className="Div-ico">
+                                <a href="https://twitter.com/voldecoloms">
+
+                                    <img src={ico_twitter_a} alt=""/>
+
+                                </a>
+                            </div>
+                            <div className="Div-ico">
+                                <a href="https://www.youtube.com/user/Voldecoloms">
+
+                                    <img src={ico_youtube_a} alt=""/>
+
+                                </a>
+                            </div>
+                            <div className="Div-ico">
+                                <a href="https://www.instagram.com/voldecoloms/">
+
+                                    <img src={ico_inst_a} alt=""/>
+
+                                </a>
+                            </div>
+                            <div className="Div-ico">
+                                <img src={ico_google2_a} alt=""/>
+
+                            </div>
+
+                        </div>
                     </div>
 
 

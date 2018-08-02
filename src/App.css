@@ -471,6 +471,8 @@ button:hover {
     -webkit-box-shadow: 5px 5px 25px 0 rgba(0, 0, 0, 0.43);
     -moz-box-shadow: 5px 5px 25px 0 rgba(0, 0, 0, 0.43);
     box-shadow: 5px 5px 25px 0 rgba(0, 0, 0, 0.43);
+    transition: 0.8s;
+
 }
 .Sombra-trans:hover{
 transition: 0.8s;
@@ -498,6 +500,10 @@ cursor: pointer!important;}
     display: none!important;
 }
 .Instalacionp p{
+     font-size: 1.1rem;
+     line-height: 1.5rem
+ }
+.P-generico {
     font-size: 1.1rem;
     line-height: 1.5rem
 }

@@ -77,7 +77,11 @@ right: 0;
     font-weight: 500;
 
 }
-
+.Megamenu-cruz{
+    position: absolute;
+    right: 30px;
+    top: 12px;
+}
 .Megamenu-open{
     background-color: #0A1F3C;
     border: 0;

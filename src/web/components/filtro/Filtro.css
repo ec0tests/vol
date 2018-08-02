@@ -1,4 +1,7 @@
-
+body{
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
 
 .Filtro h1{
     color:white;
@@ -55,7 +58,7 @@ p  {
 .Section2-filtro {
     position: relative;
     padding-top: 2rem;
-    margin-bottom: 12rem;
+    margin-bottom: 14rem;
 }
 
 

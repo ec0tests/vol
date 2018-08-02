@@ -180,6 +180,8 @@ justify-content: center;
     width: 2.7rem;
 }
 
+
+
 @media all and (min-width: 2000px) {
     .Section1-faq{
         min-height: 57rem;

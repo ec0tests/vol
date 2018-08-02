@@ -196,7 +196,7 @@ class Pack_romantico extends React.Component{
 
                     <div className="container-fluid pl-2 pl-md-5 mt-2 mt-md-0">
                         <div className="row text-left pl-2 pl-md-3">
-                            <div className="col-12 Div-pack-romantico">
+                            <div className="col-12 Div-pack-romantico pt-5">
                                 <h5>packs de experiencias</h5>
                                 <h1>Vuelos <br/> Románticos</h1>
                             </div>
@@ -204,7 +204,7 @@ class Pack_romantico extends React.Component{
                     </div>
                 </section>
 
-                <main className="Section2-pack-romantico text-left px-1 px-md-5">
+                <main className="Section2-pack-romantico text-left px-1 px-md-0">
                     <div className="container-fluid px-1 px-md-5">
                        <Buscador_filtro pack={'Pack_romantico'} color="text-white" texto={'Romántico'}/>
                        <Buscador_filtro_movil pack={'Pack_romantico'} color="text-white" texto={'Romántico'}/>
