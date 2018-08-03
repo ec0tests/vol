@@ -739,7 +739,9 @@ cursor: pointer!important;}
     background-color: transparent;
     letter-spacing: 0;
 }
-
+.Admin .card{
+    z-index: 0!important;
+}
 dt {
     font-size: 1.5rem !important;
     width: 100% !important;
