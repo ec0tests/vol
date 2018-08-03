@@ -59,12 +59,6 @@ class Buscador_filtro extends React.Component {
     }
 
 
-
-
-
-
-
-
     sum_adultos() {
         this.setState({
             contador_adultos: this.state.contador_adultos + 1
@@ -102,7 +96,6 @@ class Buscador_filtro extends React.Component {
     }
 
 
-
     color_segunpack() {
         if (this.props.pack == "Pack_historico") {
             this.setState({
@@ -134,45 +127,111 @@ class Buscador_filtro extends React.Component {
 
     componentDidMount() {
 
-        $(".Btn-gris-sinfondo").click(function(){
+        var personas_abierto = false;
+        var tipo_abierto = false;
+        var filtro_abierto = false;
+
+
+        $(".Btn-gris-sinfondo").click(function () {
             $(".Elemento-tarjeta").removeClass('Difuminado');
             $(".Elemento-tarjeta").addClass('Difuminado');
-
-
-
         })
 
         $("#btn_personas2").click(function () {
+            tipo_abierto=false;
+            filtro_abierto=false;
 
-            $("#card_tipovuelo").hide();
-            $("#card_pack").hide();
-           $("#card_personas").show();
+            if (personas_abierto == false) {
 
+                $("#card_tipovuelo").hide();
+                $("#card_pack").hide();
+                $("#card_personas").show();
+
+                $(this).addClass('Filtro-activado');
+                $(".Btn-gris-sinfondo").not(this).removeClass('Filtro-activado');
+
+                personas_abierto=true;
+
+
+            } else {
+
+                $("#card_tipovuelo").hide();
+                $("#card_pack").hide();
+                $("#card_personas").hide();
+                $(this).removeClass('Filtro-activado');
+
+                personas_abierto=false;
+                $(".Elemento-tarjeta").removeClass('Difuminado');
+
+            }
 
 
         })
         $("#btn_tipo2").click(function () {
-            $("#card_pack").hide();
-            $("#card_personas").hide();
+            personas_abierto=false;
+            filtro_abierto=false;
 
-            $("#card_tipovuelo").show();
+
+            if (tipo_abierto == false) {
+
+                $("#card_pack").hide();
+                $("#card_personas").hide();
+                $("#card_tipovuelo").show();
+                $(this).addClass('Filtro-activado');
+                /*quito el filtro activado de todos menos mi boton*/
+                $(".Btn-gris-sinfondo").not(this).removeClass('Filtro-activado');
+
+                tipo_abierto=true;
+            } else {
+                $("#card_pack").hide();
+                $("#card_personas").hide();
+                $("#card_tipovuelo").hide();
+                tipo_abierto=false;
+                $(this).removeClass('Filtro-activado');
+
+                $(".Elemento-tarjeta").removeClass('Difuminado');
+
+            }
 
 
         })
 
         $("#btn_filtro2").click(function () {
-            $("#card_personas").hide();
-            $("#card_tipovuelo").hide();
 
-            $("#card_pack").show();
+            tipo_abierto=false;
+            personas_abierto=false;
+
+            if (filtro_abierto == false) {
+
+                $("#card_personas").hide();
+                $("#card_tipovuelo").hide();
+                $("#card_pack").show();
+                $(this).addClass('Filtro-activado');
+                $(".Btn-gris-sinfondo").not(this).removeClass('Filtro-activado');
+
+                filtro_abierto=true;
+            } else {
+                $("#card_personas").hide();
+                $("#card_tipovuelo").hide();
+                $("#card_pack").hide();
+                filtro_abierto=false;
+                $(this).removeClass('Filtro-activado');
+
+                $(".Elemento-tarjeta").removeClass('Difuminado');
+
+            }
 
         })
         /*Hace que al clicar en cualquier sitio que no tenga la clase menu icon se ejecute el hide menu*/
         $(document).on("click", function (e) {
             let clase = $(e.target).attr("class");
             console.log(clase);
-            if (clase != "img-fluid" && clase != "Opacity" && !clase.includes("Btn-restablecer")  && !clase.includes("Btn-gris-sinfondo") ) {
+            if (clase != "img-fluid" && clase != "Opacity" && !clase.includes("Btn-restablecer") && !clase.includes("Btn-gris-sinfondo")) {
                 $(".Botones-filtro .card").hide();
+                personas_abierto=false;
+                filtro_abierto=false;
+                tipo_abierto=false;
+
                 if ($("#input_hidden_tipopack").val() == "Pack_romantico") {
                     $(".Btn-gris-sinfondo").removeClass('Filtro-activado-romantico');
 
@@ -189,49 +248,28 @@ class Buscador_filtro extends React.Component {
         });
 
 
-        $("#btn_personas2").click(function () {
-            setTimeout(() => {
-                $(".Elemento-tarjeta").addClass('Difuminado');
-            }, 10)
-        })
-        $("#btn_tipo2").click(function () {
 
-            setTimeout(() => {
-                $(".Elemento-tarjeta").addClass('Difuminado');
-            }, 10)
-
-        })
-
-        $("#btn_filtro2").click(function () {
-
-            setTimeout(() => {
-                $(".Elemento-tarjeta").addClass('Difuminado');
-            }, 10)
-
-        })
 
     }
 
     render() {
 
 
-
-
         return (
             <div className="row p-3 Botones-filtro">
                 <input type="hidden" id="input_hidden_tipopack" value={this.props.pack}/>
                 <div className="col-12 col-md-12 col-lg-9 col-xl-6 d-flex pl-0">
-                    <div className="w-150" >
+                    <div className="w-150">
                         <Datepicker/>
 
                     </div>
                     <div className="w-150">
-                        <button  id="btn_personas2"
+                        <button id="btn_personas2"
                                 className={`Btn-gris-sinfondo ${this.state.color_segunpack} Btn-gris-arreglado ${this.state.active_personas}   `}>
                             Personas
                         </button>
                         <div id="card_personas" className={`card Filtro-card Filtro-personas Z-index-alto Ocultar2 `}
-                             >
+                        >
                             <div className="d-block flex-column p-4 justify-content-start pt-4">
                                 <div className="col-12 d-flex pl-0 pr-0">
                                     <div className="col-6 pl-0 d-flex align-items-center">
@@ -266,7 +304,7 @@ class Buscador_filtro extends React.Component {
                                     <button onClick={this.restablecer.bind(this)}
                                             className="Btn-restablecer pl-0">Restablecer
                                     </button>
-                                    <button  id="aplicar_personas"
+                                    <button id="aplicar_personas"
                                             className="Btn-aplicar">Aplicar
                                     </button>
                                 </div>
@@ -280,7 +318,7 @@ class Buscador_filtro extends React.Component {
                             Tipo de vuelo
                         </button>
                         <div id="card_tipovuelo" className={`card Filtro-card Filtro-tipovuelo Z-index-alto Ocultar2`}
-                             >
+                        >
                             <div className="d-block flex-column px-4 justify-content-start pt-1">
                                 <div className="col-12 d-flex pl-0 pr-0 pt-3">
                                     <div class="">
@@ -333,7 +371,7 @@ class Buscador_filtro extends React.Component {
                                 <div className="col-12 pt-4 w-100 pl-0 pr-0">
                                     <button onClick={retablecer_chk} className="Btn-restablecer pl-0">Restablecer
                                     </button>
-                                    <button  id="aplicar_tipovuelo"
+                                    <button id="aplicar_tipovuelo"
                                             className="Btn-aplicar">Aplicar
                                     </button>
                                 </div>
@@ -379,7 +417,7 @@ class Buscador_filtro extends React.Component {
                                 <div className="col-12 pt-4 w-100 pl-0 pr-0">
                                     <button onClick={retablecer_chk} className="Btn-restablecer pl-0">Restablecer
                                     </button>
-                                    <button  id="aplicar_pack"
+                                    <button id="aplicar_pack"
                                             className="Btn-aplicar">Aplicar
                                     </button>
                                 </div>

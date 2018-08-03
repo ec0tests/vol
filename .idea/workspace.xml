@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="689f3cfd-3ccb-444b-a116-11e30d561ec9" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" afterPath="$PROJECT_DIR$/src/App.css" />
-      <change beforePath="$PROJECT_DIR$/src/web/components/comunes/Buscador_filtro.css" afterPath="$PROJECT_DIR$/src/web/components/comunes/Buscador_filtro.css" />
       <change beforePath="$PROJECT_DIR$/src/web/components/comunes/Buscador_filtro.js" afterPath="$PROJECT_DIR$/src/web/components/comunes/Buscador_filtro.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,9 +17,8 @@
       <file leaf-file-name="Buscador_filtro.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/web/components/comunes/Buscador_filtro.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="147" column="25" lean-forward="false" selection-start-line="147" selection-start-column="25" selection-end-line="147" selection-end-column="25" />
-              <caret line="154" column="25" lean-forward="false" selection-start-line="154" selection-start-column="25" selection-end-line="154" selection-end-column="25" />
+            <state relative-caret-position="89">
+              <caret line="151" column="0" lean-forward="true" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="0" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -32,7 +29,7 @@
       <file leaf-file-name="Buscador_filtro.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/web/components/comunes/Buscador_filtro.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
+            <state relative-caret-position="1276">
               <caret line="44" column="9" lean-forward="false" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="9" />
               <folding />
             </state>
@@ -185,6 +182,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -359,7 +357,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -515,12 +512,13 @@
       <workItem from="1533077578525" duration="2842000" />
       <workItem from="1533143997926" duration="608000" />
       <workItem from="1533242588945" duration="11934000" />
-      <workItem from="1533317943496" duration="2598000" />
+      <workItem from="1533317943496" duration="2694000" />
+      <workItem from="1533335488677" duration="1410000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="591959000" />
+    <option name="totallyTimeSpent" value="593465000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -833,11 +831,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3248">
           <caret line="136" column="19" lean-forward="true" selection-start-line="136" selection-start-column="19" selection-end-line="136" selection-end-column="19" />
-          <folding>
-            <element signature="e#86#135#0" expanded="false" />
-            <element signature="e#17154#19006#0" expanded="false" />
-            <element signature="e#19032#20404#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -845,7 +838,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1653">
           <caret line="80" column="54" lean-forward="false" selection-start-line="80" selection-start-column="54" selection-end-line="80" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -854,11 +846,6 @@
         <state relative-caret-position="3654">
           <caret line="156" column="47" lean-forward="false" selection-start-line="156" selection-start-column="47" selection-end-line="156" selection-end-column="47" />
           <caret line="164" column="47" lean-forward="false" selection-start-line="164" selection-start-column="47" selection-end-line="164" selection-end-column="47" />
-          <folding>
-            <element signature="e#815#860#0" expanded="false" />
-            <element signature="e#8457#9829#0" expanded="false" />
-            <element signature="e#17207#19034#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -866,7 +853,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="899">
           <caret line="31" column="47" lean-forward="false" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -874,9 +860,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1943">
           <caret line="81" column="70" lean-forward="false" selection-start-line="81" selection-start-column="70" selection-end-line="81" selection-end-column="70" />
-          <folding>
-            <element signature="e#0#39#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -884,7 +867,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2146">
           <caret line="89" column="77" lean-forward="false" selection-start-line="89" selection-start-column="77" selection-end-line="89" selection-end-column="77" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -892,7 +874,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15196">
           <caret line="524" column="3" lean-forward="false" selection-start-line="524" selection-start-column="3" selection-end-line="524" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -900,7 +881,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3973">
           <caret line="146" column="85" lean-forward="true" selection-start-line="146" selection-start-column="85" selection-end-line="146" selection-end-column="85" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -908,7 +888,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="406">
           <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -916,7 +895,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-128826">
           <caret line="1490" column="35" lean-forward="false" selection-start-line="1490" selection-start-column="31" selection-end-line="1490" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -924,13 +902,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="488">
           <caret line="741" column="8" lean-forward="false" selection-start-line="741" selection-start-column="8" selection-end-line="741" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/web/components/comunes/Buscador_filtro.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
+        <state relative-caret-position="1276">
           <caret line="44" column="9" lean-forward="false" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="9" />
           <folding />
         </state>
@@ -938,9 +915,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/web/components/comunes/Buscador_filtro.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="147" column="25" lean-forward="false" selection-start-line="147" selection-start-column="25" selection-end-line="147" selection-end-column="25" />
-          <caret line="154" column="25" lean-forward="false" selection-start-line="154" selection-start-column="25" selection-end-line="154" selection-end-column="25" />
+        <state relative-caret-position="89">
+          <caret line="151" column="0" lean-forward="true" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="0" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
