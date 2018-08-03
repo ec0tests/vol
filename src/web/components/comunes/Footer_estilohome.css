@@ -10,7 +10,14 @@
     background-color: #2260b2;
     padding: 1.5rem;
 }
+.Div-ico-h{
+    width: 46px!important;
+    margin-right: 2px;
+}
+.Div-ico-h img{
+    width: 42px!important;
 
+}
 /*-------------------*/
 /*  FOOTER */
 /*-------------------*/

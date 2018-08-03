@@ -228,11 +228,17 @@ class Buscador_filtro extends React.Component{
     }
 
     componentDidMount(){
+        function filtroe(){
+            this.setState({
+                ocultar_filtro_pack: true,
+                ocultar_filtro_tipo: true,
+                ocultar_filtro_personas: true,
+            });
+        }
         /*Hace que al clicar en cualquier sitio que no tenga la clase menu icon se ejecute el hide menu*/
         $(document).on("click", function (e) {
             let clase= $(e.target).attr("class") ;
             console.log(clase);
-
             if (clase != "img-fluid" &&  clase != "Opacity" &&  clase != "Btn-restablecer"   ){
                 $(".Botones-filtro .card").hide();
                 if($("#input_hidden_tipopack").val()=="Pack_romantico"){
@@ -251,13 +257,58 @@ class Buscador_filtro extends React.Component{
         });
 
 
-        $(".Btn-gris-sinfondo").click(function () {
-            setTimeout(()=>{
-                $(".Elemento-tarjeta").addClass('Difuminado');
-            },10)
+        $("#btn_personas2").click(function () {
+
+                var iteration=$(this).data('iteration')||1
+                switch ( iteration) {
+                    case 1:
+                        setTimeout(()=>{
+                            $(".Elemento-tarjeta").addClass('Difuminado');
+                        },10)
+                        break;
+
+
+                }
+
+                if (iteration>2) iteration=1
+            $(this).data('iteration',iteration)
+
+        })
+        $("#btn_tipo2").click(function () {
+
+            var iteration=$(this).data('iteration')||1
+            switch ( iteration) {
+                case 1:
+                    setTimeout(()=>{
+                        $(".Elemento-tarjeta").addClass('Difuminado');
+                    },10)
+                    break;
+
+
+            }
+
+            if (iteration>2) iteration=1
+            $(this).data('iteration',iteration)
 
         })
 
+        $("#btn_filtro2").click(function () {
+
+            var iteration=$(this).data('iteration')||1
+            switch ( iteration) {
+                case 1:
+                    setTimeout(()=>{
+                        $(".Elemento-tarjeta").addClass('Difuminado');
+                    },10)
+                    break;
+
+
+            }
+
+            if (iteration>2) iteration=1
+            $(this).data('iteration',iteration)
+
+        })
 
     }
     render () {
@@ -297,7 +348,7 @@ class Buscador_filtro extends React.Component{
 
                                 </div>
                                 <div className="w-150">
-                                    <button onClick={this.toggle_filtro_personas.bind(this)} className={`Btn-gris-sinfondo ${this.state.color_segunpack} Btn-gris-arreglado ${this.state.active_personas}   `}>
+                                    <button onClick={this.toggle_filtro_personas.bind(this)} id="btn_personas2" className={`Btn-gris-sinfondo ${this.state.color_segunpack} Btn-gris-arreglado ${this.state.active_personas}   `}>
                                         Personas
                                     </button>
                                     <div id="card_personas" className={`card Filtro-card Filtro-personas Z-index-alto `} style={ hidden_filtro_personas }>
@@ -337,7 +388,7 @@ class Buscador_filtro extends React.Component{
                                     </div>
                                 </div>
                                 <div className="w-150">
-                                    <button onClick={this.toggle_filtro_tipo.bind(this)} className={`Btn-gris-sinfondo ${this.state.color_segunpack} Btn-gris-arreglado ${this.state.active_tipo}   `}>
+                                    <button onClick={this.toggle_filtro_tipo.bind(this)} id="btn_tipo2" className={`Btn-gris-sinfondo ${this.state.color_segunpack} Btn-gris-arreglado ${this.state.active_tipo}   `}>
                                         Tipo de vuelo
                                     </button>
                                     <div id="card_tipovuelo" className={`card Filtro-card Filtro-tipovuelo Z-index-alto`} style={ hidden_filtro_tipo }>
@@ -399,7 +450,7 @@ class Buscador_filtro extends React.Component{
                                     </div>
                                 </div>
                                 <div className="w-150">
-                                    <button id="btn_packs" onClick={this.toggle_filtro_pack.bind(this)} className={`Btn-gris-sinfondo ${this.state.color_segunpack} Btn-gris-arreglado  ${this.state.active_packs}   ${this.props.pack}`} >
+                                    <button id="btn_packs" onClick={this.toggle_filtro_pack.bind(this)} id="btn_filtro2" className={`Btn-gris-sinfondo ${this.state.color_segunpack} Btn-gris-arreglado  ${this.state.active_packs}   ${this.props.pack}`} >
                                         {this.props.texto}
                                     </button>
                                     <div id="card_pack" className={`card Filtro-card Filtro-packs Z-index-alto pb-3`} style={ hidden_filtro_pack }>

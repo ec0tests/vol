@@ -144,32 +144,32 @@ const Footer_estilohome = () => (
                         </a>
                     </div>
                     <div
-                        className="col-10 col-sm-6 col-md-7 col-lg-6 col-xl-4 d-flex  align-items-center justify-content-center Margen-movil">
-                        <div className="Div-ico">
+                        className="col-10 col-sm-6 col-md-7 col-lg-6 col-xl-4 d-flex   align-items-center justify-content-center Margen-movil">
+                        <div className="Div-ico-h">
                             <a target="_blank" href="https://es-es.facebook.com/voldecoloms/">
                                 <img  src={ico_face} alt=""/>
 
                             </a>
                         </div>
-                        <div className="Div-ico">
+                        <div className="Div-ico-h">
                             <a target="_blank" href="https://twitter.com/voldecoloms">
                                 <img  src={ico_twitter} alt=""/>
 
                             </a>
                         </div>
-                        <div className="Div-ico">
+                        <div className="Div-ico-h">
                             <a target="_blank" href="https://www.instagram.com/voldecoloms/">
                                 <img  src={ico_inst} alt=""/>
 
                             </a>
                         </div>
-                        <div className="Div-ico">
+                        <div className="Div-ico-h">
                             <a target="_blank" href="https://www.youtube.com/user/Voldecoloms">
                                 <img  src={ico_youtube} alt=""/>
 
                             </a>
                         </div>
-                        <div className="Div-ico">
+                        <div className="Div-ico-h">
                             <a target="_blank" href="">
 
                                 <img   src={ico_google2} alt=""/>
