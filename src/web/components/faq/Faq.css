@@ -201,7 +201,9 @@ justify-content: center;
 }
 
 @media all and (max-width: 768px) {
-
+              .Section1-faq {
+                  min-height: 27rem;
+              }
     p.accordion{
         font-size: 1.3rem!important;
     }
@@ -233,6 +235,11 @@ justify-content: center;
 
 }
 
-@media all and (max-width: 575px) {
+@media all and (max-width: 572px) {
+
+    p.accordion:after {
+
+        top: 0.3rem!important;
+    }
 
 }

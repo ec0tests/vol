@@ -397,6 +397,11 @@ div.panel.show {
         text-align: center;
         max-width: 200px;
         margin: 30px auto 0;
+        margin-left: 35px!important;
+    }
+    .slideout-sidebar .Div-ico img{
+        width: 2.2rem!important;
+
     }
 
     .menu-icon {

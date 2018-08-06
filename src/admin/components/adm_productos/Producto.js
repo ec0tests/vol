@@ -193,12 +193,12 @@ class Producto extends React.Component {
                                                        placeholder="Precio" id="producto_precio" name="producto_precio"/>
                                             </div>
                                             <div class="form-group col-12 col-md-6 m-t-20">
-                                                <label className="Label-productos">Temática:</label>
+                                              {/*  <label className="Label-productos">Temática:</label>
                                                 <select class="form-control" name="producto_tematica" id="producto_tematica">
                                                     <option value="romantico">Romántico</option>
                                                     <option value="historico">Histórico</option>
                                                     <option value="aventuras">Aventuras</option>
-                                                </select>
+                                                </select>*/}
                                             </div>
 
                                             <div class="form-group col-12 col-md-12 m-t-20">

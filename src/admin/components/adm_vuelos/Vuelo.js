@@ -299,12 +299,12 @@ class Vuelo extends React.Component {
                                                    placeholder="Precio niños" id="vuelo_precio_ninyos" name="vuelo_precio_ninyos"/>
                                         </div>
                                             <div class="form-group col-12 col-md-6 m-t-20">
-                                                <label className="Label-vuelos">Temática:</label>
+                                               {/* <label className="Label-vuelos">Temática:</label>
                                                 <select class="form-control" name="vuelo_tematica" id="vuelo_tematica">
                                                     <option value="romantico">Romántico</option>
                                                     <option value="historico">Histórico</option>
                                                     <option value="aventuras">Aventuras</option>
-                                                </select>
+                                                </select>*/}
                                             </div>
                                         <div class="form-group col-12 col-md-12 m-t-20">
                                             <label className="Label-vuelos">Video:</label>
