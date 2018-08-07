@@ -158,10 +158,16 @@ p  {
 
 
 }
-
-
-
-
+@media (max-width: 768px) {
+    .Pilotos h4 {
+        font-size: 3rem!important;
+    }
+    .Pilotos .Seccion-final {
+        height: 38rem;
+        margin-top: 6rem!important;
+        padding-top: 6rem;
+    }
+}
 @media (max-width: 991.98px) {
     .Seccion-final{
         justify-content: center;

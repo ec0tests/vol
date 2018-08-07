@@ -31,7 +31,7 @@ class Card_experiencias extends React.Component {
                                         <span>{this.props.tipo_vuelo} <br/>{this.props.tipo_globo} </span>
                                     </div>
                                 </div>
-                                <div className="col-12 col-md-12 col-lg-4 justify-content-center d-flex align-items-center p-0 pr-1 pt-2">
+                                <div className="col-4 col-lg-4 justify-content-center d-flex align-items-center p-0 pr-1 pt-2">
                                     <span className="Precio-card">{this.props.precio} €</span>
                                 </div>
 

@@ -92,7 +92,9 @@ p  {
 .Section3-filtro .Z-index3{
     padding-top: 10rem;
 }
-
+.H-38{
+    height: 38rem!important;
+}
 .Pack_historico{
     background-color: #1ea6ac;
     color: #ffffff;
@@ -204,15 +206,54 @@ p  {
     .Footer_estilohome{
         display: none;
     }
+    .Section2-filtro {
+        position: relative;
+        padding-top: 2rem;
+        margin-bottom: 6rem;
+    }
 
-.Margen-negativo{
+
+    .Margen-negativo{
     margin-top: 0;
 }
+    .Section3-filtro {
+        background-size: cover!important;
+        height: 40rem;
+        position: relative;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .Section3-filtro .Z-index3 {
+        padding-top: 13rem;
+    }
 }
 
 @media all and (max-width: 575px) {
     .Footer_estilo1{
         display: none;
+    }
+    .Section2-filtro {
+        position: relative;
+        padding-top: 2rem;
+        margin-bottom: 1rem;
+    }
+    .Section3-filtro {
+        background-size: cover!important;
+        height: 34rem;
+        position: relative;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .Section3-filtro .Z-index3 {
+        padding-top: 13rem;
     }
     .Footer_estilohome{
         display: initial;

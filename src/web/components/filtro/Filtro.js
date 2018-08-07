@@ -143,6 +143,9 @@ class Filtro extends React.Component{
                     <div className="container-fluid px-3 px-md-0 ">
                         <Buscador_filtro pack={'Pack_general'} texto={'Packs'}/>
                         <Buscador_filtro_movil/>
+                        <div className="container Container-card h-25 H-38 Margen-negativo d-md-none ">
+                            <Carousel_cards/>
+                        </div>
                         <div className="row pt-2">
                             {array_cards_experiencias}
 
@@ -159,7 +162,7 @@ class Filtro extends React.Component{
 
 
                 <section className="Section3-filtro">
-                    <div className="container Container-card h-50 Margen-negativo">
+                    <div className="container Container-card h-50 Margen-negativo d-none d-md-block">
                         <Carousel_cards/>
                     </div>
                     <Experiencia_volarGlobo/>

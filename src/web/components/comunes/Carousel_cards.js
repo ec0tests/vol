@@ -60,7 +60,7 @@ class Carousel_cards extends React.Component{
 
                                         </div>
 
-                                        <div className="row w-100 pt-2 pt-lg-5 justify-content-between">
+                                        <div className="row w-100 pt-2 pt-lg-5 justify-content-between mb-4 mb-md-0">
                                             <div className="col-12 col-sm-5 col-md-5  text-left d-flex align-items-center mb-4  mb-lg-0">
                                                 <button className=" Btn-blue W-8rem Mayor-responsive">VER OFERTA</button>
                                             </div>
@@ -107,7 +107,7 @@ class Carousel_cards extends React.Component{
 
                                         </div>
 
-                                        <div className="row w-100 pt-2 pt-lg-5 justify-content-between">
+                                        <div className="row w-100 pt-2 pt-lg-5 justify-content-between mb-3 mb-md-0">
                                             <div className="col-12 col-sm-5 col-md-5  text-left d-flex align-items-center mb-4  mb-lg-0">
                                                 <button className=" Btn-blue W-8rem Mayor-responsive">VER OFERTA</button>
                                             </div>

@@ -131,6 +131,19 @@ min-height: 551px;
     .Instalaciones h5{
         width: 100%!important;
     }
+    .Section4-instalaciones {
+        background-size: cover!important;
+        height: 35rem;
+        margin-top: 8rem;
+        padding-top: 5rem;
+        position: relative;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
 
 }
 

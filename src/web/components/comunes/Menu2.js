@@ -136,7 +136,7 @@ $(function(){
 * así lo coge directamente*/
 const Menu2 = ({logo}) => (
     <div className="d-flex align-items-center">
-        <button className="ml-4 menu-icon Open-menu" id="desplegable_boton1" onClick={show_menu}><i
+        <button className="ml-4 mr-3 mr-lg-0 menu-icon Open-menu" id="desplegable_boton1" onClick={show_menu}><i
             className="fa fa-bars text-white"></i></button>
         <span className="Cursor-pointer Open-menu d-none d-md-inline" onClick={show_menu}>MENÚ</span>
 

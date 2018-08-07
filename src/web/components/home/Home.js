@@ -324,7 +324,7 @@ class Home extends React.Component {
                                     dignissimos doloremque exercitationem fuga incidunt minus natus necessitatibus
                                     nostrum officia placeat praesentium quaerat recusandae, reprehenderit rerum ullam
                                     unde?</p>
-                                <button className="Btn-darkblue Btn-arreglado">Más info</button>
+                                <button className="Btn-darkblue Btn-arreglado Btn-mw">Más info</button>
                             </div>
                         </div>
 
