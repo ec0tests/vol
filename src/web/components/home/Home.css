@@ -386,33 +386,66 @@ footer .Row1 {
 }
 .Seccion2-bkg {
         right: 0%;
-        width: 75%;
+        width: 100%;
         position: absolute;
         top: -13%;
         z-index: -10;
     }
-
+    .Diagonal2 {
+        background: #014db4;
+        position: relative;
+        height: 4rem;
+        top: 1.5rem;
+        width: 100%;
+        -webkit-transform: skewY(-4deg);
+        -ms-transform: skewY(-4deg);
+        transform: skewY(-4deg);
+    }
+    .Diagonal1 {
+         z-index: -1;
+         background: #014db4;
+         position: relative;
+         height: 3rem;
+         bottom: 1.5rem;
+         width: 100%;
+         -webkit-transform: skewY(4deg);
+         -ms-transform: skewY(4deg);
+         transform: skewY(4deg);
+     }
     .Section1{
         padding-top: 10rem;
-
+        height: 78.5rem;
     }
     .Section2 {
         position: relative;
         padding: 12rem 0;
         padding-top: 0;
+        padding-bottom: 7rem;
+    }
+    .Textoizq p {
+        text-align: left;
+        font-size: 1rem;
+        font-weight: 300;
     }
     .Padding-ico-5{
         padding-top: 18px;
     }
+    .Finalsube {
+          font-size: 1.7rem!important;
+          text-align: left;
+          font-weight: 700!important;
+          padding-left: 19px;
+          font-family: "Barlow Condensed"!important;
+      }
     .Padding-ico-4{
         padding-top: 16px!important;
     }
     .Home-h1 {
         font-weight: 700 !important;
         color: white;
+        margin-top: 3rem;
         line-height: 1!important;
-        font-size: 5rem;
-
+        font-size: 6.8rem;
     }
     .Home-h2 span{
         font-weight: 700!important;
@@ -451,7 +484,7 @@ footer .Row1 {
        margin-top: 0.5rem;
         border-bottom: 1px solid white;
         font-size: 0.9rem;
-        padding-bottom: 1.3rem;
+        padding-bottom: 1.3rem;    margin-bottom: 1% !important;
     }
     .Little-text{
         text-align: left;
@@ -469,8 +502,8 @@ footer .Row1 {
     }
 
     .row-iconos img{
-        width: 4rem;
-        height: 3rem;
+        width: 5rem;
+        height: 4rem;
     }
 
     .Justify-md-content-end{
@@ -487,10 +520,10 @@ footer .Row1 {
 
     }
     .Home-h2 {
-        font-size: 3.7rem!important;
+        font-size: 2.4rem!important;
         color: white;
         text-transform: none;
-        line-height: 1;
+        line-height: 1.2;
     }
     .Padding-icos{
         padding-top: 0px!important;
@@ -534,7 +567,9 @@ footer .Row1 {
 
 .Btn-mw{
     width: 12.5rem!important;
-}}
+}
+
+}
 @media (max-width: 575.98px) {
 
     .Padding-ico-4{
@@ -543,6 +578,12 @@ footer .Row1 {
     }
     .Padding-ico-5 {
         padding-top: 3px!important;
+    }
+    .Home-h2 {
+        font-size: 2.4rem!important;
+        color: white;
+        text-transform: none;
+        line-height: 1.2;
     }
 }
 

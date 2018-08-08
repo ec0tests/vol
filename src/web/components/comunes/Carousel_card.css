@@ -243,8 +243,11 @@ line-height: 1.3!important;
         position: absolute;
         top: 48.8%!important;
         left: -43%;
-        position: relative;
+        position: relative;display: none;
 
+    }
+    #carouselExampleIndicators{
+        height: 36rem;
     }
     .carousel-control-prev {
         left: 0%!important;
@@ -263,7 +266,7 @@ line-height: 1.3!important;
     .Flecha-falsa2{
         z-index: 10000!important;
         position: absolute;
-        top: 49.5%!important;
+        top: 49.5%!important;display: none;
         left: 42%;
         position: relative;
     }

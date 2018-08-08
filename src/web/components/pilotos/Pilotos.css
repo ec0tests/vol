@@ -130,11 +130,11 @@ p  {
     }
     .Section1-pilotos {
         background-size: cover!important;
-        background: url('../../images/pilotos-bkg1.jpg');
+        background: url(/static/media/pilotos-bkg1.de6b0e65.jpg);
         background-repeat: no-repeat;
         padding-top: 1rem;
         background-position: top;
-        height: 30rem;
+        height: 24rem;
     }
 
     .Pilotos-h1-movil{
@@ -161,6 +161,17 @@ p  {
 @media (max-width: 768px) {
     .Pilotos h4 {
         font-size: 3rem!important;
+    }
+    .Section2-pilotos {
+        background: none;
+    }
+    .Section1-pilotos {
+        background-size: cover!important;
+        background: url(/static/media/pilotos-bkg1.de6b0e65.jpg);
+        background-repeat: no-repeat;
+        padding-top: 1rem;
+        background-position: top;
+        height: 24rem;
     }
     .Pilotos .Seccion-final {
         height: 38rem;

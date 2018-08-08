@@ -132,7 +132,7 @@ class Filtro extends React.Component{
 
                     <div className="container-fluid pl-1 pl-md-5">
                         <div className="row text-left pl-3 pl-md-0">
-                            <div className="col-12 Div-filtro pt-5 ">
+                            <div className="col-12 Div-filtro pt-md-5 ">
                                 <h1>Todos los vuelos</h1>
                             </div>
                         </div>
@@ -143,14 +143,14 @@ class Filtro extends React.Component{
                     <div className="container-fluid px-3 px-md-0 ">
                         <Buscador_filtro pack={'Pack_general'} texto={'Packs'}/>
                         <Buscador_filtro_movil/>
-                        <div className="container Container-card h-25 H-38 Margen-negativo d-md-none ">
+                        <div className="container Container-card h-25 H-38 Margen-negativo d-md-none px-0 ">
                             <Carousel_cards/>
                         </div>
                         <div className="row pt-2">
                             {array_cards_experiencias}
 
                         </div>
-                        <div className="row mt-5">
+                        <div className="row mt-5 d-none d-md-flex">
                             <div className="col-12 text-center">
                                 {/*<button className="Btn-gris">Cargar más</button>*/}
                             </div>

@@ -22,7 +22,11 @@
         width: 100%!important
 
     }
-
+    .Finalsube {
+        font-size: 1.9rem!important;
+        font-weight: 700!important;
+        font-family: "Barlow Condensed"!important;
+    }
 }
 
 @media all and (max-width: 575px) {

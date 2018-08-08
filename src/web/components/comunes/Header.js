@@ -225,7 +225,7 @@ const Header = ({logo}) => (
             <div className="row">
                 <span className="Cruz text-white" onClick={hide_megamenu_movil}>x</span>
             </div>
-            <nav className="row mb-1 text-left">
+            <nav className="row mb-1 text-left mb-5 mt-5 pt-2">
                 <div className="col-md-3 ">
                     <p className="accordion text-white text-uppercase">vuelos compartidos</p>
                     <div className="panel text-white Megamenu-movil-white">
@@ -266,14 +266,15 @@ const Header = ({logo}) => (
             <div className="row pt-3">
                 <div className="col-12 text-center">
                     <a href="/filtro">
-                        <button className="Btn-skinnyblue">ver ofertas</button>
+                        <button className="Btn-red W-12r">todos los vuelos</button>
                     </a>
                 </div>
-                <div className="col-12 text-center mt-3">
+                <div className="col-12 text-center  mt-3">
                     <a href="/filtro">
-                        <button className="Btn-red">todos los vuelos</button>
+                        <button className="Btn-skinnyblue W-12r">ver ofertas</button>
                     </a>
                 </div>
+
             </div>
         </div>
 

@@ -21,7 +21,7 @@ class Subetufoto extends React.Component {
             <div className="container-fluid">
                 <h3 className="Text-gray text-uppercase mb-3 Home-h2 Subetufoto-h3 w-100 Finalsube">Sube tu foto y gana un vuelo
                     con <span
-                        className="Red-text">#voldecoloms</span></h3>
+                        className="Finalsube Red-text pl-0">#voldecoloms</span></h3>
                     <Slider {...settings}>
                         <img src="https://via.placeholder.com/320x250" className="img-fluid w-100" alt=""/>
                         <img src="https://via.placeholder.com/320x250" className="img-fluid w-100" alt=""/>

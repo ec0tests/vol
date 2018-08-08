@@ -429,6 +429,10 @@ iframe{
         background-color: white;
         height: 29rem!important;
     }
+    .Section4-ficha{
+        height: 30rem!important;
+        padding-top: 6rem;
+    }
     .Section2-ficha  p.accordion{
         color: #333333!important;
         padding-left: 2rem;

@@ -87,7 +87,7 @@ const Ficha = () => (
 
                                 </div>
                                 <form className="col-12 my-2 mt-4 mt-md-0 mt-lg-4 Form-reservaa">
-                                    <div className="pt-3 pt-md-0 pt-lg-3 row">
+                                    <div className="pt-0 pt-md-0 pt-lg-3 row">
                                         <label for="inputPassword"
                                                className="col-sm-5 col-md-5 col-xl-5 col-form-label Label-form">Personas</label>
                                         <div className="col-sm-7  col-md-7 col-xl-7">
@@ -119,7 +119,7 @@ const Ficha = () => (
                                     </div>
                                 </form>
 
-                                <div className="row w-100 pt-5 pt-md-4">
+                                <div className="row w-100 pt-2 pt-md-4">
                                     <div className="col-md-12 text-left d-flex align-items-center">
                                         <button className=" Btn-red  w-100" data-toggle="modal" data-target="#modal_compra">RESERVAR</button>
                                     </div>

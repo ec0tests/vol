@@ -54,7 +54,7 @@ function show_menu() {
     $(".slideout-sidebar").addClass('animated slideInRight');
 
     $(".slideout-sidebar").show();
-    $("#desplegable_boton2").show();
+    $(".Menu-boton").show();
     menu_abierto = true;
 
 }
@@ -71,7 +71,7 @@ function hide_menu() {
 
     $(".slideout-sidebar").addClass('animated slideOutRight');
 
-    $("#desplegable_boton2").hide();
+    $(".Menu-boton").hide();
     menu_abierto = false;
 }
 
@@ -136,12 +136,12 @@ $(function(){
 * así lo coge directamente*/
 const Menu2 = ({logo}) => (
     <div className="d-flex align-items-center">
-        <button className="ml-4 mr-3 mr-lg-0 menu-icon Open-menu" id="desplegable_boton1" onClick={show_menu}><i
+        <button className="ml-2 ml-md-4 mr-3 mr-lg-0 menu-icon Open-menu" id="desplegable_boton1" onClick={show_menu}><i
             className="fa fa-bars text-white"></i></button>
         <span className="Cursor-pointer Open-menu d-none d-md-inline" onClick={show_menu}>MENÚ</span>
 
-        <div className="slideout-sidebar ">
-            <div className="row">
+        <div className="slideout-sidebar Div-menu2">
+            <div className="row  d-none d-md-flex">
                 <div className="col-2 ml-3">
                     <button className="Btn-idioma">ES</button>
                 </div>
@@ -156,11 +156,32 @@ const Menu2 = ({logo}) => (
                 </div>
                 <div className="col-2 pl-4 pr-0">
 
-                    <button className="menu-icon w-auto" id="desplegable_boton2" onClick={hide_menu}><i
+                    <button className="menu-icon w-auto Menu-boton" onClick={hide_menu}><i
                         className="fas fa-times text-white"></i></button>
                 </div>
 
             </div>
+            <div className=" d-md-none">
+                <div className="Menu-trad ml-3">
+                    <button className="Btn-idioma">ES</button>
+                </div>
+                <div className="Menu-trad">
+                    <button className="Btn-idioma">CAT</button>
+                </div>
+                <div className="Menu-trad">
+                    <button className="Btn-idioma">EN</button>
+                </div>
+                <div className="Menu-trad">
+                    <button className="Btn-idioma">FR</button>
+                </div>
+                <div className="col-2 pl-4 pr-0 Menu-boton-movil">
+
+                    <button className="menu-icon w-auto  Menu-boton " onClick={hide_menu}><i
+                        className="fas fa-times text-white"></i></button>
+                </div>
+
+            </div>
+
             <ul className="mt-4 Menu-2">
                 <a href="/filtro" className="text-white"><li className="Barlow">regalar vuelo</li></a>
 

@@ -131,16 +131,16 @@ const Footer_estilohome = () => (
             <div className="row Row1 py-2 py-md-0 p-md-3">
                 <div className="col-12 col-md-5 d-flex justify-content-center">
                     <div className="col-12 col-md-8 p-0 d-flex align-items-center justify-content-center">
-                        <img className="img-fluid" src={logo_b} alt=""/>
+                        <img className="img-fluid Logo-footer-movil" src={logo_b} alt=""/>
                     </div>
 
 
                 </div>
                 <div className="col-12 col-md-7  pb-2 d-flex flex-wrap pt-0 justify-content-end pt-md-5">
                     <div
-                        className="col-12 col-md-5 p-0 d-flex align-items-center py-5 py-md-0 Justify-md-content-end">
+                        className="col-12 col-md-5 p-0 d-flex align-items-center pt-5 pb-3 pt-md-0 pb-md-0 py-md-0 Justify-md-content-end">
                         <a href="/filtro">
-                            <button className="Btn-red">todos los vuelos</button>
+                            <button className="Btn-red Btn-footer-movil">todos los vuelos</button>
                         </a>
                     </div>
                     <div

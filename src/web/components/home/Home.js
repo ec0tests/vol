@@ -170,9 +170,12 @@ class Home extends React.Component {
                         <div className="row text-left ">
                             <div className="col-12 ">
 
-                                <h1 className="  Home-h1 mb-0">VUELA EN GLOBO <br/>
+                                <h1 className=" d-none d-md-block  Home-h1 mb-0">VUELA EN GLOBO <br/>
                                 </h1>
-                                <h2 className="Home-h2">en el parque natural de La Garrotxa</h2>
+                                <h1 className="d-md-none  Home-h1 mb-0">VUELA <br/> EN GLOBO <br/>
+                                </h1>
+                                <h2 className="Home-h2 d-md-none">En el parque natural de <br/> La Garrotxa</h2>
+                                <h2 className="Home-h2 d-none d-md-block">en el parque natural de La Garrotxa</h2>
                             </div>
                         </div>
                         <div className="row my-4">
@@ -238,7 +241,7 @@ class Home extends React.Component {
                                     <p className="mt-3 text-uppercase Little-text3 Text-iconos text-white">empresas </p>
                                 </div>
                             </div>
-                            <div className="col-12 mt-5 ">
+                            <div className="col-12 mt-2 ml-4 ml-md-0 mt-md-5 ">
                                 <p className="text-white Little-text AbajoTxt"><strong> <span
                                     className=" Asterisco"> * </span> Vuelos adaptados & 100% accesibles
                                 </strong><br/> Personas mayores , discapacidades, sillas

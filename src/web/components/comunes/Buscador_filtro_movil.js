@@ -176,9 +176,9 @@ class Buscador_filtro_movil extends React.Component {
                             <div className="Div-btnfiltro">
                                 {/*Boton movil*/}
                                 <button id="btn_filtro" onClick={show_filtro}
-                                        className="Filtro-movil  Open-filtro d-md-none ">Filtros
+                                        className="Filtro-movil  Open-filtro d-md-none ">FILTROS
                                 </button>
-                                <i onClick={show_filtro} class="fas fa-bars"></i>
+                                <i onClick={show_filtro} class="fas fa-bars Filtro-icomo"></i>
                             </div>
                         </div>
                     </div>
@@ -188,6 +188,9 @@ class Buscador_filtro_movil extends React.Component {
                 <div className="col-12 Filtro-div-movil">
                     <div className="row">
                         <span className="Cruz" onClick={hide_filtro}>x</span>
+                    </div>
+                    <div className="row pl-3 mb-4 mt-3">
+                        <span className="F-peq1">Filtra los resultados</span>
                     </div>
                     <nav className="row mb-1 text-left">
                         <div className="col-md-3 ">

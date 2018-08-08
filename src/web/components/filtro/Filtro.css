@@ -210,8 +210,23 @@ p  {
         position: relative;
         padding-top: 2rem;
         margin-bottom: 6rem;
-    }
+    } .Filtro h1 {
+          color: white;
+          font-family: 'Barlow Condensed', sans-serif;
+          font-weight: bold;
+          font-size: 2.5rem;
+          padding-top: 1rem;
+          text-transform: uppercase;
+      }
+    .Section1-filtro{
+        background-size: cover!important;
+        background: url('../../images/filtro-bkg1.jpg');
+        background-position-x: center;
+        background-repeat: no-repeat;
+        padding-top: 0rem;
+        min-height: 14rem;
 
+    }
 
     .Margen-negativo{
     margin-top: 0;
@@ -266,7 +281,7 @@ p  {
         font-family: 'Barlow Condensed', sans-serif;
         font-weight: bold;
         font-size: 2.5rem;
-        padding-top: 3rem;
+        padding-top: 1rem;
         text-transform: uppercase;
     }
 }

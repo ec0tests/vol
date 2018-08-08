@@ -50,7 +50,21 @@ Footer_estilohome .Row1 {
     .Margen-movil{
         margin:0 auto;
     }
-
+    .Logo-footer-movil{
+        width: 65%;
+        margin-top: 3rem;
+    }
+.Btn-footer-movil{
+    background-color: #D24228;
+    color: white;
+    text-transform: uppercase;
+    border: 0;
+    font-size: .9rem;
+    font-weight: 600;
+    padding: 0.625rem;
+    width: 14.6rem;
+    margin-right: -2px;
+}
 }
 
 @media (max-width: 991.98px) {  }

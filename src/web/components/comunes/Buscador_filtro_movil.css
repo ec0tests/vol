@@ -5,6 +5,14 @@
     width: 100%;
     text-align: right;
     padding-right: 2rem;
+    font-size: 3rem!important;
+    color: gray!important;
+    margin-top: -29px;
+    padding-top: 0.5rem!important;
+    position: absolute;
+}
+.F-peq1{
+    font-size: 14px!important;
 }
 .Div-btnfiltro{
     text-align: right;
@@ -26,10 +34,10 @@
     top: 0;
     right: 0;
     display: none;
-    z-index: 9999;
-    width: 350px;
+    z-index: 999999999;
     padding: 20px;
     height: 100vh;
+    width: 100%;
     background-color: #FFFFFF;
 }
 .Filtro-div-movil p.accordion{
@@ -69,7 +77,12 @@
     right: 10.6%;
     top: 0;
 }
-
+.Filtro-icomo{
+    font-size: 18px;
+}
+.Filtro-movil{
+    font-size: 16px;
+}
 
 
 .Filtro-div ul li{
@@ -91,7 +104,7 @@ p.accordion:after {
     margin-left: 5px;
     position: absolute;
     left: -3rem;
-    top: -.7rem;
+    top: -0.4rem!important;
 }
 
 /* Unicode character for "minus" sign (-) */
