@@ -52,9 +52,9 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
 const Pregunta_faq = ({pregunta, respuesta}) => (
 
-    <div className=" w-100 Pregunta-div mb-4 Instalacionp Click">
-        <img src={flecha_abajo} className="d-md-none Flechas-faq Flecha-abajo Click" alt=""/>
-        <img src={flecha_arriba} className="d-md-none Flechas-faq Ocultar Flecha-arriba Click" alt=""/>
+    <div className=" w-100 Pregunta-div mb-4 Instalacionp Click ">
+        <img src={flecha_abajo} className="d-md-none Flechas-faq Flecha-abajo Click Z-index-bajo" alt=""/>
+        <img src={flecha_arriba} className="d-md-none Flechas-faq Ocultar Flecha-arriba Click Z-index-bajo" alt=""/>
         <p className="accordion">{pregunta}</p>
         <div className="panel"><p>{respuesta}</p></div>
 

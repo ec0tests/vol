@@ -79,6 +79,12 @@ height: 27rem;
 .Form-reservaa input{
     border-radius: 0!important;
 }
+.Ficha .Flechas-faq{
+    position: absolute;
+    right: 0px;
+    top: 11px;
+ }
+
 /*SECCON 1*/
 .Section1-ficha{
     background-size: cover!important;
@@ -431,17 +437,20 @@ iframe{
     }
     .Section4-ficha{
         height: 30rem!important;
-        padding-top: 6rem;
+        padding-top: 1rem;
+    }
+    .Padding-l-movil{
+        padding: 0!important;
     }
     .Section2-ficha  p.accordion{
         color: #333333!important;
-        padding-left: 2rem;
+        padding-left: 1rem;
         font-family: 'Barlow Condensed', sans-serif!important;
         width: 100%;
         font-size: 1.6rem!important;
         margin-bottom: 1rem;
         padding-bottom: 0.5rem!important;
-        border-bottom: 1px solid #333333;
+        border-bottom: 1px solid #a0a0a0;
     }
 
     .Col-fixed {

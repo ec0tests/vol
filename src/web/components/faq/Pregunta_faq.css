@@ -71,5 +71,8 @@ div.panel.show {
 @media (max-width: 768px){
     .Pregunta-div {
 
-    padding-right: 28px}
+    padding-right: 0px}
+    .Z-index-bajo{
+        z-index: -1000;
+    }
     }

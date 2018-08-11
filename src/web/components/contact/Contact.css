@@ -1,6 +1,5 @@
 
-
-.Contact h1{
+.Contact h1 {
     color: white;
     font-size: 4.7rem;
     text-transform: uppercase;
@@ -12,51 +11,55 @@
     margin-top: 2rem;
 
 }
-.Contact h1>span{
+
+.Contact h1 > span {
     color: #4e80c1;
     font-weight: bold;
 
-
 }
 
-.Contact h2{
+.Contact h2 {
     color: #333333;
     text-transform: uppercase;
     width: 35%;
     font-weight: bold;
     font-size: 3rem;
 }
-.Contact h3{
+
+.Contact h3 {
     color: white;
     font-weight: normal;
-    font-family: 'Roboto', sans-serif!important;
+    font-family: 'Roboto', sans-serif !important;
     text-transform: none;
     font-size: 1.3rem;
     line-height: 1.3;
 }
 
-.Contact h4{
+.Contact h4 {
     color: #333333;
     font-weight: bold;
     font-size: 1.5rem;
 }
-p  {
+
+p {
     color: #8f8f8f;
 }
 
 /*SECCON 1*/
-.Section1-contact{
-    background-size: cover!important;
+.Section1-contact {
+    background-size: cover !important;
     background: url('../../images/faq-bkg1.jpg');
     background-position-x: center;
     background-repeat: no-repeat;
     min-height: 30rem;
 
 }
-.Contact h2{
-    width: 100%!important;
+
+.Contact h2 {
+    width: 100% !important;
 }
-.Btn-gris{
+
+.Btn-gris {
     background-color: #999999;
     color: #fff;
     border: 0;
@@ -67,7 +70,6 @@ p  {
     font-size: .9rem;
 }
 
-
 /*SECCON 2*/
 .Section2-contact {
     position: relative;
@@ -75,8 +77,6 @@ p  {
     padding-left: 6rem;
     padding-right: 6rem;
 }
-
-
 
 .Seccion3-contact-bkg {
     right: 0%;
@@ -87,96 +87,88 @@ p  {
 
 }
 
-
-
-
-
 /*SECCION 3*/
 
-.Section3-contact{
+.Section3-contact {
     position: relative;
-    padding-top: 1rem ;
+    padding-top: 1rem;
 
 }
 
-
 /*FOOTER*/
 
-.Section4-contact{
-    background:  url('../../images/bkg-experiencia-1920.jpg');
+.Section4-contact {
+    background: url('../../images/bkg-experiencia-1920.jpg');
     background-repeat: no-repeat;
     height: 70rem;
     position: relative;
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-size: cover!important;
+    background-size: cover !important;
     justify-content: center;
     -webkit-clip-path: polygon(0 22%, 100% 6%, 100% 100%, 0% 100%);
     clip-path: polygon(0 22%, 100% 6%, 100% 100%, 0% 100%);
     padding-top: 14rem;
 
 }
-.Section4-contact>*{
 
+.Section4-contact > * {
 
 }
 
-
-.Contact .Btn-blue{
+.Contact .Btn-blue {
     width: 13rem;
     height: 2.5rem;
 }
 
-
-
 .Section4-contact .Card-row {
-    margin-bottom: 0!important;
+    margin-bottom: 0 !important;
 }
-.Section4-contact .carousel-indicators{
+
+.Section4-contact .carousel-indicators {
     padding-top: 2%;
 }
 
-.Section4-contact .carousel-control-prev{
+.Section4-contact .carousel-control-prev {
     top: 45%;
 }
-.Section4-contact .carousel-control-next{
+
+.Section4-contact .carousel-control-next {
     top: 47%;
 }
 
 .
-
-.Section4-contact .Container-video{
+.Section4-contact .Container-video {
 }
-
 
 /*SECTION 3*/
 
-.Section4-contact{
+.Section4-contact {
 }
 
-.Links-footer>div{
+.Links-footer > div {
     padding-top: 0.5rem;
     text-align: left;
 }
-.Links-footer>div a{
+
+.Links-footer > div a {
     text-align: left;
     font-size: 0.9rem;
 }
-.Contact footer{
+
+.Contact footer {
     background-color: #2260b2;
     padding: 1.5rem;
 }
 
-.Contact footer .Div-ico{
+.Contact footer .Div-ico {
     width: 7%;
 }
 
-.Contact footer .Div-ico img{
+.Contact footer .Div-ico img {
     width: 2.7rem;
 }
-
-
 
 @media all and (max-width: 1199px) {
 
@@ -187,37 +179,48 @@ p  {
 }
 
 @media all and (max-width: 768px) {
-
-    p.accordion{
-        font-size: 1.3rem!important;
-    }
-    .Section2-contact{
-        padding-left: 4rem!important;
-        padding-right: 0rem!important;
-        padding-top: 0!important;
-    }
-    .Contact h2{
-        width: 100%!important;
-        font-size: 2.7rem!important;
+    .Section1-contact {
+        min-height: 22rem;}
+    .Section4-contact {
+        padding-top: 6rem!important;
+        height: 30rem;
     }
 
-    .Section4-contact{
+    p.accordion {
+        font-size: 1.3rem !important;
+    }
+
+    .Section2-contact {
+        padding-left: 4rem !important;
+        padding-right: 0rem !important;
+        padding-top: 0 !important;
+    }
+
+    .Contact h2 {
+        width: 100% !important;
+        font-size: 2.7rem !important;
+    }
+
+    .Section4-contact {
         padding-top: 0;
     }
-    .Contact .Experiencia-completa{
+
+    .Contact .Experiencia-completa {
         padding-bottom: 0;
     }
-    .Contact h1{
+
+    .Contact h1 {
         font-size: 2rem;
         margin-top: 1.5rem;
     }
-    .Contact h3{
+
+    .Contact h3 {
         font-size: 1.1rem;
     }
-    .Contact p{
+
+    .Contact p {
         font-size: 0.9rem;
     }
-
 
 }
 

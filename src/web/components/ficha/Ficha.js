@@ -14,7 +14,8 @@ import Arrow_top from "../comunes/Arrow_top";
 import Datepicker from "../comunes/Datepicker"
 import Modal_compra from "../comunes/Modal_compra"
 import Card_roja from "../comunes/Card_roja"
-
+import flecha_abajo from '../../images/flecha-abajo.png';
+import flecha_arriba from '../../images/flecha-arriba.png';
 import logo_globo from '../../images/Globo-header-w.png';
 import imagenes_instalaciones1 from '../../images/instalacion1.jpg';
 import globo_ico4 from '../../images/icoficha.png';
@@ -60,6 +61,24 @@ for (var i = 0; i < imagenesficha_json.imagenesficha.length; i++) {
         $('.Col-tarjeta').removeClass('P-fixed');
     }
 })*/
+document.addEventListener("DOMContentLoaded", function (event) {
+    var abierto = false;
+    $(".Click").click(function () {
+        if (!abierto) {
+            $(this).children(".Flecha-abajo").addClass("Ocultar");
+            $(this).children(".Flecha-arriba").removeClass("Ocultar");
+
+            abierto = true;
+        } else {
+
+            $(this).children(".Flecha-abajo").removeClass("Ocultar");
+            $(this).children(".Flecha-arriba").addClass("Ocultar");
+            abierto = false;
+
+        }
+    })
+
+});
 
 const Ficha = () => (
     <div className="Ficha">
@@ -181,12 +200,14 @@ const Ficha = () => (
                         </div>
 
                         {/*MOBILE*/}
-                        <div className="row mb-3  d-md-none">
+                        <div className="row mb-3 P-relative  d-md-none Click">
+                            <img src={flecha_abajo} className="d-md-none Flechas-faq Flecha-abajo Click Z-index-bajo" alt=""/>
+                            <img src={flecha_arriba} className="d-md-none Flechas-faq Ocultar Flecha-arriba Click Z-index-bajo" alt=""/>
                             <p className="accordion  ">FECHAS Y DISPONIBILIDAD</p>
                             <div className="panel ">
                                 <div className="col-12 col-md-12 col-lg-12 col-xl-6 py-4 px-0">
                                     <div className="col-12  mb-3 px-0">
-                                        <button className="Btn-gris Ficha-btn">Agosto</button>
+                                        <button className="Btn-gris Ficha-btn d-none">Agosto</button>
                                     </div>
                                     <div className="col-12 px-0">
                                         <button className="Btn-blue Ficha-btn">Comprar sin fecha</button>
@@ -206,7 +227,9 @@ const Ficha = () => (
                             <Video_ficha/>
                         </div>
 
-                        <div className="row mb-3 d-md-none">
+                        <div className="row mb-3 P-relative d-md-none">
+                            <img src={flecha_abajo} className="d-md-none Flechas-faq Flecha-abajo Click Z-index-bajo" alt=""/>
+                            <img src={flecha_arriba} className="d-md-none Flechas-faq Ocultar Flecha-arriba Click Z-index-bajo" alt=""/>
                             <p className="accordion  ">IMAGÉNES E INSTALACIONES</p>
                             <div className="panel row">
                                 {array_imagenesficha}
@@ -215,7 +238,7 @@ const Ficha = () => (
 
                         </div>
 
-                        <div className="col-12 mb-5 py-3 flex-wrap d-none d-md-flex">
+                        <div className="col-12 mb-5 py-3 flex-wrap d-none d-md-flex Click">
                             <h2 className="w-100 mb-3">LA OPINIÓN DE NUESTROS CLIENTES</h2>
                             <div className="row">
                                 <div className="col-12 d-flex Review-titulo">
@@ -273,7 +296,9 @@ const Ficha = () => (
 
                         </div>
 
-                        <div className="row mb-3 py-0 Padding-30 py-md-3">
+                        <div className="row mb-3 P-relative py-0 Padding-30 py-md-3 Padding-l-movil Click ">
+                            <img src={flecha_abajo} className="d-md-none Flechas-faq Flecha-abajo Click Z-index-bajo" alt=""/>
+                            <img src={flecha_arriba} className="d-md-none Flechas-faq Ocultar Flecha-arriba Click Z-index-bajo" alt=""/>
                             <p className="accordion  ">Cómo regalar el viaje</p>
                             <div className="panel P-generico">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquam animi aut
@@ -282,7 +307,9 @@ const Ficha = () => (
                             </div>
                         </div>
 
-                        <div className="row mb-3 py-0 Padding-30 py-md-3">
+                        <div className="row mb-3 P-relative py-0 Padding-30 py-md-3 Padding-l-movil Click">
+                            <img src={flecha_abajo} className="d-md-none Flechas-faq Flecha-abajo Click Z-index-bajo" alt=""/>
+                            <img src={flecha_arriba} className="d-md-none Flechas-faq Ocultar Flecha-arriba Click Z-index-bajo" alt=""/>
                             <p className="accordion  ">Sensaciones</p>
                             <div className="panel P-generico">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquam animi aut
@@ -290,7 +317,7 @@ const Ficha = () => (
                                 necessitatibus neque nihil nobis officiis quia repellat suscipit!
                             </div>
                         </div>
-                        <div className="row mb-3 py-0 Padding-30 py-md-3">
+                        <div className="row mb-3 P-relative py-0 Padding-30 py-md-3">
                             <a href="/faq" className="w-100"><p className="accordion  ">preguntas frequentes</p></a>
 
                         </div>

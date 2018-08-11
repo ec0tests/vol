@@ -119,7 +119,7 @@ const Contact = () => (
         </footer>
 
         <div className="Footer_estilohome d-block d-md-none">
-            <div className="container">
+            <div className="container mw-100">
 
                 <Footer_estilohome/>
             </div>
