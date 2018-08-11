@@ -7,7 +7,14 @@
 
 }
 
-
+.Flechas-faq{
+    position: absolute;
+    right: -10px;
+    top: 7px;
+}
+.Ocultar{
+    display: none;
+}
 p.accordion {
 
     color: #333333;

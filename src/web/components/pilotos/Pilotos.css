@@ -174,9 +174,9 @@ p  {
         height: 24rem;
     }
     .Pilotos .Seccion-final {
-        height: 38rem;
-        margin-top: 6rem!important;
-        padding-top: 6rem;
+        height: 36rem;
+       margin-top: 0rem!important;
+        padding-top: 4rem;
     }
 }
 @media (max-width: 991.98px) {

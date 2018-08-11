@@ -192,6 +192,20 @@ p  {
     .Section3-blogp{
         padding-top: 0;
     }
+    .Section2-blogp {
+        position: relative;
+        padding-top: 0rem;
+        padding-bottom: 6rem;
+    }
+    .Section1-blogp {
+        background-size: cover!important;
+        background: url(/static/media/blogp-bkg1.44aff90d.jpg);
+        background-position-x: center;
+        background-repeat: no-repeat;
+        padding-top: 0rem;
+        background-position-y: center;
+        min-height: 17rem;
+    }
 
 }
 

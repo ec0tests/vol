@@ -414,7 +414,8 @@ footer .Row1 {
      }
     .Section1{
         padding-top: 10rem;
-        height: 78.5rem;
+        height: auto;
+        padding-bottom: 3.6rem!important;
     }
     .Section2 {
         position: relative;
@@ -426,6 +427,7 @@ footer .Row1 {
         text-align: left;
         font-size: 1rem;
         font-weight: 300;
+
     }
     .Padding-ico-5{
         padding-top: 18px;
@@ -445,7 +447,7 @@ footer .Row1 {
         color: white;
         margin-top: 3rem;
         line-height: 1!important;
-        font-size: 6.8rem;
+        font-size: 111px;
     }
     .Home-h2 span{
         font-weight: 700!important;
@@ -520,7 +522,7 @@ footer .Row1 {
 
     }
     .Home-h2 {
-        font-size: 2.4rem!important;
+        font-size: 40px!important;
         color: white;
         text-transform: none;
         line-height: 1.2;

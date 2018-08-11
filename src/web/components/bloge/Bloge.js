@@ -259,7 +259,7 @@ const Bloge = () => (
 
             <div className="container-fluid">
                 <div className="row">
-                    <div className="col-md-12 mb-5">
+                    <div className="col-md-12 mb-5 d-none d-md-block">
                         <img src={dibujo_globo} className="img-fluid" alt=""/>
 
                     </div>

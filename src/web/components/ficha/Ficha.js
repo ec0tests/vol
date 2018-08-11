@@ -69,7 +69,7 @@ const Ficha = () => (
 
             <div className="container-fluid d-flex justify-content-center">
                 <div className="row w-100 text-left p-0 p-md-3  pl-0 pl-md-5">
-                    <div className="col-12 col-md-6 ">
+                    <div className="col-12 col-md-6 my-5 my-md-0">
                         <h1 className="text-uppercase  ">vuelo en globo + <br/> cabaña en los arboles</h1>
 
                     </div>

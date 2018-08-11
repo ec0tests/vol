@@ -4,6 +4,7 @@ import {Link} from 'react-router-dom'
 import logo from '../../images/Globo-header-w.png'
 import menos from '../../images/menos.png'
 import mas from '../../images/mas.png'
+import filtro from '../../images/filtro.png'
 import Menu2 from './Menu2'
 import $ from 'jquery';
 import Datepicker from "./Datepicker";
@@ -176,9 +177,9 @@ class Buscador_filtro_movil extends React.Component {
                             <div className="Div-btnfiltro">
                                 {/*Boton movil*/}
                                 <button id="btn_filtro" onClick={show_filtro}
-                                        className="Filtro-movil  Open-filtro d-md-none ">FILTROS
+                                        className="Filtro-movil  Open-filtro d-md-none Filtros-color">FILTROS
                                 </button>
-                                <i onClick={show_filtro} class="fas fa-bars Filtro-icomo"></i>
+                                <img onClick={show_filtro}  src={filtro} className="Filtro-icomo" alt=""/>
                             </div>
                         </div>
                     </div>

@@ -32,7 +32,9 @@ text-transform: uppercase;
     text-transform: uppercase;
 
 }
-
+.Filtros-color{
+    color:#676767;
+}
 .Filtro h4{
     color: #333333;
     font-weight: bold;
@@ -215,7 +217,7 @@ p  {
           font-family: 'Barlow Condensed', sans-serif;
           font-weight: bold;
           font-size: 2.5rem;
-          padding-top: 1rem;
+          padding-top: 1rem!important;
           text-transform: uppercase;
       }
     .Section1-filtro{
@@ -281,7 +283,7 @@ p  {
         font-family: 'Barlow Condensed', sans-serif;
         font-weight: bold;
         font-size: 2.5rem;
-        padding-top: 1rem;
+        padding-top: 1rem!important;
         text-transform: uppercase;
     }
 }

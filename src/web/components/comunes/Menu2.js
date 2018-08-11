@@ -1,10 +1,13 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom'
-import ico_f from '../../images/face-ico-fondog.png';
-import ico_t from '../../images/twitter-ico-fondog.png';
-import ico_i from '../../images/insta-ico-fondog.png';
-import ico_y from '../../images/yt-ico-fondog.png';
-import ico_tr from '../../images/trip-ico-fondog.png';
+
+
+
+import ico_f from '../../images/facebook-3.png';
+import ico_t from '../../images/twitter-3.png';
+import ico_i from '../../images/instagram-3.png';
+import ico_y from '../../images/youtube-3.png';
+import ico_tr from '../../images/tripadvisor-3.png';
 import logo_gris from '../../images/logo-gris.png';
 
 import ico_fw from '../../images/Icon-RRSS-fb-b-55.png';
@@ -84,7 +87,7 @@ $(document).on("click", function (e) {
 
 /*CHANGE IMAGES MENU ONHOVER*/
 $(function(){
-    $("#menu_face").on({
+    /*$("#menu_face").on({
         mouseenter: function(){
             $(this).attr('src',ico_fw);
         },
@@ -127,7 +130,7 @@ $(function(){
         mouseleave: function(){
             $(this).attr('src',ico_t);
         }
-    });
+    });*/
 
 });
 
@@ -136,8 +139,8 @@ $(function(){
 * así lo coge directamente*/
 const Menu2 = ({logo}) => (
     <div className="d-flex align-items-center">
-        <button className="ml-2 ml-md-4 mr-3 mr-lg-0 menu-icon Open-menu" id="desplegable_boton1" onClick={show_menu}><i
-            className="fa fa-bars text-white"></i></button>
+        <button className="ml-2 ml-md-4 mr-3 mr-lg-0 menu-icon Open-menu Btn-pad" id="desplegable_boton1" onClick={show_menu}><i
+            className="fa fa-bars text-white F-icosi"></i></button>
         <span className="Cursor-pointer Open-menu d-none d-md-inline" onClick={show_menu}>MENÚ</span>
 
         <div className="slideout-sidebar Div-menu2">
@@ -220,7 +223,7 @@ const Menu2 = ({logo}) => (
                     </div>
                 </li>
                 <li className="pl-0 pb-0">
-                    <img className="Fondo-logo-menu" src={logo_gris} alt=""/>
+                    <img className="d-none d-md-block Fondo-logo-menu" src={logo_gris} alt=""/>
                 </li>
             </ul>
 

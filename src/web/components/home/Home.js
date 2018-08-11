@@ -145,8 +145,15 @@ function openLegal() {
 function openCookies() {
     modal_cookies.open();
 }
-
 class Home extends React.Component {
+    imagen=require('../../images/bkg-1.jpg');
+
+        componentWillMount(){
+
+            if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+                this.imagen = require('../../images/bkg-1-movil.png');
+            }
+            }
     render() {
         return (
 
@@ -160,7 +167,7 @@ class Home extends React.Component {
                 <Header logo={logo_b} />
                 <Parallax
                     blur={0}
-                    bgImage={require('../../images/bkg-1.jpg')}
+                    bgImage={this.imagen}
                     bgImageAlt="the cat"
                     strength={200}
                 >

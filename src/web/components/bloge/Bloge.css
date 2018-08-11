@@ -258,7 +258,11 @@
     width: 55px!important;
 }
 @media all and (max-width: 768px) {
-
+    .Section3-bloge {
+        position: relative;
+        padding-top: 0rem;
+        padding-bottom: 8rem;
+    }
     .Bloge .Experiencia-completa{
         padding-bottom: 0;
     }
@@ -280,8 +284,13 @@
     .Bloge h2{
         font-size: 2.5rem!important;
     }
+
     .Bloge h3{
         font-size: 1.5rem!important;
+    }
+    .Bloge .mt-2 h3{
+        font-size: 1.3rem!important;
+
     }
     .w-25{
         width: 100%!important;
