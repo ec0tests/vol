@@ -2,33 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="689f3cfd-3ccb-444b-a116-11e30d561ec9" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/web/images/bkg-1-movil.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/web/images/facebook-3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/web/images/filtro.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/web/images/flecha-abajo.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/web/images/flecha-arriba.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/web/images/googleplus-3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/web/images/instagram-3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/web/images/tripadvisor-3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/web/images/twitter-3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/web/images/youtube-3.png" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/web/components/bloge/Bloge.css" afterPath="$PROJECT_DIR$/src/web/components/bloge/Bloge.css" />
-      <change beforePath="$PROJECT_DIR$/src/web/components/bloge/Bloge.js" afterPath="$PROJECT_DIR$/src/web/components/bloge/Bloge.js" />
-      <change beforePath="$PROJECT_DIR$/src/web/components/blogp/Blogp.css" afterPath="$PROJECT_DIR$/src/web/components/blogp/Blogp.css" />
-      <change beforePath="$PROJECT_DIR$/src/web/components/blogp/Entrada_blog.js" afterPath="$PROJECT_DIR$/src/web/components/blogp/Entrada_blog.js" />
-      <change beforePath="$PROJECT_DIR$/src/web/components/comunes/Buscador_filtro_movil.css" afterPath="$PROJECT_DIR$/src/web/components/comunes/Buscador_filtro_movil.css" />
-      <change beforePath="$PROJECT_DIR$/src/web/components/comunes/Buscador_filtro_movil.js" afterPath="$PROJECT_DIR$/src/web/components/comunes/Buscador_filtro_movil.js" />
-      <change beforePath="$PROJECT_DIR$/src/web/components/comunes/Experiencia_completa.js" afterPath="$PROJECT_DIR$/src/web/components/comunes/Experiencia_completa.js" />
       <change beforePath="$PROJECT_DIR$/src/web/components/comunes/Header.css" afterPath="$PROJECT_DIR$/src/web/components/comunes/Header.css" />
-      <change beforePath="$PROJECT_DIR$/src/web/components/comunes/Menu2.js" afterPath="$PROJECT_DIR$/src/web/components/comunes/Menu2.js" />
       <change beforePath="$PROJECT_DIR$/src/web/components/faq/Pregunta_faq.css" afterPath="$PROJECT_DIR$/src/web/components/faq/Pregunta_faq.css" />
-      <change beforePath="$PROJECT_DIR$/src/web/components/faq/Pregunta_faq.js" afterPath="$PROJECT_DIR$/src/web/components/faq/Pregunta_faq.js" />
-      <change beforePath="$PROJECT_DIR$/src/web/components/ficha/Ficha.js" afterPath="$PROJECT_DIR$/src/web/components/ficha/Ficha.js" />
-      <change beforePath="$PROJECT_DIR$/src/web/components/filtro/Filtro.css" afterPath="$PROJECT_DIR$/src/web/components/filtro/Filtro.css" />
-      <change beforePath="$PROJECT_DIR$/src/web/components/home/Home.css" afterPath="$PROJECT_DIR$/src/web/components/home/Home.css" />
-      <change beforePath="$PROJECT_DIR$/src/web/components/home/Home.js" afterPath="$PROJECT_DIR$/src/web/components/home/Home.js" />
-      <change beforePath="$PROJECT_DIR$/src/web/components/pilotos/Pilotos.css" afterPath="$PROJECT_DIR$/src/web/components/pilotos/Pilotos.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -39,26 +14,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Filtro.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/web/components/filtro/Filtro.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1015">
-              <caret line="35" column="18" lean-forward="false" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Filtro.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/web/components/filtro/Filtro.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3335">
-              <caret line="138" column="26" lean-forward="false" selection-start-line="138" selection-start-column="26" selection-end-line="138" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Buscador_filtro_movil.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/web/components/comunes/Buscador_filtro_movil.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -95,6 +50,36 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Header.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/web/components/comunes/Header.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="77" column="0" lean-forward="true" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Header.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/web/components/comunes/Header.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="681">
+              <caret line="406" column="27" lean-forward="false" selection-start-line="406" selection-start-column="27" selection-end-line="406" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Faq.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/web/components/faq/Faq.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="230" column="10" lean-forward="false" selection-start-line="230" selection-start-column="10" selection-end-line="230" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Menu2.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/web/components/comunes/Menu2.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -117,7 +102,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Home.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Home.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/web/components/home/Home.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="203">
@@ -129,21 +114,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Pregunta_faq.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Pregunta_faq.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/web/components/faq/Pregunta_faq.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="754">
-              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Buscador_filtro_movil.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/web/components/comunes/Buscador_filtro_movil.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2494">
-              <caret line="86" column="1" lean-forward="false" selection-start-line="86" selection-start-column="1" selection-end-line="86" selection-end-column="14" />
+            <state relative-caret-position="712">
+              <caret line="73" column="23" lean-forward="false" selection-start-line="73" selection-start-column="23" selection-end-line="73" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -161,11 +136,8 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>/fu</find>
-      <find>.Experiencia-completa</find>
       <find>slideout-sidebar</find>
       <find>col-2 ml-3</find>
-      <find>.slideout-sidebar ul</find>
       <find>desplegable_boton2</find>
       <find>col-12 Div-filtro pt-5</find>
       <find>container Container-card h-25 H-38 Margen-negativo d-md-none</find>
@@ -191,6 +163,9 @@
       <find>Filtros-co</find>
       <find>Fondo-logo-menu</find>
       <find>par</find>
+      <find>Parallax</find>
+      <find>.slideout-sidebar ul</find>
+      <find>Pre</find>
     </findStrings>
     <replaceStrings>
       <replace>VOL DE COLOMS</replace>
@@ -244,7 +219,6 @@
         <option value="$PROJECT_DIR$/src/web/components/comunes/Header.js" />
         <option value="$PROJECT_DIR$/src/web/components/pilotos/Pilotos.css" />
         <option value="$PROJECT_DIR$/src/web/components/home/Home.css" />
-        <option value="$PROJECT_DIR$/src/web/components/comunes/Header.css" />
         <option value="$PROJECT_DIR$/src/web/components/blogp/Entrada_blog.js" />
         <option value="$PROJECT_DIR$/src/web/components/blogp/Blogp.css" />
         <option value="$PROJECT_DIR$/src/web/components/bloge/Bloge.js" />
@@ -253,11 +227,12 @@
         <option value="$PROJECT_DIR$/src/web/components/filtro/Filtro.css" />
         <option value="$PROJECT_DIR$/src/web/components/comunes/Buscador_filtro_movil.css" />
         <option value="$PROJECT_DIR$/src/web/components/comunes/Buscador_filtro_movil.js" />
-        <option value="$PROJECT_DIR$/src/web/components/faq/Pregunta_faq.css" />
         <option value="$PROJECT_DIR$/src/web/components/faq/Pregunta_faq.js" />
         <option value="$PROJECT_DIR$/src/web/components/comunes/Menu2.js" />
         <option value="$PROJECT_DIR$/src/web/components/ficha/Ficha.js" />
         <option value="$PROJECT_DIR$/src/web/components/home/Home.js" />
+        <option value="$PROJECT_DIR$/src/web/components/comunes/Header.css" />
+        <option value="$PROJECT_DIR$/src/web/components/faq/Pregunta_faq.css" />
       </list>
     </option>
   </component>
@@ -657,17 +632,18 @@
       <workItem from="1533678850656" duration="2305000" />
       <workItem from="1533762762721" duration="7781000" />
       <workItem from="1533849125466" duration="6205000" />
-      <workItem from="1533947147826" duration="3028000" />
+      <workItem from="1533947147826" duration="4256000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="615287000" />
+    <option name="totallyTimeSpent" value="616515000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995495" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -814,14 +790,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/components/faq/Faq.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6786">
-          <caret line="234" column="0" lean-forward="false" selection-start-line="234" selection-start-column="0" selection-end-line="234" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/web/components/instalaciones/Instalaciones.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="402">
@@ -938,22 +906,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/components/comunes/Header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="77" column="0" lean-forward="true" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/components/comunes/Header.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="511" column="5" lean-forward="false" selection-start-line="511" selection-start-column="5" selection-end-line="511" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/web/components/blogp/Blogp.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="274">
@@ -1043,34 +995,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/components/faq/Faq.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/components/faq/Pregunta_faq.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="754">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/components/faq/Pregunta_faq.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/web/components/comunes/Menu2.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -1096,6 +1020,58 @@
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/components/faq/Faq.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/components/faq/Pregunta_faq.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/components/comunes/Header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="77" column="0" lean-forward="true" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/components/comunes/Header.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="681">
+          <caret line="406" column="27" lean-forward="false" selection-start-line="406" selection-start-column="27" selection-end-line="406" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/components/faq/Faq.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="230" column="10" lean-forward="false" selection-start-line="230" selection-start-column="10" selection-end-line="230" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/components/faq/Pregunta_faq.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="712">
+          <caret line="73" column="23" lean-forward="false" selection-start-line="73" selection-start-column="23" selection-end-line="73" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>

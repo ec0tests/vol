@@ -399,13 +399,12 @@ div.panel.show {
 
     .slideout-sidebar ul {
         text-align: center;
-        max-width: 200px;
         margin: 30px auto 0;
         margin-left: 35px!important;
     }
     .slideout-sidebar .Div-ico img{
-        width: 2.2rem!important;
-
+        width: 2.9rem!important;
+        margin-right: 10px;
     }
 
     .menu-icon {
