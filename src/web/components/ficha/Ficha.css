@@ -262,8 +262,26 @@ iframe{
     width: 100%;
     height: 30rem;
 }
+.Ficha p.accordion:after {
+    content: '+';
+    font-size: 3rem;
+    color: #333333;
+    float: left;
+    margin-left: 5px;
+    position: absolute;
+    left: -3rem;
+    top: -5px;
+}
 
-.Ficha p.accordion.active:before {
+/* Unicode character for "minus" sign (-) */
+.Ficha p.accordion.active:after {
+    content: "-";
+    margin-bottom: 0;
+    top: -5px;
+
+}
+
+/*.Ficha p.accordion.active:before {
     content: url('../../images/flecha-arriba.png') !important;
     text-align: right;
     margin-bottom: 0px;
@@ -274,7 +292,7 @@ iframe{
     text-align: right;
     margin-bottom: 0px;
     top: -11px;
-}
+}*/
 /*FOOTER*/
 .Section4-ficha{
     background:  url('../../images/bkg-experiencia-1920.jpg');
@@ -450,7 +468,7 @@ iframe{
         content: url('../../images/flecha-arriba.png') !important;
         text-align: right;
         margin-bottom: 0px;
-        top: -10px!important;
+        top: -25px!important;
     }
     .Ficha .panel{
         padding: 0 20px;
@@ -459,7 +477,7 @@ iframe{
         content: url('../../images/flecha-abajo.png') !important;
         text-align: right;
         margin-bottom: 0px;
-        top: -10px!important;
+        top: -25px!important;
     }
     .Col-fixed{
         background-color: white;
