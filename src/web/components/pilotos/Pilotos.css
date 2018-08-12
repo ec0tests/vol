@@ -120,6 +120,59 @@ p  {
 
 
 
+
+@media (max-width: 1100.98px) {
+    .Pilotos #carouselExampleIndicators{
+        height: 35rem!important;
+    }
+    .Pilotos .Seccion-final {
+        background-size: cover!important;
+        background: url(/static/media/pilotos-bkg4.1d1f1449.jpg);
+        background-repeat: no-repeat;
+        height: 63rem;
+        margin-top: 26rem;
+        position: relative;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+}
+@media (max-width: 991.98px) {
+    .Seccion-final{
+        justify-content: center;
+        margin-top: 0rem!important;
+    }
+    .Pilotos #carouselExampleIndicators {
+        height: 23rem!important;
+    }
+}
+
+@media (max-width: 768px) {
+    .Pilotos h4 {
+        font-size: 3rem!important;
+    }
+    .Section2-pilotos {
+        background: none;
+    }
+    .Section1-pilotos {
+        background-size: cover!important;
+        background: url(/static/media/pilotos-bkg1.de6b0e65.jpg);
+        background-repeat: no-repeat;
+        padding-top: 1rem;
+        background-position: top;
+        height: 24rem;
+    }
+    .Pilotos .Seccion-final {
+        height: 36rem;
+        margin-top: 0rem!important;
+        padding-top: 4rem;
+    }
+}
+
+
 @media (max-width: 575.98px) {
     .Seccion-final{
         justify-content: center;
@@ -158,32 +211,4 @@ p  {
 
 
 }
-@media (max-width: 768px) {
-    .Pilotos h4 {
-        font-size: 3rem!important;
-    }
-    .Section2-pilotos {
-        background: none;
-    }
-    .Section1-pilotos {
-        background-size: cover!important;
-        background: url(/static/media/pilotos-bkg1.de6b0e65.jpg);
-        background-repeat: no-repeat;
-        padding-top: 1rem;
-        background-position: top;
-        height: 24rem;
-    }
-    .Pilotos .Seccion-final {
-        height: 36rem;
-       margin-top: 0rem!important;
-        padding-top: 4rem;
-    }
-}
-@media (max-width: 991.98px) {
-    .Seccion-final{
-        justify-content: center;
-        margin-top: 0rem!important;
-    }
-}
 
-@media (max-width: 1199.98px) {  }

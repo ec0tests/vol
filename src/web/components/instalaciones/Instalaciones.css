@@ -118,8 +118,21 @@ min-height: 551px;
 
 }
 
-@media all and (max-width: 991px) {
-
+@media all and (max-width: 1100px) {
+    .Section4-instalaciones {
+        background-size: cover!important;
+        background: url(/static/media/instalaciones-bkg4.1ca54049.jpg);
+        background-repeat: no-repeat;
+        height: 45rem;
+        margin-top: 4rem;
+        position: relative;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
 }
 
 @media all and (max-width: 768px) {

@@ -139,7 +139,9 @@ h4 {
 .Red-text {
     color: #D24228 !important;
 }
-
+p.accordion{
+    line-height: 1!important;
+}
 .Btn-red {
     background-color: #D24228;
     color: white;
