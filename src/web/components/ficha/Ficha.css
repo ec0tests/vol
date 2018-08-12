@@ -450,7 +450,7 @@ iframe{
         content: url('../../images/flecha-arriba.png') !important;
         text-align: right;
         margin-bottom: 0px;
-        top: -25px;
+        top: -10px;
     }
     .Ficha .panel{
         padding: 0 20px;
@@ -459,7 +459,7 @@ iframe{
         content: url('../../images/flecha-abajo.png') !important;
         text-align: right;
         margin-bottom: 0px;
-        top: -25px;
+        top: -10px;
     }
     .Col-fixed{
         background-color: white;
