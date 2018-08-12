@@ -146,7 +146,7 @@ class Filtro extends React.Component{
                         <div className="container Container-card h-25 H-38 Margen-negativo d-md-none px-0 ">
                             <Carousel_cards/>
                         </div>
-                        <div className="row pt-2">
+                        <div className="row pt-2 Mt-nmovil">
                             {array_cards_experiencias}
 
                         </div>

@@ -177,24 +177,24 @@ class Home extends React.Component {
                         <div className="row text-left ">
                             <div className="col-12 ">
 
-                                <h1 className=" d-none d-md-block  Home-h1 mb-0">VUELA EN GLOBO <br/>
+                                <h1 className=" d-none d-md-block  Home-h1 mb-0 Text-center-tablet">VUELA EN GLOBO <br/>
                                 </h1>
-                                <h1 className="d-md-none  Home-h1 mb-0">VUELA <br/> EN GLOBO <br/>
+                                <h1 className="d-md-none  Home-h1 mb-0 Text-center-tablet">VUELA <br/> EN GLOBO <br/>
                                 </h1>
-                                <h2 className="Home-h2 d-md-none">En el parque natural de <br/> La Garrotxa</h2>
-                                <h2 className="Home-h2 d-none d-md-block">en el parque natural de La Garrotxa</h2>
+                                <h2 className="Home-h2 d-md-none Text-center-tablet">En el parque natural de <br/> La Garrotxa</h2>
+                                <h2 className="Home-h2 d-none d-md-block Text-center-tablet">en el parque natural de La Garrotxa</h2>
                             </div>
                         </div>
                         <div className="row my-4">
-                            <div className="col-12  ">
+                            <div className="col-12  Text-center-tablet">
                                 <Link to="/filtro">
                                     <button className="text-uppercase Btn-red-h mt-2" data-toggle="modal" data-target="#modal_cupon">Reservar</button>
                                 </Link>
                             </div>
-                            <div className="col-12  ">
+                            <div className="col-12  Text-center-tablet">
                                 <button className="text-uppercase Btn-darkblue-h mt-2 " data-toggle="modal" data-target="#modal_cupon">Canjear cupón</button>
                             </div>
-                            <div className="col-12 ">
+                            <div className="col-12 Text-center-tablet">
                                 <Link to="/filtro">
                                 <button className="text-uppercase Btn-darkblue-h mt-2">regalar vuelo</button>
                                 </Link>

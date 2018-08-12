@@ -6,14 +6,16 @@ import menos from '../../images/menos.png'
 import mas from '../../images/mas.png'
 import filtro from '../../images/filtro.png'
 import Menu2 from './Menu2'
+import flecha_abajo from '../../images/flecha-abajo.png';
+import flecha_arriba from '../../images/flecha-arriba.png';
 import $ from 'jquery';
 import Datepicker from "./Datepicker";
 
 
-
-function retablecer_chk(){
+function retablecer_chk() {
     $('input:checkbox').prop('checked', false);
 }
+
 /*Controlo si el movil está abierto o cerrado*/
 var filtro_movil_abierto = false;
 
@@ -37,20 +39,106 @@ function hide_filtro() {
 /*Hace que al clicar en cualquier sitio que no tenga la clase movil icon se ejecute el hide movil*/
 
 $(document).ready(function () {
-    if($(window).width() <= 600) {
-        $('#logo').attr('src',logo);
+    if ($(window).width() <= 600) {
+        $('#logo').attr('src', logo);
 
-    };
+    }
+    ;
 })
 
-document.addEventListener("DOMContentLoaded", function(event) {
+document.addEventListener("DOMContentLoaded", function (event) {
+
+    var abierto1 = false;
+    $(".Click1").click(function () {
+        if (!abierto1) {
+            $('.Flecha-abajo').not(this).removeClass("Ocultar");
+            $('.Flecha-arriba').not(this).addClass("Ocultar");
+            $(this).children(".Flecha-abajo").addClass("Ocultar");
+            $(this).children(".Flecha-arriba").removeClass("Ocultar");
+
+            abierto1 = true;
+        } else {
+            $('.Flecha-abajo').not(this).removeClass("Ocultar");
+            $('.Flecha-arriba').not(this).addClass("Ocultar");
+            $(this).children(".Flecha-arriba").addClass("Ocultar");
+            $(this).children(".Flecha-abajo").removeClass("Ocultar");
+
+
+            abierto1 = false;
+
+        }
+    })
+
+    var abierto2 = false;
+    $(".Click2").click(function () {
+        if (!abierto2) {
+            $('.Flecha-abajo').not(this).removeClass("Ocultar");
+            $('.Flecha-arriba').not(this).addClass("Ocultar");
+            $(this).children(".Flecha-abajo").addClass("Ocultar");
+            $(this).children(".Flecha-arriba").removeClass("Ocultar");
+
+            abierto2 = true;
+        } else {
+            $('.Flecha-abajo').not(this).removeClass("Ocultar");
+            $('.Flecha-arriba').not(this).addClass("Ocultar");
+            $(this).children(".Flecha-arriba").addClass("Ocultar");
+            $(this).children(".Flecha-abajo").removeClass("Ocultar");
+
+
+            abierto2 = false;
+
+        }
+    })
+
+    var abierto3 = false;
+    $(".Click3").click(function () {
+        if (!abierto3) {
+            $('.Flecha-abajo').not(this).removeClass("Ocultar");
+            $('.Flecha-arriba').not(this).addClass("Ocultar");
+            $(this).children(".Flecha-abajo").addClass("Ocultar");
+            $(this).children(".Flecha-arriba").removeClass("Ocultar");
+
+            abierto3 = true;
+        } else {
+            $('.Flecha-abajo').not(this).removeClass("Ocultar");
+            $('.Flecha-arriba').not(this).addClass("Ocultar");
+            $(this).children(".Flecha-arriba").addClass("Ocultar");
+            $(this).children(".Flecha-abajo").removeClass("Ocultar");
+
+
+            abierto3 = false;
+
+        }
+    })
+
+    var abierto4 = false;
+    $(".Click4").click(function () {
+        if (!abierto4) {
+            $('.Flecha-abajo').not(this).removeClass("Ocultar");
+            $('.Flecha-arriba').not(this).addClass("Ocultar");
+            $(this).children(".Flecha-abajo").addClass("Ocultar");
+            $(this).children(".Flecha-arriba").removeClass("Ocultar");
+
+            abierto4 = true;
+        } else {
+            $('.Flecha-abajo').not(this).removeClass("Ocultar");
+            $('.Flecha-arriba').not(this).addClass("Ocultar");
+            $(this).children(".Flecha-arriba").addClass("Ocultar");
+            $(this).children(".Flecha-abajo").removeClass("Ocultar");
+
+
+            abierto4 = false;
+
+        }
+    })
+
 
 
     var acc = document.getElementsByClassName("accordion");
     var panel = document.getElementsByClassName('panel');
 
     for (var i = 0; i < acc.length; i++) {
-        acc[i].onclick = function() {
+        acc[i].onclick = function () {
             var setClasses = !this.classList.contains('active');
             setClass(acc, 'active', 'remove');
             setClass(panel, 'show', 'remove')
@@ -67,7 +155,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
             els[i].classList[fnName](className);
         }
     }
-
 
 
 });
@@ -91,16 +178,19 @@ class Buscador_filtro_movil extends React.Component {
             p_historico: false
         }
     }
+
     toggle_ch_romantico(event) {
         this.setState({
             p_romantico: !this.state.p_romantico
         });
     }
+
     toggle_ch_aventura(event) {
         this.setState({
             p_aventura: !this.state.p_aventura
         });
     }
+
     toggle_ch_historia(event) {
         this.setState({
             p_historico: !this.state.p_historico
@@ -179,7 +269,7 @@ class Buscador_filtro_movil extends React.Component {
                                 <button id="btn_filtro" onClick={show_filtro}
                                         className="Filtro-movil  Open-filtro d-md-none Filtros-color">FILTROS
                                 </button>
-                                <img onClick={show_filtro}  src={filtro} className="Filtro-icomo" alt=""/>
+                                <img onClick={show_filtro} src={filtro} className="Filtro-icomo" alt=""/>
                             </div>
                         </div>
                     </div>
@@ -193,15 +283,23 @@ class Buscador_filtro_movil extends React.Component {
                     <div className="row pl-3 mb-4 mt-3">
                         <span className="F-peq1">Filtra los resultados</span>
                     </div>
-                    <nav className="row mb-1 text-left">
-                        <div className="col-md-3 ">
+                    <nav className="row mb-1 text-left w-100">
+                        <div className="col-md-3 Click1 ">
+                            {/*<img src={flecha_abajo} className="d-md-none Flechas-faq Flecha-abajo Click1 Z-index-bajo"
+                                 alt=""/>
+                            <img src={flecha_arriba}
+                                 className="d-md-none Flechas-faq Ocultar Flecha-arriba Click1 Z-index-bajo" alt=""/>*/}
                             <p className="accordion  ">Fecha</p>
                             <div className="panel ">
                                 <Datepicker tipo={'inline'}/>
 
                             </div>
                         </div>
-                        <div className="col-md-3 ">
+                        <div className="col-md-3 Click2 ">
+                           {/* <img src={flecha_abajo} className="d-md-none Flechas-faq Flecha-abajo Click2 Z-index-bajo"
+                                 alt=""/>
+                            <img src={flecha_arriba}
+                                 className="d-md-none Flechas-faq Ocultar Flecha-arriba Click2 Z-index-bajo" alt=""/>*/}
                             <p className="accordion  ">Personas</p>
                             <div className="panel ">
                                 <div className="d-flex flex-column p-4 justify-content-start pt-4">
@@ -246,7 +344,11 @@ class Buscador_filtro_movil extends React.Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-3 ">
+                        <div className="col-md-3 Click3 ">
+                          {/*  <img src={flecha_abajo} className="d-md-none Flechas-faq Flecha-abajo Click3 Z-index-bajo"
+                                 alt=""/>
+                            <img src={flecha_arriba}
+                                 className="d-md-none Flechas-faq Ocultar Flecha-arriba Click3 Z-index-bajo" alt=""/>*/}
                             <p className="accordion  ">Tipo de viaje</p>
                             <div className="panel ">
                                 <div className="d-flex flex-column px-4 justify-content-start pt-1">
@@ -300,52 +402,65 @@ class Buscador_filtro_movil extends React.Component {
                                     </div>
 
                                     <div className="col-12 pt-4 w-100 pl-0 pr-0">
-                                        <button onClick={retablecer_chk} className="Btn-restablecer pl-0">Restablecer</button>
-                                        <button  onClick={this.aplicar.bind(this)} id="aplicar_tipovuelo" className="Btn-aplicar">Aplicar</button>
+                                        <button onClick={retablecer_chk} className="Btn-restablecer pl-0">Restablecer
+                                        </button>
+                                        <button onClick={this.aplicar.bind(this)} id="aplicar_tipovuelo"
+                                                className="Btn-aplicar">Aplicar
+                                        </button>
                                     </div>
 
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-3 ">
+                        <div className="col-md-3 Click4 ">
+                            {/*<img src={flecha_abajo} className="d-md-none Flechas-faq Flecha-abajo Click4 Z-index-bajo"
+                                 alt=""/>
+                            <img src={flecha_arriba}
+                                 className="d-md-none Flechas-faq Ocultar Flecha-arriba Click4 Z-index-bajo" alt=""/>*/}
                             <p className="accordion  ">Packs de vuelo</p>
                             <div className="panel ">
                                 <div className="d-flex flex-column px-4 justify-content-start pt-1">
                                     <div className="col-12 d-flex pl-0 pr-0 pt-3">
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" onClick={this.toggle_ch_romantico.bind(this)} id="ch_romantico"
-                                                   value="1" checked={this.state.p_romantico} />
+                                            <input class="form-check-input" type="checkbox"
+                                                   onClick={this.toggle_ch_romantico.bind(this)} id="ch_romantico"
+                                                   value="1" checked={this.state.p_romantico}/>
                                             <label class="form-check-label pl-4">Pack Romántico</label>
                                         </div>
                                     </div>
 
                                     <div className="col-12 d-flex pl-0 pr-0 pt-2">
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" onClick={this.toggle_ch_historia.bind(this)} id="ch_historia"
-                                                   value="1" checked={this.state.p_historico} />
+                                            <input class="form-check-input" type="checkbox"
+                                                   onClick={this.toggle_ch_historia.bind(this)} id="ch_historia"
+                                                   value="1" checked={this.state.p_historico}/>
                                             <label class="form-check-label pl-4">Pack Historico</label>
                                         </div>
                                     </div>
 
                                     <div className="col-12 d-flex pl-0 pr-0 pt-2">
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" onClick={this.toggle_ch_aventura.bind(this)} type="checkbox" id="ch_aventura"
-                                                   value="1" checked={this.state.p_aventura} />
+                                            <input class="form-check-input" onClick={this.toggle_ch_aventura.bind(this)}
+                                                   type="checkbox" id="ch_aventura"
+                                                   value="1" checked={this.state.p_aventura}/>
                                             <label class="form-check-label pl-4">Pack Aventura</label>
                                         </div>
                                     </div>
 
 
                                     <div className="col-12 pt-4 w-100 pl-0 pr-0">
-                                        <button onClick={retablecer_chk} className="Btn-restablecer pl-0">Restablecer</button>
-                                        <button onClick={this.aplicar.bind(this)} id="aplicar_pack" className="Btn-aplicar">Aplicar</button>
+                                        <button onClick={retablecer_chk} className="Btn-restablecer pl-0">Restablecer
+                                        </button>
+                                        <button onClick={this.aplicar.bind(this)} id="aplicar_pack"
+                                                className="Btn-aplicar">Aplicar
+                                        </button>
                                     </div>
 
                                 </div>
                             </div>
                         </div>
                     </nav>
-                  {/*  <div className="row pt-3">
+                    {/*  <div className="row pt-3">
                         <div className="col-12 text-center">
                             <a href="/filtro">
                                 <button className="Btn-skinnyblue">ver ofertas</button>
@@ -364,5 +479,6 @@ class Buscador_filtro_movil extends React.Component {
     }
 
 }
+
 export default Buscador_filtro_movil;
 

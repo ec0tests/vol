@@ -84,7 +84,9 @@ height: 27rem;
     right: 7px;
     top: 11px;
  }
-
+.Ficha .accordion{
+    width: 100%;
+}
 /*SECCON 1*/
 .Section1-ficha{
     background-size: cover!important;
@@ -261,6 +263,18 @@ iframe{
     height: 30rem;
 }
 
+.Ficha p.accordion.active:before {
+    content: url('../../images/flecha-arriba.png') !important;
+    text-align: right;
+    margin-bottom: 0px;
+    top: -11px;
+}
+.Ficha p.accordion:before {
+    content: url('../../images/flecha-abajo.png') !important;
+    text-align: right;
+    margin-bottom: 0px;
+    top: -11px;
+}
 /*FOOTER*/
 .Section4-ficha{
     background:  url('../../images/bkg-experiencia-1920.jpg');
@@ -430,7 +444,23 @@ iframe{
 }
 
 
+
 @media all and (max-width: 768px) {
+    .Ficha p.accordion.active:before {
+        content: url('../../images/flecha-arriba.png') !important;
+        text-align: right;
+        margin-bottom: 0px;
+        top: -25px;
+    }
+    .Ficha .panel{
+        padding: 0 20px;
+    }
+    .Ficha p.accordion:before {
+        content: url('../../images/flecha-abajo.png') !important;
+        text-align: right;
+        margin-bottom: 0px;
+        top: -25px;
+    }
     .Col-fixed{
         background-color: white;
         height: 29rem!important;

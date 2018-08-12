@@ -4,7 +4,8 @@ import {Link} from 'react-router-dom'
 import logo from '../../images/Globo-header-w.png'
 import Menu2 from './Menu2'
 import $ from 'jquery';
-
+import flecha_abajo from '../../images/flecha-abajo.png';
+import flecha_arriba from '../../images/flecha-arriba.png';
 
 /*Controlo si el menu está abierto o cerrado*/
 var megamenu_abierto = false;

@@ -205,9 +205,10 @@ justify-content: center;
               .Section1-faq {
                   min-height: 27rem;
               }
+
     p.accordion{
         font-size: 1.3rem!important;
-        padding-right: 20px;
+        padding-right: 35px;
     }
     .Section2-faq{
         padding-left: 1rem!important;
@@ -255,9 +256,1061 @@ justify-content: center;
 
 @media all and (max-width: 572px) {
 
-    p.accordion:after {
+    p.accordion:before {
 
-        top: 0.3rem!important;
+        top: -0.7rem!important;
+    }
+
+}
+
+.Faq h1{
+    color: white;
+    font-size: 4.7rem;
+    text-transform: uppercase;
+    font-family: 'Barlow Condensed';
+    font-weight: bold;
+max-width: 90%;
+    line-height: .9;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+
+}
+
+.Faq .container{
+max-width: 1240px;
+}
+
+.Faq h1>span{
+    color: #4e80c1;
+    font-weight: bold;
+
+
+}
+.panel{
+    margin-top: 15px;
+}
+.Faq h2{
+    color: #333333;
+    text-transform: uppercase;
+    width: 35%;
+    font-weight: bold;
+    font-size: 3rem;
+}
+.Faq h3{
+    color: white;
+    font-weight: normal;
+    font-family: 'Roboto'!important;
+    text-transform: none;
+    font-size: 1.3rem;
+    line-height: 1.3;
+}
+
+.Faq h4{
+    color: #333333;
+    font-weight: bold;
+    font-size: 1.5rem;}
+.hhhj{
+}
+
+p  {
+    color: #8f8f8f;
+}
+
+/*SECCON 1*/
+.Section1-faq{
+    background-size: cover!important;
+    background: url('../../images/faq-bkg1.jpg');
+    background-position-x: center;
+    background-repeat: no-repeat;
+    min-height: 37rem;
+
+}
+.Btn-gris{
+    background-color: #999999;
+    color: #fff;
+    border: 0;
+    padding: 0.5rem;
+    width: 10rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: .9rem;
+}
+
+
+/*SECCON 2*/
+.Section2-faq {
+    position: relative;
+    padding-top: 0rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+
+
+.Seccion3-faq-bkg {
+    right: 0%;
+    position: absolute;
+    top: -4%;
+    z-index: -10;
+}
+
+
+
+
+
+/*SECCION 3*/
+
+.Section3-faq{
+    position: relative;
+    padding-top: 7rem ;
+
+}
+
+
+/*FOOTER*/
+
+.Section4-faq{
+    background:  url('../../images/bkg-experiencia-1920.jpg');
+    background-repeat: no-repeat;
+    height: 70rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover!important;
+justify-content: center;
+    -webkit-clip-path: polygon(0 22%, 100% 6%, 100% 100%, 0% 100%);
+    clip-path: polygon(0 22%, 100% 6%, 100% 100%, 0% 100%);
+    padding-top: 14rem;
+
+}
+.Section4-faq>*{
+
+
+}
+
+
+.Faq .Btn-blue{
+    width: 13rem;
+    height: 2.5rem;
+}
+
+
+
+.Section4-faq .Card-row {
+    margin-bottom: 0!important;
+}
+.Section4-faq .carousel-indicators{
+    padding-top: 2%;
+}
+
+.Section4-faq .carousel-control-prev{
+    top: 45%;
+}
+.Section4-faq .carousel-control-next{
+    top: 47%;
+}
+
+.
+
+.Section4-faq .Container-video{
+}
+
+
+/*SECTION 3*/
+
+.Section4-faq{
+}
+
+.Links-footer>div{
+    padding-top: 0.5rem;
+    text-align: left;
+}
+.Links-footer>div a{
+    text-align: left;
+    font-size: 0.9rem;
+}
+.Faq footer{
+    background-color: #2260b2;
+    padding: 1.5rem;
+}
+
+.Faq footer .Div-ico{
+    width: 7%;
+}
+
+.Faq footer .Div-ico img{
+    width: 2.7rem;
+}
+
+
+
+@media all and (min-width: 2000px) {
+    .Section1-faq{
+        min-height: 57rem;
+
+    }
+}
+
+
+@media all and (max-width: 1250px) {
+    .Section1-faq {
+        min-height: 45rem;
+    }
+}
+
+@media all and (max-width: 991px) {
+
+}
+
+@media all and (max-width: 768px) {
+
+              .Section1-faq {
+                  min-height: 27rem;
+              }
+
+    p.accordion{
+        font-size: 1.3rem!important;
+        padding-right: 35px;
+    }
+    .Section2-faq{
+        padding-left: 1rem!important;
+        padding-right: 0rem!important;
+        padding-top: 0!important;
+    }
+    .Faq h2{
+        width: 100%!important;
+    }
+    .Section4-faq{
+        padding-top: 0;
+    }
+    .Faq .Experiencia-completa{
+        padding-bottom: 0;
+    }
+    .Faq h1{
+        font-size: 2rem;
+        margin-top: 1.5rem;
+    }
+    .Faq h3{
+        font-size: 1.1rem;
+    }
+    .Faq p{
+        font-size: 0.9rem;
+    }
+    .Section4-faq {
+        height: 35rem;
+        position: relative;
+        display: -ms-flexbox;
+        padding-top: 7rem!important;
+        display: flex;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        background-size: cover!important;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-clip-path: polygon(0 22%, 100% 6%, 100% 100%, 0% 100%);
+        clip-path: polygon(0 22%, 100% 6%, 100% 100%, 0% 100%);
+        padding-top: 14rem;
+    }
+
+}
+
+@media all and (max-width: 572px) {
+
+    p.accordion:before {
+
+        top: -0.7rem!important;
+    }
+
+}
+
+.Faq h1{
+    color: white;
+    font-size: 4.7rem;
+    text-transform: uppercase;
+    font-family: 'Barlow Condensed';
+    font-weight: bold;
+max-width: 90%;
+    line-height: .9;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+
+}
+
+.Faq .container{
+max-width: 1240px;
+}
+
+.Faq h1>span{
+    color: #4e80c1;
+    font-weight: bold;
+
+
+}
+.panel{
+    margin-top: 15px;
+}
+.Faq h2{
+    color: #333333;
+    text-transform: uppercase;
+    width: 35%;
+    font-weight: bold;
+    font-size: 3rem;
+}
+.Faq h3{
+    color: white;
+    font-weight: normal;
+    font-family: 'Roboto'!important;
+    text-transform: none;
+    font-size: 1.3rem;
+    line-height: 1.3;
+}
+
+.Faq h4{
+    color: #333333;
+    font-weight: bold;
+    font-size: 1.5rem;}
+.hhhj{
+}
+
+p  {
+    color: #8f8f8f;
+}
+
+/*SECCON 1*/
+.Section1-faq{
+    background-size: cover!important;
+    background: url('../../images/faq-bkg1.jpg');
+    background-position-x: center;
+    background-repeat: no-repeat;
+    min-height: 37rem;
+
+}
+.Btn-gris{
+    background-color: #999999;
+    color: #fff;
+    border: 0;
+    padding: 0.5rem;
+    width: 10rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: .9rem;
+}
+
+
+/*SECCON 2*/
+.Section2-faq {
+    position: relative;
+    padding-top: 0rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+
+
+.Seccion3-faq-bkg {
+    right: 0%;
+    position: absolute;
+    top: -4%;
+    z-index: -10;
+}
+
+
+
+
+
+/*SECCION 3*/
+
+.Section3-faq{
+    position: relative;
+    padding-top: 7rem ;
+
+}
+
+
+/*FOOTER*/
+
+.Section4-faq{
+    background:  url('../../images/bkg-experiencia-1920.jpg');
+    background-repeat: no-repeat;
+    height: 70rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover!important;
+justify-content: center;
+    -webkit-clip-path: polygon(0 22%, 100% 6%, 100% 100%, 0% 100%);
+    clip-path: polygon(0 22%, 100% 6%, 100% 100%, 0% 100%);
+    padding-top: 14rem;
+
+}
+.Section4-faq>*{
+
+
+}
+
+
+.Faq .Btn-blue{
+    width: 13rem;
+    height: 2.5rem;
+}
+
+
+
+.Section4-faq .Card-row {
+    margin-bottom: 0!important;
+}
+.Section4-faq .carousel-indicators{
+    padding-top: 2%;
+}
+
+.Section4-faq .carousel-control-prev{
+    top: 45%;
+}
+.Section4-faq .carousel-control-next{
+    top: 47%;
+}
+
+.
+
+.Section4-faq .Container-video{
+}
+
+
+/*SECTION 3*/
+
+.Section4-faq{
+}
+
+.Links-footer>div{
+    padding-top: 0.5rem;
+    text-align: left;
+}
+.Links-footer>div a{
+    text-align: left;
+    font-size: 0.9rem;
+}
+.Faq footer{
+    background-color: #2260b2;
+    padding: 1.5rem;
+}
+
+.Faq footer .Div-ico{
+    width: 7%;
+}
+
+.Faq footer .Div-ico img{
+    width: 2.7rem;
+}
+
+
+
+@media all and (min-width: 2000px) {
+    .Section1-faq{
+        min-height: 57rem;
+
+    }
+}
+
+
+@media all and (max-width: 1250px) {
+    .Section1-faq {
+        min-height: 45rem;
+    }
+}
+
+@media all and (max-width: 991px) {
+
+}
+
+@media all and (max-width: 768px) {
+
+              .Section1-faq {
+                  min-height: 27rem;
+              }
+
+    p.accordion{
+        font-size: 1.3rem!important;
+        padding-right: 35px;
+    }
+    .Section2-faq{
+        padding-left: 1rem!important;
+        padding-right: 0rem!important;
+        padding-top: 0!important;
+    }
+    .Faq h2{
+        width: 100%!important;
+    }
+    .Section4-faq{
+        padding-top: 0;
+    }
+    .Faq .Experiencia-completa{
+        padding-bottom: 0;
+    }
+    .Faq h1{
+        font-size: 2rem;
+        margin-top: 1.5rem;
+    }
+    .Faq h3{
+        font-size: 1.1rem;
+    }
+    .Faq p{
+        font-size: 0.9rem;
+    }
+    .Section4-faq {
+        height: 35rem;
+        position: relative;
+        display: -ms-flexbox;
+        padding-top: 7rem!important;
+        display: flex;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        background-size: cover!important;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-clip-path: polygon(0 22%, 100% 6%, 100% 100%, 0% 100%);
+        clip-path: polygon(0 22%, 100% 6%, 100% 100%, 0% 100%);
+        padding-top: 14rem;
+    }
+
+}
+
+@media all and (max-width: 572px) {
+
+    p.accordion:before {
+
+        top: -0.7rem!important;
+    }
+
+}
+
+.Faq h1{
+    color: white;
+    font-size: 4.7rem;
+    text-transform: uppercase;
+    font-family: 'Barlow Condensed';
+    font-weight: bold;
+max-width: 90%;
+    line-height: .9;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+
+}
+
+.Faq .container{
+max-width: 1240px;
+}
+
+.Faq h1>span{
+    color: #4e80c1;
+    font-weight: bold;
+
+
+}
+.panel{
+    margin-top: 15px;
+}
+.Faq h2{
+    color: #333333;
+    text-transform: uppercase;
+    width: 35%;
+    font-weight: bold;
+    font-size: 3rem;
+}
+.Faq h3{
+    color: white;
+    font-weight: normal;
+    font-family: 'Roboto'!important;
+    text-transform: none;
+    font-size: 1.3rem;
+    line-height: 1.3;
+}
+
+.Faq h4{
+    color: #333333;
+    font-weight: bold;
+    font-size: 1.5rem;}
+.hhhj{
+}
+
+p  {
+    color: #8f8f8f;
+}
+
+/*SECCON 1*/
+.Section1-faq{
+    background-size: cover!important;
+    background: url('../../images/faq-bkg1.jpg');
+    background-position-x: center;
+    background-repeat: no-repeat;
+    min-height: 37rem;
+
+}
+.Btn-gris{
+    background-color: #999999;
+    color: #fff;
+    border: 0;
+    padding: 0.5rem;
+    width: 10rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: .9rem;
+}
+
+
+/*SECCON 2*/
+.Section2-faq {
+    position: relative;
+    padding-top: 0rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+
+
+.Seccion3-faq-bkg {
+    right: 0%;
+    position: absolute;
+    top: -4%;
+    z-index: -10;
+}
+
+
+
+
+
+/*SECCION 3*/
+
+.Section3-faq{
+    position: relative;
+    padding-top: 7rem ;
+
+}
+
+
+/*FOOTER*/
+
+.Section4-faq{
+    background:  url('../../images/bkg-experiencia-1920.jpg');
+    background-repeat: no-repeat;
+    height: 70rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover!important;
+justify-content: center;
+    -webkit-clip-path: polygon(0 22%, 100% 6%, 100% 100%, 0% 100%);
+    clip-path: polygon(0 22%, 100% 6%, 100% 100%, 0% 100%);
+    padding-top: 14rem;
+
+}
+.Section4-faq>*{
+
+
+}
+
+
+.Faq .Btn-blue{
+    width: 13rem;
+    height: 2.5rem;
+}
+
+
+
+.Section4-faq .Card-row {
+    margin-bottom: 0!important;
+}
+.Section4-faq .carousel-indicators{
+    padding-top: 2%;
+}
+
+.Section4-faq .carousel-control-prev{
+    top: 45%;
+}
+.Section4-faq .carousel-control-next{
+    top: 47%;
+}
+
+.
+
+.Section4-faq .Container-video{
+}
+
+
+/*SECTION 3*/
+
+.Section4-faq{
+}
+
+.Links-footer>div{
+    padding-top: 0.5rem;
+    text-align: left;
+}
+.Links-footer>div a{
+    text-align: left;
+    font-size: 0.9rem;
+}
+.Faq footer{
+    background-color: #2260b2;
+    padding: 1.5rem;
+}
+
+.Faq footer .Div-ico{
+    width: 7%;
+}
+
+.Faq footer .Div-ico img{
+    width: 2.7rem;
+}
+
+
+
+@media all and (min-width: 2000px) {
+    .Section1-faq{
+        min-height: 57rem;
+
+    }
+}
+
+
+@media all and (max-width: 1250px) {
+    .Section1-faq {
+        min-height: 45rem;
+    }
+}
+
+@media all and (max-width: 991px) {
+
+}
+
+@media all and (max-width: 768px) {
+
+              .Section1-faq {
+                  min-height: 27rem;
+              }
+
+    p.accordion{
+        font-size: 1.3rem!important;
+        padding-right: 35px;
+    }
+    .Section2-faq{
+        padding-left: 1rem!important;
+        padding-right: 0rem!important;
+        padding-top: 0!important;
+    }
+    .Faq h2{
+        width: 100%!important;
+    }
+    .Section4-faq{
+        padding-top: 0;
+    }
+    .Faq .Experiencia-completa{
+        padding-bottom: 0;
+    }
+    .Faq h1{
+        font-size: 2rem;
+        margin-top: 1.5rem;
+    }
+    .Faq h3{
+        font-size: 1.1rem;
+    }
+    .Faq p{
+        font-size: 0.9rem;
+    }
+    .Section4-faq {
+        height: 35rem;
+        position: relative;
+        display: -ms-flexbox;
+        padding-top: 7rem!important;
+        display: flex;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        background-size: cover!important;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-clip-path: polygon(0 22%, 100% 6%, 100% 100%, 0% 100%);
+        clip-path: polygon(0 22%, 100% 6%, 100% 100%, 0% 100%);
+        padding-top: 14rem;
+    }
+
+}
+
+@media all and (max-width: 572px) {
+
+    p.accordion:before {
+
+        top: -0.7rem!important;
+    }
+
+}
+
+.Faq h1{
+    color: white;
+    font-size: 4.7rem;
+    text-transform: uppercase;
+    font-family: 'Barlow Condensed';
+    font-weight: bold;
+max-width: 90%;
+    line-height: .9;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+
+}
+
+.Faq .container{
+max-width: 1240px;
+}
+
+.Faq h1>span{
+    color: #4e80c1;
+    font-weight: bold;
+
+
+}
+.panel{
+    margin-top: 15px;
+}
+.Faq h2{
+    color: #333333;
+    text-transform: uppercase;
+    width: 35%;
+    font-weight: bold;
+    font-size: 3rem;
+}
+.Faq h3{
+    color: white;
+    font-weight: normal;
+    font-family: 'Roboto'!important;
+    text-transform: none;
+    font-size: 1.3rem;
+    line-height: 1.3;
+}
+
+.Faq h4{
+    color: #333333;
+    font-weight: bold;
+    font-size: 1.5rem;}
+.hhhj{
+}
+
+p  {
+    color: #8f8f8f;
+}
+
+/*SECCON 1*/
+.Section1-faq{
+    background-size: cover!important;
+    background: url('../../images/faq-bkg1.jpg');
+    background-position-x: center;
+    background-repeat: no-repeat;
+    min-height: 37rem;
+
+}
+.Btn-gris{
+    background-color: #999999;
+    color: #fff;
+    border: 0;
+    padding: 0.5rem;
+    width: 10rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: .9rem;
+}
+
+
+/*SECCON 2*/
+.Section2-faq {
+    position: relative;
+    padding-top: 0rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+
+
+.Seccion3-faq-bkg {
+    right: 0%;
+    position: absolute;
+    top: -4%;
+    z-index: -10;
+}
+
+
+
+
+
+/*SECCION 3*/
+
+.Section3-faq{
+    position: relative;
+    padding-top: 7rem ;
+
+}
+
+
+/*FOOTER*/
+
+.Section4-faq{
+    background:  url('../../images/bkg-experiencia-1920.jpg');
+    background-repeat: no-repeat;
+    height: 70rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover!important;
+justify-content: center;
+    -webkit-clip-path: polygon(0 22%, 100% 6%, 100% 100%, 0% 100%);
+    clip-path: polygon(0 22%, 100% 6%, 100% 100%, 0% 100%);
+    padding-top: 14rem;
+
+}
+.Section4-faq>*{
+
+
+}
+
+
+.Faq .Btn-blue{
+    width: 13rem;
+    height: 2.5rem;
+}
+
+
+
+.Section4-faq .Card-row {
+    margin-bottom: 0!important;
+}
+.Section4-faq .carousel-indicators{
+    padding-top: 2%;
+}
+
+.Section4-faq .carousel-control-prev{
+    top: 45%;
+}
+.Section4-faq .carousel-control-next{
+    top: 47%;
+}
+
+.
+
+.Section4-faq .Container-video{
+}
+
+
+/*SECTION 3*/
+
+.Section4-faq{
+}
+
+.Links-footer>div{
+    padding-top: 0.5rem;
+    text-align: left;
+}
+.Links-footer>div a{
+    text-align: left;
+    font-size: 0.9rem;
+}
+.Faq footer{
+    background-color: #2260b2;
+    padding: 1.5rem;
+}
+
+.Faq footer .Div-ico{
+    width: 7%;
+}
+
+.Faq footer .Div-ico img{
+    width: 2.7rem;
+}
+
+
+
+@media all and (min-width: 2000px) {
+    .Section1-faq{
+        min-height: 57rem;
+
+    }
+}
+
+
+@media all and (max-width: 1250px) {
+    .Section1-faq {
+        min-height: 45rem;
+    }
+}
+
+@media all and (max-width: 991px) {
+
+}
+
+@media all and (max-width: 768px) {
+
+              .Section1-faq {
+                  min-height: 27rem;
+              }
+
+    p.accordion{
+        font-size: 1.3rem!important;
+        padding-right: 35px;
+    }
+    .Section2-faq{
+        padding-left: 1rem!important;
+        padding-right: 0rem!important;
+        padding-top: 0!important;
+    }
+    .Faq h2{
+        width: 100%!important;
+    }
+    .Section4-faq{
+        padding-top: 0;
+    }
+    .Faq .Experiencia-completa{
+        padding-bottom: 0;
+    }
+    .Faq h1{
+        font-size: 2rem;
+        margin-top: 1.5rem;
+    }
+    .Faq h3{
+        font-size: 1.1rem;
+    }
+    .Faq p{
+        font-size: 0.9rem;
+    }
+    .Section4-faq {
+        height: 35rem;
+        position: relative;
+        display: -ms-flexbox;
+        padding-top: 7rem!important;
+        display: flex;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        background-size: cover!important;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-clip-path: polygon(0 22%, 100% 6%, 100% 100%, 0% 100%);
+        clip-path: polygon(0 22%, 100% 6%, 100% 100%, 0% 100%);
+        padding-top: 14rem;
+    }
+
+}
+
+@media all and (max-width: 572px) {
+
+    p.accordion:before {
+
+        top: -0.7rem!important;
     }
 
 }

@@ -41,14 +41,15 @@
     background-color: #FFFFFF;
 }
 .Filtro-div-movil p.accordion{
-    padding-left: 2.5rem;
+    padding-left: 1rem;
     padding-bottom: 0.6rem;
     border-bottom: 1px solid #464646;
     margin-bottom: 1rem;
     font-size: 1.6rem!important;
 
 }
-.Filtro-div-movil p.accordion:after{
+.Filtro-div-movil p.accordion:before{
+
     color: #333333!important;
     font-size: 2rem!important;
     top: -0.3rem;
@@ -59,6 +60,10 @@
 
 }
 
+.Filtro-div-movil .Datepicker-inline{
+    text-align: center;
+    margin: 35px 0;
+}
 .Filtro-div-movil div.panel li{
     list-style: none;
     padding-left: 3.6rem;
@@ -66,7 +71,11 @@
 .Filtro-div-movil div.panel li span{
     font-size: 1rem;
   }
-
+.Buscador-filtro-movil .Flechas-faq{
+    position: absolute;
+    right: 18px;
+    top: 13px;
+}
 .Filtro-movil-open{
     background-color: #f0f0f0;
     border: 0;
@@ -100,9 +109,11 @@
 
 
 /* Unicode character for "plus" sign (+) */
-p.accordion:after {
-    content: '+';
+.Buscador-filtro-movil p.accordion:before {
+    content: url('../../images/flecha-abajo.png') !important;
+text-align: right;
     font-size: 3rem;
+    padding-right: 13px;
     color: #333333;
     float: left;
     margin-left: 5px;
@@ -112,8 +123,11 @@ p.accordion:after {
 }
 
 /* Unicode character for "minus" sign (-) */
-p.accordion.active:after {
-    content: "-";
+
+.Buscador-filtro-movil p.accordion.active:before {
+    content: url('../../images/flecha-arriba.png') !important;
+    padding-right: 13px;
+text-align: right;
     margin-bottom: 0;
 }
 

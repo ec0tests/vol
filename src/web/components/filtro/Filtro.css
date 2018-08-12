@@ -208,6 +208,9 @@ p  {
     .Footer_estilohome{
         display: none;
     }
+    .Mt-nmovil{
+        margin-top: -60px;
+    }
     .Section2-filtro {
         position: relative;
         padding-top: 2rem;

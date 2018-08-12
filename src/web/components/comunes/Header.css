@@ -149,7 +149,7 @@ margin-bottom: 1rem;
 .Megamenu-movil-white span{
     color: #ffffff!important;
 }
-.Megamenu-div-movil p.accordion:after{
+.Megamenu-div-movil p.accordion:before{
     color: white!important;
     font-size: 2rem!important;
     top: -0.3rem;
@@ -301,21 +301,26 @@ p.accordion {
 
 
 /* Unicode character for "plus" sign (+) */
-p.accordion:after {
-    content: '+';
+.Megamenu-div-movil p.accordion:before {
+    content: url('../../images/flecha-abajo-b.png') !important;
     font-size: 3rem;
     color: #333333;
     float: left;
     margin-left: 5px;
     position: absolute;
-    left: -3rem;
-    top: -.7rem;
+    top: -12px!important;
+    right: 22px!important;
 }
 
 /* Unicode character for "minus" sign (-) */
-p.accordion.active:after {
-    content: "-";
+
+.Megamenu-div-movil p.accordion.active:before {
+    content: url('../../images/flecha-arriba-b.png') !important;
+
+    text-align: right;
     margin-bottom: 0;
+    top: -12px!important;
+    right: 22px!important;
 }
 
 /* Style the element that is used for the panel class */

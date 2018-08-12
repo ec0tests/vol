@@ -29,8 +29,6 @@ p.accordion {
 
 /* Add a background color to the accordion if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 
-
-/* Unicode character for "plus" sign (+) */
 p.accordion:after {
     content: '+';
     font-size: 3rem;
@@ -39,7 +37,7 @@ p.accordion:after {
     margin-left: 5px;
     position: absolute;
     left: -3rem;
-    top: -.7rem;
+    top: -0.1rem;
 }
 
 /* Unicode character for "minus" sign (-) */
@@ -47,6 +45,8 @@ p.accordion.active:after {
     content: "-";
     margin-bottom: 0;
 }
+
+
 
 /* Style the element that is used for the panel class */
 
@@ -74,5 +74,27 @@ div.panel.show {
     padding-right: 0px}
     .Z-index-bajo{
         z-index: -1000;
+    }
+
+    /* Unicode character for "plus" sign (+) */
+    p.accordion:before {
+        content: url('../../images/flecha-abajo.png') !important;
+
+        text-align: right;
+        font-size: 3rem;
+        color: #333333;
+        float: left;
+        margin-left: 5px;
+        position: absolute;
+        right: 10px;
+        top: -.7rem;
+    }
+
+    /* Unicode character for "minus" sign (-) */
+    p.accordion.active:before {
+        content: url('../../images/flecha-arriba.png') !important;
+        text-align: right;
+
+        margin-bottom: 0;
     }
     }
