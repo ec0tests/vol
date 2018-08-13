@@ -173,7 +173,7 @@ class Filtro extends React.Component{
                 </footer>
 
                 <div className="Footer_estilohome">
-                    <div className="container">
+                    <div className="container mw-100">
 
                     <Footer_estilohome/>
                     </div>

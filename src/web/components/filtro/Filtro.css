@@ -206,6 +206,9 @@ p  {
 
 @media all and (max-width: 768px) {
     .Footer_estilohome{
+        display: flex!important;
+    }
+    .Footer_estilo1{
         display: none;
     }
     .Mt-nmovil{
