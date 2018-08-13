@@ -141,23 +141,23 @@ const Menu2 = ({logo}) => (
     <div className="d-flex align-items-center">
         <button className="ml-2 ml-md-4 mr-3 mr-lg-0 menu-icon Open-menu Btn-pad" id="desplegable_boton1" onClick={show_menu}><i
             className="fa fa-bars text-white F-icosi"></i></button>
-        <span className="Cursor-pointer Open-menu d-none d-md-inline" onClick={show_menu}>MENÚ</span>
+        <span className="Cursor-pointer Open-menu d-none d-md-inline D-none-tablet" onClick={show_menu}>MENÚ</span>
 
         <div className="slideout-sidebar Div-menu2">
-            <div className="row  d-none d-md-flex">
-                <div className="col-2 ml-3">
+            <div className="row  d-none d-md-flex Pad-left-15">
+                <div className=" ml-3 mr-2">
                     <button className="Btn-idioma">ES</button>
                 </div>
-                <div className="col-2">
+                <div className=" mr-2">
                     <button className="Btn-idioma">CAT</button>
                 </div>
-                <div className="col-2">
+                <div className=" mr-2">
                     <button className="Btn-idioma">EN</button>
                 </div>
-                <div className="col-2">
+                <div className=" mr-2">
                     <button className="Btn-idioma">FR</button>
                 </div>
-                <div className="col-2 pl-4 pr-0">
+                <div className=" Cruz-menu-2 pl-4 pr-0">
 
                     <button className="menu-icon w-auto Menu-boton" onClick={hide_menu}><i
                         className="fas fa-times text-white"></i></button>

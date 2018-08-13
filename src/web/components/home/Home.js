@@ -182,7 +182,7 @@ class Home extends React.Component {
                                 <h1 className="d-md-none  Home-h1 mb-0 Text-center-tablet">VUELA <br/> EN GLOBO <br/>
                                 </h1>
                                 <h2 className="Home-h2 d-md-none Text-center-tablet">En el parque natural de <br/> La Garrotxa</h2>
-                                <h2 className="Home-h2 d-none d-md-block Text-center-tablet">en el parque natural de La Garrotxa</h2>
+                                <h2 className="Home-h2 d-none d-md-block Text-center-tablet">En el parque natural de La Garrotxa</h2>
                             </div>
                         </div>
                         <div className="row my-4">
@@ -271,7 +271,7 @@ class Home extends React.Component {
                     <div className="container">
                         <Carousel_cards/>
 
-                        <div className="row justify-content-center row-iconos w-100">
+                        <div className="row justify-content-center row-iconos w-100 Mt-tablet">
 
                             <img className="" src={aloj_ico} alt=""/>
                             <img className="" src={gast_ico} alt=""/>

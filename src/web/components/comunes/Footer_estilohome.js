@@ -128,8 +128,8 @@ modal.addFooterBtn('Dangerous action !', 'tingle-btn tingle-btn--danger', functi
 
 const Footer_estilohome = () => (
 
-            <div className="row Row1 py-2 py-md-0 p-md-3">
-                <div className="col-12 col-md-5 d-flex justify-content-center">
+            <div className="row Row1 py-2 py-md-0 p-md-3  Pl-tablet-0">
+                <div className="col-12 col-md-5 d-flex justify-content-center Pl-tablet-0">
                     <div className="col-12 col-md-8 p-0 d-flex align-items-center justify-content-center">
                         <img className="img-fluid Logo-footer-movil" src={logo_b} alt=""/>
                     </div>

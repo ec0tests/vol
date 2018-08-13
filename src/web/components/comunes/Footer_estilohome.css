@@ -41,7 +41,9 @@ Footer_estilohome .Row1 {
 
 @media (max-width: 575.98px) {
 
-
+    Pl-tablet-0{
+        padding-left: auto;
+    }
 }
 
 @media (max-width: 767.98px) {
@@ -65,13 +67,38 @@ Footer_estilohome .Row1 {
     width: 14.6rem;
     margin-right: -2px;
 }
+    Pl-tablet-0{
+        padding-left: 0!important;
+    }
 }
 
-@media (max-width: 991.98px) {  }
 
 
 
-@media (max-width: 1199.98px) {  }
+@media (max-width: 900px ) and (min-width: 767px) {
+    .Logo-footer-movil{
+    }
+    .Logo-footer-movil{
+        max-width: none;
+        width: 272px;
+
+        margin-top: -33px;
+    }
+    Pl-tablet-0{
+        padding-left: 0!important;
+    }
+}
+@media (max-width: 1035.98px ) and (min-width: 900px) {
+    .Logo-footer-movil{
+        max-width: none;
+        width: 393px;
+
+        margin-top: -33px;
+    }
+    Pl-tablet-0{
+        padding-left: 0!important;
+    }
+}
 
 @media (min-width: 1550px){
 

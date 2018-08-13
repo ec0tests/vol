@@ -29,7 +29,7 @@ p.accordion {
 
 /* Add a background color to the accordion if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 
-p.accordion:after {
+.Faq p.accordion:after {
     content: '+';
     font-size: 3rem;
     color: #333333;
@@ -41,7 +41,7 @@ p.accordion:after {
 }
 
 /* Unicode character for "minus" sign (-) */
-p.accordion.active:after {
+.Faq p.accordion.active:after {
     content: "-";
     margin-bottom: 0;
 }

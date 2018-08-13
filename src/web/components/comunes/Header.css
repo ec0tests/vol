@@ -14,6 +14,12 @@ body {
     transition: all 300ms ease-in-out;
 
 }
+.Btn-megamenu{
+
+}
+.Btn-megamenu-movil{
+    display: none;
+}
 .Logo-top{
     padding-top: 2px;
     max-width: 300px;
@@ -93,6 +99,11 @@ right: 0;
     padding-top: 15px;
     /* right: 11.8%; */
     top: 0;
+}
+.Cruz-menu-2{
+    float: right;
+    margin-left: auto;
+    margin-right: 24px;
 }
 #btn_megamenu:active {
     border: 0!important;
@@ -359,6 +370,57 @@ div.panel.show {
     }
 
 }
+@media (max-width: 1035px) {
+
+    .Btn-megamenu{
+        display: none;
+
+    }
+    .Btn-megamenu-movil{
+        display: block;
+    }
+    .Megamenu-div{
+            display: none;
+        }
+
+    .Megamenu-div-movil{
+        display: none;
+        width: 77%;
+
+    }
+
+    .Megamenu-div-movil p.accordion {
+        padding-left: 2.5rem;
+        padding-bottom: 0.6rem;
+        border-bottom: 1px solid #273952;
+        margin-bottom: 1rem;
+        width: 80%;
+        /* width: 10%; */
+        font-size: 1.6rem!important;
+    }
+
+    .Megamenu-div-movil p.accordion:before {
+        content: url('../../images/flecha-abajo-b.png') !important;
+        font-size: 3rem;
+        color: #333333;
+        float: left;
+        margin-left: 5px;
+        position: absolute;
+        top: -12px!important;
+        right: 52px!important;
+    }
+
+    /* Unicode character for "minus" sign (-) */
+
+    .Megamenu-div-movil p.accordion.active:before {
+        content: url('../../images/flecha-arriba-b.png') !important;
+
+        text-align: right;
+        margin-bottom: 0;
+        top: -12px!important;
+        right: 52px!important;
+    }
+}
 
 @media (max-width: 1000px) {
 
@@ -389,7 +451,10 @@ div.panel.show {
 
 }
 
-@media (max-width: 767px) {
+@media (max-width: 769px) {
+    .Logo-top {
+        width: 100%;
+    }
     .Pr-16{
         padding-right: 0px;
     }
@@ -425,7 +490,7 @@ div.panel.show {
         color: #fafafa;
     }
 
-    @media (max-width: 768px)
+    @media (max-width: 769px)
    {
 
         .slideout-sidebar {
@@ -471,7 +536,10 @@ div.panel.show {
 }
 
 
-@media all and (max-width: 1015px) {
+@media all and (max-width: 1025px) {
+    .F-icosi{
+        font-size: 2.8rem;
+    }
     .Megamenu-div{
         background-color: #0A1F3C;
         padding: 5rem 2rem;
@@ -480,13 +548,76 @@ div.panel.show {
         position: absolute;
         z-index: 10000;
     }
+    .Pad-left-15{
+        padding-left: 14px;
+    }
+    .slideout-sidebar {
+        padding-left: 20px;
+        width: 75%!important;
+    }
+    .Megamenu-div-movil p.accordion:before {
+        font-size: 3rem;
+        color: #333333;
+        float: left;
+        margin-left: 5px;
+        text-align: right;
+        position: absolute;
+        top: -12px!important;
+        right: 178px!important;
+    }
+    .Megamenu-div-movil p.accordion.active:before {
+        font-size: 3rem;
+        color: #333333;
+        float: left;
+        margin-left: 5px;
+        text-align: right;
+        position: absolute;
+        top: -12px!important;
+        right: 178px!important;
+    }
+    .Btn-pad{
+        padding-top: 10px;
+    }
+    .Logo-top {
+        padding-top: 2px;
+        max-width: 388px;
+    }
+    .D-none-tablet{
+        display: none!important;
+    }
+    .Pr-16 {
+        padding-right: 0px;
+    }
 
 }
 
 @media all and (max-width: 991px) {
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 769px) {
+    .Megamenu-div-movil p.accordion:before {
+        font-size: 3rem;
+        color: #333333;
+        float: left;
+        margin-left: 5px;
+        text-align: right;
+        position: absolute;
+        top: -12px!important;
+        right: 118px!important;
+    }
+    .Megamenu-div-movil p.accordion.active:before {
+        font-size: 3rem;
+        color: #333333;
+        float: left;
+        margin-left: 5px;
+        text-align: right;
+        position: absolute;
+        top: -12px!important;
+        right: 118px!important;
+    }
+    .Btn-pad{
+        padding-top: 0px;
+    }
     .slideout-sidebar ul li{
         padding: 0.8rem 0.1rem;
     }
@@ -496,7 +627,8 @@ div.panel.show {
 
 
     .Logo-top{
-        width: 33%;
+        width: 100%;
+        padding-left: 10px;
     }
 
     .Megamenu {
@@ -518,11 +650,47 @@ div.panel.show {
     }
 
 }
+@media all and (max-width: 750px) {
 
-@media all and (max-width: 575px) {
+    .Megamenu-div-movil p.accordion {
+        padding-left: 2.5rem;
+        padding-bottom: 0.6rem;
+        border-bottom: 1px solid #273952;
+        margin-bottom: 1rem;
+        width: 100%;
+        /* width: 10%; */
+        font-size: 1.6rem !important;
+    }
+
+    .Megamenu-div-movil p.accordion:before {
+        content: url('../../images/flecha-abajo-b.png') !important;
+        font-size: 3rem;
+        color: #333333;
+        float: left;
+        margin-left: 5px;
+        position: absolute;
+        top: -12px !important;
+        right: 22px !important;
+    }
+    .Pad-left-15{
+        padding-left: 0px;
+    }
+    /* Unicode character for "minus" sign (-) */
+    .Megamenu-div-movil p.accordion.active:before {
+        content: url('../../images/flecha-arriba-b.png') !important;
+
+        text-align: right;
+        margin-bottom: 0;
+        top: -12px !important;
+        right: 22px !important;
+    }
+}
+@media all and (max-width: 600px) {
     .slideout-sidebar {
         width: 360px;
     }
 
-
+    .Logo-top {
+        width: 33%;
+    }
 }

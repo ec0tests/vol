@@ -47,7 +47,7 @@ class Carousel_cards extends React.Component{
                                 <i className="fas fa-angle-right Carousel-arrow"></i>
                                 <span className="sr-only">Next</span>
                             </a>
-                            <div className="col-12 col-md-9 col-lg-8">
+                            <div className="col-12 col-md-9 col-lg-9 col-xl-8">
                                 <div className="card w-100 h-100 p-0 p-md-4">
                                     <div className="card-body text-left">
                                         <div className="">
@@ -94,7 +94,7 @@ class Carousel_cards extends React.Component{
                                 <i className="fas fa-angle-right Carousel-arrow"></i>
                                 <span className="sr-only">Next</span>
                             </a>
-                            <div className="col-12 col-md-9 col-lg-8">
+                            <div className="col-12 col-md-9 col-lg-9 col-xl-8">
                                 <div className="card w-100 h-100 p-0 p-md-4">
                                     <div className="card-body text-left">
                                         <div className="">

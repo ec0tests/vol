@@ -380,11 +380,52 @@ footer .Row1 {
 
 
 
-@media (max-width: 767.98px) {
-.Text-iconos{
-    font-size: 1.2rem;
+
+
+@media (max-width: 1199.98px) {
+    #carouselExampleIndicators{
+        height:48rem;
+    }
+
 }
-.Seccion2-bkg {
+@media (max-width: 1050px) {
+    .Padding-ico-4{
+        padding-top: 17px;
+    }
+    .Mt-tablet{
+        margin-top: 4rem;
+    }
+
+    .Section2 {
+        position: relative;
+        padding-top: 0rem ;
+    }
+
+    .Padding-icos{
+        padding-top: 16px;
+    }
+    .Text-iconos{
+        font-size: 1.5rem!important;
+    }
+    #carouselExampleIndicators{
+        height:40rem;
+    }
+    .Text-center-tablet{
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .Section5 {
+        padding-top: 4rem;
+    }
+    .Mt-tablet{
+        margin-top: 0rem;
+    }
+    .Text-iconos{
+        font-size: 1.2rem;
+    }
+    .Seccion2-bkg {
         right: 0%;
         width: 100%;
         position: absolute;
@@ -402,16 +443,16 @@ footer .Row1 {
         transform: skewY(-4deg);
     }
     .Diagonal1 {
-         z-index: -1;
-         background: #014db4;
-         position: relative;
-         height: 3rem;
-         bottom: 1.5rem;
-         width: 100%;
-         -webkit-transform: skewY(4deg);
-         -ms-transform: skewY(4deg);
-         transform: skewY(4deg);
-     }
+        z-index: -1;
+        background: #014db4;
+        position: relative;
+        height: 3rem;
+        bottom: 1.5rem;
+        width: 100%;
+        -webkit-transform: skewY(4deg);
+        -ms-transform: skewY(4deg);
+        transform: skewY(4deg);
+    }
     .Section1{
         padding-top: 10rem;
         height: auto;
@@ -433,12 +474,12 @@ footer .Row1 {
         padding-top: 18px;
     }
     .Finalsube {
-          font-size: 1.7rem!important;
-          text-align: left;
-          font-weight: 700!important;
-          padding-left: 19px;
-          font-family: "Barlow Condensed"!important;
-      }
+        font-size: 1.7rem!important;
+        text-align: left;
+        font-weight: 700!important;
+        padding-left: 19px;
+        font-family: "Barlow Condensed"!important;
+    }
     .Padding-ico-4{
         padding-top: 16px!important;
     }
@@ -483,7 +524,7 @@ footer .Row1 {
         border-left: 0;
     }
     .Iconos-header h6{
-       margin-top: 0.5rem;
+        margin-top: 0.5rem;
         border-bottom: 1px solid white;
         font-size: 0.9rem;
         padding-bottom: 1.3rem;    margin-bottom: 1% !important;
@@ -514,9 +555,9 @@ footer .Row1 {
     .Little-text3{
         font-size: 0.9rem!important;
     }
-.Ic-75{
-    width: 75%;
-}
+    .Ic-75{
+        width: 75%;
+    }
     .Text-left-m{
         text-align: left!important;
 
@@ -538,37 +579,6 @@ footer .Row1 {
     .Padding-ico-6{
         padding-top: 0px!important;
 
-    }
-}
-
-
-
-@media (max-width: 1199.98px) {
-    #carouselExampleIndicators{
-        height:48rem;
-    }
-
-}
-@media (max-width: 991.98px) {
-    .Padding-ico-4{
-        padding-top: 3px;
-    }
-    .Section2 {
-        position: relative;
-        padding-top: 0rem ;
-    }
-
-    .Padding-icos{
-        padding-top: 16px;
-    }
-    .Text-iconos{
-        font-size: 1.5rem!important;
-    }
-    #carouselExampleIndicators{
-        height:40rem;
-    }
-    .Text-center-tablet{
-        text-align: center;
     }
 }
 

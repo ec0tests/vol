@@ -106,11 +106,11 @@ const Header = ({logo}) => (
                 <div className="col-6 col-md-6 d-flex align-items-center justify-content-end pr-1 pr-md-2 P-initial pr-md-4">
                     <div className="Pr-16">
                         <button id="btn_megamenu" onClick={show_megamenu}
-                                className="Megamenu text-uppercase Open-megamenu d-none d-md-block">Vuelos en globo
+                                className="Megamenu text-uppercase Open-megamenu Btn-megamenu">Vuelos en globo
                         </button>
                         {/*Boton movil*/}
                         <button id="btn_megamenu" onClick={show_megamenu_movil}
-                                className="Megamenu text-uppercase Open-megamenu d-md-none">Vuelos en globo
+                                className="Megamenu text-uppercase Open-megamenu  Btn-megamenu-movil">Vuelos en globo
                         </button>
 
 
@@ -226,8 +226,8 @@ const Header = ({logo}) => (
             <div className="row">
                 <span className="Cruz text-white" onClick={hide_megamenu_movil}>x</span>
             </div>
-            <nav className="row mb-1 text-left mb-5 mt-5 pt-2">
-                <div className="col-md-3 ">
+            <nav className="row mb-1 text-left mb-5 mt-5 pt-4">
+                <div className="col-md-12 ">
                     <p className="accordion text-white text-uppercase">vuelos compartidos</p>
                     <div className="panel text-white Megamenu-movil-white">
                         <li><span>vuelos compartidos</span></li>
@@ -236,7 +236,7 @@ const Header = ({logo}) => (
                         <li><span>vuelos compartidos</span></li>
                     </div>
                 </div>
-                <div className="col-md-3 ">
+                <div className="col-md-12 ">
                     <p className="accordion text-white text-uppercase">vuelos compartidos</p>
                     <div className="panel text-white Megamenu-movil-white">
                         <li><span>vuelos compartidos</span></li>
@@ -245,7 +245,7 @@ const Header = ({logo}) => (
                         <li><span>vuelos compartidos</span></li>
                     </div>
                 </div>
-                <div className="col-md-3 ">
+                <div className="col-md-12 ">
                     <p className="accordion text-white text-uppercase">vuelos compartidos</p>
                     <div className="panel text-white Megamenu-movil-white">
                         <li><span>vuelos compartidos</span></li>
@@ -254,7 +254,7 @@ const Header = ({logo}) => (
                         <li><span>vuelos compartidos</span></li>
                     </div>
                 </div>
-                <div className="col-md-3 ">
+                <div className="col-md-12 ">
                     <p className="accordion text-white text-uppercase">vuelos compartidos</p>
                     <div className="panel text-white Megamenu-movil-white">
                         <li><span>vuelos compartidos</span></li>
