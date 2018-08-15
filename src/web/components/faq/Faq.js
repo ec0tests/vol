@@ -21,6 +21,7 @@ import Footer_estilohome from "../comunes/Footer_estilohome";
 import Footer_estilo1 from "../comunes/Footer_estilo1";
 import Experiencia_volarGlobo from "../comunes/Experiencia_volarGlobo";
 import Arrow_top from "../comunes/Arrow_top";
+import Footer_patrocinadores from "../comunes/Footer_patrocinadores";
 
 /*Creo el array de faq provisional*/
 
@@ -72,7 +73,7 @@ const Faq = () => (
 
             <div className="container-fluid mt-auto">
                 <div className="row pl-0 pl-md-5">
-                    <div className="col-12 col-md-6  Div-experiencias text-left">
+                    <div className="col-12 col-md-10 col-lg-6 Tamano-tablet  Div-experiencias text-left">
                         <h1>Toda la información que necesitas</h1>
                         <h3>Combina tu viaje en globo con actividades de aventura para disfrutar del paraje de la
                             Garrocha en todo su esplendor con actividades de aventura para disfrutar del paraje de la
@@ -113,11 +114,16 @@ const Faq = () => (
         </section>
 
 
-        <footer className="Footer_estilo1 d-none d-md-block">
+        <footer className="Footer_estilo1 Desktop">
             <Footer_estilo1/>
         </footer>
+        <footer className="Footer_estilohome  Tablet">
+            <Footer_estilohome/>
+            <Footer_patrocinadores/>
 
-        <div className="Footer_estilohome d-block d-md-none">
+        </footer>
+
+        <div className="Footer_estilohome Movil">
             <div className="container">
 
                 <Footer_estilohome/>

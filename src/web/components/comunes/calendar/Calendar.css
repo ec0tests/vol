@@ -21,3 +21,35 @@
    background-color: #a3afd3;
     transition: 0.8s;
 }
+
+@media (max-width: 425px) {
+
+    .react-date-picker__calendar.react-date-picker__calendar--closed{
+        font-size: 10px;
+        width: 278px;
+    } .react-date-picker__calendar.react-date-picker__calendar--open{
+        font-size: 10px;
+        width: 278px;
+    }
+
+    .react-calendar__navigation button{
+        font-size: 13px;
+
+    }
+    .react-calendar__navigation button:first-letter{
+        text-transform: uppercase;
+
+    }
+
+}
+@media (max-width: 360px) {
+
+    .react-date-picker__calendar.react-date-picker__calendar--closed{
+        font-size: 10px;
+        width: 258px;
+    } .react-date-picker__calendar.react-date-picker__calendar--open{
+        font-size: 10px;
+        width: 258px;
+    }
+
+}

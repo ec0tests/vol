@@ -68,7 +68,7 @@ div.panel.show {
     max-height: 500px; /* Whatever you like, as long as its more than the height of the content (on all screen sizes) */
 }
 
-@media (max-width: 768px){
+@media (max-width: 1025px){
     .Pregunta-div {
 
     padding-right: 0px}
@@ -76,6 +76,25 @@ div.panel.show {
         z-index: -1000;
     }
 
+
+    .Faq p.accordion:after {
+        content: '+';
+        font-size: 3rem;
+        color: #333333;
+        float: left;
+        margin-left: 5px;
+        position: absolute;
+        left: -3rem;
+        top: -0.1rem;
+        display: none;
+    }
+
+    /* Unicode character for "minus" sign (-) */
+    .Faq p.accordion.active:after {
+        content: "-";
+        margin-bottom: 0;
+        display: none;
+    }
     /* Unicode character for "plus" sign (+) */
     p.accordion:before {
         content: url('../../images/flecha-abajo.png') !important;
@@ -98,3 +117,31 @@ div.panel.show {
         margin-bottom: 0;
     }
     }
+
+@media (max-width: 768px){
+    .Faq p.accordion{
+        font-size: 1.6rem !important;
+    }
+    p.accordion:before {
+        content: url('../../images/flecha-abajo.png') !important;
+
+        text-align: right;
+        font-size: 3rem;
+        color: #333333;
+        float: left;
+        margin-left: 5px;
+        position: absolute;
+        right: 0px;
+        top: -1.5rem;
+    }
+
+    /* Unicode character for "minus" sign (-) */
+    p.accordion.active:before {
+        content: url('../../images/flecha-arriba.png') !important;
+        text-align: right;
+        top: -1.5rem;
+        right: 0px;
+
+        margin-bottom: 0;
+    }
+}

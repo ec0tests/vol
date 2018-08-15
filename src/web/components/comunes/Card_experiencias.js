@@ -7,7 +7,7 @@ class Card_experiencias extends React.Component {
     render() {
 
         return (
-            <div className="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-5 Elemento-tarjeta">
+            <div className="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 mb-5 Elemento-tarjeta">
                 <div className={`   text-left Card-experiencias ${this.props.tamanyo}`}>
                     <div className={`${this.props.tamanyo}2`}>
 

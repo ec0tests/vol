@@ -24,6 +24,7 @@ import ico_twitter_a from '../../images/twitter-inv.png';
 import ico_inst_a from '../../images/instagram-inv.png';
 import ico_youtube_a from '../../images/youtube-inv.png';
 import ico_google2_a from '../../images/googleplus-inv.png';
+import Footer_patrocinadores from "../comunes/Footer_patrocinadores";
 
 let array_imagenesficha = [];
 /*JSON DE PRUEBA*/
@@ -92,7 +93,7 @@ const Ficha = () => (
                         <h1 className="text-uppercase  ">vuelo en globo + <br/> cabaña en los arboles</h1>
 
                     </div>
-                    <div className="col-12 col-md-4 Col-tarjeta p-0 P-fixed Col-fixed">
+                    <div className="col-12 col-md-6 col-lg-4 Col-tarjeta p-0 P-fixed Col-fixed">
                         <div className="card w-100 h-100 p-3">
                             <div className="card-body text-left p-1 P-absolute Card-body-fixed">
                                 <div className="row w-100 justify-content-between flex-nowrap">
@@ -105,7 +106,7 @@ const Ficha = () => (
                                     <span className="d-flex align-items-center Price-card pl-3  Ficha-precio">250€</span>
 
                                 </div>
-                                <form className="col-12 my-2 mt-4 mt-md-0 mt-lg-4 Form-reservaa">
+                                <form className="col-12 my-2 mt-2 mt-md-0 mt-lg-4 Form-reservaa">
                                     <div className="pt-0 pt-md-0 pt-lg-3 row">
                                         <label for="inputPassword"
                                                className="col-sm-5 col-md-5 col-xl-5 col-form-label Label-form">Personas</label>
@@ -162,14 +163,14 @@ const Ficha = () => (
             </div>
         </section>
         <main className="Section2-ficha text-left px-1 px-md-5">
-            <div className="container-fluid px-1 px-md-5">
+            <div className="container-fluid px-1 px-lg-5">
                 <div className="row w-100 my-5 py-2">
                     <div className="col-12 Div-experiencias">
                         <h1 className="H1-filtro">Experiencias con valor de 5 estrellas en <span>tripadvisor</span></h1>
                     </div>
                 </div>
                 <div className="row w-100 m-0">
-                    <div className="col-12 col-md-8">
+                    <div className="col-12 col-lg-8">
                         <div className="col-12 mb-5 py-3">
                             <h2 className="w-100">Descripción</h2>
                             <p className="P-generico">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto asperiores assumenda
@@ -409,12 +410,17 @@ const Ficha = () => (
         <section className="Section4-ficha">
             <Experiencia_volarGlobo/>
         </section>
-        <footer className="Footer_estilo1 d-none d-md-block">
+        <footer className="Footer_estilo1 Desktop">
             <Footer_estilo1/>
         </footer>
+        <footer className="Footer_estilohome  Tablet">
+            <Footer_estilohome/>
+            <Footer_patrocinadores/>
 
-        <div className="Footer_estilohome d-block d-md-none">
-            <div className="container-fluid">
+        </footer>
+
+        <div className="Footer_estilohome Movil">
+            <div className="container">
 
                 <Footer_estilohome/>
             </div>

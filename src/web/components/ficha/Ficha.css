@@ -19,7 +19,18 @@
 
 
 }
+.Desktop {
+    display: block!important;
+}
 
+.Tablet {
+    display: none!important;
+    padding: 0!important;
+}
+
+.Movil {
+    display: none!important;
+}
 .Section2-ficha h2{
     color: #333333;
     text-transform: uppercase;
@@ -431,13 +442,55 @@ iframe{
     }
 }
 
+@media all and (max-width: 1025px) and (min-width: 768px) {
+    .Desktop {
+        display: none!important;
+    }
+    .Ficha p.accordion:after{
+        display: none;
+    }.Ficha p.accordion.active:after{
+        display: none;
+    }
+    .Ficha .Row1{
+        width: 100% !important;
+        margin: 0!important;
+    }
+
+    .Col-fixed {
+        background-color: white;
+        height: 25rem;
+    }
+    .Ficha h1 {
+        color: white;
+        font-weight: bold;
+        font-size: 4.7rem;
+        font-family: 'Barlow Condensed', sans-serif;
+        line-height: 1;
+        margin-bottom: 1.2rem;
+        padding-top: 4rem;
+    }
+    .Tablet {
+        display: block!important;
+        padding: 0!important;
+
+    }
+
+    .Movil {
+        display: none!important;
+    }
+
+}
+
 @media all and (max-width: 991px) {
     .Ficha-precio{
         font-size: 2rem;
-    }
+    }.Col-fixed {
+         background-color: white;
+         height: 23rem!important;
+     }
 
     .Form-reservaa{
-        margin-top: 46px!important;
+        margin-top: 10px!important;
     }
 
     .Letrasch{
@@ -456,9 +509,9 @@ iframe{
     .Label-form{
         font-size: 1rem!important;
     }
-    .Col-fixed {
+    /*.Col-fixed {
         height: 26rem!important;
-    }
+    }*/
 }
 
 
@@ -469,6 +522,9 @@ iframe{
         text-align: right;
         margin-bottom: 0px;
         top: -25px!important;
+    }
+    .P-fixed{
+        position: absolute!important;
     }
     .Ficha .panel{
         padding: 0 20px;
@@ -481,7 +537,6 @@ iframe{
     }
     .Col-fixed{
         background-color: white;
-        height: 29rem!important;
     }
     .Section4-ficha{
         height: 30rem!important;
@@ -504,7 +559,7 @@ iframe{
     .Col-fixed {
           background-color: white;
           height: 30rem;
-          position: relative!important;
+
       }
     .Padding-30{
         padding-left: 0!important;
@@ -525,11 +580,29 @@ iframe{
 
     .Col-tarjeta {
         position: relative;
-        top: auto;
-        right: auto;
+       /* top: auto;
+        right: auto;*/
     }
 }
+@media all and (max-width: 767px) {
+    .Desktop {
+        display: none !important;
+    }
+    .Col-fixed {
+        background-color: white;
+        height: 30rem;
+        position: relative!important;
+    }
+    .Tablet {
+        padding: 0 !important;
 
+        display: none !important;
+    }
+
+    .Movil {
+        display: block !important;
+    }
+}
 @media all and (max-width: 565px) {
     .Form-reservaa{
         margin-top: 16px!important;

@@ -147,6 +147,43 @@ class Filtro extends React.Component{
                             <Carousel_cards/>
                         </div>
                         <div className="row pt-2 Mt-nmovil">
+
+                            {/*TARJETA TABLET OFERTA FILTRO*/}
+                           {/* <div className="col-6 Mostrar-tablet Oculto">
+                                <div className="card w-100 h-100 p-0 p-md-4">
+                                    <div className="card-body text-left">
+                                        <div className="">
+                                            <div className="col-md-12">
+
+                                                <h5 className="Titulo-tarjeta card-title w-100 text-left text-uppercase Barlow">14/febrero
+                                                    san valentin</h5>
+                                                <p className=" Width-75 text-left Subtitulo-tarjeta">Vuelo en pareja & noche romántica en una cabaña en un árbol.</p>
+                                            </div>
+
+                                        </div>
+
+                                        <div className="row w-100 pt-2 pt-lg-5 justify-content-between mb-4 mb-md-0">
+                                            <div className="col-12 col-sm-5 col-md-5  text-left d-flex align-items-center mb-4  mb-lg-0">
+                                                <button className=" Btn-blue W-8rem Mayor-responsive">VER OFERTA</button>
+                                            </div>
+                                            <div className="col-12 col-sm-7 col-md-7 mt-3 mt-md-0 text-left d-flex Tarjeta-footer flex-md-row">
+                                                <div className="d-flex">
+                                                    <img src="https://via.placeholder.com/55x55" className=""
+                                                         alt=""/>
+                                                    <span className=" d-flex align-items-center p-2 Info-card">Vuela en globo <br/> Globo no compartido</span>
+                                                </div>
+                                                <div className="d-flex">
+                                                    <span className="d-flex align-items-center Price-card pl-3">250€</span>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>*/}
                             {array_cards_experiencias}
 
                         </div>

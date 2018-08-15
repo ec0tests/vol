@@ -1,31 +1,36 @@
 
-
 .modal-backdrop {
-    position: initial!important;}
+    position: initial !important;
+}
 
-.Padding-ico-6{
+.Padding-ico-6 {
     padding-top: 10px;
 }
-.Padding-ico-4{
+
+.Padding-ico-4 {
     padding-top: 18px;
 }
 
-.Arrow-down{
+.Arrow-down {
     animation: MoveUpDown 1s linear infinite;
     position: absolute;
 }
-.Arrow-down a{
+
+.Arrow-down a {
     color: #fff;
     font-size: 4rem;
 }
-.Textoizq h4{
+
+.Textoizq h4 {
     text-align: left;
     font-size: 2.25rem;
 }
-.Textoizq p{
+
+.Textoizq p {
     text-align: left;
     font-size: 1.2rem;
 }
+
 @keyframes MoveUpDown {
     0%, 100% {
         bottom: 0;
@@ -40,35 +45,37 @@
     bottom: 5%;
 }
 
-.Banner-iconos{
+.Banner-iconos {
     font-size: 2rem;
     line-height: 1;
     font-family: 'Barlow Condensed', sans-serif;
 }
+
 .Home-h1 {
     font-weight: 700 !important;
     color: white;
-    line-height: 1!important;
+    line-height: 1 !important;
 
     font-size: 11rem;
 
 }
 
-
-.Combina-vuelo-text{
-    text-transform: inherit!important;
-    font-family: 'Roboto', sans-serif!important;
+.Combina-vuelo-text {
+    text-transform: inherit !important;
+    font-family: 'Roboto', sans-serif !important;
     font-size: 27px;
 }
 
-.Home-h2  {
-    font-size: 4rem!important;
+.Home-h2 {
+    font-size: 4rem !important;
     color: white;
     text-transform: none;
 }
-.Gray{
-    color: #333333!important;
+
+.Gray {
+    color: #333333 !important;
 }
+
 .App {
     text-align: center;
 }
@@ -93,7 +100,6 @@
 /*  MEGAMENU */
 /*-------------------*/
 
-
 header > .container {
     margin: 10% auto;
 }
@@ -105,9 +111,11 @@ header > .container {
     flex-wrap: wrap;
     text-align: left;
 }
-.AbajoTxt{
+
+.AbajoTxt {
     font-size: 1.1rem;
     line-height: 1.1;
+    padding-left: 19px;
 }
 
 .Iconos-header h6 {
@@ -119,10 +127,11 @@ header > .container {
     font-size: 2rem;
     font-weight: bold;
     font-weight: bold;
-    line-height: 1!important;
-    font-family: "Barlow Condensed"!important;
+    line-height: 1 !important;
+    font-family: "Barlow Condensed" !important;
 }
-.Personaliza-experiencia-text{
+
+.Personaliza-experiencia-text {
     font-size: 5rem;
 }
 
@@ -144,30 +153,31 @@ header > .container {
     right: 0;
 }*/
 
-
 .Section1 {
-    background-size: cover!important;
+    background-size: cover !important;
 
     opacity: 1;
     background-repeat: no-repeat;
     padding-top: 1rem;
     padding-bottom: 5.5rem;
-    transform: skewY(0deg) ;
+    transform: skewY(0deg);
     /*margin-top: -6.25rem;
     padding-top: 6.875rem;*/
     padding-top: 15rem;
 }
-.react-parallax-bgimage{
+
+.react-parallax-bgimage {
     top: -30px;
 }
-.Home>.react-parallax{
+
+.Home > .react-parallax {
     transform: skewY(3deg) translateY(-4.25rem);
 }
-.Home>header{
+
+.Home > header {
     position: absolute;
     z-index: 1000;
 }
-
 
 .Section1 > * {
     transform: skewY(-3deg);
@@ -179,13 +189,14 @@ header > .container {
   background-color: #275faa;
   opacity: 80;
 }*/
-.Ico-banners{
+.Ico-banners {
     font-size: 0.9rem;
     font-weight: 500;
-    font-family: Roboto!important;
+    font-family: Roboto !important;
 }
+
 .Asterisco {
-    left: -1.02rem;
+    left: 0rem;
     position: absolute;
     top: -0.6125rem;
     font-size: 2.8rem;
@@ -195,22 +206,18 @@ header > .container {
     margin-bottom: 10%;
 }
 
-
-
 /*-------------------*/
 /*  SECCION 2 */
 /*-------------------*/
 
-
-.row-iconos img{
+.row-iconos img {
     width: 7rem;
 }
+
 .Section2 {
     position: relative;
     padding: 12rem 0;
 }
-
-
 
 .Seccion2-bkg {
     right: 0%;
@@ -219,7 +226,6 @@ header > .container {
     top: -13%;
     z-index: -10;
 }
-
 
 .W-60 {
     width: 60%;
@@ -237,10 +243,6 @@ header > .container {
     -moz-box-shadow: 0 0 2.813rem -0.5625rem rgba(0, 0, 0, 0.4);
     box-shadow: 0 0 2.813rem -0.5625rem rgba(0, 0, 0, 0.4);
 }
-
-
-
-
 
 /*-------------------*/
 /*  SECCION 3 */
@@ -311,10 +313,10 @@ header > .container {
 .Section3 .container {
 }
 
-
-.Justify-md-content-end{
+.Justify-md-content-end {
     justify-content: flex-end;
 }
+
 /*-------------------*/
 /*  SECCION 4 */
 /*-------------------*/
@@ -326,7 +328,6 @@ header > .container {
     padding-top: 20rem;
 }
 
-
 .Section5 .Home-h2 {
     font-size: 1.6rem;
     font-weight: 700;
@@ -336,22 +337,20 @@ header > .container {
     padding: 0;
     margin: 0;
 }
-.Header-sec2{
+
+.Header-sec2 {
     position: relative;
     z-index: -3;
     text-align: left;
 }
 
-.Header-sec3{
+.Header-sec3 {
     text-align: left;
     z-index: -1;
     position: relative;
 }
 
-
-
-
-.Footer_estilo1{
+.Footer_estilo1 {
     background-color: #2260b2;
     padding: 1.5rem;
 }
@@ -364,53 +363,49 @@ footer .Row1 {
     background-color: #2260B3;
 }
 
-
-
-
-.Home footer>.container-fluid{
+.Home footer > .container-fluid {
     background-color: #174382;
 }
 
-
-.Btn-arreglado{
+.Btn-arreglado {
     background-color: #051959 !important;
     float: left;
 }
 
-
-
-
-
-
 @media (max-width: 1199.98px) {
-    #carouselExampleIndicators{
-        height:48rem;
+    #carouselExampleIndicators {
+        height: 48rem;
     }
 
 }
+
 @media (max-width: 1050px) {
-    .Padding-ico-4{
+    .Padding-ico-4 {
         padding-top: 17px;
     }
-    .Mt-tablet{
+
+    .Mt-tablet {
         margin-top: 4rem;
     }
 
     .Section2 {
         position: relative;
-        padding-top: 0rem ;
+        padding-top: 0rem;
     }
 
-    .Padding-icos{
+    .Padding-icos {
         padding-top: 16px;
     }
-    .Text-iconos{
-        font-size: 1.5rem!important;
+
+    .Text-iconos {
+        font-size: 1.5rem !important;
     }
-    #carouselExampleIndicators{
-        height:40rem;
+
+    #carouselExampleIndicators {
+        height: 40rem;
     }
-    .Text-center-tablet{
+
+    .Text-center-tablet {
         text-align: center;
     }
 }
@@ -419,12 +414,23 @@ footer .Row1 {
     .Section5 {
         padding-top: 4rem;
     }
-    .Mt-tablet{
+
+    .Mt-tablet {
         margin-top: 0rem;
     }
-    .Text-iconos{
+
+    .Padding-ico-4 {
+        padding-top: 0px !important;
+        max-width: 64% !important;
+    }
+    .Padding-ico-5 {
+        padding-top: 0px !important;
+        margin-top: -8px;
+    }
+    .Text-iconos {
         font-size: 1.2rem;
     }
+
     .Seccion2-bkg {
         right: 0%;
         width: 100%;
@@ -432,6 +438,203 @@ footer .Row1 {
         top: -13%;
         z-index: -10;
     }
+
+    .Diagonal2 {
+        background: #014db4;
+        position: relative;
+        height: 6rem;
+        top: 2.5rem;
+        width: 100%;
+        -webkit-transform: skewY(-4deg);
+        -ms-transform: skewY(-4deg);
+        transform: skewY(-4deg);
+    }
+
+    .Diagonal1 {
+        z-index: -1;
+        background: #014db4;
+        position: relative;
+        height: 4.3rem;
+        bottom: 1.8rem;
+        width: 100%;
+        -webkit-transform: skewY(4deg);
+        -ms-transform: skewY(4deg);
+        transform: skewY(4deg);
+    }
+
+    .Section1 {
+        padding-top: 10rem;
+        height: auto;
+        padding-bottom: 3.6rem !important;
+    }
+
+    .Section2 {
+        position: relative;
+        padding: 12rem 0;
+        padding-top: 0;
+        padding-bottom: 7rem;
+    }
+
+    .Textoizq p {
+        text-align: left;
+        font-size: 1rem;
+        font-weight: 300;
+
+    }
+
+    .Padding-ico-5 {
+        padding-top: 18px;
+    }
+
+    .Finalsube {
+        font-size: 1.7rem !important;
+        text-align: left;
+        font-weight: 700 !important;
+        padding-left: 19px;
+        font-family: "Barlow Condensed" !important;
+    }
+
+
+    .Home-h1 {
+        font-weight: 700 !important;
+        color: white;
+        margin-top: 3rem;
+        line-height: 1 !important;
+        font-size: 111px;
+    }
+
+    .Home-h2 span {
+        font-weight: 700 !important;
+        color: white;
+        line-height: 1 !important;
+        font-size: 2rem;
+
+    }
+
+    .Header-sec2 {
+        position: relative;
+        z-index: -3;
+        text-align: center;
+    }
+
+    .Section2 h2 {
+        font-weight: bold;
+        font-size: 2.8rem !important;
+    }
+
+    .Section2 h3 {
+        font-size: 1rem;
+        font-weight: normal;
+        font-family: 'Roboto', sans-serif !important;
+        text-transform: initial;
+    }
+
+    .Section3 .container {
+        text-align: left;
+    }
+
+    .Header-sec3 {
+        text-align: center;
+    }
+
+    .Iconos-header {
+        text-align: center;
+        border-left: 0;
+    }
+
+    .Iconos-header h6 {
+        margin-top: 0.5rem;
+        border-bottom: 1px solid white;
+        font-size: 0.9rem;
+        padding-bottom: 1.3rem;
+        margin-bottom: 1% !important;
+    }
+
+    .Little-text {
+        text-align: left;
+        font-size: 0.7rem;
+    }
+
+    .Asterisco {
+        left: 0.2375rem;
+        position: absolute;
+        top: -0.1rem;
+        font-size: 1rem;
+    }
+
+    .Section5 {
+        padding-top: 0rem;
+    }
+
+    .row-iconos img {
+        width: 5rem;
+        height: 4rem;
+    }
+
+    .Justify-md-content-end {
+        justify-content: space-around;
+    }
+
+    .Little-text3 {
+        font-size: 0.9rem !important;
+    }
+
+    .Ic-75 {
+        width: 75%;
+    }
+
+    .Text-left-m {
+        text-align: left !important;
+
+    }
+
+    .Home-h2 {
+        font-size: 40px !important;
+        color: white;
+        text-transform: none;
+        line-height: 1.2;
+    }
+
+    .Padding-icos {
+        padding-top: 0px !important;
+    }
+
+
+    .Padding-ico-5 {
+        padding-top: 14px !important;
+    }
+    .Padding-ico-6 {
+        padding-top: 0px !important;
+
+    }
+}
+
+@media (max-width: 767px) {
+    .AbajoTxt {
+        padding-left: 0px;
+    }
+    .Section5 {
+        padding-top: 4rem;
+    }
+    .Padding-ico-5 {
+        padding-top: 17px !important;
+    }
+    .Mt-tablet {
+        margin-top: 0rem;
+    }
+
+    .Text-iconos {
+        font-size: 1.2rem;
+    }
+
+    .Seccion2-bkg {
+        right: 0%;
+        width: 100%;
+        position: absolute;
+        top: -13%;
+        z-index: -10;
+    }
+
     .Diagonal2 {
         background: #014db4;
         position: relative;
@@ -442,6 +645,7 @@ footer .Row1 {
         -ms-transform: skewY(-4deg);
         transform: skewY(-4deg);
     }
+
     .Diagonal1 {
         z-index: -1;
         background: #014db4;
@@ -453,87 +657,104 @@ footer .Row1 {
         -ms-transform: skewY(4deg);
         transform: skewY(4deg);
     }
-    .Section1{
+
+    .Section1 {
         padding-top: 10rem;
         height: auto;
-        padding-bottom: 3.6rem!important;
+        padding-bottom: 3.6rem !important;
     }
+
     .Section2 {
         position: relative;
         padding: 12rem 0;
         padding-top: 0;
         padding-bottom: 7rem;
     }
+
     .Textoizq p {
         text-align: left;
         font-size: 1rem;
         font-weight: 300;
 
     }
-    .Padding-ico-5{
-        padding-top: 18px;
+
+    .Padding-ico-5 {
+        padding-top: 16px;
     }
+
     .Finalsube {
-        font-size: 1.7rem!important;
+        font-size: 1.7rem !important;
         text-align: left;
-        font-weight: 700!important;
+        font-weight: 700 !important;
         padding-left: 19px;
-        font-family: "Barlow Condensed"!important;
+        font-family: "Barlow Condensed" !important;
     }
-    .Padding-ico-4{
-        padding-top: 16px!important;
+
+    .Padding-ico-4 {
+        padding-top: 28px !important;
     }
+
     .Home-h1 {
         font-weight: 700 !important;
         color: white;
         margin-top: 3rem;
-        line-height: 1!important;
+        line-height: 1 !important;
         font-size: 111px;
     }
-    .Home-h2 span{
-        font-weight: 700!important;
+
+    .Home-h2 span {
+        font-weight: 700 !important;
         color: white;
-        line-height: 1!important;
+        line-height: 1 !important;
         font-size: 2rem;
 
     }
-    .Header-sec2{
+
+    .Header-sec2 {
         position: relative;
         z-index: -3;
         text-align: center;
     }
-    .Section2 h2{
+
+    .Section2 h2 {
         font-weight: bold;
-        font-size: 2.8rem!important;
+        font-size: 2.8rem !important;
     }
-    .Section2 h3{
+
+    .Section2 h3 {
         font-size: 1rem;
         font-weight: normal;
-        font-family: 'Roboto', sans-serif!important;
+        font-family: 'Roboto', sans-serif !important;
         text-transform: initial;
     }
-    .Section3 .container{
+
+    .Section3 .container {
         text-align: left;
     }
 
-    .Header-sec3{
+    .Header-sec3 {
         text-align: center;
     }
-    .Iconos-header{
+
+    .Iconos-header {
         text-align: center;
         border-left: 0;
     }
-    .Iconos-header h6{
+
+    .Iconos-header h6 {
         margin-top: 0.5rem;
         border-bottom: 1px solid white;
         font-size: 0.9rem;
-        padding-bottom: 1.3rem;    margin-bottom: 1% !important;
+        padding-bottom: 1.3rem;
+        margin-bottom: 1% !important;
     }
-    .Little-text{
+
+    .Little-text {
         text-align: left;
         font-size: 0.7rem;
     }
-    .Asterisco{
+
+    .Asterisco {
         left: 0.2375rem;
         position: absolute;
         top: -0.1rem;
@@ -544,74 +765,84 @@ footer .Row1 {
         padding-top: 0rem;
     }
 
-    .row-iconos img{
+    .row-iconos img {
         width: 5rem;
         height: 4rem;
     }
 
-    .Justify-md-content-end{
+    .Justify-md-content-end {
         justify-content: space-around;
     }
-    .Little-text3{
-        font-size: 0.9rem!important;
+
+    .Little-text3 {
+        font-size: 0.9rem !important;
     }
-    .Ic-75{
+
+    .Ic-75 {
         width: 75%;
     }
-    .Text-left-m{
-        text-align: left!important;
+
+    .Text-left-m {
+        text-align: left !important;
 
     }
+
     .Home-h2 {
-        font-size: 40px!important;
+        font-size: 40px !important;
         color: white;
         text-transform: none;
         line-height: 1.2;
     }
-    .Padding-icos{
-        padding-top: 0px!important;
+
+    .Padding-icos {
+        padding-top: 0px !important;
     }
 
-    .Padding-ico-5{
-        padding-top: 0px!important;
 
-    }
-    .Padding-ico-6{
-        padding-top: 0px!important;
+
+    .Padding-ico-6 {
+        padding-top: 0px !important;
 
     }
 }
 
-@media (min-width: 1550px){
-.Diagonal1{
-    height: 14rem;
-    bottom: 7.5rem;
-}
+@media (min-width: 1550px) {
+    .Diagonal1 {
+        height: 14rem;
+        bottom: 7.5rem;
+    }
+
     .Diagonal2 {
         height: 13rem;
-        top: 6.5rem;}
-}
-@media (min-width: 768px){
-
-.Btn-mw{
-    width: 12.5rem!important;
+        top: 6.5rem;
+    }
 }
 
+@media (min-width: 768px) {
+
+    .Btn-mw {
+        width: 12.5rem !important;
+    }
+
 }
+
 @media (max-width: 575.98px) {
 
-    .Padding-ico-4{
-        padding-top: 18px!important;
-        max-width: 56% !important;
+    .Padding-ico-4 {
+        padding-top: 18px !important;
+        max-width: 56% !important;    margin-top: 6px;
     }
+
     .Padding-ico-5 {
-        padding-top: 3px!important;
+        padding-top: 14px !important;
     }
-    .Text-center-tablet{
+
+    .Text-center-tablet {
         text-align: left;
     }
+
     .Home-h2 {
-        font-size: 2.4rem!important;
+        font-size: 2.4rem !important;
         color: white;
         text-transform: none;
         line-height: 1.2;
@@ -620,12 +851,13 @@ footer .Row1 {
 
 @media (max-width: 400px) {
 
-
     .Padding-ico-5 {
-        padding-top: 5px!important;
+        padding-top: 14px !important;
     }
-    .Padding-ico-4{
-        padding-top: 14px!important;
+
+    .Padding-ico-4 {
+        padding-top: 14px !important;
         max-width: 56% !important;
+        margin-top: 6px;
     }
 }

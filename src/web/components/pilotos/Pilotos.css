@@ -149,8 +149,39 @@ p  {
         height: 23rem!important;
     }
 }
+@media (max-width: 1025px) and (min-width: 768px){
+    .Section3-pilotos{
+        margin-bottom: 10rem;
+    }
+    .Pilotos .Row1{
+        width: 100% !important;
+        margin: 0!important;
+    }
 
-@media (max-width: 768px) {
+}
+@media (max-width: 768px){
+    .Logo-footer-movil {
+        max-width: none;
+        padding-top: 24px;
+        width: 268px;
+        margin-top: -33px;
+    }
+    .Pilotos .Oculto-tablet{
+       /* display: none!important;*/
+    }
+    .Pilotos h2 {
+        color: #333333;
+        text-transform: uppercase;
+        width: 50%;
+        font-weight: bold;
+        font-size: 3rem;
+        line-height: 1;
+    }
+}
+@media (max-width: 767px) {
+    .Pilotos .Ocultar-movil{
+        display: none!important;;
+    }
     .Pilotos h4 {
         font-size: 3rem!important;
     }

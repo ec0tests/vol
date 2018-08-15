@@ -24,7 +24,7 @@ var menu_abierto = false;
 var modal_meteorologico = new tingle.modal({
     footer: false,
     stickyFooter: true,
-    closeMethods: ['overlay', 'button', 'escape'],
+    closeMethods: ['overlay',  'escape'],
     closeLabel: "Close",
     cssClass: ['custom-class-1', 'custom-class-2'],
     onOpen: function () {
@@ -193,7 +193,7 @@ const Menu2 = ({logo}) => (
                 <a href="/faq" className="text-white"><li className="Barlow">FAQs</li></a>
 
                 <a href="/pilotos" className="text-white"><li className="Barlow">pilotos</li></a>
-                <li  onClick={openMeteo} className="Barlow">ubicación/meteorología</li>
+                <li  onClick={openMeteo} className="Barlow d-none d-md-block">ubicación/meteorología</li>
 
                 <a href="/blog" className="text-white"> <li className="Barlow">blog</li></a>
 

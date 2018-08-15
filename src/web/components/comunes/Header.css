@@ -308,6 +308,10 @@ p.accordion {
 
 }
 
+.Megamenu-div-movil .col-md-12{
+margin-bottom: 8px;
+    margin-top: 5px;
+}
 /* Add a background color to the accordion if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 
 
@@ -595,6 +599,13 @@ div.panel.show {
 }
 
 @media all and (max-width: 769px) {
+    .Logo-top {
+        width: 33%;
+    }
+    .slideout-sidebar {
+    padding: 0;
+    padding-left: 0!important;
+    width: 100%!important;}
     .Megamenu-div-movil p.accordion:before {
         font-size: 3rem;
         color: #333333;
@@ -627,8 +638,8 @@ div.panel.show {
 
 
     .Logo-top{
-        width: 100%;
-        padding-left: 10px;
+        width: 23%;
+        padding-left: 0;
     }
 
     .Megamenu {
@@ -651,6 +662,10 @@ div.panel.show {
 
 }
 @media all and (max-width: 750px) {
+
+    .Megamenu-div-movil {
+        width: 100% !important;
+    }
 
     .Megamenu-div-movil p.accordion {
         padding-left: 2.5rem;
@@ -685,6 +700,7 @@ div.panel.show {
         right: 22px !important;
     }
 }
+
 @media all and (max-width: 600px) {
     .slideout-sidebar {
         width: 360px;

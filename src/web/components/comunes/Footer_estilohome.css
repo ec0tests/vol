@@ -76,12 +76,17 @@ Footer_estilohome .Row1 {
 
 
 @media (max-width: 900px ) and (min-width: 767px) {
-    .Logo-footer-movil{
-    }
-    .Logo-footer-movil{
-        max-width: none;
-        width: 272px;
 
+    /*.Logo-footer-movil{
+        max-width: none;
+        padding-top: 24px;
+        width: 393px;
+        margin-top: -33px;
+    }*/
+    .Logo-footer-movil {
+        max-width: none;
+        padding-top: 24px;
+        width: 268px;
         margin-top: -33px;
     }
     Pl-tablet-0{

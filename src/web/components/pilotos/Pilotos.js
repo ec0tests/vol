@@ -14,6 +14,7 @@ import Experiencia_completa from "../comunes/Experiencia_completa";
 import logo_globo from '../../images/Globo-header-w.png';
 import bkg1 from '../../images/pilotos-bkg1.png';
 import Arrow_top from "../comunes/Arrow_top"
+import Footer_patrocinadores from "../comunes/Footer_patrocinadores";
 
 /*Creo el array de pilotos provisional*/
 let pilot_cards = [];
@@ -116,7 +117,7 @@ const Pilotos = () => (
 
                 {/*TEXTOS SEO*/}
 
-                <div className="row mt-5 pt-5 d-none d-md-flex justify-content-between Seotext">
+                <div className="row mt-5 pt-5 d-none d-md-flex justify-content-between Seotext Oculto-tablet">
                     <div className="col-12 mb-5">
                         <h2>Qué debes saber</h2>
                     </div>
@@ -144,8 +145,10 @@ const Pilotos = () => (
         <Experiencia_volarGlobo/>
 
         </section>
-        <footer className="Footer_estilo1 d-none d-md-block">
-            <Footer_estilo1/>
+        <footer className="Footer_estilohome d-none d-md-block Ocultar-movil">
+            <Footer_estilohome/>
+            <Footer_patrocinadores/>
+
         </footer>
 
         <div className="Footer_estilohome d-block d-md-none ">

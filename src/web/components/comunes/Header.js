@@ -51,7 +51,7 @@ $(document).on("click", function (e) {
     }
 });
 $(document).ready(function () {
-    if ($(window).width() <= 600) {
+    if ($(window).width() <= 768) {
         $('#logo').attr('src', logo);
 
     }
