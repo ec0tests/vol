@@ -158,7 +158,9 @@ p {
 .
 .Section4-faq .Container-video {
 }
-
+.Tablet{
+    display: none!important;
+}
 /*SECTION 3*/
 
 .Section4-faq {
@@ -670,7 +672,9 @@ p {
 .Section4-faq .Card-row {
     margin-bottom: 0 !important;
 }
-
+.Faq .Combina-vuelo-text{
+    display: none!important;
+}
 .Section4-faq .carousel-indicators {
     padding-top: 2%;
 }
@@ -1355,10 +1359,40 @@ p {
         width: 100% !important;
         margin: 0!important;
     }
+    .Faq .Experiencia-completa-bkg {
+        left: 0;
+        position: absolute;
+        top: -16%;
+        z-index: -1;
+    }
+    .Section4-faq {
+        height: 50rem;
+        position: relative;
+        display: -ms-flexbox;
+        padding-top: 7rem !important;
+        display: flex;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        background-size: cover !important;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-clip-path: polygon(0 22%, 100% 6%, 100% 100%, 0% 100%);
+        clip-path: polygon(0 22%, 100% 6%, 100% 100%, 0% 100%);
+        padding-top: 13rem!important;
+    }
     .Tablet {
         display: block!important;
         padding: 0!important;
 
+    }
+
+    .Tablet{
+        display: block!important;
+    }
+    .No-tablet{
+        display: none!important;
     }
 
     .Movil {

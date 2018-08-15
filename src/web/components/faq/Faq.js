@@ -103,13 +103,18 @@ const Faq = () => (
         <Experiencia_completa/>
         </div>
         <section id="Section3" className="Section3-faq Text-gray d-none d-md-block">
-            <img src={bkg2} className="Seccion3-faq-bkg" alt=""/>
 
-            <div className="container">
+            <img src={bkg2} className="Seccion3-faq-bkg No-tablet" alt=""/>
+
+            <div className="container No-tablet">
                 <Carousel_cards/>
             </div>
+
+            <div className="Tablet">
+                <Experiencia_completa/>
+            </div>
         </section>
-        <section className="Section4-faq">
+        <section className="Section4-faq ">
             <Experiencia_volarGlobo/>
         </section>
 

@@ -16,7 +16,7 @@ const Experiencia_completa = () => (
     <section id="Experiencia-completa" className="Experiencia-completa">
         <img src={bkg3} className="Experiencia-completa-bkg img-fluid" alt=""/>
         <div className="container pt-4">
-            <h2 className="Text-gray text-uppercase d-none d-md-block">La experiencia completa </h2>
+            <h2 className="Text-gray text-uppercase d-none d-md-block w-100">La experiencia completa </h2>
             <h2 className="Text-gray text-uppercase text-center  d-md-none">La experiencia  </h2>
             <h3 className="d-none d-md-block Combina-vuelo-text">Una oferta redonda para cada gusto</h3>
             <div className="row justify-content-center pt-4">

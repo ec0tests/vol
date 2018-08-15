@@ -51,7 +51,18 @@
 @media all and (max-width: 991px) {
 }
 
+@media all and (max-width: 1025px) and (min-width: 769px){
+    .Experiencia-completa h5{
+        font-size: 2.2rem!important;
+        top: 92px;
+    }
+
+
+}
 @media all and (max-width: 768px) {
+    .Experiencia-completa h5{
+        font-size: 2.2rem!important;
+    }
     .Experiencia-completa h2{
         font-size: 3rem!important;
         margin-top: 1rem;
