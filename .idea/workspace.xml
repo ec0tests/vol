@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="689f3cfd-3ccb-444b-a116-11e30d561ec9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/web/components/comunes/Experiencia_completa.css" afterPath="$PROJECT_DIR$/src/web/components/comunes/Experiencia_completa.css" />
-      <change beforePath="$PROJECT_DIR$/src/web/components/comunes/Experiencia_completa.js" afterPath="$PROJECT_DIR$/src/web/components/comunes/Experiencia_completa.js" />
-      <change beforePath="$PROJECT_DIR$/src/web/components/faq/Faq.css" afterPath="$PROJECT_DIR$/src/web/components/faq/Faq.css" />
-      <change beforePath="$PROJECT_DIR$/src/web/components/faq/Faq.js" afterPath="$PROJECT_DIR$/src/web/components/faq/Faq.js" />
+      <change beforePath="$PROJECT_DIR$/src/web/components/comunes/Footer_patrocinadores.css" afterPath="$PROJECT_DIR$/src/web/components/comunes/Footer_patrocinadores.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -40,6 +36,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Footer_patrocinadores.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/web/components/comunes/Footer_patrocinadores.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="553">
+              <caret line="47" column="23" lean-forward="false" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Home.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/web/components/home/Home.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -52,7 +58,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Faq.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Faq.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/web/components/faq/Faq.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="431">
@@ -104,16 +110,6 @@
                 <element signature="e#0#39#0" expanded="true" />
                 <element signature="e#86#135#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Pilotos.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/web/components/pilotos/Pilotos.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3799">
-              <caret line="147" column="4" lean-forward="false" selection-start-line="147" selection-start-column="4" selection-end-line="152" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -201,7 +197,6 @@
         <option value="$PROJECT_DIR$/src/web/components/comunes/Buscador_filtro.js" />
         <option value="$PROJECT_DIR$/src/admin/components/adm_vuelos/Vuelo.js" />
         <option value="$PROJECT_DIR$/src/admin/components/adm_productos/Producto.js" />
-        <option value="$PROJECT_DIR$/src/web/components/comunes/Footer_patrocinadores.css" />
         <option value="$PROJECT_DIR$/src/web/components/comunes/Subetufoto.js" />
         <option value="$PROJECT_DIR$/src/web/components/comunes/Subetufoto.css" />
         <option value="$PROJECT_DIR$/src/web/components/blogp/Entrada_blog.js" />
@@ -234,10 +229,11 @@
         <option value="$PROJECT_DIR$/src/web/components/faq/Pregunta_faq.css" />
         <option value="$PROJECT_DIR$/src/web/components/ficha/Ficha.js" />
         <option value="$PROJECT_DIR$/src/web/components/ficha/Ficha.css" />
-        <option value="$PROJECT_DIR$/src/web/components/faq/Faq.js" />
         <option value="$PROJECT_DIR$/src/web/components/comunes/Experiencia_completa.css" />
         <option value="$PROJECT_DIR$/src/web/components/comunes/Experiencia_completa.js" />
         <option value="$PROJECT_DIR$/src/web/components/faq/Faq.css" />
+        <option value="$PROJECT_DIR$/src/web/components/faq/Faq.js" />
+        <option value="$PROJECT_DIR$/src/web/components/comunes/Footer_patrocinadores.css" />
       </list>
     </option>
   </component>
@@ -590,12 +586,12 @@
       <workItem from="1534090988146" duration="10603000" />
       <workItem from="1534190746783" duration="5784000" />
       <workItem from="1534284290641" duration="10194000" />
-      <workItem from="1534339120331" duration="1310000" />
+      <workItem from="1534339120331" duration="2005000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="650709000" />
+    <option name="totallyTimeSpent" value="651404000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -805,14 +801,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/components/comunes/Footer_patrocinadores.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1073">
-          <caret line="37" column="21" lean-forward="false" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/web/components/comunes/Footer_estilo1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5017">
@@ -1014,16 +1002,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/components/faq/Faq.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="112" column="34" lean-forward="false" selection-start-line="112" selection-start-column="34" selection-end-line="112" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/web/components/comunes/Experiencia_completa.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="617">
@@ -1047,6 +1025,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="431">
           <caret line="1366" column="5" lean-forward="false" selection-start-line="1366" selection-start-column="5" selection-end-line="1366" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/components/faq/Faq.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="112" column="34" lean-forward="false" selection-start-line="112" selection-start-column="34" selection-end-line="112" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/components/comunes/Footer_patrocinadores.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="553">
+          <caret line="47" column="23" lean-forward="false" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
           <folding />
         </state>
       </provider>
