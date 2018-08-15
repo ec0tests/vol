@@ -160,7 +160,9 @@ height: 27rem;
     font-weight: 600;
 }
 /*ICONOS FONT AWESOMEE A COLOR*/
-
+.Ficha .Parar{
+    height: 30px;
+}
 .Face-ico-color{
     color:#3a559f;
     font-size: 2.2rem;
@@ -516,7 +518,17 @@ iframe{
 
 
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 769px) and (min-width: 768px) {
+    .Ficha .col-12{
+        padding-right: 0!important;
+        padding-left: 0!important;
+    }
+    .Text-center-tablet{
+        text-align: center !important;
+    }
+    .Padding-30{
+        padding-left: 1rem!important;
+    }
     .Ficha p.accordion.active:before {
         content: url('../../images/flecha-arriba.png') !important;
         text-align: right;
