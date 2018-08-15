@@ -151,15 +151,54 @@ p  {
 }
 @media (max-width: 1025px) and (min-width: 768px){
     .Section3-pilotos{
-        margin-bottom: 10rem;
+        margin-bottom: 40rem;
     }
+    .Pilotos .Seccion-final .Container-card {
+        top: -59%;
+        position: relative;
+    }
+
     .Pilotos .Row1{
         width: 100% !important;
         margin: 0!important;
     }
-
+    .Pilotos .Seccion-final h4 {
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 2.5rem!important;
+        text-transform: uppercase;
+    }
 }
-@media (max-width: 768px){
+@media (max-width: 992px){
+    .Pilotos-h1-movil{
+        font-family: 'Barlow Condensed', sans-serif!important;
+        font-size: 2.5rem!important;
+        color: #FFFFFF!important;
+        font-weight: 600!important;
+
+    }
+
+    .Section1-pilotos {
+        background-size: cover!important;
+        background: url(/static/media/pilotos-bkg1.de6b0e65.jpg);
+        background-repeat: no-repeat;
+        padding-top: 0rem;
+        height: 18rem;
+    }
+    .Pilotos .Container-video .Z-index3{
+        margin-top: -14rem;
+    }
+    .Seccion-final{
+        height: 60rem!important;
+    }
+
+    .Pilotos .Seccion-final .Container-card {
+        top: -77%;
+        position: relative;
+    }
+    .Section3-pilotos{
+        margin-bottom: 29rem;
+    }
     .Logo-footer-movil {
         max-width: none;
         padding-top: 24px;
@@ -176,6 +215,15 @@ p  {
         font-weight: bold;
         font-size: 3rem;
         line-height: 1;
+    }
+    .Pilotos-h2-movil{
+        font-family: 'Roboto', sans-serif!important;
+        text-transform: initial!important;
+        font-size: 1rem!important;
+        color: #FFFFFF!important;
+        width: 100% !important;
+        font-weight: normal!important;
+
     }
 }
 @media (max-width: 767px) {

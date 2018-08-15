@@ -129,7 +129,7 @@ class Ficha extends React.Component {
                 <section className="Section1-ficha">
                     <Header logo={logo_b}/>
 
-                    <div className="container-fluid d-flex justify-content-center">
+                    <div className="container-fluid d-flex justify-content-center P-0-movil p-md-auto">
                         <div className="row w-100 text-left p-0 p-md-3  pl-0 pl-md-5">
                             <div className="col-12 col-md-6 my-5 my-md-0 my-lg-5">
                                 <h1 className="text-uppercase  ">vuelo en globo + <br/> cabaña en los arboles</h1>
@@ -242,7 +242,7 @@ class Ficha extends React.Component {
                                             href="">Más info</a></p>
                                 </div>
 
-                                <div className="row mb-0 py-3 d-none d-md-flex Padding-30">
+                                <div className="row mb-0 py-3 d-none d-lg-flex Padding-30">
                                     <h2 className="w-100">FECHAS Y DISPONIBILIDAD</h2>
                                     <div className="col-12 col-md-12 col-lg-12 col-xl-6  py-4 px-0">
 
@@ -256,9 +256,9 @@ class Ficha extends React.Component {
                                 </div>
 
                                 {/*MOBILE*/}
-                                <div className="row mb-3 P-relative  d-md-none Click">
-                                    {/* <img src={flecha_abajo} className="d-md-none Flechas-faq Flecha-abajo Click Z-index-bajo" alt=""/>
-                            <img src={flecha_arriba} className="d-md-none Flechas-faq Ocultar Flecha-arriba Click Z-index-bajo" alt=""/>*/}
+                                <div className="row mb-3 P-relative Padd-5   d-lg-none Click">
+                                    {/* <img src={flecha_abajo} className="d-lg-none Flechas-faq Flecha-abajo Click Z-index-bajo" alt=""/>
+                            <img src={flecha_arriba} className="d-lg-none Flechas-faq Ocultar Flecha-arriba Click Z-index-bajo" alt=""/>*/}
                                     <p className="accordion  ">FECHAS Y DISPONIBILIDAD</p>
                                     <div className="panel ">
                                         <div className="col-12 col-md-12 col-lg-12 col-xl-6 py-4 px-0">
@@ -277,15 +277,15 @@ class Ficha extends React.Component {
                                 </div>
 
 
-                                <div className="col-12 mb-5 py-3  flex-wrap d-none d-md-flex">
+                                <div className="col-12 mb-5 py-3  flex-wrap d-none d-lg-flex">
                                     <h2 className="w-100 mb-3">IMAGÉNES E INSTALACIONES</h2>
                                     {array_imagenesficha}
                                     <Video_ficha/>
                                 </div>
 
-                                <div className="row mb-3 P-relative d-md-none">
-                                    {/* <img src={flecha_abajo} className="d-md-none Flechas-faq Flecha-abajo Click Z-index-bajo" alt=""/>
-                            <img src={flecha_arriba} className="d-md-none Flechas-faq Ocultar Flecha-arriba Click Z-index-bajo" alt=""/>*/}
+                                <div className="row mb-3 P-relative d-lg-none Padd-5">
+                                    {/* <img src={flecha_abajo} className="d-lg-none Flechas-faq Flecha-abajo Click Z-index-bajo" alt=""/>
+                            <img src={flecha_arriba} className="d-lg-none Flechas-faq Ocultar Flecha-arriba Click Z-index-bajo" alt=""/>*/}
                                     <p className="accordion  ">IMAGÉNES E INSTALACIONES</p>
                                     <div className="panel row">
                                         {array_imagenesficha}
@@ -294,7 +294,7 @@ class Ficha extends React.Component {
 
                                 </div>
 
-                                <div className="col-12 mb-5 py-3 flex-wrap d-none d-md-flex Click">
+                                <div className="col-12 mb-5 py-3 flex-wrap d-none d-lg-flex Click">
                                     <h2 className="w-100 mb-3">LA OPINIÓN DE NUESTROS CLIENTES</h2>
                                     <div className="row">
                                         <div className="col-12 d-flex Review-titulo">
@@ -355,7 +355,7 @@ class Ficha extends React.Component {
 
                                             </div>
                                         </div>
-                                        <div className="col-12 d-flex Review-opinion">
+                                        <div className="col-12 d-flex Review-opinion ">
                                             <div className="col-2 col-md-2 col-lg-1 pr-2 p-0 Text-center-tablet"><img
                                                 src="http://via.placeholder.com/50x50" className="img-fluid" alt=""/>
                                             </div>
@@ -383,8 +383,8 @@ class Ficha extends React.Component {
                                 </div>
 
                                 <div className="row mb-3 P-relative py-0 Padding-30 py-md-3 Padding-l-movil Click ">
-                                    {/* <img src={flecha_abajo} className="d-md-none Flechas-faq Flecha-abajo Click Z-index-bajo" alt=""/>
-                            <img src={flecha_arriba} className="d-md-none Flechas-faq Ocultar Flecha-arriba Click Z-index-bajo" alt=""/>*/}
+                                    {/* <img src={flecha_abajo} className="d-lg-none Flechas-faq Flecha-abajo Click Z-index-bajo" alt=""/>
+                            <img src={flecha_arriba} className="d-lg-none Flechas-faq Ocultar Flecha-arriba Click Z-index-bajo" alt=""/>*/}
                                     <p className="accordion  ">Cómo regalar el viaje</p>
                                     <div className="panel P-generico">
                                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquam animi
@@ -395,8 +395,8 @@ class Ficha extends React.Component {
                                 </div>
 
                                 <div className="row mb-3 P-relative py-0 Padding-30 py-md-3 Padding-l-movil Click">
-                                    {/* <img src={flecha_abajo} className="d-md-none Flechas-faq Flecha-abajo Click Z-index-bajo" alt=""/>
-                            <img src={flecha_arriba} className="d-md-none Flechas-faq Ocultar Flecha-arriba Click Z-index-bajo" alt=""/>*/}
+                                    {/* <img src={flecha_abajo} className="d-lg-none Flechas-faq Flecha-abajo Click Z-index-bajo" alt=""/>
+                            <img src={flecha_arriba} className="d-lg-none Flechas-faq Ocultar Flecha-arriba Click Z-index-bajo" alt=""/>*/}
                                     <p className="accordion  ">Sensaciones</p>
                                     <div className="panel P-generico">
                                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquam animi
@@ -410,7 +410,7 @@ class Ficha extends React.Component {
                                     </a>
 
                                 </div>
-                                {/*    <div className="col-12 mt-4  text-left align-items-center d-none d-md-flex">
+                                {/*    <div className="col-12 mt-4  text-left align-items-center d-none d-lg-flex">
                             <div className="Div-ico Ico-ficha">
                                 <a href="https://es-es.facebook.com/voldecoloms/">
 
@@ -446,7 +446,7 @@ class Ficha extends React.Component {
                             </div>
                         </div>
 */}
-                                <div className="col-12 mt-4 text-left align-items-center d-none d-md-flex">
+                                <div className="col-12 mt-4 text-left align-items-center d-none d-lg-flex">
                                     <div className="Div-ico">
                                         <a href="https://es-es.facebook.com/voldecoloms/">
 

@@ -88,11 +88,11 @@ const Pilotos = () => (
             <Header logo={logo_b}/>
           
             <div className="container-fluid">
-                <div className="row text-left p-1 p-md-3 pl-md-5 pt-md-5 pt-3 mt-md-5">
+                <div className="row text-left p-1 px-md-5 p-lg-3 pl-lg-5 pt-md-2 pt-lg-5 pt-3 mt-lg-5">
                     <div className="col-12 ">
-                        <h1 className="text-uppercase Pilotos-h1 d-none d-sm-block"> los pilotos de <br/> vol de coloms</h1>
-                        <h1 className="text-uppercase Pilotos-h1-movil d-block d-sm-none mt-4"> nuestros pilotos</h1>
-                        <h2 className="text-uppercase Pilotos-h2-movil d-block d-sm-none"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam architecto asperiores delectus dolores doloribus eos esse hic inventore minima nisi omnis porro praesentium reprehenderit saepe sequi sunt, suscipit veritatis, voluptatum!</h2>
+                        <h1 className="text-uppercase Pilotos-h1 d-none d-lg-block"> los pilotos de <br/> vol de coloms</h1>
+                        <h1 className="text-uppercase Pilotos-h1-movil d-block d-lg-none mt-4"> nuestros pilotos</h1>
+                        <h2 className="text-uppercase Pilotos-h2-movil d-block d-lg-none"> Combina tu viaje en globo con actividades de aventura para disfrutar del paraje de la Garrocha en todo su esplendor con actividades de aventura.</h2>
 
 
                     </div>

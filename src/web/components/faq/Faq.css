@@ -206,7 +206,7 @@ p {
 
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 992px) {
 
     .Section1-faq {
         min-height: 27rem;

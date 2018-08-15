@@ -523,11 +523,15 @@ iframe{
         padding-right: 0!important;
         padding-left: 0!important;
     }
+
+    .Ficha .Review-titulo  .col-12.align-items-center{
+        padding-left: 1rem!important;
+    }
     .Text-center-tablet{
         text-align: center !important;
     }
     .Padding-30{
-        padding-left: 1rem!important;
+        padding-left: 0rem!important;
     }
     .Ficha p.accordion.active:before {
         content: url('../../images/flecha-arriba.png') !important;
@@ -551,8 +555,8 @@ iframe{
         background-color: white;
     }
     .Section4-ficha{
-        height: 30rem!important;
-        padding-top: 1rem;
+        height: 38rem!important;
+        padding-top: 6rem;
     }
     .Padding-l-movil{
         padding: 0!important;
@@ -562,10 +566,10 @@ iframe{
         padding-left: 1rem;
         font-family: 'Barlow Condensed', sans-serif!important;
         width: 100%;
-        font-size: 1.6rem!important;
+        font-size: 2.6rem!important;
         margin-bottom: 1rem;
         padding-bottom: 0.5rem!important;
-        border-bottom: 1px solid #a0a0a0;
+        border-bottom: 1px solid #D3D3D3;
     }
 
     .Col-fixed {
@@ -573,9 +577,7 @@ iframe{
           height: 30rem;
 
       }
-    .Padding-30{
-        padding-left: 0!important;
-    }
+
 
     .Ficha h1{
         font-size: 3.5rem;
@@ -597,6 +599,99 @@ iframe{
     }
 }
 @media all and (max-width: 767px) {
+    .Col-tarjeta {
+        position: absolute;
+         top: 0rem;
+         right: 0rem;
+        text-align: -webkit-right;
+    }
+    .Ficha p.accordion:after {
+        content: '+';
+        font-size: 3rem;
+        color: #333333;
+        float: left;
+        margin-left: 5px;
+        position: absolute;
+        left: -3rem;
+        top: -5px;
+        display: none;
+    }
+    .Padding-30 {
+        padding-left: 5px!important;
+        padding-right: 5px!important;
+    }
+    .Section2-ficha p.accordion {
+        color: #333333;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 1.6rem!important;
+        position: relative!important;
+    }
+    .Section4-ficha {
+        background: url(/static/media/bkg-experiencia-1920.a7c7b477.jpg);
+        background-repeat: no-repeat;
+        height: 36rem;
+        position: relative;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        background-size: cover!important;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-clip-path: polygon(0 22%, 100% 6%, 100% 100%, 0% 100%);
+        clip-path: polygon(0 22%, 100% 6%, 100% 100%, 0% 100%);
+        padding-top: 10rem;
+    }
+    .Section3-ficha {
+        position: relative;
+        padding-top: 1rem;
+        padding-bottom: 0rem;
+    }
+    .Ficha p.accordion:before {
+        content: url('../../images/flecha-abajo.png') !important;
+        text-align: right;
+        margin-bottom: 0px;
+        top: -25px!important;
+    }
+    .Padd-5{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .Ficha .activep.accordion:before {
+        content: url('../../images/flecha-abajo.png') !important;
+        text-align: right;
+        margin-bottom: 0px;
+        top: -25px!important;
+    }
+    /* Unicode character for "minus" sign (-) */
+    .Ficha p.accordion.active:after {
+        content: "-";
+        margin-bottom: 0;
+        top: -5px;
+        display: none;
+
+    }
+    .Ficha .Section1-ficha{
+
+    }
+    .Ficha .P-0-movil{
+        padding: 0;
+    }
+    .Ficha h1 {
+        color: white;
+        font-weight: bold;
+        font-size: 3.7rem;
+        font-family: 'Barlow Condensed', sans-serif;
+        line-height: 1;
+        margin-bottom: 1.2rem;
+    }
+    .Span-precio{
+        display: none;
+    }
+
     .Desktop {
         display: none !important;
     }

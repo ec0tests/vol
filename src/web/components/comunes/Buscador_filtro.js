@@ -226,23 +226,26 @@ class Buscador_filtro extends React.Component {
         $(document).on("click", function (e) {
             let clase = $(e.target).attr("class");
             console.log(clase);
-            if (clase != "img-fluid" && clase != "Opacity" && !clase.includes("Btn-restablecer") && !clase.includes("Btn-gris-sinfondo")) {
-                $(".Botones-filtro .card").hide();
-                personas_abierto=false;
-                filtro_abierto=false;
-                tipo_abierto=false;
+            if(clase){
+                if (clase != "img-fluid" && clase != "Opacity" && !clase.includes("Btn-restablecer") && !clase.includes("Btn-gris-sinfondo")) {
+                    $(".Botones-filtro .card").hide();
+                    personas_abierto=false;
+                    filtro_abierto=false;
+                    tipo_abierto=false;
 
-                if ($("#input_hidden_tipopack").val() == "Pack_romantico") {
-                    $(".Btn-gris-sinfondo").removeClass('Filtro-activado-romantico');
+                    if ($("#input_hidden_tipopack").val() == "Pack_romantico") {
+                        $(".Btn-gris-sinfondo").removeClass('Filtro-activado-romantico');
 
-                } else if ($("#input_hidden_tipopack").val() == "Pack_historico") {
-                    $(".Btn-gris-sinfondo").removeClass('Filtro-activado-historico');
+                    } else if ($("#input_hidden_tipopack").val() == "Pack_historico") {
+                        $(".Btn-gris-sinfondo").removeClass('Filtro-activado-historico');
 
-                } else {
-                    $(".Btn-gris-sinfondo").removeClass('Filtro-activado');
+                    } else {
+                        $(".Btn-gris-sinfondo").removeClass('Filtro-activado');
 
+                    }
+                    $(".Elemento-tarjeta").removeClass('Difuminado');
                 }
-                $(".Elemento-tarjeta").removeClass('Difuminado');
+
             }
 
         });

@@ -248,7 +248,7 @@ class Home extends React.Component {
                                     <p className="mt-3 text-uppercase Little-text3 Text-iconos text-white">empresas </p>
                                 </div>
                             </div>
-                            <div className="col-12 mt-2 ml-4 ml-md-0 mt-md-5 ">
+                            <div className="col-12 mt-2 ml-4 ml-md-0 mt-md-3 mt-lg-5 ">
                                 <p className="text-white Little-text AbajoTxt"><strong> <span
                                     className=" Asterisco"> * </span> Vuelos adaptados & 100% accesibles
                                 </strong><br/> Personas mayores , discapacidades, sillas
