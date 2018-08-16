@@ -15,6 +15,7 @@ import Experiencia_volarGlobo from "../comunes/Experiencia_volarGlobo";
 import Arrow_top from "../comunes/Arrow_top";
 import Buscador_filtro from "../comunes/Buscador_filtro";
 import Buscador_filtro_movil from "../comunes/Buscador_filtro_movil";
+import Footer_patrocinadores from "../comunes/Footer_patrocinadores";
 
 
 /*Creo el array de filtro provisional*/
@@ -238,11 +239,16 @@ class Pack_romantico extends React.Component{
                 <div className="Section5-pack-romantico">
                     <Experiencia_volarGlobo/>
                 </div>
-                <footer className="Footer_estilo1 d-none d-md-block">
-                    <Footer_estilo1/>
+                <footer className="Footer_estilohome  Tablet">
+                    <Footer_estilohome/>
+                    <Footer_patrocinadores/>
+
                 </footer>
 
-                <div className="Footer_estilohome d-md-none">
+                <footer className="Footer_estilo1 Desktop">
+                    <Footer_estilo1/>
+                </footer>
+                <div className="Footer_estilohome Movil">
                     <div className="container">
 
                         <Footer_estilohome/>

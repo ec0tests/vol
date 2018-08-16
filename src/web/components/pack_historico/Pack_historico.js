@@ -13,6 +13,8 @@ import Experiencia_completa from "../comunes/Experiencia_completa";
 import Experiencia_volarGlobo from "../comunes/Experiencia_volarGlobo";
 import Buscador_filtro from "../comunes/Buscador_filtro";
 import Buscador_filtro_movil from "../comunes/Buscador_filtro_movil";
+import Footer_estilohome from "../comunes/Footer_estilohome";
+import Footer_patrocinadores from "../comunes/Footer_patrocinadores";
 
 
 /*Creo el array de filtro provisional*/
@@ -238,10 +240,22 @@ class Pack_historico extends React.Component{
                 <div className="Section5-pack-historico">
                     <Experiencia_volarGlobo/>
                 </div>
-                <footer className="Footer_estilo1">
-                    <Footer_estilo1/>
+                <footer className="Footer_estilohome  Tablet">
+                    <Footer_estilohome/>
+                    <Footer_patrocinadores/>
+
                 </footer>
 
+                <footer className="Footer_estilo1 Desktop">
+                    <Footer_estilo1/>
+                </footer>
+                <div className="Footer_estilohome Movil">
+                    <div className="container">
+
+                        <Footer_estilohome/>
+                    </div>
+
+                </div>
             </div>
         )
     }

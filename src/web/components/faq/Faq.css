@@ -202,9 +202,7 @@ p {
     }
 }
 
-@media all and (max-width: 991px) {
 
-}
 
 @media all and (max-width: 992px) {
 
@@ -1412,7 +1410,18 @@ p {
         min-height: 41rem;
     }
 }
-
+@media all and (max-width: 991px) {
+    .Section1-faq {
+        min-height: 30rem!important;
+    }
+    .Tamano-tablet {
+        -ms-flex: 0 0 80%;
+        flex: 0 0 80%;
+        max-width: 80%;
+        min-height: 25rem!important;
+        padding-top: 2rem!important;
+    }
+}
 @media all and (max-width: 767px) {
     .Desktop {
         display: none!important;

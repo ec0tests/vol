@@ -3,17 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="689f3cfd-3ccb-444b-a116-11e30d561ec9" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/src/App.css" afterPath="$PROJECT_DIR$/src/App.css" />
-      <change beforePath="$PROJECT_DIR$/src/web/components/bloge/Bloge.css" afterPath="$PROJECT_DIR$/src/web/components/bloge/Bloge.css" />
-      <change beforePath="$PROJECT_DIR$/src/web/components/bloge/Bloge.js" afterPath="$PROJECT_DIR$/src/web/components/bloge/Bloge.js" />
-      <change beforePath="$PROJECT_DIR$/src/web/components/blogp/Blogp.css" afterPath="$PROJECT_DIR$/src/web/components/blogp/Blogp.css" />
-      <change beforePath="$PROJECT_DIR$/src/web/components/blogp/Blogp.js" afterPath="$PROJECT_DIR$/src/web/components/blogp/Blogp.js" />
-      <change beforePath="$PROJECT_DIR$/src/web/components/comunes/Buscador_filtro_movil.css" afterPath="$PROJECT_DIR$/src/web/components/comunes/Buscador_filtro_movil.css" />
-      <change beforePath="$PROJECT_DIR$/src/web/components/comunes/Buscador_filtro_movil.js" afterPath="$PROJECT_DIR$/src/web/components/comunes/Buscador_filtro_movil.js" />
-      <change beforePath="$PROJECT_DIR$/src/web/components/contact/Contact.js" afterPath="$PROJECT_DIR$/src/web/components/contact/Contact.js" />
-      <change beforePath="$PROJECT_DIR$/src/web/components/filtro/Filtro.css" afterPath="$PROJECT_DIR$/src/web/components/filtro/Filtro.css" />
-      <change beforePath="$PROJECT_DIR$/src/web/components/filtro/Filtro.js" afterPath="$PROJECT_DIR$/src/web/components/filtro/Filtro.js" />
-      <change beforePath="$PROJECT_DIR$/src/web/components/instalaciones/Instalaciones.js" afterPath="$PROJECT_DIR$/src/web/components/instalaciones/Instalaciones.js" />
-      <change beforePath="$PROJECT_DIR$/src/web/components/pilotos/Pilotos.css" afterPath="$PROJECT_DIR$/src/web/components/pilotos/Pilotos.css" />
+      <change beforePath="$PROJECT_DIR$/src/web/components/faq/Faq.css" afterPath="$PROJECT_DIR$/src/web/components/faq/Faq.css" />
+      <change beforePath="$PROJECT_DIR$/src/web/components/pack_historico/Pack_historico.js" afterPath="$PROJECT_DIR$/src/web/components/pack_historico/Pack_historico.js" />
+      <change beforePath="$PROJECT_DIR$/src/web/components/pack_romantico/Pack_romantico.js" afterPath="$PROJECT_DIR$/src/web/components/pack_romantico/Pack_romantico.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,18 +16,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Ficha.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/web/components/ficha/Ficha.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="503" column="16" lean-forward="false" selection-start-line="503" selection-start-column="16" selection-end-line="508" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Filtro.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/web/components/filtro/Filtro.css">
           <provider selected="true" editor-type-id="text-editor">
@@ -46,7 +26,67 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Buscador_filtro_movil.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Faq.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/web/components/faq/Faq.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="606">
+              <caret line="1423" column="1" lean-forward="false" selection-start-line="1423" selection-start-column="1" selection-end-line="1423" selection-end-column="1" />
+              <folding>
+                <element signature="e#21950#23359#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Instalacion.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/web/components/instalaciones/Instalacion.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1367">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Ficha.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/web/components/ficha/Ficha.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="703">
+              <caret line="515" column="22" lean-forward="true" selection-start-line="509" selection-start-column="14" selection-end-line="515" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Pack_historico.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/web/components/pack_historico/Pack_historico.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="242" column="15" lean-forward="false" selection-start-line="242" selection-start-column="15" selection-end-line="257" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Pack_romantico.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/web/components/pack_romantico/Pack_romantico.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="402">
+              <caret line="243" column="22" lean-forward="true" selection-start-line="243" selection-start-column="22" selection-end-line="243" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Buscador_filtro_movil.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/web/components/comunes/Buscador_filtro_movil.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="567">
@@ -81,53 +121,9 @@
       <file leaf-file-name="App.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="840" column="21" lean-forward="false" selection-start-line="840" selection-start-column="21" selection-end-line="840" selection-end-column="21" />
+            <state relative-caret-position="358">
+              <caret line="232" column="14" lean-forward="false" selection-start-line="232" selection-start-column="14" selection-end-line="232" selection-end-column="14" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Instalaciones.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/web/components/instalaciones/Instalaciones.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="82" column="76" lean-forward="false" selection-start-line="82" selection-start-column="76" selection-end-line="82" selection-end-column="76" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Contact.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/web/components/contact/Contact.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3045">
-              <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Bloge.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/web/components/bloge/Bloge.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="257" column="0" lean-forward="false" selection-start-line="257" selection-start-column="0" selection-end-line="272" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Filtro.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/web/components/filtro/Filtro.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="145" column="48" lean-forward="true" selection-start-line="145" selection-start-column="48" selection-end-line="145" selection-end-column="48" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -144,7 +140,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>col-12 mt-4 text-left align-items-center d-none d-md-flex</find>
       <find>1px solid #a0a0a0</find>
       <find>d-md-noned-</find>
       <find>MOBILE</find>
@@ -165,15 +160,16 @@
       <find>row w-100 text-left p-0 p-md-3  pl-0 pl-md-5</find>
       <find>.Row1</find>
       <find>102</find>
-      <find>768</find>
       <find>row text-left p-3 pl-md-5 pt-5</find>
       <find>Buscador_filtro_movil</find>
       <find>movil</find>
       <find>d-md-n</find>
       <find>d-</find>
       <find>col-md-3</find>
-      <find>Filtro-movi</find>
       <find>col-6 col-md-6 d-flex align-items-center justify-content-end pr-1 pr-md-5 P-initial</find>
+      <find>Filtro-movi</find>
+      <find>768</find>
+      <find>(max-width: 1025px) and (min-width: 768px)</find>
     </findStrings>
     <replaceStrings>
       <replace>VOL DE COLOMS</replace>
@@ -194,9 +190,7 @@
         <option value="$PROJECT_DIR$/src/web/components/pilotos/Card_pilotos.css" />
         <option value="$PROJECT_DIR$/src/web/components/comunes/Card_experiencias.css" />
         <option value="$PROJECT_DIR$/src/web/components/comunes/Experiencia_volarGlobo.css" />
-        <option value="$PROJECT_DIR$/src/web/components/pack_historico/Pack_historico.js" />
         <option value="$PROJECT_DIR$/src/web/components/pack_historico/Pack_historico.css" />
-        <option value="$PROJECT_DIR$/src/web/components/pack_romantico/Pack_romantico.js" />
         <option value="$PROJECT_DIR$/src/web/components/pack_romantico/Pack_romantico.css" />
         <option value="$PROJECT_DIR$/src/web/components/ficha/Imagenes_ficha.js" />
         <option value="$PROJECT_DIR$/src/web/components/comunes/Buscador_filtro.css" />
@@ -225,7 +219,6 @@
         <option value="$PROJECT_DIR$/src/web/components/comunes/Buscador_filtro.js" />
         <option value="$PROJECT_DIR$/src/web/components/pilotos/Pilotos.js" />
         <option value="$PROJECT_DIR$/src/web/components/home/Home.css" />
-        <option value="$PROJECT_DIR$/src/web/components/faq/Faq.css" />
         <option value="$PROJECT_DIR$/src/web/components/comunes/Experiencia_completa.css" />
         <option value="$PROJECT_DIR$/src/web/components/comunes/Header.css" />
         <option value="$PROJECT_DIR$/src/web/components/ficha/Ficha.js" />
@@ -237,11 +230,14 @@
         <option value="$PROJECT_DIR$/src/web/components/pilotos/Pilotos.css" />
         <option value="$PROJECT_DIR$/src/web/components/filtro/Filtro.js" />
         <option value="$PROJECT_DIR$/src/web/components/contact/Contact.js" />
-        <option value="$PROJECT_DIR$/src/App.css" />
         <option value="$PROJECT_DIR$/src/web/components/instalaciones/Instalaciones.js" />
         <option value="$PROJECT_DIR$/src/web/components/filtro/Filtro.css" />
         <option value="$PROJECT_DIR$/src/web/components/comunes/Buscador_filtro_movil.js" />
         <option value="$PROJECT_DIR$/src/web/components/comunes/Buscador_filtro_movil.css" />
+        <option value="$PROJECT_DIR$/src/App.css" />
+        <option value="$PROJECT_DIR$/src/web/components/faq/Faq.css" />
+        <option value="$PROJECT_DIR$/src/web/components/pack_historico/Pack_historico.js" />
+        <option value="$PROJECT_DIR$/src/web/components/pack_romantico/Pack_romantico.js" />
       </list>
     </option>
   </component>
@@ -595,12 +591,12 @@
       <workItem from="1534190746783" duration="5784000" />
       <workItem from="1534284290641" duration="10194000" />
       <workItem from="1534339120331" duration="13706000" />
-      <workItem from="1534428738405" duration="7091000" />
+      <workItem from="1534428738405" duration="8052000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="670196000" />
+    <option name="totallyTimeSpent" value="671157000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -639,29 +635,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/web/components/comunes/Subetufoto.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="23" column="58" lean-forward="false" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/components/comunes/Subetufoto.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="28" column="5" lean-forward="false" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/components/comunes/Card_experiencias.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/web/components/blogp/Entrada_blog.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="223">
@@ -842,14 +815,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/components/faq/Faq.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6032">
-          <caret line="208" column="30" lean-forward="false" selection-start-line="208" selection-start-column="30" selection-end-line="208" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/web/components/contact/Contact.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4611">
@@ -976,28 +941,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/components/ficha/Ficha.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="503" column="16" lean-forward="false" selection-start-line="503" selection-start-column="16" selection-end-line="508" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/web/components/contact/Contact.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3045">
           <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="840" column="21" lean-forward="false" selection-start-line="840" selection-start-column="21" selection-end-line="840" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -1053,6 +1000,64 @@
         <state relative-caret-position="567">
           <caret line="223" column="1" lean-forward="false" selection-start-line="223" selection-start-column="1" selection-end-line="223" selection-end-column="1" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="232" column="14" lean-forward="false" selection-start-line="232" selection-start-column="14" selection-end-line="232" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/components/faq/Faq.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="606">
+          <caret line="1423" column="1" lean-forward="false" selection-start-line="1423" selection-start-column="1" selection-end-line="1423" selection-end-column="1" />
+          <folding>
+            <element signature="e#21950#23359#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/components/instalaciones/Instalacion.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1367">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/components/ficha/Ficha.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="515" column="22" lean-forward="true" selection-start-line="509" selection-start-column="14" selection-end-line="515" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/components/pack_historico/Pack_historico.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="242" column="15" lean-forward="false" selection-start-line="242" selection-start-column="15" selection-end-line="257" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/components/pack_romantico/Pack_romantico.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="243" column="22" lean-forward="true" selection-start-line="243" selection-start-column="22" selection-end-line="243" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
