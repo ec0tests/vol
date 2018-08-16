@@ -130,12 +130,12 @@ class Ficha extends React.Component {
                     <Header logo={logo_b}/>
 
                     <div className="container-fluid d-flex justify-content-center P-0-movil p-md-auto">
-                        <div className="row w-100 text-left p-0 p-md-3  pl-0 pl-md-5">
+                        <div className="row w-100 text-left p-0 p-md-3  pl-0 pl-lg-5">
                             <div className="col-12 col-md-6 my-5 my-md-0 my-lg-5">
                                 <h1 className="text-uppercase  ">vuelo en globo + <br/> cabaña en los arboles</h1>
 
                             </div>
-                            <div id="nav" className="col-12 col-md-6 col-lg-4 Col-tarjeta p-0 P-fixed Col-fixed">
+                            <div id="nav" className="col-12 col-md-5 col-lg-4 Col-tarjeta p-0 P-fixed Col-fixed">
                                 <div className="card w-100 h-100 p-3">
                                     <div className="card-body text-left p-1 P-absolute Card-body-fixed">
                                         <div className="row w-100 justify-content-between flex-nowrap">

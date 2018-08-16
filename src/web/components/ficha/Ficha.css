@@ -488,9 +488,20 @@ iframe{
         font-size: 2rem;
     }.Col-fixed {
          background-color: white;
-         height: 23rem!important;
+         height: 20rem!important;
      }
-
+     .Span-precio{
+         display: none;
+     }
+    .Ficha h1 {
+        color: white;
+        font-weight: bold;
+        font-size: 3rem;
+        font-family: 'Barlow Condensed', sans-serif;
+        line-height: 1;
+        margin-bottom: 1.2rem;
+        padding-top: 3.5rem;
+    }
     .Form-reservaa{
         margin-top: 10px!important;
     }
@@ -518,10 +529,13 @@ iframe{
 
 
 
-@media all and (max-width: 769px) and (min-width: 768px) {
+@media all and (max-width: 992px) and (min-width: 768px) {
     .Ficha .col-12{
         padding-right: 0!important;
         padding-left: 0!important;
+    }
+    .Span-precio{
+        display: none;
     }
 
     .Ficha .Review-titulo  .col-12.align-items-center{
