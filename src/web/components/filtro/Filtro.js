@@ -22,6 +22,7 @@ import Experiencia_volarGlobo from "../comunes/Experiencia_volarGlobo";
 import Footer_estilohome from "../comunes/Footer_estilohome";
 import Arrow_top from "../comunes/Arrow_top";
 import Buscador_filtro from "../comunes/Buscador_filtro";
+import Footer_patrocinadores from "../comunes/Footer_patrocinadores";
 
 
 
@@ -205,11 +206,17 @@ class Filtro extends React.Component{
                     <Experiencia_volarGlobo/>
                 </section>
 
-                <footer className="Footer_estilo1">
+                <footer className="Footer_estilo1 Desktop">
                     <Footer_estilo1/>
                 </footer>
 
-                <div className="Footer_estilohome">
+                <footer className="Footer_estilohome  Tablet">
+                    <Footer_estilohome/>
+                    <Footer_patrocinadores/>
+
+                </footer>
+
+                <div className="Footer_estilohome Movil">
                     <div className="container mw-100">
 
                     <Footer_estilohome/>

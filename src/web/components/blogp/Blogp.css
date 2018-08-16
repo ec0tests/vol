@@ -1,5 +1,16 @@
 
+.Desktop {
+    display: block!important;
+}
 
+.Tablet {
+    display: none!important;
+    padding: 0!important;
+}
+
+.Movil {
+    display: none!important;
+}
 .Blogp h1{
     font-style: italic;
     color: #9a9a9a;
@@ -179,7 +190,22 @@ p  {
     }
 
 }
+@media all and (max-width: 1025px) and (min-width: 768px) {
 
+.Tablet {
+    display: block!important;
+    padding: 0!important;
+
+}
+.Section4-blogp{
+    margin-bottom: 4rem;
+}
+.Movil {
+    display: none!important;
+}
+.Desktop {
+    display: none!important;
+}}
 @media all and (max-width: 991px) {
 
 }
@@ -209,6 +235,20 @@ p  {
 
 }
 
+@media all and (max-width: 767px){
+    .Desktop {
+        display: none !important;
+    }
+    .Tablet {
+        padding: 0 !important;
+
+        display: none !important;
+    }
+
+    .Movil {
+        display: block !important;
+    }
+}
 @media all and (max-width: 575px) {
 
 }

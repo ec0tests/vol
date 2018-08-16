@@ -288,7 +288,7 @@ const Bloge = () => (
             <Subetufoto/>
 
         </section>
-        <footer className="pt-5 d-none d-md-block">
+        <footer className="pt-5 d-none d-md-block Desktop">
             <div className="container-fluid px-1 px-md-5">
                 <div className="row">
                     <div className="col-12 mb-3">
@@ -413,8 +413,12 @@ const Bloge = () => (
             <Footer_patrocinadores/>
 
         </footer>
+        <footer className="Footer_estilohome  Tablet">
+            <Footer_estilohome/>
+            <Footer_patrocinadores/>
 
-        <div className="Footer_estilohome">
+        </footer>
+        <div className="Footer_estilohome Movil">
             <div className="container">
 
                 <Footer_estilohome/>

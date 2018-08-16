@@ -111,7 +111,7 @@ const Blogp = () => (
             <Subetufoto/>
 
         </section>
-        <footer className="pt-5 d-none d-md-block">
+        <footer className="pt-5 d-none d-md-block Desktop">
             <div className="container-fluid px-5">
                 <div className="row">
                     <div className="col-12 mb-3">
@@ -212,6 +212,7 @@ const Blogp = () => (
                     </div>
 
                 </div>*/}
+
                 <div className="row pt-5">
                     <div className="col-4 col-lg-6 text-left d-flex align-items-center">
                           <span
@@ -268,8 +269,12 @@ const Blogp = () => (
             <Footer_patrocinadores/>
 
         </footer>
+        <footer className="Footer_estilohome  Tablet">
+            <Footer_estilohome/>
+            <Footer_patrocinadores/>
 
-        <div className="Footer_estilohome">
+        </footer>
+        <div className="Footer_estilohome Movil">
             <div className="container">
 
                 <Footer_estilohome/>

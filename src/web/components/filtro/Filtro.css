@@ -201,21 +201,80 @@ p  {
     .Filtro .Experiencia-h4{
         font-size: 2.7rem!important;
     }
+    .carousel-indicators {
+        top: 11%;
+        z-index: 10000;
+    }
 .Seccion3-filtro{
     height: 64rem;
 }
+    .Section3-filtro {
+        background-size: cover!important;
+        background: url(/static/media/pilotos-bkg4.1d1f1449.jpg);
+        background-repeat: no-repeat;
+        height: 56rem;
+        position: relative;
+        display: -ms-flexbox;
+        padding-top: 16rem;
+        display: flex;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+.Filtro .Margen-negativo {
+    margin-top: -53rem!important;
+
+}
+    .Section3-filtro .Z-index3 {
+        padding-top: 42rem!important;
+    }
 .Filtro .Precio-card {
     font-weight: bold;
     color: #cccccc;
     font-size: 1.9rem;
     padding-right: 8px;
 }
+    .Section2-filtro {
+        position: relative;
+        padding-top: 2rem;
+        margin-bottom: 36rem;
+    }
 .Section3-filtro .Z-index3 {
     padding-top: 14rem;
 }}
-@media all and (max-width: 991px) {
+@media all and (max-width: 991px) and (min-width: 768px) {
     .Footer_estilohome{
         display: none;
+    }
+    .Botones-filtro{
+        display: none;
+    }
+    .Section2-filtro {
+        position: relative;
+        padding-top: 2rem;
+        margin-bottom: 26rem;
+    }
+    .Section3-filtro {
+        background-size: cover!important;
+        background: url(/static/media/pilotos-bkg4.1d1f1449.jpg);
+        background-repeat: no-repeat;
+        height: 51rem;
+        position: relative;
+        display: -ms-flexbox;
+        padding-top: 16rem;
+        display: flex;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .Filtro .Margen-negativo {
+        margin-top: -43rem!important;
+
+    }
+    .Section3-filtro .Z-index3 {
+        padding-top: 32rem!important;
     }
     .Filtro .Precio-card {
         font-weight: bold;
@@ -228,6 +287,9 @@ p  {
 @media all and (max-width: 767px) {
     .Footer_estilohome{
         display: flex!important;
+    }
+    .Botones-filtro{
+        display: none;
     }
     .Footer_estilo1{
         display: none;

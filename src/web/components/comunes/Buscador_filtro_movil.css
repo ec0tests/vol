@@ -1,35 +1,40 @@
-.Cruz{
-    color: #333333!important;
+.Cruz {
+    color: #333333 !important;
 
     font-size: 3rem;
     width: 100%;
     text-align: right;
     padding-right: 2rem;
-    font-size: 3rem!important;
-    color: gray!important;
+    font-size: 3rem !important;
+    color: gray !important;
     margin-top: -29px;
-    padding-top: 0.5rem!important;
+    padding-top: 0.5rem !important;
     position: absolute;
 }
-.F-peq1{
-    font-size: 14px!important;
+
+.F-peq1 {
+    font-size: 14px !important;
 }
-.Div-btnfiltro{
+
+.Div-btnfiltro {
     text-align: right;
 }
-.Div-btnfiltro i{
-    font-size: 3rem!important;
+
+.Div-btnfiltro i {
+    font-size: 3rem !important;
 
 }
-.Div-btnfiltro button{
+
+.Div-btnfiltro button {
     background: transparent;
     border: 0;
     color: #333333;
     font-weight: 600;
-    font-size: 0.8rem!important;
+    font-size: 0.8rem !important;
 
 }
-.Filtro-div-movil{
+
+.Filtro-div-movil {
     position: fixed;
     top: 0;
     right: 0;
@@ -40,43 +45,50 @@
     width: 100%;
     background-color: #FFFFFF;
 }
-.Filtro-div-movil p.accordion{
+
+.Filtro-div-movil p.accordion {
     padding-left: 1rem;
     padding-bottom: 0.6rem;
     border-bottom: 1px solid #464646;
     margin-bottom: 1rem;
-    font-size: 1.6rem!important;
+    font-size: 1.6rem !important;
 
 }
-.Filtro-div-movil p.accordion:before{
 
-    color: #333333!important;
-    font-size: 2rem!important;
+.Filtro-div-movil p.accordion:before {
+
+    color: #333333 !important;
+    font-size: 2rem !important;
     top: -0.3rem;
     left: 2rem;
 }
-.Filtro-div-movil div.panel{
-    background-color: transparent!important;
+
+.Filtro-div-movil div.panel {
+    background-color: transparent !important;
 
 }
 
-.Filtro-div-movil .Datepicker-inline{
+.Filtro-div-movil .Datepicker-inline {
     text-align: center;
     margin: 35px 0;
 }
-.Filtro-div-movil div.panel li{
+
+.Filtro-div-movil div.panel li {
     list-style: none;
     padding-left: 3.6rem;
 }
-.Filtro-div-movil div.panel li span{
+
+.Filtro-div-movil div.panel li span {
     font-size: 1rem;
-  }
-.Buscador-filtro-movil .Flechas-faq{
+}
+
+.Buscador-filtro-movil .Flechas-faq {
     position: absolute;
     right: 18px;
     top: 13px;
 }
-.Filtro-movil-open{
+
+.Filtro-movil-open {
     background-color: #f0f0f0;
     border: 0;
     position: relative;
@@ -86,32 +98,36 @@
     right: 10.6%;
     top: 0;
 }
-.Filtro-icomo{
+
+.Filtro-icomo {
     font-size: 18px;
     width: 30px;
 }
-.Filtro-movil{
+
+.Filtro-movil {
     font-size: 16px;
 }
-.Filtros-color{
-    padding-top: 1px!important;
-    color: #676767!important;
+
+.Filtros-color {
+    padding-top: 1px !important;
+    color: #676767 !important;
 }
 
-.Filtro-div ul li{
+.Filtro-div ul li {
     list-style: none;
     font-family: 'Roboto', sans-serif;
-    color: #333333!important;
+    color: #333333 !important;
 
     text-align: left;
 }
+
 /*------------------------------------------
 
 
 /* Unicode character for "plus" sign (+) */
 .Buscador-filtro-movil p.accordion:before {
     content: url('../../images/flecha-abajo.png') !important;
-text-align: right;
+    text-align: right;
     font-size: 3rem;
     padding-right: 13px;
     color: #333333;
@@ -119,7 +135,7 @@ text-align: right;
     margin-left: 5px;
     position: absolute;
     left: -3rem;
-    top: -0.4rem!important;
+    top: -0.4rem !important;
 }
 
 /* Unicode character for "minus" sign (-) */
@@ -127,7 +143,7 @@ text-align: right;
 .Buscador-filtro-movil p.accordion.active:before {
     content: url('../../images/flecha-arriba.png') !important;
     padding-right: 13px;
-text-align: right;
+    text-align: right;
     margin-bottom: 0;
 }
 
@@ -139,19 +155,19 @@ div.panel {
     overflow: hidden;
     transition: 0.4s ease-in-out;
     opacity: 0;
-    color: #333333!important;
+    color: #333333 !important;
 
-    margin-bottom:10px;
+    margin-bottom: 10px;
     font-size: 1.2rem;
-    font-family: 'Roboto', sans-serif!important;
+    font-family: 'Roboto', sans-serif !important;
 
 }
 
-.Buscador-filtro-movil span{
+.Buscador-filtro-movil span {
     font-size: 1rem;
 }
 
-.Buscador-filtro-movil button{
+.Buscador-filtro-movil button {
     font-size: 1rem;
 }
 
@@ -170,7 +186,7 @@ div.panel.show {
 
 }
 
-@media (max-width: 767px) {
+@media (max-width: 992px) {
 
     .content-container {
         max-width: 100%;
@@ -195,6 +211,14 @@ div.panel.show {
         width: 100%;
     }
 
-
 }
 
+@media (max-width: 992px) and (min-width: 768px) {
+
+    .Filtro-div-movil {
+        position: fixed;
+        top: 0;
+        width: 75% !important;
+    }
+
+}

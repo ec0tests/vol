@@ -20,6 +20,7 @@ import Footer_estilo1 from "../comunes/Footer_estilo1";
 import Experiencia_volarGlobo from "../comunes/Experiencia_volarGlobo";
 import Arrow_top from "../comunes/Arrow_top";
 import $ from 'jquery';
+import Footer_patrocinadores from "../comunes/Footer_patrocinadores";
 /*Creo el array de contact provisional*/
 $(document).ready(function(){
     $('#characterLeft').text('');
@@ -114,11 +115,16 @@ const Contact = () => (
         </section>
 
 
-        <footer className="Footer_estilo1 d-none d-md-block">
+        <footer className="Footer_estilo1 d-none d-md-block Desktop">
             <Footer_estilo1/>
         </footer>
+        <footer className="Footer_estilohome  Tablet">
+            <Footer_estilohome/>
+            <Footer_patrocinadores/>
 
-        <div className="Footer_estilohome d-block d-md-none">
+        </footer>
+
+        <div className="Footer_estilohome d-block d-md-none Movil">
             <div className="container mw-100">
 
                 <Footer_estilohome/>

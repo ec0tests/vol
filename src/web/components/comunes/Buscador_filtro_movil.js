@@ -259,15 +259,15 @@ class Buscador_filtro_movil extends React.Component {
 
 
         return (
-            <div className="Buscador-filtro-movil d-md-none">
+            <div className="Buscador-filtro-movil d-lg-none">
                 <div className="container-fluid">
                     <div className="row p-md-3 p-0 pt-2 pt-md-0 pl-0 pl-md-5 justify-content-end mb-2">
                         <div
-                            className="col-6 col-md-6 d-flex align-items-center justify-content-end pr-1 pr-md-5 P-initial">
+                            className="col-6 col-md-6 d-flex align-items-center justify-content-end pr-1 pr-lg-5 P-initial">
                             <div className="Div-btnfiltro">
                                 {/*Boton movil*/}
                                 <button id="btn_filtro" onClick={show_filtro}
-                                        className="Filtro-movil  Open-filtro d-md-none Filtros-color">FILTROS
+                                        className="Filtro-movil  Open-filtro d-lg-none Filtros-color">FILTROS
                                 </button>
                                 <img onClick={show_filtro} src={filtro} className="Filtro-icomo" alt=""/>
                             </div>
@@ -284,7 +284,7 @@ class Buscador_filtro_movil extends React.Component {
                         <span className="F-peq1">Filtra los resultados</span>
                     </div>
                     <nav className="row mb-1 text-left w-100">
-                        <div className="col-md-3 Click1 ">
+                        <div className="col-md-12 Click1 ">
                             {/*<img src={flecha_abajo} className="d-md-none Flechas-faq Flecha-abajo Click1 Z-index-bajo"
                                  alt=""/>
                             <img src={flecha_arriba}
@@ -295,7 +295,7 @@ class Buscador_filtro_movil extends React.Component {
 
                             </div>
                         </div>
-                        <div className="col-md-3 Click2 ">
+                        <div className="col-md-12 Click2 ">
                            {/* <img src={flecha_abajo} className="d-md-none Flechas-faq Flecha-abajo Click2 Z-index-bajo"
                                  alt=""/>
                             <img src={flecha_arriba}
@@ -344,7 +344,7 @@ class Buscador_filtro_movil extends React.Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-3 Click3 ">
+                        <div className="col-md-12 Click3 ">
                           {/*  <img src={flecha_abajo} className="d-md-none Flechas-faq Flecha-abajo Click3 Z-index-bajo"
                                  alt=""/>
                             <img src={flecha_arriba}
@@ -412,7 +412,7 @@ class Buscador_filtro_movil extends React.Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-3 Click4 ">
+                        <div className="col-md-12 Click4 ">
                             {/*<img src={flecha_abajo} className="d-md-none Flechas-faq Flecha-abajo Click4 Z-index-bajo"
                                  alt=""/>
                             <img src={flecha_arriba}
