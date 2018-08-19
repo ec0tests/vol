@@ -130,7 +130,7 @@ class Ficha extends React.Component {
                     <Header logo={logo_b}/>
 
                     <div className="container-fluid d-flex justify-content-center P-0-movil p-md-auto">
-                        <div className="row w-100 text-left p-0 p-md-3  pl-0 pl-lg-5">
+                        <div className="row w-100 text-left p-0 p-md-3 pr-lg-0 pl-0 pl-lg-5">
                             <div className="col-12 col-md-6 my-5 my-md-0 my-lg-5">
                                 <h1 className="text-uppercase  ">vuelo en globo + <br/> cabaña en los arboles</h1>
 
@@ -155,7 +155,8 @@ class Ficha extends React.Component {
                                                 <label for="inputPassword"
                                                        className="col-sm-5 col-md-5 col-xl-5 col-form-label Label-form">Personas</label>
                                                 <div className="col-sm-7  col-md-7 col-xl-7">
-                                                    <input type="number" className="form-control" id="inputPassword"
+                                                    <input  data-toggle="modal"
+                                                            data-target="#modal_compras_pasajeros" type="number" className="form-control" id="inputPassword"
                                                            placeholder="Personas"/>
                                                 </div>
                                             </div>
@@ -163,7 +164,8 @@ class Ficha extends React.Component {
                                                 <label for="inputPassword"
                                                        className="col-sm-5 col-md-5 col-xl-5 col-form-label Label-form">Fecha</label>
                                                 <div className="col-sm-7 col-md-7 col-xl-7">
-                                                    <input type="date" value="22/05/1996" className="form-control"
+                                                    <input data-toggle="modal"
+                                                           data-target="#modal_compras_fechas" type="date" value="22/05/1996" className="form-control"
                                                            id="inputPassword" placeholder="Fecha"/>
                                                 </div>
                                             </div>

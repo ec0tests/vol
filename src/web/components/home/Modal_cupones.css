@@ -1,3 +1,60 @@
+/*FASES*/
+#fase1{
+
+}
+#fase2{
+display: none;
+}
+#fase3{
+    display: none;
+}
+#fase4{
+    display: none;
+}
+#fase5{
+    display: none;
+}
+#fecha_disponible{
+    display: none;
+}
+.Disabled{
+    opacity: 0.8;
+}
+.w-97{
+    width: 97% !important;
+}
+.Titulo-ac{
+    color: #fff;
+    font-family: Roboto;
+    font-size: 0.95rem;
+    text-align: left;
+    margin-top: 20px;
+
+}
+.Fechad-txt{
+    font-size: 0.7rem;
+}
+.Acompanante div{
+    float: left;
+}
+#modal_cupon .react-calendar{
+    box-shadow: none;
+}
+#modal_cupon .react-date-picker__calendar.react-date-picker__calendar--closed {
+    font-size: 11px;
+    width: 258px;}
+#modal_cupon .react-date-picker__calendar.react-date-picker__calendar--open {
+    font-size: 11px;
+    width: 258px;}
+.Span-fecha{
+    margin-top: 4px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #fff;
+    line-height: 1.3;
+    text-align: left!important;
+    font-family: 'Roboto', sans-serif;
+}
 .Boton-cupon {
     width: 100%;
     color: #fff;
@@ -8,28 +65,39 @@
     font-size: 27px !important;
     font-weight: 500;
 }
-
+.Back-dblue{
+    background-color: #0A1F3C;
+    padding: 20px;
+}
 .Titulo-cupon {
     border: 0;
     color: #014db4;
     font-family: 'Roboto', sans-serif;
-    text-align: center;
+    text-align: left;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
 
 }
 
+
 .Titulo-cupon > h5 {
-    font-size: 2rem;
-    font-weight: 500;
+    font-size: 4.5rem;
+    font-weight: 600;
+    color: #fff;
+    text-align: left !important;
+    text-transform: uppercase;
+    font-family: "Barlow Condensed";
+    line-height: 1;
 }
 
 .Titulo-cupon > span {
     margin-top: 4px;
-    font-size: 1.1rem;
-    font-weight: 500;
-    color: #014db4;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #fff;
+line-height: 1.3;
+    text-align: left!important;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -60,37 +128,115 @@
     max-width: 50% !important;
 }
 
+.Mw-40-cup {
+    max-width: 40% !important;
+}
+.Cerrar-cupon{
+    position: absolute;
+    top: 7px;
+    right: 7px;
+    cursor: pointer;
+    width: 27px;
+}
 .Input-cupon {
     border: 0;
-    font-size: 19px;
+    font-size: 16px;
     font-weight: 500;
-    border-bottom: 2px solid #014db4;
-    padding-bottom: 15px !important;
+    background-color: #0a3f62;
+    padding:  9px 0.505rem!important;
+    text-align: left!important;
+    color: #fff;
+    margin-right:  20px!important;
+    padding-left: 16px!important;
+}
+.Validar-cupon{
+    font-size: 14px!important;
+    padding-top: 0.7rem!important;
 }
 
 #modal_cupon{
     background-color: rgba(0, 0, 0, 0.63);
 }
+#error_cupon{
+    font-size: 0.8rem;
+    display: none;
+}
+.Fecha-input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: white;
+}
+
+.Fecha-input::-moz-placeholder { /* Firefox 19+ */
+    color: white;
+}
+
+.Fecha-input:-ms-input-placeholder { /* IE 10+ */
+    color: white;
+}
+
+.Fecha-input:-moz-placeholder { /* Firefox 18- */
+    color: white;
+}
+
+
 .Input-cupon::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-    color: #014db4;
-    font-size: 1.4rem;
+    color: white;
+        font-size: 14px;
+    text-transform: uppercase;
     font-weight: 500;
 }
 
 .Input-cupon::-moz-placeholder { /* Firefox 19+ */
-    color: #014db4;
-    font-size: 1.4rem;
+    color: white;
+        font-size: 14px;
+    text-transform: uppercase;
     font-weight: 500;
 }
 
 .Input-cupon:-ms-input-placeholder { /* IE 10+ */
-    color: #014db4;
-    font-size: 1.4rem;
+    color: white;
+        font-size: 14px;
+    text-transform: uppercase;
     font-weight: 500;
 }
 
 .Input-cupon:-moz-placeholder { /* Firefox 18- */
-    color: #014db4;
-    font-size: 1.4rem;
+    color: white;
+        font-size: 14px;
+    text-transform: uppercase;
     font-weight: 500;
+}
+
+.Problema-txt{
+    color: #fff!important;
+    font-size: 0.75rem;
+}
+
+.Problema-txt a{
+    color: #fff!important;
+    font-size: 0.75rem;
+    text-decoration: underline;
+}
+
+.Blue{
+    background-color: #0a3656!important;
+}
+@media (max-width: 1450px){
+    .Ficha .modal .Mw-40-cup{
+        max-width: 80% !important;
+    }
+    .Home .modal .Mw-40-cup{
+        max-width: 80% !important;
+    }
+
+}
+@media (max-width: 768px){
+    .Ficha .modal .w-25{
+        width: 20% !important;
+    }
+    .Home .modal .w-25{
+        width: 20% !important;
+    }
+    .Footer-precio{
+        width: 100% !important;
+    }
 }

@@ -187,12 +187,12 @@ class Home extends React.Component {
                         </div>
                         <div className="row my-4">
                             <div className="col-12  Text-center-tablet">
-                                <Link to="/filtro">
+                                <a href="/filtro">
                                     <button className="text-uppercase Btn-red-h mt-2" data-toggle="modal" data-target="#modal_cupon">Reservar</button>
-                                </Link>
+                                </a>
                             </div>
                             <div className="col-12  Text-center-tablet">
-                                <button className="text-uppercase Btn-darkblue-h mt-2 " data-toggle="modal" data-target="#modal_cupon">Canjear cupón</button>
+                                <button className="text-uppercase Btn-darkblue-h mt-2 " data-toggle="modal" data-target="#modal_cupon">código regalo</button>
                             </div>
                             <div className="col-12 Text-center-tablet">
                                 <Link to="/filtro">
