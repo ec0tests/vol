@@ -76,11 +76,11 @@ this.fecha_confirmada=true;
 
             <div class="modal fade" id="modal_cupon" tabindex="-1" role="dialog"
                  aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered Mw-40-cup" role="document">
+                <div class="modal-dialog modal-dialog-centered Mw-45-cup" role="document">
                     <div id="fase1" class="modal-content Back-dblue ">
                         <div class="modal-header pb-0 Titulo-cupon P-relative">
                             <img src={cerrar_cupon} className="Cerrar-cupon" data-dismiss="modal" alt=""/>
-                            <h5 class="modal-title w-100  text-uppercase" id="exampleModalLongTitle">código
+                            <h5 class="modal-title w-100 mb-3  text-uppercase" id="exampleModalLongTitle">código
                                 regalo</h5>
                             <span className="w-100 text-center ">Introduce el código que figura en tu tarjeta de regalo a continuación y descubre el apasionante viaje que te espera  </span>
 
@@ -160,7 +160,7 @@ this.fecha_confirmada=true;
                                 </button>
                                 <p id="fecha_disponible"  className=" mb-0 mt-1 Problema-txt w-100 Fechad-txt">La fecha seleccionada está disponible</p>
                             </div>
-                            <div className="col-12 col-lg-6 ">
+                            <div className="col-12 col-lg-6 Padding-l-movil-0">
                                 <Datepicker tipo={'inline'} />
                             </div>
                         </div>

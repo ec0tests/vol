@@ -6,6 +6,10 @@ import './Carousel_card.css';
 
 class Carousel_cards extends React.Component{
     componentDidMount(){
+
+
+// Swipe functions for Bootstrap Carousel
+
         $(".Flecha-real1").click(function () {
             $(".Flecha-real1").hide();
             $(".Flecha-real2").hide();
@@ -15,6 +19,7 @@ class Carousel_cards extends React.Component{
                 $(".Flecha-real2").fadeIn(100);
             },400)
         });
+
         $(".Flecha-real2").click(function () {
             $(".Flecha-real1").hide();
             $(".Flecha-real2").hide();

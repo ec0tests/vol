@@ -746,7 +746,7 @@ p {
     }
 
     .Section2-faq {
-        padding-left: 1rem !important;
+        padding-left: 4rem !important;
         padding-right: 0rem !important;
         padding-top: 0 !important;
     }
@@ -764,8 +764,8 @@ p {
     }
 
     .Faq h1 {
-        font-size: 2rem;
-        margin-top: 1.5rem;
+        font-size: 3rem;
+        margin-top: 0.5rem;
     }
 
     .Faq h3 {
@@ -1010,7 +1010,7 @@ p {
     }
 
     .Section2-faq {
-        padding-left: 1rem !important;
+        padding-left: 4rem !important;
         padding-right: 0rem !important;
         padding-top: 0 !important;
     }
@@ -1027,10 +1027,6 @@ p {
         padding-bottom: 0;
     }
 
-    .Faq h1 {
-        font-size: 2rem;
-        margin-top: 1.5rem;
-    }
 
     .Faq h3 {
         font-size: 1.1rem;
@@ -1299,7 +1295,7 @@ p {
     }
 
     .Section2-faq {
-        padding-left: 1rem !important;
+        padding-left: 4rem !important;
         padding-right: 0rem !important;
         padding-top: 0 !important;
     }
@@ -1317,8 +1313,8 @@ p {
     }
 
     .Faq h1 {
-        font-size: 2rem;
-        margin-top: 1.5rem;
+        font-size: 3rem;
+        margin-top: 0.5rem;
     }
 
     .Faq h3 {
@@ -1353,6 +1349,9 @@ p {
     .Desktop {
         display: none!important;
     }
+.Tablet-pl-0{
+    padding-left: 0;
+}
     .Faq .Row1{
         width: 100% !important;
         margin: 0!important;
@@ -1426,7 +1425,13 @@ p {
     .Desktop {
         display: none!important;
     }
-
+    .Tamano-tablet {
+        -ms-flex: 0 0 80%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        min-height: 25rem!important;
+        padding-top: 2rem!important;
+    }
     .Tablet {
         padding: 0!important;
 

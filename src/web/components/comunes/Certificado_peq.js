@@ -25,7 +25,14 @@ var modal_opiniones = new tingle.modal({
 });
 
 
-
+modal_opiniones.setContent('' +
+    '<h2>Opiniones Tripadvisor</h2>' +
+    '<div id="TA_selfserveprop283" class="TA_selfserveprop">\n' +
+    '<ul id="Kw6rhBfDGI" class="TA_links pX1RMLo">\n' +
+    '<li id="mcMxmpC" class="560RvmRKj6S">\n' +
+    '<a target="_blank" href="https://www.tripadvisor.es/"><img src="https://www.tripadvisor.es/img/cdsi/img2/branding/150_logo-11900-2.png" alt="TripAdvisor"/></a>\n' +
+    '</li>\n' +
+    '</ul>');
 
 function openOpiniones() {
     modal_opiniones.open();

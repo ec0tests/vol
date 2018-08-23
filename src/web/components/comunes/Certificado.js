@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import './Certificado.css';
-import tripadvisor from '../../images/tripadvisor-logo.jpg';
+/*import tripadvisor from '../../images/tripadvisor-logo.jpg';*/
+import tripadvisor from '../../images/trip-logo2.png';
 import tingle from "tingle.js";
 
 // instanciate new modal

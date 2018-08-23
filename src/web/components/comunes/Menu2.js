@@ -169,7 +169,7 @@ const Menu2 = ({logo}) => (
                     <button className="Btn-idioma">ES</button>
                 </div>
                 <div className="Menu-trad">
-                    <button className="Btn-idioma">CAT</button>
+                    <button className="Btn-idioma">CA</button>
                 </div>
                 <div className="Menu-trad">
                     <button className="Btn-idioma">EN</button>

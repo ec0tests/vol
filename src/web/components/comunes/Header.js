@@ -57,11 +57,14 @@ $(document).ready(function () {
     }
     ;
     $(window).scroll(function(){
-        if ($(this).scrollTop() > 100) {
+        if ($(window).width() > 768) {
+
+            if ($(this).scrollTop() > 100) {
             $('.Header-fix').addClass('Fixed-header');
         } else {
             $('.Header-fix').removeClass('Fixed-header');
-        }
+
+        }}
     });
 })
 

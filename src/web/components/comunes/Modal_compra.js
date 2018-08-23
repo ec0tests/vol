@@ -83,12 +83,17 @@ class Modal_compra extends React.Component {
 
                 <div className=" m-t-20 p-0 w-50 ">
 
-                    <input type="number"
+                    <select
                            className=" p-0 text-center Input-cupon w-25 "
-                           id="edad"
+                           id="adultos"
                            placeholder=""
-                           name="edad"/>
-
+                           name="adultos">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
                     <span>adultos</span>
 
                 </div>
@@ -98,11 +103,17 @@ class Modal_compra extends React.Component {
 
                 <div className=" m-t-20 p-0 w-50 ">
 
-                    <input type="number"
-                           className=" p-0 text-center Input-cupon w-25 "
-                           id="edad"
-                           placeholder=""
-                           name="edad"/>
+                    <select
+                        className=" p-0 text-center Input-cupon w-25 "
+                        id="ninos"
+                        placeholder=""
+                        name="ninos">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
 
                     <span>niños</span>
 
@@ -115,13 +126,19 @@ class Modal_compra extends React.Component {
 
                 <div className=" m-t-20 p-0 w-50 ">
 
-                    <input type="number"
-                           className=" p-0 text-center Input-cupon w-25 "
-                           id="edad"
-                           placeholder=""
-                           name="edad"/>
+                    <select
+                        className=" p-0 text-center Input-cupon w-25 "
+                        id="discapacitados"
+                        placeholder=""
+                        name="discapacitados">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
 
-<span>discapacitados</span>
+                    <span>discapacitados</span>
                 </div>
 
 
@@ -135,7 +152,7 @@ class Modal_compra extends React.Component {
                 </div>
 
                 <button  onClick={this.fase1_compra.bind(this)}
-                         className="w-25 ml-1 Btn-red Validar-cupon Pagar-modal-btn ml-auto mb-2">CONFIRMAR
+                         className="w-25 ml-1 Btn-red Validar-cupon Pagar-modal-btn ml-auto mb-2 Funte-pew">CONFIRMAR
                 </button>
             </div>
             <span id="problema_abajo" className="Problema-txt w-100">¿Algún problema? Ponte en <a
@@ -172,7 +189,7 @@ class Modal_compra extends React.Component {
                         </button>
                         <p id="fecha_disponible_compra"  className=" mb-0 mt-1 Problema-txt w-100 Fechad-txt">La fecha seleccionada está disponible</p>
                     </div>
-                    <div className="col-12 col-lg-6 ">
+                    <div className="col-12 col-lg-6  Padding-l-movil-0">
                         <Datepicker tipo={'inline'} />
                     </div>
                 </div>

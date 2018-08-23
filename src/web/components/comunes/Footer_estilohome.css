@@ -89,6 +89,10 @@ Footer_estilohome .Row1 {
         width: 268px;
         margin-top: -33px;
     }
+    .Div-ico-h img {
+        width: 42px!important;
+        padding-top: 1px;
+    }
     Pl-tablet-0{
         padding-left: 0!important;
     }
@@ -99,6 +103,10 @@ Footer_estilohome .Row1 {
         width: 393px;
 
         margin-top: -33px;
+    }
+    .Div-ico-h img {
+        width: 42px!important;
+        padding-top: 1px;
     }
     Pl-tablet-0{
         padding-left: 0!important;

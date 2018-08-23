@@ -605,7 +605,7 @@ div.panel.show {
     .slideout-sidebar {
     padding: 0;
     padding-left: 0!important;
-    width: 100%!important;}
+    width: 75%!important;}
     .Megamenu-div-movil p.accordion:before {
         font-size: 3rem;
         color: #333333;
@@ -661,6 +661,13 @@ div.panel.show {
     }
 
 }
+
+@media all and (max-width: 767px) {
+    .slideout-sidebar {
+        padding: 0;
+        padding-left: 0!important;
+        width: 100%!important;}
+}
 @media all and (max-width: 750px) {
 
     .Megamenu-div-movil {
@@ -707,6 +714,7 @@ div.panel.show {
     }
 
     .Logo-top {
+        padding-top: 7px;
         width: 33%;
     }
 }

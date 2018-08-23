@@ -138,7 +138,7 @@ const Bloge = () => (
             <Header logo={logo_b}/>
 
             <div className="container-fluid">
-                <div className="row text-left p-3 pl-0 pl-md-5">
+                <div className="row text-left p-3 pl-0 pl-md-5 pt-md-5 ">
                     <div className="col-12 ">
                         <h1 className="text-uppercase w-75 ">Feria medieval de Besalú y <br/> vuelo en globo en la
                             Garrotxa</h1>

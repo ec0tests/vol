@@ -156,6 +156,9 @@ h4 {
 p.accordion{
     line-height: 1!important;
 }
+.Back-dblue{
+    border-radius: 0!important;
+}
 .Btn-red {
     background-color: #D24228;
     color: white;
@@ -180,6 +183,32 @@ p.accordion{
     font-weight: 600;
     text-transform: uppercase;
     font-size: 1rem;
+}
+
+.tingle-modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 9999!important;
+    display: -ms-flexbox;
+    display: flex;
+    visibility: hidden;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: center;
+    align-items: center;
+    overflow: hidden;
+    -webkit-overflow-scrolling: touch;
+    background: rgba(0, 0, 0, .8);
+    opacity: 0;
+    cursor: pointer;
+    -webkit-transition: -webkit-transform .2s ease;
+    transition: -webkit-transform .2s ease;
+    -o-transition: transform .2s ease;
+    transition: transform .2s ease;
+    transition: transform .2s ease, -webkit-transform .2s ease;
 }
 
 .Btn-gris-sinfondo {
@@ -540,6 +569,7 @@ cursor: pointer!important;}
     position: fixed!important;
     top: 0;
     left: 0;
+
     background-color: #0A1F3C;
     padding-bottom: 20px;
     z-index: 100000!important;
@@ -976,7 +1006,26 @@ dt {
     }}
 
 @media all and (max-width: 1025px) and (min-width: 768px) {
-
+        .tingle-modal-box {
+            position: relative;
+            -ms-flex-negative: 0;
+            flex-shrink: 0;
+            margin-top: auto;
+            margin-bottom: auto;
+            width: 78%;
+            border-radius: 4px;
+            background: #fff;
+            opacity: 1;
+            cursor: auto;
+            -webkit-transition: -webkit-transform .3s cubic-bezier(.175, .885, .32, 1.275);
+            transition: -webkit-transform .3s cubic-bezier(.175, .885, .32, 1.275);
+            -o-transition: transform .3s cubic-bezier(.175, .885, .32, 1.275);
+            transition: transform .3s cubic-bezier(.175, .885, .32, 1.275);
+            transition: transform .3s cubic-bezier(.175, .885, .32, 1.275), -webkit-transform .3s cubic-bezier(.175, .885, .32, 1.275);
+            -webkit-transform: scale(.8);
+            -ms-transform: scale(.8);
+            transform: scale(.8);
+        }
     .Tablet {
         display: block!important;
         padding: 0!important;

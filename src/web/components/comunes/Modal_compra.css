@@ -309,4 +309,68 @@
     .Footer-precio{
         width: 100% !important;
     }
+}@media (max-width: 767px){
+    .Titulo-cupon > h5 {
+        font-size: 2.5rem;
+        font-weight: 600;
+        color: #fff;
+        text-align: left !important;
+        text-transform: uppercase;
+        font-family: "Barlow Condensed";
+        line-height: 1;
+    }
+    .Ficha .modal .w-25 {
+        width: 36% !important;
+    }
+    .Input-cupon {
+        border: 0;
+        font-size: 13px;}
+    .Acompanante span {
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 0.7rem;
+    }
+    .Ficha .modal .Mw-40-cup {
+        max-width: 96% !important;
+    }
+
+    .Ficha .modal-body .react-calendar{
+        width: 350px!important;
+        max-width: 100%!important;
+        background: white;
+        border: 1px solid #a0a096;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.125em;
+        margin-top: 20px!important;
+    }
+    .Btn-red.Validar-cupon {
+        font-size: 0.7rem;
+    }
+.Titulo-cupon > span {font-size: 1rem}
+.Btn-red.Validar-cupon{    width: 98%!important;}
+}
+
+@media (max-width: 360px){
+    .Ficha .modal-body .react-calendar{
+        width: 230px!important;
+        max-width: 100%!important;
+        background: white;
+        border: 1px solid #a0a096;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.125em;
+        margin-top: 20px!important;
+    }
+    .Padding-l-movil-0{
+        padding-left: 0!important;
+    }
+    .react-calendar button time {
+        color: #333333;
+
+        font-size: 0.6rem;}
+}
+@media (max-width: 330px){
+
+    .Funte-pew{
+       font-size: 10px!important;
+   }
 }

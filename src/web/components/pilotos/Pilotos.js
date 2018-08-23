@@ -88,7 +88,7 @@ const Pilotos = () => (
             <Header logo={logo_b}/>
           
             <div className="container-fluid">
-                <div className="row text-left p-1 px-md-5 p-lg-3 pl-lg-5 pt-md-2 pt-lg-5 pt-3 mt-lg-5">
+                <div className="row text-left p-1 px-md-3 p-lg-3 pl-lg-5 pt-md-2 pt-lg-5 pt-3 mt-lg-5">
                     <div className="col-12 ">
                         <h1 className="text-uppercase Pilotos-h1 d-none d-lg-block"> los pilotos de <br/> vol de coloms</h1>
                         <h1 className="text-uppercase Pilotos-h1-movil d-block d-lg-none mt-4"> nuestros pilotos</h1>
