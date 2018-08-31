@@ -521,6 +521,7 @@ div.panel.show {
             float: right;
             padding-right: 20px;
             margin-right: 16px;
+            padding-left: 8px!important;
             padding-top: 12px;
         }
         .Div-menu2{
