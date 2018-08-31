@@ -80,6 +80,29 @@ document.addEventListener("DOMContentLoaded", function (event) {
         }
     })
 
+    var acc = document.getElementsByClassName("accordion");
+    var panel = document.getElementsByClassName('panel');
+
+    for (var i = 0; i < acc.length; i++) {
+        acc[i].onclick = function () {
+            var setClasses = !this.classList.contains('active');
+            setClass(acc, 'active', 'remove');
+            setClass(panel, 'show', 'remove')
+
+
+            if (setClasses) {
+                this.classList.toggle("active");
+                this.nextElementSibling.classList.toggle("show");
+            }
+        }
+    }
+
+    function setClass(els, className, fnName) {
+        for (var i = 0; i < els.length; i++) {
+            els[i].classList[fnName](className);
+        }
+    }
+
 
 });
 
@@ -104,6 +127,7 @@ class Ficha extends React.Component {
 
                     $('#nav').addClass('P-absolute');
                     $('#nav').css('top', (posicion_parar) + 'px');
+                    $('header').addClass('Z-index-parar-tarjeta');
                     parado = true;
                 }
                 /*EL -144 son los 9 rem que le doy de top a la card , para que al volverse a hacerse fixed se pare justo en el punto
@@ -113,6 +137,7 @@ class Ficha extends React.Component {
                     $('#nav').removeClass('P-absolute');
                     $('#nav').addClass('P-fixed');
                     $('#nav').css('top', '9rem');
+                    $('header').removeClass('Z-index-parar-tarjeta');
 
                     parado = false;
                 }
@@ -129,10 +154,10 @@ class Ficha extends React.Component {
                 <section className="Section1-ficha">
                     <Header logo={logo_b}/>
 
-                    <div className="container-fluid d-flex justify-content-center P-0-movil p-md-auto">
+                    <div className="container-fluid d-flex justify-content-center P-0-movil p-md-auto Ficha-zindex">
                         <div className="row w-100 text-left p-0 p-md-3 pr-lg-0 pl-0 pl-lg-5">
                             <div className="col-12 col-md-6 my-5 my-md-0 my-lg-5">
-                                <h1 className="text-uppercase  ">vuelo en globo + <br/> cabaña en los arboles</h1>
+                                <h1 className="text-uppercase  D-none-menu-fixed">vuelo en globo + <br/> cabaña en los arboles</h1>
 
                             </div>
                             <div id="nav" className="col-12 col-md-5 col-lg-4 Col-tarjeta p-0 P-fixed Col-fixed">
@@ -165,21 +190,21 @@ class Ficha extends React.Component {
                                                        className="col-sm-5 col-md-5 col-xl-5 col-form-label Label-form">Fecha</label>
                                                 <div className="col-sm-7 col-md-7 col-xl-7">
                                                     <input data-toggle="modal"
-                                                           data-target="#modal_compras_fechas" type="date" value="22/05/1996" className="form-control"
+                                                           data-target="#modal_compras_fechas" type="text" value="22/05/1996" className="form-control"
                                                            id="inputPassword" placeholder="Fecha"/>
                                                 </div>
                                             </div>
                                             <div
-                                                className="row w-100 pt-2 justify-content-end pr-3 mt-1 Fecha-abierta-row">
+                                                className="row w-100 pt-2 justify-content-end pr-0 m-0 mt-1 Fecha-abierta-row">
 
                                                 <div className="form-group">
                                                     <div className="form-check">
 
                                                         <input className="form-check-input" type="checkbox"
-                                                               id="gridCheck"/>
+                                                               id="comprar_regalar"/>
 
-                                                        <label className="form-check-label Letrasch" for="gridCheck">
-                                                            Reservar con fecha abierta
+                                                        <label className="form-check-label Letrasch pt-0" for="comprar_regalar">
+                                                           Comprar para regalar
                                                         </label>
 
                                                     </div>
@@ -262,12 +287,12 @@ class Ficha extends React.Component {
                                     {/* <img src={flecha_abajo} className="d-lg-none Flechas-faq Flecha-abajo Click Z-index-bajo" alt=""/>
                             <img src={flecha_arriba} className="d-lg-none Flechas-faq Ocultar Flecha-arriba Click Z-index-bajo" alt=""/>*/}
                                     <p className="accordion  ">FECHAS Y DISPONIBILIDAD</p>
-                                    <div className="panel ">
+                                    <div className="panel  Ml-auto ">
                                         <div className="col-12 col-md-12 col-lg-12 col-xl-6 py-4 px-0">
                                             <div className="col-12  mb-3 px-0">
                                                 <button className="Btn-gris Ficha-btn d-none">Agosto</button>
                                             </div>
-                                            <div className="col-12 px-0">
+                                            <div className="col-12 px-0 text-center">
                                                 <button className="Btn-blue Ficha-btn">Comprar sin fecha</button>
                                             </div>
                                         </div>

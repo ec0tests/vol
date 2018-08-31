@@ -25,15 +25,15 @@
 @media (max-width: 425px) {
 
     .react-date-picker__calendar.react-date-picker__calendar--closed{
-        font-size: 10px;
-        width: 278px;
+        font-size: 10px!important;
+        width: 278px!important;
     } .react-date-picker__calendar.react-date-picker__calendar--open{
-        font-size: 10px;
-        width: 278px;
+        font-size: 10px!important;
+        width: 278px!important;
     }
 
     .react-calendar__navigation button{
-        font-size: 13px;
+        font-size: 13px!important;
 
     }
     .react-calendar__navigation button:first-letter{
@@ -45,11 +45,12 @@
 @media (max-width: 360px) {
 
     .react-date-picker__calendar.react-date-picker__calendar--closed{
-        font-size: 10px;
-        width: 258px;
+        font-size: 10px!important;
+        width: 258px!important;
     } .react-date-picker__calendar.react-date-picker__calendar--open{
-        font-size: 10px;
-        width: 258px;
+        font-size: 10px!important;
+        width: 258px!important;
     }
+
 
 }

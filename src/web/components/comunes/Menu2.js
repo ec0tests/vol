@@ -58,6 +58,8 @@ function show_menu() {
 
     $(".slideout-sidebar").show();
     $(".Menu-boton").show();
+    $("#nav").addClass('Ocultar');
+    $("#return-to-top").addClass('Ocultar_important');
     menu_abierto = true;
 
 }
@@ -75,6 +77,8 @@ function hide_menu() {
     $(".slideout-sidebar").addClass('animated slideOutRight');
 
     $(".Menu-boton").hide();
+    $("#nav").removeClass('Ocultar');
+    $("#return-to-top").removeClass('Ocultar_important');
     menu_abierto = false;
 }
 

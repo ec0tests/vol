@@ -1,3 +1,6 @@
+#modal_cupon{
+    z-index: 999999;
+}
 /*FASES*/
 #fase1{
 
@@ -100,7 +103,9 @@ line-height: 1.3;
     text-align: left!important;
     font-family: 'Roboto', sans-serif;
 }
-
+.modal-footer{
+    border: 0!important;
+}
 .Cuponesh5 {
     font-size: 1.7rem;
     font-weight: 500;
@@ -136,7 +141,7 @@ line-height: 1.3;
 }
 .Cerrar-cupon{
     position: absolute;
-    top: 7px;
+    top: -6px;
     right: 7px;
     cursor: pointer;
     width: 27px;
@@ -154,7 +159,7 @@ line-height: 1.3;
 }
 .Validar-cupon{
     font-size: 14px!important;
-    padding-top: 0.7rem!important;
+    padding-top: 0.69rem!important;
 }
 
 #modal_cupon{
@@ -183,28 +188,28 @@ line-height: 1.3;
 
 .Input-cupon::-webkit-input-placeholder { /* Chrome/Opera/Safari */
     color: white;
-        font-size: 14px;
+
     text-transform: uppercase;
     font-weight: 500;
 }
 
 .Input-cupon::-moz-placeholder { /* Firefox 19+ */
     color: white;
-        font-size: 14px;
+
     text-transform: uppercase;
     font-weight: 500;
 }
 
 .Input-cupon:-ms-input-placeholder { /* IE 10+ */
     color: white;
-        font-size: 14px;
+
     text-transform: uppercase;
     font-weight: 500;
 }
 
 .Input-cupon:-moz-placeholder { /* Firefox 18- */
     color: white;
-        font-size: 14px;
+
     text-transform: uppercase;
     font-weight: 500;
 }
@@ -223,6 +228,9 @@ line-height: 1.3;
 .Blue{
     background-color: #0a3656!important;
 }
+.Cambiar-width{
+    width: 184px!important;
+}
 @media (max-width: 1450px){
     .Ficha .modal .Mw-45-cup{
         max-width: 80% !important;
@@ -238,12 +246,13 @@ line-height: 1.3;
     }
 
 }
+
 @media (max-width: 768px){
     .Home .modal-body .react-calendar{
         width: 350px!important;
         max-width: 100%!important;
         background: white;
-        border: 1px solid #a0a096;
+        border: 0;
         font-family: Arial, Helvetica, sans-serif;
         line-height: 1.125em;
         margin-top: 20px!important;
@@ -259,11 +268,61 @@ line-height: 1.3;
     }
     .Btn-red.Validar-cupon {
         width: 98%!important;
-        font-size: 0.7rem!important;
+        font-size: 14px!important;
     }
 }
+@media (max-width: 700px){
+    .Btn-red.Validar-cupon {
+        width: 98%!important;
 
+        font-size: 0.69rem!important;
+    }
+    .Input-cupon::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+        color: white;
+        font-size: 12px;
+        text-transform: uppercase;
+        font-weight: 500;
+    }
+
+    .Input-cupon::-moz-placeholder { /* Firefox 19+ */
+        color: white;
+        font-size: 12px;
+        text-transform: uppercase;
+        font-weight: 500;
+    }
+
+    .Input-cupon:-ms-input-placeholder { /* IE 10+ */
+        color: white;
+        font-size: 12px;
+        text-transform: uppercase;
+        font-weight: 500;
+    }
+
+    .Input-cupon:-moz-placeholder { /* Firefox 18- */
+        color: white;
+        font-size: 12px;
+        text-transform: uppercase;
+        font-weight: 500;
+    }
+    .Home .modal .w-25{
+        width: 24% !important;
+    }
+    .Cambiar-width{
+        width: 184px!important;
+    }
+}
+@media (max-width: 460px){
+    .Ficha .modal-body .react-calendar__navigation__label{
+        font-size: 8px;
+    }
+    .Home .modal .w-25{
+        width: 28% !important;
+    }
+}
 @media (max-width: 360px){
+    .Home .modal .w-25{
+        width: 32% !important;
+    }
     .Home .modal-body .react-calendar{
         width: 230px!important;
         max-width: 100%!important;
@@ -276,6 +335,9 @@ line-height: 1.3;
     .Padding-l-movil-0{
         padding-left: 0!important;
     }
+    .Home .modal-body .react-calendar__navigation__label{
+       font-size: 8px;
+   }
     .react-calendar button time {
         color: #333333;
 

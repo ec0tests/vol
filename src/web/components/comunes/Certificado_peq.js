@@ -25,14 +25,7 @@ var modal_opiniones = new tingle.modal({
 });
 
 
-modal_opiniones.setContent('' +
-    '<h2>Opiniones Tripadvisor</h2>' +
-    '<div id="TA_selfserveprop283" class="TA_selfserveprop">\n' +
-    '<ul id="Kw6rhBfDGI" class="TA_links pX1RMLo">\n' +
-    '<li id="mcMxmpC" class="560RvmRKj6S">\n' +
-    '<a target="_blank" href="https://www.tripadvisor.es/"><img src="https://www.tripadvisor.es/img/cdsi/img2/branding/150_logo-11900-2.png" alt="TripAdvisor"/></a>\n' +
-    '</li>\n' +
-    '</ul>');
+
 
 function openOpiniones() {
     modal_opiniones.open();
@@ -48,8 +41,8 @@ const Certificado_peq = ()=> (
 
         <div className="col-md-12 text-center">
             <h2 className="w-100">Certificado de excelencia</h2>
-            <h4 className="font-weight-normal">5 estrellas en más de 200 opiniones de tripadvisor</h4>
-            <button onClick={openOpiniones} className="Btn-blue mt-4 ">Ver opiniones</button>
+            <h4 className="font-weight-normal mb-4">5 estrellas en más de 200 opiniones de tripadvisor</h4>
+            <a target="_blank"  href="https://www.tripadvisor.es/Attraction_Review-g911486-d3247038-Reviews-Vol_de_Coloms-Olot_Province_of_Girona_Catalonia.html#REVIEWS" className="Btn-blue mt-5 ">Ver opiniones</a>
             <div id="TA_certificateOfExcellence99" class="TA_certificateOfExcellence">
                 <ul id="5OBkUU9JYr" class="TA_links zgEs5zbzW8 p-0">
                     <li id="c36iAohCr1c" class="G221BL">

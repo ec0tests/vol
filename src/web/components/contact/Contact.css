@@ -1,4 +1,6 @@
-
+.Contact {
+    overflow-x: hidden;
+}
 .Contact h1 {
     color: white;
     font-size: 4.7rem;

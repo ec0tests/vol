@@ -14,6 +14,8 @@ function show_megamenu() {
 
     $(".Megamenu").addClass('Megamenu-open');
     $(".Megamenu-div").fadeIn();
+    $("#nav").addClass('Ocultar');
+    $("#return-to-top").addClass('Ocultar_important');
     megamenu_abierto = true;
 
 }
@@ -23,6 +25,8 @@ function hide_megamenu() {
     $(".Megamenu-div").fadeOut();
     $(".Megamenu").removeClass('Megamenu-open');
 
+    $("#nav").removeClass('Ocultar');
+    $("#return-to-top").removeClass('Ocultar_important');
 
     megamenu_abierto = false;
 }
@@ -61,8 +65,12 @@ $(document).ready(function () {
 
             if ($(this).scrollTop() > 100) {
             $('.Header-fix').addClass('Fixed-header');
+            $('.D-none-menu-fixed').hide();
+
         } else {
             $('.Header-fix').removeClass('Fixed-header');
+                $('.D-none-menu-fixed').show();
+
 
         }}
     });
@@ -101,8 +109,8 @@ document.addEventListener("DOMContentLoaded", function (event) {
 const Header = ({logo}) => (
     <header className="text-white Header-fix">
         <div className="container-fluid">
-            <div className="row pt-md-3 p-0 pt-2 pt-md-0 pl-0 pl-md-5 pb-0">
-                <div className="col-6 col-md-6 text-left pb-0  pl-0 ">
+            <div className="row pt-md-3 p-0 pt-2 pt-md-0 pl-0 pl-md-5 pb-0 justify-content-between">
+                <div className="col-2 col-sm-5 col-md-5 text-left pb-0  pl-0 Mr-movil-logo">
                     <a href="http://167.99.208.80/"><img src={logo} id="logo" className="img-fluid Logo-top"
                                                          alt=""/></a>
                 </div>

@@ -91,7 +91,7 @@ this.fecha_confirmada=true;
                                 <input type="text"
                                        className=" p-0 text-center Input-cupon w-95 "
                                        id="cupon"
-                                       placeholder="Introduce tu cupón"
+                                       placeholder="Cupón"
                                        name="cupon"/>
                                 <span id="error_cupon"
                                       className="danger text-danger  "> El código no es correcto</span>
@@ -120,14 +120,14 @@ this.fecha_confirmada=true;
                             </button>*/}
                         </div>
                         <div class="modal-body  d-flex  flex-wrap pt-0">
-                            <div className="form-group mb-1  m-t-20 mr-2 p-0 w-40 ">
+                            <div className="form-group mb-1  m-t-20 mr-2 p-0 w-40 Cambiar-width">
                                 <button onClick={this.fase2.bind(this)} className="Btn-red Validar-cupon">RELLENAR
                                     DATOS
                                 </button>
 
 
                             </div>
-                            <div className="form-group mb-1  m-t-20 p-0 w-40 ">
+                            <div className="form-group mb-1  m-t-20 p-0 w-40 Cambiar-width">
 
                                 <a href="/ficha" ><button className="Btn-red Blue Validar-cupon"> VER EXPERIENCIA </button></a>
 
@@ -189,8 +189,18 @@ this.fecha_confirmada=true;
                                     <input type="text"
                                            className=" p-0 text-center Input-cupon w-97 "
                                            id="cupon"
-                                           placeholder="Introduce tu cupón"
+                                           placeholder="Cupón"
                                            name="cupon"/>
+
+
+                                </div>
+                                <div className="m-t-20 p-0 w-50 ">
+
+                                    <input type="text"
+                                           className=" p-0 text-center Input-cupon w-97 "
+                                           id="email"
+                                           placeholder="Email"
+                                           name="email"/>
 
 
                                 </div>
@@ -215,16 +225,7 @@ this.fecha_confirmada=true;
 
                                 </div>
 
-                                <div className="mt-2 p-0 w-50 ">
 
-                                    <input type="text"
-                                           className=" p-0 text-center Input-cupon w-97 "
-                                           id="email"
-                                           placeholder="Correo electrónico"
-                                           name="email"/>
-
-
-                                </div>
                             </div>
 
 
@@ -237,7 +238,7 @@ this.fecha_confirmada=true;
                                     <input type="text"
                                            className=" p-0 text-center Input-cupon w-97 "
                                            id="cupon"
-                                           placeholder="Introduce tu cupón"
+                                           placeholder="Cupón"
                                            name="cupon"/>
 
 
@@ -272,7 +273,7 @@ this.fecha_confirmada=true;
                                     <input type="text"
                                            className=" p-0 text-center Input-cupon w-97 "
                                            id="cupon"
-                                           placeholder="Introduce tu cupón"
+                                           placeholder="Cupón"
                                            name="cupon"/>
 
 

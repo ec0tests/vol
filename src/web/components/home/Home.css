@@ -194,7 +194,10 @@ header > .container {
     font-weight: 500;
     font-family: Roboto !important;
 }
-
+.Home .react-calendar{
+    margin-left: auto;
+    margin-right: auto;
+}
 .Asterisco {
     left: 0rem;
     position: absolute;
@@ -826,7 +829,9 @@ footer .Row1 {
 }
 
 @media (max-width: 575.98px) {
-
+    .Home .modal .w-25 {
+        width: 27% !important;
+    }
     .Padding-ico-4 {
         padding-top: 18px !important;
         max-width: 56% !important;    margin-top: 6px;

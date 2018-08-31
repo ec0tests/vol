@@ -1443,16 +1443,41 @@ p {
     }
 
     .Section1-faq {
-        min-height: 27rem;
+        min-height: 33rem!important;
 
     }
+
 }
 
 @media all and (max-width: 572px) {
 
+    .Section1-faq {
+        min-height: 35rem!important;
+
+    }
     p.accordion:before {
 
         top: -0.7rem !important;
     }
+
+}
+
+@media all and (max-width: 450px) {
+
+    .Section1-faq {
+        min-height: 36rem!important;
+
+    }
+
+
+}
+
+@media all and (max-width: 400px) {
+
+    .Section1-faq {
+        min-height: 38rem!important;
+
+    }
+
 
 }

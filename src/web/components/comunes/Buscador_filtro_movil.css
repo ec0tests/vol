@@ -11,9 +11,17 @@
     padding-top: 0.5rem !important;
     position: absolute;
 }
-
+.Buscador-filtro-movil .Filtro-div-movil{
+    overflow-y: scroll!important;
+    overflow-x: hidden!important;
+}
 .F-peq1 {
     font-size: 14px !important;
+}
+.Buscador-filtro-movil .react-calendar{
+    margin: 0 auto;
+
+
 }
 
 .Div-btnfiltro {

@@ -1,6 +1,9 @@
 import React, {Component} from 'react';
 import $ from 'jquery';
 import './Carousel_card.css';
+import swipe from 'jquery-touchswipe';
+import swipeLeft from 'jquery-touchswipe';
+import swipeRight from 'jquery-touchswipe';
 
 
 
@@ -9,6 +12,18 @@ class Carousel_cards extends React.Component{
 
 
 // Swipe functions for Bootstrap Carousel
+        $(".carousel-inner").swipe( {
+            //Generic swipe handler for all directions
+            swipeLeft:function(event, direction, distance, duration, fingerCount) {
+                $(this).parent().carousel('next');
+            },
+            swipeRight: function() {
+                $(this).parent().carousel('prev');
+            },
+            //Default is 75px, set to 0 for demo so any distance triggers swipe
+            threshold:0
+        });
+
 
         $(".Flecha-real1").click(function () {
             $(".Flecha-real1").hide();
@@ -35,11 +50,13 @@ class Carousel_cards extends React.Component{
     render () {
         return (
             <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
-                <ol className="carousel-indicators">
-                    <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                </ol>
+                <div className="Div-indicators">
+                    <ol className="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    </ol>
+                </div>
+
                 <div className="carousel-inner">
 
                     <div className="carousel-item active">

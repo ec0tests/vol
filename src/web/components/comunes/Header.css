@@ -3,6 +3,10 @@ body {
     margin: 0;
 }
 
+.Z-index-abrir-menu{
+    z-index: 9999999999!important;
+}
+
 /* -- main content -- */
 .content-container {
     position: relative;
@@ -51,6 +55,8 @@ header .Div-ico{
 
 .slideout-sidebar {
     position: fixed;
+    z-index: 99999999999!important;
+
     top: 0;
 right: 0;
     z-index: 9999;
@@ -113,6 +119,8 @@ right: 0;
     padding: 5rem 6rem;
     display: none;
     position: absolute;
+    z-index: 99999999999!important;
+
     z-index: 10000;
 }
 .T-megamenu{
@@ -139,6 +147,8 @@ right: 0;
     top: 0;
     right: 0;
     z-index: 9999;
+    z-index: 99999999999!important;
+
     width: 350px;
     padding: 20px;
     height: 100vh;
@@ -515,6 +525,7 @@ div.panel.show {
         }
         .Div-menu2{
             width: 100%;
+            z-index: 99999999999!important;
         }
         .Menu-trad{
             width: 58px;
@@ -708,6 +719,17 @@ div.panel.show {
     }
 }
 
+@media all and (max-width: 768px) {
+    .Mr-movil-logo{
+        margin-right: 54px;
+    }
+}
+
+@media all and (max-width: 648px) {
+    .Mr-movil-logo{
+        margin-right: 44px;
+    }
+}
 @media all and (max-width: 600px) {
     .slideout-sidebar {
         width: 360px;
@@ -715,6 +737,17 @@ div.panel.show {
 
     .Logo-top {
         padding-top: 7px;
-        width: 33%;
+        width: 55px;
+    }
+    .Mr-movil-logo{
+        margin-right: 47px;
     }
 }
+
+
+@media all and (max-width: 400px) {
+    .Mr-movil-logo{
+        margin-right: 106px;
+    }
+}
+

@@ -15,6 +15,9 @@
     z-index: 1000;
 
 }
+.carousel.slide{
+    z-index: 1;
+}
 
 .card:hover {
     transition: 0.8s;
@@ -74,24 +77,38 @@
 /*Cambio la posición de los carousel*/
 .carousel-control-prev {
     left: 12%;
-    top: 31%;
-    height: 3%;
+    top: 28%;
+    height: 8%;
     z-index: 1000;
     padding-top: 1rem;
 }
 
 .carousel-control-next {
     right: 12%;
-    top: 32%;
-    height: 3%;
-    z-index: 1000;
+    top: 31%;
+    height: 8%;
+z-index: 1000;
 }
 
 .carousel-indicators {
-    top: 8%;
+    top: 0;
 
 }
+.Div-indicators{
+    /* height: 28px; */
+    /* margin-bottom: -9px; */
+    position: absolute;
+    top: 24px;
+    z-index: 1;
+    width: 100%;
+    height: 20px;
+    margin-left: 21px;
 
+}
+.carousel-indicators li{
+   /* display: none;*/
+
+}
 .Card-row {
     height: 35rem;
     margin-bottom: 20rem !important;
@@ -169,10 +186,29 @@
     width: 8rem;
 }
 
+@media all and (min-width: 1200px) {
+    .Div-indicators{
+        top: -24px;
+    }
+}
 @media all and (max-width: 1200px) {
     .Card-row {
         height: 44rem !important;
         margin-bottom: 20rem !important;
+    }
+    .carousel-control-prev {
+        left: 12%;
+        top: 31%;
+        height: 40%;
+        z-index: 1000;
+        padding-top: 1rem;
+    }
+
+    .carousel-control-next {
+        right: 12%;
+        top: 32%;
+        height: 40%;
+        z-index: 1000;
     }
 }
 
@@ -253,7 +289,7 @@
     .carousel-control-prev {
         left: 12%;
         top: 25%;
-        height: 11%;
+        height: 40%;
         z-index: 1000;
         padding-top: 1rem;
     }
@@ -261,38 +297,25 @@
     .carousel-control-next {
         right: 12%;
         top: 26%;
-        height: 12%;
+        height: 40%;
         z-index: 1000;
     }
 }
 
 @media all and (max-width: 768px) {
-
+    .Div-indicators {
+        /* height: 28px; */
+        /* margin-bottom: -9px; */
+        margin-left: 0px;
+    }
     #carouselExampleIndicators {
         height: 36rem;
     }
 
     .carousel-indicators {
-        display: none;
+    /*    display: none;*/
     }
 
-    .carousel-control-prev {
-        width: 8%;
-        left: 41% !important;
-        top: 8% !important;
-        height: 7% !important;
-        z-index: 1000 !important;
-        padding-top: 1rem;
-    }
-
-    .carousel-control-next {
-        width: 8%;
-        left: 51% !important;
-        top: 8% !important;
-        height: 7% !important;
-        z-index: 1000 !important;
-        padding-top: 1rem;
-    }
 
 
     .Subtitulo-tarjeta {
@@ -328,16 +351,33 @@
         top: 0.8% !important;
         left: -1%;
         position: relative;
-        display: block;
+        display: none;
 
+    }
+    .Filtro .carousel-inner{
+        height: 550px;
     }
     .Flecha-falsa2 {
         z-index: 10000 !important;
         position: absolute;
         top: 0.8% !important;
         left: 1%;
-        display: block;
+        display: none;
         position: relative;
+    }
+    .carousel-control-prev {
+        top: 0.8% !important;
+        left: 35%;
+        height: 15% !important;
+        z-index: 1000 !important;
+        padding-top: 1rem;
+    }
+
+    .carousel-control-next {
+        top: 0.8% !important;
+        left: 50%;
+        height: 15% !important;
+        z-index: 1000 !important;
     }
 
 }
@@ -359,25 +399,19 @@
         margin-top: 0.7rem;
     }
 
-    .carousel-control-prev {
-        left: 0% !important;
-        top: 25% !important;
-        height: 11% !important;
-        z-index: 1000 !important;
-        padding-top: 1rem;
-    }
-
-    .carousel-control-next {
-        right: 0% !important;
-        top: 26% !important;
-        height: 12% !important;
-        z-index: 1000 !important;
-    }
+    .Div-indicators{
+        /* height: 28px; */
+        /* margin-bottom: -9px; */
+        top: 16px;}
 }
 
 @media all and (max-width: 500px) {
-
+    .Div-indicators{
+        /* height: 28px; */
+        /* margin-bottom: -9px; */
+        top: 0px;}
 }
+
 
 @media all and (max-width: 420px) {
     .Titulo-tarjeta {
@@ -385,7 +419,10 @@
 
         margin-top: 0.7rem;
     }
-
+    .Div-indicators{
+        /* height: 28px; */
+        /* margin-bottom: -9px; */
+        top: 15px;}
     .Subtitulo-tarjeta {
         font-size: 1.4rem !important;
 
@@ -398,5 +435,11 @@
     }
 }
 
+@media all and (max-width: 360px) {
+    .Div-indicators{
+        /* height: 28px; */
+        /* margin-bottom: -9px; */
+        top: 0px;}
+}
 
 

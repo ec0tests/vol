@@ -43,7 +43,8 @@
 .Precio-card {
     font-weight: bold;
     color: #cccccc;
-    font-size: 2.2rem;
+    margin-right: 4px;
+    font-size: 2rem;
 }
 
 .Tipo {
@@ -67,26 +68,6 @@
     font-size: 2rem;
 }
 
-/*Cambio la posición de los carousel*/
-.carousel-control-prev {
-    left: 12%;
-    top: 31%;
-    height: 3%;
-    z-index: 1000;
-    padding-top: 1rem;
-}
-
-.carousel-control-next {
-    right: 12%;
-    top: 32%;
-    height: 3%;
-    z-index: 1000;
-}
-
-.carousel-indicators {
-    top: 8%;
-
-}
 
 .Card-row {
     height: 35rem;

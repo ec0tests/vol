@@ -283,8 +283,8 @@ class Buscador_filtro_movil extends React.Component {
                     <div className="row pl-3 mb-4 mt-3">
                         <span className="F-peq1">Filtra los resultados</span>
                     </div>
-                    <nav className="row mb-1 text-left w-100">
-                        <div className="col-md-12 Click1 ">
+                    <nav className="row mb-1 text-left w-100 ml-0">
+                        <div className="col-md-12 Click1  p-0">
                             {/*<img src={flecha_abajo} className="d-md-none Flechas-faq Flecha-abajo Click1 Z-index-bajo"
                                  alt=""/>
                             <img src={flecha_arriba}
@@ -295,7 +295,7 @@ class Buscador_filtro_movil extends React.Component {
 
                             </div>
                         </div>
-                        <div className="col-md-12 Click2 ">
+                        <div className="col-md-12 Click2  p-0">
                            {/* <img src={flecha_abajo} className="d-md-none Flechas-faq Flecha-abajo Click2 Z-index-bajo"
                                  alt=""/>
                             <img src={flecha_arriba}
@@ -344,7 +344,7 @@ class Buscador_filtro_movil extends React.Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-12 Click3 ">
+                        <div className="col-md-12 Click3 p-0">
                           {/*  <img src={flecha_abajo} className="d-md-none Flechas-faq Flecha-abajo Click3 Z-index-bajo"
                                  alt=""/>
                             <img src={flecha_arriba}
@@ -412,7 +412,7 @@ class Buscador_filtro_movil extends React.Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-12 Click4 ">
+                        <div className="col-md-12 Click4 p-0">
                             {/*<img src={flecha_abajo} className="d-md-none Flechas-faq Flecha-abajo Click4 Z-index-bajo"
                                  alt=""/>
                             <img src={flecha_arriba}

@@ -1,8 +1,8 @@
-body{
-    overflow-y: scroll;
-    overflow-x: hidden;
-}
 
+.Filtro{
+    overflow-x: hidden!important;
+    overflow-y: scroll!important;
+}
 .Filtro h1{
     color:white;
     font-family: 'Barlow Condensed', sans-serif;
@@ -341,6 +341,16 @@ p  {
 @media all and (max-width: 575px) {
     .Footer_estilo1{
         display: none;
+    }
+    .Filtro .react-date-picker__calendar {
+        width: 272px!important;}
+    .Filtro .react-calendar__month-view__weekdays {
+        border-bottom: 1px solid #ededed;
+        margin-bottom: 13px;
+        font-size: 9px;
+    }
+    .Filtro .react-calendar__navigation button {
+       font-size: 13px;
     }
     .Section2-filtro {
         position: relative;

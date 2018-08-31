@@ -1,4 +1,6 @@
-
+.Ficha {
+    overflow-x: hidden;
+}
 .Ficha h1 {
     color: white;
     font-weight: bold;
@@ -18,6 +20,9 @@
     font-weight: bold;
 
 
+}
+.Z-index-parar-tarjeta{
+    z-index: 1000000!important;
 }
 .Desktop {
     display: block!important;
@@ -97,6 +102,15 @@ height: 27rem;
  }
 .Ficha .accordion{
     width: 100%;
+}
+.Ficha-zindex{
+    z-index: 999999;
+    position: relative;
+}
+
+.Ficha .react-calendar{
+    margin-left: auto;
+    margin-right: auto;
 }
 /*SECCON 1*/
 .Section1-ficha{
@@ -412,7 +426,7 @@ iframe{
     color: white;
     font-weight: 600;
     position: absolute;
-    right: 28%;
+    right: 24%;
     top: 1.5rem;
     color: #ffffff;
     text-transform: uppercase;
@@ -553,6 +567,10 @@ iframe{
     .Padding-30{
         padding-left: 0rem!important;
     }
+    .Ml-auto{
+        margin-left: auto;
+margin-right: auto;
+    }
     .Ficha p.accordion.active:before {
         content: url('../../images/flecha-arriba.png') !important;
         text-align: right;
@@ -670,8 +688,8 @@ iframe{
         padding-top: 1rem;
         padding-bottom: 0rem;
     }
-    .Ficha p.accordion:before {
-        content: url('../../images/flecha-abajo.png') !important;
+    p.accordion.active:before  {
+        content: url('../../images/flecha-arriba.png') !important;
         text-align: right;
         margin-bottom: 0px;
         top: -25px!important;
@@ -680,20 +698,14 @@ iframe{
         padding-left: 5px;
         padding-right: 5px;
     }
-    .Ficha .activep.accordion:before {
+    p.accordion:before {
         content: url('../../images/flecha-abajo.png') !important;
         text-align: right;
         margin-bottom: 0px;
         top: -25px!important;
     }
-    /* Unicode character for "minus" sign (-) */
-    .Ficha p.accordion.active:after {
-        content: "-";
-        margin-bottom: 0;
-        top: -5px;
-        display: none;
 
-    }
+
     .Ficha .Section1-ficha{
 
     }
@@ -734,5 +746,17 @@ iframe{
 @media all and (max-width: 565px) {
     .Form-reservaa{
         margin-top: 16px!important;
+    }
+}
+@media all and (max-width: 390px) {
+    .Ficha .Ml-auto .react-calendar{
+        width: 305px;
+        margin-left: 0!important;
+    }
+}
+@media all and (max-width: 350px) {
+    .Ficha .Ml-auto .react-calendar{
+        width: 272px;
+        margin-left: 0!important;
     }
 }

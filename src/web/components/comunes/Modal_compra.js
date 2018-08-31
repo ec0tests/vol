@@ -11,12 +11,23 @@ class Modal_compra extends React.Component {
 
     fase1_compra() {
         $("#fase1_compra").hide();
+        if($("#comprar_regalar").prop("checked")){
+            $("#fase2_compra_regalo").fadeIn();
 
-        $("#fase2_compra").fadeIn();
+        }else{
+            $("#fase2_compra").fadeIn();
+
+        }
     }
 
     fase2_compra() {
-        $("#fase2_compra").hide();
+        if($("#comprar_regalar").prop("checked")){
+            $("#fase2_compra_regalo").hide();
+
+        }else{
+            $("#fase2_compra").hide();
+
+        }
 
         $("#fase1_compra").fadeIn();
     }
@@ -31,6 +42,9 @@ class Modal_compra extends React.Component {
 
         $("#fecha_disponible_compra").show();
 
+
+    }
+    componentDidMount(){
 
     }
 
@@ -179,9 +193,9 @@ class Modal_compra extends React.Component {
                                 <span aria-hidden="true">&times;</span>
                             </button>*/}
                 </div>
-                <div class="modal-body  d-flex justify-content-start text-left  flex-wrap pt-0">
+                <div class="modal-body  d-flex justify-content-start text-left  flex-wrap pt-0 pr-0 pr-md-2">
 
-                    <div className="col-12 col-lg-6 pl-0">
+                    <div className="col-12 col-lg-6 pl-0 pr-0 pr-md-2">
                         <span className="my-3 d-block w-100 text-center Span-fecha">Selecciona la fecha de inicio de tu experiencia  </span>
                         <input type="text" placeholder="FECHA DE INICIO"  className="Btn-red Blue Fecha-input Validar-cupon mb-2  w-100 text-left">
                         </input>
@@ -284,7 +298,32 @@ class Modal_compra extends React.Component {
                                 href="/contacto">contacto</a> con nosotros </span>
                         </div>
                     </div>
+                    <div id="fase2_compra_regalo" class="modal-content Back-dblue ">
+                        <div class="modal-header pb-0 Titulo-cupon P-relative">
+                            <img src={cerrar_cupon} className="Cerrar-cupon" data-dismiss="modal" alt=""/>
+                            <h5 class="modal-title w-100  text-uppercase" id="exampleModalLongTitle">informa al afortunado</h5>
+                            <span className="w-100 text-center mt-2">
+                                La compra se ha realizado correctamente. Revisa tu correo electrónico, te hemos enviado un correo de confirmación.
 
+                                <br/> <br/> ¿Quieres informar al afortunado? Enviale un correo electrónico o descargate un vale para imprimirlo.  </span>
+
+                        </div>
+                        <div class="modal-body pt-0  d-flex  flex-wrap">
+
+
+                        </div>
+                        <div class="modal-footer Border-0  p-3 flex-column text-right">
+                            <div className="ml-auto w-100 d-flex">
+                                <button className="w-50 mr-1 Btn-red Blue Validar-cupon ml-auto mb-2">ENVIAR CORREO ELECTRÓNICO
+                                </button>
+
+                                <button className="w-50 mr-1 Btn-red Blue Validar-cupon ml-auto mb-2">DESCARGAR VALE REGALO
+                                </button>
+                            </div>
+                            <span id="problema_abajo" className="Problema-txt w-100">¿Algún problema? Ponte en <a
+                                href="/contacto">contacto</a> con nosotros </span>
+                        </div>
+                    </div>
 
                 </div>
             </div>

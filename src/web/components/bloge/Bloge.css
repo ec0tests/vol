@@ -1,3 +1,7 @@
+.Bloge{
+    overflow-x: hidden!important;
+    overflow-y: scroll!important;
+}
 .Desktop {
     display: block!important;
 }
@@ -339,7 +343,7 @@
     .w-25{
         width: 100%!important;
     }
-    .w-50{
+    .Bloge .w-50{
         width: 100%!important;
     }
     .w-75{

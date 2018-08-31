@@ -1,8 +1,15 @@
 
+body{
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
 p {
     font-size: 1.2rem;
     line-height: 1.4;
     font-family: Roboto;
+}
+.Ocultar_important{
+    display: none!important;
 }
 .Desktop {
     display: block!important;
@@ -82,6 +89,10 @@ p {
     cursor: pointer;
     background: none;
     border: 0;
+}
+
+.modal-body .Datepicker-inline{
+    text-align: center!important;
 }
 
 .Cross-adm {
