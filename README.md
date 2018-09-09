@@ -1,4 +1,4 @@
-﻿#Comentarios generales
+﻿# Comentarios generales
 
 Comentaré toda la estructura del proyecto pero sólo  las partes de código que considero difíciles de entender, ya que es la parte del frontend, no del back y tampoco tiene javascript muy complicado y enrevesado.
 Partes del proyecto 
@@ -18,11 +18,11 @@ Partes del proyecto
     • tingle.js https://robinparisi.github.io/tingle/
     • react-modal-video https://github.com/appleple/react-modal-video
        
-#Directorio  Public
+# Directorio  Public
 
 Dentro del directio public , el archivo importante que se encuentra es el archivo index.html que es donde están exportadas las librerías css que se cargan online  , como por ejemplo bootstrap 4. Tambíen está el favicon de la web
 
-#Directorio node_modules
+# Directorio node_modules
 
 Contiene todos los plugins instalados mediante npm que están documentados en la parte de código donde se utilizan. 
 Directorio  src
@@ -37,7 +37,7 @@ El archivo App.js es el archivo donde le doy una ruta  a cada componente de reac
 
 El archivo **App.css** contiene clases css comunes , que utilizo en diferentes componentes .
 
-#Parte web
+# Parte web
 
 La parte web contiene una carpeta images y la carpeta components. 
 
@@ -45,7 +45,7 @@ La parte web contiene una carpeta images y la carpeta components.
 
 •	**_Components:_**  contiene diferentes directorios, uno con cada componente principal , como por ejemplo la página de blog , la home , etc . Dentro de la carpeta components también hay una subcarpeta llamada comunes , que contiene los archivos de componentes comunes , que son utilizados en diferentes sitios.
 
-##DIRECTORIO COMUNES:
+## DIRECTORIO COMUNES:
 
 Cada componente tiene su archivo .js con el código javascript y el código html y su archivo .css con el código css.
 •	_**Arrow_top :**_  Es el componente que contiene el código de la flecha que aparece al hacer scroll en la pantalla y sirve para volver a top 0 al hacer click 
@@ -142,11 +142,11 @@ _Hide_menu():_ función que sirve para ocultar el menú de navegación de la web
  
 
 
-##Directorio bloge
+## Directorio bloge
 
 **_Bloge.js:_** se llama en la dirección /entrada_blog, dentro de este componente llamo al componente Card_experiencias.js que se repite más de una vez, para simular la respuesta de una bd en json , introduzco los datos en un json y luego voy rellenando el array array_card_experiencias, mediante un bucle for , recorriendo esta variable voy creando cada etiqueta <Card_experiencias> y rellenando sus atributos con los datos que contiene el json. 
 
-##Directorio blogp
+## Directorio blogp
 
 **_Entrada_blog.js:_** no tiene funcionalidad que explicar.
 
@@ -154,18 +154,18 @@ _Hide_menu():_ función que sirve para ocultar el menú de navegación de la web
 
 **_Blogp.js:_** contiene  la pagina /blog , dentro de este componente llamo al componente Entrada_blog que se repite más de una vez  , al llamar a este componente, para simular una respuesta json de una bd , hago lo mismo explicado en Bloge.js con el componente Card_experiencias.js
 
-##Directorio Contact
+## Directorio Contact
 
 **_Contact.js:_** contiene la pagina /contact , no tiene funcionalidad 
 
-##Directorio Faq
+## Directorio Faq
 
 **_Pregunta_faq.js:_** contiene el código para el desplegable de la pregunta , utilizando las propiedades css :after y :before para crear los iconos , añadiendo la funcionalidad de cambiar las clases de todos los elementos que contiene la clase accordion y panel mediante un bucle for .
  
 
 **_Faq.js:_** se ejecuta en /faq llama al componente pregunta_faq.js entre otros , al llamar a este componente, para simular una respuesta json de una bd , hago lo mismo explicado en Bloge.js con el componente Card_experiencias.js
 
-##Directorio Filtro
+## Directorio Filtro
 
 **_Filtro.js:_** se ejecuta en /filtro , la funcionalidad que  tiene es al llamar al componente Card_experiencias.js , al llamar a este componente, para simular una respuesta json de una bd , hago lo mismo explicado en Bloge.js con el componente Card_experiencias.js
 
@@ -173,7 +173,7 @@ _Hide_menu():_ función que sirve para ocultar el menú de navegación de la web
 
 
 
-##Directorio Home
+## Directorio Home
 
 _**Modal_cupon.js:**_ contiene el código del modal cupon de regalo. El modal está divido en diferentes divs que contiene cada fase del modal y mediantes las funciones fase1, fase2 , etc oculto una fase y muestro la siguiente .  La variable fecha_confirmada la utilizo para saber si he llamado a la función comprobar fecha. 
 
@@ -184,7 +184,7 @@ _**Modal_cupon.js:**_ contiene el código del modal cupon de regalo. El modal es
 **_Home.js:_** utilizo el plugin tingle.js para los modales de privacidad,cookies,etc. Inicializo en modal en una variable mediante new tingle.modal y le doy el contenido mediante .setContent() y mediante la función modal.open() abro el modal. Para darle el efecto parallax al  background de la primera sección de esta página utilizo el plugin react-parallax y llamo a su componente mediante la etiqueta <Parallax> pasándole como propiedad la imagen deseada.
 Para los tooltips de los iconos de la primera sección utilizo el tooltip de bootstrap y le pongo los siguientes atributos a las etiquetas que quiero que tengan tooltip data-toggle="tooltip" data-placement="top" title="Con niños".
 
-##Directorio Instalaciones
+## Directorio Instalaciones
 
 _**Instalacion.js:**_ contiene el código del div con cada instalación. En este componente utilizo el plugin react-image-lightbox para la galería de imágenes que se abre al clickar en cada instalación. En la constante images, introduzco la ruta de cada imagen que habrá en la galería , y luego la introduzco como atributo de la etiqueta <Lightbox>
 
@@ -194,11 +194,11 @@ _**Instalacion.js:**_ contiene el código del div con cada instalación. En este
 
 
 
-##Directorios Pack historico y Pack romantico
+## Directorios Pack historico y Pack romantico
 
 **_Pack_historico.js y Pack_romantico.js_**: la funcionalidad es la misma que en Filtro.js , solo cambian pequeñas cosas de html y css.
 
-##Directorio Pilotos
+## Directorio Pilotos
 
 **_Card_pilotos.js:**_ utilizo el plugin react-image-lightbox al igual que en Instalacion.js
  
@@ -208,7 +208,7 @@ _**Instalacion.js:**_ contiene el código del div con cada instalación. En este
  
 **_Pilotos.js:_** llamo al componente card_pilotos.js y al seo_text.js repetidas veces . Para simular una respuesta de una BD en json , utilizo el mismo método que utilizaba en Filtro.js con el componente Card_experiencias.js
 
-#Parte administrador
+# Parte administrador
 
 La parte del administración está hecha a partir de un template de materialpro , dentro del directorio admin están las carpetas assets , css , scss  y components . Las carpetas assets, css y scss contienen los archivos del template de materialpro. La carpeta components contiene diferentes directorios con cada uno de los componentes utilizados en el administrador. 
 Comentarios generales
@@ -222,7 +222,7 @@ Comentarios generales
 
 
 
-##Directorio Comunes
+## Directorio Comunes
 
 Contiene los componentes utilizados en diversos sitios del administrador. Dentro de esta carpeta, cada subcarpeta es un componente diferente.
 calendar
@@ -236,11 +236,11 @@ Documentación plugin : https://github.com/intljusticemission/react-big-calendar
 
  
  
-###Directorio card_image
+### Directorio card_image
 
 **_Card_image.js:_** contiene 1 modal , para preguntar si de verdad se desea eliminar el piloto, mediante los props que le paso cada vez que llamo al componente varío el html .
  
-###Directorio datatable
+### Directorio datatable
 
 Dentro de la carpeta 2 está el código, en la carpeta images hay iconos de la tabla .
 
@@ -255,42 +255,42 @@ Datatable.js: utilizo el plugin react-bootstrap-datatable . La clase ActionForma
 Documentacion plugin: http://allenfang.github.io/react-bootstrap-table/
 
  
-###Directorio dropzone
+### Directorio dropzone
 
 _**Dropzone_clase.js:**_ contiene el plugin react-dropzone. No tiene funcionalidad a parte de la del plugin. 
 
 Documentación plugin : https://github.com/react-dropzone/react-dropzone
 
-###Directorio header
+### Directorio header
 
 **_Header.js:_** no tiene funcionalidad.
  
  
-###Directorio menu
+### Directorio menu
 
 **_Menu.js:**_ utiliza el NavLink de react para el enrutamiento de cada elemento del menú.
 
  
  
-###Directorio pregunta_faq_admin
+### Directorio pregunta_faq_admin
 
 **_Pregunta_faq_admin.js:_** contiene un modal de borrar pregunta. No tiene funcionalidad que explicar.
  
-###Directorio react-select
+### Directorio react-select
 
 **_React_select.js:_** utilizo el plugin react-select, toda la funcionalidad que tiene el componente, es del plugin
 
 Documentación del plugin: https://github.com/JedWatson/react-select
 
  
-###Directorio text-editor
+### Directorio text-editor
 
 **_Text_editor.js:**_ utilizo el react-draft-wysiwyg, toda la funcionalidad que tiene el componente, es del plugin
 
 Documentación del plugin: https://github.com/jpuri/react-draft-wysiwyg
  
 
-##Directorio Dashboard
+## Directorio Dashboard
 
 Contiene la carpeta con los componentes utilizados en /admin/dashboard
 **_Modales.js:_** contiene los modales que se muestran al hacer click en los botones ver de los datatables de esta página. 
@@ -302,14 +302,14 @@ Documentación plugin: https://github.com/recharts/recharts
 
 **_Dashboard.js:_** contiene el componente al que se llama en /admin/dashboard , este componente utiliza el calendar.js y el datatable.js  , al llamarlos les paso como prop diferentes objetos json para simular una respuesta de la bd con los datos necesarios, como por ejemplo las columnas del datatable, la data del datable , o los eventos del calendar. Todas estas variables de datos están definidas al final del componente.
 
-##Directorio Site
+## Directorio Site
 
 Contiene la carpeta con los componentes utilizados en /admin/site
 Modales.js: contiene los modales de todo /admin/site , que luego llamare en Site.js
 Site.js: contiene el componente al que se llama en /admin/site , este componente utiliza el el datatable.js  , al llamarlo le paso como prop diferentes objetos json para simular una respuesta de la bd con los datos necesarios, como por ejemplo las columnas del datatable, la data del datable y las opciones que quiero que tenga, por ejemplo el exportar a csv. Todas estas variables de datos están definidas al final del componente.
 
 
-##Directorio Adm_vuelos
+## Directorio Adm_vuelos
 
 Contiene la carpeta con los componentes utilizados en /admin/vuelos
 **_Vuelo.js:**_ contiene los modales de borrar vuelo y de editar vuelo. El modal de editar vuelo utiliza el componente comun dropzone_clase.js. 
@@ -322,18 +322,18 @@ Contiene la carpeta con los componentes utilizados en /admin/vuelos
 **_Vuelo_adm.js:_** llamo al componente Vuelo.js repetidas veces dándole unas props diferentes. 
 
 
-##Directorio Adm_productos
+## Directorio Adm_productos
 
 Contiene la carpeta con los componentes utilizados en /admin/productos. Tiene la misma funcionalidad y estructura que adm_vuelos ,  aunque con diferentes necesidades. Por ejemplo, aquí el modal editar utiliza el componente calendar.js pero la estructura de los compoenntes son iguales a los de vuelos. La única funcionalidad que creo que merece la pena explicar son las funciones :
 •	_formatDate():_ sirve para cambiar de un formato de fecha a uno adecuado para el componente calendar.js
 
 •	_click_calendario():_  sirve que al clickar 1 vez en el calendario el input de fecha inicio se rellene con el valor clickado y al clickar la segunda vez el input de fecha final sea el que se rellene .
 
-##Directorio Adm_ofertas
+## Directorio Adm_ofertas
 
 Contiene la carpeta con los componentes utilizados en /admin/ofertas. Tiene la misma funcionalidad y estructura que adm_productos,  solo cambian los campos del modal. El tema del calendar es también es  igual que en el adm productos.
 
-##Directorio Adm_experiencias
+## Directorio Adm_experiencias
 
 Contiene la carpeta con los componentes utilizados en /admin/experiencias.
 **_Datatable_experiencias.js:_** es similar al componente Datatable.js solo que este contiene un botón de desvincular , para eliminar una fila del datatable. Esto lo hago mediante la clase createCustonDeleteButton  y le paso las propiedades necesarias
@@ -343,7 +343,7 @@ Contiene la carpeta con los componentes utilizados en /admin/experiencias.
 
 **_Experiencias _adm.js:_** Llama al componente experiencia.js repetidas veces. 
 
-##Directorio Adm_reservas
+## Directorio Adm_reservas
 
 Contiene la carpeta con los componentes utilizados en /admin/reservas.
 
@@ -354,7 +354,7 @@ Contiene la carpeta con los componentes utilizados en /admin/reservas.
 **_Row_lista.js:_** Contiene el html de las rows que se crean en el modal que aparece una vez se clicka en una experiencia desde el calendario. Contiene la función editar_desdeCalendario(), que cambia valores de elemento del modal utilizando jquery.
 
 
-##Directorio Adm_blog
+## Directorio Adm_blog
 
 Contiene la carpeta con los componentes utilizados en /admin/blog.
 

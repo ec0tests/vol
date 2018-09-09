@@ -2,33 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="689f3cfd-3ccb-444b-a116-11e30d561ec9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" afterPath="$PROJECT_DIR$/src/App.js" />
-      <change beforePath="$PROJECT_DIR$/src/admin/components/adm_productos/Producto_adm.css" afterPath="$PROJECT_DIR$/src/admin/components/adm_productos/Producto_adm.css" />
-      <change beforePath="$PROJECT_DIR$/src/admin/components/adm_productos/Producto_adm.js" afterPath="$PROJECT_DIR$/src/admin/components/adm_productos/Producto_adm.js" />
-      <change beforePath="$PROJECT_DIR$/src/admin/components/adm_vuelos/Vuelo.js" afterPath="$PROJECT_DIR$/src/admin/components/adm_vuelos/Vuelo.js" />
-      <change beforePath="$PROJECT_DIR$/src/admin/components/comunes/datatable/Datatable.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/admin/components/comunes/datatable/Datatable.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/admin/components/comunes/datatable/Personal.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/admin/components/comunes/morris/Morris.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/admin/components/comunes/usuario/Usuario.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/admin/components/comunes/usuario/Usuario.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/admin/components/dashboard/Cupon.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/admin/components/dashboard/Dashboard.js" afterPath="$PROJECT_DIR$/src/admin/components/dashboard/Dashboard.js" />
-      <change beforePath="$PROJECT_DIR$/src/admin/components/dashboard/Post_noeditable.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/web/components/bloge/Bloge.css" afterPath="$PROJECT_DIR$/src/web/components/bloge/Bloge.css" />
-      <change beforePath="$PROJECT_DIR$/src/web/components/bloge/Bloge.js" afterPath="$PROJECT_DIR$/src/web/components/bloge/Bloge.js" />
-      <change beforePath="$PROJECT_DIR$/src/web/components/blogp/Blogp.css" afterPath="$PROJECT_DIR$/src/web/components/blogp/Blogp.css" />
-      <change beforePath="$PROJECT_DIR$/src/web/components/categorias/Categorias.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/web/components/categorias/Categorias.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/web/components/comunes/Footer_patrocinadores.js" afterPath="$PROJECT_DIR$/src/web/components/comunes/Footer_patrocinadores.js" />
-      <change beforePath="$PROJECT_DIR$/src/web/components/comunes/Header.js" afterPath="$PROJECT_DIR$/src/web/components/comunes/Header.js" />
-      <change beforePath="$PROJECT_DIR$/src/web/components/faq/Pregunta_faq.css" afterPath="$PROJECT_DIR$/src/web/components/faq/Pregunta_faq.css" />
-      <change beforePath="$PROJECT_DIR$/src/web/components/faq/Pregunta_faq.js" afterPath="$PROJECT_DIR$/src/web/components/faq/Pregunta_faq.js" />
-      <change beforePath="$PROJECT_DIR$/src/web/components/ficha/Ficha.js" afterPath="$PROJECT_DIR$/src/web/components/ficha/Ficha.js" />
-      <change beforePath="$PROJECT_DIR$/src/web/components/filtro/Filtro.css" afterPath="$PROJECT_DIR$/src/web/components/filtro/Filtro.css" />
-      <change beforePath="$PROJECT_DIR$/src/web/components/home/Home.js" afterPath="$PROJECT_DIR$/src/web/components/home/Home.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -78,8 +52,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="145">
-                <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="19" selection-end-column="7" />
+              <first_editor relative-caret-position="294">
+                <caret line="272" column="1" lean-forward="true" selection-start-line="272" selection-start-column="1" selection-end-line="272" selection-end-column="1" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -557,12 +531,12 @@
       <workItem from="1536270922347" duration="3409000" />
       <workItem from="1536356773721" duration="4199000" />
       <workItem from="1536419244306" duration="11008000" />
-      <workItem from="1536497918922" duration="1808000" />
+      <workItem from="1536497918922" duration="2276000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="762980000" />
+    <option name="totallyTimeSpent" value="763448000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -983,8 +957,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="145">
-            <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="19" selection-end-column="7" />
+          <first_editor relative-caret-position="294">
+            <caret line="272" column="1" lean-forward="true" selection-start-line="272" selection-start-column="1" selection-end-line="272" selection-end-column="1" />
             <folding />
           </first_editor>
           <second_editor />
