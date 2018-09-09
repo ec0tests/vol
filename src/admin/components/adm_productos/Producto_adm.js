@@ -29,7 +29,7 @@ class Producto_adm extends React.Component {
     render() {
 
         return (
-            <div className="fix-header fix-sidebar card-no-border logo-center">
+            <div className="fix-header fix-sidebar card-no-border logo-center Productos-adm">
 
                 <div id="main-wrapper">
                     <Adm_header/>

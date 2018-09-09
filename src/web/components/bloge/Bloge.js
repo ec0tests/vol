@@ -288,6 +288,8 @@ const Bloge = () => (
             <Subetufoto/>
 
         </section>
+
+        {/*CODIGO FOOTER DE ESTE TIPO*/}
         <footer className="pt-5 d-none d-md-block Desktop">
             <div className="container-fluid px-1 px-md-5">
                 <div className="row">
@@ -413,6 +415,7 @@ const Bloge = () => (
             <Footer_patrocinadores/>
 
         </footer>
+        {/*  --   */}
         <footer className="Footer_estilohome  Tablet">
             <Footer_estilohome/>
             <Footer_patrocinadores/>

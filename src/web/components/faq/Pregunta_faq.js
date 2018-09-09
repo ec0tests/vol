@@ -9,20 +9,7 @@ import './Pregunta_faq.css'
 
 document.addEventListener("DOMContentLoaded", function (event) {
     var abierto = false;
-    $(".Click").click(function () {
-        if (!abierto) {
-            $(this).children(".Flecha-abajo").addClass("Ocultar");
-            $(this).children(".Flecha-arriba").removeClass("Ocultar");
 
-            abierto = true;
-        } else {
-
-            $(this).children(".Flecha-abajo").removeClass("Ocultar");
-            $(this).children(".Flecha-arriba").addClass("Ocultar");
-            abierto = false;
-
-        }
-    })
 
     var acc = document.getElementsByClassName("accordion");
     var panel = document.getElementsByClassName('panel');

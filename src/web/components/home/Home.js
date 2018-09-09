@@ -146,10 +146,11 @@ function openCookies() {
     modal_cookies.open();
 }
 class Home extends React.Component {
+    /*PONGO LA IMAGEN DE LA SECCION 1 EN UNA VARIABLE PARA PODER CAMBIARLA SEGUN SI EL DISPOSITIVO ES MÓVIL*/
     imagen=require('../../images/bkg-1.jpg');
 
         componentWillMount(){
-
+            /*SI ES UN DISPOSITIVO MOVIL CAMBIO LA IMAGEN DE LA PRIMERA SECCIÓN*/
             if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
                 this.imagen = require('../../images/bkg-1-movil.png');
             }
@@ -168,7 +169,7 @@ class Home extends React.Component {
                 <Parallax
                     blur={0}
                     bgImage={this.imagen}
-                    bgImageAlt="the cat"
+                    bgImageAlt="img"
                     strength={200}
                 >
                 <main id="Section1" className="Section1 ">

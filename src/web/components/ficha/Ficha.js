@@ -109,6 +109,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 class Ficha extends React.Component {
 
     componentDidMount() {
+        /*CODIGO PARA HACER LA TARJETA FIXED SI ES LA PANTALLA NO ES MOVIL*/
         if ($(window).width() > 768) {
             var pos_tarjeta;
             var altura_tarjeta = $('#nav').height();
@@ -118,9 +119,7 @@ class Ficha extends React.Component {
             var parado = false;
             $(document).scroll(function () {
                 pos_tarjeta = $('#nav').offset().top;
-                console.log("POSICION TARJETA: " + $('#nav').offset().top);
-                console.log("ALTURA TARJETA: " + $('#nav').height());
-                console.log("POSICION PARAR: " + $('#parar').offset().top);
+
 
                 if ((pos_tarjeta >= posicion_parar) && parado == false) {
                     $('#nav').removeClass('P-fixed');

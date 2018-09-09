@@ -1,6 +1,5 @@
 .Bloge{
     overflow-x: hidden!important;
-    overflow-y: scroll!important;
 }
 .Desktop {
     display: block!important;
@@ -242,7 +241,7 @@
     font-weight: 600;
     position: absolute;
     font-size: 1.5rem;
-    right: 28%;
+    right: 28%!important;
     top: 3rem!important;
     color: #ffffff;
     text-transform: uppercase;
@@ -292,7 +291,7 @@
         font-weight: 600;
         position: absolute;
         font-size: 1rem;
-        right: 28%;
+        right: 25%!important;
         top: 3rem!important;
         color: #ffffff;
         text-transform: uppercase;

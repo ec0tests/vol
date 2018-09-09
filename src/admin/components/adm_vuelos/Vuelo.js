@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 
 import TextEditor from '../comunes/text_editor/Text_editor'
-import Calendar from '../comunes/calendar/Calendar'
 import Dropzone from '../comunes/dropzone/Dropzone_clase'
 import './Vuelo.css';
 import $ from 'jquery';
@@ -349,34 +348,7 @@ class Vuelo extends React.Component {
 
     }
 
-    calendario_fechas = [
-        {
-            start: new Date('2018-05-10'),
-            end: new Date('2018-05-16'),
 
-            title: "Vuelo1"
-        }
-        ,
-        {
-            start: new Date('2018-06-10'),
-            end: new Date('2018-06-18'),
-
-            title: "Vuelo2"
-        },
-        {
-            start: new Date('2018-06-12'),
-            end: new Date('2018-06-22'),
-
-            title: "Vuelo3"
-        },
-        {
-            start: new Date('2018-06-16'),
-            end: new Date('2018-06-26'),
-
-            title: "Vuelo4"
-        },
-
-    ]
 
     formatDate(date) {
         var d = new Date(date),
@@ -390,18 +362,7 @@ class Vuelo extends React.Component {
         return [year, month, day].join('-');
     }
 
-    click_calendario(slotInfo) {
 
-        if (this.click == 1) {
-            $("#vuelo_fecha1").val(this.formatDate(slotInfo.start.toLocaleString('en-US', {timeZone: 'UTC'})))
-            this.click = 2;
-        } else {
-
-            $("#vuelo_fecha2").val(this.formatDate(slotInfo.start.toLocaleString('en-US', {timeZone: 'UTC'})))
-            this.click = 1;
-
-        }
-    }
 }
 
 

@@ -15,20 +15,9 @@ import colab_ico7 from '../../images/pantou.png';
 
 class Footer_patrocinadores extends React.Component {
     render() {
-        var settings = {
-            dots: false,
-            infinite: true,
-            arrows: false,
-            speed: 3000,
-            slidesToShow: 4,
-            slidesToScroll: 1,
-            swipeToSlide: true,
-            autoplay:true,
-            autoplaySpeed: 3000
-        };
+
         return (
 <div className="py-4 Bkg-darkBlue d-flex justify-content-center flex-wrap">
-                {/*<Slider {...settings}>*/}
                     <div className="Logos-patrocinadores d-flex justify-content-center">
                         <img src={colab_ico1} className="img-fluid" alt=""/>
                     </div>

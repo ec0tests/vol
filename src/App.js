@@ -15,8 +15,8 @@ import Bloge from './web/components/bloge/Bloge';
 import Faq from './web/components/faq/Faq';
 import Pack_romantico from './web/components/pack_romantico/Pack_romantico';
 import Filtro from './web/components/filtro/Filtro';
-import Pack_historico from "./web/components/pack_historico/Pack_historico";
-import Categorias from "./web/components/categorias/Categorias";
+import Pack_historico from "./web/components/pack_historico/Pack_historico";/*
+import Categorias from "./web/components/categorias/Categorias";*/
 import Ficha from "./web/components/ficha/Ficha";
 import Contact from "./web/components/contact/Contact";
 
@@ -231,11 +231,11 @@ class App extends Component {
                             return (<Pack_historico/>);
                         }
                     }/>
-                    <Route path="/categorias" exact strict render={
+                    {/*<Route path="/categorias" exact strict render={
                         () => {
                             return (<Categorias/>);
                         }
-                    }/>
+                    }/>*/}
 
                     <Route path="/ficha" exact strict render={
                         () => {

@@ -37,7 +37,7 @@ p.accordion {
     margin-left: 5px;
     position: absolute;
     left: -3rem;
-    top: -0.1rem;
+    top: -0.6rem;
 }
 
 /* Unicode character for "minus" sign (-) */
@@ -85,7 +85,7 @@ div.panel.show {
         margin-left: 5px;
         position: absolute;
         left: -3rem;
-        top: -0.1rem;
+        top: -0.6rem;
         display: none;
     }
 

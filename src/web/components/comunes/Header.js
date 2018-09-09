@@ -54,12 +54,16 @@ $(document).on("click", function (e) {
         hide_megamenu();
     }
 });
+
+
 $(document).ready(function () {
+    /*CAMBIA EL LOGO SEGÚN EL TAMAÑO DE PANTALLA*/
     if ($(window).width() <= 768) {
         $('#logo').attr('src', logo);
 
     }
     ;
+    /*CODIGO PARA HACER EL HEADER FIXED AL HACER SCROLL*/
     $(window).scroll(function(){
         if ($(window).width() > 768) {
 
@@ -76,6 +80,8 @@ $(document).ready(function () {
     });
 })
 
+
+/*ACORDEON PARA LOS MENUS MOVIL*/
 document.addEventListener("DOMContentLoaded", function (event) {
 
 
@@ -130,6 +136,7 @@ const Header = ({logo}) => (
                 </div>
             </div>
         </div>
+        {/*MENU DESkTOP*/}
         <div className="col-12 Megamenu-div P-relative">
             <button className="menu-icon w-auto Megamenu-cruz"  onClick={hide_megamenu}><i
                 className="fas fa-times text-white"></i></button>
@@ -233,6 +240,8 @@ const Header = ({logo}) => (
             </div>
         </div>
 
+
+            {/*MENU MOVIL*/}
         <div className="col-12 Megamenu-div-movil">
             <div className="row">
                 <span className="Cruz text-white" onClick={hide_megamenu_movil}>x</span>
